@@ -15,8 +15,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".abriprodlist"
-            android:label="Productos Abigail05"></activity>
+        <activity
+            android:name=".abriprodlist"
+            android:label="Productos Abigail05" />
+        <activity android:name=".combo1"
+            android:label="@string/txtcombo"></activity>
     </application>
 
 </manifest>

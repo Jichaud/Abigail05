@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">Abigail05</string>
     <string name="btnver">ver+</string>
+    <string name="btnverprecio">ver precio y comprar</string>
+    <string name="verxprod">producto</string>
+    <string name="verhome">home</string>
+    <string name="verxmarca">marca</string>
 
     AM
     <string name="AMprodabi">Productos Abigail05</string>
@@ -16,6 +20,9 @@
     <string name="txtcombo2desc">Almohadón, Almohada de Cuna, Cuellito y Nidito de Contención. 12 colores disponibles</string>
     <string name="txtcombo3desc">Almohadón Grande y Nidito de Contención</string>
     <string name="txtcombo4desc">+ Manta con Gorrito de Polar Personalizada</string>
+
+    Combo1
+    <string name="stock">Consultá stock antes de comprar</string>
 
 
 </resources>

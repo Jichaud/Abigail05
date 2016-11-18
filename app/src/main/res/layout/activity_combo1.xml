@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_combo1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="8dp"
+    tools:context="com.abigail05.combo1">
+
+    <Button
+        android:id="@+id/btnhome"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:text="@string/verhome"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btnvprod"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/btnhome"
+        android:text="@string/verxprod"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btnvmarca"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/btnvprod"
+        android:text="@string/verxmarca"
+        android:textAllCaps="false"/>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/btnhome">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="2dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp">
+
+                    <ImageView
+                        android:id="@+id/combo1imgnaranja"
+                        android:layout_width="wrap_content"
+                        android:layout_height="280dp"
+                        android:src="@drawable/combo1naranja"
+                        android:visibility="gone" />
+
+                    <ImageView
+                        android:id="@+id/combo1imglila"
+                        android:layout_width="wrap_content"
+                        android:layout_height="280dp"
+                        android:src="@drawable/combo1lila"
+                        android:visibility="gone" />
+
+                    <ImageView
+                        android:id="@+id/combo1img"
+                        android:layout_width="match_parent"
+                        android:layout_height="280dp"
+                        android:src="@drawable/combo1" />
+
+                    <TextView
+                        android:id="@+id/txtcolores"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/combo1img"
+                        android:text="Clic sobre los colores"
+                        android:textAlignment="center"
+                        android:textSize="16sp" />
+
+                    <ImageButton
+                        android:id="@+id/colorrojo"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_below="@id/txtcolores"
+                        android:layout_marginLeft="60dp"
+                        android:onClick="rojo"
+                        android:src="@drawable/colorcombo1rojo" />
+
+                    <ImageButton
+                        android:id="@+id/colornaranja"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_below="@id/txtcolores"
+                        android:layout_marginLeft="130dp"
+                        android:onClick="naranja"
+                        android:src="@drawable/colorcombo1naranja" />
+
+                    <ImageButton
+                        android:id="@+id/colorlila"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_below="@id/txtcolores"
+                        android:layout_marginLeft="200dp"
+                        android:src="@drawable/colorcombo1lila" />
+
+                    <View
+                        android:id="@+id/view1"
+                        style="@style/Divider"
+                        android:layout_below="@id/colorlila" />
+
+                    <TextView
+                        android:id="@+id/txtcombo1principal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/view1"
+                        android:fontFamily="sans-serif-light"
+                        android:text="@string/txtcombo"
+                        android:textAlignment="center"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:id="@+id/combo1txtdesc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/txtcombo1principal"
+                        android:paddingTop="10dp"
+                        android:text="@string/txtcombo1desc"
+                        android:textAlignment="center"
+                        android:textColor="@color/grey"
+                        android:textSize="20sp" />
+
+                    <View
+                        android:id="@+id/view2"
+                        style="@style/Divider"
+                        android:layout_below="@id/combo1txtdesc" />
+
+                    <Button
+                        android:id="@+id/btnconsulta"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/view2"
+                        android:backgroundTint="#FFFF"
+                        android:paddingTop="10dp"
+                        android:text="@string/stock"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/btncompracombo1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/btnconsulta"
+                        android:backgroundTint="@color/colorPrimary"
+                        android:fontFamily="sans-serif-thin"
+                        android:text="@string/btnverprecio"
+                        android:textAllCaps="false"
+                        android:textSize="16sp" />
+
+
+                </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
