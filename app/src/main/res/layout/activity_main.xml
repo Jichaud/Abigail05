@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
@@ -10,8 +11,208 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.abigail05.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/abigail05"/>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardCornerRadius="2dp"
+            app:cardElevation="4dp">
+            
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                
+                <ImageView
+                    android:id="@+id/imgAbi"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:paddingLeft="10dp"
+                    android:src="@drawable/abigail05"/>
+
+                <TextView
+                    android:id="@+id/txtprodabi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/imgAbi"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/AMprodabi"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/txtconoce"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtprodabi"
+                    android:layout_toRightOf="@id/imgAbi"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="2dp"
+                    android:text="@string/AMtxtdesc"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/abibtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignStart="@+id/txtconoce"
+                    android:layout_marginStart="115dp"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="15dp" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardCornerRadius="2dp"
+            app:cardElevation="4dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imgprod"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:paddingTop="10dp"
+                    android:src="@drawable/shopping" />
+
+                <TextView
+                    android:id="@+id/txtprodxprod"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/imgprod"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingStart="10dp"
+                    android:paddingTop="5dp"
+                    android:text="@string/AMbuscaprod"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtvarios"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtprodxprod"
+                    android:layout_toEndOf="@id/imgprod"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="2dp"
+                    android:text="@string/AMtxtdescxprod"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/xprodbtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignStart="@+id/txtvarios"
+                    android:layout_marginStart="115dp"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="15dp" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardCornerRadius="2dp"
+            app:cardElevation="4dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imgmarca"
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:paddingTop="10dp"
+                    android:src="@drawable/marca" />
+
+                <TextView
+                    android:id="@+id/txtprodxmarca"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/imgmarca"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingStart="10dp"
+                    android:paddingTop="5dp"
+                    android:text="@string/AMbuscamarca"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtmarca"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtprodxmarca"
+                    android:layout_toEndOf="@id/imgmarca"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="1dp"
+                    android:text="@string/AMtxtdescxmarca"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/marcabtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignStart="@+id/txtmarca"
+                    android:layout_marginStart="115dp"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
 </RelativeLayout>
