@@ -18,8 +18,11 @@
         <activity
             android:name=".abriprodlist"
             android:label="Productos Abigail05" />
-        <activity android:name=".combo1"
-            android:label="@string/txtcombo"></activity>
+        <activity
+            android:name=".combo1"
+            android:label="Productos Abigail05" />
+        <activity android:name=".webview"
+            android:label="Precio y forma de pago"></activity>
     </application>
 
 </manifest>
