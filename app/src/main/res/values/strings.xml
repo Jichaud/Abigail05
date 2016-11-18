@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Abigail05</string>
     <string name="btnver">ver+</string>
-    
+
     AM
     <string name="AMprodabi">Productos Abigail05</string>
     <string name="AMtxtdesc">Conocé nuestros productos</string>
@@ -9,5 +9,5 @@
     <string name="AMtxtdescxprod">Almohadones, mamaderas, chupetes y mucho más...</string>
     <string name="AMbuscamarca">Buscá por marca</string>
     <string name="AMtxtdescxmarca">Abigail05, Avent, Chicco y mucho más...</string>
-    
+
 </resources>
