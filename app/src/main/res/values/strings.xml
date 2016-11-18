@@ -10,4 +10,12 @@
     <string name="AMbuscamarca">Buscá por marca</string>
     <string name="AMtxtdescxmarca">Abigail05, Avent, Chicco y mucho más...</string>
 
+    Productos Abigail05
+    <string name="txtcombo">Combo Almohadón para Amamantar</string>
+    <string name="txtcombo1desc">Almohadón, Almohada de Cuna y Cuellito. 12 Colores Disponibles</string>
+    <string name="txtcombo2desc">Almohadón, Almohada de Cuna, Cuellito y Nidito de Contención. 12 colores disponibles</string>
+    <string name="txtcombo3desc">Almohadón Grande y Nidito de Contención</string>
+    <string name="txtcombo4desc">+ Manta con Gorrito de Polar Personalizada</string>
+
+
 </resources>
