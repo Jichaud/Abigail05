@@ -7,8 +7,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="16dp"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
     android:paddingTop="8dp"
     tools:context="com.abigail05.combo3">
 
@@ -61,7 +61,7 @@
                 android:layout_marginBottom="4dp"
                 android:layout_marginTop="2dp"
                 app:cardCornerRadius="2dp"
-                app:cardElevation="2dp">
+                app:cardElevation="4dp">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -83,36 +83,11 @@
                         android:textAlignment="center"
                         android:textSize="16sp" />
 
-                    <ImageButton
-                        android:id="@+id/colorrojo"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:layout_below="@id/txtcolores"
-                        android:layout_marginLeft="65dp"
-                        android:onClick="rojo"
-                        android:src="@drawable/colorcombo1rojo" />
-
-                    <ImageButton
-                        android:id="@+id/colornaranja"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:layout_below="@id/txtcolores"
-                        android:layout_centerInParent="true"
-                        android:onClick="naranja"
-                        android:src="@drawable/colorcombo1naranja" />
-
-                    <ImageButton
-                        android:id="@+id/colorlila"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:layout_below="@id/txtcolores"
-                        android:layout_marginLeft="200dp"
-                        android:src="@drawable/colorcombo1lila" />
 
                     <View
                         android:id="@+id/view1"
                         style="@style/Divider"
-                        android:layout_below="@id/colorlila" />
+                        android:layout_below="@id/txtcolores" />
 
                     <TextView
                         android:id="@+id/txtcombo1principal"
