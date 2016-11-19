@@ -9,6 +9,8 @@ import android.widget.Button;
 public class abriprodlist extends AppCompatActivity {
 
     Button vercombo1;
+    Button vercombo2;
+    Button vercombo3;
     Button home;
     Button producto;
     Button marca;
@@ -27,6 +29,24 @@ public class abriprodlist extends AppCompatActivity {
             public void onClick(View view) {
                 Intent vercombo1 = new Intent(abriprodlist.this,combo1.class);
                 startActivity(vercombo1);
+            }
+        });
+
+        vercombo2 = (Button)findViewById(R.id.btncombo2);
+        vercombo2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent vercombo2 = new Intent(abriprodlist.this,combo2.class);
+                startActivity(vercombo2);
+            }
+        });
+
+        vercombo3 = (Button)findViewById(R.id.btncombo3);
+        vercombo3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent vercombo3 = new Intent(abriprodlist.this,combo3.class);
+                startActivity(vercombo3);
             }
         });
 

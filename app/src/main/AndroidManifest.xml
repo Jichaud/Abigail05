@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.abigail05">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/mimapabigail05"
@@ -24,9 +26,12 @@
         <activity
             android:name=".webview"
             android:label="Precio y forma de pago" />
-        <activity android:name=".combo2"
-            android:label="Productos Abigail05">
-        </activity>
+        <activity
+            android:name=".combo2"
+            android:label="Productos Abigail05" />
+        <activity android:name=".combo3"
+            android:label="Productos Abigail05" />
+
     </application>
 
 </manifest>
