@@ -21,8 +21,12 @@
         <activity
             android:name=".combo1"
             android:label="Productos Abigail05" />
-        <activity android:name=".webview"
-            android:label="Precio y forma de pago"></activity>
+        <activity
+            android:name=".webview"
+            android:label="Precio y forma de pago" />
+        <activity android:name=".combo2"
+            android:label="Productos Abigail05">
+        </activity>
     </application>
 
 </manifest>
