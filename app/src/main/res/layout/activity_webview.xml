@@ -4,27 +4,14 @@
     android:id="@+id/activity_webview"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="8dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp"
     tools:context="com.abigail05.webview">
 
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_marginBottom="10dp"
-        android:layout_height="10dp">
-        <ProgressBar
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-    </FrameLayout>
-
-    <View
-        android:id="@+id/view1"
-        style="@style/Divider"
-        android:layout_below="@id/btncombo1" />
-
     <WebView
+        android:id="@+id/webview"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
