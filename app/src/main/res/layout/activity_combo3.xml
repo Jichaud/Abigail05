@@ -127,6 +127,7 @@
                         android:layout_alignParentLeft="true"
                         android:layout_below="@id/txtcolores"
                         android:onClick="modelo1"
+                        android:textSize="18sp"
                         android:text="@string/modelo1"
                         android:textColor="@color/grey"/>
 
@@ -137,6 +138,7 @@
                         android:layout_below="@id/txtcolores"
                         android:layout_centerHorizontal="true"
                         android:onClick="modelo2"
+                        android:textSize="18sp"
                         android:text="@string/modelo2"
                         android:textColor="@color/grey"/>
 
@@ -147,6 +149,7 @@
                         android:layout_alignParentRight="true"
                         android:layout_below="@id/txtcolores"
                         android:onClick="modelo3"
+                        android:textSize="18sp"
                         android:text="@string/modelo3"
                         android:textColor="@color/grey"/>
 
@@ -158,6 +161,7 @@
                         android:layout_below="@id/modelo1"
                         android:layout_marginTop="20dp"
                         android:onClick="modelo4"
+                        android:textSize="18sp"
                         android:text="@string/modelo4"
                         android:textColor="@color/grey"/>
 
@@ -169,6 +173,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="20dp"
                         android:onClick="modelo5"
+                        android:textSize="18sp"
                         android:text="@string/modelo5"
                         android:textColor="@color/grey"/>
 
@@ -180,6 +185,7 @@
                         android:layout_below="@id/modelo3"
                         android:layout_marginTop="20dp"
                         android:onClick="modelo6"
+                        android:textSize="18sp"
                         android:text="@string/modelo6"
                         android:textColor="@color/grey"/>
 

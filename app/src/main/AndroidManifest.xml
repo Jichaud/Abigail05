@@ -18,27 +18,32 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".abriprodlist"
-            android:label="Abigail05 | Alamohadones"
-            android:parentActivityName=".MainActivity"/>
+            android:name=".almohadones"
+            android:label="Abigail05 | Almohadones"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".combo1"
-            android:label="Abigail05 | Alamohadones"
-            android:parentActivityName=".abriprodlist"/>
+            android:label="Abigail05 | Almohadones"
+            android:parentActivityName=".almohadones" />
         <activity
             android:name=".webview"
             android:label="Precio y forma de pago"
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".combo2"
-            android:label="Abigail05 | Alamohadones"
-            android:parentActivityName=".abriprodlist"/>
+            android:label="Abigail05 | Almohadones"
+            android:parentActivityName=".almohadones" />
         <activity
             android:name=".combo3"
-            android:label="Abigail05 | Alamohadones"
-            android:parentActivityName=".abriprodlist"/>
-        <activity android:name=".niditos"
-            android:label="Abigail05 | Niditos y cuellitos" />
+            android:label="Abigail05 | Almohadones"
+            android:parentActivityName=".almohadones" />
+        <activity android:name=".combo4"
+            android:label="Abigail05 | Almohadones"
+            android:parentActivityName=".almohadones"/>
+            <activity
+            android:name=".niditos"
+            android:label="Abigail05 | Niditos y cuellitos">
+        </activity>
     </application>
 
 </manifest>

@@ -9,7 +9,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="2dp"
-    tools:context="com.abigail05.abriprodlist">
+    tools:context="com.abigail05.almohadones">
 
     <Button
         android:id="@+id/btnhome"
@@ -90,6 +90,13 @@
         android:text="@string/btnver"
         android:textAllCaps="false"
         android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/combo1txtdesc"
+        android:id="@+id/precio1"/>
 
     <View
         android:id="@+id/view1"
