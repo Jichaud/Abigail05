@@ -22,11 +22,11 @@ public class combo4 extends AppCompatActivity {
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        comprarcombo4 = (Button)findViewById(R.id.btncompracombo1);
-        home = (Button)findViewById(R.id.btnhome);
+
         producto = (Button)findViewById(R.id.btnvprod);
         marca = (Button)findViewById(R.id.btnvmarca);
 
+        home = (Button)findViewById(R.id.btnhome);
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -35,12 +35,13 @@ public class combo4 extends AppCompatActivity {
             }
         });
 
+        comprarcombo4 = (Button)findViewById(R.id.btncompracombo4);
         comprarcombo4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent comprarcombo1 = new Intent(combo4.this, webview.class);
-                comprarcombo1.putExtra("string", urlcombo);
-                startActivity(comprarcombo1);
+                Intent comprarcombo4 = new Intent(combo4.this, webview.class);
+                comprarcombo4.putExtra("string", urlcombo);
+                startActivity(comprarcombo4);
             }
         });
 

@@ -11,6 +11,7 @@ public class almohadones extends AppCompatActivity {
     Button vercombo1;
     Button vercombo2;
     Button vercombo3;
+    Button vercombo4;
     Button home;
     Button producto;
     Button marca;
@@ -23,7 +24,6 @@ public class almohadones extends AppCompatActivity {
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        home = (Button) findViewById(R.id.btnhome);
         producto = (Button) findViewById(R.id.btnvprod);
         marca = (Button) findViewById(R.id.btnvmarca);
         vercombo1 = (Button) findViewById(R.id.btncombo1);
@@ -53,6 +53,16 @@ public class almohadones extends AppCompatActivity {
             }
         });
 
+        vercombo4 = (Button) findViewById(R.id.btncombo4);
+        vercombo4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent vercombo4 = new Intent(almohadones.this, combo4.class);
+                startActivity(vercombo4);
+            }
+        });
+
+        home = (Button) findViewById(R.id.btnhome);
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
