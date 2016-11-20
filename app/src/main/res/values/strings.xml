@@ -46,4 +46,9 @@
     <string name="txtCuellitoPrincipaldesc">Cuellito de descanso cervical para bebé. Varios colores y diseños.</string>
     <string name="txtCuellitoPrincipalAdulto">Cuello de descanso cervical para adulto</string>
     <string name="txtCuellitoPrincipaldescAdulto">Cuello de descanso cervical para adulto. Varios colores y diseños.</string>
+
+    Colchón
+    <string name="txtColchonPrincipal">Colchoncito cubre cochecito más cuellito cervical</string>
+    <string name="txtColchonPrincipaldesc">Colchoncito cubre cochecito más cuellito cervical. Varios colores y diseños. Consultanos.</string>
+
 </resources>

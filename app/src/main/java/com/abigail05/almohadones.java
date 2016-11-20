@@ -23,6 +23,7 @@ public class almohadones extends AppCompatActivity {
 
         producto = (Button) findViewById(R.id.btnvprod);
         marca = (Button) findViewById(R.id.btnvmarca);
+
         vercombo1 = (Button) findViewById(R.id.btncombo1);
         vercombo1.setOnClickListener(new View.OnClickListener() {
             @Override

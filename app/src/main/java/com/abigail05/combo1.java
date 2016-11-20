@@ -3,7 +3,6 @@ package com.abigail05;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
@@ -28,14 +27,10 @@ public class combo1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_combo1);
 
-        btnrojo = (ImageButton)findViewById(R.id.colorrojo);
-        btnnaranja = (ImageButton)findViewById(R.id.colornaranja);
-        btnlila = (ImageButton)findViewById(R.id.colorlila);
-        comprarcombo1 = (Button)findViewById(R.id.btncompracombo1);
-        home = (Button)findViewById(R.id.btnhome);
         producto = (Button)findViewById(R.id.btnvprod);
         marca = (Button)findViewById(R.id.btnvmarca);
 
+        home = (Button)findViewById(R.id.btnhome);
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -44,6 +39,7 @@ public class combo1 extends AppCompatActivity {
             }
         });
 
+        comprarcombo1 = (Button)findViewById(R.id.btncompracombo1);
         comprarcombo1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -55,7 +51,7 @@ public class combo1 extends AppCompatActivity {
 
 
         rojo = (ImageView)findViewById(R.id.combo1img);
-
+        btnrojo = (ImageButton)findViewById(R.id.colorrojo);
         btnrojo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -66,7 +62,7 @@ public class combo1 extends AppCompatActivity {
         });
 
         naranja = (ImageView)findViewById(R.id.combo1imgnaranja);
-
+        btnnaranja = (ImageButton)findViewById(R.id.colornaranja);
         btnnaranja.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -77,7 +73,7 @@ public class combo1 extends AppCompatActivity {
         });
 
         lila = (ImageView)findViewById(R.id.combo1imglila);
-
+        btnlila = (ImageButton)findViewById(R.id.colorlila);
         btnlila.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

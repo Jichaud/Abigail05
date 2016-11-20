@@ -49,15 +49,22 @@
             android:name=".niditos"
             android:label="Abigail05 | Niditos y cuellitos"
             android:parentActivityName=".abriprodlist" />
-        <activity android:name=".nidito1"
+        <activity
+            android:name=".nidito1"
             android:label="Abigail05 | Nidito"
-            android:parentActivityName=".niditos"/>
-        <activity android:name=".nidito2"
+            android:parentActivityName=".niditos" />
+        <activity
+            android:name=".nidito2"
             android:label="Abigail05 | Cuellito bebé"
-            android:parentActivityName=".niditos"/>
-        <activity android:name=".nidito3"
+            android:parentActivityName=".niditos" />
+        <activity
+            android:name=".nidito3"
             android:label="Abigail 05 | Cuello adulto"
-            android:parentActivityName=".niditos">
+            android:parentActivityName=".niditos"/>
+        <activity android:name=".colchon1"
+            android:label="Abigail05 | Colchoncitos"
+            android:parentActivityName=".abriprodlist">
+
         </activity>
     </application>
 

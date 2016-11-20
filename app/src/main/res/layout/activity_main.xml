@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -78,7 +79,6 @@
                     android:textAllCaps="false"
                     android:textSize="16sp" />
 
-
             </RelativeLayout>
 
         </android.support.v7.widget.CardView>
@@ -143,7 +143,6 @@
                     android:textAllCaps="false"
                     android:textSize="16sp" />
 
-
             </RelativeLayout>
 
         </android.support.v7.widget.CardView>
@@ -207,7 +206,6 @@
                     android:text="@string/btnver"
                     android:textAllCaps="false"
                     android:textSize="16sp" />
-
 
             </RelativeLayout>
 

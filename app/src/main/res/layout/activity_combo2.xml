@@ -68,7 +68,6 @@
                     android:layout_height="match_parent"
                     android:layout_margin="10dp">
 
-
                     <ImageView
                         android:id="@+id/combo1img"
                         android:layout_width="wrap_content"
@@ -81,7 +80,6 @@
                         android:id="@+id/view1"
                         style="@style/Divider"
                         android:layout_below="@id/combo1img" />
-
 
                     <TextView
                         android:id="@+id/txtcombo1principal"
@@ -103,6 +101,7 @@
                         android:text="@string/txtcombo2desc"
                         android:textAlignment="center"
                         android:textSize="20sp" />
+
                     <View
                         android:id="@+id/view2"
                         style="@style/Divider"

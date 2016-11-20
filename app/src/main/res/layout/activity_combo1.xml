@@ -34,8 +34,8 @@
         android:id="@+id/btnvmarca"
         style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="wrap_content"
-        android:layout_alignParentRight="true"
         android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
         android:text="@string/verxmarca"
         android:textAllCaps="false"/>
 
@@ -52,14 +52,13 @@
             android:paddingLeft="10dp"
             android:paddingRight="10dp">
 
-
             <android.support.v7.widget.CardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginBottom="4dp"
-                android:layout_marginRight="10dp"
                 android:layout_marginLeft="4dp"
+                android:layout_marginRight="10dp"
                 android:layout_marginTop="10dp"
                 app:cardCornerRadius="2dp"
                 app:cardElevation="4dp">
@@ -102,9 +101,9 @@
                         android:id="@+id/colorrojo"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:layout_marginLeft="4dp"
-                        android:layout_below="@id/txtcolores"
                         android:layout_alignParentLeft="true"
+                        android:layout_below="@id/txtcolores"
+                        android:layout_marginLeft="4dp"
                         android:onClick="rojo"
                         android:src="@drawable/colorcombo1rojo" />
 
@@ -120,11 +119,10 @@
                     <ImageButton
                         android:id="@+id/colorlila"
                         android:layout_width="50dp"
-                        android:layout_centerHorizontal="true"
                         android:layout_height="50dp"
                         android:layout_below="@id/txtcolores"
+                        android:layout_centerHorizontal="true"
                         android:src="@drawable/colorcombo1lila" />
-
 
                     <View
                         android:id="@+id/view1"
@@ -180,7 +178,6 @@
                         android:text="@string/btnverprecio"
                         android:textAllCaps="false"
                         android:textSize="16sp" />
-
 
                 </RelativeLayout>
 

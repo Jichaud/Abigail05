@@ -3,14 +3,14 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_combo1"
+    android:id="@+id/activity_colchon1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="16dp"
-    android:paddingLeft="8dp"
-    android:paddingRight="8dp"
-    android:paddingTop="8dp"
-    tools:context="com.abigail05.combo3">
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.abigail05.colchon1">
 
     <Button
         android:id="@+id/btnhome"
@@ -69,51 +69,45 @@
                     android:layout_margin="10dp">
 
                     <ImageView
-                        android:id="@+id/combomodelo2"
+                        android:id="@+id/colchon5"
                         android:layout_width="match_parent"
                         android:layout_height="280dp"
-                        android:src="@drawable/combo32"
+                        android:src="@drawable/colchon5"
                         android:visibility="gone"/>
 
                     <ImageView
-                        android:id="@+id/combomodelo3"
+                        android:id="@+id/colchon4"
                         android:layout_width="match_parent"
                         android:layout_height="280dp"
-                        android:src="@drawable/combo33"
+                        android:src="@drawable/colchon4"
                         android:visibility="gone"/>
 
                     <ImageView
-                        android:id="@+id/combomodelo4"
+                        android:id="@+id/colchon3"
                         android:layout_width="match_parent"
                         android:layout_height="280dp"
-                        android:src="@drawable/combo34"
+                        android:src="@drawable/colchon3"
                         android:visibility="gone"/>
 
                     <ImageView
-                        android:id="@+id/combomodelo5"
+                        android:id="@+id/colchon2"
                         android:layout_width="match_parent"
                         android:layout_height="280dp"
-                        android:src="@drawable/combo35"
+                        android:src="@drawable/colchon2"
                         android:visibility="gone"/>
 
                     <ImageView
-                        android:id="@+id/combomodelo6"
+                        android:id="@+id/colchon1"
                         android:layout_width="match_parent"
                         android:layout_height="280dp"
-                        android:src="@drawable/combo36"
-                        android:visibility="gone"/>
-
-                    <ImageView
-                        android:id="@+id/combomodelo1"
-                        android:layout_width="match_parent"
-                        android:layout_height="280dp"
-                        android:src="@drawable/combo3" />
+                        android:src="@drawable/colchon1" />
 
                     <TextView
                         android:id="@+id/txtcolores"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_below="@id/combomodelo1"
+                        android:layout_below="@id/colchon1"
+                        android:layout_marginTop="10dp"
                         android:text="@string/txtcolores"
                         android:textAlignment="center"
                         android:textSize="16sp" />
@@ -175,40 +169,28 @@
                         android:textColor="@color/grey"
                         android:textSize="18sp"/>
 
-                    <TextView
-                        android:id="@+id/modelo6"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentRight="true"
-                        android:layout_below="@id/modelo3"
-                        android:layout_marginTop="20dp"
-                        android:onClick="modelo6"
-                        android:text="@string/modelo6"
-                        android:textColor="@color/grey"
-                        android:textSize="18sp"/>
-
                     <View
                         android:id="@+id/view1"
                         style="@style/Divider"
                         android:layout_below="@id/modelo4" />
 
                     <TextView
-                        android:id="@+id/txtcombo1principal"
+                        android:id="@+id/txtcolchon1principal"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@id/view1"
                         android:fontFamily="sans-serif-light"
-                        android:text="@string/txtcombo"
+                        android:text="@string/txtColchonPrincipal"
                         android:textAlignment="center"
                         android:textSize="25sp" />
 
                     <TextView
-                        android:id="@+id/combo1txtdesc"
+                        android:id="@+id/colchon1txtdesc"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_below="@id/txtcombo1principal"
+                        android:layout_below="@id/txtcolchon1principal"
                         android:paddingTop="10dp"
-                        android:text="@string/txtcombo3desc"
+                        android:text="@string/txtColchonPrincipaldesc"
                         android:textAlignment="center"
                         android:textColor="@color/grey"
                         android:textSize="20sp" />
@@ -216,7 +198,7 @@
                     <View
                         android:id="@+id/view2"
                         style="@style/Divider"
-                        android:layout_below="@id/combo1txtdesc" />
+                        android:layout_below="@id/colchon1txtdesc" />
 
                     <Button
                         android:id="@+id/btnconsulta"
@@ -232,7 +214,7 @@
                         android:textStyle="bold" />
 
                     <Button
-                        android:id="@+id/btncompracombo3"
+                        android:id="@+id/btncolchon1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@id/btnconsulta"
