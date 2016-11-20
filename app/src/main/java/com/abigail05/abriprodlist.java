@@ -20,9 +20,6 @@ public class abriprodlist extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_abriprodlist);
 
-        getSupportActionBar().setDisplayShowHomeEnabled(true);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
         home = (Button)findViewById(R.id.btnhome);
         producto = (Button)findViewById(R.id.btnvprod);
         marca = (Button)findViewById(R.id.btnvmarca);

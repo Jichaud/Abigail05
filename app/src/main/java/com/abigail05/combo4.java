@@ -19,10 +19,6 @@ public class combo4 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_combo4);
 
-        getSupportActionBar().setDisplayShowHomeEnabled(true);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
-
         producto = (Button)findViewById(R.id.btnvprod);
         marca = (Button)findViewById(R.id.btnvmarca);
 

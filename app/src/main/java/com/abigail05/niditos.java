@@ -21,9 +21,6 @@ public class niditos extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_niditos);
 
-        getSupportActionBar().setDisplayShowHomeEnabled(true);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
         home = (Button)findViewById(R.id.btnhome);
         home.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -28,9 +28,6 @@ public class combo1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_combo1);
 
-        getSupportActionBar().setDisplayShowHomeEnabled(true);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
         btnrojo = (ImageButton)findViewById(R.id.colorrojo);
         btnnaranja = (ImageButton)findViewById(R.id.colornaranja);
         btnlila = (ImageButton)findViewById(R.id.colorlila);

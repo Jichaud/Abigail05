@@ -33,9 +33,6 @@ public class combo3 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_combo3);
 
-        getSupportActionBar().setDisplayShowHomeEnabled(true);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
         comprarcombo3 = (Button)findViewById(R.id.btncompracombo3);
         home = (Button)findViewById(R.id.btnhome);
         producto = (Button)findViewById(R.id.btnvprod);
