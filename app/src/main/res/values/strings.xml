@@ -38,4 +38,12 @@
     <string name="modelo4">modelo 4</string>
     <string name="modelo5">modelo 5</string>
     <string name="modelo6">modelo 6</string>
+
+    Niditos y cuellitos
+    <string name="txtNiditoPrincipal">Nidito de contención</string>
+    <string name="txtNiditoPrincipaldesc">Nidito de contención y cuellito de descanso cervical en 12 colores disponibles</string>
+    <string name="txtCuellitoPrincipal">Cuellito de descanso cervical para bebé</string>
+    <string name="txtCuellitoPrincipaldesc">Cuellito de descanso cervical para bebé. Varios colores y diseños.</string>
+    <string name="txtCuellitoPrincipalAdulto">Cuello de descanso cervical para adulto</string>
+    <string name="txtCuellitoPrincipaldescAdulto">Cuello de descanso cervical para adulto. Varios colores y diseños.</string>
 </resources>
