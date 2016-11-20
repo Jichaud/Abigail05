@@ -36,11 +36,25 @@
         android:text="@string/verxmarca"
         android:textAllCaps="false"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnvmarca"
+        android:id="@+id/txtcargando"
+        android:layout_centerInParent="true"
+        android:fontFamily="sans-serif-light"
+        android:textSize="20sp"
+        android:visibility="gone"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:text="Cargando, aguarde..."/>
+
     <WebView
         android:id="@+id/webview"
+        android:layout_below="@id/txtcargando"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="40dp">
+        android:layout_marginTop="0dp">
 
     </WebView>
 
