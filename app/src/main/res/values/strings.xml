@@ -16,6 +16,12 @@
 
     Productos Abigail05
     <string name="txtcombo">Combo Almohadón para Amamantar</string>
+    <string name="txtlista1">Almohadones</string>
+    <string name="txtlista1desc">Almohadones para amamantar</string>
+    <string name="txtlista2">Niditos y cuellitos</string>
+    <string name="txtlista2desc">Niditos de contención y cuellitos de descanso</string>
+    <string name="txtlista3">Colchoncitos para cochecitos</string>
+    <string name="txtlista3desc">Colchoncitos para cochecitos y cuellitos cervicales</string>
     <string name="txtcombo1desc">Almohadón, Almohada de Cuna y Cuellito. 12 Colores Disponibles</string>
     <string name="txtcombo2desc">Almohadón, Almohada de Cuna, Cuellito y Nidito de Contención. 12 colores disponibles</string>
     <string name="txtcombo3desc">Almohadón Grande y Nidito de Contención</string>

@@ -20,7 +20,7 @@
         <activity
             android:name=".almohadones"
             android:label="Abigail05 | Almohadones"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".abriprodlist" />
         <activity
             android:name=".combo1"
             android:label="Abigail05 | Almohadones"
@@ -37,13 +37,18 @@
             android:name=".combo3"
             android:label="Abigail05 | Almohadones"
             android:parentActivityName=".almohadones" />
-        <activity android:name=".combo4"
+        <activity
+            android:name=".combo4"
             android:label="Abigail05 | Almohadones"
-            android:parentActivityName=".almohadones"/>
-            <activity
+            android:parentActivityName=".almohadones" />
+        <activity android:name=".abriprodlist"
+            android:label="Productos Abigail05"
+            android:parentActivityName=".MainActivity"/>
+        <activity
             android:name=".niditos"
             android:label="Abigail05 | Niditos y cuellitos">
         </activity>
+
     </application>
 
 </manifest>
