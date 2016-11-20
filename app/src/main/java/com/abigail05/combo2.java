@@ -19,6 +19,9 @@ public class combo2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_combo2);
 
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         home = (Button)findViewById(R.id.btnhome);
         producto = (Button)findViewById(R.id.btnvprod);
         marca = (Button)findViewById(R.id.btnvmarca);
