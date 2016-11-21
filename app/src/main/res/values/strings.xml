@@ -26,18 +26,18 @@
     <string name="txtcombo2desc">Almohadón, Almohada de Cuna, Cuellito y Nidito de Contención. 12 colores disponibles</string>
     <string name="txtcombo3desc">Almohadón Grande y Nidito de Contención</string>
     <string name="txtcombo4desc">+ Manta con Gorrito de Polar Personalizada</string>
-    <string name="txtcolores">Clic sobre los modelos</string>
+    <string name="txtcolores">Clic sobre las vistas</string>
 
     Combo1
     <string name="stock">Consultá stock antes de comprar</string>
 
     Combo3
-    <string name="modelo1">modelo 1</string>
-    <string name="modelo2">modelo 2</string>
-    <string name="modelo3">modelo 3</string>
-    <string name="modelo4">modelo 4</string>
-    <string name="modelo5">modelo 5</string>
-    <string name="modelo6">modelo 6</string>
+    <string name="modelo1">vista 1</string>
+    <string name="modelo2">vista 2</string>
+    <string name="modelo3">vista 3</string>
+    <string name="modelo4">vista 4</string>
+    <string name="modelo5">vista 5</string>
+    <string name="modelo6">vista 6</string>
 
     Niditos y cuellitos
     <string name="txtNiditoPrincipal">Nidito de contención</string>
