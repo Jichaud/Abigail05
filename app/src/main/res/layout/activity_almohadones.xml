@@ -91,13 +91,6 @@
         android:textAllCaps="false"
         android:textSize="16sp" />
 
-    <TextView
-        android:id="@+id/precio1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@id/combo1txtdesc"/>
-
     <View
         android:id="@+id/view1"
         style="@style/Divider"
