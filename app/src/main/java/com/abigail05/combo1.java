@@ -5,8 +5,8 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 public class combo1 extends AppCompatActivity {
 
@@ -18,9 +18,9 @@ public class combo1 extends AppCompatActivity {
     ImageView rojo;
     ImageView naranja;
     ImageView lila;
-    ImageButton btnrojo;
-    ImageButton btnnaranja;
-    ImageButton btnlila;
+    TextView txtmodelo1;
+    TextView txtmodelo2;
+    TextView txtmodelo3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,10 +49,9 @@ public class combo1 extends AppCompatActivity {
             }
         });
 
-
         rojo = (ImageView)findViewById(R.id.combo1img);
-        btnrojo = (ImageButton)findViewById(R.id.colorrojo);
-        btnrojo.setOnClickListener(new View.OnClickListener() {
+        txtmodelo1 = (TextView)findViewById(R.id.modelo1);
+        txtmodelo1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 rojo.setVisibility(View.VISIBLE);
@@ -62,8 +61,8 @@ public class combo1 extends AppCompatActivity {
         });
 
         naranja = (ImageView)findViewById(R.id.combo1imgnaranja);
-        btnnaranja = (ImageButton)findViewById(R.id.colornaranja);
-        btnnaranja.setOnClickListener(new View.OnClickListener() {
+        txtmodelo2 = (TextView)findViewById(R.id.modelo2);
+        txtmodelo2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 naranja.setVisibility(View.VISIBLE);
@@ -73,8 +72,8 @@ public class combo1 extends AppCompatActivity {
         });
 
         lila = (ImageView)findViewById(R.id.combo1imglila);
-        btnlila = (ImageButton)findViewById(R.id.colorlila);
-        btnlila.setOnClickListener(new View.OnClickListener() {
+        txtmodelo3 = (TextView)findViewById(R.id.modelo3);
+        txtmodelo3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 lila.setVisibility(View.VISIBLE);

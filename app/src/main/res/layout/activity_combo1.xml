@@ -94,41 +94,60 @@
                         android:layout_height="wrap_content"
                         android:layout_below="@id/combo1img"
                         android:layout_margin="8dp"
+                        android:padding="6dp"
                         android:text="@string/txtcolores"
                         android:textAlignment="center"
                         android:textSize="16sp" />
 
-                    <ImageButton
-                        android:id="@+id/colorrojo"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
+                    <TextView
+                        android:id="@+id/modelo1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_alignParentLeft="true"
                         android:layout_below="@id/txtcolores"
-                        android:layout_marginLeft="4dp"
-                        android:onClick="rojo"
-                        android:src="@drawable/colorcombo1rojo" />
+                        android:background="@drawable/rounded"
+                        android:onClick="modelo1"
+                        android:padding="6dp"
+                        android:text="@string/modelo1"
+                        android:textAlignment="center"
+                        android:textColor="#E3F2FD"
+                        android:textSize="18sp"
+                        android:textStyle="bold"/>
 
-                    <ImageButton
-                        android:id="@+id/colornaranja"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:layout_alignParentRight="true"
-                        android:layout_below="@id/txtcolores"
-                        android:onClick="naranja"
-                        android:src="@drawable/colorcombo1naranja" />
-
-                    <ImageButton
-                        android:id="@+id/colorlila"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
+                    <TextView
+                        android:id="@+id/modelo2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_below="@id/txtcolores"
                         android:layout_centerHorizontal="true"
-                        android:src="@drawable/colorcombo1lila" />
+                        android:background="@drawable/rounded"
+                        android:onClick="modelo2"
+                        android:padding="6dp"
+                        android:text="@string/modelo2"
+                        android:textAlignment="center"
+                        android:textColor="#E3F2FD"
+                        android:textSize="18sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/modelo3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@id/txtcolores"
+                        android:background="@drawable/rounded"
+                        android:onClick="modelo3"
+                        android:padding="6dp"
+                        android:text="@string/modelo3"
+                        android:textAlignment="center"
+                        android:textColor="#E3F2FD"
+                        android:textSize="18sp"
+                        android:textStyle="bold"/>
 
                     <View
                         android:id="@+id/view1"
                         style="@style/Divider"
-                        android:layout_below="@id/colorrojo" />
+                        android:layout_below="@id/modelo1" />
 
                     <TextView
                         android:id="@+id/txtcombo1principal"
