@@ -61,7 +61,7 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginTop="10dp"
                 app:cardCornerRadius="2dp"
-                app:cardElevation="4dp">
+                app:cardElevation="2dp">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -107,6 +107,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@id/colchon1"
+                        android:layout_margin="8dp"
                         android:layout_marginTop="10dp"
                         android:text="@string/txtcolores"
                         android:textAlignment="center"
@@ -120,7 +121,11 @@
                         android:layout_below="@id/txtcolores"
                         android:onClick="modelo1"
                         android:text="@string/modelo1"
-                        android:textColor="@color/grey"
+                        android:background="@color/colorPrimary"
+                        android:padding="4dp"
+                        android:textAlignment="center"
+                        android:textColor="#E3F2FD"
+                        android:textStyle="bold"
                         android:textSize="18sp"/>
 
                     <TextView
@@ -131,7 +136,12 @@
                         android:layout_centerHorizontal="true"
                         android:onClick="modelo2"
                         android:text="@string/modelo2"
-                        android:textColor="@color/grey"
+                        android:background="@color/colorPrimary"
+                        android:padding="4dp"
+                        android:textAlignment="center"
+                        android:textColor="#E3F2FD"
+                        android:textStyle="bold"
+
                         android:textSize="18sp"/>
 
                     <TextView
@@ -142,7 +152,12 @@
                         android:layout_below="@id/txtcolores"
                         android:onClick="modelo3"
                         android:text="@string/modelo3"
-                        android:textColor="@color/grey"
+                        android:background="@color/colorPrimary"
+                        android:padding="4dp"
+                        android:textAlignment="center"
+                        android:textColor="#E3F2FD"
+                        android:textStyle="bold"
+
                         android:textSize="18sp"/>
 
                     <TextView
@@ -154,7 +169,12 @@
                         android:layout_marginTop="20dp"
                         android:onClick="modelo4"
                         android:text="@string/modelo4"
-                        android:textColor="@color/grey"
+                        android:background="@color/colorPrimary"
+                        android:padding="4dp"
+                        android:textAlignment="center"
+                        android:textColor="#E3F2FD"
+                        android:textStyle="bold"
+
                         android:textSize="18sp"/>
 
                     <TextView
@@ -166,7 +186,12 @@
                         android:layout_marginTop="20dp"
                         android:onClick="modelo5"
                         android:text="@string/modelo5"
-                        android:textColor="@color/grey"
+                        android:background="@color/colorPrimary"
+                        android:padding="4dp"
+                        android:textAlignment="center"
+                        android:textColor="#E3F2FD"
+                        android:textStyle="bold"
+
                         android:textSize="18sp"/>
 
                     <View

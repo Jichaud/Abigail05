@@ -61,7 +61,7 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginTop="10dp"
                 app:cardCornerRadius="2dp"
-                app:cardElevation="4dp">
+                app:cardElevation="2dp">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -70,14 +70,14 @@
 
                     <ImageView
                         android:id="@+id/combo1imgnaranja"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="280dp"
                         android:src="@drawable/combo1naranja"
                         android:visibility="gone" />
 
                     <ImageView
                         android:id="@+id/combo1imglila"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="280dp"
                         android:src="@drawable/combo1lila"
                         android:visibility="gone" />
@@ -93,6 +93,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@id/combo1img"
+                        android:layout_margin="8dp"
                         android:text="@string/txtcolores"
                         android:textAlignment="center"
                         android:textSize="16sp" />
