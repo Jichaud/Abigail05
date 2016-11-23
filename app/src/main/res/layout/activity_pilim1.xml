@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_nidito3"
+    android:id="@+id/activity_pilim1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="4dp"
-    tools:context="com.abigail05.nidito3">
+    tools:context="com.abigail05.pilim1">
 
     <Button
         android:id="@+id/btnhome"
@@ -69,86 +68,35 @@
                     android:layout_margin="10dp">
 
                     <ImageView
-                        android:id="@+id/nidito4img"
-                        android:layout_width="match_parent"
-                        android:layout_height="280dp"
-                        android:visibility="gone"/>
-
-                    <ImageView
-                        android:id="@+id/nidito3img"
-                        android:layout_width="match_parent"
-                        android:layout_height="280dp" />
-
-                    <TextView
-                        android:id="@+id/txtcolores"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@id/nidito3img"
-                        android:layout_margin="8dp"
-                        android:text="@string/txtcolores"
-                        android:textAlignment="center"
-                        android:textSize="16sp" />
-
-                    <TextView
-                        android:id="@+id/modelo1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentLeft="true"
-                        android:layout_below="@id/txtcolores"
-                        android:background="@drawable/rounded"
-                        android:onClick="modelo1"
-                        android:paddingBottom="6dp"
-                        android:paddingLeft="15dp"
-                        android:paddingRight="15dp"
-                        android:paddingTop="6dp"
-                        android:text="@string/modelo1"
-                        android:textAlignment="center"
-                        android:textColor="#E3F2FD"
-                        android:textSize="18sp"
-
-                        android:textStyle="bold"/>
-
-                    <TextView
-                        android:id="@+id/modelo2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentRight="true"
-                        android:layout_below="@id/txtcolores"
-                        android:background="@drawable/rounded"
-                        android:onClick="modelo2"
-                        android:paddingBottom="6dp"
-                        android:paddingLeft="15dp"
-                        android:paddingRight="15dp"
-                        android:paddingTop="6dp"
-                        android:text="@string/modelo2"
-                        android:textAlignment="center"
-                        android:textColor="#E3F2FD"
-                        android:textSize="18sp"
-
-                        android:textStyle="bold"/>
+                        android:id="@+id/pilim1"
+                        android:layout_width="400dp"
+                        android:layout_height="296dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="4dp" />
 
                     <View
                         android:id="@+id/view1"
                         style="@style/Divider"
-                        android:layout_below="@id/modelo2" />
+                        android:layout_below="@id/pilim1" />
 
                     <TextView
-                        android:id="@+id/txtnidito3principal"
+                        android:id="@+id/txtcombo1principal"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_below="@id/view1"
+                        android:layout_below="@id/pilim1"
+                        android:layout_marginTop="10dp"
                         android:fontFamily="sans-serif-light"
-                        android:text="@string/txtCuellitoPrincipalAdulto"
+                        android:text="@string/txtpili1principal"
                         android:textAlignment="center"
                         android:textSize="25sp" />
 
                     <TextView
-                        android:id="@+id/nidito3txtdesc"
+                        android:id="@+id/txtpilim1desc"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_below="@id/txtnidito3principal"
+                        android:layout_below="@id/txtcombo1principal"
                         android:paddingTop="10dp"
-                        android:text="@string/txtCuellitoPrincipaldescAdulto"
+                        android:text="@string/txtpilim1desc"
                         android:textAlignment="center"
                         android:textColor="@color/grey"
                         android:textSize="20sp" />
@@ -156,7 +104,7 @@
                     <View
                         android:id="@+id/view2"
                         style="@style/Divider"
-                        android:layout_below="@id/nidito3txtdesc" />
+                        android:layout_below="@id/txtpilim1desc" />
 
                     <Button
                         android:id="@+id/btnconsulta"
@@ -172,7 +120,7 @@
                         android:textStyle="bold" />
 
                     <Button
-                        android:id="@+id/btncompranidito3"
+                        android:id="@+id/btncomprapilim1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@id/btnconsulta"

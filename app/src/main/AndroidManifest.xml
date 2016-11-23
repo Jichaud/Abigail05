@@ -64,10 +64,18 @@
         <activity
             android:name=".colchon1"
             android:label="Abigail05 | Colchoncitos"
-            android:parentActivityName=".abriprodlist"/>
-        <activity android:name=".marcas"
+            android:parentActivityName=".abriprodlist" />
+        <activity
+            android:name=".marcas"
             android:label="Marcas"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".pilimprodlist"
+            android:label="Pilim | Bolsos maternales"
+            android:parentActivityName=".marcas"/>
+        <activity android:name=".pilim1"
+            android:label="Pilim | Bolso maternal"
+            android:parentActivityName=".pilimprodlist">
 
         </activity>
     </application>
