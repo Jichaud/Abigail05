@@ -71,8 +71,7 @@
                     <ImageView
                         android:id="@+id/nidito1img"
                         android:layout_width="match_parent"
-                        android:layout_height="280dp"
-                        android:src="@drawable/nidito" />
+                        android:layout_height="280dp" />
 
                     <View
                         android:id="@+id/view1"

@@ -72,42 +72,36 @@
                         android:id="@+id/combomodelo2"
                         android:layout_width="match_parent"
                         android:layout_height="280dp"
-                        android:src="@drawable/combo32"
                         android:visibility="gone"/>
 
                     <ImageView
                         android:id="@+id/combomodelo3"
                         android:layout_width="match_parent"
                         android:layout_height="280dp"
-                        android:src="@drawable/combo33"
                         android:visibility="gone"/>
 
                     <ImageView
                         android:id="@+id/combomodelo4"
                         android:layout_width="match_parent"
                         android:layout_height="280dp"
-                        android:src="@drawable/combo34"
                         android:visibility="gone"/>
 
                     <ImageView
                         android:id="@+id/combomodelo5"
                         android:layout_width="match_parent"
                         android:layout_height="280dp"
-                        android:src="@drawable/combo35"
                         android:visibility="gone"/>
 
                     <ImageView
                         android:id="@+id/combomodelo6"
                         android:layout_width="match_parent"
                         android:layout_height="280dp"
-                        android:src="@drawable/combo36"
                         android:visibility="gone"/>
 
                     <ImageView
                         android:id="@+id/combomodelo1"
                         android:layout_width="match_parent"
-                        android:layout_height="280dp"
-                        android:src="@drawable/combo3" />
+                        android:layout_height="280dp" />
 
                     <TextView
                         android:id="@+id/txtcolores"

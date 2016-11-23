@@ -72,14 +72,12 @@
                         android:id="@+id/nidito4img"
                         android:layout_width="match_parent"
                         android:layout_height="280dp"
-                        android:src="@drawable/nidito4"
                         android:visibility="gone"/>
 
                     <ImageView
                         android:id="@+id/nidito3img"
                         android:layout_width="match_parent"
-                        android:layout_height="280dp"
-                        android:src="@drawable/nidito3" />
+                        android:layout_height="280dp" />
 
                     <TextView
                         android:id="@+id/txtcolores"
@@ -97,18 +95,18 @@
                         android:layout_height="wrap_content"
                         android:layout_alignParentLeft="true"
                         android:layout_below="@id/txtcolores"
-                        android:onClick="modelo1"
-                        android:text="@string/modelo1"
                         android:background="@drawable/rounded"
-                        android:paddingTop="6dp"
+                        android:onClick="modelo1"
                         android:paddingBottom="6dp"
                         android:paddingLeft="15dp"
                         android:paddingRight="15dp"
+                        android:paddingTop="6dp"
+                        android:text="@string/modelo1"
                         android:textAlignment="center"
                         android:textColor="#E3F2FD"
-                        android:textStyle="bold"
+                        android:textSize="18sp"
 
-                        android:textSize="18sp"/>
+                        android:textStyle="bold"/>
 
                     <TextView
                         android:id="@+id/modelo2"
@@ -116,18 +114,18 @@
                         android:layout_height="wrap_content"
                         android:layout_alignParentRight="true"
                         android:layout_below="@id/txtcolores"
-                        android:onClick="modelo2"
-                        android:text="@string/modelo2"
                         android:background="@drawable/rounded"
-                        android:paddingTop="6dp"
+                        android:onClick="modelo2"
                         android:paddingBottom="6dp"
                         android:paddingLeft="15dp"
                         android:paddingRight="15dp"
+                        android:paddingTop="6dp"
+                        android:text="@string/modelo2"
                         android:textAlignment="center"
                         android:textColor="#E3F2FD"
-                        android:textStyle="bold"
+                        android:textSize="18sp"
 
-                        android:textSize="18sp"/>
+                        android:textStyle="bold"/>
 
                     <View
                         android:id="@+id/view1"

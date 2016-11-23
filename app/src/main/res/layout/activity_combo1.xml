@@ -72,27 +72,24 @@
                         android:id="@+id/combo1imgnaranja"
                         android:layout_width="match_parent"
                         android:layout_height="280dp"
-                        android:src="@drawable/combo1naranja"
                         android:visibility="gone" />
 
                     <ImageView
                         android:id="@+id/combo1imglila"
                         android:layout_width="match_parent"
                         android:layout_height="280dp"
-                        android:src="@drawable/combo1lila"
                         android:visibility="gone" />
 
                     <ImageView
-                        android:id="@+id/combo1img"
+                        android:id="@+id/combo1imgrojo"
                         android:layout_width="match_parent"
-                        android:layout_height="280dp"
-                        android:src="@drawable/combo1" />
+                        android:layout_height="280dp" />
 
                     <TextView
                         android:id="@+id/txtcolores"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_below="@id/combo1img"
+                        android:layout_below="@id/combo1imgrojo"
                         android:layout_margin="8dp"
                         android:padding="6dp"
                         android:text="@string/txtcolores"

@@ -18,10 +18,10 @@
         android:orientation="vertical">
         
         <ImageView
+            android:id="@+id/abigail05"
             android:layout_width="180dp"
             android:layout_height="100dp"
-            android:layout_marginLeft="10dp"
-            android:src="@drawable/abigail05"/>
+            android:layout_marginLeft="10dp"/>
 
         <android.support.v7.widget.CardView
             android:layout_width="match_parent"
@@ -40,8 +40,7 @@
                     android:id="@+id/imgAbi"
                     android:layout_width="100dp"
                     android:layout_height="80dp"
-                    android:paddingLeft="10dp"
-                    android:src="@drawable/abigail05"/>
+                    android:paddingLeft="10dp"/>
 
                 <TextView
                     android:id="@+id/txtprodabi"
@@ -104,8 +103,7 @@
                     android:id="@+id/imgprod"
                     android:layout_width="100dp"
                     android:layout_height="50dp"
-                    android:paddingTop="10dp"
-                    android:src="@drawable/shopping" />
+                    android:paddingTop="10dp"/>
 
                 <TextView
                     android:id="@+id/txtprodxprod"
@@ -168,8 +166,7 @@
                     android:id="@+id/imgmarca"
                     android:layout_width="100dp"
                     android:layout_height="60dp"
-                    android:paddingTop="10dp"
-                    android:src="@drawable/marca" />
+                    android:paddingTop="10dp"/>
 
                 <TextView
                     android:id="@+id/txtprodxmarca"

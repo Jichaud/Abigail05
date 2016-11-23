@@ -57,8 +57,7 @@
         android:id="@+id/combo1img"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:padding="10dp"
-        android:src="@drawable/combo1" />
+        android:padding="10dp"/>
 
     <TextView
         android:id="@+id/txtcombo1principal"
@@ -100,8 +99,7 @@
         android:id="@+id/combo2img"
         android:layout_width="90dp"
         android:layout_height="100dp"
-        android:layout_below="@id/view1"
-        android:src="@drawable/combo2" />
+        android:layout_below="@id/view1"/>
 
     <TextView
         android:id="@+id/txtcombo2principal"
@@ -146,8 +144,7 @@
         android:id="@+id/combo3img"
         android:layout_width="90dp"
         android:layout_height="100dp"
-        android:layout_below="@id/view2"
-        android:src="@drawable/combo3" />
+        android:layout_below="@id/view2"/>
 
     <TextView
         android:id="@+id/txtcombo3principal"
@@ -192,8 +189,7 @@
         android:id="@+id/combo4img"
         android:layout_width="90dp"
         android:layout_height="100dp"
-        android:layout_below="@id/view3"
-        android:src="@drawable/combo4" />
+        android:layout_below="@id/view3"/>
 
     <TextView
         android:id="@+id/txtcombo4principal"

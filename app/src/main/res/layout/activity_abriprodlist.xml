@@ -56,8 +56,7 @@
                     android:id="@+id/lista1img"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:padding="8dp"
-                    android:src="@drawable/combo1" />
+                    android:padding="8dp"/>
 
                 <TextView
                     android:id="@+id/txtlista1principal"
@@ -100,8 +99,7 @@
                     android:id="@+id/lista2img"
                     android:layout_width="90dp"
                     android:layout_height="100dp"
-                    android:layout_below="@id/view1"
-                    android:src="@drawable/nidito2" />
+                    android:layout_below="@id/view1"/>
 
                 <TextView
                     android:id="@+id/txtlista2principal"
@@ -147,8 +145,7 @@
                     android:id="@+id/lista3img"
                     android:layout_width="90dp"
                     android:layout_height="100dp"
-                    android:layout_below="@id/view2"
-                    android:src="@drawable/colchon1" />
+                    android:layout_below="@id/view2"/>
 
                 <TextView
                     android:id="@+id/txtlista3principal"

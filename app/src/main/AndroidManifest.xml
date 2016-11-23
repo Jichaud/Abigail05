@@ -60,10 +60,14 @@
         <activity
             android:name=".nidito3"
             android:label="Abigail05 | Cuello adulto"
-            android:parentActivityName=".niditos"/>
-        <activity android:name=".colchon1"
+            android:parentActivityName=".niditos" />
+        <activity
+            android:name=".colchon1"
             android:label="Abigail05 | Colchoncitos"
-            android:parentActivityName=".abriprodlist">
+            android:parentActivityName=".abriprodlist"/>
+        <activity android:name=".marcas"
+            android:label="Marcas"
+            android:parentActivityName=".MainActivity">
 
         </activity>
     </application>

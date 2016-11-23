@@ -72,35 +72,30 @@
                         android:id="@+id/colchon5"
                         android:layout_width="match_parent"
                         android:layout_height="280dp"
-                        android:src="@drawable/colchon5"
                         android:visibility="gone"/>
 
                     <ImageView
                         android:id="@+id/colchon4"
                         android:layout_width="match_parent"
                         android:layout_height="280dp"
-                        android:src="@drawable/colchon4"
                         android:visibility="gone"/>
 
                     <ImageView
                         android:id="@+id/colchon3"
                         android:layout_width="match_parent"
                         android:layout_height="280dp"
-                        android:src="@drawable/colchon3"
                         android:visibility="gone"/>
 
                     <ImageView
                         android:id="@+id/colchon2"
                         android:layout_width="match_parent"
                         android:layout_height="280dp"
-                        android:src="@drawable/colchon2"
                         android:visibility="gone"/>
 
                     <ImageView
                         android:id="@+id/colchon1"
                         android:layout_width="match_parent"
-                        android:layout_height="280dp"
-                        android:src="@drawable/colchon1" />
+                        android:layout_height="280dp" />
 
                     <TextView
                         android:id="@+id/txtcolores"
@@ -147,7 +142,6 @@
                         android:textAlignment="center"
                         android:textColor="#E3F2FD"
                         android:textSize="18sp"
-
                         android:textStyle="bold"/>
 
                     <TextView
@@ -166,7 +160,6 @@
                         android:textAlignment="center"
                         android:textColor="#E3F2FD"
                         android:textSize="18sp"
-
                         android:textStyle="bold"/>
 
                     <TextView
@@ -186,7 +179,6 @@
                         android:textAlignment="center"
                         android:textColor="#E3F2FD"
                         android:textSize="18sp"
-
                         android:textStyle="bold"/>
 
                     <TextView
@@ -206,7 +198,6 @@
                         android:textAlignment="center"
                         android:textColor="#E3F2FD"
                         android:textSize="18sp"
-
                         android:textStyle="bold"/>
 
                     <View

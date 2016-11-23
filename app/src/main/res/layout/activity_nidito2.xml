@@ -72,14 +72,12 @@
                         android:id="@+id/nidito2img"
                         android:layout_width="match_parent"
                         android:layout_height="280dp"
-                        android:src="@drawable/nidito2"
                         android:visibility="gone"/>
 
                     <ImageView
                         android:id="@+id/nidito1img"
                         android:layout_width="match_parent"
-                        android:layout_height="280dp"
-                        android:src="@drawable/nidito1" />
+                        android:layout_height="280dp" />
 
                     <TextView
                         android:id="@+id/txtcolores"

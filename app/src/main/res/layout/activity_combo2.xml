@@ -69,23 +69,22 @@
                     android:layout_margin="10dp">
 
                     <ImageView
-                        android:id="@+id/combo1img"
+                        android:id="@+id/combo2img"
                         android:layout_width="wrap_content"
                         android:layout_height="280dp"
                         android:layout_centerHorizontal="true"
-                        android:layout_marginBottom="4dp"
-                        android:src="@drawable/combo2" />
+                        android:layout_marginBottom="4dp" />
 
                     <View
                         android:id="@+id/view1"
                         style="@style/Divider"
-                        android:layout_below="@id/combo1img" />
+                        android:layout_below="@id/combo2img" />
 
                     <TextView
                         android:id="@+id/txtcombo1principal"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_below="@id/combo1img"
+                        android:layout_below="@id/combo2img"
                         android:layout_marginTop="10dp"
                         android:fontFamily="sans-serif-light"
                         android:text="@string/txtcombo"

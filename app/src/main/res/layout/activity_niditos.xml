@@ -57,8 +57,7 @@
                     android:id="@+id/nidito1img"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:padding="10dp"
-                    android:src="@drawable/nidito" />
+                    android:padding="10dp" />
 
                 <TextView
                     android:id="@+id/txtnidito1principal"
@@ -100,8 +99,7 @@
                     android:id="@+id/nidito2img"
                     android:layout_width="90dp"
                     android:layout_height="100dp"
-                    android:layout_below="@id/view1"
-                    android:src="@drawable/nidito1" />
+                    android:layout_below="@id/view1" />
 
                 <TextView
                     android:id="@+id/txtnidito2principal"
@@ -146,8 +144,7 @@
                     android:id="@+id/nidito3img"
                     android:layout_width="90dp"
                     android:layout_height="100dp"
-                    android:layout_below="@id/view2"
-                    android:src="@drawable/nidito3" />
+                    android:layout_below="@id/view2" />
 
                 <TextView
                     android:id="@+id/txtnidito3principal"
