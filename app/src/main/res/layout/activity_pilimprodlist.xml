@@ -97,30 +97,30 @@
                     android:layout_below="@id/btnpilim1" />
 
                 <ImageView
-                    android:id="@+id/lista2img"
+                    android:id="@+id/pilim2"
                     android:layout_width="90dp"
-                    android:layout_height="100dp"
+                    android:layout_height="90dp"
                     android:layout_below="@id/view1"/>
 
                 <TextView
-                    android:id="@+id/txtlista2principal"
+                    android:id="@+id/txtpili2principal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/view1"
-                    android:layout_toRightOf="@id/lista2img"
+                    android:layout_toRightOf="@id/pilim2"
                     android:fontFamily="sans-serif-light"
                     android:paddingLeft="15dp"
-                    android:text="@string/txtlista2"
+                    android:text="@string/txtpili2principal"
                     android:textSize="20sp" />
 
                 <TextView
-                    android:id="@+id/lista2txtdesc"
+                    android:id="@+id/txtpili2desc"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/txtlista2principal"
-                    android:layout_toRightOf="@id/lista2img"
+                    android:layout_below="@id/txtpili2principal"
+                    android:layout_toRightOf="@id/pilim2"
                     android:paddingLeft="15dp"
-                    android:text="@string/txtlista2desc"
+                    android:text="@string/txtpili2desc"
                     android:textColor="@color/grey"
                     android:textSize="16sp" />
 
@@ -129,7 +129,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
-                    android:layout_below="@+id/lista2txtdesc"
+                    android:layout_below="@+id/txtpili2desc"
                     android:layout_marginBottom="4dp"
                     android:backgroundTint="@color/colorPrimary"
                     android:fontFamily="sans-serif-thin"

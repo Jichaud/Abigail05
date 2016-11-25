@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Abigail05</string>
     <string name="btnver">ver+</string>
-    <string name="btnverprecio">ver precio y comprar</string>
+    <string name="btnverprecio">Comprar</string>
     <string name="verxprod">producto</string>
     <string name="verhome">home</string>
     <string name="verxmarca">marca</string>
@@ -56,5 +56,7 @@
     <string name="txtpiliprod">Bolsos maternales</string>
     <string name="txtpili1principal">Bolso maternal</string>
     <string name="txtpilim1desc">Bolso art.4627. Rojo doble fuelle unisex</string>
+    <string name="txtpili2principal">Cartera</string>
+    <string name="txtpili2desc">Cartera art.5913 para Mamá lona lisa cambiador</string>
 
 </resources>

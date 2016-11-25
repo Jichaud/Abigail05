@@ -1,13 +1,21 @@
 package com.abigail05;
 
 import android.content.Intent;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.squareup.picasso.Picasso;
+
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.select.Elements;
+
+import java.io.IOException;
 
 public class almohadones extends AppCompatActivity {
 
@@ -16,6 +24,10 @@ public class almohadones extends AppCompatActivity {
     Button vercombo3;
     Button vercombo4;
     Button home;
+    TextView preciocombo1;
+    TextView preciocombo2;
+    TextView preciocombo3;
+    TextView preciocombo4;
     Button producto;
     Button marca;
     ImageView combo1img;
@@ -31,6 +43,13 @@ public class almohadones extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_almohadones);
+
+        new preciocombo1Async().execute();
+
+        preciocombo1 = (TextView)findViewById(R.id.preciocombo1);
+        preciocombo2 = (TextView)findViewById(R.id.preciocombo2);
+        preciocombo3 = (TextView)findViewById(R.id.preciocombo3);
+        preciocombo4 = (TextView)findViewById(R.id.preciocombo4);
 
         combo1img = (ImageView)findViewById(R.id.combo1img);
         Picasso.with(this).load(urlcombo1img).into(combo1img);
@@ -93,5 +112,55 @@ public class almohadones extends AppCompatActivity {
         });
 
     }
+
+    public class preciocombo1Async extends AsyncTask<Void, Void, Void> {
+
+        String urlprecio1 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=e68ff9a9f087a16157f80793fc0ca56f";
+        String urlprecio2 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=cf7f1d016665bcbe9255dc04fdb2265f";
+        String urlprecio3 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=ba4b284e837aef9bb6c4cc1dee59c775";
+        String urlprecio4 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=14b2978d8fe35ce2ea4157a8652e48e8";
+        String preciocombo1st;
+        String preciocombo2st;
+        String preciocombo3st;
+        String preciocombo4st;
+
+        @Override
+        protected Void doInBackground(Void... voids) {
+
+            try {
+                Document doc1 = Jsoup.connect(urlprecio1).get();
+                Elements metapropoerty1 = doc1.select("meta[property=\"og:description\"]");
+                preciocombo1st = metapropoerty1.attr("content");
+
+                Document doc2 = Jsoup.connect(urlprecio2).get();
+                Elements metapropoerty2 = doc2.select("meta[property=\"og:description\"]");
+                preciocombo2st = metapropoerty2.attr("content");
+
+                Document doc3 = Jsoup.connect(urlprecio3).get();
+                Elements metapropoerty3 = doc3.select("meta[property=\"og:description\"]");
+                preciocombo3st = metapropoerty3.attr("content");
+
+                Document doc4 = Jsoup.connect(urlprecio4).get();
+                Elements metapropoerty4 = doc4.select("meta[property=\"og:description\"]");
+                preciocombo4st = metapropoerty4.attr("content");
+
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(Void aVoid) {
+            super.onPostExecute(aVoid);
+            preciocombo1.setText(preciocombo1st);
+            preciocombo2.setText(preciocombo2st);
+            preciocombo3.setText(preciocombo3st);
+            preciocombo4.setText(preciocombo4st);
+        }
+
+    }
+
 
 }

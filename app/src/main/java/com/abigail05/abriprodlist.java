@@ -1,14 +1,22 @@
 package com.abigail05;
 
 import android.content.Intent;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.provider.ContactsContract;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.squareup.picasso.Picasso;
+
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.select.Elements;
+
+import java.io.IOException;
 
 public class abriprodlist extends AppCompatActivity {
 
@@ -30,19 +38,19 @@ public class abriprodlist extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_abriprodlist);
 
-        lista1img = (ImageView)findViewById(R.id.lista1img);
+        lista1img = (ImageView) findViewById(R.id.lista1img);
         Picasso.with(this).load(urllista1img).into(lista1img);
 
-        lista2img = (ImageView)findViewById(R.id.lista2img);
+        lista2img = (ImageView) findViewById(R.id.lista2img);
         Picasso.with(this).load(urllista2img).into(lista2img);
 
-        lista3img = (ImageView)findViewById(R.id.lista3img);
+        lista3img = (ImageView) findViewById(R.id.lista3img);
         Picasso.with(this).load(urllista3img).into(lista3img);
 
-        producto = (Button)findViewById(R.id.btnvprod);
-        marca = (Button)findViewById(R.id.btnvmarca);
+        producto = (Button) findViewById(R.id.btnvprod);
+        marca = (Button) findViewById(R.id.btnvmarca);
 
-        home = (Button)findViewById(R.id.btnhome);
+        home = (Button) findViewById(R.id.btnhome);
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -51,7 +59,7 @@ public class abriprodlist extends AppCompatActivity {
             }
         });
 
-        btnlista1 = (Button)findViewById(R.id.btnlista1);
+        btnlista1 = (Button) findViewById(R.id.btnlista1);
         btnlista1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -60,7 +68,7 @@ public class abriprodlist extends AppCompatActivity {
             }
         });
 
-        btnlista2 = (Button)findViewById(R.id.btnlista2);
+        btnlista2 = (Button) findViewById(R.id.btnlista2);
         btnlista2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -69,7 +77,7 @@ public class abriprodlist extends AppCompatActivity {
             }
         });
 
-        btnlista3 = (Button)findViewById(R.id.btnlista3);
+        btnlista3 = (Button) findViewById(R.id.btnlista3);
         btnlista3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -79,4 +87,5 @@ public class abriprodlist extends AppCompatActivity {
         });
 
     }
+
 }

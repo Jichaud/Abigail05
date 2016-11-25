@@ -90,6 +90,16 @@
         android:textAllCaps="false"
         android:textSize="16sp" />
 
+    <TextView
+        android:id="@+id/preciocombo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/combo1txtdesc"
+        android:layout_margin="10dp"
+        android:textColor="@color/green"
+        android:textSize="30sp"/>
+
     <View
         android:id="@+id/view1"
         style="@style/Divider"
@@ -134,6 +144,16 @@
         android:text="ver+"
         android:textAllCaps="false"
         android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/preciocombo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/combo2txtdesc"
+        android:layout_margin="10dp"
+        android:textColor="@color/green"
+        android:textSize="30sp"/>
 
     <View
         android:id="@+id/view2"
@@ -180,6 +200,16 @@
         android:textAllCaps="false"
         android:textSize="16sp" />
 
+    <TextView
+        android:id="@+id/preciocombo3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/combo3txtdesc"
+        android:layout_margin="10dp"
+        android:textColor="@color/green"
+        android:textSize="30sp"/>
+
     <View
         android:id="@+id/view3"
         style="@style/Divider"
@@ -224,6 +254,16 @@
         android:text="@string/btnver"
         android:textAllCaps="false"
         android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/preciocombo4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/combo4txtdesc"
+        android:layout_margin="10dp"
+        android:textColor="@color/green"
+        android:textSize="30sp"/>
 
     <View
         android:id="@+id/view4"
