@@ -65,6 +65,7 @@
                     android:layout_height="wrap_content"
                     android:layout_toRightOf="@id/pilim1"
                     android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
                     android:text="@string/txtpiliprod"
                     android:textSize="20sp" />
 
@@ -74,6 +75,7 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@id/txtpilim1principal"
                     android:layout_toRightOf="@id/pilim1"
+                    android:paddingLeft="15dp"
                     android:text="@string/txtpilim1desc"
                     android:textColor="@color/grey"
                     android:textSize="16sp" />
@@ -82,9 +84,8 @@
                     android:id="@+id/btnpilim1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_above="@id/view1"
                     android:layout_alignParentRight="true"
-                    android:layout_below="@+id/txtpilim1desc"
-                    android:layout_marginBottom="4dp"
                     android:backgroundTint="@color/colorPrimary"
                     android:fontFamily="sans-serif-thin"
                     android:text="@string/btnver"
@@ -96,15 +97,15 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
-                    android:layout_below="@id/txtpilim1desc"
-                    android:layout_margin="10dp"
+                    android:layout_below="@id/pilim1"
+                    android:layout_margin="4dp"
                     android:textColor="@color/green"
                     android:textSize="30sp"/>
 
                 <View
                     android:id="@+id/view1"
                     style="@style/Divider"
-                    android:layout_below="@id/btnpilim1" />
+                    android:layout_below="@id/preciopilim1" />
 
                 <ImageView
                     android:id="@+id/pilim2"
@@ -138,9 +139,8 @@
                     android:id="@+id/btnpilim2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_above="@id/view2"
                     android:layout_alignParentRight="true"
-                    android:layout_below="@+id/txtpili2desc"
-                    android:layout_marginBottom="4dp"
                     android:backgroundTint="@color/colorPrimary"
                     android:fontFamily="sans-serif-thin"
                     android:text="@string/btnver"
@@ -152,7 +152,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
-                    android:layout_below="@id/txtpili2desc"
+                    android:layout_below="@id/pilim2"
                     android:layout_margin="10dp"
                     android:textColor="@color/green"
                     android:textSize="30sp"/>
@@ -160,7 +160,7 @@
                 <View
                     android:id="@+id/view2"
                     style="@style/Divider"
-                    android:layout_below="@id/btnpilim2" />
+                    android:layout_below="@id/preciopilim2" />
 
                 <ImageView
                     android:id="@+id/pilim6"
@@ -194,9 +194,8 @@
                     android:id="@+id/btnpilim3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_above="@id/view3"
                     android:layout_alignParentRight="true"
-                    android:layout_below="@+id/txtpili3desc"
-                    android:layout_marginBottom="4dp"
                     android:backgroundTint="@color/colorPrimary"
                     android:fontFamily="sans-serif-thin"
                     android:text="ver+"
@@ -208,7 +207,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
-                    android:layout_below="@id/txtpili3desc"
+                    android:layout_below="@id/pilim6"
                     android:layout_margin="10dp"
                     android:textColor="@color/green"
                     android:textSize="30sp"/>
@@ -217,7 +216,7 @@
                 <View
                     android:id="@+id/view3"
                     style="@style/Divider"
-                    android:layout_below="@id/btnpilim3" />
+                    android:layout_below="@id/preciopilim3" />
 
             </RelativeLayout>
 
