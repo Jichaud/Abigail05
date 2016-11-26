@@ -120,6 +120,15 @@ public class aventclassic extends AppCompatActivity {
             }
         });
 
+        btnaventclassic2 = (Button)findViewById(R.id.btnaventclassic2);
+        btnaventclassic2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnaventclassic2 = new Intent(aventclassic.this, aventclassic2.class);
+                startActivity(btnaventclassic2);
+            }
+        });
+
         producto = (Button) findViewById(R.id.btnvprod);
         marca = (Button) findViewById(R.id.btnvmarca);
         marca.setOnClickListener(new View.OnClickListener() {
