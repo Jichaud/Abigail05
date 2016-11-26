@@ -20,7 +20,7 @@
         <activity
             android:name=".almohadones"
             android:label="Abigail05 | Almohadones"
-            android:parentActivityName=".abriprodlist" />
+            android:parentActivityName=".abiprodlist" />
         <activity
             android:name=".combo1"
             android:label="Abigail05 | Almohadones"
@@ -42,13 +42,13 @@
             android:label="Abigail05 | Almohadones"
             android:parentActivityName=".almohadones" />
         <activity
-            android:name=".abriprodlist"
+            android:name=".abiprodlist"
             android:label="Productos Abigail05"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".niditos"
             android:label="Abigail05 | Niditos y cuellitos"
-            android:parentActivityName=".abriprodlist" />
+            android:parentActivityName=".abiprodlist" />
         <activity
             android:name=".nidito1"
             android:label="Abigail05 | Nidito"
@@ -64,14 +64,14 @@
         <activity
             android:name=".colchon1"
             android:label="Abigail05 | Colchoncitos"
-            android:parentActivityName=".abriprodlist" />
+            android:parentActivityName=".abiprodlist" />
         <activity
             android:name=".marcas"
             android:label="Marcas"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".pilimprodlist"
-            android:label="Pilim | Bolsos maternales"
+            android:label="Pilim | Productos"
             android:parentActivityName=".marcas" />
         <activity
             android:name=".pilim1"
@@ -80,10 +80,18 @@
         <activity
             android:name=".pilim2"
             android:label="Pilim | Bolso maternal"
-            android:parentActivityName=".pilimprodlist"/>
-        <activity android:name=".pilim3"
+            android:parentActivityName=".pilimprodlist" />
+        <activity
+            android:name=".pilim3"
             android:label="Pilim | Bolso maternal"
-            android:parentActivityName=".pilimprodlist">
+            android:parentActivityName=".pilimprodlist" />
+        <activity
+            android:name=".mibesprodlist"
+            android:label="mibes | Productos"
+            android:parentActivityName=".marcas"/>
+        <activity android:name=".mibes1"
+            android:label="mibes | Bolso maternal"
+            android:parentActivityName=".mibesprodlist">
 
         </activity>
     </application>

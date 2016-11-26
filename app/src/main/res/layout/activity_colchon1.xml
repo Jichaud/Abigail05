@@ -239,7 +239,8 @@
                         android:layout_centerHorizontal="true"
                         android:layout_margin="10dp"
                         android:textColor="@color/green"
-                        android:textSize="30sp"/>
+                        android:fontFamily="sans-serif-light"
+                        android:textSize="25sp"/>
 
                     <View
                         android:id="@+id/view3"

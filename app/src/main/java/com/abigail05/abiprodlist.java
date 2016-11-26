@@ -9,7 +9,7 @@ import android.widget.ImageView;
 
 import com.squareup.picasso.Picasso;
 
-public class abriprodlist extends AppCompatActivity {
+public class abiprodlist extends AppCompatActivity {
 
     Button home;
     Button producto;
@@ -27,7 +27,7 @@ public class abriprodlist extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_abriprodlist);
+        setContentView(R.layout.activity_abiprodlist);
 
         lista1img = (ImageView) findViewById(R.id.lista1img);
         Picasso.with(this).load(urllista1img).into(lista1img);
@@ -40,12 +40,19 @@ public class abriprodlist extends AppCompatActivity {
 
         producto = (Button) findViewById(R.id.btnvprod);
         marca = (Button) findViewById(R.id.btnvmarca);
+        marca.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent marca = new Intent(abiprodlist.this,marcas.class);
+                startActivity(marca);
+            }
+        });
 
         home = (Button) findViewById(R.id.btnhome);
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent home = new Intent(abriprodlist.this, MainActivity.class);
+                Intent home = new Intent(abiprodlist.this, MainActivity.class);
                 startActivity(home);
             }
         });
@@ -54,7 +61,7 @@ public class abriprodlist extends AppCompatActivity {
         btnlista1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent btnlista1 = new Intent(abriprodlist.this, almohadones.class);
+                Intent btnlista1 = new Intent(abiprodlist.this, almohadones.class);
                 startActivity(btnlista1);
             }
         });
@@ -63,7 +70,7 @@ public class abriprodlist extends AppCompatActivity {
         btnlista2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent btnlista2 = new Intent(abriprodlist.this, niditos.class);
+                Intent btnlista2 = new Intent(abiprodlist.this, niditos.class);
                 startActivity(btnlista2);
             }
         });
@@ -72,7 +79,7 @@ public class abriprodlist extends AppCompatActivity {
         btnlista3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent btnlista3 = new Intent(abriprodlist.this, colchon1.class);
+                Intent btnlista3 = new Intent(abiprodlist.this, colchon1.class);
                 startActivity(btnlista3);
             }
         });

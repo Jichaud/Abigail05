@@ -94,13 +94,8 @@
 
                 <TextView
                     android:id="@+id/preciopilim1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
                     android:layout_below="@id/pilim1"
-                    android:layout_margin="4dp"
-                    android:textColor="@color/green"
-                    android:textSize="30sp"/>
+                    style="@style/precio"/>
 
                 <View
                     android:id="@+id/view1"
@@ -149,13 +144,8 @@
 
                 <TextView
                     android:id="@+id/preciopilim2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
                     android:layout_below="@id/pilim2"
-                    android:layout_margin="10dp"
-                    android:textColor="@color/green"
-                    android:textSize="30sp"/>
+                    style="@style/precio"/>
 
                 <View
                     android:id="@+id/view2"
@@ -204,13 +194,8 @@
 
                 <TextView
                     android:id="@+id/preciopilim3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
                     android:layout_below="@id/pilim6"
-                    android:layout_margin="10dp"
-                    android:textColor="@color/green"
-                    android:textSize="30sp"/>
+                    style="@style/precio"/>
 
 
                 <View

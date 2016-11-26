@@ -51,7 +51,14 @@ public class colchon1 extends AppCompatActivity {
         preciocolchon1 = (TextView)findViewById(R.id.preciocolchon1);
 
         producto = (Button)findViewById(R.id.btnvprod);
-        marca = (Button)findViewById(R.id.btnvmarca);
+        marca = (Button) findViewById(R.id.btnvmarca);
+        marca.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent marca = new Intent(colchon1.this,marcas.class);
+                startActivity(marca);
+            }
+        });
 
         home = (Button)findViewById(R.id.btnhome);
         home.setOnClickListener(new View.OnClickListener() {

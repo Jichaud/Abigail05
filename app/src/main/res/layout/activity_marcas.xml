@@ -28,15 +28,6 @@
         android:text="@string/verxprod"
         android:textAllCaps="false"/>
 
-    <Button
-        android:id="@+id/btnvmarca"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:text="@string/verxmarca"
-        android:textAllCaps="false"/>
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -52,17 +43,65 @@
                 android:layout_height="match_parent"
                 android:layout_margin="6dp">
 
-            <ImageView
-                android:id="@+id/pilim"
-                android:layout_width="wrap_content"
-                android:layout_height="80dp"
-                android:padding="8dp"/>
+                <ImageView
+                    android:id="@+id/mibes"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:padding="8dp"/>
+
+                <TextView
+                    android:id="@+id/txtmibesmarca"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/mibes"
+                    android:paddingLeft="15dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/txtmibesmarca"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtmibesprod"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtmibesmarca"
+                    android:layout_toRightOf="@id/mibes"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtmibesprod"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnmibes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/txtmibesprod"
+                    android:layout_marginBottom="4dp"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <View
+                    android:id="@+id/view1"
+                    style="@style/Divider"
+                    android:layout_below="@id/btnmibes" />
+
+                <ImageView
+                    android:id="@+id/pilim"
+                    android:layout_width="80dp"
+                    android:layout_below="@id/view1"
+                    android:layout_height="80dp"
+                    android:padding="8dp"/>
 
                 <TextView
                     android:id="@+id/txtpilimmarca"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_toRightOf="@id/pilim"
+                    android:layout_below="@id/view1"
+                    android:paddingLeft="15dp"
                     android:fontFamily="sans-serif-light"
                     android:text="@string/txtpilimmarca"
                     android:textSize="20sp" />
@@ -72,7 +111,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/txtpilimmarca"
-                    android:layout_marginStart="100dp"
+                    android:layout_toRightOf="@id/pilim"
+                    android:paddingLeft="15dp"
                     android:text="@string/txtpiliprod"
                     android:textColor="@color/grey"
                     android:textSize="16sp" />
@@ -91,7 +131,7 @@
                     android:textSize="16sp" />
 
                 <View
-                    android:id="@+id/view1"
+                    android:id="@+id/view2"
                     style="@style/Divider"
                     android:layout_below="@id/btnpilim" />
 

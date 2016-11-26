@@ -92,13 +92,8 @@
 
     <TextView
         android:id="@+id/preciocombo1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@id/combo1img"
-        android:layout_margin="10dp"
-        android:textColor="@color/green"
-        android:textSize="30sp"/>
+        style="@style/precio"
+        android:layout_below="@id/combo1img"/>
 
     <View
         android:id="@+id/view1"
@@ -147,13 +142,8 @@
 
     <TextView
         android:id="@+id/preciocombo2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@id/combo2img"
-        android:layout_margin="10dp"
-        android:textColor="@color/green"
-        android:textSize="30sp"/>
+        style="@style/precio"
+        android:layout_below="@id/combo2img"/>
 
     <View
         android:id="@+id/view2"
@@ -202,13 +192,8 @@
 
     <TextView
         android:id="@+id/preciocombo3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@id/combo3img"
-        android:layout_margin="10dp"
-        android:textColor="@color/green"
-        android:textSize="30sp"/>
+        style="@style/precio"
+        android:layout_below="@id/combo3img"/>
 
     <View
         android:id="@+id/view3"
@@ -257,13 +242,8 @@
 
     <TextView
         android:id="@+id/preciocombo4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@id/combo4img"
-        android:layout_margin="10dp"
-        android:textColor="@color/green"
-        android:textSize="30sp"/>
+        style="@style/precio"
+        android:layout_below="@id/combo4img"/>
 
     <View
         android:id="@+id/view4"

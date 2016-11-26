@@ -65,6 +65,13 @@ public class almohadones extends AppCompatActivity {
 
         producto = (Button) findViewById(R.id.btnvprod);
         marca = (Button) findViewById(R.id.btnvmarca);
+        marca.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent marca = new Intent(almohadones.this,marcas.class);
+                startActivity(marca);
+            }
+        });
 
         vercombo1 = (Button) findViewById(R.id.btncombo1);
         vercombo1.setOnClickListener(new View.OnClickListener() {

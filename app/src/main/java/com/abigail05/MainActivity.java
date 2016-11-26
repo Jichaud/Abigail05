@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         vermasAbi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent vermasAbi = new Intent(MainActivity.this, abriprodlist.class);
+                Intent vermasAbi = new Intent(MainActivity.this, abiprodlist.class);
                 startActivity(vermasAbi);
             }
         });

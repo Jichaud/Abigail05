@@ -61,4 +61,10 @@
     <string name="txtpili3principal">Cartera</string>
     <string name="txtpili3desc">Cartera art. 5912 para Mamá lona lisa cambiador</string>
 
+    MiBes
+    <string name="txtmibesmarca">mibes</string>
+    <string name="txtmibesprod">Ropa y accesorios para bebés</string>
+    <string name="txtmibes1principal">Bolso maternal</string>
+    <string name="txtmibes1desc">Bolso art. 1016948 rectangular de símil jean con bordado "Spring and Sea"</string>
+
 </resources>

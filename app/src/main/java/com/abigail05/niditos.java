@@ -56,7 +56,14 @@ public class niditos extends AppCompatActivity {
         Picasso.with(this).load(urlnidito3img).into(nidito3img);
 
         producto = (Button)findViewById(R.id.btnvprod);
-        marca = (Button)findViewById(R.id.btnvmarca);
+        marca = (Button) findViewById(R.id.btnvmarca);
+        marca.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent marca = new Intent(niditos.this,marcas.class);
+                startActivity(marca);
+            }
+        });
 
         home = (Button)findViewById(R.id.btnhome);
         home.setOnClickListener(new View.OnClickListener() {

@@ -28,7 +28,14 @@ public class pilim1 extends AppCompatActivity {
         Picasso.with(this).load(urlpilim1).into(pilim1);
 
         producto = (Button)findViewById(R.id.btnvprod);
-        marca = (Button)findViewById(R.id.btnvmarca);
+        marca = (Button) findViewById(R.id.btnvmarca);
+        marca.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent marca = new Intent(pilim1.this,marcas.class);
+                startActivity(marca);
+            }
+        });
 
         home = (Button)findViewById(R.id.btnhome);
         home.setOnClickListener(new View.OnClickListener() {

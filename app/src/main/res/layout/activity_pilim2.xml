@@ -8,7 +8,7 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingTop="4dp"
     tools:context="com.abigail05.pilim2">
 
     <Button
@@ -204,7 +204,7 @@
                         android:layout_height="wrap_content"
                         android:layout_below="@id/txtpilim2principal"
                         android:paddingTop="10dp"
-                        android:text="@string/txtpilim1desc"
+                        android:text="@string/txtpili2desc"
                         android:textAlignment="center"
                         android:textColor="@color/grey"
                         android:textSize="20sp" />

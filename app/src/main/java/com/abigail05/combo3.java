@@ -42,7 +42,14 @@ public class combo3 extends AppCompatActivity {
         setContentView(R.layout.activity_combo3);
 
         producto = (Button)findViewById(R.id.btnvprod);
-        marca = (Button)findViewById(R.id.btnvmarca);
+        marca = (Button) findViewById(R.id.btnvmarca);
+        marca.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent marca = new Intent(combo3.this,marcas.class);
+                startActivity(marca);
+            }
+        });
 
         home = (Button)findViewById(R.id.btnhome);
         home.setOnClickListener(new View.OnClickListener() {

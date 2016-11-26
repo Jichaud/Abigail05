@@ -92,13 +92,8 @@
 
                 <TextView
                     android:id="@+id/precionidito1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:layout_below="@id/nidito1img"
-                    android:layout_margin="10dp"
-                    android:textColor="@color/green"
-                    android:textSize="30sp"/>
+                    style="@style/precio"
+                    android:layout_below="@id/nidito1img"/>
 
                 <View
                     android:id="@+id/view1"
@@ -147,13 +142,8 @@
 
                 <TextView
                     android:id="@+id/precionidito2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:layout_below="@id/nidito2img"
-                    android:layout_margin="10dp"
-                    android:textColor="@color/green"
-                    android:textSize="30sp"/>
+                    style="@style/precio"
+                    android:layout_below="@id/nidito2img"/>
 
                 <View
                     android:id="@+id/view2"
@@ -202,13 +192,8 @@
 
                 <TextView
                     android:id="@+id/precionidito3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:layout_below="@id/nidito3img"
-                    android:layout_margin="10dp"
-                    android:textColor="@color/green"
-                    android:textSize="30sp"/>
+                    style="@style/precio"
+                    android:layout_below="@id/nidito3img"/>
 
                 <View
                     android:id="@+id/view3"
