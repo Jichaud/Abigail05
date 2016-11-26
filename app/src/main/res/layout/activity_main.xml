@@ -20,6 +20,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:paddingBottom="10dp"
         android:orientation="vertical">
         
         <ImageView
@@ -110,36 +111,36 @@
                 android:layout_height="wrap_content">
 
                 <ImageView
-                    android:id="@+id/imgprod"
+                    android:id="@+id/imgmarca"
                     android:layout_width="100dp"
-                    android:layout_height="50dp"
+                    android:layout_height="60dp"
                     android:paddingTop="10dp"/>
 
                 <TextView
-                    android:id="@+id/txtprodxprod"
+                    android:id="@+id/txtprodxmarca"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_toEndOf="@id/imgprod"
+                    android:layout_toEndOf="@id/imgmarca"
                     android:fontFamily="sans-serif-light"
                     android:paddingStart="10dp"
                     android:paddingTop="5dp"
-                    android:text="@string/AMbuscaprod"
+                    android:text="@string/AMbuscamarca"
                     android:textSize="20sp" />
 
                 <TextView
-                    android:id="@+id/txtvarios"
+                    android:id="@+id/txtmarca"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/txtprodxprod"
-                    android:layout_toEndOf="@id/imgprod"
+                    android:layout_below="@id/txtprodxmarca"
+                    android:layout_toEndOf="@id/imgmarca"
                     android:paddingLeft="10dp"
-                    android:paddingTop="2dp"
-                    android:text="@string/AMtxtdescxprod"
+                    android:paddingTop="1dp"
+                    android:text="@string/AMtxtdescxmarca"
                     android:textColor="@color/grey"
                     android:textSize="16sp" />
 
                 <Button
-                    android:id="@+id/xprodbtn"
+                    android:id="@+id/marcabtn"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true"
@@ -173,36 +174,36 @@
                 android:layout_height="wrap_content">
 
                 <ImageView
-                    android:id="@+id/imgmarca"
+                    android:id="@+id/imgprod"
                     android:layout_width="100dp"
-                    android:layout_height="60dp"
+                    android:layout_height="50dp"
                     android:paddingTop="10dp"/>
 
                 <TextView
-                    android:id="@+id/txtprodxmarca"
+                    android:id="@+id/txtprodxprod"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_toEndOf="@id/imgmarca"
+                    android:layout_toEndOf="@id/imgprod"
                     android:fontFamily="sans-serif-light"
                     android:paddingStart="10dp"
                     android:paddingTop="5dp"
-                    android:text="@string/AMbuscamarca"
+                    android:text="@string/AMbuscaprod"
                     android:textSize="20sp" />
 
                 <TextView
-                    android:id="@+id/txtmarca"
+                    android:id="@+id/txtvarios"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/txtprodxmarca"
-                    android:layout_toEndOf="@id/imgmarca"
+                    android:layout_below="@id/txtprodxprod"
+                    android:layout_toEndOf="@id/imgprod"
                     android:paddingLeft="10dp"
-                    android:paddingTop="1dp"
-                    android:text="@string/AMtxtdescxmarca"
+                    android:paddingTop="2dp"
+                    android:text="@string/AMtxtdescxprod"
                     android:textColor="@color/grey"
                     android:textSize="16sp" />
 
                 <Button
-                    android:id="@+id/marcabtn"
+                    android:id="@+id/xprodbtn"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true"

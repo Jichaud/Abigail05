@@ -1,13 +1,21 @@
 package com.abigail05;
 
 import android.content.Intent;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.squareup.picasso.Picasso;
+
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.select.Elements;
+
+import java.io.IOException;
 
 public class niditos extends AppCompatActivity {
 
@@ -17,6 +25,9 @@ public class niditos extends AppCompatActivity {
     Button home;
     Button producto;
     Button marca;
+    TextView precionidito1;
+    TextView precionidito2;
+    TextView precionidito3;
     ImageView nidito1img;
     String urlnidito1img = "https://lh3.googleusercontent.com/azLfqv-uz03eh61Zt1qjmkLdDzV96CydQ_hXOQrLQ5IiJoFOzG8UD8Mg2Pnfwxel2z7D0N9yrKK1oQAdd0u2JYzSKKPacISWwkwRrxD2kwy3C1KDIxkpCGs-hOw7TZl8OZIjm15o29w1nvCFaO9vJYjZrA7yP3SPp3e76Ga-N4redX3d0anSAlO9wUHfpoxswgvDnIgtlKHRiYBCCp8aBs6QHHyiWbNRLiz2cMEbJWqH8rgGBgu-AnFOJCXqX1K4z1TtHD7rC2tP7qLUmC3Vfh6K83dLZjt3ShbkOutMZD7IanCLMAQJn4xUDRQS6pLWZHgF8YaKulJ8GX7rmLr35mnSAxwsAHQROpQb_jubf-gjBt7j2VSMsWCjWC3TpK76Eh_kcu7gWnfaQvct1dlXZsNYzMhBxqfj-9Cz8iKTfQ60O4GfHgMBcmn2A-MWG5_rTkdDTJD2u5J1C1VtpTyeWLJTIquag-r21oTA1LKzBlX-XoVJnP-S8dpgAN2Xra8HayK5MZEBlNtBKNOVFD0slKXtea_-HT4PJy4oW713_KtINRMFqZ4buBb5r4oNq-h7YxG2ZXz_PsVFcF-7-oz5aoiGPEQZuYsG9V3E9-nkoNfeJ1CWkw=w471-h404-no";
     ImageView nidito2img;
@@ -28,6 +39,12 @@ public class niditos extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_niditos);
+
+        new precionidito1Async().execute();
+
+        precionidito1 = (TextView)findViewById(R.id.precionidito1);
+        precionidito2 = (TextView)findViewById(R.id.precionidito2);
+        precionidito3 = (TextView)findViewById(R.id.precionidito3);
 
         nidito1img = (ImageView)findViewById(R.id.nidito1img);
         Picasso.with(this).load(urlnidito1img).into(nidito1img);
@@ -78,4 +95,47 @@ public class niditos extends AppCompatActivity {
         });
 
     }
+
+    public class precionidito1Async extends AsyncTask<Void, Void, Void> {
+
+        String urlprecio1 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=eb68d4b4bf34329b8db92491a6cfed65";
+        String urlprecio2 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=1270985443f9cb4b4f4a0b42782c6bb3";
+        String urlprecio3 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=00adb14c0a2fb5329a19dd28a3d78a6b";
+        String precionidito1st;
+        String precionidito2st;
+        String precionidito3st;
+
+        @Override
+        protected Void doInBackground(Void... voids) {
+
+            try {
+                Document doc1 = Jsoup.connect(urlprecio1).get();
+                Elements metapropoerty1 = doc1.select("meta[property=\"og:description\"]");
+                precionidito1st = metapropoerty1.attr("content");
+
+                Document doc2 = Jsoup.connect(urlprecio2).get();
+                Elements metapropoerty2 = doc2.select("meta[property=\"og:description\"]");
+                precionidito2st = metapropoerty2.attr("content");
+
+                Document doc3 = Jsoup.connect(urlprecio3).get();
+                Elements metapropoerty3 = doc3.select("meta[property=\"og:description\"]");
+                precionidito3st = metapropoerty3.attr("content");
+
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(Void aVoid) {
+            super.onPostExecute(aVoid);
+            precionidito1.setText(precionidito1st);
+            precionidito2.setText(precionidito2st);
+            precionidito3.setText(precionidito3st);
+        }
+
+    }
+
 }

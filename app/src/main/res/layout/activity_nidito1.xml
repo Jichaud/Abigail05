@@ -109,13 +109,12 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@id/view2"
-                        android:backgroundTint="#FFFF"
+                        android:backgroundTint="@color/pink"
                         android:paddingTop="10dp"
                         android:text="@string/stock"
                         android:textAlignment="center"
                         android:textColor="@color/colorPrimaryDark"
-                        android:textSize="14sp"
-                        android:textStyle="bold" />
+                        android:textSize="14sp" />
 
                     <Button
                         android:id="@+id/btncompranidito1"

@@ -231,18 +231,32 @@
                         style="@style/Divider"
                         android:layout_below="@id/colchon1txtdesc" />
 
+                    <TextView
+                        android:id="@+id/preciocolchon1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/view2"
+                        android:layout_centerHorizontal="true"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/green"
+                        android:textSize="30sp"/>
+
+                    <View
+                        android:id="@+id/view3"
+                        style="@style/Divider"
+                        android:layout_below="@id/preciocolchon1" />
+
                     <Button
                         android:id="@+id/btnconsulta"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_below="@id/view2"
-                        android:backgroundTint="#FFFF"
+                        android:layout_below="@id/view3"
+                        android:backgroundTint="@color/pink"
                         android:paddingTop="10dp"
                         android:text="@string/stock"
                         android:textAlignment="center"
                         android:textColor="@color/colorPrimaryDark"
-                        android:textSize="14sp"
-                        android:textStyle="bold" />
+                        android:textSize="14sp"/>
 
                     <Button
                         android:id="@+id/btncolchon1"

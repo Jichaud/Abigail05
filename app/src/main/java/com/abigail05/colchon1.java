@@ -1,6 +1,7 @@
 package com.abigail05;
 
 import android.content.Intent;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -10,12 +11,19 @@ import android.widget.TextView;
 
 import com.squareup.picasso.Picasso;
 
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.select.Elements;
+
+import java.io.IOException;
+
 public class colchon1 extends AppCompatActivity {
 
     Button home;
     Button producto;
     Button marca;
     Button comprarcolchon1;
+    TextView preciocolchon1;
     TextView txtmodelo1;
     TextView txtmodelo2;
     TextView txtmodelo3;
@@ -37,6 +45,10 @@ public class colchon1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_colchon1);
+
+        new preciocolchon1Async().execute();
+
+        preciocolchon1 = (TextView)findViewById(R.id.preciocolchon1);
 
         producto = (Button)findViewById(R.id.btnvprod);
         marca = (Button)findViewById(R.id.btnvmarca);
@@ -132,4 +144,33 @@ public class colchon1 extends AppCompatActivity {
         });
 
     }
+
+    public class preciocolchon1Async extends AsyncTask<Void, Void, Void> {
+
+        String urlprecio1 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=d71eaa2befd5ed119ea3bf37a813bdad";
+        String preciocolchon1st;
+
+        @Override
+        protected Void doInBackground(Void... voids) {
+
+            try {
+                Document doc1 = Jsoup.connect(urlprecio1).get();
+                Elements metapropoerty1 = doc1.select("meta[property=\"og:description\"]");
+                preciocolchon1st = metapropoerty1.attr("content");
+
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(Void aVoid) {
+            super.onPostExecute(aVoid);
+            preciocolchon1.setText(preciocolchon1st);
+        }
+
+    }
+
 }

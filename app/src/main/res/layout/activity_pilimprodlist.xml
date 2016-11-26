@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_pilimprodlist"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -55,8 +55,8 @@
 
                 <ImageView
                     android:id="@+id/pilim1"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
                     android:padding="2dp"/>
 
                 <TextView
@@ -73,7 +73,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/txtpilim1principal"
-                    android:layout_marginStart="100dp"
+                    android:layout_toRightOf="@id/pilim1"
                     android:text="@string/txtpilim1desc"
                     android:textColor="@color/grey"
                     android:textSize="16sp" />
@@ -91,6 +91,16 @@
                     android:textAllCaps="false"
                     android:textSize="16sp" />
 
+                <TextView
+                    android:id="@+id/preciopilim1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@id/txtpilim1desc"
+                    android:layout_margin="10dp"
+                    android:textColor="@color/green"
+                    android:textSize="30sp"/>
+
                 <View
                     android:id="@+id/view1"
                     style="@style/Divider"
@@ -99,7 +109,7 @@
                 <ImageView
                     android:id="@+id/pilim2"
                     android:layout_width="90dp"
-                    android:layout_height="90dp"
+                    android:layout_height="70dp"
                     android:layout_below="@id/view1"/>
 
                 <TextView
@@ -125,7 +135,7 @@
                     android:textSize="16sp" />
 
                 <Button
-                    android:id="@+id/btnlista2"
+                    android:id="@+id/btnpilim2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
@@ -133,49 +143,59 @@
                     android:layout_marginBottom="4dp"
                     android:backgroundTint="@color/colorPrimary"
                     android:fontFamily="sans-serif-thin"
-                    android:text="ver+"
+                    android:text="@string/btnver"
                     android:textAllCaps="false"
                     android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/preciopilim2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@id/txtpili2desc"
+                    android:layout_margin="10dp"
+                    android:textColor="@color/green"
+                    android:textSize="30sp"/>
 
                 <View
                     android:id="@+id/view2"
                     style="@style/Divider"
-                    android:layout_below="@id/btnlista2" />
+                    android:layout_below="@id/btnpilim2" />
 
                 <ImageView
-                    android:id="@+id/lista3img"
+                    android:id="@+id/pilim6"
                     android:layout_width="90dp"
-                    android:layout_height="100dp"
+                    android:layout_height="70dp"
                     android:layout_below="@id/view2"/>
 
                 <TextView
-                    android:id="@+id/txtlista3principal"
-                    android:layout_width="match_parent"
+                    android:id="@+id/txtpili3principal"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/view2"
-                    android:layout_toRightOf="@id/lista3img"
+                    android:layout_toRightOf="@id/pilim6"
                     android:fontFamily="sans-serif-light"
                     android:paddingLeft="15dp"
-                    android:text="@string/txtlista3"
+                    android:text="@string/txtpili3principal"
                     android:textSize="20sp" />
 
                 <TextView
-                    android:id="@+id/lista3txtdesc"
-                    android:layout_width="match_parent"
+                    android:id="@+id/txtpili3desc"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/txtlista3principal"
-                    android:layout_toRightOf="@id/lista3img"
+                    android:layout_below="@id/txtpili3principal"
+                    android:layout_toRightOf="@id/pilim6"
                     android:paddingLeft="15dp"
-                    android:text="@string/txtlista3desc"
+                    android:text="@string/txtpili3desc"
                     android:textColor="@color/grey"
                     android:textSize="16sp" />
 
                 <Button
-                    android:id="@+id/btnlista3"
+                    android:id="@+id/btnpilim3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
-                    android:layout_below="@+id/lista3txtdesc"
+                    android:layout_below="@+id/txtpili3desc"
                     android:layout_marginBottom="4dp"
                     android:backgroundTint="@color/colorPrimary"
                     android:fontFamily="sans-serif-thin"
@@ -183,10 +203,21 @@
                     android:textAllCaps="false"
                     android:textSize="16sp" />
 
+                <TextView
+                    android:id="@+id/preciopilim3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@id/txtpili3desc"
+                    android:layout_margin="10dp"
+                    android:textColor="@color/green"
+                    android:textSize="30sp"/>
+
+
                 <View
                     android:id="@+id/view3"
                     style="@style/Divider"
-                    android:layout_below="@id/btnlista3" />
+                    android:layout_below="@id/btnpilim3" />
 
             </RelativeLayout>
 

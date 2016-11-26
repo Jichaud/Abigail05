@@ -72,8 +72,16 @@
         <activity
             android:name=".pilimprodlist"
             android:label="Pilim | Bolsos maternales"
-            android:parentActivityName=".marcas"/>
-        <activity android:name=".pilim1"
+            android:parentActivityName=".marcas" />
+        <activity
+            android:name=".pilim1"
+            android:label="Pilim | Bolso maternal"
+            android:parentActivityName=".pilimprodlist" />
+        <activity
+            android:name=".pilim2"
+            android:label="Pilim | Bolso maternal"
+            android:parentActivityName=".pilimprodlist"/>
+        <activity android:name=".pilim3"
             android:label="Pilim | Bolso maternal"
             android:parentActivityName=".pilimprodlist">
 
