@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_marcas"
+    android:id="@+id/activity_aventprodlist"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="4dp"
-    tools:context="com.abigail05.marcas">
+    tools:context="com.abigail05.aventprodlist">
 
     <Button
         android:id="@+id/btnhome"
@@ -28,6 +28,15 @@
         android:text="@string/verxprod"
         android:textAllCaps="false"/>
 
+    <Button
+        android:id="@+id/btnvmarca"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="@string/verxmarca"
+        android:textAllCaps="false"/>
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -44,39 +53,38 @@
                 android:layout_margin="6dp">
 
                 <ImageView
-                    android:id="@+id/avent"
-                    android:layout_width="80dp"
+                    android:id="@+id/aventclassic"
+                    android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:padding="8dp"/>
+                    android:padding="2dp"/>
 
                 <TextView
-                    android:id="@+id/txtaventmarca"
+                    android:id="@+id/txtaventclassic"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_toRightOf="@id/avent"
-                    android:paddingLeft="15dp"
+                    android:layout_toRightOf="@id/aventclassic"
                     android:fontFamily="sans-serif-light"
-                    android:text="@string/txtaventmarca"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtaventclassic"
                     android:textSize="20sp" />
 
                 <TextView
-                    android:id="@+id/txtaventprod"
+                    android:id="@+id/txtaventdescclassic"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/txtaventmarca"
-                    android:layout_toRightOf="@id/avent"
+                    android:layout_below="@id/txtaventclassic"
+                    android:layout_toRightOf="@id/aventclassic"
                     android:paddingLeft="15dp"
                     android:text="@string/txtaventprod"
                     android:textColor="@color/grey"
                     android:textSize="16sp" />
 
                 <Button
-                    android:id="@+id/btnavent"
+                    android:id="@+id/btnaventclassic"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_below="@id/txtaventdescclassic"
                     android:layout_alignParentRight="true"
-                    android:layout_below="@+id/txtaventprod"
-                    android:layout_marginBottom="4dp"
                     android:backgroundTint="@color/colorPrimary"
                     android:fontFamily="sans-serif-thin"
                     android:text="@string/btnver"
@@ -86,44 +94,43 @@
                 <View
                     android:id="@+id/view1"
                     style="@style/Divider"
-                    android:layout_below="@id/btnavent" />
+                    android:layout_below="@id/btnaventclassic" />
 
                 <ImageView
-                    android:id="@+id/mibes"
-                    android:layout_width="80dp"
+                    android:id="@+id/aventnatural"
+                    android:layout_width="90dp"
                     android:layout_height="80dp"
                     android:layout_below="@id/view1"
-                    android:padding="8dp"/>
+                    android:padding="2dp"/>
 
                 <TextView
-                    android:id="@+id/txtmibesmarca"
+                    android:id="@+id/txtaventnatural"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/view1"
-                    android:layout_toRightOf="@id/mibes"
-                    android:paddingLeft="15dp"
+                    android:layout_toRightOf="@id/aventnatural"
                     android:fontFamily="sans-serif-light"
-                    android:text="@string/txtmibesmarca"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtaventnatural"
                     android:textSize="20sp" />
 
                 <TextView
-                    android:id="@+id/txtmibesprod"
+                    android:id="@+id/txtaventdescnatural"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/txtmibesmarca"
-                    android:layout_toRightOf="@id/mibes"
+                    android:layout_below="@id/txtaventnatural"
+                    android:layout_toRightOf="@id/aventnatural"
                     android:paddingLeft="15dp"
-                    android:text="@string/txtmibesprod"
+                    android:text="@string/txtaventprod"
                     android:textColor="@color/grey"
                     android:textSize="16sp" />
 
                 <Button
-                    android:id="@+id/btnmibes"
+                    android:id="@+id/btnaventnatural"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_below="@id/txtaventdescnatural"
                     android:layout_alignParentRight="true"
-                    android:layout_below="@+id/txtmibesprod"
-                    android:layout_marginBottom="4dp"
                     android:backgroundTint="@color/colorPrimary"
                     android:fontFamily="sans-serif-thin"
                     android:text="@string/btnver"
@@ -133,44 +140,43 @@
                 <View
                     android:id="@+id/view2"
                     style="@style/Divider"
-                    android:layout_below="@id/btnmibes" />
+                    android:layout_below="@id/btnaventnatural" />
 
                 <ImageView
-                    android:id="@+id/pilim"
-                    android:layout_width="80dp"
-                    android:layout_below="@id/view2"
+                    android:id="@+id/aventchupetes"
+                    android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:padding="8dp"/>
+                    android:layout_below="@id/view2"
+                    android:padding="2dp"/>
 
                 <TextView
-                    android:id="@+id/txtpilimmarca"
+                    android:id="@+id/txtaventchupetes"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_toRightOf="@id/pilim"
                     android:layout_below="@id/view2"
-                    android:paddingLeft="15dp"
+                    android:layout_toRightOf="@id/aventchupetes"
                     android:fontFamily="sans-serif-light"
-                    android:text="@string/txtpilimmarca"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtaventchupetes"
                     android:textSize="20sp" />
 
                 <TextView
-                    android:id="@+id/txtpilimprod"
+                    android:id="@+id/txtaventdescchupetes"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/txtpilimmarca"
-                    android:layout_toRightOf="@id/pilim"
+                    android:layout_below="@id/txtaventchupetes"
+                    android:layout_toRightOf="@id/aventchupetes"
                     android:paddingLeft="15dp"
-                    android:text="@string/txtpiliprod"
+                    android:text="@string/txtaventchupetesdesc"
                     android:textColor="@color/grey"
                     android:textSize="16sp" />
 
                 <Button
-                    android:id="@+id/btnpilim"
+                    android:id="@+id/btnaventchupetes"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_below="@id/txtaventdescchupetes"
                     android:layout_alignParentRight="true"
-                    android:layout_below="@+id/txtpilimprod"
-                    android:layout_marginBottom="4dp"
                     android:backgroundTint="@color/colorPrimary"
                     android:fontFamily="sans-serif-thin"
                     android:text="@string/btnver"
@@ -180,7 +186,53 @@
                 <View
                     android:id="@+id/view3"
                     style="@style/Divider"
-                    android:layout_below="@id/btnpilim" />
+                    android:layout_below="@id/btnaventchupetes" />
+
+                <ImageView
+                    android:id="@+id/aventaccesorios"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view3"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtaventaccesorios"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view3"
+                    android:layout_toRightOf="@id/aventaccesorios"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtaventaccesorios"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtaventdescaccesorios"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtaventaccesorios"
+                    android:layout_toRightOf="@id/aventaccesorios"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtaventaccesoriosdesc"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnaventaccesorios"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtaventdescaccesorios"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <View
+                    android:id="@+id/view4"
+                    style="@style/Divider"
+                    android:layout_below="@id/btnaventaccesorios" />
 
             </RelativeLayout>
 

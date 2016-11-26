@@ -2,6 +2,7 @@ package com.abigail05;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.provider.ContactsContract;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
@@ -18,6 +19,9 @@ public class marcas extends AppCompatActivity {
     ImageView mibes;
     String urlmibes = "https://lh3.googleusercontent.com/EAOTJqJ5_wPIgUG4aI3A4qjrWZCk7m5LSTAZPI4-TLjPGMjS8Mmv1wQPM-vGqNAGMQJdGxidkisRGofMxC7_gbAKuA-jQfbzLN4X3mPHE2LzCIxZogQwfF7pZj3Hpog1fYd35Pe7RpAYsFf9YaVx5BnNP9czShHwn-YWE_CSjwimnwh-eDfS2uRM72Wy3_cX7G5FGLJpbhhZ4JmZtMaC5b67lYPVOaSUE1JPdSSyUs3Np2wt5VbePPjYKq1qAi96wP140jATvwckKXK0KGojGJxer629J92yvRZXeRobk3YfuoVo2I0Z3j9ybqCaP6WZUw6uSg4pnjf8HKrH0YAJ4smXm8VWnq-ImfL4_Bwv0SsopzFrX9VGK15O6-_jwZae5DiS5GrUlTbGJAyab3xvbEVejM-9SRIvSrp6qx5TEVuUnCmKHnxUcl6fU1By41KaaFGZFgoxhL2XwvcUsovr6qSVZb0eDvUc2r4_t01k6Fo1kb6wWl9HmOcP4b9CZsL5W-Pn1d_POVBV6e62blxYoOEc8MkJYGxX0fV6OL816gFRq3n9hFpZMFPZGDjzuwAWDsUF7FdEgBFy9UDJnERIMzH-nVn5Li7LFcBp5cNzPuzn364SiQ=w166-h92-no";
     Button btnmibes;
+    ImageView avent;
+    String urlavent = "https://lh3.googleusercontent.com/btFr5nISg2mbHvi_ZjI1aFsKg9NyeLQLCwbGCcaXyWA1dTsBv9CQT9NjLrbibBxE69_9Dv8HfWaYaIaRmgMEXPQCu-Q6RBUKmGVXKP02fr-KUWDDdO_YV1G2N4QbJcteaqn1V24jZW00mbXDnKvxRWse_N-p9mqRSyXffOPv9850UvciaEKuShtoAaiAr8DGO_uvTFq-v91g4AgQ6T8UjvKS4dmwEVAr1zwWI3Ti7cgxwUvTM8_cTkk5XRcp9wmtrAj4Dv-_-voq8tEUI4Kv25GtaR0efVumc93xISfRcgeSROQ5ST7cKVlSK-xCOOEQ_o9p303LfLttFbsHuWw3XlvazdRCvSLrvg5__-J-U2JARy6lvob2OunHpogOmlbrG1jLjhYJ-bZA3YOJAIwILqpDm777HBfLvWvQ9aSZXv_gUktsqJtH6jIq1c-clfi97jTz0xUug4G_w8sArEFTicm5zmyZpKi_6wg05IHM5CZiSfjMvZ55rl5Sn1VYhpDqVQAcqYH02j-8Vrlgyft6JhueWki_Vw2oVSFl2mTfoNFDEGI--4ttvpdLmKRdW8mivu4tV2S1QhP23j0axWqJ94PuR5Eg7T56h4B1wkIEH_dFfuGuFQ=w151-h70-no";
+    Button btnavent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,6 +49,18 @@ public class marcas extends AppCompatActivity {
             public void onClick(View view) {
                 Intent btnmibes = new Intent(marcas.this,mibesprodlist.class);
                 startActivity(btnmibes);
+            }
+        });
+
+        avent = (ImageView)findViewById(R.id.avent);
+        Picasso.with(this).load(urlavent).into(avent);
+
+        btnavent = (Button)findViewById(R.id.btnavent);
+        btnavent.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnavent = new Intent(marcas.this,aventprodlist.class);
+                startActivity(btnavent);
             }
         });
 

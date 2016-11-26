@@ -88,10 +88,22 @@
         <activity
             android:name=".mibesprodlist"
             android:label="mibes | Productos"
-            android:parentActivityName=".marcas"/>
-        <activity android:name=".mibes1"
+            android:parentActivityName=".marcas" />
+        <activity
+            android:name=".mibes1"
             android:label="mibes | Bolso maternal"
-            android:parentActivityName=".mibesprodlist">
+            android:parentActivityName=".mibesprodlist" />
+        <activity
+            android:name=".mibes2"
+            android:label="mibes | Bolso maternal"
+            android:parentActivityName=".mibesprodlist" />
+        <activity
+            android:name=".aventprodlist"
+            android:label="Avent | Productos"
+            android:parentActivityName=".marcas"/>
+        <activity android:name=".aventclassic"
+            android:label="Avent | Línea classic"
+            android:parentActivityName=".aventprodlist">
 
         </activity>
     </application>

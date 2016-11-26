@@ -66,5 +66,27 @@
     <string name="txtmibesprod">Ropa y accesorios para bebés</string>
     <string name="txtmibes1principal">Bolso maternal</string>
     <string name="txtmibes1desc">Bolso art. 1016948 rectangular de símil jean con bordado "Spring and Sea"</string>
+    <string name="txtmibes2principal">Bolso maternal</string>
+    <string name="txtmibes2desc">Bolso art. 2016159 eco-cuero grande c/bordado. Colores: negro o rojo"</string>
+
+    Avent
+    <string name="txtaventmarca">Philips - Avent</string>
+    <string name="txtaventprod">Mamaderas, chupetes, tetinas, sacaleche y mucho más...</string>
+    <string name="txtaventclassic">Línea classic</string>
+    <string name="txtaventnatural">Línea natural</string>
+    <string name="txtaventchupetes">Chupetes</string>
+    <string name="txtaventchupetesdesc">Desde 0 a 6 meses y desde 6 meses a 18 meses</string>
+    <string name="txtaventaccesorios">Accesorios y seguridad</string>
+    <string name="txtaventaccesoriosdesc">Mordillos, cubiertos, platos, esterilizadores y más...</string>
+    <string name="txtaventclassic1">Philips Avent mamadera 125ml tetina de flujo muy lento 0m+</string>
+    <string name="txtaventclassic2">Philips Avent mamadera 260ml tetina de flujo lento 1m+</string>
+    <string name="txtaventclassic3">Philips Avent mamadera 330ml tetina de flujo variable 3m+</string>
+    <string name="txtaventclassic4">Philips Avent set recién nacido</string>
+    <string name="txtaventclassic5">Philips Avent tetina Classic+ de flujo muy lento 0m+</string>
+    <string name="txtaventclassic6">Philips Avent tetina Classic+ de flujo lento 1m+</string>
+    <string name="txtaventclassic7">Philips Avent tetina Classic de flujo medio 3m+</string>
+    <string name="txtaventclassic8">Philips Avent tetina Classic+ de flujo rápido 6m+</string>
+    <string name="txtaventclassic9">Philips Avent vaso con asas boquilla blanda 200ml + 6 meses</string>
+    <string name="txtaventclassic10">Philips Avent vaso con asas boquilla 260ml + 12 meses</string>
 
 </resources>
