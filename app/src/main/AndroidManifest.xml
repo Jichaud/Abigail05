@@ -100,10 +100,14 @@
         <activity
             android:name=".aventprodlist"
             android:label="Avent | Productos"
-            android:parentActivityName=".marcas"/>
-        <activity android:name=".aventclassic"
+            android:parentActivityName=".marcas" />
+        <activity
+            android:name=".aventclassic"
             android:label="Avent | Línea classic"
-            android:parentActivityName=".aventprodlist">
+            android:parentActivityName=".aventprodlist"/>
+        <activity android:name=".aventclassic1"
+            android:label="Avent | Mamadera"
+            android:parentActivityName=".aventclassic">
 
         </activity>
     </application>

@@ -111,6 +111,15 @@ public class aventclassic extends AppCompatActivity {
         aventclassic10 = (ImageView)findViewById(R.id.aventclassic10);
         Picasso.with(this).load(urlaventclassic10).into(aventclassic10);
 
+        btnaventclassic1 = (Button)findViewById(R.id.btnaventclassic1);
+        btnaventclassic1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnaventclassic1 = new Intent(aventclassic.this, aventclassic1.class);
+                startActivity(btnaventclassic1);
+            }
+        });
+
         producto = (Button) findViewById(R.id.btnvprod);
         marca = (Button) findViewById(R.id.btnvmarca);
         marca.setOnClickListener(new View.OnClickListener() {
