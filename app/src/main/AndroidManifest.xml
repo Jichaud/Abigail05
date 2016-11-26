@@ -104,8 +104,12 @@
         <activity
             android:name=".aventclassic"
             android:label="Avent | Línea classic"
-            android:parentActivityName=".aventprodlist"/>
-        <activity android:name=".aventclassic1"
+            android:parentActivityName=".aventprodlist" />
+        <activity
+            android:name=".aventclassic1"
+            android:label="Avent | Mamadera"
+            android:parentActivityName=".aventclassic"/>
+        <activity android:name=".aventclassic2"
             android:label="Avent | Mamadera"
             android:parentActivityName=".aventclassic">
 
