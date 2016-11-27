@@ -108,12 +108,19 @@
         <activity
             android:name=".aventclassic1"
             android:label="Avent | Mamadera"
-            android:parentActivityName=".aventclassic"/>
-        <activity android:name=".aventclassic2"
+            android:parentActivityName=".aventclassic" />
+        <activity
+            android:name=".aventclassic2"
             android:label="Avent | Mamadera"
-            android:parentActivityName=".aventclassic">
-
-        </activity>
+            android:parentActivityName=".aventclassic" />
+        <activity android:name=".aventclassic3" />
+        <activity android:name=".aventclassic4" />
+        <activity android:name=".aventclassic5" />
+        <activity android:name=".aventclassic6" />
+        <activity android:name=".aventclassic7" />
+        <activity android:name=".aventclassic8" />
+        <activity android:name=".aventclassic9" />
+        <activity android:name=".aventclassic10"></activity>
     </application>
 
 </manifest>

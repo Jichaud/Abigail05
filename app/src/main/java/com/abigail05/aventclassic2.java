@@ -50,9 +50,9 @@ public class aventclassic2 extends AppCompatActivity {
         btncompraaventclassic2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent btncompraaventclassic1 = new Intent(aventclassic2.this,webview.class);
-                btncompraaventclassic1.putExtra("string", urlcombo);
-                startActivity(btncompraaventclassic1);
+                Intent btncompraaventclassic2 = new Intent(aventclassic2.this,webview.class);
+                btncompraaventclassic2.putExtra("string", urlcombo);
+                startActivity(btncompraaventclassic2);
             }
         });
 
