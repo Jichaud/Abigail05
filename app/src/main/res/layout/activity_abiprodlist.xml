@@ -187,6 +187,98 @@
                     style="@style/Divider"
                     android:layout_below="@id/btnlista3" />
 
+                <ImageView
+                    android:id="@+id/almohada1"
+                    android:layout_width="90dp"
+                    android:layout_height="100dp"
+                    android:layout_below="@id/view3"/>
+
+                <TextView
+                    android:id="@+id/txtalmohada1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view3"
+                    android:layout_toRightOf="@id/almohada1"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtalmohada1"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtalmohada1desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtalmohada1"
+                    android:layout_toRightOf="@id/almohada1"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtalmohada1desc"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnalmohada1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/txtalmohada1desc"
+                    android:layout_marginBottom="4dp"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="ver+"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <View
+                    android:id="@+id/view4"
+                    style="@style/Divider"
+                    android:layout_below="@id/btnalmohada1" />
+
+                <ImageView
+                    android:id="@+id/fular1"
+                    android:layout_width="90dp"
+                    android:layout_height="100dp"
+                    android:layout_below="@id/view4"/>
+
+                <TextView
+                    android:id="@+id/txtfular1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view4"
+                    android:layout_toRightOf="@id/fular1"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtfular1"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtfular1desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtfular1"
+                    android:layout_toRightOf="@id/fular1"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtfular1desc"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnfular1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/txtfular1desc"
+                    android:layout_marginBottom="4dp"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="ver+"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <View
+                    android:id="@+id/view5"
+                    style="@style/Divider"
+                    android:layout_below="@id/btnfular1" />
+
             </RelativeLayout>
 
         </LinearLayout>

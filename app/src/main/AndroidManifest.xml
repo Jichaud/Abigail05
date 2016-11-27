@@ -113,30 +113,44 @@
             android:name=".aventclassic2"
             android:label="Avent | Mamadera"
             android:parentActivityName=".aventclassic" />
-        <activity android:name=".aventclassic3"
+        <activity
+            android:name=".aventclassic3"
             android:label="Avent | Mamadera"
-            android:parentActivityName=".aventclassic"/>
-        <activity android:name=".aventclassic4"
+            android:parentActivityName=".aventclassic" />
+        <activity
+            android:name=".aventclassic4"
             android:label="Avent | Set recién nacido"
-            android:parentActivityName=".aventclassic"/>
-        <activity android:name=".aventclassic5"
+            android:parentActivityName=".aventclassic" />
+        <activity
+            android:name=".aventclassic5"
             android:label="Avent | Tetina Classic+"
-            android:parentActivityName=".aventclassic"/>
-        <activity android:name=".aventclassic6"
+            android:parentActivityName=".aventclassic" />
+        <activity
+            android:name=".aventclassic6"
             android:label="Avent | Tetina Classic+"
-            android:parentActivityName=".aventclassic"/>
-        <activity android:name=".aventclassic7"
+            android:parentActivityName=".aventclassic" />
+        <activity
+            android:name=".aventclassic7"
             android:label="Avent | Tetina Classic+"
-            android:parentActivityName=".aventclassic"/>
-        <activity android:name=".aventclassic8"
+            android:parentActivityName=".aventclassic" />
+        <activity
+            android:name=".aventclassic8"
             android:label="Avent | Tetina Classic+"
-            android:parentActivityName=".aventclassic"/>
-        <activity android:name=".aventclassic9"
+            android:parentActivityName=".aventclassic" />
+        <activity
+            android:name=".aventclassic9"
             android:label="Avent | Vaso con asas"
-            android:parentActivityName=".aventclassic"/>
-        <activity android:name=".aventclassic10"
+            android:parentActivityName=".aventclassic" />
+        <activity
+            android:name=".aventclassic10"
             android:label="Avent | Vaso con asas"
-            android:parentActivityName=".aventclassic">
+            android:parentActivityName=".aventclassic" />
+        <activity android:name=".almohada1"
+            android:label="Abigail05 | Almohada"
+            android:parentActivityName=".abiprodlist"/>
+        <activity android:name=".fular1"
+            android:label="Abigail05 | Fular"
+            android:parentActivityName=".abiprodlist">
 
         </activity>
     </application>

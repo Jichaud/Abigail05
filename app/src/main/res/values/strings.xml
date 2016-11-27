@@ -27,6 +27,12 @@
     <string name="txtcombo3desc">Almohadón Grande y Nidito de Contención</string>
     <string name="txtcombo4desc">+ Manta con Gorrito de Polar Personalizada</string>
     <string name="txtcolores">Clic sobre las vistas</string>
+    <string name="txtalmohada1">Almohada</string>
+    <string name="txtalmohada1desc">Almohada 1 plaza vellón siliconado extra soft</string>
+    <string name="txtalmohada1desc1">Almohada 1 plaza super rellenas material vellón siliconado extra soft. Confeccionada en friselina.</string>
+    <string name="txtfular1">Fular elástico</string>
+    <string name="txtfular1desc">Fular elástico varios colores</string>
+    <string name="txtfular1desc1">Varios colores: gris, rojo, turquesa, verde agua oscuro y negro</string>
 
     Combo1
     <string name="stock">Consultá stock antes de comprar</string>
