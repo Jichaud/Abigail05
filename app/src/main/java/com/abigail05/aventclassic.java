@@ -129,6 +129,78 @@ public class aventclassic extends AppCompatActivity {
             }
         });
 
+        btnaventclassic3 = (Button)findViewById(R.id.btnaventclassic3);
+        btnaventclassic3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnaventclassic3 = new Intent(aventclassic.this, aventclassic3.class);
+                startActivity(btnaventclassic3);
+            }
+        });
+
+        btnaventclassic4 = (Button)findViewById(R.id.btnaventclassic4);
+        btnaventclassic4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnaventclassic4 = new Intent(aventclassic.this, aventclassic4.class);
+                startActivity(btnaventclassic4);
+            }
+        });
+
+        btnaventclassic5 = (Button)findViewById(R.id.btnaventclassic5);
+        btnaventclassic5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnaventclassic5 = new Intent(aventclassic.this, aventclassic5.class);
+                startActivity(btnaventclassic5);
+            }
+        });
+
+        btnaventclassic6 = (Button)findViewById(R.id.btnaventclassic6);
+        btnaventclassic6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnaventclassic6 = new Intent(aventclassic.this, aventclassic6.class);
+                startActivity(btnaventclassic6);
+            }
+        });
+
+        btnaventclassic7 = (Button)findViewById(R.id.btnaventclassic7);
+        btnaventclassic7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnaventclassic7 = new Intent(aventclassic.this, aventclassic7.class);
+                startActivity(btnaventclassic7);
+            }
+        });
+
+        btnaventclassic8 = (Button)findViewById(R.id.btnaventclassic8);
+        btnaventclassic8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnaventclassic8 = new Intent(aventclassic.this, aventclassic8.class);
+                startActivity(btnaventclassic8);
+            }
+        });
+
+        btnaventclassic9 = (Button)findViewById(R.id.btnaventclassic9);
+        btnaventclassic9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnaventclassic9 = new Intent(aventclassic.this, aventclassic9.class);
+                startActivity(btnaventclassic9);
+            }
+        });
+
+        btnaventclassic10 = (Button)findViewById(R.id.btnaventclassic10);
+        btnaventclassic10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnaventclassic10 = new Intent(aventclassic.this, aventclassic10.class);
+                startActivity(btnaventclassic10);
+            }
+        });
+
         producto = (Button) findViewById(R.id.btnvprod);
         marca = (Button) findViewById(R.id.btnvmarca);
         marca.setOnClickListener(new View.OnClickListener() {
