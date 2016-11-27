@@ -106,11 +106,27 @@
                         style="@style/Divider"
                         android:layout_below="@id/txtfular1desc1" />
 
+                    <TextView
+                        android:id="@+id/preciofular1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/view2"
+                        android:layout_centerHorizontal="true"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/green"
+                        android:fontFamily="sans-serif-light"
+                        android:textSize="25sp"/>
+
+                    <View
+                        android:id="@+id/view3"
+                        style="@style/Divider"
+                        android:layout_below="@id/preciofular1" />
+
                     <Button
                         android:id="@+id/btnconsulta"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_below="@id/view2"
+                        android:layout_below="@id/view3"
                         android:backgroundTint="@color/pink"
                         android:paddingTop="10dp"
                         android:text="@string/stock"
