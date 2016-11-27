@@ -9,7 +9,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="4dp"
-    tools:context="com.abigail05.almohada1">
+    tools:context="com.abigail05.Abigail.almohada1">
 
     <Button
         android:id="@+id/btnhome"
@@ -67,12 +67,12 @@
                     android:layout_height="match_parent"
                     android:layout_margin="10dp">
 
-                    <ImageView
-                        android:id="@+id/almohada1"
-                        android:layout_width="400dp"
-                        android:layout_height="296dp"
-                        android:layout_centerHorizontal="true"
-                        android:layout_marginBottom="4dp" />
+                        <ImageView
+                            android:id="@+id/almohada1"
+                            android:layout_width="400dp"
+                            android:layout_height="296dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="4dp" />
 
                     <View
                         android:id="@+id/view1"

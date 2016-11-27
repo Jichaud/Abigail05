@@ -7,6 +7,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
+import com.abigail05.Avent.aventprodlist;
+import com.abigail05.mibes.mibesprodlist;
+import com.abigail05.pilim.pilimprodlist;
 import com.squareup.picasso.Picasso;
 
 public class marcas extends AppCompatActivity {

@@ -18,139 +18,176 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".almohadones"
+            android:name=".Abigail.almohadones"
             android:label="Abigail05 | Almohadones"
-            android:parentActivityName=".abiprodlist" />
+            android:parentActivityName=".Abigail.abiprodlist" />
         <activity
-            android:name=".combo1"
+            android:name=".Abigail.combo1"
             android:label="Abigail05 | Almohadones"
-            android:parentActivityName=".almohadones" />
+            android:parentActivityName=".Abigail.almohadones" />
         <activity
             android:name=".webview"
             android:label="Precio y forma de pago"
             android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".combo2"
+            android:name=".Abigail.combo2"
             android:label="Abigail05 | Almohadones"
-            android:parentActivityName=".almohadones" />
+            android:parentActivityName=".Abigail.almohadones" />
         <activity
-            android:name=".combo3"
+            android:name=".Abigail.combo3"
             android:label="Abigail05 | Almohadones"
-            android:parentActivityName=".almohadones" />
+            android:parentActivityName=".Abigail.almohadones" />
         <activity
-            android:name=".combo4"
+            android:name=".Abigail.combo4"
             android:label="Abigail05 | Almohadones"
-            android:parentActivityName=".almohadones" />
+            android:parentActivityName=".Abigail.almohadones" />
         <activity
-            android:name=".abiprodlist"
+            android:name=".Abigail.abiprodlist"
             android:label="Productos Abigail05"
             android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".niditos"
+            android:name=".Abigail.niditos"
             android:label="Abigail05 | Niditos y cuellitos"
-            android:parentActivityName=".abiprodlist" />
+            android:parentActivityName=".Abigail.abiprodlist" />
         <activity
-            android:name=".nidito1"
+            android:name=".Abigail.nidito1"
             android:label="Abigail05 | Nidito"
-            android:parentActivityName=".niditos" />
+            android:parentActivityName=".Abigail.niditos" />
         <activity
-            android:name=".nidito2"
+            android:name=".Abigail.nidito2"
             android:label="Abigail05 | Cuellito bebé"
-            android:parentActivityName=".niditos" />
+            android:parentActivityName=".Abigail.niditos" />
         <activity
-            android:name=".nidito3"
+            android:name=".Abigail.nidito3"
             android:label="Abigail05 | Cuello adulto"
-            android:parentActivityName=".niditos" />
+            android:parentActivityName=".Abigail.niditos" />
         <activity
-            android:name=".colchon1"
+            android:name=".Abigail.colchon1"
             android:label="Abigail05 | Colchoncitos"
-            android:parentActivityName=".abiprodlist" />
+            android:parentActivityName=".Abigail.abiprodlist" />
         <activity
             android:name=".marcas"
             android:label="Marcas"
             android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".pilimprodlist"
+            android:name=".pilim.pilimprodlist"
             android:label="Pilim | Productos"
             android:parentActivityName=".marcas" />
         <activity
-            android:name=".pilim1"
+            android:name=".pilim.pilim1"
             android:label="Pilim | Bolso maternal"
-            android:parentActivityName=".pilimprodlist" />
+            android:parentActivityName=".pilim.pilimprodlist" />
         <activity
-            android:name=".pilim2"
+            android:name=".pilim.pilim2"
             android:label="Pilim | Bolso maternal"
-            android:parentActivityName=".pilimprodlist" />
+            android:parentActivityName=".pilim.pilimprodlist" />
         <activity
-            android:name=".pilim3"
+            android:name=".pilim.pilim3"
             android:label="Pilim | Bolso maternal"
-            android:parentActivityName=".pilimprodlist" />
+            android:parentActivityName=".pilim.pilimprodlist" />
         <activity
-            android:name=".mibesprodlist"
+            android:name=".mibes.mibesprodlist"
             android:label="mibes | Productos"
             android:parentActivityName=".marcas" />
         <activity
-            android:name=".mibes1"
+            android:name=".mibes.mibes1"
             android:label="mibes | Bolso maternal"
-            android:parentActivityName=".mibesprodlist" />
+            android:parentActivityName=".mibes.mibesprodlist" />
         <activity
-            android:name=".mibes2"
+            android:name=".mibes.mibes2"
             android:label="mibes | Bolso maternal"
-            android:parentActivityName=".mibesprodlist" />
+            android:parentActivityName=".mibes.mibesprodlist" />
         <activity
-            android:name=".aventprodlist"
+            android:name=".Avent.aventprodlist"
             android:label="Avent | Productos"
             android:parentActivityName=".marcas" />
         <activity
-            android:name=".aventclassic"
+            android:name=".Avent.aventclassic"
             android:label="Avent | Línea classic"
-            android:parentActivityName=".aventprodlist" />
+            android:parentActivityName=".Avent.aventprodlist" />
         <activity
-            android:name=".aventclassic1"
+            android:name=".Avent.aventclassic1"
             android:label="Avent | Mamadera"
-            android:parentActivityName=".aventclassic" />
+            android:parentActivityName=".Avent.aventclassic" />
         <activity
-            android:name=".aventclassic2"
+            android:name=".Avent.aventclassic2"
             android:label="Avent | Mamadera"
-            android:parentActivityName=".aventclassic" />
+            android:parentActivityName=".Avent.aventclassic" />
         <activity
-            android:name=".aventclassic3"
+            android:name=".Avent.aventclassic3"
             android:label="Avent | Mamadera"
-            android:parentActivityName=".aventclassic" />
+            android:parentActivityName=".Avent.aventclassic" />
         <activity
-            android:name=".aventclassic4"
+            android:name=".Avent.aventclassic4"
             android:label="Avent | Set recién nacido"
-            android:parentActivityName=".aventclassic" />
+            android:parentActivityName=".Avent.aventclassic" />
         <activity
-            android:name=".aventclassic5"
+            android:name=".Avent.aventclassic5"
             android:label="Avent | Tetina Classic+"
-            android:parentActivityName=".aventclassic" />
+            android:parentActivityName=".Avent.aventclassic" />
         <activity
-            android:name=".aventclassic6"
+            android:name=".Avent.aventclassic6"
             android:label="Avent | Tetina Classic+"
-            android:parentActivityName=".aventclassic" />
+            android:parentActivityName=".Avent.aventclassic" />
         <activity
-            android:name=".aventclassic7"
+            android:name=".Avent.aventclassic7"
             android:label="Avent | Tetina Classic+"
-            android:parentActivityName=".aventclassic" />
+            android:parentActivityName=".Avent.aventclassic" />
         <activity
-            android:name=".aventclassic8"
+            android:name=".Avent.aventclassic8"
             android:label="Avent | Tetina Classic+"
-            android:parentActivityName=".aventclassic" />
+            android:parentActivityName=".Avent.aventclassic" />
         <activity
-            android:name=".aventclassic9"
+            android:name=".Avent.aventclassic9"
             android:label="Avent | Vaso con asas"
-            android:parentActivityName=".aventclassic" />
+            android:parentActivityName=".Avent.aventclassic" />
         <activity
-            android:name=".aventclassic10"
+            android:name=".Avent.aventclassic10"
             android:label="Avent | Vaso con asas"
-            android:parentActivityName=".aventclassic" />
-        <activity android:name=".almohada1"
+            android:parentActivityName=".Avent.aventclassic" />
+        <activity
+            android:name=".Abigail.almohada1"
             android:label="Abigail05 | Almohada"
-            android:parentActivityName=".abiprodlist"/>
-        <activity android:name=".fular1"
+            android:parentActivityName=".Abigail.abiprodlist" />
+        <activity
+            android:name=".Abigail.fular1"
             android:label="Abigail05 | Fular"
-            android:parentActivityName=".abiprodlist">
+            android:parentActivityName=".Abigail.abiprodlist" />
+        <activity
+            android:name=".Avent.aventnatural"
+            android:label="Avent | Línea natural"
+            android:parentActivityName=".Avent.aventprodlist" />
+        <activity
+            android:name=".Avent.aventnatural1"
+            android:label="Avent | Mamadera"
+            android:parentActivityName=".Avent.aventnatural" />
+        <activity
+            android:name=".Avent.aventnatural2"
+            android:label="Avent | Mamadera"
+            android:parentActivityName=".Avent.aventnatural" />
+        <activity
+            android:name=".Avent.aventnatural3"
+            android:label="Avent | Tetina"
+            android:parentActivityName=".Avent.aventnatural" />
+        <activity
+            android:name=".Avent.aventnatural4"
+            android:label="Avent | Tetina"
+            android:parentActivityName=".Avent.aventnatural" />
+        <activity
+            android:name=".Avent.aventnatural5"
+            android:label="Avent | Tetina"
+            android:parentActivityName=".Avent.aventnatural" />
+        <activity
+            android:name=".Avent.aventnatural6"
+            android:label="Avent | Tetina"
+            android:parentActivityName=".Avent.aventnatural" />
+        <activity
+            android:name=".Avent.aventnatural7"
+            android:label="Avent | Sacaleche"
+            android:parentActivityName=".Avent.aventnatural"/>
+        <activity android:name=".Avent.aventnatural8"
+            android:label="Avent | Recipientes para leche"
+            android:parentActivityName=".Avent.aventnatural">
 
         </activity>
     </application>

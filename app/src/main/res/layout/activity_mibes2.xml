@@ -9,7 +9,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="4dp"
-    tools:context="com.abigail05.mibes2">
+    tools:context="com.abigail05.mibes.mibes2">
 
     <Button
         android:id="@+id/btnhome"

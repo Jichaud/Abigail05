@@ -9,7 +9,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="4dp"
-    tools:context="com.abigail05.aventclassic10">
+    tools:context="com.abigail05.Avent.aventclassic10">
 
     <Button
         android:id="@+id/btnhome"
