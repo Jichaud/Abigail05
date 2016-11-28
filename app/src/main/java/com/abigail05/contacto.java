@@ -19,6 +19,7 @@ public class contacto extends AppCompatActivity {
     EditText nombre;
     EditText mail;
     EditText mensaje;
+    EditText info;
     Button btnconsulta;
 
     @Override
@@ -29,6 +30,7 @@ public class contacto extends AppCompatActivity {
         nombre = (EditText)findViewById(R.id.nombre);
         mail = (EditText)findViewById(R.id.mail);
         mensaje = (EditText)findViewById(R.id.mensaje);
+        info = (EditText)findViewById(R.id.info);
 
         String stconsulta = getIntent().getStringExtra("consulta");
         mensaje.setText(stconsulta);
@@ -50,7 +52,8 @@ public class contacto extends AppCompatActivity {
                         String nombreform = nombre.getText().toString();
                         String mailform = mail.getText().toString();
                         String mensajeform = mensaje.getText().toString();
-                        retrofit2.Call<Void> completeContact = contacto.completeContact(nombreform, mailform, mensajeform);
+                        String infoform = info.getTransitionName().toString();
+                        retrofit2.Call<Void> completeContact = contacto.completeContact(nombreform, mailform, mensajeform, infoform);
                         completeContact.enqueue(callCallback);
 
                         Intent btnconsulta = new Intent(contacto.this, contactook.class);
@@ -84,6 +87,5 @@ public class contacto extends AppCompatActivity {
         }
 
     };
-
 
 }

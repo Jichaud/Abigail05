@@ -16,6 +16,7 @@ public interface contacto_form {
     Call<Void> completeContact(
             @Field("entry.1256969696") String nombre,
             @Field("entry.1183716515") String mail,
-            @Field("entry.848180187") String mensaje
+            @Field("entry.848180187") String mensaje,
+            @Field("entry.101986137") String info
     );
 }

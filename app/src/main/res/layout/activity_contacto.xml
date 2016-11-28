@@ -24,6 +24,7 @@
             android:id="@+id/nombre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
             android:fontFamily="sans-serif-light"
             android:hint="nombre y apellido"
             android:textColorHint="@color/colorPrimaryDark"/>
@@ -43,6 +44,16 @@
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-light"
             android:hint="Tu mensaje"
+            android:inputType="textMultiLine"
+            android:scrollbars="vertical"
+            android:textColorHint="@color/colorPrimaryDark"/>
+
+        <EditText
+            android:id="@+id/info"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:hint="Color, talle | Info adicional"
             android:inputType="textMultiLine"
             android:scrollbars="vertical"
             android:textColorHint="@color/colorPrimaryDark"/>
