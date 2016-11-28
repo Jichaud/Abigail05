@@ -64,6 +64,15 @@ public class aventprodlist extends AppCompatActivity {
             }
         });
 
+        btnaventchupetes = (Button)findViewById(R.id.btnaventchupetes);
+        btnaventchupetes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnaventchupetes = new Intent(aventprodlist.this, aventchupetes.class);
+                startActivity(btnaventchupetes);
+            }
+        });
+
         marca = (Button) findViewById(R.id.btnvmarca);
         marca.setOnClickListener(new View.OnClickListener() {
             @Override

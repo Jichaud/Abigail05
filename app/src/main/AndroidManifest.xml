@@ -192,8 +192,58 @@
         <activity
             android:name=".contacto"
             android:label="Contacto"
-            android:parentActivityName=".MainActivity"></activity>
-        <activity android:name=".contactook"></activity>
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".contactook" />
+        <activity android:name=".Avent.aventchupetes"
+            android:label="Avent | Chupetes"
+            android:parentActivityName=".Avent.aventprodlist"/>
+        <activity
+            android:name=".Avent.aventchupete1"
+            android:label="Avent | Chupete"
+            android:parentActivityName=".Avent.aventchupetes" />
+        <activity
+            android:name=".Avent.aventchupete2"
+            android:label="Avent | Chupete"
+            android:parentActivityName=".Avent.aventchupetes" />
+        <activity
+            android:name=".Avent.aventchupete3"
+            android:label="Avent | Chupete"
+            android:parentActivityName=".Avent.aventchupetes" />
+        <activity
+            android:name=".Avent.aventchupete4"
+            android:label="Avent | Chupete"
+            android:parentActivityName=".Avent.aventchupetes" />
+        <activity
+            android:name=".Avent.aventchupete5"
+            android:label="Avent | Chupete"
+            android:parentActivityName=".Avent.aventchupetes" />
+        <activity
+            android:name=".Avent.aventchupete6"
+            android:label="Avent | Chupete"
+            android:parentActivityName=".Avent.aventchupetes" />
+        <activity
+            android:name=".Avent.aventchupete7"
+            android:label="Avent | Chupete"
+            android:parentActivityName=".Avent.aventchupetes" />
+        <activity
+            android:name=".Avent.aventchupete8"
+            android:label="Avent | Chupete"
+            android:parentActivityName=".Avent.aventchupetes" />
+        <activity
+            android:name=".Avent.aventchupete9"
+            android:label="Avent | Chupete"
+            android:parentActivityName=".Avent.aventchupetes" />
+        <activity
+            android:name=".Avent.aventchupete10"
+            android:label="Avent | Chupete"
+            android:parentActivityName=".Avent.aventchupetes" />
+        <activity
+            android:name=".Avent.aventchupete11"
+            android:label="Avent | Chupete"
+            android:parentActivityName=".Avent.aventchupetes">
+
+            
+        </activity>
     </application>
 
 </manifest>

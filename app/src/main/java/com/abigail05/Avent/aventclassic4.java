@@ -18,7 +18,6 @@ import com.squareup.picasso.Picasso;
 public class aventclassic4 extends AppCompatActivity {
 
     Button home;
-
     Button marca;
     Button btncompraaventclassic4;
     Button btnconsulta;

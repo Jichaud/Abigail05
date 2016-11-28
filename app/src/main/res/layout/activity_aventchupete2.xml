@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_aventchupete2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="4dp"
+    tools:context="com.abigail05.Avent.aventchupete2">
+
+    <Button
+        android:id="@+id/btnhome"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:text="@string/verhome"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btnvmarca"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="@string/verxmarca"
+        android:textAllCaps="false"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/btnhome">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="2dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp">
+
+                    <ImageView
+                        android:id="@+id/aventchupete2"
+                        android:layout_width="400dp"
+                        android:layout_height="296dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="4dp" />
+
+                    <View
+                        android:id="@+id/view1"
+                        style="@style/Divider"
+                        android:layout_below="@id/aventchupete2" />
+
+                    <TextView
+                        android:id="@+id/txtaventchupete2principal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/view1"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="sans-serif-light"
+                        android:text="@string/txtaventchupetes"
+                        android:textAlignment="center"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:id="@+id/txtaventchupete2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/txtaventchupete2principal"
+                        android:paddingTop="10dp"
+                        android:text="@string/txtaventchupete2"
+                        android:textAlignment="center"
+                        android:textColor="@color/grey"
+                        android:textSize="20sp" />
+
+                    <View
+                        android:id="@+id/view2"
+                        style="@style/Divider"
+                        android:layout_below="@id/txtaventchupete2" />
+
+                    <Button
+                        android:id="@+id/btnconsulta"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/view2"
+                        android:backgroundTint="@color/pink"
+                        android:paddingTop="10dp"
+                        android:text="@string/stock"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="14sp" />
+
+                    <Button
+                        android:id="@+id/btncompraaventchupete2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/btnconsulta"
+                        android:backgroundTint="@color/colorPrimary"
+                        android:fontFamily="sans-serif-thin"
+                        android:text="@string/btnverprecio"
+                        android:textAllCaps="false"
+                        android:textSize="16sp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_aventchupetes"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="4dp"
+    tools:context="com.abigail05.Avent.aventchupetes">
+
+    <Button
+        android:id="@+id/btnhome"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:text="@string/verhome"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btnvmarca"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="@string/verxmarca"
+        android:textAllCaps="false"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/btnhome">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="6dp">
+
+                <TextView
+                    android:id="@+id/ceroaseis"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/rounded"
+                    android:backgroundTint="@color/pink"
+                    android:fontFamily="sans-serif-medium"
+                    android:padding="10dp"
+                    android:text="Desde 0 a 6 meses"
+                    android:textAlignment="center"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/aventchupete1"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/ceroaseis"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtaventchupete1principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ceroaseis"
+                    android:layout_toRightOf="@id/aventchupete1"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtaventchupetes"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtaventchupete1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtaventchupete1principal"
+                    android:layout_toRightOf="@id/aventchupete1"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtaventchupete1"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnaventchupete1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/view1"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/precioaventchupete1"
+                    style="@style/precio"
+                    android:layout_below="@id/aventchupete1"/>
+
+                <View
+                    android:id="@+id/view1"
+                    style="@style/Divider"
+                    android:layout_below="@id/precioaventchupete1" />
+
+                <ImageView
+                    android:id="@+id/aventchupete2"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view1"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtaventchupete2principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view1"
+                    android:layout_toRightOf="@id/aventchupete2"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtaventchupetes"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtaventchupete2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtaventchupete2principal"
+                    android:layout_toRightOf="@id/aventchupete2"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtaventchupete2"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnaventchupete2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/view2"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/precioaventchupete2"
+                    style="@style/precio"
+                    android:layout_below="@id/aventchupete2"/>
+
+                <View
+                    android:id="@+id/view2"
+                    style="@style/Divider"
+                    android:layout_below="@id/precioaventchupete2" />
+
+                <ImageView
+                    android:id="@+id/aventchupete3"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view2"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtaventchupete3principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view2"
+                    android:layout_toRightOf="@id/aventchupete3"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtaventchupetes"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtaventchupete3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtaventchupete3principal"
+                    android:layout_toRightOf="@id/aventchupete3"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtaventchupete3"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnaventchupete3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/view3"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/precioaventchupete3"
+                    style="@style/precio"
+                    android:layout_below="@id/aventchupete3"/>
+
+                <View
+                    android:id="@+id/view3"
+                    style="@style/Divider"
+                    android:layout_below="@id/precioaventchupete3" />
+
+                <ImageView
+                    android:id="@+id/aventchupete4"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view3"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtaventchupete4principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view3"
+                    android:layout_toRightOf="@id/aventchupete4"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtaventchupetes"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtaventchupete4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtaventchupete4principal"
+                    android:layout_toRightOf="@id/aventchupete4"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtaventchupete4"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnaventchupete4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/view4"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/precioaventchupete4"
+                    style="@style/precio"
+                    android:layout_below="@id/aventchupete4"/>
+
+                <View
+                    android:id="@+id/view4"
+                    style="@style/Divider"
+                    android:layout_below="@id/precioaventchupete4" />
+
+                <ImageView
+                    android:id="@+id/aventchupete5"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view4"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtaventchupete5principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view4"
+                    android:layout_toRightOf="@id/aventchupete5"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtaventchupetes"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtaventchupete5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtaventchupete5principal"
+                    android:layout_toRightOf="@id/aventchupete5"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtaventchupete5"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnaventchupete5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/view5"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/precioaventchupete5"
+                    style="@style/precio"
+                    android:layout_below="@id/aventchupete5"/>
+
+                <View
+                    android:id="@+id/view5"
+                    style="@style/Divider"
+                    android:layout_below="@id/precioaventchupete5" />
+
+                <ImageView
+                    android:id="@+id/aventchupete6"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view5"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtaventchupete6principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view5"
+                    android:layout_toRightOf="@id/aventchupete6"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtaventchupetes"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtaventchupete6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtaventchupete6principal"
+                    android:layout_toRightOf="@id/aventchupete6"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtaventchupete6"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnaventchupete6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/view6"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/precioaventchupete6"
+                    style="@style/precio"
+                    android:layout_below="@id/aventchupete6"/>
+
+                <View
+                    android:id="@+id/view6"
+                    style="@style/Divider"
+                    android:layout_below="@id/precioaventchupete6" />
+
+                <TextView
+                    android:id="@+id/seisadieciocho"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view6"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/rounded"
+                    android:backgroundTint="@color/pink"
+                    android:fontFamily="sans-serif-medium"
+                    android:padding="10dp"
+                    android:text="Desde 6 a 18 meses"
+                    android:textAlignment="center"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="15sp" />
+
+
+                <ImageView
+                    android:id="@+id/aventchupete7"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/seisadieciocho"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtaventchupete7principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/seisadieciocho"
+                    android:layout_toRightOf="@id/aventchupete7"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtaventchupetes"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtaventchupete7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtaventchupete7principal"
+                    android:layout_toRightOf="@id/aventchupete7"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtaventchupete7"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnaventchupete7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/view7"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/precioaventchupete7"
+                    style="@style/precio"
+                    android:layout_below="@id/aventchupete7"/>
+
+                <View
+                    android:id="@+id/view7"
+                    style="@style/Divider"
+                    android:layout_below="@id/precioaventchupete7" />
+
+                <ImageView
+                    android:id="@+id/aventchupete8"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view7"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtaventchupete8principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view7"
+                    android:layout_toRightOf="@id/aventchupete8"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtaventchupetes"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtaventchupete8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtaventchupete8principal"
+                    android:layout_toRightOf="@id/aventchupete8"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtaventchupete8"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnaventchupete8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/view8"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/precioaventchupete8"
+                    style="@style/precio"
+                    android:layout_below="@id/aventchupete8"/>
+
+                <View
+                    android:id="@+id/view8"
+                    style="@style/Divider"
+                    android:layout_below="@id/precioaventchupete8" />
+
+                <ImageView
+                    android:id="@+id/aventchupete9"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view8"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtaventchupete9principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view8"
+                    android:layout_toRightOf="@id/aventchupete9"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtaventchupetes"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtaventchupete9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtaventchupete9principal"
+                    android:layout_toRightOf="@id/aventchupete9"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtaventchupete9"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnaventchupete9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/view9"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/precioaventchupete9"
+                    style="@style/precio"
+                    android:layout_below="@id/aventchupete9"/>
+
+                <View
+                    android:id="@+id/view9"
+                    style="@style/Divider"
+                    android:layout_below="@id/precioaventchupete9" />
+
+                <ImageView
+                    android:id="@+id/aventchupete10"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view9"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtaventchupete10principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view9"
+                    android:layout_toRightOf="@id/aventchupete10"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtaventchupetes"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtaventchupete10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtaventchupete10principal"
+                    android:layout_toRightOf="@id/aventchupete10"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtaventchupete10"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnaventchupete10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/view10"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/precioaventchupete10"
+                    style="@style/precio"
+                    android:layout_below="@id/aventchupete10"/>
+
+                <View
+                    android:id="@+id/view10"
+                    style="@style/Divider"
+                    android:layout_below="@id/precioaventchupete10" />
+
+                <ImageView
+                    android:id="@+id/aventchupete11"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view10"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtaventchupete11principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view10"
+                    android:layout_toRightOf="@id/aventchupete11"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtaventchupetes"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtaventchupete11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtaventchupete11principal"
+                    android:layout_toRightOf="@id/aventchupete11"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtaventchupete10"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnaventchupete11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/view11"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/precioaventchupete11"
+                    style="@style/precio"
+                    android:layout_below="@id/aventchupete11"/>
+
+                <View
+                    android:id="@+id/view11"
+                    style="@style/Divider"
+                    android:layout_below="@id/precioaventchupete11" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
