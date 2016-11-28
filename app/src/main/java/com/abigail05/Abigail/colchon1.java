@@ -11,6 +11,7 @@ import android.widget.TextView;
 
 import com.abigail05.MainActivity;
 import com.abigail05.R;
+import com.abigail05.contacto;
 import com.abigail05.marcas;
 import com.abigail05.webview;
 import com.squareup.picasso.Picasso;
@@ -24,9 +25,10 @@ import java.io.IOException;
 public class colchon1 extends AppCompatActivity {
 
     Button home;
-    Button producto;
     Button marca;
     Button comprarcolchon1;
+    Button btnconsulta;
+    TextView colchon1txtdesc;
     TextView preciocolchon1;
     TextView txtmodelo1;
     TextView txtmodelo2;
@@ -54,7 +56,6 @@ public class colchon1 extends AppCompatActivity {
 
         preciocolchon1 = (TextView)findViewById(R.id.preciocolchon1);
 
-        producto = (Button)findViewById(R.id.btnvprod);
         marca = (Button) findViewById(R.id.btnvmarca);
         marca.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -72,6 +73,19 @@ public class colchon1 extends AppCompatActivity {
                 startActivity(home);
             }
         });
+
+        colchon1txtdesc = (TextView)findViewById(R.id.colchon1txtdesc);
+        final String stconsulta = colchon1txtdesc.getText().toString();
+        btnconsulta = (Button)findViewById(R.id.btnconsulta);
+        btnconsulta.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsulta = new Intent(colchon1.this,contacto.class);
+                btnconsulta.putExtra("consulta", stconsulta);
+                startActivity(btnconsulta);
+            }
+        });
+
 
         comprarcolchon1 = (Button)findViewById(R.id.btncolchon1);
         comprarcolchon1.setOnClickListener(new View.OnClickListener() {

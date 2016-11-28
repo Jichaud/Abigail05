@@ -16,7 +16,7 @@ import com.squareup.picasso.Picasso;
 public class aventclassic10 extends AppCompatActivity {
 
     Button home;
-    Button producto;
+
     Button marca;
     Button btncompraaventclassic10;
     String urlcombo = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=87daecf23d49845cab835d24132e2210";
@@ -31,7 +31,7 @@ public class aventclassic10 extends AppCompatActivity {
         aventclassic10 = (ImageView)findViewById(R.id.aventclassic10);
         Picasso.with(this).load(urlaventclassic10).into(aventclassic10);
 
-        producto = (Button)findViewById(R.id.btnvprod);
+
         marca = (Button) findViewById(R.id.btnvmarca);
         marca.setOnClickListener(new View.OnClickListener() {
             @Override

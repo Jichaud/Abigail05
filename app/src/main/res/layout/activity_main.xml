@@ -174,7 +174,7 @@
                 android:layout_height="wrap_content">
 
                 <ImageView
-                    android:id="@+id/imgprod"
+                    android:id="@+id/imgmail"
                     android:layout_width="100dp"
                     android:layout_height="50dp"
                     android:paddingTop="10dp"/>
@@ -183,11 +183,11 @@
                     android:id="@+id/txtprodxprod"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_toEndOf="@id/imgprod"
+                    android:layout_toEndOf="@id/imgmail"
                     android:fontFamily="sans-serif-light"
                     android:paddingStart="10dp"
                     android:paddingTop="5dp"
-                    android:text="@string/AMbuscaprod"
+                    android:text="@string/consulta"
                     android:textSize="20sp" />
 
                 <TextView
@@ -195,15 +195,15 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/txtprodxprod"
-                    android:layout_toEndOf="@id/imgprod"
+                    android:layout_toEndOf="@id/imgmail"
                     android:paddingLeft="10dp"
                     android:paddingTop="2dp"
-                    android:text="@string/AMtxtdescxprod"
+                    android:text="@string/consultatxt"
                     android:textColor="@color/grey"
                     android:textSize="16sp" />
 
                 <Button
-                    android:id="@+id/xprodbtn"
+                    android:id="@+id/btnmail"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true"

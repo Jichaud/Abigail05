@@ -10,6 +10,7 @@ import android.widget.TextView;
 
 import com.abigail05.MainActivity;
 import com.abigail05.R;
+import com.abigail05.contacto;
 import com.abigail05.marcas;
 import com.abigail05.webview;
 import com.squareup.picasso.Picasso;
@@ -17,11 +18,12 @@ import com.squareup.picasso.Picasso;
 public class nidito2 extends AppCompatActivity {
 
     Button home;
-    Button producto;
     Button marca;
     Button btncompranidito2;
+    Button btnconsulta;
     TextView txtmodelo1;
     TextView txtmodelo2;
+    TextView nidito2txtdesc;
     ImageView imgmodelo1;
     ImageView imgmodelo2;
     String urlcombo = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=1270985443f9cb4b4f4a0b42782c6bb3";
@@ -33,7 +35,6 @@ public class nidito2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nidito2);
 
-        producto = (Button)findViewById(R.id.btnvprod);
         marca = (Button) findViewById(R.id.btnvmarca);
         marca.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -42,6 +43,19 @@ public class nidito2 extends AppCompatActivity {
                 startActivity(marca);
             }
         });
+
+        nidito2txtdesc = (TextView)findViewById(R.id.nidito2txtdesc);
+        final String stconsulta = nidito2txtdesc.getText().toString();
+        btnconsulta = (Button)findViewById(R.id.btnconsulta);
+        btnconsulta.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsulta = new Intent(nidito2.this,contacto.class);
+                btnconsulta.putExtra("consulta", stconsulta);
+                startActivity(btnconsulta);
+            }
+        });
+
 
         home = (Button)findViewById(R.id.btnhome);
         home.setOnClickListener(new View.OnClickListener() {

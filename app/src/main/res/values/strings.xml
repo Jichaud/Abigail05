@@ -5,6 +5,10 @@
     <string name="verxprod">producto</string>
     <string name="verhome">home</string>
     <string name="verxmarca">marca</string>
+    <string name="enviar">enviar</string>
+    <string name="consulta">Consultanos</string>
+    <string name="consultatxt">Estamos para ayudarte.</string>
+    <string name="mailok">Gracias por tu mail, nos pondremos en contacto a la brevedad...</string>
 
     AM
     <string name="AMprodabi">Productos Abigail05</string>
@@ -32,7 +36,7 @@
     <string name="txtalmohada1desc1">Almohada 1 plaza super rellenas material vellón siliconado extra soft. Confeccionada en friselina.</string>
     <string name="txtfular1">Fular elástico</string>
     <string name="txtfular1desc">Fular elástico varios colores</string>
-    <string name="txtfular1desc1">Varios colores: gris, rojo, turquesa, verde agua oscuro y negro</string>
+    <string name="txtfular1desc1">Fular elástico varios colores: gris, rojo, turquesa, verde agua oscuro y negro</string>
 
     Combo1
     <string name="stock">Consultá stock antes de comprar</string>

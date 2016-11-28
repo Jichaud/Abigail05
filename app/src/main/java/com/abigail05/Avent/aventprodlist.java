@@ -15,7 +15,7 @@ import com.squareup.picasso.Picasso;
 public class aventprodlist extends AppCompatActivity {
 
     Button home;
-    Button producto;
+
     Button marca;
     Button btnaventclassic;
     Button btnaventnatural;
@@ -64,7 +64,6 @@ public class aventprodlist extends AppCompatActivity {
             }
         });
 
-        producto = (Button) findViewById(R.id.btnvprod);
         marca = (Button) findViewById(R.id.btnvmarca);
         marca.setOnClickListener(new View.OnClickListener() {
             @Override

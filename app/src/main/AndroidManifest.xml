@@ -184,12 +184,16 @@
         <activity
             android:name=".Avent.aventnatural7"
             android:label="Avent | Sacaleche"
-            android:parentActivityName=".Avent.aventnatural"/>
-        <activity android:name=".Avent.aventnatural8"
+            android:parentActivityName=".Avent.aventnatural" />
+        <activity
+            android:name=".Avent.aventnatural8"
             android:label="Avent | Recipientes para leche"
-            android:parentActivityName=".Avent.aventnatural">
-
-        </activity>
+            android:parentActivityName=".Avent.aventnatural" />
+        <activity
+            android:name=".contacto"
+            android:label="Contacto"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".contactook"></activity>
     </application>
 
 </manifest>

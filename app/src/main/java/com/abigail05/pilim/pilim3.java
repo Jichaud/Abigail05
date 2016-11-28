@@ -17,7 +17,7 @@ import com.squareup.picasso.Picasso;
 public class pilim3 extends AppCompatActivity {
 
     Button home;
-    Button producto;
+
     Button marca;
     Button btncomprapilim3;
     TextView txtmodelo1;
@@ -55,7 +55,7 @@ public class pilim3 extends AppCompatActivity {
             }
         });
 
-        producto = (Button)findViewById(R.id.btnvprod);
+
         marca = (Button) findViewById(R.id.btnvmarca);
         marca.setOnClickListener(new View.OnClickListener() {
             @Override

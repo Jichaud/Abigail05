@@ -26,7 +26,6 @@ public class niditos extends AppCompatActivity {
     Button btnnidito2;
     Button btnnidito3;
     Button home;
-    Button producto;
     Button marca;
     TextView precionidito1;
     TextView precionidito2;
@@ -58,7 +57,6 @@ public class niditos extends AppCompatActivity {
         nidito3img = (ImageView)findViewById(R.id.nidito3img);
         Picasso.with(this).load(urlnidito3img).into(nidito3img);
 
-        producto = (Button)findViewById(R.id.btnvprod);
         marca = (Button) findViewById(R.id.btnvmarca);
         marca.setOnClickListener(new View.OnClickListener() {
             @Override

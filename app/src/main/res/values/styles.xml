@@ -7,6 +7,7 @@
         <item name="colorPrimaryDark">#64B5F6</item>
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:navigationBarColor">#64B5F6</item>
+        <item name="colorControlNormal">@color/colorPrimaryDark</item>
 
     </style>
     <style name="Divider">

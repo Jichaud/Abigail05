@@ -16,7 +16,7 @@ import com.squareup.picasso.Picasso;
 public class mibes2 extends AppCompatActivity {
 
     Button home;
-    Button producto;
+
     Button marca;
     Button btncompramibes2;
     String urlcombo = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=d1bce4a217de52b4d27b15d06a925199";
@@ -32,7 +32,7 @@ public class mibes2 extends AppCompatActivity {
         mibes2 = (ImageView)findViewById(R.id.mibes2);
         Picasso.with(this).load(urlmibes2).into(mibes2);
 
-        producto = (Button)findViewById(R.id.btnvprod);
+
         marca = (Button) findViewById(R.id.btnvmarca);
         marca.setOnClickListener(new View.OnClickListener() {
             @Override

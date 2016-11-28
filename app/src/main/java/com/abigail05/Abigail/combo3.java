@@ -10,6 +10,7 @@ import android.widget.TextView;
 
 import com.abigail05.MainActivity;
 import com.abigail05.R;
+import com.abigail05.contacto;
 import com.abigail05.marcas;
 import com.abigail05.webview;
 import com.squareup.picasso.Picasso;
@@ -17,15 +18,16 @@ import com.squareup.picasso.Picasso;
 public class combo3 extends AppCompatActivity {
 
     Button home;
-    Button producto;
     Button marca;
     Button comprarcombo3;
+    Button btnconsulta;
     TextView txtmodelo1;
     TextView txtmodelo2;
     TextView txtmodelo3;
     TextView txtmodelo4;
     TextView txtmodelo5;
     TextView txtmodelo6;
+    TextView combo1txtdesc;
     ImageView imgmodelo1;
     ImageView imgmodelo2;
     ImageView imgmodelo3;
@@ -45,7 +47,6 @@ public class combo3 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_combo3);
 
-        producto = (Button)findViewById(R.id.btnvprod);
         marca = (Button) findViewById(R.id.btnvmarca);
         marca.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -54,6 +55,19 @@ public class combo3 extends AppCompatActivity {
                 startActivity(marca);
             }
         });
+
+        combo1txtdesc = (TextView)findViewById(R.id.combo1txtdesc);
+        final String stconsulta = combo1txtdesc.getText().toString();
+        btnconsulta = (Button)findViewById(R.id.btnconsulta);
+        btnconsulta.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsulta = new Intent(combo3.this,contacto.class);
+                btnconsulta.putExtra("consulta", stconsulta);
+                startActivity(btnconsulta);
+            }
+        });
+
 
         home = (Button)findViewById(R.id.btnhome);
         home.setOnClickListener(new View.OnClickListener() {

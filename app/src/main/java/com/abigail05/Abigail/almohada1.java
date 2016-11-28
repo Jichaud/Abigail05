@@ -11,6 +11,7 @@ import android.widget.TextView;
 
 import com.abigail05.MainActivity;
 import com.abigail05.R;
+import com.abigail05.contacto;
 import com.abigail05.marcas;
 import com.abigail05.webview;
 import com.squareup.picasso.Picasso;
@@ -24,9 +25,10 @@ import java.io.IOException;
 public class almohada1 extends AppCompatActivity {
 
     Button home;
-    Button producto;
     Button marca;
     Button btncompraalmohada1;
+    Button btnconsulta;
+    TextView txtalmohada1desc1;
     TextView precioalmohada1;
     String urlcombo = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=38c34156d3473e689589c845b1047cc8#b";
     ImageView almohada1;
@@ -44,7 +46,6 @@ public class almohada1 extends AppCompatActivity {
         almohada1 = (ImageView)findViewById(R.id.almohada1);
         Picasso.with(this).load(urlalmohada1).into(almohada1);
 
-        producto = (Button)findViewById(R.id.btnvprod);
         marca = (Button) findViewById(R.id.btnvmarca);
         marca.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -70,6 +71,18 @@ public class almohada1 extends AppCompatActivity {
                 Intent btncompraalmohada1 = new Intent(almohada1.this,webview.class);
                 btncompraalmohada1.putExtra("string", urlcombo);
                 startActivity(btncompraalmohada1);
+            }
+        });
+
+        txtalmohada1desc1 = (TextView)findViewById(R.id.txtalmohada1desc1);
+        final String stconsulta = txtalmohada1desc1.getText().toString();
+        btnconsulta = (Button)findViewById(R.id.btnconsulta);
+        btnconsulta.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsulta = new Intent(almohada1.this,contacto.class);
+                btnconsulta.putExtra("consulta", stconsulta);
+                startActivity(btnconsulta);
             }
         });
 

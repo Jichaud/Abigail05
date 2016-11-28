@@ -23,7 +23,7 @@ import java.io.IOException;
 public class mibesprodlist extends AppCompatActivity {
 
     Button home;
-    Button producto;
+
     Button marca;
     Button btnmibes1;
     Button btnmibes2;
@@ -68,7 +68,6 @@ public class mibesprodlist extends AppCompatActivity {
             }
         });
 
-        producto = (Button) findViewById(R.id.btnvprod);
         marca = (Button) findViewById(R.id.btnvmarca);
         marca.setOnClickListener(new View.OnClickListener() {
             @Override

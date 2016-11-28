@@ -16,7 +16,7 @@ public class webview extends AppCompatActivity {
     TextView txtcarga;
 
     Button home;
-    Button producto;
+
     Button marca;
 
     @Override
@@ -31,7 +31,7 @@ public class webview extends AppCompatActivity {
         webView.setWebViewClient(new MyWebViewClient());
 
         txtcarga = (TextView)findViewById(R.id.txtcargando);
-        producto = (Button)findViewById(R.id.btnvprod);
+
         marca = (Button)findViewById(R.id.btnvmarca);
         marca.setOnClickListener(new View.OnClickListener() {
             @Override

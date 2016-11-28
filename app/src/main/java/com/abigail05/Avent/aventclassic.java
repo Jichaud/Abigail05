@@ -23,7 +23,6 @@ import java.io.IOException;
 public class aventclassic extends AppCompatActivity {
 
     Button home;
-    Button producto;
     Button marca;
     Button btnaventclassic1;
     Button btnaventclassic2;
@@ -204,7 +203,6 @@ public class aventclassic extends AppCompatActivity {
             }
         });
 
-        producto = (Button) findViewById(R.id.btnvprod);
         marca = (Button) findViewById(R.id.btnvmarca);
         marca.setOnClickListener(new View.OnClickListener() {
             @Override

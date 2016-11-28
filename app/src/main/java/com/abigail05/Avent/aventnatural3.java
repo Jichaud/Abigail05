@@ -1,8 +1,8 @@
 package com.abigail05.Avent;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -16,7 +16,7 @@ import com.squareup.picasso.Picasso;
 public class aventnatural3 extends AppCompatActivity {
 
     Button home;
-    Button producto;
+
     Button marca;
     Button btncompraaventnatural3;
     String urlcombo = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=90e5de4dcbdade80a077de3c078dcd09";
@@ -31,7 +31,7 @@ public class aventnatural3 extends AppCompatActivity {
         aventnatural3 = (ImageView)findViewById(R.id.aventnatural3);
         Picasso.with(this).load(urlaventnatural3).into(aventnatural3);
 
-        producto = (Button)findViewById(R.id.btnvprod);
+
         marca = (Button) findViewById(R.id.btnvmarca);
         marca.setOnClickListener(new View.OnClickListener() {
             @Override

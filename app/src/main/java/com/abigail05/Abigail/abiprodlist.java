@@ -15,7 +15,6 @@ import com.squareup.picasso.Picasso;
 public class abiprodlist extends AppCompatActivity {
 
     Button home;
-    Button producto;
     Button marca;
     Button btnlista1;
     Button btnlista2;
@@ -53,7 +52,6 @@ public class abiprodlist extends AppCompatActivity {
         fular1 = (ImageView)findViewById(R.id.fular1);
         Picasso.with(this).load(urlfular1).into(fular1);
 
-        producto = (Button) findViewById(R.id.btnvprod);
         marca = (Button) findViewById(R.id.btnvmarca);
         marca.setOnClickListener(new View.OnClickListener() {
             @Override

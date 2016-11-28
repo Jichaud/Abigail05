@@ -2,8 +2,8 @@ package com.abigail05.Avent;
 
 import android.content.Intent;
 import android.os.AsyncTask;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -23,7 +23,7 @@ import java.io.IOException;
 public class aventnatural extends AppCompatActivity {
 
     Button home;
-    Button producto;
+
     Button marca;
     Button btnaventnatural1;
     Button btnaventnatural2;
@@ -170,7 +170,6 @@ public class aventnatural extends AppCompatActivity {
             }
         });
 
-        producto = (Button) findViewById(R.id.btnvprod);
         marca = (Button) findViewById(R.id.btnvmarca);
         marca.setOnClickListener(new View.OnClickListener() {
             @Override
