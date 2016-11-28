@@ -76,7 +76,7 @@ public class pilim3 extends AppCompatActivity {
             }
         });
 
-        txtpilim3desc = (TextView)findViewById(R.id.txtpilim2desc);
+        txtpilim3desc = (TextView)findViewById(R.id.txtpilim3desc);
         final String stconsulta = txtpilim3desc.getText().toString();
         btnconsulta = (Button)findViewById(R.id.btnconsulta);
         btnconsulta.setOnClickListener(new View.OnClickListener() {
