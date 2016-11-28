@@ -6,9 +6,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.abigail05.MainActivity;
 import com.abigail05.R;
+import com.abigail05.contacto;
 import com.abigail05.marcas;
 import com.abigail05.webview;
 import com.squareup.picasso.Picasso;
@@ -19,6 +21,8 @@ public class aventnatural2 extends AppCompatActivity {
 
     Button marca;
     Button btncompraaventnatural2;
+    Button btnconsulta;
+    TextView txtaventnatural2;
     String urlcombo = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=8a44b5a1f392314f1234d0f5ceb43149";
     ImageView aventnatural2;
     String urlaventnatural2 = "https://lh3.googleusercontent.com/mWTh4Krv_JYq1-wPTdSFiDMyOanzvXHr8ZNXISmJDaoK2tJITUi8ZO6UK9s-2qYRnGZeOxB7x4h3tp--M8_M36Ikp3QR8XTgJvtpUooUQlbKGBVLj2gvfPAaEH886a6QH1johbdAT0AhuvVOhf782IA2vVV8McQptwwBwgYMMlNZoevsesdBPFyPNuC-cOoq3HnFkyTFNbAQFN9CZrPMWt6mthl0qTvzywDdi57mjSQlqy6U2bKxI5fRZq18k0zbKLIiVUQW72k5U3e6LTvpxIlu8nS4JpnsymEb6rsYja7zSxz59kUVDUSS7asisUF8hOWeJFxmavYLL0RNfdBVgf7LrmLedLxFwqgmyoVe_lq_6FyNE22zle6pPNs7uh-Z755aEFxtJFA5XS4ka9tcq61QNnSiIhoKOQD7thExncAXC6ChdNhpKonRTqtngGcXQb4jAq2EXEcDUYJqX-YDwwyOfNcEoWjYHVPnmeuZrDjtm_NSFeiTYlU80JAuqrdiIdeBSQSfx3_ZZLSX20_fmGaeMgr5RRRqQHsVW_2HGDbPaOGF9CcNRAhjMSeACKZn4hBPDmHApq7aBOtYDLa85g5TLtbv-98HDeqAbb86HCF7jzxjNA=w494-h435-no";
@@ -49,6 +53,19 @@ public class aventnatural2 extends AppCompatActivity {
                 startActivity(home);
             }
         });
+
+        txtaventnatural2 = (TextView)findViewById(R.id.txtaventnatural2);
+        final String stconsulta = txtaventnatural2.getText().toString();
+        btnconsulta = (Button)findViewById(R.id.btnconsulta);
+        btnconsulta.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsulta = new Intent(aventnatural2.this,contacto.class);
+                btnconsulta.putExtra("consulta", stconsulta);
+                startActivity(btnconsulta);
+            }
+        });
+
 
         btncompraaventnatural2 = (Button)findViewById(R.id.btncompraaventnatural2);
         btncompraaventnatural2.setOnClickListener(new View.OnClickListener() {

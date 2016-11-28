@@ -6,9 +6,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 
+import com.abigail05.Avent.aventnatural1;
 import com.abigail05.MainActivity;
 import com.abigail05.R;
+import com.abigail05.contacto;
 import com.abigail05.marcas;
 import com.abigail05.webview;
 import com.squareup.picasso.Picasso;
@@ -19,6 +22,8 @@ public class mibes1 extends AppCompatActivity {
 
     Button marca;
     Button btncompramibes1;
+    Button btnconsulta;
+    TextView txtmibes1desc;
     String urlcombo = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=ea77810ea709eee5b1de76df0a4ca5cf";
     ImageView mibes1;
     String urlmibes1 = "https://lh3.googleusercontent.com/-DSKLh-hHAGnzlAkWyO5lEf2DRTUw-YhhGU9IymbIourye2rYqTQfpfnhJeoqSehWFFBthXgOgk=w432-h360-no";
@@ -49,6 +54,19 @@ public class mibes1 extends AppCompatActivity {
                 startActivity(home);
             }
         });
+
+        txtmibes1desc = (TextView)findViewById(R.id.txtmibes1desc);
+        final String stconsulta = txtmibes1desc.getText().toString();
+        btnconsulta = (Button)findViewById(R.id.btnconsulta);
+        btnconsulta.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsulta = new Intent(mibes1.this,contacto.class);
+                btnconsulta.putExtra("consulta", stconsulta);
+                startActivity(btnconsulta);
+            }
+        });
+
 
         btncompramibes1 = (Button)findViewById(R.id.btncompramibes1);
         btncompramibes1.setOnClickListener(new View.OnClickListener() {

@@ -6,9 +6,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.abigail05.MainActivity;
 import com.abigail05.R;
+import com.abigail05.contacto;
 import com.abigail05.marcas;
 import com.abigail05.webview;
 import com.squareup.picasso.Picasso;
@@ -19,6 +21,8 @@ public class aventclassic8 extends AppCompatActivity {
 
     Button marca;
     Button btncompraaventclassic8;
+    Button btnconsulta;
+    TextView txtaventclassic8;
     String urlcombo = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=fe9002f6de0329ac775f467a73f1abf1";
     ImageView aventclassic8;
     String urlaventclassic8 = "https://lh3.googleusercontent.com/D_-NFEmtJEn4QxrguLuuloyfOVTqVSwkqZEJZ-AoBJRlLgwVBdf0iZWr7MvKjCgB0qvCNzUTaRgrBjkYOEmFx3jDXhOQKGEfUpxiMz2XGyy7jmih3xjASyMdYnRwlFeJ7qqj4x6D_kADZ2LAXqbCH2jc07k4l5Wv7BHEnh-bF60zg-Q3TDg22m5zXY9WuMXEtWz3UEFIPYQSfy0B_HHz9Pb_i9XosGcvvsN7_3x9st0B6uKqMEtIXa8_cZU27zrt3FFoieBOnS8SE0eWYSYxvkpdo99y8RO8gcjh3QdRdglo9uxN6WbinQ_wGy8aKo1MAeYq7iKh4NKzkdecbdhnsqSuxT79lSQanjToHkm0P4wrMSCkPls1Yr74RFtRO25MnQkJi-wu_qCMerFWTiYbzgu8SU_sHGPH4fGnegbT1WwB_oPXsaOVJAcOWBEMCLgmCFmrRLw7vh5K_J--OR95d0vcg7z4vmFb-hanQAdwh5SU7l77_5CzboV0rZFuU74WtXxOx_y7PBMMMQhrLDhCoCbvpfnLe4f0SPA9nJO1DZhtoI_fZS0My3X6bRbR3OpAKn8o5E20L-n56S6Q_Mu38zS1h96b5LydLiM3jPTFoz1-3rT4zg=w494-h435-no";
@@ -49,6 +53,19 @@ public class aventclassic8 extends AppCompatActivity {
                 startActivity(home);
             }
         });
+
+        txtaventclassic8 = (TextView)findViewById(R.id.txtaventclassic8);
+        final String stconsulta = txtaventclassic8.getText().toString();
+        btnconsulta = (Button)findViewById(R.id.btnconsulta);
+        btnconsulta.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsulta = new Intent(aventclassic8.this,contacto.class);
+                btnconsulta.putExtra("consulta", stconsulta);
+                startActivity(btnconsulta);
+            }
+        });
+
 
         btncompraaventclassic8 = (Button)findViewById(R.id.btncompraaventclassic8);
         btncompraaventclassic8.setOnClickListener(new View.OnClickListener() {

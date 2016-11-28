@@ -10,6 +10,7 @@ import android.widget.TextView;
 
 import com.abigail05.MainActivity;
 import com.abigail05.R;
+import com.abigail05.contacto;
 import com.abigail05.marcas;
 import com.abigail05.webview;
 import com.squareup.picasso.Picasso;
@@ -17,11 +18,12 @@ import com.squareup.picasso.Picasso;
 public class pilim3 extends AppCompatActivity {
 
     Button home;
-
+    Button btnconsulta;
     Button marca;
     Button btncomprapilim3;
     TextView txtmodelo1;
     TextView txtmodelo2;
+    TextView txtpilim3desc;
     String urlcombo = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=dc0ea334c6b659fc062f49c63a67c96c";
     ImageView pilim6;
     String urlpilim6 = "https://lh3.googleusercontent.com/UOrMlPYmT0EXKkUrzBGHx5OT0iYyQ59WqcGbE0_v9_hKFyUkqcRDdqi6LNxPlO2GAm0otYODljWOCeSuj_1LHeKGx7wSqS3oL8M9RR7pHLhOo2FeDtJo2TJjxYDbVgJ1wk0gGDzAK2kLtHYl7AXER5lnMVrmWyOWOV8IBSHHJjull9zznbWgqzjI_kJOpVTklPqcUkLadVYj6Jkg3WTqHl5ptrS0dGw_WAq_3Ts0SgMOLz5FLf9AZ1GDjfVe6efKevc0fdokSmrENxdFObdg7io2YW_SjayxVALeI81RLR6NMNCIaKvGBezYwGsJPexiEvZg08VonMn6n19jra1kdsKXiqWFzPRwhUnwE3cBeEaZrCZQZu2axtbXvlbi9oOznEkfYUQQKptrTizYvtwLYybLMra4Z4cLf0TvpYw_DothjWALj1XeRkblJnPEUmTGTq8PyYcfZqE4DZLj3JjZmsrgL22Ky1NEwg75z3Nm-UvdxmOJZl1ZskkE8lILBqsCJY6hJbCq1AAzs_Uvd4sGgsyOwYGaKHvAlYNUfHkVrTpCf2AdmjLs20xz4dwZ_kAFDas9YEtrJBBmnyC1XNaF8CNl3iT68wJ63AeQOEllQXm7Du0b8g=w294-h313-no";
@@ -73,6 +75,19 @@ public class pilim3 extends AppCompatActivity {
                 startActivity(home);
             }
         });
+
+        txtpilim3desc = (TextView)findViewById(R.id.txtpilim2desc);
+        final String stconsulta = txtpilim3desc.getText().toString();
+        btnconsulta = (Button)findViewById(R.id.btnconsulta);
+        btnconsulta.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsulta = new Intent(pilim3.this,contacto.class);
+                btnconsulta.putExtra("consulta", stconsulta);
+                startActivity(btnconsulta);
+            }
+        });
+
 
         btncomprapilim3 = (Button)findViewById(R.id.btncomprapilim3);
         btncomprapilim3.setOnClickListener(new View.OnClickListener() {
