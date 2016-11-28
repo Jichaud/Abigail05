@@ -117,5 +117,15 @@
     <string name="txtaventchupete9">Philips Avent chupete animal blister x2 unidades</string>
     <string name="txtaventchupete10">Philips Avent chupete decorado blister x2 unidades</string>
     <string name="txtaventchupete11">Philips Avent chupete freeflow blister x2 unidades</string>
+    <string name="txtaventaccesorios1">Philips Avent mordillo elefante +3 meses</string>
+    <string name="txtaventaccesorios2">Philips Avent blister x 2u boquilla rígida (también disponible boquilla blanda)</string>
+    <string name="txtaventaccesorios3">Philips Avent set de cuchara y tenedor +12 meses</string>
+    <string name="txtaventaccesorios4">Philips Avent set de cuchara, tenedor y cuchillo +18 meses</string>
+    <string name="txtaventaccesorios5">Philips Avent plato hondo pequeño +6 meses. Varios diseños</string>
+    <string name="txtaventaccesorios6">Philips Avent plato hondo grande +12 meses. Varios diseños</string>
+    <string name="txtaventaccesorios7">Philips Avent blister pezoneras small 19mm</string>
+    <string name="txtaventaccesorios8">Philips Avent blister pezoneras standard 21mm</string>
+    <string name="txtaventaccesorios9">Philips Avent esterilizador a vapor</string>
+    <string name="txtaventaccesorios10">Philips Avent esterilizador eléctrico 3 en 1</string>
 
 </resources>

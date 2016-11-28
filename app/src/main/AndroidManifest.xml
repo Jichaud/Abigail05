@@ -194,9 +194,10 @@
             android:label="Contacto"
             android:parentActivityName=".MainActivity" />
         <activity android:name=".contactook" />
-        <activity android:name=".Avent.aventchupetes"
+        <activity
+            android:name=".Avent.aventchupetes"
             android:label="Avent | Chupetes"
-            android:parentActivityName=".Avent.aventprodlist"/>
+            android:parentActivityName=".Avent.aventprodlist" />
         <activity
             android:name=".Avent.aventchupete1"
             android:label="Avent | Chupete"
@@ -240,9 +241,51 @@
         <activity
             android:name=".Avent.aventchupete11"
             android:label="Avent | Chupete"
-            android:parentActivityName=".Avent.aventchupetes">
+            android:parentActivityName=".Avent.aventchupetes" />
+        <activity
+            android:name=".Avent.aventaccesorios"
+            android:label="Avent | Accesorios"
+            android:parentActivityName=".Avent.aventprodlist" />
+        <activity
+            android:name=".Avent.aventaccesorios1"
+            android:label="Avent | Mordillo elefante"
+            android:parentActivityName=".Avent.aventaccesorios" />
+        <activity
+            android:name=".Avent.aventaccesorios2"
+            android:label="Avent | Boquilla rígida"
+            android:parentActivityName=".Avent.aventaccesorios" />
+        <activity
+            android:name=".Avent.aventaccesorios3"
+            android:label="Avent | Cuchara y tenedor"
+            android:parentActivityName=".Avent.aventaccesorios" />
+        <activity
+            android:name=".Avent.aventaccesorios4"
+            android:label="Avent | Cuchara, tenedor y cuchillo"
+            android:parentActivityName=".Avent.aventaccesorios" />
+        <activity
+            android:name=".Avent.aventaccesorios5"
+            android:label="Avent | Plato hondo pequeño"
+            android:parentActivityName=".Avent.aventaccesorios" />
+        <activity
+            android:name=".Avent.aventaccesorios6"
+            android:label="Avent | Plato hondo grande"
+            android:parentActivityName=".Avent.aventaccesorios" />
+        <activity
+            android:name=".Avent.aventaccesorios7"
+            android:label="Avent | Pezoneras small"
+            android:parentActivityName=".Avent.aventaccesorios" />
+        <activity
+            android:name=".Avent.aventaccesorios8"
+            android:label="Avent | Pezoneras standard"
+            android:parentActivityName=".Avent.aventaccesorios" />
+        <activity
+            android:name=".Avent.aventaccesorios9"
+            android:label="Avent | Esterilizador a vapor"
+            android:parentActivityName=".Avent.aventaccesorios"/>
+        <activity android:name=".Avent.aventaccesorios10"
+            android:label="Avent | Esterilizador eléctrico"
+            android:parentActivityName=".Avent.aventaccesorios">
 
-            
         </activity>
     </application>
 
