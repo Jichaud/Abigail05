@@ -20,14 +20,44 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnvmarca"
+            android:id="@+id/txtnombre"
+            android:layout_centerInParent="true"
+            android:fontFamily="sans-serif-light"
+            android:textSize="15sp"
+            android:padding="6dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/cardview_light_background"
+            android:textStyle="bold"
+            android:background="@drawable/rounded"
+            android:text="Nombre y apellido"/>
+
         <EditText
             android:id="@+id/nombre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="2dp"
             android:fontFamily="sans-serif-light"
             android:hint="nombre y apellido"
             android:textColorHint="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnvmarca"
+            android:id="@+id/txtmail"
+            android:layout_centerInParent="true"
+            android:fontFamily="sans-serif-light"
+            android:textSize="15sp"
+            android:padding="6dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/cardview_light_background"
+            android:textStyle="bold"
+            android:background="@drawable/rounded"
+            android:text="e-mail"/>
 
         <EditText
             android:id="@+id/mail"
@@ -35,8 +65,24 @@
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-light"
             android:hint="e-mail"
+            android:layout_marginTop="2dp"
             android:inputType="textEmailAddress"
             android:textColorHint="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnvmarca"
+            android:id="@+id/txtmsg"
+            android:layout_centerInParent="true"
+            android:fontFamily="sans-serif-light"
+            android:textSize="15sp"
+            android:padding="6dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/cardview_light_background"
+            android:textStyle="bold"
+            android:background="@drawable/rounded"
+            android:text="Tu mensaje..."/>
 
         <EditText
             android:id="@+id/mensaje"
@@ -44,16 +90,32 @@
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-light"
             android:hint="Tu mensaje"
+            android:layout_marginTop="2dp"
             android:inputType="textMultiLine"
             android:scrollbars="vertical"
             android:textColorHint="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnvmarca"
+            android:id="@+id/txtinfo"
+            android:layout_centerInParent="true"
+            android:fontFamily="sans-serif-light"
+            android:textSize="15sp"
+            android:padding="6dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/cardview_light_background"
+            android:textStyle="bold"
+            android:background="@drawable/rounded"
+            android:text="Info adicional"/>
 
         <EditText
             android:id="@+id/info"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-light"
-            android:hint="Color, talle | Info adicional"
+            android:hint="Color, talle | otra info"
             android:inputType="textMultiLine"
             android:scrollbars="vertical"
             android:textColorHint="@color/colorPrimaryDark"/>

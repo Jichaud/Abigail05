@@ -52,7 +52,7 @@ public class contacto extends AppCompatActivity {
                         String nombreform = nombre.getText().toString();
                         String mailform = mail.getText().toString();
                         String mensajeform = mensaje.getText().toString();
-                        String infoform = info.getTransitionName().toString();
+                        String infoform = info.getText().toString();
                         retrofit2.Call<Void> completeContact = contacto.completeContact(nombreform, mailform, mensajeform, infoform);
                         completeContact.enqueue(callCallback);
 
