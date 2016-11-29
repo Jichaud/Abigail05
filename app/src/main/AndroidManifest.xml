@@ -286,11 +286,57 @@
             android:name=".Avent.aventaccesorios10"
             android:label="Avent | Esterilizador eléctrico"
             android:parentActivityName=".Avent.aventaccesorios" />
-        <activity android:name=".NUK.nukprodlist"
+        <activity
+            android:name=".NUK.nukprodlist"
             android:label="NUK | Productos"
-            android:parentActivityName=".marcas">
-            <activity android:name=".NUK.nukmamaderas"/>
-
+            android:parentActivityName=".marcas" />
+        <activity
+            android:name=".NUK.nukmamaderas"
+            android:label="NUK | Mamaderas y vasos"
+            android:parentActivityName=".NUK.nukprodlist" />
+        <activity
+            android:name=".NUK.nukmamaderas1"
+            android:label="NUK | Mamadera"
+            android:parentActivityName=".NUK.nukmamaderas" />
+        <activity
+            android:name=".NUK.nukmamaderas2"
+            android:label="NUK | Mamadera"
+            android:parentActivityName=".NUK.nukmamaderas" />
+        <activity
+            android:name=".NUK.nukmamaderas3"
+            android:label="NUK | Mi primer kit"
+            android:parentActivityName=".NUK.nukmamaderas" />
+        <activity
+            android:name=".NUK.nukmamaderas4"
+            android:label="NUK | Mi primer kit"
+            android:parentActivityName=".NUK.nukmamaderas" />
+        <activity
+            android:name=".NUK.nukmamaderas5"
+            android:label="NUK | Mamaderas"
+            android:parentActivityName=".NUK.nukmamaderas" />
+        <activity
+            android:name=".NUK.nukmamaderas6"
+            android:label="NUK | Vaso"
+            android:parentActivityName=".NUK.nukmamaderas" />
+        <activity
+            android:name=".NUK.nukmamaderas7"
+            android:label="NUK | Vaso"
+            android:parentActivityName=".NUK.nukmamaderas" />
+        <activity
+            android:name=".NUK.nukmamaderas8"
+            android:label="NUK | Vaso"
+            android:parentActivityName=".NUK.nukmamaderas" />
+        <activity
+            android:name=".NUK.nukmamaderas9"
+            android:label="NUK | Vaso"
+            android:parentActivityName=".NUK.nukmamaderas" />
+        <activity
+            android:name=".NUK.nukmamaderas10"
+            android:label="NUK | Vaso"
+            android:parentActivityName=".NUK.nukmamaderas"/>
+        <activity android:name=".NUK.nukmamaderas11"
+            android:label="NUK | Vaso"
+            android:parentActivityName=".NUK.nukmamaderas">
 
         </activity>
     </application>

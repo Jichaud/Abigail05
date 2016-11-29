@@ -23,7 +23,6 @@ import java.io.IOException;
 public class aventnatural extends AppCompatActivity {
 
     Button home;
-
     Button marca;
     Button btnaventnatural1;
     Button btnaventnatural2;
