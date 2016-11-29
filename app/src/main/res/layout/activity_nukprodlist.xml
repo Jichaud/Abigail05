@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_marcas"
+    android:id="@+id/activity_nukprodlist"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="4dp"
-    tools:context="com.abigail05.marcas">
+    tools:context="com.abigail05.NUK.nukprodlist">
 
     <Button
         android:id="@+id/btnhome"
@@ -17,6 +17,15 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:text="@string/verhome"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btnvmarca"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="@string/verxmarca"
         android:textAllCaps="false"/>
 
     <ScrollView
@@ -35,39 +44,38 @@
                 android:layout_margin="6dp">
 
                 <ImageView
-                    android:id="@+id/avent"
-                    android:layout_width="80dp"
+                    android:id="@+id/nukmamaderas"
+                    android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:padding="8dp"/>
+                    android:padding="2dp"/>
 
                 <TextView
-                    android:id="@+id/txtaventmarca"
+                    android:id="@+id/txtnukmamaderas"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_toRightOf="@id/avent"
-                    android:paddingLeft="15dp"
+                    android:layout_toRightOf="@id/nukmamaderas"
                     android:fontFamily="sans-serif-light"
-                    android:text="@string/txtaventmarca"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnukmamaderas"
                     android:textSize="20sp" />
 
                 <TextView
-                    android:id="@+id/txtaventprod"
+                    android:id="@+id/txtnukmamaderasdesc"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/txtaventmarca"
-                    android:layout_toRightOf="@id/avent"
+                    android:layout_below="@id/txtnukmamaderas"
+                    android:layout_toRightOf="@id/nukmamaderas"
                     android:paddingLeft="15dp"
-                    android:text="@string/txtaventprod"
+                    android:text="@string/txtnukmamaderasdesc"
                     android:textColor="@color/grey"
                     android:textSize="16sp" />
 
                 <Button
-                    android:id="@+id/btnavent"
+                    android:id="@+id/btnnukmamaderas"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_below="@id/txtnukmamaderasdesc"
                     android:layout_alignParentRight="true"
-                    android:layout_below="@+id/txtaventprod"
-                    android:layout_marginBottom="4dp"
                     android:backgroundTint="@color/colorPrimary"
                     android:fontFamily="sans-serif-thin"
                     android:text="@string/btnver"
@@ -77,44 +85,43 @@
                 <View
                     android:id="@+id/view1"
                     style="@style/Divider"
-                    android:layout_below="@id/btnavent" />
+                    android:layout_below="@id/btnnukmamaderas" />
 
                 <ImageView
-                    android:id="@+id/mibes"
-                    android:layout_width="80dp"
+                    android:id="@+id/nukchupetes"
+                    android:layout_width="90dp"
                     android:layout_height="80dp"
                     android:layout_below="@id/view1"
-                    android:padding="8dp"/>
+                    android:padding="2dp"/>
 
                 <TextView
-                    android:id="@+id/txtmibesmarca"
+                    android:id="@+id/txtnukchupetes"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/view1"
-                    android:layout_toRightOf="@id/mibes"
-                    android:paddingLeft="15dp"
+                    android:layout_toRightOf="@id/nukchupetes"
                     android:fontFamily="sans-serif-light"
-                    android:text="@string/txtmibesmarca"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnukchupetes"
                     android:textSize="20sp" />
 
                 <TextView
-                    android:id="@+id/txtmibesprod"
+                    android:id="@+id/txtnukchupetesdesc"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/txtmibesmarca"
-                    android:layout_toRightOf="@id/mibes"
+                    android:layout_below="@id/txtnukchupetes"
+                    android:layout_toRightOf="@id/nukchupetes"
                     android:paddingLeft="15dp"
-                    android:text="@string/txtmibesprod"
+                    android:text="@string/txtnukchupetesdesc"
                     android:textColor="@color/grey"
                     android:textSize="16sp" />
 
                 <Button
-                    android:id="@+id/btnmibes"
+                    android:id="@+id/btnnukchupetes"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_below="@id/txtnukchupetesdesc"
                     android:layout_alignParentRight="true"
-                    android:layout_below="@+id/txtmibesprod"
-                    android:layout_marginBottom="4dp"
                     android:backgroundTint="@color/colorPrimary"
                     android:fontFamily="sans-serif-thin"
                     android:text="@string/btnver"
@@ -124,44 +131,43 @@
                 <View
                     android:id="@+id/view2"
                     style="@style/Divider"
-                    android:layout_below="@id/btnmibes" />
+                    android:layout_below="@id/btnnukchupetes" />
 
                 <ImageView
-                    android:id="@+id/nuk"
-                    android:layout_width="80dp"
-                    android:layout_below="@id/view2"
+                    android:id="@+id/nukaccesorios"
+                    android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:padding="8dp"/>
+                    android:layout_below="@id/view2"
+                    android:padding="2dp"/>
 
                 <TextView
-                    android:id="@+id/txtnukmarca"
+                    android:id="@+id/txtnukaccesorios"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_toRightOf="@id/nuk"
                     android:layout_below="@id/view2"
-                    android:paddingLeft="15dp"
+                    android:layout_toRightOf="@id/nukaccesorios"
                     android:fontFamily="sans-serif-light"
-                    android:text="@string/txtnukmarca"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnukaccesorios"
                     android:textSize="20sp" />
 
                 <TextView
-                    android:id="@+id/txtnukprod"
+                    android:id="@+id/txtnukaccesoriosdesc"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/txtnukmarca"
-                    android:layout_toRightOf="@id/nuk"
+                    android:layout_below="@id/txtnukaccesorios"
+                    android:layout_toRightOf="@id/nukaccesorios"
                     android:paddingLeft="15dp"
-                    android:text="@string/txtnukprod"
+                    android:text="@string/txtnukaccesoriosdesc"
                     android:textColor="@color/grey"
                     android:textSize="16sp" />
 
                 <Button
-                    android:id="@+id/btnnuk"
+                    android:id="@+id/btnnukaccesorios"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_below="@id/txtnukaccesoriosdesc"
                     android:layout_alignParentRight="true"
-                    android:layout_below="@+id/txtnukprod"
-                    android:layout_marginBottom="4dp"
                     android:backgroundTint="@color/colorPrimary"
                     android:fontFamily="sans-serif-thin"
                     android:text="@string/btnver"
@@ -171,44 +177,43 @@
                 <View
                     android:id="@+id/view3"
                     style="@style/Divider"
-                    android:layout_below="@id/btnnuk" />
+                    android:layout_below="@id/btnnukaccesorios" />
 
                 <ImageView
-                    android:id="@+id/pilim"
-                    android:layout_width="80dp"
-                    android:layout_below="@id/view3"
+                    android:id="@+id/nukhigiene"
+                    android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:padding="8dp"/>
+                    android:layout_below="@id/view3"
+                    android:padding="2dp"/>
 
                 <TextView
-                    android:id="@+id/txtpilimmarca"
+                    android:id="@+id/txtnukhigiene"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_toRightOf="@id/pilim"
                     android:layout_below="@id/view3"
-                    android:paddingLeft="15dp"
+                    android:layout_toRightOf="@id/nukhigiene"
                     android:fontFamily="sans-serif-light"
-                    android:text="@string/txtpilimmarca"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnukhigiene"
                     android:textSize="20sp" />
 
                 <TextView
-                    android:id="@+id/txtpilimprod"
+                    android:id="@+id/txtnukhigienedesc"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/txtpilimmarca"
-                    android:layout_toRightOf="@id/pilim"
+                    android:layout_below="@id/txtnukhigiene"
+                    android:layout_toRightOf="@id/nukhigiene"
                     android:paddingLeft="15dp"
-                    android:text="@string/txtpiliprod"
+                    android:text="@string/txtnukhigienedesc"
                     android:textColor="@color/grey"
                     android:textSize="16sp" />
 
                 <Button
-                    android:id="@+id/btnpilim"
+                    android:id="@+id/btnnukhigiene"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_below="@id/txtnukhigienedesc"
                     android:layout_alignParentRight="true"
-                    android:layout_below="@+id/txtpilimprod"
-                    android:layout_marginBottom="4dp"
                     android:backgroundTint="@color/colorPrimary"
                     android:fontFamily="sans-serif-thin"
                     android:text="@string/btnver"
@@ -218,7 +223,53 @@
                 <View
                     android:id="@+id/view4"
                     style="@style/Divider"
-                    android:layout_below="@id/btnpilim" />
+                    android:layout_below="@id/btnnukhigiene" />
+
+                <ImageView
+                    android:id="@+id/nukaccesoriosm"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view4"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtnukaccesoriosm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view4"
+                    android:layout_toRightOf="@id/nukaccesoriosm"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnukaccesoriosm"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtnukaccesoriosmdesc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtnukaccesoriosm"
+                    android:layout_toRightOf="@id/nukaccesoriosm"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnukaccesoriosmdesc"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnaccesoriosm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtnukaccesoriosmdesc"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <View
+                    android:id="@+id/view5"
+                    style="@style/Divider"
+                    android:layout_below="@id/btnaccesoriosm" />
 
             </RelativeLayout>
 

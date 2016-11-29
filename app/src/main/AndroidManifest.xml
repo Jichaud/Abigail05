@@ -281,10 +281,16 @@
         <activity
             android:name=".Avent.aventaccesorios9"
             android:label="Avent | Esterilizador a vapor"
-            android:parentActivityName=".Avent.aventaccesorios"/>
-        <activity android:name=".Avent.aventaccesorios10"
+            android:parentActivityName=".Avent.aventaccesorios" />
+        <activity
+            android:name=".Avent.aventaccesorios10"
             android:label="Avent | Esterilizador eléctrico"
-            android:parentActivityName=".Avent.aventaccesorios">
+            android:parentActivityName=".Avent.aventaccesorios" />
+        <activity android:name=".NUK.nukprodlist"
+            android:label="NUK | Productos"
+            android:parentActivityName=".marcas">
+            <activity android:name=".NUK.nukmamaderas"/>
+
 
         </activity>
     </application>

@@ -8,15 +8,15 @@
     <string name="enviar">enviar</string>
     <string name="consulta">Consultanos</string>
     <string name="consultatxt">Estamos para ayudarte.</string>
-    <string name="mailok">Gracias por tu mail, nos pondremos en contacto a la brevedad...</string>
+    <string name="mailok">Gracias por tu mail, nos pondremos en contacto a la brevedad…</string>
 
     AM
     <string name="AMprodabi">Productos Abigail05</string>
     <string name="AMtxtdesc">Conocé nuestros productos</string>
     <string name="AMbuscaprod">Buscá por producto</string>
-    <string name="AMtxtdescxprod">Almohadones, mamaderas, chupetes y mucho más...</string>
+    <string name="AMtxtdescxprod">Almohadones, mamaderas, chupetes y mucho más…</string>
     <string name="AMbuscamarca">Buscá por marca</string>
-    <string name="AMtxtdescxmarca">Abigail05, Avent, Chicco y mucho más...</string>
+    <string name="AMtxtdescxmarca">Abigail05, Avent, Chicco y mucho más…</string>
 
     Productos Abigail05
     <string name="txtcombo">Combo Almohadón para Amamantar</string>
@@ -81,13 +81,13 @@
 
     Avent
     <string name="txtaventmarca">Philips - Avent</string>
-    <string name="txtaventprod">Mamaderas, chupetes, tetinas, sacaleche y mucho más...</string>
+    <string name="txtaventprod">Mamaderas, chupetes, tetinas, sacaleche y mucho más…</string>
     <string name="txtaventclassic">Línea classic</string>
     <string name="txtaventnatural">Línea natural</string>
     <string name="txtaventchupetes">Chupetes</string>
     <string name="txtaventchupetesdesc">Desde 0 a 6 meses y desde 6 meses a 18 meses</string>
     <string name="txtaventaccesorios">Accesorios y seguridad</string>
-    <string name="txtaventaccesoriosdesc">Mordillos, cubiertos, platos, esterilizadores y más...</string>
+    <string name="txtaventaccesoriosdesc">Mordillos, cubiertos, platos, esterilizadores y más…</string>
     <string name="txtaventclassic1">Philips Avent mamadera 125ml tetina de flujo muy lento 0m+</string>
     <string name="txtaventclassic2">Philips Avent mamadera 260ml tetina de flujo lento 1m+</string>
     <string name="txtaventclassic3">Philips Avent mamadera 330ml tetina de flujo variable 3m+</string>
@@ -127,5 +127,30 @@
     <string name="txtaventaccesorios8">Philips Avent blister pezoneras standard 21mm</string>
     <string name="txtaventaccesorios9">Philips Avent esterilizador a vapor</string>
     <string name="txtaventaccesorios10">Philips Avent esterilizador eléctrico 3 en 1</string>
+
+    NUK
+    <string name="txtnukmarca">NUK</string>
+    <string name="txtnukprod">Mamaderas, chupetes, vasos, accesorios y mucho más…</string>
+    <string name="txtnukmamaderas">Mamaderas y vasos</string>
+    <string name="txtnukmamaderasdesc">Mamaderas, chupetes, vasos, accesorios y mucho más…</string>
+    <string name="txtnukmamaderas1">NUK mamadera first choise 150ml 0–6 meses. Varios colores</string>
+    <string name="txtnukmamaderas2">NUK mamadera first choise 300ml 6–18 meses. Varios colores</string>
+    <string name="txtnukmamaderas3">NUK Mi Primer Kit rosa – 1 mamadera 150ml – 1 mamadera 300ml – 1 chupete 0–6 meses – 1 chupete 6–18 meses – 1 ata chupete</string>
+    <string name="txtnukmamaderas4">NUK Mi Primer Kit celeste – 1 mamadera 150ml – 1 mamadera 300ml – 1 chupete 0–6 meses – 1 chupete 6–18 meses – 1 ata chupete</string>
+    <string name="txtnukmamaderas5">NUK blister – 2 mamaderas First Choise 300ml (Disponible también en Rosa)</string>
+    <string name="txtnukmamaderas6">NUK vaso First Choise con asas. Pico silicona antiderrame +6 meses. Varios colores</string>
+    <string name="txtnukmamaderas7">NUK vaso Active Cup 300ml. Pico de silicona antiderrame +12 meses. Varios colores</string>
+    <string name="txtnukmamaderas8">NUK vaso Kiddy Cup 300ml. Pico rídigo antiderrame +12 meses. Varios colores</string>
+    <string name="txtnukmamaderas9">NUK vaso Flexi Cup 300ml con sorbete antiderrame +24 meses. Varios colores</string>
+    <string name="txtnukmamaderas10">NUK vaso Junior Cup 300ml. Pico Push antiderrame +36 meses. Varios colores</string>
+    <string name="txtnukmamaderas11">NUK vaso Magic 250ml. Nuevo borde que permite beber en todo el perímetro. El disco de silicona actúa como sello, evitando salpicaduras y derrames +8 Meses. Varios colores</string>
+    <string name="txtnukchupetes">Chupetes</string>
+    <string name="txtnukchupetesdesc">Desde 0 meses a 36 meses</string>
+    <string name="txtnukaccesorios">Accesorios</string>
+    <string name="txtnukaccesoriosdesc">Repuestos varios</string>
+    <string name="txtnukhigiene">Cuidado e higiene</string>
+    <string name="txtnukhigienedesc">Tijeras, cepillos, descongestionador, termómetros</string>
+    <string name="txtnukaccesoriosm">Accesorios para la mamá</string>
+    <string name="txtnukaccesoriosmdesc">Pezoneras, casquillos, sacaleche, contenedores de leche</string>
 
 </resources>
