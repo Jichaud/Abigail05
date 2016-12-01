@@ -369,10 +369,26 @@
         <activity
             android:name=".NUK.nukchupetes6"
             android:label="NUK | Chupete"
-            android:parentActivityName=".NUK.nukchupetes"/>
-        <activity android:name=".NUK.nukchupetes7"
+            android:parentActivityName=".NUK.nukchupetes" />
+        <activity
+            android:name=".NUK.nukchupetes7"
             android:label="NUK | Chupete"
-            android:parentActivityName=".NUK.nukchupetes">
+            android:parentActivityName=".NUK.nukchupetes" />
+        <activity
+            android:name=".NUK.nukaccesorios"
+            android:label="NUK | Accesorios"
+            android:parentActivityName=".NUK.nukprodlist" />
+        <activity
+            android:name=".NUK.nukaccesorios1"
+            android:label="NUK | Accesorios"
+            android:parentActivityName=".NUK.nukaccesorios" />
+        <activity
+            android:name=".NUK.nukaccesorios2"
+            android:label="NUK | Accesorios"
+            android:parentActivityName=".NUK.nukaccesorios"/>
+        <activity android:name=".NUK.nukaccesorios3"
+            android:label="NUK | Accesorios"
+            android:parentActivityName=".NUK.nukaccesorios">
 
         </activity>
     </application>

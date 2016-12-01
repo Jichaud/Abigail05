@@ -76,7 +76,7 @@ public class nukprodlist extends AppCompatActivity {
         btnnukaccesorios.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent btnnukaccesorios = new Intent(nukprodlist.this, aventchupetes.class);
+                Intent btnnukaccesorios = new Intent(nukprodlist.this, nukaccesorios.class);
                 startActivity(btnnukaccesorios);
             }
         });

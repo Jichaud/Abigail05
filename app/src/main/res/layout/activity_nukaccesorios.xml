@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_nukaccesorios"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="4dp"
+    tools:context="com.abigail05.NUK.nukaccesorios">
+
+    <Button
+        android:id="@+id/btnhome"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:text="@string/verhome"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btnvmarca"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="@string/verxmarca"
+        android:textAllCaps="false"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/btnhome">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="6dp">
+
+                <ImageView
+                    android:id="@+id/nukaccesorios1"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtnukaccesorios1principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/nukaccesorios1"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnukaccesorios"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtnukaccesorios1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtnukaccesorios1principal"
+                    android:layout_toRightOf="@id/nukaccesorios1"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnukaccesorios1"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnnukaccesorios1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/view1"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/precionukaccesorios1"
+                    style="@style/precio"
+                    android:layout_below="@id/nukaccesorios1"/>
+
+                <View
+                    android:id="@+id/view1"
+                    style="@style/Divider"
+                    android:layout_below="@id/precionukaccesorios1" />
+
+                <ImageView
+                    android:id="@+id/nukaccesorios2"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view1"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtnukaccesorios2principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view1"
+                    android:layout_toRightOf="@id/nukaccesorios2"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnukaccesorios"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtnukaccesorios2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtnukaccesorios2principal"
+                    android:layout_toRightOf="@id/nukaccesorios2"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnukaccesorios2"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnnukaccesorios2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/view2"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/precionukaccesorios2"
+                    style="@style/precio"
+                    android:layout_below="@id/nukaccesorios2"/>
+
+                <View
+                    android:id="@+id/view2"
+                    style="@style/Divider"
+                    android:layout_below="@id/precionukaccesorios2" />
+
+                <ImageView
+                    android:id="@+id/nukaccesorios3"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view2"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtnukaccesorios3principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view2"
+                    android:layout_toRightOf="@id/nukaccesorios3"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnukaccesorios"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtnukaccesorios3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtnukaccesorios3principal"
+                    android:layout_toRightOf="@id/nukaccesorios3"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnukaccesorios3"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnnukaccesorios3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/view3"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/precionukaccesorios3"
+                    style="@style/precio"
+                    android:layout_below="@id/nukaccesorios3"/>
+
+                <View
+                    android:id="@+id/view3"
+                    style="@style/Divider"
+                    android:layout_below="@id/precionukaccesorios3" />
+
+                <ImageView
+                    android:id="@+id/nukaccesorios4"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view3"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtnukaccesorios4principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view3"
+                    android:layout_toRightOf="@id/nukaccesorios4"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnukaccesorios"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtnukaccesorios4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtnukaccesorios4principal"
+                    android:layout_toRightOf="@id/nukaccesorios4"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnukaccesorios4"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnnukaccesorios4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/view4"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/precionukaccesorios4"
+                    style="@style/precio"
+                    android:layout_below="@id/nukaccesorios4"/>
+
+                <View
+                    android:id="@+id/view4"
+                    style="@style/Divider"
+                    android:layout_below="@id/precionukaccesorios4" />
+
+                <ImageView
+                    android:id="@+id/nukaccesorios5"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view4"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtnukaccesorios5principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view4"
+                    android:layout_toRightOf="@id/nukaccesorios5"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnukaccesorios"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtnukaccesorios5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtnukaccesorios5principal"
+                    android:layout_toRightOf="@id/nukaccesorios5"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnukaccesorios5"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnnukaccesorios5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/view5"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/precionukaccesorios5"
+                    style="@style/precio"
+                    android:layout_below="@id/nukaccesorios5"/>
+
+                <View
+                    android:id="@+id/view5"
+                    style="@style/Divider"
+                    android:layout_below="@id/precionukaccesorios5" />
+
+                <ImageView
+                    android:id="@+id/nukaccesorios6"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view5"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtnukaccesorios6principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view5"
+                    android:layout_toRightOf="@id/nukaccesorios6"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnukaccesorios"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtnukaccesorios6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtnukaccesorios6principal"
+                    android:layout_toRightOf="@id/nukaccesorios6"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnukaccesorios6"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnnukaccesorios6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/view6"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/precionukaccesorios6"
+                    style="@style/precio"
+                    android:layout_below="@id/nukaccesorios6"/>
+
+                <View
+                    android:id="@+id/view6"
+                    style="@style/Divider"
+                    android:layout_below="@id/precionukaccesorios6" />
+
+                <ImageView
+                    android:id="@+id/nukaccesorios7"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view6"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtnukaccesorios7principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view6"
+                    android:layout_toRightOf="@id/nukaccesorios7"
+                    android:ellipsize="end"
+                    android:fontFamily="sans-serif-light"
+                    android:maxLines="2"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnukaccesorios"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtnukaccesorios7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtnukaccesorios7principal"
+                    android:layout_toRightOf="@id/nukaccesorios7"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnukaccesorios7"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnnukaccesorios7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/view7"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/precionukaccesorios7"
+                    style="@style/precio"
+                    android:layout_below="@id/nukaccesorios7"/>
+
+                <View
+                    android:id="@+id/view7"
+                    style="@style/Divider"
+                    android:layout_below="@id/precionukaccesorios7" />
+
+                <ImageView
+                    android:id="@+id/nukaccesorios8"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view7"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtnukaccesorios8principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view7"
+                    android:layout_toRightOf="@id/nukaccesorios8"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnukaccesorios"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtnukaccesorios8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtnukaccesorios8principal"
+                    android:layout_toRightOf="@id/nukaccesorios8"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnukaccesorios8"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnnukaccesorios8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/view8"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/precionukaccesorios8"
+                    style="@style/precio"
+                    android:layout_below="@id/nukaccesorios8"/>
+
+                <View
+                    android:id="@+id/view8"
+                    style="@style/Divider"
+                    android:layout_below="@id/precionukaccesorios8" />
+
+                <ImageView
+                    android:id="@+id/nukaccesorios9"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view8"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtnukaccesorios9principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view8"
+                    android:layout_toRightOf="@id/nukaccesorios9"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnukaccesorios"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtnukaccesorios9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtnukaccesorios9principal"
+                    android:layout_toRightOf="@id/nukaccesorios9"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnukaccesorios9"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnnukaccesorios9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/view9"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/precionukaccesorios9"
+                    style="@style/precio"
+                    android:layout_below="@id/nukaccesorios9"/>
+
+                <View
+                    android:id="@+id/view9"
+                    style="@style/Divider"
+                    android:layout_below="@id/precionukaccesorios9" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

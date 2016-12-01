@@ -163,5 +163,14 @@
     <string name="txtnukhigienedesc">Tijeras, cepillos, descongestionador, termómetros</string>
     <string name="txtnukaccesoriosm">Accesorios para la mamá</string>
     <string name="txtnukaccesoriosmdesc">Pezoneras, casquillos, sacaleche, contenedores de leche</string>
+    <string name="txtnukaccesorios1">NUK repuesto pico silicona antiderrame</string>
+    <string name="txtnukaccesorios2">NUK repuesto pico TPE derramable</string>
+    <string name="txtnukaccesorios3">NUK repuesto pico rígido Kiddy antiderrame</string>
+    <string name="txtnukaccesorios4">NUK repuesto Flexi Cup x2 unidades antiderrame</string>
+    <string name="txtnukaccesorios5">NUK repuesto pico Push antiderrame</string>
+    <string name="txtnukaccesorios6">NUK blister x2 unidades tetinas silicona 0 a 6 meses disponibles en medida: "S" / "M" / "L"</string>
+    <string name="txtnukaccesorios7">NUK blister x2 unidades tetinas silicona 6 a 18 meses disponibles en medida: "M" / "L"</string>
+    <string name="txtnukaccesorios8">NUK blister x2 unidades tetinas látex 0 a 6 meses disponibles en medida: "S" / "M" / "L"</string>
+    <string name="txtnukaccesorios9">NUK blister x2 unidades tetinas látex 6 a 18 meses disponibles en medida: "M" / "L"</string>
 
 </resources>
