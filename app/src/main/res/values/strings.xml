@@ -37,6 +37,10 @@
     <string name="txtfular1">Fular elástico</string>
     <string name="txtfular1desc">Fular elástico varios colores</string>
     <string name="txtfular1desc1">Fular elástico varios colores: gris, rojo, turquesa, verde agua oscuro y negro</string>
+    <string name="txtmanta1">Mantas y gorritos</string>
+    <string name="txtmanta1desc">Mantas y gorritos. Varios colores</string>
+    <string name="txtmanta1desc1">Manta con nombre bordado y gorrito de polar. Varios colores</string>
+
 
     Combo1
     <string name="stock">Consultá stock antes de comprar</string>
@@ -146,6 +150,16 @@
     <string name="txtnukmamaderas11">NUK vaso Magic 250ml. Nuevo borde que permite beber en todo el perímetro. El disco de silicona actúa como sello, evitando salpicaduras y derrames +8 Meses. Varios colores</string>
     <string name="txtnukchupetes">Chupetes</string>
     <string name="txtnukchupetesdesc">Desde 0 meses a 36 meses</string>
+    <string name="txtnukchupetes1">NUK chupete Happy Kids disponible en medidas 0–6 / 6–18 / 18–36 meses</string>
+    <string name="txtnukchupetes2">NUK chupete Happy Kids disponible en medidas 0–6 / 6–18 / 18–36 meses</string>
+    <string name="txtnukchupetes3">NUK chupete Baby Blue disponible en medidas 0–6 o 6–18</string>
+    <string name="txtnukchupetes4">NUK chupete Baby Rose disponible en medidas 0–6 o 6–18</string>
+    <string name="txtnukchupetes5">NUK chupete Baby Blue de botón disponible en medidas 0–6 o 6–18</string>
+    <string name="txtnukchupetes6">NUK chupete Baby Rose de botón disponible en medidas 0–6 o 6–18</string>
+    <string name="txtnukchupetes7">NUK chupete Starlight disponible en medidas 0–6 o 6–18</string>
+    <string name="txtnukchupetes8">NUK chupete Starlight disponible en medidas 0–6 o 6–18</string>
+    <string name="txtnukchupetes9">NUK chupete Genius disponible en medidas 0–2 / 0–6 / 6–18 / 18–36 meses</string>
+    <string name="txtnukchupetes10">NUK chupete Genius disponible en medidas 0–2 / 0–6 / 6–18 / 18–36 meses</string>
     <string name="txtnukaccesorios">Accesorios</string>
     <string name="txtnukaccesoriosdesc">Repuestos varios</string>
     <string name="txtnukhigiene">Cuidado e higiene</string>

@@ -270,6 +270,54 @@
                     style="@style/Divider"
                     android:layout_below="@id/btnfular1" />
 
+                <ImageView
+                    android:id="@+id/manta1"
+                    android:layout_width="90dp"
+                    android:layout_height="100dp"
+                    android:layout_below="@id/view5"/>
+
+                <TextView
+                    android:id="@+id/txtmanta1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view5"
+                    android:layout_toRightOf="@id/manta1"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtmanta1"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtmanta1desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtmanta1"
+                    android:layout_toRightOf="@id/manta1"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtmanta1desc"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnmanta1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/txtmanta1desc"
+                    android:layout_marginBottom="4dp"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="ver+"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <View
+                    android:id="@+id/view6"
+                    style="@style/Divider"
+                    android:layout_below="@id/btnmanta1" />
+
             </RelativeLayout>
 
         </LinearLayout>

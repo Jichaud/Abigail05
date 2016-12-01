@@ -21,6 +21,7 @@ public class abiprodlist extends AppCompatActivity {
     Button btnlista3;
     Button btnalmohada1;
     Button btnfular1;
+    Button btnmanta1;
     ImageView lista1img;
     String urllista1img = "https://lh3.googleusercontent.com/0PZVM2KAiLotF7nrs-MHjo0F7IAtdclqVzPegR1Hva2PXoQn4mJaH1zoykpqTtF5Wqqw2eaFz41VhGp63-SLObi1U3IxKntfhGxsCeNqul_s37yDLQ-VNhCHrdPvZ1ceQNHCRxqNpx67XLvoSN4H8aMUjqrPF5o41PvdQ5jgYu_97WAruYnzWcHx_P6kUWfdISZKWvFgdAthWrJ4NDr89vhDTarqtYD6l4O91uw1DzbxVgoJAG3iFEYI00Oenixfa7Bx8Yl4EydMmzxk0-EwTqUbm8Tife0gTajaYHPQa-NVBrFbv8qGEXv4H29Xdj8-DeA4cgquQCOsv_xzPMOh6EEp48DbLu2n6mL7MLNeZnAhobXxkiClvjxDcQ9oJ328QxZ7ncKzQO6sjWgl2YKAeGFq9HWApNa1X6_9bYafPVMyXu-M7DdfRcyyE8ALDdbYlJAa1Ys5OT97LfNQK1IVCdkd5nFYM8MpPf1UuctiBGkJEtewdOLzlNg5QP_mPsF1ZgWOhUeaJmhYWIgEXo4yj0QjCSgLCvfAkuwYrrm5GV0knm3YYthDMyyw12yLw2_woZbfadGRGmKmYkP-cOI0dEyur5rxZu7x2cP7fA61ElKk5MLwYg=w571-h591-no";
     ImageView lista2img;
@@ -31,6 +32,8 @@ public class abiprodlist extends AppCompatActivity {
     String urlalmohada1 = "https://lh3.googleusercontent.com/-hc1nxRgBR8uYR_iWxiaA8HNood97t7sMYf5YmieBMaWDrDI-MU_i943PKWKiWMME0B8V2oj5KRLZUx-aTtDSmYHnR27yqydrXoqeRsVneEm4FT3hkksAvgs9qYVuyfRXfUWBEHQFObEgqD8iIb0S-epETYUahQvjwgYhHJiOMaAM7dt8vDiyHpPGY45W9PJ9zHk7yDSE-ikX-UsTr3WdGzoObUZKbptMZBv1CAAWpev5vyBziPwS3uYfhbl9I9nZXom4qP6w4nFvLsng3yh-E03yziRMw8Oc_sUZfFll1LB6y-rgubJEVd6BagUcDEiYiv-YBrLlnb_n-VsbG3NCZK0IaG80b-8Luv5GnPDMQmZwsnqYFtItVX14AgJhiOb7wK29wM2v_sDA3JvnQ5mGeZ__Vz4k4OfC5EZ2yDOLJJXx4QKg8YuOhy_xqDlJBiTt1LPf0vcXGiqAgVhLmImWzepYTKqCh5uLjRLikUpnfXEMtobJQMjrzicXAoXNE8EL7FOyv6h3gRUwF2T_tC_U9urpQ0AGTzVAUI2wnk0oQkAMvvcHsCd2hTAX4GfK4_3N4_bJ3q-qcR1NpftayetuUmlKH_2XO1vveMKAfdyQWu_RTjLlA=w480-h312-no";
     ImageView fular1;
     String urlfular1 = "https://lh3.googleusercontent.com/4uATwRsq1K6FkkyjXkabmJKX9e2aQ2rYVNSQ2jiRILpd1YvCbVBWNqnl1D3I7pBcTp7t4wwAFBZTdzns-dSxsx4CMrZ99jA-Ep_VwJr4MgfkSvDAO1KCQaQHzCSvUdfIsk6lu4EY2E5hSK3Llb3KruviuFeQPJAXuTtDm4MKWp-rFd3xVHvuZM8_7Jce4To3438o7qsqmCS5XUsOKGw4nYA1A8qtr3VpUJRbq9Tsau9CMZRE_eFtkoAtGR_lxI0ApA-s4800K4Rjh6IAEA0uoXtNopcNO2YOn2OiG-x4H7c8SyvXBE_SL6mYiekdaFgixSTzuGUdYcdEcSZQawf0HylRUQFEeSASkqYgrOCDeGJNMW2qZIIvgJhGaXm9cW-4WXP4GJAziKbfyAWQZKSpostRs4yNj-HL2Hhsx4TczGXAfX95130oTk5iuEcbAp_2h1Nl1UDu67d-xwtMVsYI_8Vrjc4D0bKeynBLkIrt2D8XN3dCJUuKbAmZQICj9t8_drDKiaooa4aK_2rbaN8yH1SgJbtuuIQTNgk70W9t6ACd-0qzYusUOv_kmyP-xqq87SsR2KkHo2z_zU6E3Kx1wQnLDJnKeUDyhTRndBaI6vJz3UdbMg=w480-h312-no";
+    ImageView manta1;
+    String urlmanta1 = "https://lh3.googleusercontent.com/HGBjWaMd9TBcdu5myuzQr-RPnJEsdyyQNVDyKpGmefJdE2vHPMGjpZDDJXrwKQf4TObk6VMQ-V77RuqwQw27Hto9gZrJRfDWHuTIsogD2GbFZ2FAeepcCqcJVNT6muLWiuP68yxOFP6g0Fc1UDVKfYEb_0IGCwwbooJH3iFhu2yhKcnmfdYb4O1_k7wWK6lnqx-UVhU2fAZskNDrJ-1IjGpdDhRRaBwNZ4P4kYFSFLmCW6P6lUPnI0ZZMUDvwC3gjD6hsXlC6ul8hxbfMbXVPQURAA5fvZ4TT9uE1yb66DWCrZIRmq5-E27uXuGXQ3zjrHDwcmSpuIxPo1pV4uBgShsrVR-H-IGqWY2RRqb0HqH2iuUkm5WpmW7GPnO8QmXpf72cDchNd8dwdJzXJdQIdYx6ezAlG5BddbwFSv15u5CEDTpQHLG2_zcFCfPAHC70dNJxib7OPXo6-pLBx5tyX6lo4j0du-iLcuMAePotVizbxnWDhHG4Fhf0Ap2m2yi0gNPz62e_jiDN3bw5-Lche0gRRLkL_cYyOl_I8-49237v0ZtSDimzenhieoxY9cS8Hs3G7nUecMMGh9WQQRbrbbIkr8c5FN2-Rff3LCkglOvgnc5y6w=w480-h276-no";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,6 +54,9 @@ public class abiprodlist extends AppCompatActivity {
 
         fular1 = (ImageView)findViewById(R.id.fular1);
         Picasso.with(this).load(urlfular1).into(fular1);
+
+        manta1 = (ImageView)findViewById(R.id.manta1);
+        Picasso.with(this).load(urlmanta1).into(manta1);
 
         marca = (Button) findViewById(R.id.btnvmarca);
         marca.setOnClickListener(new View.OnClickListener() {
@@ -112,6 +118,15 @@ public class abiprodlist extends AppCompatActivity {
             public void onClick(View view) {
                 Intent btnfular1 = new Intent(abiprodlist.this, fular1.class);
                 startActivity(btnfular1);
+            }
+        });
+
+        btnmanta1 = (Button)findViewById(R.id.btnmanta1);
+        btnmanta1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnmanta1 = new Intent(abiprodlist.this, manta1.class);
+                startActivity(btnmanta1);
             }
         });
 

@@ -333,10 +333,18 @@
         <activity
             android:name=".NUK.nukmamaderas10"
             android:label="NUK | Vaso"
-            android:parentActivityName=".NUK.nukmamaderas"/>
-        <activity android:name=".NUK.nukmamaderas11"
+            android:parentActivityName=".NUK.nukmamaderas" />
+        <activity
+            android:name=".NUK.nukmamaderas11"
             android:label="NUK | Vaso"
-            android:parentActivityName=".NUK.nukmamaderas">
+            android:parentActivityName=".NUK.nukmamaderas" />
+        <activity
+            android:name=".Abigail.manta1"
+            android:label="Abigail05 | Manta y gorrito"
+            android:parentActivityName=".Abigail.abiprodlist"/>
+        <activity android:name=".NUK.nukchupetes"
+            android:label="NUK | Chupetes"
+            android:parentActivityName=".NUK.nukprodlist">
 
         </activity>
     </application>
