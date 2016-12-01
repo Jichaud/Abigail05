@@ -8,7 +8,6 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.abigail05.Abigail.almohada1;
 import com.abigail05.MainActivity;
 import com.abigail05.R;
 import com.abigail05.contacto;

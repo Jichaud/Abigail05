@@ -341,10 +341,38 @@
         <activity
             android:name=".Abigail.manta1"
             android:label="Abigail05 | Manta y gorrito"
-            android:parentActivityName=".Abigail.abiprodlist"/>
-        <activity android:name=".NUK.nukchupetes"
+            android:parentActivityName=".Abigail.abiprodlist" />
+        <activity
+            android:name=".NUK.nukchupetes"
             android:label="NUK | Chupetes"
-            android:parentActivityName=".NUK.nukprodlist">
+            android:parentActivityName=".NUK.nukprodlist" />
+        <activity
+            android:name=".NUK.nukchupetes1"
+            android:label="NUK | Chupete"
+            android:parentActivityName=".NUK.nukchupetes" />
+        <activity
+            android:name=".NUK.nukchupetes2"
+            android:label="NUK | Chupete"
+            android:parentActivityName=".NUK.nukchupetes" />
+        <activity
+            android:name=".NUK.nukchupetes3"
+            android:label="NUK | Chupete"
+            android:parentActivityName=".NUK.nukchupetes" />
+        <activity
+            android:name=".NUK.nukchupetes4"
+            android:label="NUK | Chupete"
+            android:parentActivityName=".NUK.nukchupetes" />
+        <activity
+            android:name=".NUK.nukchupetes5"
+            android:label="NUK | Chupete"
+            android:parentActivityName=".NUK.nukchupetes" />
+        <activity
+            android:name=".NUK.nukchupetes6"
+            android:label="NUK | Chupete"
+            android:parentActivityName=".NUK.nukchupetes"/>
+        <activity android:name=".NUK.nukchupetes7"
+            android:label="NUK | Chupete"
+            android:parentActivityName=".NUK.nukchupetes">
 
         </activity>
     </application>

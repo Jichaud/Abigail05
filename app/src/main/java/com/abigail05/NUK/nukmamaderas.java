@@ -2,25 +2,13 @@ package com.abigail05.NUK;
 
 import android.content.Intent;
 import android.os.AsyncTask;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.abigail05.Avent.aventchupete1;
-import com.abigail05.Avent.aventchupete10;
-import com.abigail05.Avent.aventchupete11;
-import com.abigail05.Avent.aventchupete2;
-import com.abigail05.Avent.aventchupete3;
-import com.abigail05.Avent.aventchupete4;
-import com.abigail05.Avent.aventchupete5;
-import com.abigail05.Avent.aventchupete6;
-import com.abigail05.Avent.aventchupete7;
-import com.abigail05.Avent.aventchupete8;
-import com.abigail05.Avent.aventchupete9;
-import com.abigail05.Avent.aventchupetes;
 import com.abigail05.MainActivity;
 import com.abigail05.R;
 import com.abigail05.marcas;
