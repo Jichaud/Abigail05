@@ -82,7 +82,7 @@ public class nukhigiene extends AppCompatActivity {
             }
         });
 
-/*        btnnukhigiene2 = (Button)findViewById(R.id.btnnukhigiene2);
+        btnnukhigiene2 = (Button)findViewById(R.id.btnnukhigiene2);
         btnnukhigiene2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -117,7 +117,7 @@ public class nukhigiene extends AppCompatActivity {
                 startActivity(btnnukhigiene5);
             }
         });
-*/
+
         marca = (Button) findViewById(R.id.btnvmarca);
         marca.setOnClickListener(new View.OnClickListener() {
             @Override

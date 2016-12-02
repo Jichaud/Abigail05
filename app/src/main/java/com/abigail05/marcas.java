@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 import com.abigail05.Avent.aventprodlist;
+import com.abigail05.Chicco.chiccoprodlist;
 import com.abigail05.NUK.nukprodlist;
 import com.abigail05.mibes.mibesprodlist;
 import com.abigail05.pilim.pilimprodlist;
@@ -28,6 +29,9 @@ public class marcas extends AppCompatActivity {
     ImageView nuk;
     String urlnuk = "https://lh3.googleusercontent.com/nbnKiiXh2WghhoXBi-NZd-Idf-eACByvc0yP9uRq5aF3AcB_xR_T8C1OsiiN_5quer5mInLM8HFjc-N8ORrxgzXNh9CX3rOGEXqTE9PEZsniEYDI-vL8_7Y8rMxFI5A2sDnvt9NUF47k4P8eQAj6zkK9hvautHL_zSqj21BhHc6igo56ljnPqHTqnke4d74dwp6CwlMR53LXM5LVlT0y2iFum42cYH-ccX6tmpqmNi0CT3k1b07bihWVUpzk5etb_YYYejsz2vd0krP0AZMcUHmxJbgIC60fiCJ2pWL8jPzKX2ngw_dWLoApRrYQa3sWyYAaSo2abIyPXVgHWed9zd2StvxYABG21YE7LSCE1e01XcYZ_m4o5e99Hw8oMnwuSLRbVPzi_O9YRq8K6Z0Vkv3X7Q-pDAQbmZVL9ce8UiRl0YL8DLPEdBF5DgF18NVuKM7ZgAl74hMDb_DtmqA1asLPVTb9fwBB-r1bn5i1OSpuiE1RyEHkj_IV-XZ-Efdmu8pavA5OVnMJ9lpIzqwntJz_jbPZ5z8nXOP8haYKZ3-KrDhNoHsmpneqItA-Metqjq3yk3hoUkeC54JXlmoY5GmD-JzDZVs3g0aXQ14Kfmci3XbDAA=w162-h65-no";
     Button btnnuk;
+    ImageView chicco;
+    String urlchicco = "https://lh3.googleusercontent.com/QIBYdw9Mg0GH3CX7jEicc5sueJroH-MS5bpq1BpSn8kNbC6BlJ816Di2urfb5bBO0lrCc4oYWBxIar3M2C0h-AhHE7YoK7pBKs6wCVd0Vlj-LhUnRYBXt24tTiG3Yapqm3HYwrIAKpRH-V6Itg_g1EYIPCK07imXObb52zxnPtd8bh6tNIU2WIny7QfG8NI5hyIM2wu4uP65LoKNZzpnGK5URw866R5SggKQChsgtsUhvdyheuCFJRu68xQtMW_i2nobfhfcM3BYsnP1rNGcNYpF2OgZ463PcYgDLUV51o5e5JkDHrkXLIYZqcS7AXSm-I6aBWm0uyILkNia8eZYzZrE3_uvukFgbQ4yXt0dfCq4C2ej8D4v3obH7M72nYFapYgsMi2jJMoP09VP9NAi0k-AWdZv6yOl0tGd075oskqJ9NDY8tRDuvp-hH_EeHZVV7zmJOC3iC0JLZ8EY3jxxgpkRR-ePVfEPvzCi9Vyww90dZ8lYslThNBfGY3gSwq0v4iFlMOafIHq0umGzDZcN-I5tQ38jHpI_9s4G5piSwtAFFY8QVYq7H19TkvhEZNZA1tSY23xF-i1Ao1-4o0HCzXc3PLsZVygKcGJlOBYsY1uDgXPCw=w97-h56-no";
+    Button btnchicco;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,6 +65,9 @@ public class marcas extends AppCompatActivity {
         avent = (ImageView)findViewById(R.id.avent);
         Picasso.with(this).load(urlavent).into(avent);
 
+        chicco = (ImageView)findViewById(R.id.chicco);
+        Picasso.with(this).load(urlchicco).into(chicco);
+
         btnavent = (Button)findViewById(R.id.btnavent);
         btnavent.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -79,6 +86,15 @@ public class marcas extends AppCompatActivity {
             public void onClick(View view) {
                 Intent btnnuk = new Intent(marcas.this,nukprodlist.class);
                 startActivity(btnnuk);
+            }
+        });
+
+        btnchicco = (Button)findViewById(R.id.btnchicco);
+        btnchicco.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnchicco = new Intent(marcas.this,chiccoprodlist.class);
+                startActivity(btnchicco);
             }
         });
 

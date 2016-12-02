@@ -1,0 +1,953 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_chiccomamaderas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="4dp"
+    tools:context="com.abigail05.Chicco.chiccomamaderas">
+
+    <Button
+        android:id="@+id/btnhome"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:text="@string/verhome"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btnvmarca"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="@string/verxmarca"
+        android:textAllCaps="false"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/btnhome">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="6dp">
+
+                <ImageView
+                    android:id="@+id/chiccomamaderas1"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtchiccomamaderas1principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/chiccomamaderas1"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtchiccomamaderas"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtchiccomamaderas1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtchiccomamaderas1principal"
+                    android:layout_toRightOf="@id/chiccomamaderas1"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtchiccomamaderas1"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnchiccomamaderas1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/view1"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/preciochiccomamaderas1"
+                    style="@style/precio"
+                    android:layout_below="@id/chiccomamaderas1"/>
+
+                <View
+                    android:id="@+id/view1"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciochiccomamaderas1" />
+
+                <ImageView
+                    android:id="@+id/chiccomamaderas2"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view1"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtchiccomamaderas2principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view1"
+                    android:layout_toRightOf="@id/chiccomamaderas2"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtchiccomamaderas"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtchiccomamaderas2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtchiccomamaderas2principal"
+                    android:layout_toRightOf="@id/chiccomamaderas2"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtchiccomamaderas2"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnchiccomamaderas2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/view2"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/preciochiccomamaderas2"
+                    style="@style/precio"
+                    android:layout_below="@id/chiccomamaderas2"/>
+
+                <View
+                    android:id="@+id/view2"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciochiccomamaderas2" />
+
+                <ImageView
+                    android:id="@+id/chiccomamaderas3"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view2"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtchiccomamaderas3principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view2"
+                    android:layout_toRightOf="@id/chiccomamaderas3"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtchiccomamaderas"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtchiccomamaderas3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtchiccomamaderas3principal"
+                    android:layout_toRightOf="@id/chiccomamaderas3"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtchiccomamaderas3"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnchiccomamaderas3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/view3"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/preciochiccomamaderas3"
+                    style="@style/precio"
+                    android:layout_below="@id/chiccomamaderas3"/>
+
+                <View
+                    android:id="@+id/view3"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciochiccomamaderas3" />
+
+                <ImageView
+                    android:id="@+id/chiccomamaderas4"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view3"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtchiccomamaderas4principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view3"
+                    android:layout_toRightOf="@id/chiccomamaderas4"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtchiccomamaderas"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtchiccomamaderas4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtchiccomamaderas4principal"
+                    android:layout_toRightOf="@id/chiccomamaderas4"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtchiccomamaderas4"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnchiccomamaderas4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/view4"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/preciochiccomamaderas4"
+                    style="@style/precio"
+                    android:layout_below="@id/chiccomamaderas4"/>
+
+                <View
+                    android:id="@+id/view4"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciochiccomamaderas4" />
+
+                <ImageView
+                    android:id="@+id/chiccomamaderas5"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view4"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtchiccomamaderas5principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view4"
+                    android:layout_toRightOf="@id/chiccomamaderas5"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtchiccomamaderas"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtchiccomamaderas5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtchiccomamaderas5principal"
+                    android:layout_toRightOf="@id/chiccomamaderas5"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtchiccomamaderas5"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnchiccomamaderas5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/view5"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/preciochiccomamaderas5"
+                    style="@style/precio"
+                    android:layout_below="@id/chiccomamaderas5"/>
+
+                <View
+                    android:id="@+id/view5"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciochiccomamaderas5" />
+
+                <ImageView
+                    android:id="@+id/chiccomamaderas6"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view5"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtchiccomamaderas6principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view5"
+                    android:layout_toRightOf="@id/chiccomamaderas6"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtchiccomamaderas"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtchiccomamaderas6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtchiccomamaderas6principal"
+                    android:layout_toRightOf="@id/chiccomamaderas6"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtchiccomamaderas6"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnchiccomamaderas6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/view6"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/preciochiccomamaderas6"
+                    style="@style/precio"
+                    android:layout_below="@id/chiccomamaderas6"/>
+
+                <View
+                    android:id="@+id/view6"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciochiccomamaderas6" />
+
+                <ImageView
+                    android:id="@+id/chiccomamaderas7"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view6"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtchiccomamaderas7principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view6"
+                    android:layout_toRightOf="@id/chiccomamaderas7"
+                    android:ellipsize="end"
+                    android:fontFamily="sans-serif-light"
+                    android:maxLines="2"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtchiccomamaderas"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtchiccomamaderas7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtchiccomamaderas7principal"
+                    android:layout_toRightOf="@id/chiccomamaderas7"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtchiccomamaderas7"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnchiccomamaderas7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/view7"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/preciochiccomamaderas7"
+                    style="@style/precio"
+                    android:layout_below="@id/chiccomamaderas7"/>
+
+                <View
+                    android:id="@+id/view7"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciochiccomamaderas7" />
+
+                <ImageView
+                    android:id="@+id/chiccomamaderas8"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view7"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtchiccomamaderas8principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view7"
+                    android:layout_toRightOf="@id/chiccomamaderas8"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtchiccomamaderas"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtchiccomamaderas8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtchiccomamaderas8principal"
+                    android:layout_toRightOf="@id/chiccomamaderas8"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtchiccomamaderas8"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnchiccomamaderas8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/view8"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/preciochiccomamaderas8"
+                    style="@style/precio"
+                    android:layout_below="@id/chiccomamaderas8"/>
+
+                <View
+                    android:id="@+id/view8"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciochiccomamaderas8" />
+
+                <ImageView
+                    android:id="@+id/chiccomamaderas9"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view8"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtchiccomamaderas9principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view8"
+                    android:layout_toRightOf="@id/chiccomamaderas9"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtchiccomamaderas"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtchiccomamaderas9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtchiccomamaderas9principal"
+                    android:layout_toRightOf="@id/chiccomamaderas9"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtchiccomamaderas9"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnchiccomamaderas9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/view9"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/preciochiccomamaderas9"
+                    style="@style/precio"
+                    android:layout_below="@id/chiccomamaderas9"/>
+
+                <View
+                    android:id="@+id/view9"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciochiccomamaderas9" />
+
+                <ImageView
+                    android:id="@+id/chiccomamaderas10"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view9"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtchiccomamaderas10principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view9"
+                    android:layout_toRightOf="@id/chiccomamaderas10"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtchiccomamaderas"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtchiccomamaderas10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtchiccomamaderas10principal"
+                    android:layout_toRightOf="@id/chiccomamaderas10"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtchiccomamaderas10"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnchiccomamaderas10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/view10"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/preciochiccomamaderas10"
+                    style="@style/precio"
+                    android:layout_below="@id/chiccomamaderas10"/>
+
+                <View
+                    android:id="@+id/view10"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciochiccomamaderas10" />
+
+                <ImageView
+                    android:id="@+id/chiccomamaderas11"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view10"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtchiccomamaderas11principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view10"
+                    android:layout_toRightOf="@id/chiccomamaderas11"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtchiccomamaderas"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtchiccomamaderas11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtchiccomamaderas11principal"
+                    android:layout_toRightOf="@id/chiccomamaderas11"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtchiccomamaderas11"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnchiccomamaderas11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/view11"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/preciochiccomamaderas11"
+                    style="@style/precio"
+                    android:layout_below="@id/chiccomamaderas11"/>
+
+                <View
+                    android:id="@+id/view11"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciochiccomamaderas11" />
+
+                <ImageView
+                    android:id="@+id/chiccomamaderas12"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view11"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtchiccomamaderas12principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view11"
+                    android:layout_toRightOf="@id/chiccomamaderas12"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtchiccomamaderas"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtchiccomamaderas12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtchiccomamaderas12principal"
+                    android:layout_toRightOf="@id/chiccomamaderas12"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtchiccomamaderas12"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnchiccomamaderas12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/view12"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/preciochiccomamaderas12"
+                    style="@style/precio"
+                    android:layout_below="@id/chiccomamaderas12"/>
+
+                <View
+                    android:id="@+id/view12"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciochiccomamaderas12" />
+
+                <ImageView
+                    android:id="@+id/chiccomamaderas13"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view12"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtchiccomamaderas13principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view12"
+                    android:layout_toRightOf="@id/chiccomamaderas13"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtchiccomamaderas"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtchiccomamaderas13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtchiccomamaderas13principal"
+                    android:layout_toRightOf="@id/chiccomamaderas13"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtchiccomamaderas13"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnchiccomamaderas13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/view13"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/preciochiccomamaderas13"
+                    style="@style/precio"
+                    android:layout_below="@id/chiccomamaderas13"/>
+
+                <View
+                    android:id="@+id/view13"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciochiccomamaderas13" />
+
+                <ImageView
+                    android:id="@+id/chiccomamaderas14"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view13"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtchiccomamaderas14principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view13"
+                    android:layout_toRightOf="@id/chiccomamaderas14"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtchiccomamaderas"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtchiccomamaderas14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtchiccomamaderas14principal"
+                    android:layout_toRightOf="@id/chiccomamaderas14"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtchiccomamaderas14"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnchiccomamaderas14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/view14"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/preciochiccomamaderas14"
+                    style="@style/precio"
+                    android:layout_below="@id/chiccomamaderas14"/>
+
+                <View
+                    android:id="@+id/view14"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciochiccomamaderas14" />
+
+                <ImageView
+                    android:id="@+id/chiccomamaderas15"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view14"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtchiccomamaderas15principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view14"
+                    android:layout_toRightOf="@id/chiccomamaderas15"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtchiccomamaderas"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtchiccomamaderas15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtchiccomamaderas15principal"
+                    android:layout_toRightOf="@id/chiccomamaderas15"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtchiccomamaderas15"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnchiccomamaderas15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/view15"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/preciochiccomamaderas15"
+                    style="@style/precio"
+                    android:layout_below="@id/chiccomamaderas15"/>
+
+                <View
+                    android:id="@+id/view15"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciochiccomamaderas15" />
+
+                <ImageView
+                    android:id="@+id/chiccomamaderas16"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view15"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtchiccomamaderas16principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view15"
+                    android:layout_toRightOf="@id/chiccomamaderas16"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtchiccomamaderas"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtchiccomamaderas16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtchiccomamaderas16principal"
+                    android:layout_toRightOf="@id/chiccomamaderas16"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtchiccomamaderas16"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnchiccomamaderas16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/view16"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/preciochiccomamaderas16"
+                    style="@style/precio"
+                    android:layout_below="@id/chiccomamaderas16"/>
+
+                <View
+                    android:id="@+id/view16"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciochiccomamaderas16" />
+
+                <ImageView
+                    android:id="@+id/chiccomamaderas17"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view16"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtchiccomamaderas17principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view16"
+                    android:layout_toRightOf="@id/chiccomamaderas17"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtchiccomamaderas"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtchiccomamaderas17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtchiccomamaderas17principal"
+                    android:layout_toRightOf="@id/chiccomamaderas17"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtchiccomamaderas17"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnchiccomamaderas17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/view17"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/preciochiccomamaderas17"
+                    style="@style/precio"
+                    android:layout_below="@id/chiccomamaderas17"/>
+
+                <View
+                    android:id="@+id/view17"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciochiccomamaderas17" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

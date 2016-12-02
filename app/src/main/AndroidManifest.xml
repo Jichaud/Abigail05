@@ -417,10 +417,54 @@
         <activity
             android:name=".NUK.nukhigiene"
             android:label="NUK | Cuidado e higiene"
-            android:parentActivityName=".NUK.nukprodlist"/>
-        <activity android:name=".NUK.nukhigiene1"
+            android:parentActivityName=".NUK.nukprodlist" />
+        <activity
+            android:name=".NUK.nukhigiene1"
             android:label="NUK | Tijeras"
-            android:parentActivityName=".NUK.nukhigiene">
+            android:parentActivityName=".NUK.nukhigiene" />
+        <activity
+            android:name=".NUK.nukhigiene2"
+            android:label="NUK | Cepillo"
+            android:parentActivityName=".NUK.nukhigiene" />
+        <activity
+            android:name=".NUK.nukhigiene3"
+            android:label="NUK | Descongestionador"
+            android:parentActivityName=".NUK.nukhigiene" />
+        <activity
+            android:name=".NUK.nukhigiene4"
+            android:label="NUK | Termómetro de agua"
+            android:parentActivityName=".NUK.nukhigiene" />
+        <activity
+            android:name=".NUK.nukhigiene5"
+            android:label="NUK | Termómetro de baño"
+            android:parentActivityName=".NUK.nukhigiene" />
+        <activity
+            android:name=".NUK.nukaccesoriosm"
+            android:label="NUK | Accesorios para Mamá"
+            android:parentActivityName=".NUK.nukprodlist" />
+        <activity
+            android:name=".NUK.nukaccesoriosm1"
+            android:label="NUK | Pezonera"
+            android:parentActivityName=".NUK.nukaccesoriosm" />
+        <activity
+            android:name=".NUK.nukaccesoriosm2"
+            android:label="NUK | Casquillos"
+            android:parentActivityName=".NUK.nukaccesoriosm" />
+        <activity
+            android:name=".NUK.nukaccesoriosm3"
+            android:label="NUK | Sacaleche"
+            android:parentActivityName=".NUK.nukaccesoriosm" />
+        <activity
+            android:name=".NUK.nukaccesoriosm4"
+            android:label="NUK | Contenedor de leche"
+            android:parentActivityName=".NUK.nukaccesoriosm" />
+        <activity
+            android:name=".Chicco.chiccoprodlist"
+            android:label="Chicco | Productos"
+            android:parentActivityName=".marcas"/>
+        <activity android:name=".Chicco.chiccomamaderas"
+            android:label="Chicco | Mamaderas y accesorios"
+            android:parentActivityName=".Chicco.chiccoprodlist">
 
         </activity>
     </application>

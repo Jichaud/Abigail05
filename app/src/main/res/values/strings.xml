@@ -159,8 +159,6 @@
     <string name="txtnukchupetes7">NUK chupete Genius disponible en medidas 0–2 / 0–6 / 6–18 / 18–36 meses</string>
     <string name="txtnukaccesorios">Accesorios</string>
     <string name="txtnukaccesoriosdesc">Repuestos varios</string>
-    <string name="txtnukaccesoriosm">Accesorios para la mamá</string>
-    <string name="txtnukaccesoriosmdesc">Pezoneras, casquillos, sacaleche, contenedores de leche</string>
     <string name="txtnukaccesorios1">NUK repuesto pico silicona antiderrame</string>
     <string name="txtnukaccesorios2">NUK repuesto pico TPE derramable</string>
     <string name="txtnukaccesorios3">NUK repuesto pico rígido Kiddy antiderrame</string>
@@ -177,5 +175,34 @@
     <string name="txtnukhigiene3">NUK descongestionador nasal</string>
     <string name="txtnukhigiene4">NUK termómetro de agua. Varios colores</string>
     <string name="txtnukhigiene5">NUK termómetro digital para baño</string>
+    <string name="txtnukaccesoriosm">Accesorios para la mamá</string>
+    <string name="txtnukaccesoriosmdesc">Pezoneras, casquillos, sacaleche, contenedores de leche</string>
+    <string name="txtnukaccesoriosm1">NUK pezonera con caja protectora disponibles en talle "M" (20mm) o "L" (24mm). Blister x2 unidades</string>
+    <string name="txtnukaccesoriosm2">NUK set de casquillos de seis piezas</string>
+    <string name="txtnukaccesoriosm3">NUK sacaleche manual "Jolie"</string>
+    <string name="txtnukaccesoriosm4">NUK contenedores de leche blister x2 unidades</string>
+
+    Chicco
+    <string name="txtchiccomarca">Chicco</string>
+    <string name="txtchiccoprod">Mamaderas, chupetes, sillas, butacas y mucho más…</string>
+    <string name="txtchiccomamaderas">Mamaderas y accesorios</string>
+    <string name="txtchiccomamaderasdesc">Mamaderas, tetinas, chupetes, vasos y más…</string>
+    <string name="txtchiccomamaderas1">Chicco mamadera StepUp 2 250ml +2 meses</string>
+    <string name="txtchiccomamaderas2">Chicco mamadera Bi Pack StepUp 3 330ml +6 meses</string>
+    <string name="txtchiccomamaderas3">Chicco mamadera Nature Glass tetina silicona 150ml +0 meses</string>
+    <string name="txtchiccomamaderas4">Chicco mamadera Nature Glass tetina silicona 240ml +2 meses</string>
+    <string name="txtchiccomamaderas5">Chicco tetina silicona StepUp2 flujo variable +2 meses blister x 2 unidades</string>
+    <string name="txtchiccomamaderas6">Chicco tetina silicona fisiológicas +0 meses blister x 2 unidades</string>
+    <string name="txtchiccomamaderas7">Chicco tetina silicona fisiológicas flujo variable +2 meses blister x 2 unidades</string>
+    <string name="txtchiccomamaderas8">Chicco tetina silicona fisiológicas +4 meses blister x 2 unidades</string>
+    <string name="txtchiccomamaderas9">Chicco bandeja escurre biberones</string>
+    <string name="txtchiccomamaderas10">Chicco asas para mamaderas StepUp</string>
+    <string name="txtchiccomamaderas11">Chicco blister cucharas Bambino +12 meses. Varios colores</string>
+    <string name="txtchiccomamaderas12">Chicco vaso Rolly con boquilla rígida +12 meses. Varios colores</string>
+    <string name="txtchiccomamaderas13">Chicco blister x 2 unidades chupetes Physio +4 meses</string>
+    <string name="txtchiccomamaderas14">Chicco blister x 2 unidades chupetes Physio Air +0 meses. Varios colores</string>
+    <string name="txtchiccomamaderas15">Chicco blister x 2 unidades chupetes Physio Air +4 meses. Varios colores</string>
+    <string name="txtchiccomamaderas16">Chicco blister x 2 unidades chupetes Physio Air +12 meses. Varios colores</string>
+    <string name="txtchiccomamaderas17">Chicco cepillo limpia mamadera y tetina 2 en 1</string>
 
 </resources>
