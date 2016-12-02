@@ -85,7 +85,7 @@ public class nukprodlist extends AppCompatActivity {
         btnnukhigiene.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent btnnukhigiene = new Intent(nukprodlist.this, aventaccesorios.class);
+                Intent btnnukhigiene = new Intent(nukprodlist.this, nukhigiene.class);
                 startActivity(btnnukhigiene);
             }
         });

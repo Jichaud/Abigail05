@@ -159,8 +159,6 @@
     <string name="txtnukchupetes7">NUK chupete Genius disponible en medidas 0–2 / 0–6 / 6–18 / 18–36 meses</string>
     <string name="txtnukaccesorios">Accesorios</string>
     <string name="txtnukaccesoriosdesc">Repuestos varios</string>
-    <string name="txtnukhigiene">Cuidado e higiene</string>
-    <string name="txtnukhigienedesc">Tijeras, cepillos, descongestionador, termómetros</string>
     <string name="txtnukaccesoriosm">Accesorios para la mamá</string>
     <string name="txtnukaccesoriosmdesc">Pezoneras, casquillos, sacaleche, contenedores de leche</string>
     <string name="txtnukaccesorios1">NUK repuesto pico silicona antiderrame</string>
@@ -172,5 +170,12 @@
     <string name="txtnukaccesorios7">NUK blister x2 unidades tetinas silicona 6 a 18 meses disponibles en medida: "M" / "L"</string>
     <string name="txtnukaccesorios8">NUK blister x2 unidades tetinas látex 0 a 6 meses disponibles en medida: "S" / "M" / "L"</string>
     <string name="txtnukaccesorios9">NUK blister x2 unidades tetinas látex 6 a 18 meses disponibles en medida: "M" / "L"</string>
+    <string name="txtnukhigiene">Cuidado e higiene</string>
+    <string name="txtnukhigienedesc">Tijeras, cepillos, descongestionador, termómetros</string>
+    <string name="txtnukhigiene1">NUK tijera para bebés puntas redondeadas corte preciso. Varios colores</string>
+    <string name="txtnukhigiene2">NUK cepillo cerdas suaves y peine puntas redondeadas. Varios colores</string>
+    <string name="txtnukhigiene3">NUK descongestionador nasal</string>
+    <string name="txtnukhigiene4">NUK termómetro de agua. Varios colores</string>
+    <string name="txtnukhigiene5">NUK termómetro digital para baño</string>
 
 </resources>

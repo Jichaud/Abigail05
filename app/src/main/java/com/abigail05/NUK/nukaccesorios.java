@@ -137,7 +137,7 @@ public class nukaccesorios extends AppCompatActivity {
             }
         });
 
-/*        btnnukaccesorios4 = (Button)findViewById(R.id.btnnukaccesorios4);
+        btnnukaccesorios4 = (Button)findViewById(R.id.btnnukaccesorios4);
         btnnukaccesorios4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -190,7 +190,7 @@ public class nukaccesorios extends AppCompatActivity {
                 startActivity(btnnukaccesorios9);
             }
         });
-*/
+
         marca = (Button) findViewById(R.id.btnvmarca);
         marca.setOnClickListener(new View.OnClickListener() {
             @Override

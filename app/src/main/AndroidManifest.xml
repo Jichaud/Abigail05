@@ -385,10 +385,42 @@
         <activity
             android:name=".NUK.nukaccesorios2"
             android:label="NUK | Accesorios"
-            android:parentActivityName=".NUK.nukaccesorios"/>
-        <activity android:name=".NUK.nukaccesorios3"
+            android:parentActivityName=".NUK.nukaccesorios" />
+        <activity
+            android:name=".NUK.nukaccesorios3"
             android:label="NUK | Accesorios"
-            android:parentActivityName=".NUK.nukaccesorios">
+            android:parentActivityName=".NUK.nukaccesorios" />
+        <activity
+            android:name=".NUK.nukaccesorios4"
+            android:label="NUK | Accesorios"
+            android:parentActivityName=".NUK.nukaccesorios" />
+        <activity
+            android:name=".NUK.nukaccesorios5"
+            android:label="NUK | Accesorios"
+            android:parentActivityName=".NUK.nukaccesorios" />
+        <activity
+            android:name=".NUK.nukaccesorios6"
+            android:label="NUK | Accesorios"
+            android:parentActivityName=".NUK.nukaccesorios" />
+        <activity
+            android:name=".NUK.nukaccesorios7"
+            android:label="NUK | Accesorios"
+            android:parentActivityName=".NUK.nukaccesorios" />
+        <activity
+            android:name=".NUK.nukaccesorios8"
+            android:label="NUK | Accesorios"
+            android:parentActivityName=".NUK.nukaccesorios" />
+        <activity
+            android:name=".NUK.nukaccesorios9"
+            android:label="NUK | Accesorios"
+            android:parentActivityName=".NUK.nukaccesorios" />
+        <activity
+            android:name=".NUK.nukhigiene"
+            android:label="NUK | Cuidado e higiene"
+            android:parentActivityName=".NUK.nukprodlist"/>
+        <activity android:name=".NUK.nukhigiene1"
+            android:label="NUK | Tijeras"
+            android:parentActivityName=".NUK.nukhigiene">
 
         </activity>
     </application>
