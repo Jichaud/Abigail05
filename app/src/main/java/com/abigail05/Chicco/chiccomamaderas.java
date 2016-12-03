@@ -269,6 +269,69 @@ public class chiccomamaderas extends AppCompatActivity {
             }
         });
 
+        btnchiccomamaderas11 = (Button)findViewById(R.id.btnchiccomamaderas11);
+        btnchiccomamaderas11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnchiccomamaderas11 = new Intent(chiccomamaderas.this, chiccomamaderas11.class);
+                startActivity(btnchiccomamaderas11);
+            }
+        });
+
+        btnchiccomamaderas12 = (Button)findViewById(R.id.btnchiccomamaderas12);
+        btnchiccomamaderas12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnchiccomamaderas12 = new Intent(chiccomamaderas.this, chiccomamaderas12.class);
+                startActivity(btnchiccomamaderas12);
+            }
+        });
+
+        btnchiccomamaderas13 = (Button)findViewById(R.id.btnchiccomamaderas13);
+        btnchiccomamaderas13.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnchiccomamaderas13 = new Intent(chiccomamaderas.this, chiccomamaderas13.class);
+                startActivity(btnchiccomamaderas13);
+            }
+        });
+
+        btnchiccomamaderas14 = (Button)findViewById(R.id.btnchiccomamaderas14);
+        btnchiccomamaderas14.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnchiccomamaderas14 = new Intent(chiccomamaderas.this, chiccomamaderas14.class);
+                startActivity(btnchiccomamaderas14);
+            }
+        });
+
+        btnchiccomamaderas15 = (Button)findViewById(R.id.btnchiccomamaderas15);
+        btnchiccomamaderas15.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnchiccomamaderas15 = new Intent(chiccomamaderas.this, chiccomamaderas15.class);
+                startActivity(btnchiccomamaderas15);
+            }
+        });
+
+        btnchiccomamaderas16 = (Button)findViewById(R.id.btnchiccomamaderas16);
+        btnchiccomamaderas16.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnchiccomamaderas16 = new Intent(chiccomamaderas.this, chiccomamaderas16.class);
+                startActivity(btnchiccomamaderas16);
+            }
+        });
+
+        btnchiccomamaderas17 = (Button)findViewById(R.id.btnchiccomamaderas17);
+        btnchiccomamaderas17.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnchiccomamaderas17 = new Intent(chiccomamaderas.this, chiccomamaderas17.class);
+                startActivity(btnchiccomamaderas17);
+            }
+        });
+
         marca = (Button) findViewById(R.id.btnvmarca);
         marca.setOnClickListener(new View.OnClickListener() {
             @Override

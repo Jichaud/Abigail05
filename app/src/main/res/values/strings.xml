@@ -204,5 +204,15 @@
     <string name="txtchiccomamaderas15">Chicco blister x 2 unidades chupetes Physio Air +4 meses. Varios colores</string>
     <string name="txtchiccomamaderas16">Chicco blister x 2 unidades chupetes Physio Air +12 meses. Varios colores</string>
     <string name="txtchiccomamaderas17">Chicco cepillo limpia mamadera y tetina 2 en 1</string>
+    <string name="txtchiccohigiene">Higiene y protección</string>
+    <string name="txtchiccohigienedesc">Humidificador, alfombras, esquineros y más…</string>
+    <string name="txtchiccohigiene1">Chicco humidificador de ambiente ComfortNeb</string>
+    <string name="txtchiccohigiene2">Chicco alfombra de baño antideslizante</string>
+    <string name="txtchiccohigiene3">Chicco cubre enchufes</string>
+    <string name="txtchiccohigiene4">Chicco esquineros protectores</string>
+    <string name="txtchiccohigiene5">Chicco traba heladera</string>
+    <string name="txtchiccohigiene6">Chicco traba cajones</string>
+    <string name="txtchiccohigiene7">Chicco traba puerta</string>
+    <string name="txtchiccohigiene8">Chicco salva dedos</string>
 
 </resources>

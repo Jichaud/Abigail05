@@ -501,10 +501,74 @@
         <activity
             android:name=".Chicco.chiccomamaderas9"
             android:label="Chicco | Bandeja escurridora"
-            android:parentActivityName=".Chicco.chiccomamaderas"/>
-        <activity android:name=".Chicco.chiccomamaderas10"
+            android:parentActivityName=".Chicco.chiccomamaderas" />
+        <activity
+            android:name=".Chicco.chiccomamaderas10"
             android:label="Chicco | Asas para mamadera"
-            android:parentActivityName=".Chicco.chiccomamaderas">
+            android:parentActivityName=".Chicco.chiccomamaderas" />
+        <activity
+            android:name=".Chicco.chiccomamaderas11"
+            android:label="Chicco | Cucharas"
+            android:parentActivityName=".Chicco.chiccomamaderas" />
+        <activity
+            android:name=".Chicco.chiccomamaderas12"
+            android:label="Chicco | Vaso"
+            android:parentActivityName=".Chicco.chiccomamaderas" />
+        <activity
+            android:name=".Chicco.chiccomamaderas13"
+            android:label="Chicco | Chupete"
+            android:parentActivityName=".Chicco.chiccomamaderas" />
+        <activity
+            android:name=".Chicco.chiccomamaderas14"
+            android:label="Chicco | Chupete"
+            android:parentActivityName=".Chicco.chiccomamaderas" />
+        <activity
+            android:name=".Chicco.chiccomamaderas15"
+            android:label="Chicco | Chupete"
+            android:parentActivityName=".Chicco.chiccomamaderas" />
+        <activity
+            android:name=".Chicco.chiccomamaderas16"
+            android:label="Chicco | Chupete"
+            android:parentActivityName=".Chicco.chiccomamaderas" />
+        <activity
+            android:name=".Chicco.chiccomamaderas17"
+            android:label="Chicco | Cepillo"
+            android:parentActivityName=".Chicco.chiccomamaderas" />
+        <activity
+            android:name=".Chicco.chiccohigiene"
+            android:label="Chicco | Higiene y protección"
+            android:parentActivityName=".Chicco.chiccoprodlist" />
+        <activity
+            android:name=".Chicco.chiccohigiene1"
+            android:label="Chicco | Humidificador"
+            android:parentActivityName=".Chicco.chiccohigiene" />
+        <activity
+            android:name=".Chicco.chiccohigiene2"
+            android:label="Chicco | Alfombra antideslizante"
+            android:parentActivityName=".Chicco.chiccohigiene" />
+        <activity
+            android:name=".Chicco.chiccohigiene3"
+            android:label="Chicco | Cubre enchufes"
+            android:parentActivityName=".Chicco.chiccohigiene" />
+        <activity
+            android:name=".Chicco.chiccohigiene4"
+            android:label="Chicco | Esquineros protectores"
+            android:parentActivityName=".Chicco.chiccohigiene" />
+        <activity
+            android:name=".Chicco.chiccohigiene5"
+            android:label="Chicco | Traba heladera"
+            android:parentActivityName=".Chicco.chiccohigiene" />
+        <activity
+            android:name=".Chicco.chiccohigiene6"
+            android:label="Chicco | Traba cajones"
+            android:parentActivityName=".Chicco.chiccohigiene" />
+        <activity
+            android:name=".Chicco.chiccohigiene7"
+            android:label="Chicco | Traba puerta"
+            android:parentActivityName=".Chicco.chiccohigiene"/>
+        <activity android:name=".Chicco.chiccohigiene8"
+            android:label="Chicco | Salva dedos"
+            android:parentActivityName=".Chicco.chiccohigiene">
 
         </activity>
     </application>
