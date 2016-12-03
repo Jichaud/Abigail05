@@ -613,10 +613,54 @@
         <activity
             android:name=".Nuby.nubyvasos5"
             android:label="Nuby | Vaso"
-            android:parentActivityName=".Nuby.nubyvasos"/>
-        <activity android:name=".Nuby.nubyvasos6"
+            android:parentActivityName=".Nuby.nubyvasos" />
+        <activity
+            android:name=".Nuby.nubyvasos6"
             android:label="Nuby | Vaso"
-            android:parentActivityName=".Nuby.nubyvasos">
+            android:parentActivityName=".Nuby.nubyvasos" />
+        <activity
+            android:name=".Nuby.nubyaccesorios"
+            android:label="Nuby | Accesorios y alimentación"
+            android:parentActivityName=".Nuby.nubyprodlist" />
+        <activity
+            android:name=".Nuby.nubyaccesorios1"
+            android:label="Nuby | Chupete para fruta"
+            android:parentActivityName=".Nuby.nubyaccesorios" />
+        <activity
+            android:name=".Nuby.nubyaccesorios2"
+            android:label="Nuby | Cucharas"
+            android:parentActivityName=".Nuby.nubyaccesorios" />
+        <activity
+            android:name=".Nuby.nubyaccesorios3"
+            android:label="Nuby | Mordillo circular"
+            android:parentActivityName=".Nuby.nubyaccesorios" />
+        <activity
+            android:name=".Nuby.nubyaccesorios4"
+            android:label="Nuby | Mordillo bichitos"
+            android:parentActivityName=".Nuby.nubyaccesorios" />
+        <activity
+            android:name=".Nuby.nubyaccesorios5"
+            android:label="Nuby | Aspirador nasal y de oído"
+            android:parentActivityName=".Nuby.nubyaccesorios" />
+        <activity
+            android:name=".Nuby.nubyaccesorios6"
+            android:label="Nuby | Cepillos"
+            android:parentActivityName=".Nuby.nubyaccesorios" />
+        <activity
+            android:name=".Nuby.nubyaccesorios7"
+            android:label="Nuby | Cepillo y peine"
+            android:parentActivityName=".Nuby.nubyaccesorios" />
+        <activity
+            android:name=".Nuby.nubyaccesorios8"
+            android:label="Nuby | Bowl"
+            android:parentActivityName=".Nuby.nubyaccesorios" />
+        <activity
+            android:name=".Nuby.nubyaccesorios9"
+            android:label="Nuby | Plato térmico"
+            android:parentActivityName=".Nuby.nubyaccesorios"/>
+        <activity android:name=".Nuby.nubyaccesorios10"
+            android:label="Nuby | Cerealero monstruo"
+            android:parentActivityName=".Nuby.nubyaccesorios">
 
         </activity>
     </application>

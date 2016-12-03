@@ -87,6 +87,52 @@
                     style="@style/Divider"
                     android:layout_below="@id/btnnubyvasos" />
 
+                <ImageView
+                    android:id="@+id/nubyaccesorios"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view1"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtnubyaccesorios"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view1"
+                    android:layout_toRightOf="@id/nubyaccesorios"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnubyaccesorios"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtnubyaccesoriosdesc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtnubyaccesorios"
+                    android:layout_toRightOf="@id/nubyaccesorios"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnubyaccesoriosdesc"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnnubyaccesorios"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/txtnubyaccesoriosdesc"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <View
+                    android:id="@+id/view2"
+                    style="@style/Divider"
+                    android:layout_below="@id/btnnubyaccesorios" />
+
             </RelativeLayout>
 
         </LinearLayout>

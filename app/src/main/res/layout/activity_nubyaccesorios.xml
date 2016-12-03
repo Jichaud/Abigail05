@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_nubyaccesorios"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="4dp"
+    tools:context="com.abigail05.Nuby.nubyaccesorios">
+
+    <Button
+        android:id="@+id/btnhome"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:text="@string/verhome"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btnvmarca"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="@string/verxmarca"
+        android:textAllCaps="false"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/btnhome">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="6dp">
+
+                <ImageView
+                    android:id="@+id/nubyaccesorios1"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtnubyaccesorios1principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/nubyaccesorios1"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnubyaccesorios"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtnubyaccesorios1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtnubyaccesorios1principal"
+                    android:layout_toRightOf="@id/nubyaccesorios1"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnubyaccesorios1"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnnubyaccesorios1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/view1"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/precionubyaccesorios1"
+                    style="@style/precio"
+                    android:layout_below="@id/nubyaccesorios1"/>
+
+                <View
+                    android:id="@+id/view1"
+                    style="@style/Divider"
+                    android:layout_below="@id/precionubyaccesorios1" />
+
+                <ImageView
+                    android:id="@+id/nubyaccesorios2"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view1"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtnubyaccesorios2principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view1"
+                    android:layout_toRightOf="@id/nubyaccesorios2"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnubyaccesorios"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtnubyaccesorios2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtnubyaccesorios2principal"
+                    android:layout_toRightOf="@id/nubyaccesorios2"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnubyaccesorios2"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnnubyaccesorios2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/view2"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/precionubyaccesorios2"
+                    style="@style/precio"
+                    android:layout_below="@id/nubyaccesorios2"/>
+
+                <View
+                    android:id="@+id/view2"
+                    style="@style/Divider"
+                    android:layout_below="@id/precionubyaccesorios2" />
+
+                <ImageView
+                    android:id="@+id/nubyaccesorios3"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view2"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtnubyaccesorios3principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view2"
+                    android:layout_toRightOf="@id/nubyaccesorios3"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnubyaccesorios"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtnubyaccesorios3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtnubyaccesorios3principal"
+                    android:layout_toRightOf="@id/nubyaccesorios3"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnubyaccesorios3"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnnubyaccesorios3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/view3"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/precionubyaccesorios3"
+                    style="@style/precio"
+                    android:layout_below="@id/nubyaccesorios3"/>
+
+                <View
+                    android:id="@+id/view3"
+                    style="@style/Divider"
+                    android:layout_below="@id/precionubyaccesorios3" />
+
+                <ImageView
+                    android:id="@+id/nubyaccesorios4"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view3"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtnubyaccesorios4principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view3"
+                    android:layout_toRightOf="@id/nubyaccesorios4"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnubyaccesorios"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtnubyaccesorios4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtnubyaccesorios4principal"
+                    android:layout_toRightOf="@id/nubyaccesorios4"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnubyaccesorios4"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnnubyaccesorios4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/view4"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/precionubyaccesorios4"
+                    style="@style/precio"
+                    android:layout_below="@id/nubyaccesorios4"/>
+
+                <View
+                    android:id="@+id/view4"
+                    style="@style/Divider"
+                    android:layout_below="@id/precionubyaccesorios4" />
+
+                <ImageView
+                    android:id="@+id/nubyaccesorios5"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view4"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtnubyaccesorios5principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view4"
+                    android:layout_toRightOf="@id/nubyaccesorios5"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnubyaccesorios"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtnubyaccesorios5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtnubyaccesorios5principal"
+                    android:layout_toRightOf="@id/nubyaccesorios5"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnubyaccesorios5"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnnubyaccesorios5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/view5"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/precionubyaccesorios5"
+                    style="@style/precio"
+                    android:layout_below="@id/nubyaccesorios5"/>
+
+                <View
+                    android:id="@+id/view5"
+                    style="@style/Divider"
+                    android:layout_below="@id/precionubyaccesorios5" />
+
+                <ImageView
+                    android:id="@+id/nubyaccesorios6"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view5"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtnubyaccesorios6principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view5"
+                    android:layout_toRightOf="@id/nubyaccesorios6"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnubyaccesorios"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtnubyaccesorios6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtnubyaccesorios6principal"
+                    android:layout_toRightOf="@id/nubyaccesorios6"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnubyaccesorios6"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnnubyaccesorios6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/view6"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/precionubyaccesorios6"
+                    style="@style/precio"
+                    android:layout_below="@id/nubyaccesorios6"/>
+
+                <View
+                    android:id="@+id/view6"
+                    style="@style/Divider"
+                    android:layout_below="@id/precionubyaccesorios6" />
+
+                <ImageView
+                    android:id="@+id/nubyaccesorios7"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view6"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtnubyaccesorios7principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view6"
+                    android:layout_toRightOf="@id/nubyaccesorios7"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnubyaccesorios"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtnubyaccesorios7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtnubyaccesorios7principal"
+                    android:layout_toRightOf="@id/nubyaccesorios7"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnubyaccesorios7"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnnubyaccesorios7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/view7"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/precionubyaccesorios7"
+                    style="@style/precio"
+                    android:layout_below="@id/nubyaccesorios7"/>
+
+                <View
+                    android:id="@+id/view7"
+                    style="@style/Divider"
+                    android:layout_below="@id/precionubyaccesorios7" />
+
+                <ImageView
+                    android:id="@+id/nubyaccesorios8"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view7"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtnubyaccesorios8principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view7"
+                    android:layout_toRightOf="@id/nubyaccesorios8"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnubyaccesorios"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtnubyaccesorios8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtnubyaccesorios8principal"
+                    android:layout_toRightOf="@id/nubyaccesorios8"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnubyaccesorios8"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnnubyaccesorios8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/view8"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/precionubyaccesorios8"
+                    style="@style/precio"
+                    android:layout_below="@id/nubyaccesorios8"/>
+
+                <View
+                    android:id="@+id/view8"
+                    style="@style/Divider"
+                    android:layout_below="@id/precionubyaccesorios8" />
+
+                <ImageView
+                    android:id="@+id/nubyaccesorios9"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view8"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtnubyaccesorios9principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view8"
+                    android:layout_toRightOf="@id/nubyaccesorios9"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnubyaccesorios"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtnubyaccesorios9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtnubyaccesorios9principal"
+                    android:layout_toRightOf="@id/nubyaccesorios9"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnubyaccesorios9"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnnubyaccesorios9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/view9"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/precionubyaccesorios9"
+                    style="@style/precio"
+                    android:layout_below="@id/nubyaccesorios9"/>
+
+                <View
+                    android:id="@+id/view9"
+                    style="@style/Divider"
+                    android:layout_below="@id/precionubyaccesorios9" />
+
+                <ImageView
+                    android:id="@+id/nubyaccesorios10"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view9"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtnubyaccesorios10principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view9"
+                    android:layout_toRightOf="@id/nubyaccesorios10"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnubyaccesorios"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtnubyaccesorios10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtnubyaccesorios10principal"
+                    android:layout_toRightOf="@id/nubyaccesorios10"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnubyaccesorios10"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnnubyaccesorios10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/view10"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/precionubyaccesorios10"
+                    style="@style/precio"
+                    android:layout_below="@id/nubyaccesorios10"/>
+
+                <View
+                    android:id="@+id/view10"
+                    style="@style/Divider"
+                    android:layout_below="@id/precionubyaccesorios10" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
