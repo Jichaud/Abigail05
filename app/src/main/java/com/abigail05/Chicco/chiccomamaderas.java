@@ -179,7 +179,7 @@ public class chiccomamaderas extends AppCompatActivity {
         chiccomamaderas17 = (ImageView)findViewById(R.id.chiccomamaderas17);
         Picasso.with(this).load(urlchiccomamaderas17).into(chiccomamaderas17);
 
-/*        btnchiccomamaderas1 = (Button)findViewById(R.id.btnchiccomamaderas1);
+        btnchiccomamaderas1 = (Button)findViewById(R.id.btnchiccomamaderas1);
         btnchiccomamaderas1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -259,7 +259,16 @@ public class chiccomamaderas extends AppCompatActivity {
                 startActivity(btnchiccomamaderas9);
             }
         });
-*/
+
+        btnchiccomamaderas10 = (Button)findViewById(R.id.btnchiccomamaderas10);
+        btnchiccomamaderas10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnchiccomamaderas10 = new Intent(chiccomamaderas.this, chiccomamaderas10.class);
+                startActivity(btnchiccomamaderas10);
+            }
+        });
+
         marca = (Button) findViewById(R.id.btnvmarca);
         marca.setOnClickListener(new View.OnClickListener() {
             @Override

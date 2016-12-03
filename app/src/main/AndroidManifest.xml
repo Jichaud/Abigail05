@@ -461,10 +461,50 @@
         <activity
             android:name=".Chicco.chiccoprodlist"
             android:label="Chicco | Productos"
-            android:parentActivityName=".marcas"/>
-        <activity android:name=".Chicco.chiccomamaderas"
+            android:parentActivityName=".marcas" />
+        <activity
+            android:name=".Chicco.chiccomamaderas"
             android:label="Chicco | Mamaderas y accesorios"
-            android:parentActivityName=".Chicco.chiccoprodlist">
+            android:parentActivityName=".Chicco.chiccoprodlist" />
+        <activity
+            android:name=".Chicco.chiccomamaderas1"
+            android:label="Chicco | Mamadera"
+            android:parentActivityName=".Chicco.chiccomamaderas" />
+        <activity
+            android:name=".Chicco.chiccomamaderas2"
+            android:label="Chicco | Mamadera"
+            android:parentActivityName=".Chicco.chiccomamaderas" />
+        <activity
+            android:name=".Chicco.chiccomamaderas3"
+            android:label="Chicco | Mamadera"
+            android:parentActivityName=".Chicco.chiccomamaderas" />
+        <activity
+            android:name=".Chicco.chiccomamaderas4"
+            android:label="Chicco | Mamadera"
+            android:parentActivityName=".Chicco.chiccomamaderas" />
+        <activity
+            android:name=".Chicco.chiccomamaderas5"
+            android:label="Chicco | Tetina"
+            android:parentActivityName=".Chicco.chiccomamaderas" />
+        <activity
+            android:name=".Chicco.chiccomamaderas6"
+            android:label="Chicco | Tetina"
+            android:parentActivityName=".Chicco.chiccomamaderas" />
+        <activity
+            android:name=".Chicco.chiccomamaderas7"
+            android:label="Chicco | Tetina"
+            android:parentActivityName=".Chicco.chiccomamaderas" />
+        <activity
+            android:name=".Chicco.chiccomamaderas8"
+            android:label="Chicco | Tetina"
+            android:parentActivityName=".Chicco.chiccomamaderas" />
+        <activity
+            android:name=".Chicco.chiccomamaderas9"
+            android:label="Chicco | Bandeja escurridora"
+            android:parentActivityName=".Chicco.chiccomamaderas"/>
+        <activity android:name=".Chicco.chiccomamaderas10"
+            android:label="Chicco | Asas para mamadera"
+            android:parentActivityName=".Chicco.chiccomamaderas">
 
         </activity>
     </application>
