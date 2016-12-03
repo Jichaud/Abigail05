@@ -2,24 +2,14 @@ package com.abigail05.Chicco;
 
 import android.content.Intent;
 import android.os.AsyncTask;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.abigail05.MainActivity;
-import com.abigail05.NUK.nukaccesorios;
-import com.abigail05.NUK.nukaccesorios1;
-import com.abigail05.NUK.nukaccesorios2;
-import com.abigail05.NUK.nukaccesorios3;
-import com.abigail05.NUK.nukaccesorios4;
-import com.abigail05.NUK.nukaccesorios5;
-import com.abigail05.NUK.nukaccesorios6;
-import com.abigail05.NUK.nukaccesorios7;
-import com.abigail05.NUK.nukaccesorios8;
-import com.abigail05.NUK.nukaccesorios9;
 import com.abigail05.R;
 import com.abigail05.marcas;
 import com.squareup.picasso.Picasso;

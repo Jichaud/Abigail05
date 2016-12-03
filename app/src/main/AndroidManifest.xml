@@ -565,10 +565,58 @@
         <activity
             android:name=".Chicco.chiccohigiene7"
             android:label="Chicco | Traba puerta"
-            android:parentActivityName=".Chicco.chiccohigiene"/>
-        <activity android:name=".Chicco.chiccohigiene8"
+            android:parentActivityName=".Chicco.chiccohigiene" />
+        <activity
+            android:name=".Chicco.chiccohigiene8"
             android:label="Chicco | Salva dedos"
-            android:parentActivityName=".Chicco.chiccohigiene">
+            android:parentActivityName=".Chicco.chiccohigiene" />
+        <activity
+            android:name=".Chicco.chiccosilla"
+            android:label="Chicco | Sillas"
+            android:parentActivityName=".Chicco.chiccoprodlist" />
+        <activity
+            android:name=".Chicco.chiccosilla1"
+            android:label="Chicco | Silla"
+            android:parentActivityName=".Chicco.chiccosilla" />
+        <activity
+            android:name=".Chicco.chiccosilla2"
+            android:label="Chicco | Silla"
+            android:parentActivityName=".Chicco.chiccosilla" />
+        <activity
+            android:name=".Chicco.chiccosilla3"
+            android:label="Chicco | Silla"
+            android:parentActivityName=".Chicco.chiccosilla" />
+        <activity
+            android:name=".Nuby.nubyprodlist"
+            android:label="Nuby | Productos"
+            android:parentActivityName=".marcas" />
+        <activity
+            android:name=".Nuby.nubyvasos"
+            android:label="Nuby | Vasos"
+            android:parentActivityName=".Nuby.nubyprodlist" />
+        <activity
+            android:name=".Nuby.nubyvasos1"
+            android:label="Nuby | Vaso"
+            android:parentActivityName=".Nuby.nubyvasos" />
+        <activity
+            android:name=".Nuby.nubyvasos2"
+            android:label="Nuby | Vaso"
+            android:parentActivityName=".Nuby.nubyvasos" />
+        <activity
+            android:name=".Nuby.nubyvasos3"
+            android:label="Nuby | Vaso"
+            android:parentActivityName=".Nuby.nubyvasos" />
+        <activity
+            android:name=".Nuby.nubyvasos4"
+            android:label="Nuby | Vaso"
+            android:parentActivityName=".Nuby.nubyvasos" />
+        <activity
+            android:name=".Nuby.nubyvasos5"
+            android:label="Nuby | Vaso"
+            android:parentActivityName=".Nuby.nubyvasos"/>
+        <activity android:name=".Nuby.nubyvasos6"
+            android:label="Nuby | Vaso"
+            android:parentActivityName=".Nuby.nubyvasos">
 
         </activity>
     </application>

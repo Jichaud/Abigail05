@@ -174,9 +174,56 @@
                     android:layout_below="@id/btnmibes" />
 
                 <ImageView
-                    android:id="@+id/nuk"
+                    android:id="@+id/nuby"
                     android:layout_width="80dp"
                     android:layout_below="@id/view3"
+                    android:layout_height="80dp"
+                    android:padding="8dp"/>
+
+                <TextView
+                    android:id="@+id/txtnubymarca"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/nuby"
+                    android:layout_below="@id/view3"
+                    android:paddingLeft="15dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/txtnubymarca"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtnubyprod"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtnubymarca"
+                    android:layout_toRightOf="@id/nuby"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnubyprod"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnnuby"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/txtnubyprod"
+                    android:layout_marginBottom="4dp"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <View
+                    android:id="@+id/view4"
+                    style="@style/Divider"
+                    android:layout_below="@id/btnnuby" />
+
+                <ImageView
+                    android:id="@+id/nuk"
+                    android:layout_width="80dp"
+                    android:layout_below="@id/view4"
                     android:layout_height="80dp"
                     android:padding="8dp"/>
 
@@ -185,7 +232,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_toRightOf="@id/nuk"
-                    android:layout_below="@id/view3"
+                    android:layout_below="@id/view4"
                     android:paddingLeft="15dp"
                     android:fontFamily="sans-serif-light"
                     android:text="@string/txtnukmarca"
@@ -216,14 +263,14 @@
                     android:textSize="16sp" />
 
                 <View
-                    android:id="@+id/view4"
+                    android:id="@+id/view5"
                     style="@style/Divider"
                     android:layout_below="@id/btnnuk" />
 
                 <ImageView
                     android:id="@+id/pilim"
                     android:layout_width="80dp"
-                    android:layout_below="@id/view4"
+                    android:layout_below="@id/view5"
                     android:layout_height="80dp"
                     android:padding="8dp"/>
 
@@ -232,7 +279,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_toRightOf="@id/pilim"
-                    android:layout_below="@id/view4"
+                    android:layout_below="@id/view5"
                     android:paddingLeft="15dp"
                     android:fontFamily="sans-serif-light"
                     android:text="@string/txtpilimmarca"
@@ -263,7 +310,7 @@
                     android:textSize="16sp" />
 
                 <View
-                    android:id="@+id/view5"
+                    android:id="@+id/view6"
                     style="@style/Divider"
                     android:layout_below="@id/btnpilim" />
 

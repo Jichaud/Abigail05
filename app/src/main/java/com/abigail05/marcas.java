@@ -10,6 +10,7 @@ import android.widget.ImageView;
 import com.abigail05.Avent.aventprodlist;
 import com.abigail05.Chicco.chiccoprodlist;
 import com.abigail05.NUK.nukprodlist;
+import com.abigail05.Nuby.nubyprodlist;
 import com.abigail05.mibes.mibesprodlist;
 import com.abigail05.pilim.pilimprodlist;
 import com.squareup.picasso.Picasso;
@@ -32,6 +33,9 @@ public class marcas extends AppCompatActivity {
     ImageView chicco;
     String urlchicco = "https://lh3.googleusercontent.com/QIBYdw9Mg0GH3CX7jEicc5sueJroH-MS5bpq1BpSn8kNbC6BlJ816Di2urfb5bBO0lrCc4oYWBxIar3M2C0h-AhHE7YoK7pBKs6wCVd0Vlj-LhUnRYBXt24tTiG3Yapqm3HYwrIAKpRH-V6Itg_g1EYIPCK07imXObb52zxnPtd8bh6tNIU2WIny7QfG8NI5hyIM2wu4uP65LoKNZzpnGK5URw866R5SggKQChsgtsUhvdyheuCFJRu68xQtMW_i2nobfhfcM3BYsnP1rNGcNYpF2OgZ463PcYgDLUV51o5e5JkDHrkXLIYZqcS7AXSm-I6aBWm0uyILkNia8eZYzZrE3_uvukFgbQ4yXt0dfCq4C2ej8D4v3obH7M72nYFapYgsMi2jJMoP09VP9NAi0k-AWdZv6yOl0tGd075oskqJ9NDY8tRDuvp-hH_EeHZVV7zmJOC3iC0JLZ8EY3jxxgpkRR-ePVfEPvzCi9Vyww90dZ8lYslThNBfGY3gSwq0v4iFlMOafIHq0umGzDZcN-I5tQ38jHpI_9s4G5piSwtAFFY8QVYq7H19TkvhEZNZA1tSY23xF-i1Ao1-4o0HCzXc3PLsZVygKcGJlOBYsY1uDgXPCw=w97-h56-no";
     Button btnchicco;
+    ImageView nuby;
+    String urlnuby = "https://lh3.googleusercontent.com/QOHiRFZLbTALtkd1JJwhBHi7fsam_2rTxyB4qZaSXyzBHb3binGC3e0yf1x5QSUhc84jgdp-ZlbNYZkvtlm4fuAzsjHYHVdk0CYaqV9HdY4KX4_EeJQOwB8UFPYTyffww7GdHObB3vn0TQKqUAdJ-aNsCI8CT5kMKygJR4CPm7KNF28dYJMrT8Wy_O_jMesVarwWIRecIuqhorZAm4FqfPUR1W8kNzBoaiRn_eiStcAwVa1tpg7W5z_g84oz4pm2DHaRMp4ZqXIY_NN6UXw6CGSAYPjxRJIzrq7GCpLJRNC0ewCtrbUlrF8Ba8ujssp8_HDWu5SF5t6YNhT50HCQM1uiH6W569oPsqDllhNItqO1YUfDmNkmDUAs0SiOlw7ZQS03AQf0FBA0rVAnIPzoNGJE_2yQHdjR4LXM14Rs6Y5x4B80MVI3r2CWiiNntZHVWSbA8v0q1xpCfYGZK65gXKtCOQ42uGHSbqxKjRyeJlFuCek1i5KQZV5nKSLQ_5GsYdA8-6YQ1E63-Z5gKG0pnbHnhjx6RcmKfAS4JceZyQYCilkax10YSQFQu1q49z-PJLdWvjPPjNlGL_-WCL5CMP8a81OuLI8i0Rg7BV1T5kD4QLV84w=w250-h95-no";
+    Button btnnuby;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,6 +72,9 @@ public class marcas extends AppCompatActivity {
         chicco = (ImageView)findViewById(R.id.chicco);
         Picasso.with(this).load(urlchicco).into(chicco);
 
+        nuby = (ImageView)findViewById(R.id.nuby);
+        Picasso.with(this).load(urlnuby).into(nuby);
+
         btnavent = (Button)findViewById(R.id.btnavent);
         btnavent.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -95,6 +102,15 @@ public class marcas extends AppCompatActivity {
             public void onClick(View view) {
                 Intent btnchicco = new Intent(marcas.this,chiccoprodlist.class);
                 startActivity(btnchicco);
+            }
+        });
+
+        btnnuby = (Button)findViewById(R.id.btnnuby);
+        btnnuby.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnnuby = new Intent(marcas.this,nubyprodlist.class);
+                startActivity(btnnuby);
             }
         });
 

@@ -9,6 +9,8 @@
     <string name="consulta">Consultanos</string>
     <string name="consultatxt">Estamos para ayudarte.</string>
     <string name="mailok">Gracias por tu mail, nos pondremos en contacto a la brevedad…</string>
+    <string name="porencargotxt">Venta solo por encargo</string>
+
 
     AM
     <string name="AMprodabi">Productos Abigail05</string>
@@ -214,5 +216,22 @@
     <string name="txtchiccohigiene6">Chicco traba cajones</string>
     <string name="txtchiccohigiene7">Chicco traba puerta</string>
     <string name="txtchiccohigiene8">Chicco salva dedos</string>
+    <string name="txtchiccosilla">Sillas</string>
+    <string name="txtchiccosilladesc">Sillas fijas, pocket, snack</string>
+    <string name="txtchiccosilla1">Chicco silla Polly 2 en 1</string>
+    <string name="txtchiccosilla2">Chicco silla elevadora Pocket snack. Varios colores</string>
+    <string name="txtchiccosilla3">Chicco silla Happy snack. Varios colores</string>
+
+    Nuby
+    <string name="txtnubymarca">Nuby</string>
+    <string name="txtnubyprod">Vasos, alimentación, accesorios y mucho más…</string>
+    <string name="txtnubyvasos">Vasos</string>
+    <string name="txtnubyvasosdesc">Vasos con sorberte, boquilla y más…</string>
+    <string name="txtnubyvasos1">Nuby Flex Straw vaso con sorbete 300ml +12 meses. Varios colores</string>
+    <string name="txtnubyvasos2">Nuby Grip N´ Sip. Vaso con boquilla 240ml +4 meses. Varios colores</string>
+    <string name="txtnubyvasos3">Nuby vaso con sorbete 240ml +12 meses. Varios colores</string>
+    <string name="txtnubyvasos4">Nuby Soft Sipper. Vaso con boquilla rígida 330ml +9 meses. Varios colores</string>
+    <string name="txtnubyvasos5">Nuby Natural Touch. Vaso con boquilla silicona 270ml +6 meses. Varios colores</string>
+    <string name="txtnubyvasos6">Nuby vaso monstruo con boquilla de silicona antiderrame 210ml +4 meses. Varios colores</string>
 
 </resources>

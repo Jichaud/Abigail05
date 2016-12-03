@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_nubyvasos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="4dp"
+    tools:context="com.abigail05.Nuby.nubyvasos">
+
+    <Button
+        android:id="@+id/btnhome"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:text="@string/verhome"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btnvmarca"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="@string/verxmarca"
+        android:textAllCaps="false"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/btnhome">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="6dp">
+
+                <ImageView
+                    android:id="@+id/nubyvasos1"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtnubyvasos1principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/nubyvasos1"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnubyvasos"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtnubyvasos1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtnubyvasos1principal"
+                    android:layout_toRightOf="@id/nubyvasos1"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnubyvasos1"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnnubyvasos1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/view1"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/precionubyvasos1"
+                    style="@style/precio"
+                    android:layout_below="@id/nubyvasos1"/>
+
+                <View
+                    android:id="@+id/view1"
+                    style="@style/Divider"
+                    android:layout_below="@id/precionubyvasos1" />
+
+                <ImageView
+                    android:id="@+id/nubyvasos2"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view1"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtnubyvasos2principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view1"
+                    android:layout_toRightOf="@id/nubyvasos2"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnubyvasos"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtnubyvasos2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtnubyvasos2principal"
+                    android:layout_toRightOf="@id/nubyvasos2"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnubyvasos2"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnnubyvasos2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/view2"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/precionubyvasos2"
+                    style="@style/precio"
+                    android:layout_below="@id/nubyvasos2"/>
+
+                <View
+                    android:id="@+id/view2"
+                    style="@style/Divider"
+                    android:layout_below="@id/precionubyvasos2" />
+
+                <ImageView
+                    android:id="@+id/nubyvasos3"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view2"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtnubyvasos3principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view2"
+                    android:layout_toRightOf="@id/nubyvasos3"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnubyvasos"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtnubyvasos3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtnubyvasos3principal"
+                    android:layout_toRightOf="@id/nubyvasos3"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnubyvasos3"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnnubyvasos3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/view3"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/precionubyvasos3"
+                    style="@style/precio"
+                    android:layout_below="@id/nubyvasos3"/>
+
+                <View
+                    android:id="@+id/view3"
+                    style="@style/Divider"
+                    android:layout_below="@id/precionubyvasos3" />
+
+                <ImageView
+                    android:id="@+id/nubyvasos4"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view3"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtnubyvasos4principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view3"
+                    android:layout_toRightOf="@id/nubyvasos4"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnubyvasos"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtnubyvasos4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtnubyvasos4principal"
+                    android:layout_toRightOf="@id/nubyvasos4"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnubyvasos4"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnnubyvasos4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/view4"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/precionubyvasos4"
+                    style="@style/precio"
+                    android:layout_below="@id/nubyvasos4"/>
+
+                <View
+                    android:id="@+id/view4"
+                    style="@style/Divider"
+                    android:layout_below="@id/precionubyvasos4" />
+
+                <ImageView
+                    android:id="@+id/nubyvasos5"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view4"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtnubyvasos5principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view4"
+                    android:layout_toRightOf="@id/nubyvasos5"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnubyvasos"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtnubyvasos5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtnubyvasos5principal"
+                    android:layout_toRightOf="@id/nubyvasos5"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnubyvasos5"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnnubyvasos5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/view5"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/precionubyvasos5"
+                    style="@style/precio"
+                    android:layout_below="@id/nubyvasos5"/>
+
+                <View
+                    android:id="@+id/view5"
+                    style="@style/Divider"
+                    android:layout_below="@id/precionubyvasos5" />
+
+                <ImageView
+                    android:id="@+id/nubyvasos6"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view5"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtnubyvasos6principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view5"
+                    android:layout_toRightOf="@id/nubyvasos6"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnubyvasos"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtnubyvasos6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtnubyvasos6principal"
+                    android:layout_toRightOf="@id/nubyvasos6"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtnubyvasos6"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnnubyvasos6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/view6"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/precionubyvasos6"
+                    style="@style/precio"
+                    android:layout_below="@id/nubyvasos6"/>
+
+                <View
+                    android:id="@+id/view6"
+                    style="@style/Divider"
+                    android:layout_below="@id/precionubyvasos6" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
