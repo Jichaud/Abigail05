@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 import com.abigail05.Avent.aventprodlist;
+import com.abigail05.Babelito.babelitoprodlist;
 import com.abigail05.BabyInnovation.babyinprodlist;
 import com.abigail05.Chicco.chiccoprodlist;
 import com.abigail05.Colombraro.colombraroprodlist;
@@ -52,6 +53,9 @@ public class marcas extends AppCompatActivity {
     ImageView colo;
     String urlcolo = "https://lh3.googleusercontent.com/omAo0G6cPU1gedOA5eZyt5QhCwPlMFpyDyigK3dJgxVvBaXTv51Dxmqeil6vY7UpyeSaXkQPplgXvPJ0xhbH5Vq2y46MtD3YMBDADWrzBcvEIoxD5NiixvxnaTjZlDnrIkKfU4tERbrrtqMYSZCEAXk56JTPhZUq0xXvuZeqy-RtMAVbGMVAk7V-pxwWugI4pFo8aCdl3RUX-YArG1zHKVPJARF9GCIfmUZ66R5-FIauT7h6KfeZ4zFMsRFePl_YLI2V2dX5hzjchAEAQ2zICTSXq6rv5sFZGmZUrYGm1-1M8Yt0gjEMyKpcIEfcVzTZifLI3Gu7IMbHxKIaLhWALHa6AQ3lYSjfct2I4vjLXdQsSx5nEoC9BXq0LS08uZ0crcPaG4jPk3GqC77ZK1Ib8xh4HlAyd3dqWgVLLMnURqQypcV9thPhrRKReuiXmGF9PObexxcG3ljGYVmTXFyySVM6UDBluI_tQJ9P-v7YEDF85e41GJCzC6TW07cSkDcrQitXgtkvSHQzr11y6QFfGMUABQaXVG0cZlqPgvmg5gf2rhTDrqRbzsqCZnOOp6GNV3I4aWTVZrQSq0kCdfmSClBg3Jj4xKA4yaHDojYKfNuD59J5CA=w420-h143-no";
     Button btncolo;
+    ImageView babe;
+    String urlbabe = "https://lh3.googleusercontent.com/KmZfp230WnhO28LJ_D1ye57NCtHwRlGwVIcA2LZhDQN-0UGyCi1M0zgGblyAITYQfuHlyD5q4gSQYp9jLjCsDK44QwyXEND51-t2umLwb5MOKDgOLcQe0aq7MwXYRG7jN3O5bkU8BbSwG8uTLKUEV0y-e80Zav7mAWjIc99ZUdtLgUS81YH54OSQbWweE6_FU_goJaliGxAkRKqengdekiLKM900s-Id4UYvRlgkICpAg4I7DIPxbbI4xjyzcgAFz0b7kdzfTp63Jin--KIzg1t1e6tZmNUkwuUz98Yr6XuliBREZRvFxxFuXsWzeQw88ehvYr8KGSxR3BZdhDl2uUnDAMoiBHxYA3NKJ8X6aWiKTdAVUokBTHGTOg5zjR8_gfSNrAj92KALhDIpmP1PQcOOb4XcCRJ-duD3kPewtV7-4JjCs81z18-6If1LmBxAwhWKUoGBYjV9Ef4QaIlJYI5DmG3q9ObH2HSoVRFcHVgq3xyhSB0t15XjOXHc5CiPYfhIktwcS5cxOxqrotIdSGg_xv6djB5agZUVmbpsgY5GiRjQRvVgxC6DmVwtDCLyB_qiGfTc9-9GzLPd-dZhyeiUfVSqbKKPgCy5AE08B3yqkMkhIw=w299-h85-no";
+    Button btnbabe;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -175,6 +179,18 @@ public class marcas extends AppCompatActivity {
             public void onClick(View view) {
                 Intent btncolo = new Intent(marcas.this,colombraroprodlist.class);
                 startActivity(btncolo);
+            }
+        });
+
+        babe = (ImageView)findViewById(R.id.babe);
+        Picasso.with(this).load(urlbabe).into(babe);
+
+        btnbabe = (Button)findViewById(R.id.btnbabe);
+        btnbabe.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnbabe = new Intent(marcas.this,babelitoprodlist.class);
+                startActivity(btnbabe);
             }
         });
 

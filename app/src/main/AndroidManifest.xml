@@ -841,10 +841,110 @@
         <activity
             android:name=".Colombraro.coloaccesorios2"
             android:label="Colombraro | Bacinilla"
-            android:parentActivityName=".Colombraro.coloaccesorios"/>
-        <activity android:name=".Colombraro.coloaccesorios3"
+            android:parentActivityName=".Colombraro.coloaccesorios" />
+        <activity
+            android:name=".Colombraro.coloaccesorios3"
             android:label="Colombraro | Esterilizador"
-            android:parentActivityName=".Colombraro.coloaccesorios">
+            android:parentActivityName=".Colombraro.coloaccesorios" />
+        <activity
+            android:name=".Babelito.babelitoprodlist"
+            android:label="Babelito | Productos"
+            android:parentActivityName=".marcas" />
+        <activity
+            android:name=".Babelito.babemamaderas"
+            android:label="Babelito | Mamaderas"
+            android:parentActivityName=".Babelito.babelitoprodlist" />
+        <activity
+            android:name=".Babelito.babemamaderas1"
+            android:label="Babelito | Mamadera"
+            android:parentActivityName=".Babelito.babemamaderas" />
+        <activity
+            android:name=".Babelito.babemamaderas2"
+            android:label="Babelito | Mamadera"
+            android:parentActivityName=".Babelito.babemamaderas" />
+        <activity
+            android:name=".Babelito.babemamaderas3"
+            android:label="Babelito | Mamadera"
+            android:parentActivityName=".Babelito.babemamaderas" />
+        <activity
+            android:name=".Babelito.babemamaderas4"
+            android:label="Babelito | Mamadera"
+            android:parentActivityName=".Babelito.babemamaderas" />
+        <activity
+            android:name=".Babelito.babemamaderas5"
+            android:label="Babelito | Mamadera"
+            android:parentActivityName=".Babelito.babemamaderas" />
+        <activity
+            android:name=".Babelito.babemamaderas6"
+            android:label="Babelito | Succionador de leche"
+            android:parentActivityName=".Babelito.babemamaderas" />
+        <activity
+            android:name=".Babelito.babemamaderas7"
+            android:label="Babelito | Toma solito"
+            android:parentActivityName=".Babelito.babemamaderas" />
+        <activity
+            android:name=".Babelito.babemamaderas8"
+            android:label="Babelito | Pack recién nacido"
+            android:parentActivityName=".Babelito.babemamaderas" />
+        <activity
+            android:name=".Babelito.babeaccesorios"
+            android:label="Babelito | Accesorios"
+            android:parentActivityName=".Babelito.babelitoprodlist" />
+        <activity
+            android:name=".Babelito.babeaccesorios1"
+            android:label="Babelito | Protector mamario"
+            android:parentActivityName=".Babelito.babeaccesorios" />
+        <activity
+            android:name=".Babelito.babeaccesorios2"
+            android:label="Babelito | Aspirador nasal"
+            android:parentActivityName=".Babelito.babeaccesorios" />
+        <activity
+            android:name=".Babelito.babeaccesorios3"
+            android:label="Babelito | Bolso térmico"
+            android:parentActivityName=".Babelito.babeaccesorios" />
+        <activity
+            android:name=".Babelito.babeaccesorios4"
+            android:label="Babelito | Porta biberón"
+            android:parentActivityName=".Babelito.babeaccesorios" />
+        <activity
+            android:name=".Babelito.babeaccesorios5"
+            android:label="Babelito | Ata chupete"
+            android:parentActivityName=".Babelito.babeaccesorios" />
+        <activity
+            android:name=".Babelito.babeaccesorios6"
+            android:label="Babelito | Cepillo de dientes"
+            android:parentActivityName=".Babelito.babeaccesorios" />
+        <activity
+            android:name=".Babelito.babeaccesorios7"
+            android:label="Babelito | Plato térmico"
+            android:parentActivityName=".Babelito.babeaccesorios" />
+        <activity
+            android:name=".Babelito.babeaccesorios8"
+            android:label="Babelito | Cuchara termosensible"
+            android:parentActivityName=".Babelito.babeaccesorios" />
+        <activity
+            android:name=".Babelito.babeaccesorios9"
+            android:label="Babelito | Juego de cubiertos"
+            android:parentActivityName=".Babelito.babeaccesorios" />
+        <activity
+            android:name=".Babelito.babeaccesorios10"
+            android:label="Babelito | Mordillo refrigerante"
+            android:parentActivityName=".Babelito.babeaccesorios" />
+        <activity
+            android:name=".Babelito.babeaccesorios11"
+            android:label="Babelito | Set de cosmética"
+            android:parentActivityName=".Babelito.babeaccesorios" />
+        <activity
+            android:name=".Babelito.babeaccesorios12"
+            android:label="Babelito | Bowl con cuchara"
+            android:parentActivityName=".Babelito.babeaccesorios" />
+        <activity
+            android:name=".Babelito.babeaccesorios13"
+            android:label="Babelito | Cepillo y peine"
+            android:parentActivityName=".Babelito.babeaccesorios"/>
+        <activity android:name=".Babelito.babeaccesorios14"
+            android:label="Babelito | Cepillo limpiador"
+            android:parentActivityName=".Babelito.babeaccesorios">
 
         </activity>
     </application>

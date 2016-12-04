@@ -287,7 +287,7 @@
     <string name="txtnowysillas2">Nowybaby Conforta 0 a 36 meses. Respaldo y asiento almohadonado. Respaldo reclinable. Textiles de fácil limpieza. Amplia bandeja multifunción. Ruedas con freno. Amplio espacio de guardado</string>
     <string name="txtnowybaneras">Bañeras</string>
     <string name="txtnowybanerasdesc">Bañeras flexibles, plegables y redes para bañeras</string>
-    <string name="txtnowybaneras1">Nowybaby Ergoflex Capacidad 35 litros. Medidas 28x45x20. Edad sugerida 0-5 años. Patas antideslizantes. Secado rápido. Material suave y confortable. Disponibles en celeste, verde y rosa. Normas Comunidad Europea</string>
+    <string name="txtnowybaneras1">Nowybaby Ergoflex Capacidad 35 litros. Medidas 28x45x20. Edad sugerida 0–5 años. Patas antideslizantes. Secado rápido. Material suave y confortable. Disponibles en celeste, verde y rosa. Normas Comunidad Europea</string>
     <string name="txtnowybaneras2">Nowybaby FlexTube Super plegable. Secado rápido. 39 litros de capacidad. Superficies suaves. Cumple con normas Europeas. Edad sugeridad 0 a 5 años. Disponibles en rosa, narajna y cyan</string>
     <string name="txtnowybaneras3">Nowybaby Red de Baño. Se adapta a todos los tipos de bañera gracias a su sencilla fijacion. Se puede graduar altura de la cabeceray las piernas. Disponibles en rosa, verde y celeste</string>
     <string name="txtnowymobiliario">Mobiliario</string>
@@ -314,6 +314,37 @@
     <string name="txtcoloaccesoriosdesc">Adaptadores inodoro, bacinilla y esterilizador</string>
     <string name="txtcoloaccesorios1">Colombraro Adaptador para Inodoro. Art.170 Largo: 39 cm. Ancho: 32 cm. Alto: 10 cm.</string>
     <string name="txtcoloaccesorios2">Colombraro Bacinilla Anatomica Baby Col Art.4099 Largo: 35 cm. Ancho: 23 cm. Alto: 22,5 cm. Celeste o Fucsia. Consultar</string>
-    <string name="txtcoloaccesorios3">Colombraro Esterilizador de Mamaderas Art.4110 LLargo: 21,5 cm.Ancho: 21,5 cm.Alto: 14,5 cm.</string>
+    <string name="txtcoloaccesorios3">Colombraro Esterilizador de Mamaderas Art.4110 Largo: 21,5 cm.Ancho: 21,5 cm.Alto: 14,5 cm.</string>
+
+    Babelito
+    <string name="txtbabemarca">Babelito</string>
+    <string name="txtbabeprod">Mamaderas y accesorios</string>
+    <string name="txtbabemamaderas">Mamaderas</string>
+    <string name="txtbabemamaderasdesc">Mamaderas para niños</string>
+    <string name="txtbabemamaderas1">Babelito Mamadera 125ml PP Libre de BPA. Varios colores</string>
+    <string name="txtbabemamaderas2">Babelito Mamadera 250ml PP Libre de BPA. Varios colores</string>
+    <string name="txtbabemamaderas3">Babelito Mamadera Selva 125ml sin BPA. Varios colores</string>
+    <string name="txtbabemamaderas4">Babelito Mamadera Clear Plastic 250ml sin BPA. Varios colores</string>
+    <string name="txtbabemamaderas5">Babelito Mamadera de vidrio 250ml sin BPA. Varios colores</string>
+    <string name="txtbabemamaderas6">Babelito succionador de leche materna</string>
+    <string name="txtbabemamaderas7">Babelito toma solito 250ml PP libre de BPA. Varios colores</string>
+    <string name="txtbabemamaderas8">Babelito pack recién nacido. Disponible en celeste o rosa</string>
+    <string name="txtbabeaccesorios">Accesorios</string>
+    <string name="txtbabeaccesoriosdesc">Bolsos, aspiradores nasales, cepillos y más…</string>
+    <string name="txtbabeaccesorios1">Babelito Protectores Mamarios x24 Unidades</string>
+    <string name="txtbabeaccesorios2">Babelito Aspirador nasal</string>
+    <string name="txtbabeaccesorios3">Babelito bolso térmico</string>
+    <string name="txtbabeaccesorios4">Babelito porta biberón térmico</string>
+    <string name="txtbabeaccesorios5">Babelito ata chupete</string>
+    <string name="txtbabeaccesorios6">Babelito cepillo de dientes suave de silicona</string>
+    <string name="txtbabeaccesorios7">Babelito plato térmico antideslizante disponible en celeste o rosa</string>
+    <string name="txtbabeaccesorios8">Babelito cuchara termosensible. Varios colores</string>
+    <string name="txtbabeaccesorios9">Babelito juego de cubiertos celeste o rosa</string>
+    <string name="txtbabeaccesorios10">Babelito mordillo refrigerante. Varios colores</string>
+    <string name="txtbabeaccesorios11">Babelito set de coméstica. 1 shampoo. 1 colonia. 2 jabones</string>
+    <string name="txtbabeaccesorios12">Babelito bowl con cuchara. Disponible en celeste o rosa</string>
+    <string name="txtbabeaccesorios13">Babelito cepillo y peine. Disponible en celeste o rosa</string>
+    <string name="txtbabeaccesorios14">Babelito cepillo limpia mamaderas y tetinas</string>
+
 
 </resources>
