@@ -18,7 +18,7 @@
     <string name="AMbuscaprod">Buscá por producto</string>
     <string name="AMtxtdescxprod">Almohadones, mamaderas, chupetes y mucho más…</string>
     <string name="AMbuscamarca">Buscá por marca</string>
-    <string name="AMtxtdescxmarca">Abigail05, Avent, Chicco y mucho más…</string>
+    <string name="AMtxtdescxmarca">Avent, Chicco, Babelito y mucho más…</string>
 
     Productos Abigail05
     <string name="txtcombo">Combo Almohadón para Amamantar</string>
@@ -245,5 +245,27 @@
     <string name="txtnubyaccesorios8">Nuby bowl con tapa y cuchara. Varios colores</string>
     <string name="txtnubyaccesorios9">Nuby plato térmico con cuchara. Colores: azul, verde y fucsia</string>
     <string name="txtnubyaccesorios10">Nuby snack keeper – Cerealero monstruo</string>
+
+    Ergolastic
+    <string name="txtergolasticmarca">Ergolastic</string>
+    <string name="txtergolasticprod">Fajas pre y post parto</string>
+    <string name="txtergolasticfajas">Fajas</string>
+    <string name="txtergolasticfajasdesc">Fajas pre y post parto</string>
+    <string name="txtergolasticfaja1">Faja pre parto talle único ajustable con abrojo</string>
+    <string name="txtergolasticfaja2">Faja post parto. Disponibles en talles (medida de cintura): T1 60–75 | T2 70–85 | T3 80–95 | T4 90–105 | T5 100–120</string>
+
+    Baby Innovation
+    <string name="txtbabyinmarca">Baby Innovation</string>
+    <string name="txtbabyinprod">Alimentación, accesorios, seguridad y mucho más…</string>
+    <string name="txtbabyinvarios">Línea varios</string>
+    <string name="txtbabyinvariosdesc">Calentador, vasos, cucharas y más…</string>
+    <string name="txtbabyinvarios1">Baby Innovation calentador de mamaderas para auto</string>
+    <string name="txtbabyinvarios2">Baby Innovation calentador de mamaderas portátil</string>
+    <string name="txtbabyinvarios3">Baby Innovation arnés de seguridad para bebés. Varios colores</string>
+    <string name="txtbabyinvarios4">Baby Innovation vasos apilables x5 unidades. Varios colores</string>
+    <string name="txtbabyinvarios5">Baby Innovation set de 6 coloridas cucharas y tenedores</string>
+    <string name="txtbabyinvarios6">Baby Innovation set de 3 coloridos platos antideslizantes</string>
+    <string name="txtbabyinvarios7">Baby Innovation chupete mordillo. Disponible en celeste y rosa</string>
+    <string name="txtbabyinvarios8">Baby Innovation dosificador de medicina</string>
 
 </resources>

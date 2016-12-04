@@ -657,10 +657,62 @@
         <activity
             android:name=".Nuby.nubyaccesorios9"
             android:label="Nuby | Plato térmico"
-            android:parentActivityName=".Nuby.nubyaccesorios"/>
-        <activity android:name=".Nuby.nubyaccesorios10"
+            android:parentActivityName=".Nuby.nubyaccesorios" />
+        <activity
+            android:name=".Nuby.nubyaccesorios10"
             android:label="Nuby | Cerealero monstruo"
-            android:parentActivityName=".Nuby.nubyaccesorios">
+            android:parentActivityName=".Nuby.nubyaccesorios" />
+        <activity
+            android:name=".Ergolastic.ergolasticprodlist"
+            android:label="Ergolastic | Productos"
+            android:parentActivityName=".marcas" />
+        <activity
+            android:name=".Ergolastic.ergolastic1"
+            android:label="Ergolastic | Faja pre parto"
+            android:parentActivityName=".Ergolastic.ergolasticprodlist" />
+        <activity
+            android:name=".Ergolastic.ergolastic2"
+            android:label="Ergolastic | Faja pos parto"
+            android:parentActivityName=".Ergolastic.ergolasticprodlist" />
+        <activity
+            android:name=".BabyInnovation.babyinprodlist"
+            android:label="Baby Innovation | Productos"
+            android:parentActivityName=".marcas" />
+        <activity
+            android:name=".BabyInnovation.babyinvarios"
+            android:label="Baby Innovation | Línea varios"
+            android:parentActivityName=".BabyInnovation.babyinprodlist" />
+        <activity
+            android:name=".BabyInnovation.babyinvarios1"
+            android:label="Baby Innovation | Calentador de mamadera"
+            android:parentActivityName=".BabyInnovation.babyinvarios" />
+        <activity
+            android:name=".BabyInnovation.babyinvarios2"
+            android:label="Baby Innovation | Calentador de mamadera"
+            android:parentActivityName=".BabyInnovation.babyinvarios" />
+        <activity
+            android:name=".BabyInnovation.babyinvarios3"
+            android:label="Baby Innovation | Arnés de seguridad"
+            android:parentActivityName=".BabyInnovation.babyinvarios" />
+        <activity
+            android:name=".BabyInnovation.babyinvarios4"
+            android:label="Baby Innovation | Vasos apilables"
+            android:parentActivityName=".BabyInnovation.babyinvarios" />
+        <activity
+            android:name=".BabyInnovation.babyinvarios5"
+            android:label="Baby Innovation | Cucharas y tenedores"
+            android:parentActivityName=".BabyInnovation.babyinvarios" />
+        <activity
+            android:name=".BabyInnovation.babyinvarios6"
+            android:label="Baby Innovation | Platos"
+            android:parentActivityName=".BabyInnovation.babyinvarios" />
+        <activity
+            android:name=".BabyInnovation.babyinvarios7"
+            android:label="Baby Innovation | Chupete mordillo"
+            android:parentActivityName=".BabyInnovation.babyinvarios"/>
+        <activity android:name=".BabyInnovation.babyinvarios8"
+            android:label="Baby Innovation | Dosificador medicina"
+            android:parentActivityName=".BabyInnovation.babyinvarios">
 
         </activity>
     </application>

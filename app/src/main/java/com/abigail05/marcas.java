@@ -8,7 +8,9 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 import com.abigail05.Avent.aventprodlist;
+import com.abigail05.BabyInnovation.babyinprodlist;
 import com.abigail05.Chicco.chiccoprodlist;
+import com.abigail05.Ergolastic.ergolasticprodlist;
 import com.abigail05.NUK.nukprodlist;
 import com.abigail05.Nuby.nubyprodlist;
 import com.abigail05.mibes.mibesprodlist;
@@ -36,6 +38,12 @@ public class marcas extends AppCompatActivity {
     ImageView nuby;
     String urlnuby = "https://lh3.googleusercontent.com/QOHiRFZLbTALtkd1JJwhBHi7fsam_2rTxyB4qZaSXyzBHb3binGC3e0yf1x5QSUhc84jgdp-ZlbNYZkvtlm4fuAzsjHYHVdk0CYaqV9HdY4KX4_EeJQOwB8UFPYTyffww7GdHObB3vn0TQKqUAdJ-aNsCI8CT5kMKygJR4CPm7KNF28dYJMrT8Wy_O_jMesVarwWIRecIuqhorZAm4FqfPUR1W8kNzBoaiRn_eiStcAwVa1tpg7W5z_g84oz4pm2DHaRMp4ZqXIY_NN6UXw6CGSAYPjxRJIzrq7GCpLJRNC0ewCtrbUlrF8Ba8ujssp8_HDWu5SF5t6YNhT50HCQM1uiH6W569oPsqDllhNItqO1YUfDmNkmDUAs0SiOlw7ZQS03AQf0FBA0rVAnIPzoNGJE_2yQHdjR4LXM14Rs6Y5x4B80MVI3r2CWiiNntZHVWSbA8v0q1xpCfYGZK65gXKtCOQ42uGHSbqxKjRyeJlFuCek1i5KQZV5nKSLQ_5GsYdA8-6YQ1E63-Z5gKG0pnbHnhjx6RcmKfAS4JceZyQYCilkax10YSQFQu1q49z-PJLdWvjPPjNlGL_-WCL5CMP8a81OuLI8i0Rg7BV1T5kD4QLV84w=w250-h95-no";
     Button btnnuby;
+    ImageView ergolastic;
+    String urlergolastic = "https://lh3.googleusercontent.com/6E_-FzgUCyuJfPknzJysMlyyrfwuK6f7x_3MBLX_2XjOodB2le_NGktz_pyh5xSoF3cv2hYtFRXZOahhgaCbBN6sI7V3XS2ZU5gvyfgb4Aq65ObVQA1woW-HMMNZz_RRmhaBbeKDs1thSmcji4vI1obxif00oW_bW6vD3fWqdVBnQ834DjHWvkCXs73Y9L5AIlVgiT_6csdcb6kff0fSOVZdW0I_pw9DuR20fG9XY_-nW5FgIXU1jm5_tyH6WE3XrIbzLMr8FgEzcN0MqTqyPsPZvQuohGLM6F29R5yQCyP0D1Lhn9N0yghQEb7Eaa2W-ALJo9KU7WBPcA9qJrSJdvDZQNgWRvgisHvXKISZXGenXAvRVSlABZKDxnxKHvxT4wan3Amcnm3rEEpGx6gYpNKd34Nr3D8Xm9gfc2snN1kY67qm9GVsddtZVeESqHnUMlvEHsAjXMFY0AeiTAlFUksb-19qQI5YK8G6FMV4rWvxWYDL6REwcLwUCWQO27_j31naA0zDiKr152pd_-wlyCV-Xk6R2KU-tVYx79gCurFi9XPtbghMouNeuJFPFIjLeYy_2wfT08p7C9zTZfVWwkePJK-zjSiVxCi37598K2wcgtazgw=w284-h124-no";
+    Button btnergolastic;
+    ImageView babyin;
+    String urlbabyin = "https://lh3.googleusercontent.com/v5FvILTc7OzOXOzy8X8AXO6Of8rmufZqzIbMQ48ULRUA9F46Mxjob19Qc96JFK0YXcb3Cn7BqA-aCA74GySwBXr-yG6kIGRLm6iPE0z6qgk-HvJFUJyYjRUaH0lgIaE8Lhh1Y3_nuBOE9Q_jVzCk5XkgdB3n8Tg60lItth6FDvZKkchkuyvjyDgHA0A8b827AtHqUorI0w_ZsBV8OrsPgHAh2irwQmeiloI8nnZrD57kNBTpCGeUerzKJYklbrlCe1VS8p3o6cfE2GxTYv376_q7QLpG9ywS7ap1oWmSsUApOrRcL_fDnIGK6yROH-L4P-WfckEs-_hZiiT-TqC3JleiIktIivxzQ4hmT56EOyTJ60DIXclz_Ho3_VdYU78jiSJ09ELGH2AFeYOMQ4sh1Bg2HCgKcehZPBwmWheYSKoVgz0b24_Y2CARAgX-t34a9zwuHkH5W7FI5P83YmulfCzRrd_EaWP6Y_07NyDem6vrkcfUyPb-tIlYcDs-T-DGcTlf-R0R7kQkkxMyFuwfg4DlN-q5PDwPClGojZm7Ml3B7EmhIUpn2mZHrK2YFhJc_g75FKReZ-NvqjqexlhAHLG5zVwyR1lYyxcpJnKCdHXGhkE_HQ=w201-h82-no";
+    Button btnbabyin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -69,12 +77,6 @@ public class marcas extends AppCompatActivity {
         avent = (ImageView)findViewById(R.id.avent);
         Picasso.with(this).load(urlavent).into(avent);
 
-        chicco = (ImageView)findViewById(R.id.chicco);
-        Picasso.with(this).load(urlchicco).into(chicco);
-
-        nuby = (ImageView)findViewById(R.id.nuby);
-        Picasso.with(this).load(urlnuby).into(nuby);
-
         btnavent = (Button)findViewById(R.id.btnavent);
         btnavent.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -96,6 +98,9 @@ public class marcas extends AppCompatActivity {
             }
         });
 
+        chicco = (ImageView)findViewById(R.id.chicco);
+        Picasso.with(this).load(urlchicco).into(chicco);
+
         btnchicco = (Button)findViewById(R.id.btnchicco);
         btnchicco.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -105,12 +110,39 @@ public class marcas extends AppCompatActivity {
             }
         });
 
+        nuby = (ImageView)findViewById(R.id.nuby);
+        Picasso.with(this).load(urlnuby).into(nuby);
+
         btnnuby = (Button)findViewById(R.id.btnnuby);
         btnnuby.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent btnnuby = new Intent(marcas.this,nubyprodlist.class);
                 startActivity(btnnuby);
+            }
+        });
+
+        ergolastic = (ImageView)findViewById(R.id.ergolastic);
+        Picasso.with(this).load(urlergolastic).into(ergolastic);
+
+        btnergolastic = (Button)findViewById(R.id.btnergolastic);
+        btnergolastic.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnergolastic = new Intent(marcas.this,ergolasticprodlist.class);
+                startActivity(btnergolastic);
+            }
+        });
+
+        babyin = (ImageView)findViewById(R.id.babyin);
+        Picasso.with(this).load(urlbabyin).into(babyin);
+
+        btnbabyin = (Button)findViewById(R.id.btnbabyin);
+        btnbabyin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnbabyin = new Intent(marcas.this,babyinprodlist.class);
+                startActivity(btnbabyin);
             }
         });
 

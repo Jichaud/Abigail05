@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_marcas"
+    android:id="@+id/activity_babyinvarios"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="4dp"
-    tools:context="com.abigail05.marcas">
+    tools:context="com.abigail05.BabyInnovation.babyinvarios">
 
     <Button
         android:id="@+id/btnhome"
@@ -17,6 +17,15 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:text="@string/verhome"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btnvmarca"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="@string/verxmarca"
         android:textAllCaps="false"/>
 
     <ScrollView
@@ -35,378 +44,426 @@
                 android:layout_margin="6dp">
 
                 <ImageView
-                    android:id="@+id/avent"
-                    android:layout_width="80dp"
+                    android:id="@+id/babyinvarios1"
+                    android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:padding="8dp"/>
+                    android:padding="2dp"/>
 
                 <TextView
-                    android:id="@+id/txtaventmarca"
+                    android:id="@+id/txtbabyinvarios1principal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_toRightOf="@id/avent"
-                    android:paddingLeft="15dp"
+                    android:layout_toRightOf="@id/babyinvarios1"
                     android:fontFamily="sans-serif-light"
-                    android:text="@string/txtaventmarca"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtbabyinvarios"
                     android:textSize="20sp" />
 
                 <TextView
-                    android:id="@+id/txtaventprod"
+                    android:id="@+id/txtbabyinvarios1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/txtaventmarca"
-                    android:layout_toRightOf="@id/avent"
+                    android:layout_below="@id/txtbabyinvarios1principal"
+                    android:layout_toRightOf="@id/babyinvarios1"
+                    android:ellipsize="end"
+                    android:maxLines="2"
                     android:paddingLeft="15dp"
-                    android:text="@string/txtaventprod"
+                    android:text="@string/txtbabyinvarios1"
                     android:textColor="@color/grey"
                     android:textSize="16sp" />
 
                 <Button
-                    android:id="@+id/btnavent"
+                    android:id="@+id/btnbabyinvarios1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_above="@id/view1"
                     android:layout_alignParentRight="true"
-                    android:layout_below="@+id/txtaventprod"
-                    android:layout_marginBottom="4dp"
                     android:backgroundTint="@color/colorPrimary"
                     android:fontFamily="sans-serif-thin"
                     android:text="@string/btnver"
                     android:textAllCaps="false"
                     android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/preciobabyinvarios1"
+                    style="@style/precio"
+                    android:layout_below="@id/babyinvarios1"/>
 
                 <View
                     android:id="@+id/view1"
                     style="@style/Divider"
-                    android:layout_below="@id/btnavent" />
+                    android:layout_below="@id/preciobabyinvarios1" />
 
                 <ImageView
-                    android:id="@+id/babyin"
-                    android:layout_width="80dp"
+                    android:id="@+id/babyinvarios2"
+                    android:layout_width="90dp"
                     android:layout_height="80dp"
                     android:layout_below="@id/view1"
-                    android:padding="8dp"/>
+                    android:padding="2dp"/>
 
                 <TextView
-                    android:id="@+id/txtbabyinmarca"
+                    android:id="@+id/txtbabyinvarios2principal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/view1"
-                    android:layout_toRightOf="@id/babyin"
-                    android:paddingLeft="15dp"
+                    android:layout_toRightOf="@id/babyinvarios2"
                     android:fontFamily="sans-serif-light"
-                    android:text="@string/txtbabyinmarca"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtbabyinvarios"
                     android:textSize="20sp" />
 
                 <TextView
-                    android:id="@+id/txtbabyinprod"
+                    android:id="@+id/txtbabyinvarios2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/txtbabyinmarca"
-                    android:layout_toRightOf="@id/babyin"
+                    android:layout_below="@id/txtbabyinvarios2principal"
+                    android:layout_toRightOf="@id/babyinvarios2"
+                    android:ellipsize="end"
+                    android:maxLines="2"
                     android:paddingLeft="15dp"
-                    android:text="@string/txtbabyinprod"
+                    android:text="@string/txtbabyinvarios2"
                     android:textColor="@color/grey"
                     android:textSize="16sp" />
 
                 <Button
-                    android:id="@+id/btnbabyin"
+                    android:id="@+id/btnbabyinvarios2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_above="@id/view2"
                     android:layout_alignParentRight="true"
-                    android:layout_below="@+id/txtbabyinprod"
-                    android:layout_marginBottom="4dp"
                     android:backgroundTint="@color/colorPrimary"
                     android:fontFamily="sans-serif-thin"
                     android:text="@string/btnver"
                     android:textAllCaps="false"
                     android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/preciobabyinvarios2"
+                    style="@style/precio"
+                    android:layout_below="@id/babyinvarios2"/>
 
                 <View
                     android:id="@+id/view2"
                     style="@style/Divider"
-                    android:layout_below="@id/btnbabyin" />
+                    android:layout_below="@id/preciobabyinvarios2" />
 
                 <ImageView
-                    android:id="@+id/chicco"
-                    android:layout_width="80dp"
+                    android:id="@+id/babyinvarios3"
+                    android:layout_width="90dp"
                     android:layout_height="80dp"
                     android:layout_below="@id/view2"
-                    android:padding="8dp"/>
+                    android:padding="2dp"/>
 
                 <TextView
-                    android:id="@+id/txtchiccomarca"
+                    android:id="@+id/txtbabyinvarios3principal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/view2"
-                    android:layout_toRightOf="@id/chicco"
-                    android:paddingLeft="15dp"
+                    android:layout_toRightOf="@id/babyinvarios3"
                     android:fontFamily="sans-serif-light"
-                    android:text="@string/txtchiccomarca"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtbabyinvarios"
                     android:textSize="20sp" />
 
                 <TextView
-                    android:id="@+id/txtchiccoprod"
+                    android:id="@+id/txtbabyinvarios3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/txtchiccomarca"
-                    android:layout_toRightOf="@id/chicco"
+                    android:layout_below="@id/txtbabyinvarios3principal"
+                    android:layout_toRightOf="@id/babyinvarios3"
+                    android:ellipsize="end"
+                    android:maxLines="2"
                     android:paddingLeft="15dp"
-                    android:text="@string/txtchiccoprod"
+                    android:text="@string/txtbabyinvarios3"
                     android:textColor="@color/grey"
                     android:textSize="16sp" />
 
                 <Button
-                    android:id="@+id/btnchicco"
+                    android:id="@+id/btnbabyinvarios3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_above="@id/view3"
                     android:layout_alignParentRight="true"
-                    android:layout_below="@+id/txtchiccoprod"
-                    android:layout_marginBottom="4dp"
                     android:backgroundTint="@color/colorPrimary"
                     android:fontFamily="sans-serif-thin"
                     android:text="@string/btnver"
                     android:textAllCaps="false"
                     android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/preciobabyinvarios3"
+                    style="@style/precio"
+                    android:layout_below="@id/babyinvarios3"/>
 
                 <View
                     android:id="@+id/view3"
                     style="@style/Divider"
-                    android:layout_below="@id/btnchicco" />
+                    android:layout_below="@id/preciobabyinvarios3" />
 
                 <ImageView
-                    android:id="@+id/ergolastic"
-                    android:layout_width="80dp"
+                    android:id="@+id/babyinvarios4"
+                    android:layout_width="90dp"
                     android:layout_height="80dp"
                     android:layout_below="@id/view3"
-                    android:padding="8dp"/>
+                    android:padding="2dp"/>
 
                 <TextView
-                    android:id="@+id/txtergolasticmarca"
+                    android:id="@+id/txtbabyinvarios4principal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/view3"
-                    android:layout_toRightOf="@id/ergolastic"
-                    android:paddingLeft="15dp"
+                    android:layout_toRightOf="@id/babyinvarios4"
                     android:fontFamily="sans-serif-light"
-                    android:text="@string/txtergolasticmarca"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtbabyinvarios"
                     android:textSize="20sp" />
 
                 <TextView
-                    android:id="@+id/txtergolasticprod"
+                    android:id="@+id/txtbabyinvarios4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/txtergolasticmarca"
-                    android:layout_toRightOf="@id/ergolastic"
+                    android:layout_below="@id/txtbabyinvarios4principal"
+                    android:layout_toRightOf="@id/babyinvarios4"
+                    android:ellipsize="end"
+                    android:maxLines="2"
                     android:paddingLeft="15dp"
-                    android:text="@string/txtergolasticprod"
+                    android:text="@string/txtbabyinvarios4"
                     android:textColor="@color/grey"
                     android:textSize="16sp" />
 
                 <Button
-                    android:id="@+id/btnergolastic"
+                    android:id="@+id/btnbabyinvarios4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_above="@id/view4"
                     android:layout_alignParentRight="true"
-                    android:layout_below="@+id/txtergolasticprod"
-                    android:layout_marginBottom="4dp"
                     android:backgroundTint="@color/colorPrimary"
                     android:fontFamily="sans-serif-thin"
                     android:text="@string/btnver"
                     android:textAllCaps="false"
                     android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/preciobabyinvarios4"
+                    style="@style/precio"
+                    android:layout_below="@id/babyinvarios4"/>
 
                 <View
                     android:id="@+id/view4"
                     style="@style/Divider"
-                    android:layout_below="@id/btnergolastic" />
+                    android:layout_below="@id/preciobabyinvarios4" />
 
                 <ImageView
-                    android:id="@+id/mibes"
-                    android:layout_width="80dp"
+                    android:id="@+id/babyinvarios5"
+                    android:layout_width="90dp"
                     android:layout_height="80dp"
                     android:layout_below="@id/view4"
-                    android:padding="8dp"/>
+                    android:padding="2dp"/>
 
                 <TextView
-                    android:id="@+id/txtmibesmarca"
+                    android:id="@+id/txtbabyinvarios5principal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/view4"
-                    android:layout_toRightOf="@id/mibes"
-                    android:paddingLeft="15dp"
+                    android:layout_toRightOf="@id/babyinvarios5"
                     android:fontFamily="sans-serif-light"
-                    android:text="@string/txtmibesmarca"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtbabyinvarios"
                     android:textSize="20sp" />
 
                 <TextView
-                    android:id="@+id/txtmibesprod"
+                    android:id="@+id/txtbabyinvarios5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/txtmibesmarca"
-                    android:layout_toRightOf="@id/mibes"
+                    android:layout_below="@id/txtbabyinvarios5principal"
+                    android:layout_toRightOf="@id/babyinvarios5"
+                    android:ellipsize="end"
+                    android:maxLines="2"
                     android:paddingLeft="15dp"
-                    android:text="@string/txtmibesprod"
+                    android:text="@string/txtbabyinvarios5"
                     android:textColor="@color/grey"
                     android:textSize="16sp" />
 
                 <Button
-                    android:id="@+id/btnmibes"
+                    android:id="@+id/btnbabyinvarios5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_above="@+id/view5"
                     android:layout_alignParentRight="true"
-                    android:layout_below="@+id/txtmibesprod"
-                    android:layout_marginBottom="4dp"
                     android:backgroundTint="@color/colorPrimary"
                     android:fontFamily="sans-serif-thin"
                     android:text="@string/btnver"
                     android:textAllCaps="false"
                     android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/preciobabyinvarios5"
+                    style="@style/precio"
+                    android:layout_below="@id/babyinvarios5"/>
 
                 <View
                     android:id="@+id/view5"
                     style="@style/Divider"
-                    android:layout_below="@id/btnmibes" />
+                    android:layout_below="@id/preciobabyinvarios5" />
 
                 <ImageView
-                    android:id="@+id/nuby"
-                    android:layout_width="80dp"
-                    android:layout_below="@id/view5"
+                    android:id="@+id/babyinvarios6"
+                    android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:padding="8dp"/>
+                    android:layout_below="@id/view5"
+                    android:padding="2dp"/>
 
                 <TextView
-                    android:id="@+id/txtnubymarca"
+                    android:id="@+id/txtbabyinvarios6principal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_toRightOf="@id/nuby"
                     android:layout_below="@id/view5"
-                    android:paddingLeft="15dp"
+                    android:layout_toRightOf="@id/babyinvarios6"
                     android:fontFamily="sans-serif-light"
-                    android:text="@string/txtnubymarca"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtbabyinvarios"
                     android:textSize="20sp" />
 
                 <TextView
-                    android:id="@+id/txtnubyprod"
+                    android:id="@+id/txtbabyinvarios6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/txtnubymarca"
-                    android:layout_toRightOf="@id/nuby"
+                    android:layout_below="@id/txtbabyinvarios6principal"
+                    android:layout_toRightOf="@id/babyinvarios6"
+                    android:ellipsize="end"
+                    android:maxLines="2"
                     android:paddingLeft="15dp"
-                    android:text="@string/txtnubyprod"
+                    android:text="@string/txtbabyinvarios6"
                     android:textColor="@color/grey"
                     android:textSize="16sp" />
 
                 <Button
-                    android:id="@+id/btnnuby"
+                    android:id="@+id/btnbabyinvarios6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_above="@+id/view6"
                     android:layout_alignParentRight="true"
-                    android:layout_below="@+id/txtnubyprod"
-                    android:layout_marginBottom="4dp"
                     android:backgroundTint="@color/colorPrimary"
                     android:fontFamily="sans-serif-thin"
                     android:text="@string/btnver"
                     android:textAllCaps="false"
                     android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/preciobabyinvarios6"
+                    style="@style/precio"
+                    android:layout_below="@id/babyinvarios6"/>
 
                 <View
                     android:id="@+id/view6"
                     style="@style/Divider"
-                    android:layout_below="@id/btnnuby" />
+                    android:layout_below="@id/preciobabyinvarios6" />
 
                 <ImageView
-                    android:id="@+id/nuk"
-                    android:layout_width="80dp"
-                    android:layout_below="@id/view6"
+                    android:id="@+id/babyinvarios7"
+                    android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:padding="8dp"/>
+                    android:layout_below="@id/view6"
+                    android:padding="2dp"/>
 
                 <TextView
-                    android:id="@+id/txtnukmarca"
+                    android:id="@+id/txtbabyinvarios7principal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_toRightOf="@id/nuk"
                     android:layout_below="@id/view6"
-                    android:paddingLeft="15dp"
+                    android:layout_toRightOf="@id/babyinvarios7"
                     android:fontFamily="sans-serif-light"
-                    android:text="@string/txtnukmarca"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtbabyinvarios"
                     android:textSize="20sp" />
 
                 <TextView
-                    android:id="@+id/txtnukprod"
+                    android:id="@+id/txtbabyinvarios7"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/txtnukmarca"
-                    android:layout_toRightOf="@id/nuk"
+                    android:layout_below="@id/txtbabyinvarios7principal"
+                    android:layout_toRightOf="@id/babyinvarios7"
+                    android:ellipsize="end"
+                    android:maxLines="2"
                     android:paddingLeft="15dp"
-                    android:text="@string/txtnukprod"
+                    android:text="@string/txtbabyinvarios7"
                     android:textColor="@color/grey"
                     android:textSize="16sp" />
 
                 <Button
-                    android:id="@+id/btnnuk"
+                    android:id="@+id/btnbabyinvarios7"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_above="@+id/view7"
                     android:layout_alignParentRight="true"
-                    android:layout_below="@+id/txtnukprod"
-                    android:layout_marginBottom="4dp"
                     android:backgroundTint="@color/colorPrimary"
                     android:fontFamily="sans-serif-thin"
                     android:text="@string/btnver"
                     android:textAllCaps="false"
                     android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/preciobabyinvarios7"
+                    style="@style/precio"
+                    android:layout_below="@id/babyinvarios7"/>
 
                 <View
                     android:id="@+id/view7"
                     style="@style/Divider"
-                    android:layout_below="@id/btnnuk" />
+                    android:layout_below="@id/preciobabyinvarios7" />
 
                 <ImageView
-                    android:id="@+id/pilim"
-                    android:layout_width="80dp"
-                    android:layout_below="@id/view7"
+                    android:id="@+id/babyinvarios8"
+                    android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:padding="8dp"/>
+                    android:layout_below="@id/view7"
+                    android:padding="2dp"/>
 
                 <TextView
-                    android:id="@+id/txtpilimmarca"
+                    android:id="@+id/txtbabyinvarios8principal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_toRightOf="@id/pilim"
                     android:layout_below="@id/view7"
-                    android:paddingLeft="15dp"
+                    android:layout_toRightOf="@id/babyinvarios8"
                     android:fontFamily="sans-serif-light"
-                    android:text="@string/txtpilimmarca"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtbabyinvarios"
                     android:textSize="20sp" />
 
                 <TextView
-                    android:id="@+id/txtpilimprod"
+                    android:id="@+id/txtbabyinvarios8"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/txtpilimmarca"
-                    android:layout_toRightOf="@id/pilim"
+                    android:layout_below="@id/txtbabyinvarios8principal"
+                    android:layout_toRightOf="@id/babyinvarios8"
+                    android:ellipsize="end"
+                    android:maxLines="2"
                     android:paddingLeft="15dp"
-                    android:text="@string/txtpiliprod"
+                    android:text="@string/txtbabyinvarios8"
                     android:textColor="@color/grey"
                     android:textSize="16sp" />
 
                 <Button
-                    android:id="@+id/btnpilim"
+                    android:id="@+id/btnbabyinvarios8"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_above="@+id/view8"
                     android:layout_alignParentRight="true"
-                    android:layout_below="@+id/txtpilimprod"
-                    android:layout_marginBottom="4dp"
                     android:backgroundTint="@color/colorPrimary"
                     android:fontFamily="sans-serif-thin"
                     android:text="@string/btnver"
                     android:textAllCaps="false"
                     android:textSize="16sp" />
 
+                <TextView
+                    android:id="@+id/preciobabyinvarios8"
+                    style="@style/precio"
+                    android:layout_below="@id/babyinvarios8"/>
+
                 <View
                     android:id="@+id/view8"
                     style="@style/Divider"
-                    android:layout_below="@id/btnpilim" />
+                    android:layout_below="@id/preciobabyinvarios8" />
 
             </RelativeLayout>
 
