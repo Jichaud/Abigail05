@@ -1,15 +1,14 @@
 package com.abigail05.BabyInnovation;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.abigail05.MainActivity;
-import com.abigail05.Nuby.nubyaccesorios1;
 import com.abigail05.R;
 import com.abigail05.contacto;
 import com.abigail05.marcas;

@@ -2,23 +2,14 @@ package com.abigail05.Ergolastic;
 
 import android.content.Intent;
 import android.os.AsyncTask;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.abigail05.MainActivity;
-import com.abigail05.Nuby.nubyaccesorios;
-import com.abigail05.Nuby.nubyprodlist;
-import com.abigail05.Nuby.nubyvasos;
-import com.abigail05.Nuby.nubyvasos1;
-import com.abigail05.Nuby.nubyvasos2;
-import com.abigail05.Nuby.nubyvasos3;
-import com.abigail05.Nuby.nubyvasos4;
-import com.abigail05.Nuby.nubyvasos5;
-import com.abigail05.Nuby.nubyvasos6;
 import com.abigail05.R;
 import com.abigail05.marcas;
 import com.squareup.picasso.Picasso;

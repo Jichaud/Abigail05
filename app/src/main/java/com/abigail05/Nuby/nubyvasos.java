@@ -2,22 +2,13 @@ package com.abigail05.Nuby;
 
 import android.content.Intent;
 import android.os.AsyncTask;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.abigail05.Chicco.chiccohigiene;
-import com.abigail05.Chicco.chiccohigiene1;
-import com.abigail05.Chicco.chiccohigiene2;
-import com.abigail05.Chicco.chiccohigiene3;
-import com.abigail05.Chicco.chiccohigiene4;
-import com.abigail05.Chicco.chiccohigiene5;
-import com.abigail05.Chicco.chiccohigiene6;
-import com.abigail05.Chicco.chiccohigiene7;
-import com.abigail05.Chicco.chiccohigiene8;
 import com.abigail05.MainActivity;
 import com.abigail05.R;
 import com.abigail05.marcas;

@@ -267,5 +267,10 @@
     <string name="txtbabyinvarios6">Baby Innovation set de 3 coloridos platos antideslizantes</string>
     <string name="txtbabyinvarios7">Baby Innovation chupete mordillo. Disponible en celeste y rosa</string>
     <string name="txtbabyinvarios8">Baby Innovation dosificador de medicina</string>
+    <string name="txtbabyinseguridad">Accesorios de seguridad</string>
+    <string name="txtbabyinseguridaddesc">Trabas internas, externas y multipropósito</string>
+    <string name="txtbabyinseguridad1">Baby Innovation traba cajones externa</string>
+    <string name="txtbabyinseguridad2">Baby Innovation traba multipropósito</string>
+    <string name="txtbabyinseguridad3">Baby Innovation traba cajones interna</string>
 
 </resources>

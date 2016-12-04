@@ -2,24 +2,13 @@ package com.abigail05.Nuby;
 
 import android.content.Intent;
 import android.os.AsyncTask;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.abigail05.Avent.aventclassic;
-import com.abigail05.Avent.aventclassic1;
-import com.abigail05.Avent.aventclassic10;
-import com.abigail05.Avent.aventclassic2;
-import com.abigail05.Avent.aventclassic3;
-import com.abigail05.Avent.aventclassic4;
-import com.abigail05.Avent.aventclassic5;
-import com.abigail05.Avent.aventclassic6;
-import com.abigail05.Avent.aventclassic7;
-import com.abigail05.Avent.aventclassic8;
-import com.abigail05.Avent.aventclassic9;
 import com.abigail05.MainActivity;
 import com.abigail05.R;
 import com.abigail05.marcas;

@@ -709,10 +709,26 @@
         <activity
             android:name=".BabyInnovation.babyinvarios7"
             android:label="Baby Innovation | Chupete mordillo"
-            android:parentActivityName=".BabyInnovation.babyinvarios"/>
-        <activity android:name=".BabyInnovation.babyinvarios8"
+            android:parentActivityName=".BabyInnovation.babyinvarios" />
+        <activity
+            android:name=".BabyInnovation.babyinvarios8"
             android:label="Baby Innovation | Dosificador medicina"
-            android:parentActivityName=".BabyInnovation.babyinvarios">
+            android:parentActivityName=".BabyInnovation.babyinvarios" />
+        <activity
+            android:name=".BabyInnovation.babyinseguridad"
+            android:label="Baby Innovation | Seguridad"
+            android:parentActivityName=".BabyInnovation.babyinprodlist" />
+        <activity
+            android:name=".BabyInnovation.babyinseguridad1"
+            android:label="Baby Innovation | Traba externa"
+            android:parentActivityName=".BabyInnovation.babyinseguridad" />
+        <activity
+            android:name=".BabyInnovation.babyinseguridad2"
+            android:label="Baby Innovation | Traba multipropósito"
+            android:parentActivityName=".BabyInnovation.babyinseguridad"/>
+        <activity android:name=".BabyInnovation.babyinseguridad3"
+            android:label="Baby Innovation | Traba interna"
+            android:parentActivityName=".BabyInnovation.babyinseguridad">
 
         </activity>
     </application>
