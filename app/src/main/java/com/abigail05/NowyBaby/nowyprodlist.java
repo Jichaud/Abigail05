@@ -31,6 +31,9 @@ public class nowyprodlist extends AppCompatActivity {
     Button btnnowycoches;
     ImageView nowycoches;
     String urlnowycoches = "https://lh3.googleusercontent.com/7MFw1q2awt5ROGslr2NO1UFJsiYal2_05WuBGE8K3Kgyp6mxVzKeOOuL6Q_2-s7tDGDnYHm6o6mhmdGfRORGgqcI4OEzbgiA-fbLu4Jfymbzs_ArYdz2lXLLgImmnkrxQxHvxHNPPcKKwiMO5_pFFKrd2yx7Fh6ZFY3MCYuS5mQsKf_bqjI6OHkake0SHRq46m6nRzoJWdt0G_sDSY8zeVVQJdR89D09AFr0c3lGHu9Ng1kdgBz_xIle5AI6NhRHTtQkJZgSTliCJeGqqN9DD2gjW9dPDiJUqs_KR20mE1yqHZ5hoONb3Wy2CR7Q85gFYaw8d6uoRTtNUds-KRVAqNKI2xn8hEg0OkpLCUoZhOBVg8p51GF6EO977nUM3JdxHsbxBO-NDRCTX4wOGnLzktGMwjqEF7oPd0dV2lTIQxiRbUOBT_3aUhUPa14nSlfWzjS7T_W-TCXUfm6IVrwmaiOXOlNNINGm2h5uNxT1ilv6FK-tiZXiyHjVN99L3ykt5V_py4mJ21cOJmTG0FYCCcmiQLuheEVi5_FpvxYoSDnYTx3d0n1DLD03dMqyFDaW-FqN-d1q691J8s1warG_VIf7I87LaxE24oGyfVXamNGrLuy-1A=w600-h657-no";
+    Button btnnowycamaras;
+    ImageView nowycamaras;
+    String urlnowycamaras = "https://lh3.googleusercontent.com/-XY36FcuiXKv-qLPgCQaCEp_hlgppZql9r5B_HN5ucvOEzOXw6JQMamIW0PAMGwq4lgkILB_wKCDWGRmgfeQR_3t4ljVPObu5FyPjdRpIMEguNBMoMeOwdENZcNy4BQXK4YcJ-sdqbhoSE-dy1do_1sOwL62NAooIloCj-Axq3IRqCIny5SU6SW4C1hzG0u5tuQ3qtd8mPA1mhpoQI__8aQPXURJWWz6u1japoZR1Vk11r_QM2UPhRLF4GS4DAQ2ZL5wZDtexyUqSPCwebYCXy5Yakmd9unbO-AW2e-VwPDrgxO_rBVVXUlh0vGaFilqR6Ub_1_xX7hlWtqfOkQCV5SHyxBpBuYYN2hl71DFmrI2_njQ8h-XJPA10PMWOtq-2FmmPh0q5umQJKrC70pkNIAz_-PL_kqZ320Gj9T0sEG6BcfrsiBg8SPdbGVMJ4Md22IJbBIoSAxlSkLgt5HejLhAgCLH9soFZwMFzOgJIFgRwB2fHSF7KSx0Uu_OI4YERiw3BhF6aoEnDeRYYRBnzggP79Tp2GvpCQiuZK--JP66d1BX08JCJlMC0fAqnUU2QY0wevcl5wM8ECwklYz53chyTJS--1c6h-lcT79y3u0ALtb6Vw=s590-no";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -112,6 +115,18 @@ public class nowyprodlist extends AppCompatActivity {
             public void onClick(View view) {
                 Intent btnnowycoches = new Intent(nowyprodlist.this, nowycoches.class);
                 startActivity(btnnowycoches);
+            }
+        });
+
+        nowycamaras = (ImageView)findViewById(R.id.nowycamaras);
+        Picasso.with(this).load(urlnowycamaras).into(nowycamaras);
+
+        btnnowycamaras = (Button)findViewById(R.id.btnnowycamaras);
+        btnnowycamaras.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnnowycamaras = new Intent(nowyprodlist.this, nowycamaras.class);
+                startActivity(btnnowycamaras);
             }
         });
 
