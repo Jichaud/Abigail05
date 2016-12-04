@@ -273,4 +273,34 @@
     <string name="txtbabyinseguridad2">Baby Innovation traba multipropósito</string>
     <string name="txtbabyinseguridad3">Baby Innovation traba cajones interna</string>
 
+    NowyBaby
+    <string name="txtnowymarca">Nowy Baby</string>
+    <string name="txtnowyprod">Butacas, sillas, bañeras y mucho más…</string>
+    <string name="txtnowybutacas">Butacas y booster</string>
+    <string name="txtnowybutacasdesc">Butacas y booster para auto</string>
+    <string name="txtnowybutacas1">Nowybaby butaca NB1 Grupo 0 + 1. Peso de 0kg a 18kg. Edad sugerida RN a 4 años. Respaldo reclinable de 3 posiciones. Cinturones con sistema One Pull 3 niveles de ajuste del cinturón. Normas de seguridad europeas. Disponibles en Negro/Gris y Rojo/Negro</string>
+    <string name="txtnowybutacas2">Nowybaby Butaca NB2 Grupo 1 + 2 + 3. Peso de 9kg a 36kg. Edad sugerida 1 a 11 años. Apoyacabeza de 4 posiciones. Cinturones con sistema One Pull. Asiento desmontable, se transforma en booster. 2 niveles de ajuste del cinturón. Normas de seguridad europeas</string>
+    <string name="txtnowybutacas3">Nowybaby Booster NB3 Grupo 2 + 3. Peso de 15kg a 36kg. Edad sugerida 4 a 12 años. Apoyabrazos. Utiliza el cinturón del automóvil. Normas de seguridad europeas</string>
+    <string name="txtnowysillas">Sillas</string>
+    <string name="txtnowysillasdesc">Sillas con respaldo, cinturón y bandeja</string>
+    <string name="txtnowysillas1">Nowybaby Practica 0 a 36 meses. Patas super estables. Bandeja extraíble. Fácil de limpiar. Apoyapiés. Cinturón regulable. Altura regulable. Colores: Rojo y Verde</string>
+    <string name="txtnowysillas2">Nowybaby Conforta 0 a 36 meses. Respaldo y asiento almohadonado. Respaldo reclinable. Textiles de fácil limpieza. Amplia bandeja multifunción. Ruedas con freno. Amplio espacio de guardado</string>
+    <string name="txtnowybaneras">Bañeras</string>
+    <string name="txtnowybanerasdesc">Bañeras flexibles, plegables y redes para bañeras</string>
+    <string name="txtnowybaneras1">Nowybaby Ergoflex Capacidad 35 litros. Medidas 28x45x20. Edad sugerida 0-5 años. Patas antideslizantes. Secado rápido. Material suave y confortable. Disponibles en celeste, verde y rosa. Normas Comunidad Europea</string>
+    <string name="txtnowybaneras2">Nowybaby FlexTube Super plegable. Secado rápido. 39 litros de capacidad. Superficies suaves. Cumple con normas Europeas. Edad sugeridad 0 a 5 años. Disponibles en rosa, narajna y cyan</string>
+    <string name="txtnowybaneras3">Nowybaby Red de Baño. Se adapta a todos los tipos de bañera gracias a su sencilla fijacion. Se puede graduar altura de la cabeceray las piernas. Disponibles en rosa, verde y celeste</string>
+    <string name="txtnowymobiliario">Mobiliario</string>
+    <string name="txtnowymobiliariodesc">Muebles para niños</string>
+    <string name="txtnowymobiliario1">Nowybaby Picnic es un multi espacio para que los niños puedan jugar, comer, dibujar y divertirse al aire libre o dentro del hogar</string>
+    <string name="txtnowymobiliario2">Flip nowybaby® es un taburete plegable y muy práctico. Se puede colgar en la pared o guardar en cualquier rincón de la habitación de los niños</string>
+    <string name="txtnowycoches">Cochecitos</string>
+    <string name="txtnowycochesdesc">Cochecitos para niños</string>
+    <string name="txtnowycoches1">Nowybaby Gotomax De 0 a 36 meses. Estructura de aluminio anodizado. Amortiguación independiente. Ruedas offroad con neumáticos 3 configuraciones de asiento. Amplio espacio de guardado. Máximo confort. Colores: Negro y Turquesa</string>
+    <string name="txtnowycoches2">Nowybaby Gotolite De 6 meses a 4 años. Peso 6kg. Capota con dos niveles de cobertura. Barral de seguradad frontal. Respaldo super reclinable. Muy amplio espacio de guardado. Cierre rápido y compacto. Ruedas de 13cm de diámetro. Arnes de 5 puntos</string>
+    <string name="txtnowycamaras">Cámaras de seguridad</string>
+    <string name="txtnowycamarasdesc">Cámara de seguridad HD</string>
+    <string name="txtnowycamaras1">Nowybaby Lookatme® Resolución 3MP HD real-time video. Detector de movimiento. SD/SDHC/SDXC tarjeta de memoria. Conexión Wi-Fi</string>
+
+
 </resources>

@@ -725,10 +725,90 @@
         <activity
             android:name=".BabyInnovation.babyinseguridad2"
             android:label="Baby Innovation | Traba multipropósito"
-            android:parentActivityName=".BabyInnovation.babyinseguridad"/>
-        <activity android:name=".BabyInnovation.babyinseguridad3"
+            android:parentActivityName=".BabyInnovation.babyinseguridad" />
+        <activity
+            android:name=".BabyInnovation.babyinseguridad3"
             android:label="Baby Innovation | Traba interna"
-            android:parentActivityName=".BabyInnovation.babyinseguridad">
+            android:parentActivityName=".BabyInnovation.babyinseguridad" />
+        <activity
+            android:name=".NowyBaby.nowyprodlist"
+            android:label="Nowy Baby | Productos"
+            android:parentActivityName=".marcas" />
+        <activity
+            android:name=".NowyBaby.nowybutacas"
+            android:label="Nowy Baby | Butacas y booster"
+            android:parentActivityName=".NowyBaby.nowyprodlist" />
+        <activity
+            android:name=".NowyBaby.nowybutacas1"
+            android:label="Nowy Baby | Butaca"
+            android:parentActivityName=".NowyBaby.nowybutacas" />
+        <activity
+            android:name=".NowyBaby.nowybutacas2"
+            android:label="Nowy Baby | Butaca"
+            android:parentActivityName=".NowyBaby.nowybutacas" />
+        <activity
+            android:name=".NowyBaby.nowybutacas3"
+            android:label="Nowy Baby | Booster"
+            android:parentActivityName=".NowyBaby.nowybutacas" />
+        <activity
+            android:name=".NowyBaby.nowysillas"
+            android:label="Nowy Baby | Sillas"
+            android:parentActivityName=".NowyBaby.nowyprodlist" />
+        <activity
+            android:name=".NowyBaby.nowysillas1"
+            android:label="Nowy Baby | Silla"
+            android:parentActivityName=".NowyBaby.nowysillas" />
+        <activity
+            android:name=".NowyBaby.nowysillas2"
+            android:label="Nowy Baby | Silla"
+            android:parentActivityName=".NowyBaby.nowysillas" />
+        <activity
+            android:name=".NowyBaby.nowybaneras"
+            android:label="Nowy Baby | Bañeras"
+            android:parentActivityName=".NowyBaby.nowyprodlist" />
+        <activity
+            android:name=".NowyBaby.nowybaneras1"
+            android:label="Nowy Baby | Bañera"
+            android:parentActivityName=".NowyBaby.nowybaneras" />
+        <activity
+            android:name=".NowyBaby.nowybaneras2"
+            android:label="Nowy Baby | Bañera"
+            android:parentActivityName=".NowyBaby.nowybaneras" />
+        <activity
+            android:name=".NowyBaby.nowybaneras3"
+            android:label="Nowy Baby | Red de baño"
+            android:parentActivityName=".NowyBaby.nowybaneras" />
+        <activity
+            android:name=".NowyBaby.nowymobiliario"
+            android:label="Nowy Baby | Mobiliario"
+            android:parentActivityName=".NowyBaby.nowyprodlist" />
+        <activity
+            android:name=".NowyBaby.nowymobiliario1"
+            android:label="Nowy Baby | Mobiliario"
+            android:parentActivityName=".NowyBaby.nowymobiliario1" />
+        <activity
+            android:name=".NowyBaby.nowymobiliario2"
+            android:label="Nowy Baby | Mobiliario"
+            android:parentActivityName=".NowyBaby.nowymobiliario1" />
+        <activity
+            android:name=".NowyBaby.nowycoches"
+            android:label="Nowy Baby | Cochecitos"
+            android:parentActivityName=".NowyBaby.nowyprodlist" />
+        <activity
+            android:name=".NowyBaby.nowycoches1"
+            android:label="Nowy Baby | Cochecito"
+            android:parentActivityName=".NowyBaby.nowycoches" />
+        <activity
+            android:name=".NowyBaby.nowycoches2"
+            android:label="Nowy Baby | Cochecito"
+            android:parentActivityName=".NowyBaby.nowycoches" />
+        <activity
+            android:name=".NowyBaby.nowycamaras"
+            android:label="Nowy Baby | Cámaras de seguridad"
+            android:parentActivityName=".NowyBaby.nowyprodlist"/>
+        <activity android:name=".NowyBaby.nowycamaras1"
+            android:label="Nowy Baby | Cámara de seguridad"
+            android:parentActivityName=".NowyBaby.nowycamaras">
 
         </activity>
     </application>

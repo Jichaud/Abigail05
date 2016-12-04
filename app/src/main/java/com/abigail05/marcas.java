@@ -12,6 +12,7 @@ import com.abigail05.BabyInnovation.babyinprodlist;
 import com.abigail05.Chicco.chiccoprodlist;
 import com.abigail05.Ergolastic.ergolasticprodlist;
 import com.abigail05.NUK.nukprodlist;
+import com.abigail05.NowyBaby.nowyprodlist;
 import com.abigail05.Nuby.nubyprodlist;
 import com.abigail05.mibes.mibesprodlist;
 import com.abigail05.pilim.pilimprodlist;
@@ -44,6 +45,9 @@ public class marcas extends AppCompatActivity {
     ImageView babyin;
     String urlbabyin = "https://lh3.googleusercontent.com/v5FvILTc7OzOXOzy8X8AXO6Of8rmufZqzIbMQ48ULRUA9F46Mxjob19Qc96JFK0YXcb3Cn7BqA-aCA74GySwBXr-yG6kIGRLm6iPE0z6qgk-HvJFUJyYjRUaH0lgIaE8Lhh1Y3_nuBOE9Q_jVzCk5XkgdB3n8Tg60lItth6FDvZKkchkuyvjyDgHA0A8b827AtHqUorI0w_ZsBV8OrsPgHAh2irwQmeiloI8nnZrD57kNBTpCGeUerzKJYklbrlCe1VS8p3o6cfE2GxTYv376_q7QLpG9ywS7ap1oWmSsUApOrRcL_fDnIGK6yROH-L4P-WfckEs-_hZiiT-TqC3JleiIktIivxzQ4hmT56EOyTJ60DIXclz_Ho3_VdYU78jiSJ09ELGH2AFeYOMQ4sh1Bg2HCgKcehZPBwmWheYSKoVgz0b24_Y2CARAgX-t34a9zwuHkH5W7FI5P83YmulfCzRrd_EaWP6Y_07NyDem6vrkcfUyPb-tIlYcDs-T-DGcTlf-R0R7kQkkxMyFuwfg4DlN-q5PDwPClGojZm7Ml3B7EmhIUpn2mZHrK2YFhJc_g75FKReZ-NvqjqexlhAHLG5zVwyR1lYyxcpJnKCdHXGhkE_HQ=w201-h82-no";
     Button btnbabyin;
+    ImageView nowy;
+    String urlnowy = "https://lh3.googleusercontent.com/H5UbXXqR7MbtP7Iga5EDFVW7SSxSpoKc6oJFiX9oSVg5dC4FA3QlJzr2qqWKLDZB0zWMr0Hhwx7PZw5Y9ClqMAeXNCF_SpDDwLC3ttswIuqImhaZFwlDIjqvf3a7gbnpetiUbDUon9RExTO1xGasEbfozKnf-9oDB185O96vsg1RuBrVJGmcxmATpAi5E75n8j7V0aeZlP7BoH2v_Cc90mpTPlRYxspzncpSDnlM855AEOqr1sNBo-fjgMxsmds7pDugtkiGC1qeRcoVLlq7mSPMEW_zIock2p5pUfHaoDEPsczWOEyvPF0QfB0EkW_Jkl4jwX4cdhUchmO3D5QVovJf0wlx3fDvUr3W2SKzQPvDdWl-0d8t8MnaBWPc5NyhywvFHjaW36y7BL5UTn5HhtMLXZD2Cx1Uy-rAnKjLwSe3NBLRXXlxdXbpMK7LhUIGj3ZutaesEy0ppaiW2UR1mf5XEVc_EiJx-afVmtE_uUYCu_X70B5UwKCgwlR7-SMhPyP64NaWHZ1df11u5CYPl9IvvddkjAeaPjmXcfOQmVmGi7sZogHNXAoGTFAaH4hiK0lNQG34LfD1e_cyyvsiCWWks1-dYCtWmCxqd7HMWfWyuZgMzA=w167-h41-no";
+    Button btnnowy;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -143,6 +147,18 @@ public class marcas extends AppCompatActivity {
             public void onClick(View view) {
                 Intent btnbabyin = new Intent(marcas.this,babyinprodlist.class);
                 startActivity(btnbabyin);
+            }
+        });
+
+        nowy = (ImageView)findViewById(R.id.nowy);
+        Picasso.with(this).load(urlnowy).into(nowy);
+
+        btnnowy = (Button)findViewById(R.id.btnnowy);
+        btnnowy.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnnowy = new Intent(marcas.this,nowyprodlist.class);
+                startActivity(btnnowy);
             }
         });
 
