@@ -47,7 +47,7 @@ public class nowycamaras1 extends AppCompatActivity {
             }
         });
 
-        txtnowycamaras1 = (TextView)findViewById(R.id.txtnowycamaras);
+        txtnowycamaras1 = (TextView)findViewById(R.id.txtnowycamaras1);
         final String stconsulta = txtnowycamaras1.getText().toString();
         btnconsulta = (Button)findViewById(R.id.btnconsulta);
         btnconsulta.setOnClickListener(new View.OnClickListener() {
