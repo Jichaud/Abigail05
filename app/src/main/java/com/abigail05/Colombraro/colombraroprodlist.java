@@ -61,12 +61,12 @@ public class colombraroprodlist extends AppCompatActivity {
         coloaccesorios = (ImageView)findViewById(R.id.coloaccesorios);
         Picasso.with(this).load(urlcoloaccesorios).into(coloaccesorios);
 
-        btncoloaccesorios = (Button)findViewById(R.id.btncolobaneras);
-        btncolobaneras.setOnClickListener(new View.OnClickListener() {
+        btncoloaccesorios = (Button)findViewById(R.id.btncoloaccesorios);
+        btncoloaccesorios.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent btncolobaneras = new Intent(colombraroprodlist.this, coloaccesorios.class);
-                startActivity(btncolobaneras);
+                Intent btncoloaccesorios = new Intent(colombraroprodlist.this, coloaccesorios.class);
+                startActivity(btncoloaccesorios);
             }
         });
 
