@@ -805,10 +805,46 @@
         <activity
             android:name=".NowyBaby.nowycamaras"
             android:label="Nowy Baby | Cámaras de seguridad"
-            android:parentActivityName=".NowyBaby.nowyprodlist"/>
-        <activity android:name=".NowyBaby.nowycamaras1"
+            android:parentActivityName=".NowyBaby.nowyprodlist" />
+        <activity
+            android:name=".NowyBaby.nowycamaras1"
             android:label="Nowy Baby | Cámara de seguridad"
-            android:parentActivityName=".NowyBaby.nowycamaras">
+            android:parentActivityName=".NowyBaby.nowycamaras" />
+        <activity
+            android:name=".Colombraro.colombraroprodlist"
+            android:label="Colombraro | Productos"
+            android:parentActivityName=".marcas" />
+        <activity
+            android:name=".Colombraro.colobaneras"
+            android:label="Colombraro | Bañeras"
+            android:parentActivityName=".Colombraro.colombraroprodlist" />
+        <activity
+            android:name=".Colombraro.colobaneras1"
+            android:label="Colombraro | Bañera"
+            android:parentActivityName=".Colombraro.colobaneras" />
+        <activity
+            android:name=".Colombraro.colobaneras2"
+            android:label="Colombraro | Bañera"
+            android:parentActivityName=".Colombraro.colobaneras" />
+        <activity
+            android:name=".Colombraro.colobaneras3"
+            android:label="Colombraro | Bañera"
+            android:parentActivityName=".Colombraro.colobaneras" />
+        <activity
+            android:name=".Colombraro.coloaccesorios"
+            android:label="Colombraro | Accesorios varios"
+            android:parentActivityName=".Colombraro.colombraroprodlist" />
+        <activity
+            android:name=".Colombraro.coloaccesorios1"
+            android:label="Colombraro | Adaptador inodoro"
+            android:parentActivityName=".Colombraro.coloaccesorios" />
+        <activity
+            android:name=".Colombraro.coloaccesorios2"
+            android:label="Colombraro | Bacinilla"
+            android:parentActivityName=".Colombraro.coloaccesorios"/>
+        <activity android:name=".Colombraro.coloaccesorios3"
+            android:label="Colombraro | Esterilizador"
+            android:parentActivityName=".Colombraro.coloaccesorios">
 
         </activity>
     </application>
