@@ -219,7 +219,7 @@ public class gorditoozapa1 extends AppCompatActivity {
 
     public class preciogorditoozapa1Async extends AsyncTask<Void, Void, Void> {
 
-        String urlprecio1 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=5776ee37234e1d62289ddc960e17749b";
+        String urlprecio1 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=286b9c7ace0d0ba1719b37025de7ff3e";
         String preciogorditoozapa1st;
 
         @Override
