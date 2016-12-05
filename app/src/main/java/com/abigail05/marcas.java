@@ -7,12 +7,14 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
+import com.abigail05.Arwin.arwinzapa1;
 import com.abigail05.Avent.aventprodlist;
 import com.abigail05.Babelito.babelitoprodlist;
 import com.abigail05.BabyInnovation.babyinprodlist;
 import com.abigail05.Chicco.chiccoprodlist;
 import com.abigail05.Colombraro.colombraroprodlist;
 import com.abigail05.Ergolastic.ergolasticprodlist;
+import com.abigail05.Gorditoo.gorditoozapa1;
 import com.abigail05.NUK.nukprodlist;
 import com.abigail05.NowyBaby.nowyprodlist;
 import com.abigail05.Nuby.nubyprodlist;
@@ -56,6 +58,12 @@ public class marcas extends AppCompatActivity {
     ImageView babe;
     String urlbabe = "https://lh3.googleusercontent.com/KmZfp230WnhO28LJ_D1ye57NCtHwRlGwVIcA2LZhDQN-0UGyCi1M0zgGblyAITYQfuHlyD5q4gSQYp9jLjCsDK44QwyXEND51-t2umLwb5MOKDgOLcQe0aq7MwXYRG7jN3O5bkU8BbSwG8uTLKUEV0y-e80Zav7mAWjIc99ZUdtLgUS81YH54OSQbWweE6_FU_goJaliGxAkRKqengdekiLKM900s-Id4UYvRlgkICpAg4I7DIPxbbI4xjyzcgAFz0b7kdzfTp63Jin--KIzg1t1e6tZmNUkwuUz98Yr6XuliBREZRvFxxFuXsWzeQw88ehvYr8KGSxR3BZdhDl2uUnDAMoiBHxYA3NKJ8X6aWiKTdAVUokBTHGTOg5zjR8_gfSNrAj92KALhDIpmP1PQcOOb4XcCRJ-duD3kPewtV7-4JjCs81z18-6If1LmBxAwhWKUoGBYjV9Ef4QaIlJYI5DmG3q9ObH2HSoVRFcHVgq3xyhSB0t15XjOXHc5CiPYfhIktwcS5cxOxqrotIdSGg_xv6djB5agZUVmbpsgY5GiRjQRvVgxC6DmVwtDCLyB_qiGfTc9-9GzLPd-dZhyeiUfVSqbKKPgCy5AE08B3yqkMkhIw=w299-h85-no";
     Button btnbabe;
+    ImageView arwin;
+    String urlarwin = "https://lh3.googleusercontent.com/QdmiQ0KGFoLGU_eZSPTkf73Ej44zL06sGNqNWl8c-z8oX_aF9xolN4HXiJkosoww6B_qjqv2r3ZcbDPYjSO8aqaCAx0bgQ7P1BAKKxIfVj1qiKFgK8TobRUxy0OIh4sbbJtmsKhPP3pyP-PjFfPAHVtnYu71jJ85C64sDkTpUGq2ZUddS_spxiVchQB2QulVDlNEFqaQG2kUa2CA7YkHbeXlSIw2zArRK9NUPrbaT2rAlLXwje5XdwHi21kQrS4IVdy-rymgcSlT0LzRBRF8LawDhyrXI6ZBIjko2StCTsBr3a94_jen79VmwXSNKXlr3PExar-CFvfUd1Cy5B0A_zFcKiqupomeGVotfJ8RvGqm-nmzDFiwQ8c3h7QVvw5aNtYDXyuqjYnVtny_a3cCNub8WWIr2aOcr1L1hyY5EZY9J8yw6ovIej8zIFpYywhiQy6WDUyf0IMEe2RjwEWIlzucrlJwKTd52CFvBEzYK8AGSrGvHvyZ8nn7haoHw4OK7I5ftVpoqh6z6pwktIk3NXTV3rjACRqcogioAkhCBJnj1WpjNkAJKcg4gPxlmvwfBKGpWOEiy-Jx-ZIvXE-tER6hR0VVwkw1Mw1yJ6wlAK-EmzI5YA=w228-h128-no";
+    Button btnarwin;
+    ImageView gorditoo;
+    String urlgorditoo = "https://lh3.googleusercontent.com/Bviyq_yAKGkVag2NZQ3ySWws4uJ1KOGb6_Ul9tgyXRBM9ZGCcEabYNg1u4Wu5ID_BxiUEJgoDd8_SN_vPd_NIvGWNZf33s3wcDip8LkJ3sK_Lqo-x9gteu1WeOaeFCMUcQeYWjCP5UtJkZrr0NBbOv5MZbSGkLHFlYMeoA92oi4FDVUbjo-0zq4M05eIQbj_FML5fcE25mLV5BVjUQSVzqPwNuABPZ4OduCaG_kMn8q6_evNaKGvD-i2bRcb0W8_T24Cu4UcLPG-SnAnw3sllW3P82vbTAhgs0l0QE4SmTwWFtEEUx4EKjjnnTukLU4h8YmWGD-U_ph-D8jc-j0bFPTbX_kKb7ZP_zWzHQEorbVXCeAMgy4g5vggo2-I1vY_zga5M53dXI8y7A85V7awe8c4xTx11O0ssJ07Ku4ZT1MmsXGYAGGLP9WgS1mrBVFBJa0s08JV5ldOpKppCQr6BHCi94LO5me_zT8hQJLAzlcDOZjhGKU9pbZUpETGsElEW7oHoWyvQteJOx0dSGKDUIIXyIVX3Cu4-t8GS9B4NvTDURMHToDMnJLgoYvzehGsU7ctV3hcvczUp_mcfJ1YNtZHaimuFxvdxpDVeNfVNLx8prMBzw=w159-h95-no";
+    Button btngorditoo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -191,6 +199,30 @@ public class marcas extends AppCompatActivity {
             public void onClick(View view) {
                 Intent btnbabe = new Intent(marcas.this,babelitoprodlist.class);
                 startActivity(btnbabe);
+            }
+        });
+
+        arwin = (ImageView)findViewById(R.id.arwin);
+        Picasso.with(this).load(urlarwin).into(arwin);
+
+        btnarwin = (Button)findViewById(R.id.btnarwin);
+        btnarwin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnarwin = new Intent(marcas.this,arwinzapa1.class);
+                startActivity(btnarwin);
+            }
+        });
+
+        gorditoo = (ImageView)findViewById(R.id.gorditoo);
+        Picasso.with(this).load(urlgorditoo).into(gorditoo);
+
+        btngorditoo = (Button)findViewById(R.id.btngorditoo);
+        btngorditoo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btngorditoo = new Intent(marcas.this,gorditoozapa1.class);
+                startActivity(btngorditoo);
             }
         });
 

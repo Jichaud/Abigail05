@@ -941,10 +941,18 @@
         <activity
             android:name=".Babelito.babeaccesorios13"
             android:label="Babelito | Cepillo y peine"
-            android:parentActivityName=".Babelito.babeaccesorios"/>
-        <activity android:name=".Babelito.babeaccesorios14"
+            android:parentActivityName=".Babelito.babeaccesorios" />
+        <activity
+            android:name=".Babelito.babeaccesorios14"
             android:label="Babelito | Cepillo limpiador"
-            android:parentActivityName=".Babelito.babeaccesorios">
+            android:parentActivityName=".Babelito.babeaccesorios" />
+        <activity
+            android:name=".Arwin.arwinzapa1"
+            android:label="Arwin | Zapatillas"
+            android:parentActivityName=".marcas"/>
+        <activity android:name=".Gorditoo.gorditoozapa1"
+            android:label="Gorditoo | Zapatillas"
+            android:parentActivityName=".marcas">
 
         </activity>
     </application>

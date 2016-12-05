@@ -54,6 +54,7 @@
     <string name="modelo4">vista 4</string>
     <string name="modelo5">vista 5</string>
     <string name="modelo6">vista 6</string>
+    <string name="modelo7">vista 7</string>
 
     Niditos y cuellitos
     <string name="txtNiditoPrincipal">Nidito de contención</string>
@@ -345,6 +346,20 @@
     <string name="txtbabeaccesorios12">Babelito bowl con cuchara. Disponible en celeste o rosa</string>
     <string name="txtbabeaccesorios13">Babelito cepillo y peine. Disponible en celeste o rosa</string>
     <string name="txtbabeaccesorios14">Babelito cepillo limpia mamaderas y tetinas</string>
+
+    Arwin
+    <string name="txtarwinmarca">Arwin</string>
+    <string name="txtarwinprod">Zapatillas para bebés no caminantes</string>
+    <string name="txtarwinzapa">Zapatillas</string>
+    <string name="txtarwinzapadesc">Zapatillas para bebés no caminantes</string>
+    <string name="txtarwinzapa1">Arwin Zapatillas para bebé no caminante. Varios colores y diseños. Medidas plantilla "S" 10cm / "M" 10,5cm / "L" 11cm. Precio por par</string>
+
+    Gorditoo
+    <string name="txtgorditoomarca">Gorditoo</string>
+    <string name="txtgorditooprod">Zapatillas para bebés no caminantes</string>
+    <string name="txtgorditoozapa">Zapatillas</string>
+    <string name="txtgorditoozapadesc">Zapatillas para bebés no caminantes</string>
+    <string name="txtgorditoozapa1">Goordito Zapatillas para bebé no caminante. Varios colores y diseños. Numeración del 14 al 18. Precio por par</string>
 
 
 </resources>

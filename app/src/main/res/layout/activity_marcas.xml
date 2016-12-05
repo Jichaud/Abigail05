@@ -35,9 +35,55 @@
                 android:layout_margin="6dp">
 
                 <ImageView
+                    android:id="@+id/arwin"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:padding="8dp"/>
+
+                <TextView
+                    android:id="@+id/txtarwinmarca"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/arwin"
+                    android:paddingLeft="15dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/txtarwinmarca"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtarwinprod"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtarwinmarca"
+                    android:layout_toRightOf="@id/arwin"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtarwinprod"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnarwin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/txtarwinprod"
+                    android:layout_marginBottom="4dp"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <View
+                    android:id="@+id/view1"
+                    style="@style/Divider"
+                    android:layout_below="@id/btnarwin" />
+
+                <ImageView
                     android:id="@+id/avent"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
+                    android:layout_below="@id/view1"
                     android:padding="8dp"/>
 
                 <TextView
@@ -45,6 +91,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_toRightOf="@id/avent"
+                    android:layout_below="@id/view1"
                     android:paddingLeft="15dp"
                     android:fontFamily="sans-serif-light"
                     android:text="@string/txtaventmarca"
@@ -75,7 +122,7 @@
                     android:textSize="16sp" />
 
                 <View
-                    android:id="@+id/view1"
+                    android:id="@+id/view2"
                     style="@style/Divider"
                     android:layout_below="@id/btnavent" />
 
@@ -83,14 +130,14 @@
                     android:id="@+id/babe"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view1"
+                    android:layout_below="@id/view2"
                     android:padding="8dp"/>
 
                 <TextView
                     android:id="@+id/txtbabemarca"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/view1"
+                    android:layout_below="@id/view2"
                     android:layout_toRightOf="@id/babe"
                     android:paddingLeft="15dp"
                     android:fontFamily="sans-serif-light"
@@ -122,7 +169,7 @@
                     android:textSize="16sp" />
 
                 <View
-                    android:id="@+id/view2"
+                    android:id="@+id/view3"
                     style="@style/Divider"
                     android:layout_below="@id/btnbabe" />
 
@@ -130,14 +177,14 @@
                     android:id="@+id/babyin"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view2"
+                    android:layout_below="@id/view3"
                     android:padding="8dp"/>
 
                 <TextView
                     android:id="@+id/txtbabyinmarca"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/view2"
+                    android:layout_below="@id/view3"
                     android:layout_toRightOf="@id/babyin"
                     android:paddingLeft="15dp"
                     android:fontFamily="sans-serif-light"
@@ -169,7 +216,7 @@
                     android:textSize="16sp" />
 
                 <View
-                    android:id="@+id/view3"
+                    android:id="@+id/view4"
                     style="@style/Divider"
                     android:layout_below="@id/btnbabyin" />
 
@@ -177,14 +224,14 @@
                     android:id="@+id/chicco"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view3"
+                    android:layout_below="@id/view4"
                     android:padding="8dp"/>
 
                 <TextView
                     android:id="@+id/txtchiccomarca"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/view3"
+                    android:layout_below="@id/view4"
                     android:layout_toRightOf="@id/chicco"
                     android:paddingLeft="15dp"
                     android:fontFamily="sans-serif-light"
@@ -216,7 +263,7 @@
                     android:textSize="16sp" />
 
                 <View
-                    android:id="@+id/view4"
+                    android:id="@+id/view5"
                     style="@style/Divider"
                     android:layout_below="@id/btnchicco" />
 
@@ -224,14 +271,14 @@
                     android:id="@+id/colombraro"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view4"
+                    android:layout_below="@id/view5"
                     android:padding="8dp"/>
 
                 <TextView
                     android:id="@+id/txtcolomarca"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/view4"
+                    android:layout_below="@id/view5"
                     android:layout_toRightOf="@id/colombraro"
                     android:paddingLeft="15dp"
                     android:fontFamily="sans-serif-light"
@@ -263,7 +310,7 @@
                     android:textSize="16sp" />
 
                 <View
-                    android:id="@+id/view5"
+                    android:id="@+id/view6"
                     style="@style/Divider"
                     android:layout_below="@id/btncolo" />
 
@@ -271,14 +318,14 @@
                     android:id="@+id/ergolastic"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view5"
+                    android:layout_below="@id/view6"
                     android:padding="8dp"/>
 
                 <TextView
                     android:id="@+id/txtergolasticmarca"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/view5"
+                    android:layout_below="@id/view6"
                     android:layout_toRightOf="@id/ergolastic"
                     android:paddingLeft="15dp"
                     android:fontFamily="sans-serif-light"
@@ -310,22 +357,69 @@
                     android:textSize="16sp" />
 
                 <View
-                    android:id="@+id/view6"
+                    android:id="@+id/view7"
                     style="@style/Divider"
                     android:layout_below="@id/btnergolastic" />
+
+                <ImageView
+                    android:id="@+id/gorditoo"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view7"
+                    android:padding="8dp"/>
+
+                <TextView
+                    android:id="@+id/txtgorditoomarca"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view7"
+                    android:layout_toRightOf="@id/gorditoo"
+                    android:paddingLeft="15dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/txtgorditoomarca"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtgorditooprod"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtgorditoomarca"
+                    android:layout_toRightOf="@id/gorditoo"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtgorditooprod"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btngorditoo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/txtgorditooprod"
+                    android:layout_marginBottom="4dp"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <View
+                    android:id="@+id/view8"
+                    style="@style/Divider"
+                    android:layout_below="@id/btngorditoo" />
 
                 <ImageView
                     android:id="@+id/mibes"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view6"
+                    android:layout_below="@id/view8"
                     android:padding="8dp"/>
 
                 <TextView
                     android:id="@+id/txtmibesmarca"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/view6"
+                    android:layout_below="@id/view8"
                     android:layout_toRightOf="@id/mibes"
                     android:paddingLeft="15dp"
                     android:fontFamily="sans-serif-light"
@@ -357,14 +451,14 @@
                     android:textSize="16sp" />
 
                 <View
-                    android:id="@+id/view7"
+                    android:id="@+id/view9"
                     style="@style/Divider"
                     android:layout_below="@id/btnmibes" />
 
                 <ImageView
                     android:id="@+id/nowy"
                     android:layout_width="80dp"
-                    android:layout_below="@id/view7"
+                    android:layout_below="@id/view9"
                     android:layout_height="80dp"
                     android:padding="8dp"/>
 
@@ -373,7 +467,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_toRightOf="@id/nowy"
-                    android:layout_below="@id/view7"
+                    android:layout_below="@id/view9"
                     android:paddingLeft="15dp"
                     android:fontFamily="sans-serif-light"
                     android:text="@string/txtnowymarca"
@@ -404,14 +498,14 @@
                     android:textSize="16sp" />
 
                 <View
-                    android:id="@+id/view8"
+                    android:id="@+id/view10"
                     style="@style/Divider"
                     android:layout_below="@id/btnnowy" />
 
                 <ImageView
                     android:id="@+id/nuby"
                     android:layout_width="80dp"
-                    android:layout_below="@id/view8"
+                    android:layout_below="@id/view10"
                     android:layout_height="80dp"
                     android:padding="8dp"/>
 
@@ -420,7 +514,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_toRightOf="@id/nuby"
-                    android:layout_below="@id/view8"
+                    android:layout_below="@id/view10"
                     android:paddingLeft="15dp"
                     android:fontFamily="sans-serif-light"
                     android:text="@string/txtnubymarca"
@@ -451,14 +545,14 @@
                     android:textSize="16sp" />
 
                 <View
-                    android:id="@+id/view9"
+                    android:id="@+id/view11"
                     style="@style/Divider"
                     android:layout_below="@id/btnnuby" />
 
                 <ImageView
                     android:id="@+id/nuk"
                     android:layout_width="80dp"
-                    android:layout_below="@id/view9"
+                    android:layout_below="@id/view11"
                     android:layout_height="80dp"
                     android:padding="8dp"/>
 
@@ -467,7 +561,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_toRightOf="@id/nuk"
-                    android:layout_below="@id/view9"
+                    android:layout_below="@id/view11"
                     android:paddingLeft="15dp"
                     android:fontFamily="sans-serif-light"
                     android:text="@string/txtnukmarca"
@@ -498,14 +592,14 @@
                     android:textSize="16sp" />
 
                 <View
-                    android:id="@+id/view10"
+                    android:id="@+id/view12"
                     style="@style/Divider"
                     android:layout_below="@id/btnnuk" />
 
                 <ImageView
                     android:id="@+id/pilim"
                     android:layout_width="80dp"
-                    android:layout_below="@id/view10"
+                    android:layout_below="@id/view12"
                     android:layout_height="80dp"
                     android:padding="8dp"/>
 
@@ -514,7 +608,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_toRightOf="@id/pilim"
-                    android:layout_below="@id/view10"
+                    android:layout_below="@id/view12"
                     android:paddingLeft="15dp"
                     android:fontFamily="sans-serif-light"
                     android:text="@string/txtpilimmarca"
@@ -545,7 +639,7 @@
                     android:textSize="16sp" />
 
                 <View
-                    android:id="@+id/view11"
+                    android:id="@+id/view13"
                     style="@style/Divider"
                     android:layout_below="@id/btnpilim" />
 
