@@ -965,10 +965,90 @@
         <activity
             android:name=".acerca"
             android:label="nosotros"
-            android:parentActivityName=".nosotros"/>
-        <activity android:name=".nosotrosweb"
+            android:parentActivityName=".nosotros" />
+        <activity
+            android:name=".nosotrosweb"
             android:label="www"
-            android:parentActivityName=".nosotros">
+            android:parentActivityName=".nosotros" />
+        <activity
+            android:name=".Gamise.gamiseprodlist"
+            android:label="Gamisé | Productos"
+            android:parentActivityName=".marcas" />
+        <activity
+            android:name=".Gamise.gamisebodymc"
+            android:label="Gamisé | Bodys manga corta"
+            android:parentActivityName=".Gamise.gamiseprodlist" />
+        <activity
+            android:name=".Gamise.gamisebodymc1"
+            android:label="Gamisé | Body manga corta"
+            android:parentActivityName=".Gamise.gamisebodymc" />
+        <activity
+            android:name=".Gamise.gamisebodymc2"
+            android:label="Gamisé | Body manga corta"
+            android:parentActivityName=".Gamise.gamisebodymc" />
+        <activity
+            android:name=".Gamise.gamisebodymc3"
+            android:label="Gamisé | Body manga corta"
+            android:parentActivityName=".Gamise.gamisebodymc" />
+        <activity
+            android:name=".Gamise.gamisebodymc4"
+            android:label="Gamisé | Body manga corta"
+            android:parentActivityName=".Gamise.gamisebodymc" />
+        <activity
+            android:name=".Gamise.gamisebodymc5"
+            android:label="Gamisé | Body manga corta"
+            android:parentActivityName=".Gamise.gamisebodymc" />
+        <activity
+            android:name=".Gamise.gamisebodymc6"
+            android:label="Gamisé | Body manga corta"
+            android:parentActivityName=".Gamise.gamisebodymc" />
+        <activity
+            android:name=".Gamise.gamisebodymc7"
+            android:label="Gamisé | Body manga corta"
+            android:parentActivityName=".Gamise.gamisebodymc" />
+        <activity
+            android:name=".Gamise.gamisebodyml"
+            android:label="Gamisé | Bodys manga larga"
+            android:parentActivityName=".Gamise.gamiseprodlist" />
+        <activity
+            android:name=".Gamise.gamisebodyml1"
+            android:label="Gamisé | Body manga larga"
+            android:parentActivityName=".Gamise.gamisebodyml" />
+        <activity
+            android:name=".Gamise.gamisebodyml2"
+            android:label="Gamisé | Body manga larga"
+            android:parentActivityName=".Gamise.gamisebodyml" />
+        <activity
+            android:name=".Gamise.gamisebodyml3"
+            android:label="Gamisé | Body manga larga"
+            android:parentActivityName=".Gamise.gamisebodyml" />
+        <activity
+            android:name=".Gamise.gamisebodyml4"
+            android:label="Gamisé | Body manga larga"
+            android:parentActivityName=".Gamise.gamisebodyml" />
+        <activity
+            android:name=".Gamise.gamiseconj"
+            android:label="Gamisé | Conjuntos y enteritos"
+            android:parentActivityName=".Gamise.gamiseprodlist" />
+        <activity
+            android:name=".Gamise.gamiseconj1"
+            android:label="Gamisé | Conjuntos y enteritos"
+            android:parentActivityName=".Gamise.gamiseconj" />
+        <activity
+            android:name=".Gamise.gamiseconj2"
+            android:label="Gamisé | Conjuntos y enteritos"
+            android:parentActivityName=".Gamise.gamiseconj" />
+        <activity
+            android:name=".Gamise.gamiseconj3"
+            android:label="Gamisé | Conjuntos y enteritos"
+            android:parentActivityName=".Gamise.gamiseconj" />
+        <activity
+            android:name=".Gamise.gamiseconj4"
+            android:label="Gamisé | Conjuntos y enteritos"
+            android:parentActivityName=".Gamise.gamiseconj"/>
+        <activity android:name=".Gamise.gamiseconj5"
+            android:label="Gamisé | Conjuntos y enteritos"
+            android:parentActivityName=".Gamise.gamiseconj">
 
         </activity>
     </application>

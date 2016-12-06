@@ -379,5 +379,30 @@ Muchas gracias!</string>
     <string name="txtgorditoozapadesc">Zapatillas para bebés no caminantes</string>
     <string name="txtgorditoozapa1">Goordito Zapatillas para bebé no caminante. Varios colores y diseños. Numeración del 14 al 18. Precio por par</string>
 
+    Gamisé
+    <string name="txtgamisemarca">Gamisé</string>
+    <string name="txtgamiseprod">Bodys, conjuntos y enteritos</string>
+    <string name="txtgamisebodymc">Bodys</string>
+    <string name="txtgamisebodymcdesc">Bodys manga corta</string>
+    <string name="txtgamisebodymc1">Gamise body manga corta estampado para nena. Talles 0/1/2/3/4</string>
+    <string name="txtgamisebodymc2">Gamise body manga corta estampado para nene. Talles 0/1/2/3/4</string>
+    <string name="txtgamisebodymc3">Gamise body manga corta estampado. Varios colores. Talles 0/1/2/3/4</string>
+    <string name="txtgamisebodymc4">Gamise body manga corta estampado. Varios colores. Talles 0/1/2/3/4</string>
+    <string name="txtgamisebodymc5">Gamise body manga corta estampado. Varios colores. Talles 0/1/2/3/4</string>
+    <string name="txtgamisebodymc6">Gamise body manga corta rayado. Varios colores. Talles 0/1/2/3/4</string>
+    <string name="txtgamisebodymc7">Gamise body manga corta con aplique bordado. Varios colores. Talles 0/1/2/3/4</string>
+    <string name="txtgamisebodyml">Bodys</string>
+    <string name="txtgamisebodymldesc">Bodys manga larga</string>
+    <string name="txtgamisebodyml1">Gamise body manga larga estampado. Varios colores. Talles 0/1/2/3/4</string>
+    <string name="txtgamisebodyml2">Gamise body manga larga estampado. Varios colores. Talles 0/1/2/3/4</string>
+    <string name="txtgamisebodyml3">Gamise body manga larga estampado. Varios colores. Talles 0/1/2/3/4</string>
+    <string name="txtgamisebodyml4">Gamise body manga liso o desagujado. Varios colores. Talles 0/1/2/3/4</string>
+    <string name="txtgamiseconj">Conjuntos y enteritos</string>
+    <string name="txtgamiseconjdesc">Conjuntos, enteritos, batitas y más…</string>
+    <string name="txtgamiseconj1">Gamise enterito con pie rayado. Varios colores. Talles 0/1/2/3/4</string>
+    <string name="txtgamiseconj2">Gamise conjunto batita y medio osito. Varios colores. Talle 0</string>
+    <string name="txtgamiseconj3">Gamise body, gorrito y babero. Varios colores. Talle 0</string>
+    <string name="txtgamiseconj4">Gamise saquito con capucha y pantalón. Varios colores. Talles 0/1/2/3/4</string>
+    <string name="txtgamiseconj5">Gamise conjunto batita medio osito y gorrito. Varios colores. Talle 0</string>
 
 </resources>

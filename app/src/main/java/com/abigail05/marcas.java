@@ -14,6 +14,7 @@ import com.abigail05.BabyInnovation.babyinprodlist;
 import com.abigail05.Chicco.chiccoprodlist;
 import com.abigail05.Colombraro.colombraroprodlist;
 import com.abigail05.Ergolastic.ergolasticprodlist;
+import com.abigail05.Gamise.gamiseprodlist;
 import com.abigail05.Gorditoo.gorditoozapa1;
 import com.abigail05.NUK.nukprodlist;
 import com.abigail05.NowyBaby.nowyprodlist;
@@ -64,6 +65,9 @@ public class marcas extends AppCompatActivity {
     ImageView gorditoo;
     String urlgorditoo = "https://lh3.googleusercontent.com/Bviyq_yAKGkVag2NZQ3ySWws4uJ1KOGb6_Ul9tgyXRBM9ZGCcEabYNg1u4Wu5ID_BxiUEJgoDd8_SN_vPd_NIvGWNZf33s3wcDip8LkJ3sK_Lqo-x9gteu1WeOaeFCMUcQeYWjCP5UtJkZrr0NBbOv5MZbSGkLHFlYMeoA92oi4FDVUbjo-0zq4M05eIQbj_FML5fcE25mLV5BVjUQSVzqPwNuABPZ4OduCaG_kMn8q6_evNaKGvD-i2bRcb0W8_T24Cu4UcLPG-SnAnw3sllW3P82vbTAhgs0l0QE4SmTwWFtEEUx4EKjjnnTukLU4h8YmWGD-U_ph-D8jc-j0bFPTbX_kKb7ZP_zWzHQEorbVXCeAMgy4g5vggo2-I1vY_zga5M53dXI8y7A85V7awe8c4xTx11O0ssJ07Ku4ZT1MmsXGYAGGLP9WgS1mrBVFBJa0s08JV5ldOpKppCQr6BHCi94LO5me_zT8hQJLAzlcDOZjhGKU9pbZUpETGsElEW7oHoWyvQteJOx0dSGKDUIIXyIVX3Cu4-t8GS9B4NvTDURMHToDMnJLgoYvzehGsU7ctV3hcvczUp_mcfJ1YNtZHaimuFxvdxpDVeNfVNLx8prMBzw=w159-h95-no";
     Button btngorditoo;
+    ImageView gamise;
+    String urlgamise = "https://lh3.googleusercontent.com/DntGjcG5gTmkvstXU4Rx5wqZwcjpe0NjDfXl6gkdXy8BLgQ7SZlBZxRFT5dhu9MO87nLgUw6nkVoTZWwjA6weDwrrH9M5K6yZFBkferAy4_aX4tZD--Uql0yWDPop-YO1TUhWr_bnhaniO67deejOnKm8LkMp_kc6YdL1PSMyhSYZsVn3ImbPhftsClNJIyYoxPYqQbz3a04tTSyw5wD71l-zN9ojlS8q0gnWSQokL2_im0A_f_rXgH78l-ht7doxY2b3n9D3GwWpfcpko1m6rlljIfY4US4kWWMOsDszKq9cIBMmSn2IxmSWKeGsQNEJ3tgqdTM98T9Im9VkIWPoznVLR7xAlquJXfeztGtQd1ijoRTbruVbCvhwhTYnbKchUyJzOCZogD4Q74aNNlSF1uLwwd01GqZ_1PvgRcXAHBKpEeWl4Ar3uK-mZLEruGZDAhGdAC_djS-rXyOZgJCXqmzl8lcmzIWhbqRFbHCQpx-scrqERA5Wo099WbTxTKEEH4gzVoSYNLhVpCxqT_jfYiM9bTX4E8_hpb_SipfjwF3IT333sytxifPtAUO8_2oBP9vBUtqNOgRxC5p3JXkOEnvbD-HyDsNQQwnSj4qvfzIdGR9vKK7kvUbyliMb8puhqG3vC6sJfc-4XCGbMXmFrp9VyjmgOupzK0EkK4c8MY=w200-h100-no";
+    Button btngamise;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -223,6 +227,18 @@ public class marcas extends AppCompatActivity {
             public void onClick(View view) {
                 Intent btngorditoo = new Intent(marcas.this,gorditoozapa1.class);
                 startActivity(btngorditoo);
+            }
+        });
+
+        gamise = (ImageView)findViewById(R.id.gamise);
+        Picasso.with(this).load(urlgamise).into(gamise);
+
+        btngamise = (Button)findViewById(R.id.btngamise);
+        btngamise.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btngamise = new Intent(marcas.this,gamiseprodlist.class);
+                startActivity(btngamise);
             }
         });
 

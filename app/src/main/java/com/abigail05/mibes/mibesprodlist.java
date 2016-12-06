@@ -23,7 +23,6 @@ import java.io.IOException;
 public class mibesprodlist extends AppCompatActivity {
 
     Button home;
-
     Button marca;
     Button btnmibes1;
     Button btnmibes2;
