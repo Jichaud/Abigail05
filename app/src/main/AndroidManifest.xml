@@ -27,7 +27,7 @@
             android:parentActivityName=".Abigail.almohadones" />
         <activity
             android:name=".webview"
-            android:label="Precio y forma de pago"
+            android:label="Web"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".Abigail.combo2"
@@ -949,10 +949,26 @@
         <activity
             android:name=".Arwin.arwinzapa1"
             android:label="Arwin | Zapatillas"
-            android:parentActivityName=".marcas"/>
-        <activity android:name=".Gorditoo.gorditoozapa1"
+            android:parentActivityName=".marcas" />
+        <activity
+            android:name=".Gorditoo.gorditoozapa1"
             android:label="Gorditoo | Zapatillas"
-            android:parentActivityName=".marcas">
+            android:parentActivityName=".marcas" />
+        <activity
+            android:name=".nosotros"
+            android:label="Sobre Abigail05"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".nuestrolocal"
+            android:label="Local"
+            android:parentActivityName=".nosotros" />
+        <activity
+            android:name=".acerca"
+            android:label="nosotros"
+            android:parentActivityName=".nosotros"/>
+        <activity android:name=".nosotrosweb"
+            android:label="www"
+            android:parentActivityName=".nosotros">
 
         </activity>
     </application>

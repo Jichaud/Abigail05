@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.abigail05.Abigail.abiprodlist;
 import com.squareup.picasso.Picasso;
@@ -15,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     Button vermasAbi;
     Button marcabtn;
     Button btnmail;
+    TextView txtnosotros;
     ImageView abigail05;
     ImageView imgAbi;
     ImageView imgmail;
@@ -28,6 +30,15 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        txtnosotros = (TextView)findViewById(R.id.txtnosotros);
+        txtnosotros.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent txtnosotros = new Intent(MainActivity.this,nosotros.class);
+                startActivity(txtnosotros);
+            }
+        });
 
         abigail05 = (ImageView)findViewById(R.id.abigail05);
         Picasso.with(this).load(urllogo).into(abigail05);

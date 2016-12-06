@@ -18,7 +18,6 @@ import com.squareup.picasso.Picasso;
 public class pilim1 extends AppCompatActivity {
 
     Button home;
-
     Button marca;
     Button btncomprapilim1;
     Button btnconsulta;

@@ -1,4 +1,5 @@
 <resources>
+
     <string name="app_name">Abigail05</string>
     <string name="btnver">ver+</string>
     <string name="btnverprecio">Comprar</string>
@@ -10,6 +11,23 @@
     <string name="consultatxt">Estamos para ayudarte.</string>
     <string name="mailok">Gracias por tu mail, nos pondremos en contacto a la brevedad…</string>
     <string name="porencargotxt">Venta solo por encargo</string>
+    <string name="txtnosotros">nosotros…</string>
+    <string name="txtlocal">nuestro local</string>
+    <string name="txtweb">en la web</string>
+    <string name="txtdireccion">Av. Asamblea 364 local 1 (C.P. 1424) | Barrio Parque Chacabuco | C.A.B.A.</string>
+    <string name="txtelefono">011 4921 9301</string>
+    <string name="txthorarionormal">lunes a viernes 9:30 hs. a 14 hs. | 17 hs. a 19:30 hs.</string>
+    <string name="txthorariosabado">sábados 9:30 hs. a 14 hs.</string>
+    <string name="txthorariocerrado">Domingos y feriados cerrado</string>
+    <string name="txthistoria">Historia\n
+ABIGAIL05 nace en el año 2005 como un proyecto familiar. Gracias al esfuerzo, compromiso, dedicacion y a todos ustedes que han confiado en nosotros al adquirir nuestros productos, vamos creciendo dia a dia.\n\n
+Nuestra constante en el esfuerzo por brindar el mejor servicio al cliente, logramos tener del portal mas grande de Argentina del comercio en internet, MercadoLibre, una certificacion a la excelencia y servicio al cliente.\n\n
+Somos una empresa seria y comprometida, tomando importancia a todos los aspectos del proceso de venta.\n\n
+Desde ya esperamos con agrado su consulta y que pueda elegirnos en el momento de su compra.\n
+Muchas gracias!</string>
+    <string name="txtml">Mercado Libre</string>
+    <string name="txtwebpage">Página Web</string>
+    <string name="txtfacebook">Facebook</string>
 
 
     AM
