@@ -27,7 +27,7 @@
             android:parentActivityName=".Abigail.almohadones" />
         <activity
             android:name=".webview"
-            android:label="Web"
+            android:label="web"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".Abigail.combo2"
