@@ -17,6 +17,11 @@ public interface contacto_form {
             @Field("entry.1256969696") String nombre,
             @Field("entry.1183716515") String mail,
             @Field("entry.848180187") String mensaje,
-            @Field("entry.101986137") String info
+            @Field("entry.101986137") String info,
+            @Field("entry.741289727") String calle,
+            @Field("entry.828005485") String callealtura,
+            @Field("entry.2119009113") String piso,
+            @Field("entry.1075508519") String localidad,
+            @Field("entry.1424755752") String provincia
     );
 }

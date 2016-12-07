@@ -86,17 +86,17 @@
             android:label="Pilim | Bolso maternal"
             android:parentActivityName=".pilim.pilimprodlist" />
         <activity
-            android:name=".mibes.mibesprodlist"
-            android:label="mibes | Productos"
-            android:parentActivityName=".marcas" />
+            android:name=".mibes.mibesbolsos"
+            android:label="mibes | Bolsos maternales"
+            android:parentActivityName=".mibes.mibesprodlist" />
         <activity
             android:name=".mibes.mibes1"
             android:label="mibes | Bolso maternal"
-            android:parentActivityName=".mibes.mibesprodlist" />
+            android:parentActivityName=".mibes.mibesbolsos" />
         <activity
             android:name=".mibes.mibes2"
             android:label="mibes | Bolso maternal"
-            android:parentActivityName=".mibes.mibesprodlist" />
+            android:parentActivityName=".mibes.mibesbolsos" />
         <activity
             android:name=".Avent.aventprodlist"
             android:label="Avent | Productos"
@@ -1045,10 +1045,82 @@
         <activity
             android:name=".Gamise.gamiseconj4"
             android:label="Gamisé | Conjuntos y enteritos"
-            android:parentActivityName=".Gamise.gamiseconj"/>
-        <activity android:name=".Gamise.gamiseconj5"
+            android:parentActivityName=".Gamise.gamiseconj" />
+        <activity
+            android:name=".Gamise.gamiseconj5"
             android:label="Gamisé | Conjuntos y enteritos"
-            android:parentActivityName=".Gamise.gamiseconj">
+            android:parentActivityName=".Gamise.gamiseconj" />
+        <activity
+            android:name=".mibes.mibesprodlist"
+            android:label="mibes | Productos"
+            android:parentActivityName=".marcas" />
+        <activity
+            android:name=".mibes.mibesaccesorios"
+            android:label="mibes | Accesorios"
+            android:parentActivityName=".mibes.mibesprodlist" />
+        <activity
+            android:name=".mibes.mibesbaberos"
+            android:label="mibes | Baberos"
+            android:parentActivityName=".mibes.mibesprodlist" />
+        <activity
+            android:name=".mibes.mibesbaberos1"
+            android:label="mibes | Baberos"
+            android:parentActivityName=".mibes.mibesbaberos" />
+        <activity
+            android:name=".mibes.mibesbaberos2"
+            android:label="mibes | Baberos"
+            android:parentActivityName=".mibes.mibesbaberos" />
+        <activity
+            android:name=".mibes.mibesbaberos3"
+            android:label="mibes | Baberos"
+            android:parentActivityName=".mibes.mibesbaberos" />
+        <activity
+            android:name=".mibes.mibesbaberos4"
+            android:label="mibes | Baberos"
+            android:parentActivityName=".mibes.mibesbaberos" />
+        <activity
+            android:name=".mibes.mibesbaberos5"
+            android:label="mibes | Baberos"
+            android:parentActivityName=".mibes.mibesbaberos" />
+        <activity
+            android:name=".mibes.mibesbaberos6"
+            android:label="mibes | Baberos"
+            android:parentActivityName=".mibes.mibesbaberos" />
+        <activity
+            android:name=".mibes.mibesbaberos7"
+            android:label="mibes | Baberos"
+            android:parentActivityName=".mibes.mibesbaberos" />
+        <activity
+            android:name=".mibes.mibesbaberos8"
+            android:label="mibes | Baberos"
+            android:parentActivityName=".mibes.mibesbaberos" />
+        <activity
+            android:name=".mibes.mibesaccesorios1"
+            android:label="mibes | Accesorios"
+            android:parentActivityName=".mibes.mibesaccesorios" />
+        <activity
+            android:name=".mibes.mibesaccesorios2"
+            android:label="mibes | Accesorios"
+            android:parentActivityName=".mibes.mibesaccesorios" />
+        <activity
+            android:name=".mibes.mibesaccesorios3"
+            android:label="mibes | Accesorios"
+            android:parentActivityName=".mibes.mibesaccesorios" />
+        <activity
+            android:name=".mibes.mibesaccesorios4"
+            android:label="mibes | Accesorios"
+            android:parentActivityName=".mibes.mibesaccesorios" />
+        <activity
+            android:name=".mibes.mibesaccesorios5"
+            android:label="mibes | Accesorios"
+            android:parentActivityName=".mibes.mibesaccesorios" />
+        <activity
+            android:name=".mibes.mibesaccesorios6"
+            android:label="mibes | Accesorios"
+            android:parentActivityName=".mibes.mibesaccesorios"/>
+        <activity android:name=".dhlenvio"
+            android:label="Envío DHL"
+            android:parentActivityName=".contacto">
 
         </activity>
     </application>

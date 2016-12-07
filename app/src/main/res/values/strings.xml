@@ -103,6 +103,24 @@ Muchas gracias!</string>
     <string name="txtmibes1desc">Bolso art. 1016948 rectangular de símil jean con bordado "Spring and Sea"</string>
     <string name="txtmibes2principal">Bolso maternal</string>
     <string name="txtmibes2desc">Bolso art. 2016159 eco-cuero grande c/bordado. Colores: negro o rojo"</string>
+    <string name="txtmibesbaberos">Baberos</string>
+    <string name="txtmibesbaberosdesc">Baberos tres telas, impermeables y más…</string>
+    <string name="txtmibesbaberos1">ARTICULO 1002563 Babero tres telas con portachupete e interior impermeable y abrojo. Variantes: Rosa, Celeste y Azul</string>
+    <string name="txtmibesbaberos2">ARTICULO 1002556 Babero tres telas con interior impermeable "Soy grande"</string>
+    <string name="txtmibesbaberos3">ARTICULO 1002545 Babero sublimado "Amiguitos de tela"</string>
+    <string name="txtmibesbaberos4">ARTICULO 1002537 Babero grande estampado "Mis Pequeños Amigos"</string>
+    <string name="txtmibesbaberos5">ARTICULO 1002567 Babero con abrojo estampado "Animales Coloridos"</string>
+    <string name="txtmibesbaberos6">ARTICULO 0002068 Babero chico estampado caritas "Tweety - Tazz - Lucas"</string>
+    <string name="txtmibesbaberos7">ARTICULO 0002069 Babero estampado caritas "Bugs - Lola" con abrojo</string>
+    <string name="txtmibesbaberos8">ARTICULO 1004516 Babetal plástico transparente con mangas y bolsillo, varios colores</string>
+    <string name="txtmibesaccesorios">Accesorios</string>
+    <string name="txtmibesaccesoriosdesc">Protectores de lluvia, guardapañal, cambiador y más…</string>
+    <string name="txtmibesaccesorios1">ARTICULO 1021006 Protector de lluvia plástico</string>
+    <string name="txtmibesaccesorios2">ARTICULO 1011029 Guarda Pañal "Hada y Principe" Colores: Celeste, Rosa, Verde Manzana, Rojo, Lila</string>
+    <string name="txtmibesaccesorios3">ARTICULO 1006552 Toallón con capucha sublimada y terminación en bies "Monstruitos"</string>
+    <string name="txtmibesaccesorios4">ARTICULO 1018092 Cambiador "Hada y Principe" Colores: Celeste, Rosa, Verde Manzana, Rojo</string>
+    <string name="txtmibesaccesorios5">ARTICULO 1016954 Bolso en microfibra y estampado en relieve, colores varios</string>
+    <string name="txtmibesaccesorios6">ARTICULO 1019064 Mochila Porta Bebe "Hada y Principe" Colores: Celeste, Rosa, Verde Manzana, Rojo y Lila</string>
 
     Avent
     <string name="txtaventmarca">Philips - Avent</string>

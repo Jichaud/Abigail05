@@ -5,7 +5,9 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CompoundButton;
 import android.widget.EditText;
+import android.widget.Switch;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -21,11 +23,57 @@ public class contacto extends AppCompatActivity {
     EditText mensaje;
     EditText info;
     Button btnconsulta;
+    Button btnenviodhl;
+    Switch switch1;
+    EditText calle;
+    EditText callenumero;
+    EditText piso;
+    EditText localidad;
+    EditText provincia;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contacto);
+
+        btnenviodhl = (Button)findViewById(R.id.btnenviodhl);
+        calle = (EditText)findViewById(R.id.calle);
+        callenumero = (EditText)findViewById(R.id.callenumero);
+        piso = (EditText)findViewById(R.id.piso);
+        localidad = (EditText)findViewById(R.id.localidad);
+        provincia = (EditText)findViewById(R.id.provincia);
+
+        btnenviodhl.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnenviodhl = new Intent(contacto.this,dhlenvio.class);
+                startActivity(btnenviodhl);
+            }
+        });
+
+        switch1 = (Switch)findViewById(R.id.switch1);
+        switch1.setChecked(false);
+        switch1.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch1.isChecked()) {
+                    calle.setVisibility(View.VISIBLE);
+                    callenumero.setVisibility(View.VISIBLE);
+                    piso.setVisibility(View.VISIBLE);
+                    localidad.setVisibility(View.VISIBLE);
+                    provincia.setVisibility(View.VISIBLE);
+                    btnenviodhl.setVisibility(View.VISIBLE);
+                } else {
+                    calle.setVisibility(View.GONE);
+                    callenumero.setVisibility(View.GONE);
+                    piso.setVisibility(View.GONE);
+                    localidad.setVisibility(View.GONE);
+                    provincia.setVisibility(View.GONE);
+                    btnenviodhl.setVisibility(View.GONE);
+                }
+
+            }
+        });
 
         nombre = (EditText)findViewById(R.id.nombre);
         mail = (EditText)findViewById(R.id.mail);
@@ -53,7 +101,12 @@ public class contacto extends AppCompatActivity {
                         String mailform = mail.getText().toString();
                         String mensajeform = mensaje.getText().toString();
                         String infoform = info.getText().toString();
-                        retrofit2.Call<Void> completeContact = contacto.completeContact(nombreform, mailform, mensajeform, infoform);
+                        String calleform = calle.getText().toString();
+                        String callenumeroform = callenumero.getText().toString();
+                        String pisoform = piso.getText().toString();
+                        String localidadform = localidad.getText().toString();
+                        String provinciaform = provincia.getText().toString();
+                        retrofit2.Call<Void> completeContact = contacto.completeContact(nombreform, mailform, mensajeform, infoform, calleform, callenumeroform, pisoform, localidadform, provinciaform);
                         completeContact.enqueue(callCallback);
 
                         Intent btnconsulta = new Intent(contacto.this, contactook.class);

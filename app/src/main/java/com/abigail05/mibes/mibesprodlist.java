@@ -1,71 +1,35 @@
 package com.abigail05.mibes;
 
 import android.content.Intent;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.TextView;
 
 import com.abigail05.MainActivity;
 import com.abigail05.R;
 import com.abigail05.marcas;
 import com.squareup.picasso.Picasso;
 
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-import org.jsoup.select.Elements;
-
-import java.io.IOException;
-
 public class mibesprodlist extends AppCompatActivity {
 
     Button home;
     Button marca;
+    Button btnmibesaccesorios;
+    ImageView mibesaccesorios;
+    String urlmibesaccesorios = "https://lh3.googleusercontent.com/ikp4rjk4vJWC9vv5cJ07u6vnGjgy2fr9_FKSzE-C7Egc2rMX4u3k0HiHTJMsOnwpbmU0FCD0RSr4QMUFFLWS6fOkw3Y5dgdmrYwK3CqW5HKabin82ZzSTPvCr5cz8apNCl4qr4Gr2DsSuscOYnTpMRqepLjjdKQuxn4amA4j0aeF3Nw1EwuCFQx1L1hHPuxtlWnWkdXQBbj6U_vIkotjmMChRFFtFu-TVGpYNar4QDvDsFFoLkrlju28W4VTxNV5_SmjvOYQutocYW_fHAaC-ntsQR259JUFcYDl5vq0b3D593Eyp-JPj_tGA1WxbNU5hDswcxiOKQWhX2UVUHz-Z1DFrsJ0_vELJ8MZwrBkMAwfCEaHxEYgt1euMC_v9nEgpmpdMeHkUCYqkL_DKDLPJ4r0opERGsPJEzXDizKlpFKRGY9MyeOsGPLUkv-iNjhHYuY11RdmdcXLm1aXwc0_STwiHKSc8KqSdXeUdJSWfMgAGZrpU7h_GhoYdRo-JFIvm-lMrNVFbA_44l1bVPEE8zPQO-u2-au9BOHTVIifI4ytU1sP3uaLgtoludUGCZyVXbNaTuQqQ3u0Diwx1RQi0PkrtGBj7-JjwlQrI_eoaP_FBAU3N9tuxiUPoPBS2IaxTzRGRtEnCzhvJ8NHQgdf3t0-_deSNdXMEkxr0FghmUs=s725-no";
+    Button btnmibesbaberos;
+    ImageView mibesbaberos;
+    String urlmibesbaberos = "https://lh3.googleusercontent.com/kfPmY0FEq9VJ7zHuq730SrBCxbNGaV03Ie-0bcVSfEOY5mYSQumfBZ22cJXAkgt47AcY3S4OyCmuWTKNRn5EObRRs4VxWspEZdLoJTKC3eyLxaMI04MeAOFrumbqqocDIIMdhmzE2BjSs2E1Wg5q4UEGBhsUcqfvSdYRk7e0TGuq5TAf3wEaLk7ZA10wc3V8iNtZbUjEmMPDTn9coD-GM0UAtTY6G_OE9IZdfJVJ-ir1_TfE4eTKoPx9BHwlId21krAjCLErJh1cXVB1BcG1ZoLzCq2B3kDQDzbogaM0_uS31Cj9EwIOLxtu3xm0qZ9-jzi0TEDr_sCmJZueaTVPpPGA1-S8TKsdYejlqAS0bfgE_HqSQsZj7UNXjEQRUsQcvjkKJYRKX1VUOFgCv2V_oyVmBFbjeVgtZz7AmysCMkuAme23xq0kfTGdxIvllHz33iylN4lrYVVy0ZBnHQ5pRSfsr95G7bv8RIncVeIkyMJRvu1RDRDInHn1FLT0KJmle_YDQM2w1HyogFJUWJjspy48J0C7sKkoWLzAl98KOa8OQru_UU3RZdCTZ1u7KJj5aEBk-0oOh54rpTiUBBpBIkvQ-s7rcHCFLadHtjOPay3kqHZo0_eSiHFJnpslOvMERLc4CJEf0k-EI06NURGifFJ1ukVOzSboqI5yPQMGZmA=s725-no";
     Button btnmibes1;
-    Button btnmibes2;
     ImageView mibes1;
     String urlmibes1 = "https://lh3.googleusercontent.com/-DSKLh-hHAGnzlAkWyO5lEf2DRTUw-YhhGU9IymbIourye2rYqTQfpfnhJeoqSehWFFBthXgOgk=w432-h360-no";
-    TextView preciomibes1;
-    ImageView mibes2;
-    String urlmibes2 = "https://lh3.googleusercontent.com/-Ft0ZsLR3kXYSyQtohhmK_37d4ThvoR-ZClrw5pTMiDF8NQRhfJpc2WVg3rnP50b5kmhmZY2djYPFcDyrrUU8k72hL4l8bfpoto77wTYAVtO1L4JDx9AGX-NLtthFtmu2EQHGHutyLMRKHxGNU63tSNkoo8GY-pBbl8mCZKqZoYqK4h93Qju5KifANxR3_uryYr_guRQD2vSchIdjgdAMz9npo07Xp9Mm6-4Q9kEuTkV7YNe0vOcf7W0SDrFNEckLITKw3XDVvOaKj8x7rWyJnaQRdfRP2UOGK2BPPXgY-ap67kTD5JlGnzCcs7Fa8gdnaFy8AOALEwDBRV7BNia52Az0X-eSuzaDrX0-KsLh3zEDh6C4kn_qhHA2MZiqd1aseLjc_H-Nr0flbg2pmC9zBS6Uib2qJ0qrvvsZ9GfNaviADw5v79vDHEIZvD8Ty4UhgJ-8Ae5Wxx_Mq837pV248B73T-jjZkbvCT_co-3jKa4FacDvkZOGWY4LGpGbvmWjbmrLLV3v-m_WvZ3HarcBh2S957wQRGOtTHqZMoO8_-mb44EC4NHrXQvrjOjnFZmxxBNqW4oh_FhLMIQq_fme0p9EHo0Gvya2JYRy8kSoSi9R9HPIg=w440-h409-no";
-    TextView preciomibes2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mibesprodlist);
-
-        new preciomibesAsync().execute();
-
-        preciomibes1 = (TextView) findViewById(R.id.preciomibes1);
-        preciomibes2 = (TextView)findViewById(R.id.preciomibes2);
-
-        mibes1 = (ImageView) findViewById(R.id.mibes1);
-        Picasso.with(this).load(urlmibes1).into(mibes1);
-
-        mibes2 = (ImageView)findViewById(R.id.mibes2);
-        Picasso.with(this).load(urlmibes2).into(mibes2);
-
-        btnmibes1 = (Button)findViewById(R.id.btnmibes1);
-        btnmibes1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnmibes1 = new Intent(mibesprodlist.this, mibes1.class);
-                startActivity(btnmibes1);
-            }
-        });
-
-        btnmibes2 = (Button)findViewById(R.id.btnmibes2);
-        btnmibes2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnmibes2 = new Intent(mibesprodlist.this, mibes2.class);
-                startActivity(btnmibes2);
-            }
-        });
 
         marca = (Button) findViewById(R.id.btnvmarca);
         marca.setOnClickListener(new View.OnClickListener() {
@@ -85,40 +49,41 @@ public class mibesprodlist extends AppCompatActivity {
             }
         });
 
-    }
+        mibesaccesorios = (ImageView)findViewById(R.id.mibesaccesorios);
+        Picasso.with(this).load(urlmibesaccesorios).into(mibesaccesorios);
 
-    public class preciomibesAsync extends AsyncTask<Void, Void, Void> {
-
-        String urlprecio1 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=ea77810ea709eee5b1de76df0a4ca5cf";
-        String preciomibes1st;
-        String urlprecio2 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=d1bce4a217de52b4d27b15d06a925199";
-        String preciomibes2st;
-
-        @Override
-        protected Void doInBackground(Void... voids) {
-
-            try {
-                Document doc1 = Jsoup.connect(urlprecio1).get();
-                Elements metapropoerty1 = doc1.select("meta[property=\"og:description\"]");
-                preciomibes1st = metapropoerty1.attr("content");
-
-                Document doc2 = Jsoup.connect(urlprecio2).get();
-                Elements metapropoerty2 = doc2.select("meta[property=\"og:description\"]");
-                preciomibes2st = metapropoerty2.attr("content");
-
-            } catch (IOException e) {
-                e.printStackTrace();
+        btnmibesaccesorios = (Button)findViewById(R.id.btnmibesaccesorios);
+        btnmibesaccesorios.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnmibesaccesorios = new Intent(mibesprodlist.this, mibesaccesorios.class);
+                startActivity(btnmibesaccesorios);
             }
+        });
 
-            return null;
-        }
+        mibesbaberos = (ImageView)findViewById(R.id.mibesbaberos);
+        Picasso.with(this).load(urlmibesbaberos).into(mibesbaberos);
 
-        @Override
-        protected void onPostExecute(Void aVoid) {
-            super.onPostExecute(aVoid);
-            preciomibes1.setText(preciomibes1st);
-            preciomibes2.setText(preciomibes2st);
-        }
+        btnmibesbaberos = (Button)findViewById(R.id.btnmibesbaberos);
+        btnmibesbaberos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnmibesbaberos = new Intent(mibesprodlist.this, mibesbaberos.class);
+                startActivity(btnmibesbaberos);
+            }
+        });
+
+        mibes1 = (ImageView)findViewById(R.id.mibes1);
+        Picasso.with(this).load(urlmibes1).into(mibes1);
+
+        btnmibes1 = (Button)findViewById(R.id.btnmibes1);
+        btnmibes1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnmibes1 = new Intent(mibesprodlist.this, mibesbolsos.class);
+                startActivity(btnmibes1);
+            }
+        });
 
     }
 }
