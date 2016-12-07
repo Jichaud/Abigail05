@@ -18,99 +18,72 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
         android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/txtnombre"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/rounded"
-            android:fontFamily="sans-serif-light"
-            android:padding="6dp"
-            android:text="Nombre y apellido"
-            android:textColor="@color/cardview_light_background"
-            android:textSize="15sp"
-            android:textStyle="bold"/>
-
-        <EditText
-            android:id="@+id/nombre"
+        <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="2dp"
-            android:fontFamily="sans-serif-light"
-            android:hint="nombre y apellido"
-            android:textColorHint="@color/colorPrimaryDark"/>
+            android:layout_height="match_parent">
 
-        <TextView
-            android:id="@+id/txtmail"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/rounded"
-            android:fontFamily="sans-serif-light"
-            android:padding="6dp"
-            android:text="e-mail"
-            android:textColor="@color/cardview_light_background"
-            android:textSize="15sp"
-            android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/nombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:fontFamily="sans-serif-light"
+                android:hint="nombre y apellido"
+                android:textColorHint="@color/colorPrimaryDark"/>
 
-        <EditText
-            android:id="@+id/mail"
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="2dp"
-            android:fontFamily="sans-serif-light"
-            android:hint="e-mail"
-            android:inputType="textEmailAddress"
-            android:textColorHint="@color/colorPrimaryDark"/>
+            android:layout_height="match_parent">
 
-        <TextView
-            android:id="@+id/txtmsg"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/rounded"
-            android:fontFamily="sans-serif-light"
-            android:padding="6dp"
-            android:text="Tu mensaje..."
-            android:textColor="@color/cardview_light_background"
-            android:textSize="15sp"
-            android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/mail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:fontFamily="sans-serif-light"
+                android:hint="e-mail"
+                android:inputType="textEmailAddress"
+                android:textColorHint="@color/colorPrimaryDark"/>
+        </android.support.design.widget.TextInputLayout>
 
-        <EditText
-            android:id="@+id/mensaje"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="2dp"
-            android:fontFamily="sans-serif-light"
-            android:hint="Tu mensaje"
-            android:inputType="textMultiLine"
-            android:scrollbars="vertical"
-            android:textColorHint="@color/colorPrimaryDark"/>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-        <TextView
-            android:id="@+id/txtinfo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/rounded"
-            android:fontFamily="sans-serif-light"
-            android:padding="6dp"
-            android:text="Info adicional"
-            android:textColor="@color/cardview_light_background"
-            android:textSize="15sp"
-            android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/mensaje"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-light"
+                android:hint="Tu mensaje"
+                android:inputType="textMultiLine"
+                android:scrollbars="vertical"
+                android:textColorHint="@color/colorPrimaryDark" />
+        </android.support.design.widget.TextInputLayout>
 
-        <EditText
-            android:id="@+id/info"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="sans-serif-light"
-            android:hint="Color, talle | otra info"
-            android:inputType="textMultiLine"
-            android:scrollbars="vertical"
-            android:textColorHint="@color/colorPrimaryDark"/>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/info"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-light"
+                android:hint="Color, talle | otra info"
+                android:inputType="textMultiLine"
+                android:scrollbars="vertical"
+                android:textColorHint="@color/colorPrimaryDark" />
+        </android.support.design.widget.TextInputLayout>
 
         <Switch
             android:id="@+id/switch1"
@@ -119,54 +92,105 @@
             android:backgroundTint="@color/colorPrimary"
             android:text="¿Necesitás envío a domicilio? "/>
 
-            <EditText
-                android:id="@+id/calle"
-                android:layout_width="fill_parent"
-                android:layout_height="match_parent"
-                android:hint="Indicá la calle"
-                android:inputType="textMultiLine"
-                android:scrollbars="vertical"
-                android:textColorHint="@color/colorPrimaryDark"
-                android:visibility="gone"/>
+        <LinearLayout
+            android:id="@+id/layoutcontact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/rectangle"
+            android:orientation="vertical"
+            android:visibility="gone">
 
-            <EditText
-                android:id="@+id/callenumero"
-                android:layout_width="fill_parent"
-                android:layout_height="match_parent"
-                android:hint="Indicá la altura"
-                android:inputType="textMultiLine"
-                android:scrollbars="vertical"
-                android:textColorHint="@color/colorPrimaryDark"
-                android:visibility="gone"/>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
-            <EditText
-                android:id="@+id/piso"
-                android:layout_width="fill_parent"
-                android:layout_height="match_parent"
-                android:hint="Indicá piso y departamento"
-                android:inputType="textMultiLine"
-                android:scrollbars="vertical"
-                android:textColorHint="@color/colorPrimaryDark"
-                android:visibility="gone"/>
+                <EditText
+                    android:id="@+id/calle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:hint="Indicá la calle"
+                    android:inputType="textMultiLine"
+                    android:scrollbars="vertical"
+                    android:textColorHint="@color/colorPrimaryDark"/>
+            </android.support.design.widget.TextInputLayout>
 
-            <EditText
-                android:id="@+id/localidad"
-                android:layout_width="fill_parent"
-                android:layout_height="match_parent"
-                android:hint="Indicá la localidad"
-                android:scrollbars="vertical"
-                android:textColorHint="@color/colorPrimaryDark"
-                android:visibility="gone"/>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
-            <EditText
-                android:id="@+id/provincia"
-                android:layout_width="fill_parent"
+                <EditText
+                    android:id="@+id/callenumero"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:hint="Indicá la altura"
+                    android:inputType="number"
+                    android:scrollbars="vertical"
+                    android:textColorHint="@color/colorPrimaryDark" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/piso"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:hint="Indicá piso y departamento"
+                    android:inputType="number"
+                    android:scrollbars="vertical"
+                    android:textColorHint="@color/colorPrimaryDark" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="Indicá la provincia"
-                android:inputType="textMultiLine"
-                android:scrollbars="vertical"
-                android:textColorHint="@color/colorPrimaryDark"
-                android:visibility="gone"/>
+                android:layout_weight="1">
+
+                <EditText
+                    android:id="@+id/localidad"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:hint="Indicá la localidad"
+                    android:scrollbars="vertical"
+                    android:textColorHint="@color/colorPrimaryDark" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/provincia"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:hint="Indicá la provincia"
+                    android:inputType="textMultiLine"
+                    android:scrollbars="vertical"
+                    android:textColorHint="@color/colorPrimaryDark" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/cpostal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:hint="Indicá el código postal"
+                    android:inputType="number"
+                    android:scrollbars="vertical"
+                    android:textColorHint="@color/colorPrimaryDark" />
+            </android.support.design.widget.TextInputLayout>
 
             <Button
                 android:id="@+id/btnenviodhl"
@@ -175,13 +199,15 @@
                 android:layout_gravity="right"
                 android:layout_marginRight="10dp"
                 android:layout_marginTop="20dp"
-                android:backgroundTint="@color/colorPrimary"
+                android:backgroundTint="@color/green"
                 android:fontFamily="sans-serif-thin"
-                android:text="¿envíos?"
+                android:text="conocé más..."
                 android:textAllCaps="false"
+                android:textColor="@color/cardview_light_background"
                 android:textSize="16sp"
-                android:textStyle="bold"
-                android:visibility="gone" />
+                android:textStyle="bold" />
+
+        </LinearLayout>
 
         <Button
             android:id="@+id/btnconsulta"

@@ -467,6 +467,59 @@
                     style="@style/Divider"
                     android:layout_below="@id/preciochiccohigiene8" />
 
+                <ImageView
+                    android:id="@+id/chiccohigiene9"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view8"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtchiccohigiene9principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view8"
+                    android:layout_toRightOf="@id/chiccohigiene9"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtchiccohigiene"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtchiccohigiene9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtchiccohigiene9principal"
+                    android:layout_toRightOf="@id/chiccohigiene9"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtchiccohigiene9"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnchiccohigiene9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/view9"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/preciochiccohigiene9"
+                    style="@style/precio"
+                    android:layout_below="@id/chiccohigiene9"/>
+
+                <View
+                    android:id="@+id/view9"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciochiccohigiene9" />
+
             </RelativeLayout>
 
         </LinearLayout>

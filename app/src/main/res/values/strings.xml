@@ -253,6 +253,7 @@ Muchas gracias!</string>
     <string name="txtchiccohigiene6">Chicco traba cajones</string>
     <string name="txtchiccohigiene7">Chicco traba puerta</string>
     <string name="txtchiccohigiene8">Chicco salva dedos</string>
+    <string name="txtchiccohigiene9">Chicco Digital Audio Detect</string>
     <string name="txtchiccosilla">Sillas</string>
     <string name="txtchiccosilladesc">Sillas fijas, pocket, snack</string>
     <string name="txtchiccosilla1">Chicco silla Polly 2 en 1</string>
@@ -311,7 +312,7 @@ Muchas gracias!</string>
     <string name="txtbabyinseguridad3">Baby Innovation traba cajones interna</string>
 
     NowyBaby
-    <string name="txtnowymarca">Nowy Baby</string>
+    <string name="txtnowymarca">Nowybaby</string>
     <string name="txtnowyprod">Butacas, sillas, bañeras y mucho más…</string>
     <string name="txtnowybutacas">Butacas y booster</string>
     <string name="txtnowybutacasdesc">Butacas y booster para auto</string>

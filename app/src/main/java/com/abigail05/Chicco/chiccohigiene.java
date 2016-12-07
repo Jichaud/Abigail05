@@ -32,6 +32,7 @@ public class chiccohigiene extends AppCompatActivity {
     Button btnchiccohigiene6;
     Button btnchiccohigiene7;
     Button btnchiccohigiene8;
+    Button btnchiccohigiene9;
     TextView preciochiccohigiene1;
     TextView preciochiccohigiene2;
     TextView preciochiccohigiene3;
@@ -40,6 +41,7 @@ public class chiccohigiene extends AppCompatActivity {
     TextView preciochiccohigiene6;
     TextView preciochiccohigiene7;
     TextView preciochiccohigiene8;
+    TextView preciochiccohigiene9;
     ImageView chiccohigiene1;
     String urlchiccohigiene1 = "https://lh3.googleusercontent.com/UXbzABgDZOupwdj3TwkLuEI_3zYK7pbRwGd2grAw4fEXVp5WIrqoFwI15-3GOHl4EUQOu7f0pIHSx8LC1H3I0KkaDUIsblw9a29GB14u8sK3URhzXB4W-jjbSxyIh-HEfRmY0ZiBFQXXukAZ0QG8uPWLL0Gmeqz6uYSz6iWHSs2ZaOfi7pMUSUHlPc4MZ9Q7inY-KXMszzXo3aJP9hWSFeslXNYpJ6wBQkmYbvijkMCUqJ5iMj8KuYBaj2mdnAahjZRAwVewZ89CVkz1wbEhbP7j8Oeg2s9hZ-ML6YEFLce5oCzdSTsLTmPTleEJR1vBSemYARUGEGJQZFuFrxktA0IEYYRngIDG1SI3S9RWRi8RNEy0kEJLW6df1HUMaRKupZi_R80pTjbDAThe5rgR4c8y-4xtUqC9wa2G_IMlkj0SVsNzNVDHhR2oBNtjZ5lTppsDyIEKhEJLiEZIjPMDj3nJD4kT6Mr3zq3JmFoVLrpQRXctX5JGKOm3Os4_bJmheCkgNwQqbabrcL_-SA2dCa9ZfxSyz4tXHoEe4l0_6ppvDye0CjykuUY8vy8ggh2W6tp5rguPc0_0K6fSOG2CXUvaHC_zqPJcXH8nDtvj8BiudaaAdQ=w452-h450-no";
     ImageView chiccohigiene2;
@@ -56,6 +58,8 @@ public class chiccohigiene extends AppCompatActivity {
     String urlchiccohigiene7 = "https://lh3.googleusercontent.com/r_ytu9i1UX3GcUl7fjI1OPrqWUjxN8ib98unlS97t755k54tjicrAcsELj2XDE_OAECno3vW359HDznuZ2PL-MyyHdaj3FjdGhWPZo9o_W1nhXyXEvTWvVDOzuSp6UuOMM5out6dEp0S1KGssLzFTL0k4Whe0zXD6FdMG6bf002gK1xWItxnzPykcByNqIulRgQ5KMi9qjc-W2PUj7aIZ1KxGFBiectY-ifDSnw6PLWzwndreJsOEyw6mBUq6Zqykw-I9ZMZz64_22EQHM2jnuAU6Wl8lT1BebbCfuzV-N4pb_q0nz0-_1OyMSE5g35JYHMkbXG8TuUNVpMCfH-MFaWyYcV56endn9BGPazzBybExlMh0pUC-IG2L-eGr2Qoebi65Z7bqqlPPnPO48owS98lUtokhRAuR5EObRtFvjqxUjcvKhCcKdccTFc5CaJ7BXZNsr4tiQmv6vne1IGIG5rYTkbzq6x7N0uJjb8N-dMWqXz0Y1G9hvtSux8yRddCpKiXpFk_fB-m2W7CmHrg2x6wWKq8MVSXkd0j8OddK1mHcUOXbaXbLlks6j9bD0nUhfelwFUVktv_BlOLC7dkMMfJYmygWDYGKILxIDFuE8qU_NvDRg=w398-h400-no";
     ImageView chiccohigiene8;
     String urlchiccohigiene8 = "https://lh3.googleusercontent.com/6Pnp70_uMO8-tqcbQignSh_Y_GLu8ODWXHXGziuxutvywdpHYvKoLY7vJPfFIUbePnSw2AeFjWQpxuzm8MIDJ7BgDWNAJmT7Hlui1b0KMCsAkiD3ZpiE1M2vePxoZN6bUkob4auduR7dhLFmuqrBt8CKdiQrRk7zblqbvVp09-M0kZAB3dIHhZilR1vHyWg3kOgl0aQ1nEkdExSvLQHNjGMFTzXavXRg7hKHPKp9Fg6Et7qeJs5vjtwTRC8nUcYdYhzJefvXjP_OVsl3VV9W2BWkBRRHp8F4a1jvEVCx1g5GsGJM1aztC7ao9pISXQhZ0JgwMgJF8MVKvz8B_GbtsgmR4gGBE2CYJr-exVZZnuuSnKw-bdBXdk16Gpwxld9qFCxqEemaEGEi37MoF4MR3ccTEOwKa9IHYtkbMygrRN91Gs9xMoWvLkDzkCa7SB9H1bhkUFMTLhEcuyPQ3eVxLsNP2HOMMtl1umM1uZmGTCc-Kxl_r_z5nBzYEKHhH8nwA8xQUCEXYOta27fWT5RQfLkBWSK68fAYzUEDoePCI8w0CZUZvE2EjRvmbC9l2rbzQoQ3YeBLWgyW0SWheQ-hOH4TFBG1NzJss6XeIGWzSu4EdnHkEA=s400-no";
+    ImageView chiccohigiene9;
+    String urlchiccohigiene9 = "https://lh3.googleusercontent.com/L8J6Ug-MoWXGPwB8uBmIGKBGj84wZhZBPC1SrqkwLCrl5zx39MrBnHnPmmZXK-CXPektrJQqileVQFNHM-GYFTFbkUG5HktAf7-S8XUQj7hqatcgLYyuNi47KLP0VCy01gKLIzTYxhSfzuHSax11aYokoqJleCcjZ7zATCYB8AMzo0znv2Wz_3giV2-umFZfY09DeAWkjzLzykVoqI61JtWA3jiothq-Zk6ckqbqJ0keYtkbg8thj6BItt0idoKJikiwNBAeRej6EVrrXXjYeiZqZq88CtdZ6MoqiPD-SvimXEOzReGRmtPQ1aK36vlqVjXo_CRaT583FNFqcTV9dzwn05Gy1TtFa8u_CPW1pp6zqRVCBKE1GtJYZIXXjlIrDzzu9g5eJYRmCUUDcbMJqd0aP3ciieNTvEEsFjNMCj8my7A6NssRhKayl_Fdpime2BqpGu5Jxop19jrDMt5xyPENicLGYyPA4QYhvv5JrpetQ7wjIMXjYzGMb3zwcjdOtYkSGOVeWHh0SJiQEir8aFKclS_59YMIrM2eHdhfpDREByLEBPjyqnazMfwreJqmmF6M-XCaAgf7tMgh1_ABZ5AEezhDnnsuVUqMFmC9WUQdt6VbGm5TruC04zdKzjUcU8rh_FhwB1iZCoUQcLdyfTKdlo8V4KT_B_zqabT5jHA=w396-h400-no";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -72,6 +76,7 @@ public class chiccohigiene extends AppCompatActivity {
         preciochiccohigiene6 = (TextView)findViewById(R.id.preciochiccohigiene6);
         preciochiccohigiene7 = (TextView)findViewById(R.id.preciochiccohigiene7);
         preciochiccohigiene8 = (TextView)findViewById(R.id.preciochiccohigiene8);
+        preciochiccohigiene9 = (TextView)findViewById(R.id.preciochiccohigiene9);
 
         chiccohigiene1 = (ImageView)findViewById(R.id.chiccohigiene1);
         Picasso.with(this).load(urlchiccohigiene1).into(chiccohigiene1);
@@ -96,6 +101,9 @@ public class chiccohigiene extends AppCompatActivity {
 
         chiccohigiene8 = (ImageView)findViewById(R.id.chiccohigiene8);
         Picasso.with(this).load(urlchiccohigiene8).into(chiccohigiene8);
+
+        chiccohigiene9 = (ImageView)findViewById(R.id.chiccohigiene9);
+        Picasso.with(this).load(urlchiccohigiene9).into(chiccohigiene9);
 
         btnchiccohigiene1 = (Button)findViewById(R.id.btnchiccohigiene1);
         btnchiccohigiene1.setOnClickListener(new View.OnClickListener() {
@@ -169,6 +177,15 @@ public class chiccohigiene extends AppCompatActivity {
             }
         });
 
+        btnchiccohigiene9 = (Button)findViewById(R.id.btnchiccohigiene9);
+        btnchiccohigiene9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnchiccohigiene9 = new Intent(chiccohigiene.this, chiccohigiene9.class);
+                startActivity(btnchiccohigiene9);
+            }
+        });
+
         marca = (Button) findViewById(R.id.btnvmarca);
         marca.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -207,6 +224,8 @@ public class chiccohigiene extends AppCompatActivity {
         String preciochiccohigiene7st;
         String urlprecio8 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=b1ec3ee72a45f428369e699405ea2283";
         String preciochiccohigiene8st;
+        String urlprecio9 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=4202397a2086515e55faaa5ce999ad67#utm_source=28428&utm_medium=boton_de_pago&utm_campaign=web";
+        String preciochiccohigiene9st;
 
         @Override
         protected Void doInBackground(Void... voids) {
@@ -244,6 +263,10 @@ public class chiccohigiene extends AppCompatActivity {
                 Elements metapropoerty8 = doc8.select("meta[property=\"og:description\"]");
                 preciochiccohigiene8st = metapropoerty8.attr("content");
 
+                Document doc9 = Jsoup.connect(urlprecio9).get();
+                Elements metapropoerty9 = doc9.select("meta[property=\"og:description\"]");
+                preciochiccohigiene9st = metapropoerty9.attr("content");
+
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -262,6 +285,7 @@ public class chiccohigiene extends AppCompatActivity {
             preciochiccohigiene6.setText(preciochiccohigiene6st);
             preciochiccohigiene7.setText(preciochiccohigiene7st);
             preciochiccohigiene8.setText(preciochiccohigiene8st);
+            preciochiccohigiene9.setText(preciochiccohigiene9st);
         }
 
     }

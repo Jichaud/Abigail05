@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.Switch;
 
 import java.util.regex.Matcher;
@@ -30,6 +31,8 @@ public class contacto extends AppCompatActivity {
     EditText piso;
     EditText localidad;
     EditText provincia;
+    EditText cpostal;
+    LinearLayout layoutcontact;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,11 +45,13 @@ public class contacto extends AppCompatActivity {
         piso = (EditText)findViewById(R.id.piso);
         localidad = (EditText)findViewById(R.id.localidad);
         provincia = (EditText)findViewById(R.id.provincia);
+        cpostal = (EditText)findViewById(R.id.cpostal);
+        layoutcontact = (LinearLayout)findViewById(R.id.layoutcontact);
 
         btnenviodhl.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent btnenviodhl = new Intent(contacto.this,dhlenvio.class);
+                Intent btnenviodhl = new Intent(contacto.this,envio.class);
                 startActivity(btnenviodhl);
             }
         });
@@ -57,19 +62,9 @@ public class contacto extends AppCompatActivity {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(switch1.isChecked()) {
-                    calle.setVisibility(View.VISIBLE);
-                    callenumero.setVisibility(View.VISIBLE);
-                    piso.setVisibility(View.VISIBLE);
-                    localidad.setVisibility(View.VISIBLE);
-                    provincia.setVisibility(View.VISIBLE);
-                    btnenviodhl.setVisibility(View.VISIBLE);
+                    layoutcontact.setVisibility(View.VISIBLE);
                 } else {
-                    calle.setVisibility(View.GONE);
-                    callenumero.setVisibility(View.GONE);
-                    piso.setVisibility(View.GONE);
-                    localidad.setVisibility(View.GONE);
-                    provincia.setVisibility(View.GONE);
-                    btnenviodhl.setVisibility(View.GONE);
+                    layoutcontact.setVisibility(View.GONE);
                 }
 
             }
@@ -106,7 +101,8 @@ public class contacto extends AppCompatActivity {
                         String pisoform = piso.getText().toString();
                         String localidadform = localidad.getText().toString();
                         String provinciaform = provincia.getText().toString();
-                        retrofit2.Call<Void> completeContact = contacto.completeContact(nombreform, mailform, mensajeform, infoform, calleform, callenumeroform, pisoform, localidadform, provinciaform);
+                        String cpostalform = cpostal.getText().toString();
+                        retrofit2.Call<Void> completeContact = contacto.completeContact(nombreform, mailform, mensajeform, infoform, calleform, callenumeroform, pisoform, localidadform, provinciaform, cpostalform);
                         completeContact.enqueue(callCallback);
 
                         Intent btnconsulta = new Intent(contacto.this, contactook.class);
