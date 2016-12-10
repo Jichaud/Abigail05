@@ -32,6 +32,11 @@ public class babyinvarios extends AppCompatActivity {
     Button btnbabyinvarios6;
     Button btnbabyinvarios7;
     Button btnbabyinvarios8;
+    Button btnbabyinvarios9;
+    Button btnbabyinvarios10;
+    Button btnbabyinvarios11;
+    Button btnbabyinvarios12;
+    Button btnbabyinvarios13;
     TextView preciobabyinvarios1;
     TextView preciobabyinvarios2;
     TextView preciobabyinvarios3;
@@ -40,6 +45,11 @@ public class babyinvarios extends AppCompatActivity {
     TextView preciobabyinvarios6;
     TextView preciobabyinvarios7;
     TextView preciobabyinvarios8;
+    TextView preciobabyinvarios9;
+    TextView preciobabyinvarios10;
+    TextView preciobabyinvarios11;
+    TextView preciobabyinvarios12;
+    TextView preciobabyinvarios13;
     ImageView babyinvarios1;
     String urlbabyinvarios1 = "https://lh3.googleusercontent.com/HvTg0DcFJ7PaI5HpK1ZzYSn-BYuQXvVsMmnKU0rSoVLxS2DlLWYL0HSOIGFc9u3p1TQrjtxdlO6x9SyrnXYJKSx4-OzgTWWuZ2m9dg7D4nG7RWpbv4yM9ux4cxOiKzd8xPf__8H6XjvJmCdqwEP7YR2Yro3G2EYgjRGBv1IX9BQys0PtRueBL2xdmv6zrYPMTrR4x7ujYlZvSfIwkA0ydpYI3eQK9xUXZSht4dLKJH3l4HglFj3F9CvKzs7ssf7cebmpOp_pL01Wde6vIAvL5ph_cjsNqx8jep7P-Xy2Es6_YVplu5RgKiuCHa6ACeBQYdSXitczDmW2rmCf8K3PVgfSwBqGpRQCVXjjkrSoGin70-L3A6gO7hbf7PrexpHb80amjT8jbc3cW0I1yCbyIl1YU9H5-9nl4mRgd3PcdpWbU2RNnhSlffapgeoVAm4Urb-JIAIY69gsECaSVi4P5B_e589HqjtMtc8hykj4k1w5wCjZpK7XZsLIcyX5b36gU5VYdHBYdekdGMoofGuS6nJDnXlE78RNzsifl8camS71nQw-siL0ukzVoFfpq2ZxueodlOpQ3Y9fOuWR0CLy-sqDLh6QdkYYe-z2wdw1NVpkHQSviQ=s320-no";
     ImageView babyinvarios2;
@@ -56,6 +66,16 @@ public class babyinvarios extends AppCompatActivity {
     String urlbabyinvarios7 = "https://lh3.googleusercontent.com/4NTrFP0YoYIEB9PNjyMz8jWpE6LiNLyBMobqFKPQk6cfCt3vBC9f2w8zKegL1XplcQZmnxE1_Etw-cmLRbuRz8jkMnZ1JTgP5Q9CELYnW9XvCoAFw-FH77RnbEh9nyU5y7W_xCMz3iee7q2ZvaP8bwgzjPSEhFc3Ei6XeT3UUAfmgYTq_zkrqltxzXXBb4xVCuXGnkZEzZ0GT08QB7z-l1FdlOEfASDdGAj8sSWGYH5DGiN3awXgNxrMxv6wNzR8dck4KNT4kYVN38MqvuiPtzgWhCDyIKUfqiHeX_HAQpfdSq2YeO-smNYK0gwuZLrg28uKvBaNXcjGJJbVTCoNLR4OORh0uBOOWuxCfPCygPvZFXizmP2Z6aSHeZ3-acZzLuMtNLAoopjlQ2-HB81UoBvewXRHfoUbXMAWrCtzEHtcPMFRt6E8FnC7ktUkt1-uq0ABO8sVhMfhh4n_1LiZb2Xum9bCf8XCoMdqJ-tW-0RFKIBsDPl6IY_qyk1Ehs18B27iBi7QILA2dtS7a7WJCrbbB8_FhpCr-ZBzxDjOPitb2slukaxGlgkWLiWCbhZr4Tpgoxo5NJiuT7s-W8m1ft59B50aioKd2UipcgU3eojYkXwVHw=s320-no";
     ImageView babyinvarios8;
     String urlbabyinvarios8 = "https://lh3.googleusercontent.com/r1qY_F7WeY7jY-75I_G25XnslvAcd6-SmJvgk4gaF3sBcsNSdt2O9QEj3wjZxSKrY5jOcvKno1HhtkvbuoW6VaBnBxMd8gVpBYA_4Q56VzEDVz5wBDwFwAouVDTsA1yTo2oHo3LAxGR5B-7bEbYbx425V5ZehfxtMNjBlZ76VlDCNsomkd3DYwae2GzbIIWP5IXFS-4Bs0OvnBggkH5d5eQShgnMBPnVOSGV58PGU2zFZWrihMnlTQVh_jOci6YZRW7G6YWqi_KuIcUYxsj1oSDxswQU2iMHt0jzSmwJ8o2PXqxvzcnWIP-ja9X_6MTGeRmn6UXOCFs5KgjKJ-LXypKrvmj7NyAA_nR3pN_eKNbL5CCF0-vP-cTpM1tAwholEY4j4ioxMXT52h1nhub4_hrqJgid-TMiHNjnsGsiPr0StqCJTE1lkOqGQvV6_VvNwv_4yR_fg4BVmufnTTVd585pYxIeBN3OxmcENrIDaRJ8U0p2f64gmqxhxdH_2oF4w57S0Mub4GMqY4tsNNS-zWRkwPSPt4YG785mzC0kdTg19xkDcF7Y1mV8QX0CUQw2a7F8bLSvrg_jqe3LOmlTXerGqBZRLDFjQyGr3pjSu2GUwYZedg=s320-no";
+    ImageView babyinvarios9;
+    String urlbabyinvarios9 = "https://lh3.googleusercontent.com/eXAPDhkTuSKw-gsvxQ4_m9fj_5t7rnd1RjOtsjuxtA3fy4V3DNtKi_4sGWLgBJwKd-EmadWX8dqWb8TIrTxEuCVcI3_jURp52fkag4aGV3vGCNXg0vD5uAu5n4NlS1S_lEgnl4cf-YwE81dy3GYEMh6ESHnuXlr9WZiYCWrf3LHVDNPw3CuiXlFd90f_WEiP74CDuPeEL_740XsZffFuFmgkCDcLS_STVZ9GPJ6zgonNMX3MA2ezoDcq76gSv2wZe0St1PQZbLZIaO_am2KKRV50sv9jAr4CjcTXclwM3Yl4NZh8AV5zhA-6ofv3wdoggYe6KrOM61R8Ds36p3BUF0OdwWC5joiq13JKiDjdJjHIzyLeFK4hCLl6oqtsmzBwZgiWhvd_XyWpVAxT3MMeL_JMT_uL_W6u2Bmo5vPMMpO9fjipFKWB9zIqlahHugwv1CAH-q9La_M_XHluVViAYqdFnCzIQULH11BiRZpbqlSyeOTSRGpOQBnxvoiQ3TbwqNHmpYkphy8FgArpd8fMUwqPoQo51U5KEy7xs4-IiKatuRuPjbQZf43jtxK68cYJ5cNGaOdrCsRlbVk0Qq7dnvTXfHgSjKX_U7keZ1HA8zDTpvTSCXfPr8T3qx0WMQLp-6enC_2TOLtNNmHtKOwYG9MJhmUkq1_A0dinlkVh-0w=w328-h332-no";
+    ImageView babyinvarios10;
+    String urlbabyinvarios10 = "https://lh3.googleusercontent.com/wJ2SL3pD5xW1svQjdLvquuYSVc_kWxw8nVVMR7Q4T6x1FpxrIcZCJ2O6E3Y_apvwjORImbgg4UPWc1i1th8xCGb0vqiDwMLEYrm01U88flAizpIloewRzo1u3kJhiJFrVRZYT7oQMfbWS-rtYr7L_I8hM8z6wLC74WXTiZZ7zG7-BNGUuf_5NjgQ6zYenunoJSaR6N_u-VtMCU5iLfHxng9Ompe3_D8jV4ZxQp3CfER9Gh24grCaZaXCJ7Hn6Bf5lFJtpsHSsNL9Zl5OfuRhtzp0tA1SPGjOgDZ7bfTaJrllGqEB1iP5eVDzn5JFJrOGQoAPmWhIgqME7xkiaSNIVgfu-7mIRwuK0NqUqG46BRobhS_bvVppQvTb2Fjb6HxtTySv1-XXMzYi2p1-j1RgVp66i5tfJbWL0G8Z6e2KDrgQoHx-bucohg6rMHHOJkNaHYGCPYN5OtIlmyxB-h3NcKKwXs73XZ5EPuu4bsKh34tlYee0kqLe0cu8AEYhq3zeNR8G6Xau7MWaa51GwsoUPMmZ7oB2MsG_KeqvoUIwf-MxIYv-F56r6YCABWtad0c8T3qgCPkAkfto7-SHlvVeelwijQrhuxdty7N4IiWtRLLNAjSy0KZ1NrzjCSpslecaqWR0VdgdBZdL9oKa-gkn9dxaYVFcZE_PQREeDXERnPo=w328-h332-no";
+    ImageView babyinvarios11;
+    String urlbabyinvarios11 = "https://lh3.googleusercontent.com/tb7Wf-G7S7P6cccWJ_yytR76mJcEprkz0L8lEeAqwmzJyPFD_RyWl0NBoQ6FORd-lRCS4MZXLWM2PczVG9ZFNf52yazzGrI1ZfEaDOrxBKTyJE-GB2dRckSnooCjPJpEFUqcqXL5i3x1gObrXYb1CboVjG9BeAn6-ENHTMC86VSx-X-Hugzz4kU9CcTRWPV2K_n-DqMhF0tK-NzO28zStxss5xdpGyEUnRr9nTYVX_Qadw4UkqpdiPzuzry4mNGSg3s0RzcSCgs4mXtiw1AT37wKrlenpee1GPTLlCEzEPZBAS5Lx3wOLEaBCBPLcRHqiINqXKirPZY6vMSmiZo2LI1A4qJ0_T1zfyAqWy4Sp2WThYKvLzk_WzQ62IdLCWKOH9JSUjsVDhz_5vbQ-5vENo52qOzxO75J3qiIRwSBQKZU8LZ0sGs9V7DeWmK7UcApIp5iB7Zk3wnVAvnW9faLgiInn_JO6r1Z4-8oFsYFykQU-Q7Xj5oH-iYPNyL1m-NYOgiYi3CVZcYI5hriGnuda5kpDZZg2kTrCxr2ZkHcg8U__593EBBxhiEApAGHbgoHCs1zzFnQHkJptFI5tIcyG-g8lArmWII8pNKAyPZ6O1SLoabLP3L7qRijXJ6ClYgkdmj6JxqInUlqmw57A0eqkOaPSaFhtrzW6PsKKOowjdo=w328-h332-no";
+    ImageView babyinvarios12;
+    String urlbabyinvarios12 = "https://lh3.googleusercontent.com/5t3OKtiilkz4pm5QVSbLm6oYLJJSgPWPI3vpBIByIFDf3SSaeydaY11GtGONMFC_nVQcDu_-ialnfjY3tS-MGfAFVbhxnOsQRf1PkYOqPcG1X0cODtlmkHrEzsXKKh9xfobvzcnQbSCaEwcECZQ17Sil0EmpeKK6o2afuVn6TQDHOhUWKWvqn6a-EwaA6RjUx_5SWI59aRkGBOvRuruSDgIT00rxvm26De20zGNGWwbud60xUHrZqVJ8FMWp1B9q9zPXITNS8J2RyJwG3hBkGlIe4jSvh2sD9wIVUuUUdWPSJzaTlUO4yESpeepcyL0LchoBX6GrLFiF7_C-aE0T__fXgPU4cRt8_xCg11hWF8Qo37EwiZihcCAO5PxcymnCA-WqP1XaPJg4Yh70_W-L4FpagR9G8lq6zlC2cnXP07p2m38KYnm2zlUtWL7mq8hSpPv6qfo5bWbHa6PCGqbbJC01xw-E79Emx5kk0x8nWtSorF6K_sxNRIP1BRj6ZEIoRjhsx5cjqMZVKepVdIHDhP8oUmXSjhp1ETjoj1JZjJC56ejVPbPfe5uBjdz3iYhGTrvJUWhfCXdESoQx500t4l094ZvQ7-WPzlWh4SqabTC_iURDTrO-yAMoCIa99nTzMBRYiPynCblf0m1AGSuhTyj8o1WNVQJNQPpNuQTwCb8=w328-h332-no";
+    ImageView babyinvarios13;
+    String urlbabyinvarios13 = "https://lh3.googleusercontent.com/zuh3zreyVxY9ZHh0aXMnftuFxzQGsk09rVlRff3AdC6YD3pUbIrkbe1Jc5JCm5M8owSuqMZTepUBrGApSeJGw_gLf8gkBPW1opn4LmRKUIwbadNHlWZ090WrQtuDnndZcBZ64DXsFDbyV6JeAurYKPXq5qEvqJbYs-Cd6xFhhMW6OoM-qSHrbVcnKPsnKbP6dvAQeHLHkIOmVe9iDnxcbxw8Dg0gKjoT1z9FlNxqcqU0ed2kyhgdOF0Iilp66-7FybtaHOqfJD7xETMMOgknAIR9703RSFRAuzTqaIXBc5RT1CqWhwzNeBwAA265n7JZO52vJAoHY6IRbqw0oCSorRy-IMluzUVK1-2l47sI2riho5gA0to43MYxd_vlMNQvckH5gEiZKZ-Bmmu8RdellQnGf-qBy05lTflUlI__n3d0WBS3K9_oQyX6zBp5dOUgdTN7gL3FTDIga2_21tk1zzPsfNaIedf9Y45xqSBh2hvQVvfVlByqm9FMeRXaTr8yde_Gjcj4cuONTSOXWhzb3qL7IKtA0mtb1_IYEH_0pmdIdbvL8FKfOf1A3j42sDQr-0MOXxgtVcLXZpUL40ue7ncNFztpb5mL1rUdeMSxvZRJebM9oBXq3EKkFDvS6wbppc0hVpw8JaYNaW6DsMXrtKZdY-mHH9xVKvSAiYxWdz4=w328-h332-no";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -72,6 +92,11 @@ public class babyinvarios extends AppCompatActivity {
         preciobabyinvarios6 = (TextView)findViewById(R.id.preciobabyinvarios6);
         preciobabyinvarios7 = (TextView)findViewById(R.id.preciobabyinvarios7);
         preciobabyinvarios8 = (TextView)findViewById(R.id.preciobabyinvarios8);
+        preciobabyinvarios9 = (TextView)findViewById(R.id.preciobabyinvarios9);
+        preciobabyinvarios10 = (TextView)findViewById(R.id.preciobabyinvarios10);
+        preciobabyinvarios11 = (TextView)findViewById(R.id.preciobabyinvarios11);
+        preciobabyinvarios12 = (TextView)findViewById(R.id.preciobabyinvarios12);
+        preciobabyinvarios13 = (TextView)findViewById(R.id.preciobabyinvarios13);
 
         babyinvarios1 = (ImageView)findViewById(R.id.babyinvarios1);
         Picasso.with(this).load(urlbabyinvarios1).into(babyinvarios1);
@@ -96,6 +121,21 @@ public class babyinvarios extends AppCompatActivity {
 
         babyinvarios8 = (ImageView)findViewById(R.id.babyinvarios8);
         Picasso.with(this).load(urlbabyinvarios8).into(babyinvarios8);
+
+        babyinvarios9 = (ImageView)findViewById(R.id.babyinvarios9);
+        Picasso.with(this).load(urlbabyinvarios9).into(babyinvarios9);
+
+        babyinvarios10 = (ImageView)findViewById(R.id.babyinvarios10);
+        Picasso.with(this).load(urlbabyinvarios10).into(babyinvarios10);
+
+        babyinvarios11 = (ImageView)findViewById(R.id.babyinvarios11);
+        Picasso.with(this).load(urlbabyinvarios11).into(babyinvarios11);
+
+        babyinvarios12 = (ImageView)findViewById(R.id.babyinvarios12);
+        Picasso.with(this).load(urlbabyinvarios12).into(babyinvarios12);
+
+        babyinvarios13 = (ImageView)findViewById(R.id.babyinvarios13);
+        Picasso.with(this).load(urlbabyinvarios13).into(babyinvarios13);
 
         btnbabyinvarios1 = (Button)findViewById(R.id.btnbabyinvarios1);
         btnbabyinvarios1.setOnClickListener(new View.OnClickListener() {
@@ -169,6 +209,51 @@ public class babyinvarios extends AppCompatActivity {
             }
         });
 
+        btnbabyinvarios9 = (Button)findViewById(R.id.btnbabyinvarios9);
+        btnbabyinvarios9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnbabyinvarios9 = new Intent(babyinvarios.this, babyinvarios9.class);
+                startActivity(btnbabyinvarios9);
+            }
+        });
+
+        btnbabyinvarios10 = (Button)findViewById(R.id.btnbabyinvarios10);
+        btnbabyinvarios10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnbabyinvarios10 = new Intent(babyinvarios.this, babyinvarios10.class);
+                startActivity(btnbabyinvarios10);
+            }
+        });
+
+        btnbabyinvarios11 = (Button)findViewById(R.id.btnbabyinvarios11);
+        btnbabyinvarios11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnbabyinvarios11 = new Intent(babyinvarios.this, babyinvarios11.class);
+                startActivity(btnbabyinvarios11);
+            }
+        });
+
+        btnbabyinvarios12 = (Button)findViewById(R.id.btnbabyinvarios12);
+        btnbabyinvarios12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnbabyinvarios12 = new Intent(babyinvarios.this, babyinvarios12.class);
+                startActivity(btnbabyinvarios12);
+            }
+        });
+
+        btnbabyinvarios13 = (Button)findViewById(R.id.btnbabyinvarios13);
+        btnbabyinvarios13.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnbabyinvarios13 = new Intent(babyinvarios.this, babyinvarios13.class);
+                startActivity(btnbabyinvarios13);
+            }
+        });
+
         marca = (Button) findViewById(R.id.btnvmarca);
         marca.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -207,6 +292,16 @@ public class babyinvarios extends AppCompatActivity {
         String preciobabyinvarios7st;
         String urlprecio8 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=e08f4a83bde266f528748f53ad1ba9f3";
         String preciobabyinvarios8st;
+        String urlprecio9 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=675409f50684a85a2ed4214d2b7e8776#utm_source=28428&utm_medium=boton_de_pago&utm_campaign=web";
+        String preciobabyinvarios9st;
+        String urlprecio10 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=dbafe8bf743780e4b08a94e2d5635d6d#utm_source=28428&utm_medium=boton_de_pago&utm_campaign=web";
+        String preciobabyinvarios10st;
+        String urlprecio11 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=3fa687634ea3160f9f8da226b8f86f1f#utm_source=28428&utm_medium=boton_de_pago&utm_campaign=web";
+        String preciobabyinvarios11st;
+        String urlprecio12 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=169e5a774711788657e4668c86924bea#utm_source=28428&utm_medium=boton_de_pago&utm_campaign=web";
+        String preciobabyinvarios12st;
+        String urlprecio13 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=af66fa25ae89d7cf5987895121c57960#utm_source=28428&utm_medium=boton_de_pago&utm_campaign=web";
+        String preciobabyinvarios13st;
 
         @Override
         protected Void doInBackground(Void... voids) {
@@ -244,6 +339,26 @@ public class babyinvarios extends AppCompatActivity {
                 Elements metapropoerty8 = doc8.select("meta[property=\"og:description\"]");
                 preciobabyinvarios8st = metapropoerty8.attr("content");
 
+                Document doc9 = Jsoup.connect(urlprecio9).get();
+                Elements metapropoerty9 = doc9.select("meta[property=\"og:description\"]");
+                preciobabyinvarios9st = metapropoerty9.attr("content");
+
+                Document doc10 = Jsoup.connect(urlprecio10).get();
+                Elements metapropoerty10 = doc10.select("meta[property=\"og:description\"]");
+                preciobabyinvarios10st = metapropoerty10.attr("content");
+
+                Document doc11 = Jsoup.connect(urlprecio11).get();
+                Elements metapropoerty11 = doc11.select("meta[property=\"og:description\"]");
+                preciobabyinvarios11st = metapropoerty11.attr("content");
+
+                Document doc12 = Jsoup.connect(urlprecio12).get();
+                Elements metapropoerty12 = doc12.select("meta[property=\"og:description\"]");
+                preciobabyinvarios12st = metapropoerty12.attr("content");
+
+                Document doc13 = Jsoup.connect(urlprecio13).get();
+                Elements metapropoerty13 = doc13.select("meta[property=\"og:description\"]");
+                preciobabyinvarios13st = metapropoerty13.attr("content");
+
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -262,6 +377,11 @@ public class babyinvarios extends AppCompatActivity {
             preciobabyinvarios6.setText(preciobabyinvarios6st);
             preciobabyinvarios7.setText(preciobabyinvarios7st);
             preciobabyinvarios8.setText(preciobabyinvarios8st);
+            preciobabyinvarios9.setText(preciobabyinvarios9st);
+            preciobabyinvarios10.setText(preciobabyinvarios10st);
+            preciobabyinvarios11.setText(preciobabyinvarios11st);
+            preciobabyinvarios12.setText(preciobabyinvarios12st);
+            preciobabyinvarios13.setText(preciobabyinvarios13st);
         }
 
     }

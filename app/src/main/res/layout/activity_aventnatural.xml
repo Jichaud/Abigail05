@@ -422,6 +422,8 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@id/txtaventnatural8principal"
                     android:layout_toRightOf="@id/aventnatural8"
+                    android:ellipsize="end"
+                    android:maxLines="2"
                     android:paddingLeft="15dp"
                     android:text="@string/txtaventnatural8"
                     android:textColor="@color/grey"

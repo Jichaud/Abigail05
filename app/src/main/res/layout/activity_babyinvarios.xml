@@ -465,6 +465,271 @@
                     style="@style/Divider"
                     android:layout_below="@id/preciobabyinvarios8" />
 
+                <ImageView
+                    android:id="@+id/babyinvarios9"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view8"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtbabyinvarios9principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view8"
+                    android:layout_toRightOf="@id/babyinvarios9"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtbabyinvarios"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtbabyinvarios9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtbabyinvarios9principal"
+                    android:layout_toRightOf="@id/babyinvarios9"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtbabyinvarios9"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnbabyinvarios9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/view9"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/preciobabyinvarios9"
+                    style="@style/precio"
+                    android:layout_below="@id/babyinvarios9"/>
+
+                <View
+                    android:id="@+id/view9"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciobabyinvarios9" />
+
+                <ImageView
+                    android:id="@+id/babyinvarios10"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view9"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtbabyinvarios10principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view9"
+                    android:layout_toRightOf="@id/babyinvarios10"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtbabyinvarios"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtbabyinvarios10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtbabyinvarios10principal"
+                    android:layout_toRightOf="@id/babyinvarios10"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtbabyinvarios10"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnbabyinvarios10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/view10"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/preciobabyinvarios10"
+                    style="@style/precio"
+                    android:layout_below="@id/babyinvarios10"/>
+
+                <View
+                    android:id="@+id/view10"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciobabyinvarios10" />
+
+                <ImageView
+                    android:id="@+id/babyinvarios11"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view10"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtbabyinvarios11principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view10"
+                    android:layout_toRightOf="@id/babyinvarios11"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtbabyinvarios"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtbabyinvarios11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtbabyinvarios11principal"
+                    android:layout_toRightOf="@id/babyinvarios11"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtbabyinvarios11"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnbabyinvarios11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/view11"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/preciobabyinvarios11"
+                    style="@style/precio"
+                    android:layout_below="@id/babyinvarios11"/>
+
+                <View
+                    android:id="@+id/view11"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciobabyinvarios11" />
+
+                <ImageView
+                    android:id="@+id/babyinvarios12"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view11"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtbabyinvarios12principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view11"
+                    android:layout_toRightOf="@id/babyinvarios12"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtbabyinvarios"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtbabyinvarios12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtbabyinvarios12principal"
+                    android:layout_toRightOf="@id/babyinvarios12"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtbabyinvarios12"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnbabyinvarios12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/view12"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/preciobabyinvarios12"
+                    style="@style/precio"
+                    android:layout_below="@id/babyinvarios12"/>
+
+                <View
+                    android:id="@+id/view12"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciobabyinvarios12" />
+
+                <ImageView
+                    android:id="@+id/babyinvarios13"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view12"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtbabyinvarios13principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view12"
+                    android:layout_toRightOf="@id/babyinvarios13"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtbabyinvarios"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtbabyinvarios13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtbabyinvarios13principal"
+                    android:layout_toRightOf="@id/babyinvarios13"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtbabyinvarios13"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnbabyinvarios13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/view13"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/preciobabyinvarios13"
+                    style="@style/precio"
+                    android:layout_below="@id/babyinvarios13"/>
+
+                <View
+                    android:id="@+id/view13"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciobabyinvarios13" />
+
             </RelativeLayout>
 
         </LinearLayout>

@@ -1121,10 +1121,34 @@
         <activity
             android:name=".envio"
             android:label="Envíos"
-            android:parentActivityName=".contacto"/>
-        <activity android:name=".Chicco.chiccohigiene9"
+            android:parentActivityName=".contacto" />
+        <activity
+            android:name=".Chicco.chiccohigiene9"
             android:label="Chicco | Callbaby"
-            android:parentActivityName=".Chicco.chiccohigiene">
+            android:parentActivityName=".Chicco.chiccohigiene" />
+        <activity
+            android:name=".BabyInnovation.babyinvarios9"
+            android:label="BabyInnovation | Babero de silicona"
+            android:parentActivityName=".BabyInnovation.babyinvarios" />
+        <activity
+            android:name=".BabyInnovation.babyinvarios10"
+            android:label="BabyInnovation | Parasol enrollable"
+            android:parentActivityName=".BabyInnovation.babyinvarios" />
+        <activity
+            android:name=".BabyInnovation.babyinvarios11"
+            android:label="BabyInnovation | Sillita para bañar"
+            android:parentActivityName=".BabyInnovation.babyinvarios" />
+        <activity
+            android:name=".BabyInnovation.babyinvarios12"
+            android:label="BabyInnovation | Bowls"
+            android:parentActivityName=".BabyInnovation.babyinvarios" />
+        <activity
+            android:name=".BabyInnovation.babyinvarios13"
+            android:label="BabyInnovation | Set de cuchara y tenedor"
+            android:parentActivityName=".BabyInnovation.babyinvarios"/>
+        <activity android:name=".BabyInnovation.babyinseguridad4"
+            android:label="BabyInnovation | Traba ventana"
+            android:parentActivityName=".BabyInnovation.babyinseguridad">
 
         </activity>
     </application>

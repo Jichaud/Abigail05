@@ -27,15 +27,19 @@ public class babyinseguridad extends AppCompatActivity {
     Button btnbabyinseguridad1;
     Button btnbabyinseguridad2;
     Button btnbabyinseguridad3;
+    Button btnbabyinseguridad4;
     TextView preciobabyinseguridad1;
     TextView preciobabyinseguridad2;
     TextView preciobabyinseguridad3;
+    TextView preciobabyinseguridad4;
     ImageView babyinseguridad1;
     String urlbabyinseguridad1 = "https://lh3.googleusercontent.com/9rp616C5Sv4vPZHysWxIRYvBQ8k9TYrgIEJN6OOp3tQjgRbCDrxRSxWl5UT5ZcoN8YLMw7kgiUVukoTydxDBmHNdjtkO30CaoLi8SDeKw0J01ty3eoJ5rYL329yDn7fu32r7KXZkMihRvOm383fCWfqZYvdmsR8yV2WvzAMoHCEWDhLdTrpQ_nXiyW7QZ89CBb7Cp9AuHGrVEvQn6A9HeJiyESY_XAi9nU-wJHqY3JL7N_Sk5UUhOL0wOD6j-P-vCWZZj00iMJDF-Dsn9eTKE46NNDKIrwIDP3vslIz5FYsjulj5WGnR4kd4q1wJhiumXnytBz3YI1Za37jEcmDkuYIY6IGT6KD5ayePR1_e01Sx4_okDdcdVLO9d6guQTKY1pQ21AThg7F7YS-g3H9mEbPnxYQ7LdG5kl_-QlUNE-diXxNf7ktNKZiplBK7C1D4z6PqPS6ZACNxeY66gxAOUmVDJh58_MPxxlNxke9y5dkxOExYXx-fOHTQTM4Hi96Ir30jrl0UUkumdVPjMCq-av_zfl4r11q9tGMh-2-0np_VikfHs2bSMRdpC9_h4zo09xQne-eSfLyGJDn-JAcE3MU8uzQB0_NQsa5De13zkIOnkb5wJQ=s320-no";
     ImageView babyinseguridad2;
     String urlbabyinseguridad2 = "https://lh3.googleusercontent.com/tv9oREAGGe2AwyJSvzG1BEEioBMMDlZfcsj6HVOfVFMCUSF7MN1kVKcvlHOj2J2wPvND8yPExGl4agjp7cPpAUEm_cifSn_c6UzaRAVb8rydO9Vg4QCTFbRoiHNf7Y_FYG1vfAjJS2zti_Ts2IkozfpnPWrZ1Hj_Qtz7kRnBlio3kfEU0Rw3z1-tBhd9R34ir-SqVUpEhqzD9ZPpCSCV_H9OlQu0n8oWO8ILrIBKRS2wxH9glKbvDDi4Ok-SYR0K33x1F4m32MH5K-hrXkazPyQDhr46wt0QZ7DlrbjMkUTmTAeColqtRiin8arRg-SDC45_1IGR2hiTRmdTFLhXQpxbnGgoUKuEFdP02_KxFvSG1MbG4l9u2ZaUeg4-FCI1lOsASbB9wGfGztKE3H5R4XSUeJl9X9K_oHpqxODpYT7r4Ap1Yt65L1K_SDDMwDkFE5wqPl7h1gxGW0VC6ILyvgA3JBnU1NQWHwFNnTLN3i-6Ooy86JwcB3hudK87y10JtCw_SQ8IvjtdabgYNbbB3mKG_4wfjJUbAWO3CDdTlWciAflMyhMh5l2ondBgg4vrQ_GdM3nGBseDtwHq4rgAgvNvgCMUUAIIwrB9JhWmaJFsja6XDQ=s320-no";
     ImageView babyinseguridad3;
     String urlbabyinseguridad3 = "https://lh3.googleusercontent.com/UPo9pFMIJ0sErZ9PMT0mX9BgK6SgqLeN-sl4YY8EkX11M2ZZ7boKut0JurOm4tyQI32SZxuJLCw0X0f4GimERLUEkoRY3YG8sRw9GkFUXknkrOp7dD-K8v9NHZhk7tdjmEgWbM_82gmU026nXXHRJcKZMsgvakqsWQAMXi8ODEoySZWpfjk4i3uJEY1vWl_mPnAQ_OFZ2QmD8Ab6FPjk0ynoPnBslTiN495tU3a5zKyEsVfXeyqUFbaCzE_zqFRRA8Y0MoHQ99YGR7eqOIwXWwbIdSJKNpIm-uL-EGHtTofjydLeV98y8Otm-5roIxOXkt0BJA_LlFpXblKps4cSA_Ax4tMamKeD-fgqpXqUVNJprLyWEwYG4MyrnuAbGLodQbVCBOl9d4V48dIpBn6QgAwWGxpQVo7vmLO96hjskKwlhshWQ1WFHSsLssU5fgc0BSoL9iZzGc1JZ3735YZWKolpbWCjBVjaw0iXX4-EOBCcE2Exny7jxFf3bteeOVQT8kCZpxiNBOwsFoei1pHbGKd7CYtUwNODx7GpiELa7oTWFSebv6vvQMFAdQFG37QjvEd34PDNRl9X1b-arMhLqkKDw6K4xAIqgcUFGin0wuHoeEHgMA=s320-no";
+    ImageView babyinseguridad4;
+    String urlbabyinseguridad4 = "https://lh3.googleusercontent.com/KswwpCIPXhQrmWj4HA0njDHcBaPG1Rw4KibJ0jE80aR6-fmFR1N3FopwIvG7ETVoH33Py_JYTGY0scKliydcF3BP-yjReGcRP_FgRdwatP70NAJRYv9qBxJ09xV2GEabSBA9jxn9yeehUHbA_Nw19NEGxwfc7oH5865JvSp6tRp59vdWwME4lEqfM9NB6iWoT09c2g193r8YnvONpSvYTQrKgODAxAzuMX2Bsz4O6KEFYLgN6nQoqHO9nKVr9TvgZ1TyQSCL2qeCMWBx47aAgnwH7mTC9c8lYzSSMTgQrgNq4iUtJlVWE59is1N2oL6dRlqlUpuPAU_nQN39nXywdVzPlM4Et4S5OoAY0V4bm1Ne5AUNyITbGRI81kaRhTOSkO9qTIDcy1HkHd7dcoeN0Ip_xplWaaAhWy4tKNa82kA_k-7fT8v5RdRlYNm2kPEi7ybrvyQMLW1aocyi11ecUaRpeCLqUzPFHp4VeFrD1esG0hwo7oSI0SL9biL_3k2ivIh3AV9xS64iWDWFI7Mz_p5kBO9-pEmROTYPsRWeeRhjQRLWprWU3GewNu6xMRFGlb2x4AZTpToQiVmKY7Dpar-A4WLepPLepUZNcy2Ghe7dQ6pju1XFOXdVEAoxnledg5N3sMehYq-XAc-9FfoIyQc0cIWdrB-asU7ru00Xsyg=w328-h332-no";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,6 +51,7 @@ public class babyinseguridad extends AppCompatActivity {
         preciobabyinseguridad1 = (TextView)findViewById(R.id.preciobabyinseguridad1);
         preciobabyinseguridad2 = (TextView)findViewById(R.id.preciobabyinseguridad2);
         preciobabyinseguridad3 = (TextView)findViewById(R.id.preciobabyinseguridad3);
+        preciobabyinseguridad4 = (TextView)findViewById(R.id.preciobabyinseguridad4);
 
         babyinseguridad1 = (ImageView)findViewById(R.id.babyinseguridad1);
         Picasso.with(this).load(urlbabyinseguridad1).into(babyinseguridad1);
@@ -56,6 +61,9 @@ public class babyinseguridad extends AppCompatActivity {
 
         babyinseguridad3 = (ImageView)findViewById(R.id.babyinseguridad3);
         Picasso.with(this).load(urlbabyinseguridad3).into(babyinseguridad3);
+
+        babyinseguridad4 = (ImageView)findViewById(R.id.babyinseguridad4);
+        Picasso.with(this).load(urlbabyinseguridad4).into(babyinseguridad4);
 
         btnbabyinseguridad1 = (Button)findViewById(R.id.btnbabyinseguridad1);
         btnbabyinseguridad1.setOnClickListener(new View.OnClickListener() {
@@ -81,6 +89,15 @@ public class babyinseguridad extends AppCompatActivity {
             public void onClick(View view) {
                 Intent btnbabyinseguridad3 = new Intent(babyinseguridad.this, babyinseguridad3.class);
                 startActivity(btnbabyinseguridad3);
+            }
+        });
+
+        btnbabyinseguridad4 = (Button)findViewById(R.id.btnbabyinseguridad4);
+        btnbabyinseguridad4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnbabyinseguridad4 = new Intent(babyinseguridad.this, babyinseguridad4.class);
+                startActivity(btnbabyinseguridad4);
             }
         });
 
@@ -112,6 +129,8 @@ public class babyinseguridad extends AppCompatActivity {
         String preciobabyinseguridad2st;
         String urlprecio3 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=7e63a92406afbb6fb668df60adf9967c";
         String preciobabyinseguridad3st;
+        String urlprecio4 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=326e3689365586a3cb16c00c86eabfba#utm_source=28428&utm_medium=boton_de_pago&utm_campaign=web";
+        String preciobabyinseguridad4st;
 
         @Override
         protected Void doInBackground(Void... voids) {
@@ -129,6 +148,10 @@ public class babyinseguridad extends AppCompatActivity {
                 Elements metapropoerty3 = doc3.select("meta[property=\"og:description\"]");
                 preciobabyinseguridad3st = metapropoerty3.attr("content");
 
+                Document doc4 = Jsoup.connect(urlprecio4).get();
+                Elements metapropoerty4 = doc4.select("meta[property=\"og:description\"]");
+                preciobabyinseguridad4st = metapropoerty4.attr("content");
+
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -142,6 +165,7 @@ public class babyinseguridad extends AppCompatActivity {
             preciobabyinseguridad1.setText(preciobabyinseguridad1st);
             preciobabyinseguridad2.setText(preciobabyinseguridad2st);
             preciobabyinseguridad3.setText(preciobabyinseguridad3st);
+            preciobabyinseguridad4.setText(preciobabyinseguridad4st);
         }
 
     }

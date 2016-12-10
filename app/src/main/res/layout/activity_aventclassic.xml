@@ -473,6 +473,8 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@id/txtaventclassic9principal"
                     android:layout_toRightOf="@id/aventclassic9"
+                    android:ellipsize="end"
+                    android:maxLines="2"
                     android:paddingLeft="15dp"
                     android:text="@string/txtaventclassic9"
                     android:textColor="@color/grey"

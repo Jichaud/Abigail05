@@ -16,8 +16,8 @@
     <string name="txtweb">en la web</string>
     <string name="txtdireccion">Av. Asamblea 364 local 1 (C.P. 1424) | Barrio Parque Chacabuco | C.A.B.A.</string>
     <string name="txtelefono">011 4921 9301</string>
-    <string name="txthorarionormal">lunes a viernes 9:30 hs. a 14 hs. | 17 hs. a 19:30 hs.</string>
-    <string name="txthorariosabado">sábados 9:30 hs. a 14 hs.</string>
+    <string name="txthorarionormal">Lunes a Viernes 9:30 hs. a 14 hs. | 17 hs. a 19:30 hs.</string>
+    <string name="txthorariosabado">Sábados 9:30 hs. a 14 hs.</string>
     <string name="txthorariocerrado">Domingos y feriados cerrado</string>
     <string name="txthistoria">Historia\n
 ABIGAIL05 nace en el año 2005 como un proyecto familiar. Gracias al esfuerzo, compromiso, dedicacion y a todos ustedes que han confiado en nosotros al adquirir nuestros productos, vamos creciendo dia a dia.\n\n
@@ -305,11 +305,17 @@ Muchas gracias!</string>
     <string name="txtbabyinvarios6">Baby Innovation set de 3 coloridos platos antideslizantes</string>
     <string name="txtbabyinvarios7">Baby Innovation chupete mordillo. Disponible en celeste y rosa</string>
     <string name="txtbabyinvarios8">Baby Innovation dosificador de medicina</string>
+    <string name="txtbabyinvarios9">Baby Innovation babero de silicona con bolsillo contenedor</string>
+    <string name="txtbabyinvarios10">Baby Innovation parasol enrollable con sistema retráctil, sopapas y largo ajustable</string>
+    <string name="txtbabyinvarios11">Baby Innovation sillita para bañar a bebes desde 0 a 8 meses</string>
+    <string name="txtbabyinvarios12">Baby Innovation cinco coloridos bowls apilables de cavidad amplia y base segura</string>
+    <string name="txtbabyinvarios13">Baby Innovation set de cuchara y tenedor con estuche para guardar y transportar</string>
     <string name="txtbabyinseguridad">Accesorios de seguridad</string>
     <string name="txtbabyinseguridaddesc">Trabas internas, externas y multipropósito</string>
     <string name="txtbabyinseguridad1">Baby Innovation traba cajones externa</string>
     <string name="txtbabyinseguridad2">Baby Innovation traba multipropósito</string>
     <string name="txtbabyinseguridad3">Baby Innovation traba cajones interna</string>
+    <string name="txtbabyinseguridad4">Baby Innovation traba inmovilizadora de ventanas</string>
 
     NowyBaby
     <string name="txtnowymarca">Nowybaby</string>

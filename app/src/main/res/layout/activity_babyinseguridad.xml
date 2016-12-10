@@ -200,6 +200,59 @@
                     style="@style/Divider"
                     android:layout_below="@id/preciobabyinseguridad3" />
 
+                <ImageView
+                    android:id="@+id/babyinseguridad4"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view3"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/txtbabyinseguridad4principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view3"
+                    android:layout_toRightOf="@id/babyinseguridad4"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtbabyinseguridad"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtbabyinseguridad4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtbabyinseguridad4principal"
+                    android:layout_toRightOf="@id/babyinseguridad4"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtbabyinseguridad4"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnbabyinseguridad4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/view4"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/preciobabyinseguridad4"
+                    style="@style/precio"
+                    android:layout_below="@id/babyinseguridad4"/>
+
+                <View
+                    android:id="@+id/view4"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciobabyinseguridad4" />
+
             </RelativeLayout>
 
         </LinearLayout>
