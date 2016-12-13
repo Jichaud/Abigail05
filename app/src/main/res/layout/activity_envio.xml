@@ -27,7 +27,7 @@
                 android:background="@drawable/rounded"
                 android:fontFamily="sans-serif-light"
                 android:padding="6dp"
-                android:text="¿Adónde llegamos?"
+                android:text="¿A dónde llegamos?"
                 android:textColor="@color/cardview_light_background"
                 android:textSize="15sp"
                 android:textStyle="bold"/>
@@ -37,7 +37,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:fontFamily="sans-serif-light"
-                android:text="A todo el país"
+                android:text="A todo el país (excepto Tierra del Fuego)"
                 android:textSize="16sp"/>
 
             <TextView
