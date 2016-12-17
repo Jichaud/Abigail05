@@ -12,21 +12,11 @@
 
     <Button
         android:id="@+id/btnhome"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:text="@string/verhome"
-        android:textAllCaps="false"/>
+        style="@style/btnhome" />
 
     <Button
         android:id="@+id/btnvmarca"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:text="@string/verxmarca"
-        android:textAllCaps="false"/>
+        style="@style/btnmarca" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -47,7 +37,7 @@
                     android:id="@+id/nukchupetes1"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:padding="2dp"/>
+                    android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtnukchupetes1principal"
@@ -87,7 +77,7 @@
                 <TextView
                     android:id="@+id/precionukchupetes1"
                     style="@style/precio"
-                    android:layout_below="@id/nukchupetes1"/>
+                    android:layout_below="@id/nukchupetes1" />
 
                 <View
                     android:id="@+id/view1"
@@ -99,7 +89,7 @@
                     android:layout_width="90dp"
                     android:layout_height="80dp"
                     android:layout_below="@id/view1"
-                    android:padding="2dp"/>
+                    android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtnukchupetes2principal"
@@ -140,7 +130,7 @@
                 <TextView
                     android:id="@+id/precionukchupetes2"
                     style="@style/precio"
-                    android:layout_below="@id/nukchupetes2"/>
+                    android:layout_below="@id/nukchupetes2" />
 
                 <View
                     android:id="@+id/view2"
@@ -152,7 +142,7 @@
                     android:layout_width="90dp"
                     android:layout_height="80dp"
                     android:layout_below="@id/view2"
-                    android:padding="2dp"/>
+                    android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtnukchupetes3principal"
@@ -193,7 +183,7 @@
                 <TextView
                     android:id="@+id/precionukchupetes3"
                     style="@style/precio"
-                    android:layout_below="@id/nukchupetes3"/>
+                    android:layout_below="@id/nukchupetes3" />
 
                 <View
                     android:id="@+id/view3"
@@ -205,7 +195,7 @@
                     android:layout_width="90dp"
                     android:layout_height="80dp"
                     android:layout_below="@id/view3"
-                    android:padding="2dp"/>
+                    android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtnukchupetes4principal"
@@ -246,7 +236,7 @@
                 <TextView
                     android:id="@+id/precionukchupetes4"
                     style="@style/precio"
-                    android:layout_below="@id/nukchupetes4"/>
+                    android:layout_below="@id/nukchupetes4" />
 
                 <View
                     android:id="@+id/view4"
@@ -258,7 +248,7 @@
                     android:layout_width="90dp"
                     android:layout_height="80dp"
                     android:layout_below="@id/view4"
-                    android:padding="2dp"/>
+                    android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtnukchupetes5principal"
@@ -299,7 +289,7 @@
                 <TextView
                     android:id="@+id/precionukchupetes5"
                     style="@style/precio"
-                    android:layout_below="@id/nukchupetes5"/>
+                    android:layout_below="@id/nukchupetes5" />
 
                 <View
                     android:id="@+id/view5"
@@ -311,7 +301,7 @@
                     android:layout_width="90dp"
                     android:layout_height="80dp"
                     android:layout_below="@id/view5"
-                    android:padding="2dp"/>
+                    android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtnukchupetes6principal"
@@ -352,7 +342,7 @@
                 <TextView
                     android:id="@+id/precionukchupetes6"
                     style="@style/precio"
-                    android:layout_below="@id/nukchupetes6"/>
+                    android:layout_below="@id/nukchupetes6" />
 
                 <View
                     android:id="@+id/view6"
@@ -364,7 +354,7 @@
                     android:layout_width="90dp"
                     android:layout_height="80dp"
                     android:layout_below="@id/view6"
-                    android:padding="2dp"/>
+                    android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtnukchupetes7principal"
@@ -407,7 +397,7 @@
                 <TextView
                     android:id="@+id/precionukchupetes7"
                     style="@style/precio"
-                    android:layout_below="@id/nukchupetes7"/>
+                    android:layout_below="@id/nukchupetes7" />
 
                 <View
                     android:id="@+id/view7"

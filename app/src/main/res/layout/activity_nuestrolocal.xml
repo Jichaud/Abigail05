@@ -12,21 +12,11 @@
 
     <Button
         android:id="@+id/btnhome"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:text="@string/verhome"
-        android:textAllCaps="false"/>
+        style="@style/btnhome" />
 
     <Button
         android:id="@+id/btnvmarca"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:text="@string/verxmarca"
-        android:textAllCaps="false"/>
+        style="@style/btnmarca" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -47,14 +37,14 @@
                     android:id="@+id/mapa"
                     android:layout_width="match_parent"
                     android:layout_height="250dp"
-                    android:padding="8dp"/>
+                    android:padding="8dp" />
 
                 <ImageView
                     android:id="@+id/mapaicon"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_below="@id/mapa"
-                    android:padding="8dp"/>
+                    android:padding="8dp" />
 
                 <TextView
                     android:id="@+id/txtlocal"
@@ -79,7 +69,7 @@
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_below="@id/view1"
-                    android:padding="8dp"/>
+                    android:padding="8dp" />
 
                 <TextView
                     android:id="@+id/txtelefono"
@@ -104,7 +94,7 @@
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_below="@id/view2"
-                    android:padding="8dp"/>
+                    android:padding="8dp" />
 
                 <TextView
                     android:id="@+id/txthorarionormal"
@@ -118,37 +108,37 @@
                     android:textAlignment="center"
                     android:textSize="20sp" />
 
-            <TextView
-                android:id="@+id/txthorariosabado"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/txthorarionormal"
-                android:layout_marginTop="8dp"
-                android:layout_toRightOf="@id/timeicon"
-                android:fontFamily="sans-serif-light"
-                android:text="@string/txthorariosabado"
-                android:textAlignment="center"
-                android:textSize="20sp" />
+                <TextView
+                    android:id="@+id/txthorariosabado"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txthorarionormal"
+                    android:layout_marginTop="8dp"
+                    android:layout_toRightOf="@id/timeicon"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/txthorariosabado"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
 
-            <TextView
-                android:id="@+id/txthorariocerrado"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/txthorariosabado"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="8dp"
-                android:layout_toRightOf="@id/timeicon"
-                android:fontFamily="sans-serif-light"
-                android:text="@string/txthorariocerrado"
-                android:textAlignment="center"
-                android:textSize="20sp" />
+                <TextView
+                    android:id="@+id/txthorariocerrado"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txthorariosabado"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_toRightOf="@id/timeicon"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/txthorariocerrado"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
 
-            <View
-                android:id="@+id/view3"
-                style="@style/Divider"
-                android:layout_below="@id/txthorariocerrado" />
+                <View
+                    android:id="@+id/view3"
+                    style="@style/Divider"
+                    android:layout_below="@id/txthorariocerrado" />
 
-            <Button
+                <Button
                     android:id="@+id/vermapa"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

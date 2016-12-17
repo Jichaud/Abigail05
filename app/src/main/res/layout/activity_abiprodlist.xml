@@ -12,21 +12,11 @@
 
     <Button
         android:id="@+id/btnhome"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:text="@string/verhome"
-        android:textAllCaps="false"/>
+        style="@style/btnhome" />
 
     <Button
         android:id="@+id/btnvmarca"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:text="@string/verxmarca"
-        android:textAllCaps="false"/>
+        style="@style/btnmarca" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -47,39 +37,25 @@
                     android:id="@+id/lista1img"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:padding="8dp"/>
+                    android:padding="8dp" />
 
                 <TextView
                     android:id="@+id/txtlista1principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_toRightOf="@id/lista1img"
-                    android:fontFamily="sans-serif-light"
-                    android:text="@string/txtlista1"
-                    android:textSize="20sp" />
+                    android:text="@string/txtlista1" />
 
                 <TextView
                     android:id="@+id/lista1txtdesc"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtlista1principal"
-                    android:layout_marginStart="100dp"
-                    android:text="@string/txtlista1desc"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:layout_toRightOf="@id/lista1img"
+                    android:text="@string/txtlista1desc" />
 
                 <Button
                     android:id="@+id/btnlista1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_below="@+id/lista1txtdesc"
-                    android:layout_marginBottom="4dp"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_below="@+id/lista1txtdesc" />
 
                 <View
                     android:id="@+id/view1"
@@ -90,42 +66,26 @@
                     android:id="@+id/lista2img"
                     android:layout_width="90dp"
                     android:layout_height="100dp"
-                    android:layout_below="@id/view1"/>
+                    android:layout_below="@id/view1" />
 
                 <TextView
                     android:id="@+id/txtlista2principal"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view1"
                     android:layout_toRightOf="@id/lista2img"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtlista2"
-                    android:textSize="20sp" />
+                    android:text="@string/txtlista2" />
 
                 <TextView
                     android:id="@+id/lista2txtdesc"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtlista2principal"
                     android:layout_toRightOf="@id/lista2img"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtlista2desc"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtlista2desc" />
 
                 <Button
                     android:id="@+id/btnlista2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_below="@+id/lista2txtdesc"
-                    android:layout_marginBottom="4dp"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="ver+"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_below="@+id/lista2txtdesc" />
 
                 <View
                     android:id="@+id/view2"
@@ -136,42 +96,26 @@
                     android:id="@+id/lista3img"
                     android:layout_width="90dp"
                     android:layout_height="100dp"
-                    android:layout_below="@id/view2"/>
+                    android:layout_below="@id/view2" />
 
                 <TextView
                     android:id="@+id/txtlista3principal"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view2"
                     android:layout_toRightOf="@id/lista3img"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtlista3"
-                    android:textSize="20sp" />
+                    android:text="@string/txtlista3" />
 
                 <TextView
                     android:id="@+id/lista3txtdesc"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtlista3principal"
                     android:layout_toRightOf="@id/lista3img"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtlista3desc"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtlista3desc" />
 
                 <Button
                     android:id="@+id/btnlista3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_below="@+id/lista3txtdesc"
-                    android:layout_marginBottom="4dp"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="ver+"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_below="@+id/lista3txtdesc" />
 
                 <View
                     android:id="@+id/view3"
@@ -182,42 +126,26 @@
                     android:id="@+id/almohada1"
                     android:layout_width="90dp"
                     android:layout_height="100dp"
-                    android:layout_below="@id/view3"/>
+                    android:layout_below="@id/view3" />
 
                 <TextView
                     android:id="@+id/txtalmohada1"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view3"
                     android:layout_toRightOf="@id/almohada1"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtalmohada1"
-                    android:textSize="20sp" />
+                    android:text="@string/txtalmohada1" />
 
                 <TextView
                     android:id="@+id/txtalmohada1desc"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtalmohada1"
                     android:layout_toRightOf="@id/almohada1"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtalmohada1desc"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtalmohada1desc" />
 
                 <Button
                     android:id="@+id/btnalmohada1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_below="@+id/txtalmohada1desc"
-                    android:layout_marginBottom="4dp"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="ver+"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_below="@+id/txtalmohada1desc" />
 
                 <View
                     android:id="@+id/view4"
@@ -228,42 +156,26 @@
                     android:id="@+id/fular1"
                     android:layout_width="90dp"
                     android:layout_height="100dp"
-                    android:layout_below="@id/view4"/>
+                    android:layout_below="@id/view4" />
 
                 <TextView
                     android:id="@+id/txtfular1"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view4"
                     android:layout_toRightOf="@id/fular1"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtfular1"
-                    android:textSize="20sp" />
+                    android:text="@string/txtfular1" />
 
                 <TextView
                     android:id="@+id/txtfular1desc"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtfular1"
                     android:layout_toRightOf="@id/fular1"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtfular1desc"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtfular1desc" />
 
                 <Button
                     android:id="@+id/btnfular1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_below="@+id/txtfular1desc"
-                    android:layout_marginBottom="4dp"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="ver+"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_below="@+id/txtfular1desc" />
 
                 <View
                     android:id="@+id/view5"
@@ -274,44 +186,26 @@
                     android:id="@+id/manta1"
                     android:layout_width="90dp"
                     android:layout_height="100dp"
-                    android:layout_below="@id/view5"/>
+                    android:layout_below="@id/view5" />
 
                 <TextView
                     android:id="@+id/txtmanta1"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view5"
                     android:layout_toRightOf="@id/manta1"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtmanta1"
-                    android:textSize="20sp" />
+                    android:text="@string/txtmanta1" />
 
                 <TextView
                     android:id="@+id/txtmanta1desc"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtmanta1"
                     android:layout_toRightOf="@id/manta1"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtmanta1desc"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtmanta1desc" />
 
                 <Button
                     android:id="@+id/btnmanta1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_below="@+id/txtmanta1desc"
-                    android:layout_marginBottom="4dp"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="ver+"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_below="@+id/txtmanta1desc" />
 
                 <View
                     android:id="@+id/view6"

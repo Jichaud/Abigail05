@@ -12,21 +12,11 @@
 
     <Button
         android:id="@+id/btnhome"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:text="@string/verhome"
-        android:textAllCaps="false"/>
+        style="@style/btnhome" />
 
     <Button
         android:id="@+id/btnvmarca"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:text="@string/verxmarca"
-        android:textAllCaps="false"/>
+        style="@style/btnmarca" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -47,7 +37,7 @@
                     android:id="@+id/mibesbaberos1"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:padding="2dp"/>
+                    android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtmibesbaberos1principal"
@@ -87,7 +77,7 @@
                 <TextView
                     android:id="@+id/preciomibesbaberos1"
                     style="@style/precio"
-                    android:layout_below="@id/mibesbaberos1"/>
+                    android:layout_below="@id/mibesbaberos1" />
 
                 <View
                     android:id="@+id/view1"
@@ -99,7 +89,7 @@
                     android:layout_width="90dp"
                     android:layout_height="80dp"
                     android:layout_below="@id/view1"
-                    android:padding="2dp"/>
+                    android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtmibesbaberos2principal"
@@ -140,7 +130,7 @@
                 <TextView
                     android:id="@+id/preciomibesbaberos2"
                     style="@style/precio"
-                    android:layout_below="@id/mibesbaberos2"/>
+                    android:layout_below="@id/mibesbaberos2" />
 
                 <View
                     android:id="@+id/view2"
@@ -152,7 +142,7 @@
                     android:layout_width="90dp"
                     android:layout_height="80dp"
                     android:layout_below="@id/view2"
-                    android:padding="2dp"/>
+                    android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtmibesbaberos3principal"
@@ -193,7 +183,7 @@
                 <TextView
                     android:id="@+id/preciomibesbaberos3"
                     style="@style/precio"
-                    android:layout_below="@id/mibesbaberos3"/>
+                    android:layout_below="@id/mibesbaberos3" />
 
                 <View
                     android:id="@+id/view3"
@@ -205,7 +195,7 @@
                     android:layout_width="90dp"
                     android:layout_height="80dp"
                     android:layout_below="@id/view3"
-                    android:padding="2dp"/>
+                    android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtmibesbaberos4principal"
@@ -246,7 +236,7 @@
                 <TextView
                     android:id="@+id/preciomibesbaberos4"
                     style="@style/precio"
-                    android:layout_below="@id/mibesbaberos4"/>
+                    android:layout_below="@id/mibesbaberos4" />
 
                 <View
                     android:id="@+id/view4"
@@ -258,7 +248,7 @@
                     android:layout_width="90dp"
                     android:layout_height="80dp"
                     android:layout_below="@id/view4"
-                    android:padding="2dp"/>
+                    android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtmibesbaberos5principal"
@@ -299,7 +289,7 @@
                 <TextView
                     android:id="@+id/preciomibesbaberos5"
                     style="@style/precio"
-                    android:layout_below="@id/mibesbaberos5"/>
+                    android:layout_below="@id/mibesbaberos5" />
 
                 <View
                     android:id="@+id/view5"
@@ -311,7 +301,7 @@
                     android:layout_width="90dp"
                     android:layout_height="80dp"
                     android:layout_below="@id/view5"
-                    android:padding="2dp"/>
+                    android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtmibesbaberos6principal"
@@ -352,7 +342,7 @@
                 <TextView
                     android:id="@+id/preciomibesbaberos6"
                     style="@style/precio"
-                    android:layout_below="@id/mibesbaberos6"/>
+                    android:layout_below="@id/mibesbaberos6" />
 
                 <View
                     android:id="@+id/view6"
@@ -364,7 +354,7 @@
                     android:layout_width="90dp"
                     android:layout_height="80dp"
                     android:layout_below="@id/view6"
-                    android:padding="2dp"/>
+                    android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtmibesbaberos7principal"
@@ -407,7 +397,7 @@
                 <TextView
                     android:id="@+id/preciomibesbaberos7"
                     style="@style/precio"
-                    android:layout_below="@id/mibesbaberos7"/>
+                    android:layout_below="@id/mibesbaberos7" />
 
                 <View
                     android:id="@+id/view7"
@@ -419,7 +409,7 @@
                     android:layout_width="90dp"
                     android:layout_height="80dp"
                     android:layout_below="@id/view7"
-                    android:padding="2dp"/>
+                    android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtmibesbaberos8principal"
@@ -460,7 +450,7 @@
                 <TextView
                     android:id="@+id/preciomibesbaberos8"
                     style="@style/precio"
-                    android:layout_below="@id/mibesbaberos8"/>
+                    android:layout_below="@id/mibesbaberos8" />
 
                 <View
                     android:id="@+id/view8"

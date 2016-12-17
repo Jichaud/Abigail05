@@ -21,6 +21,11 @@ import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 
 import java.io.IOException;
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
+import java.util.Formatter;
+import java.util.Locale;
+import java.util.StringTokenizer;
 
 public class colchon1 extends AppCompatActivity {
 
@@ -172,7 +177,7 @@ public class colchon1 extends AppCompatActivity {
 
     public class preciocolchon1Async extends AsyncTask<Void, Void, Void> {
 
-        String urlprecio1 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=d71eaa2befd5ed119ea3bf37a813bdad";
+        String urlprecio1 = "https://www.mercadopago.com/checkout/start?pref_id=79059265-b393bfc6-2ec4-464c-951c-7d4c9a87145f";
         String preciocolchon1st;
 
         @Override
@@ -180,8 +185,8 @@ public class colchon1 extends AppCompatActivity {
 
             try {
                 Document doc1 = Jsoup.connect(urlprecio1).get();
-                Elements metapropoerty1 = doc1.select("meta[property=\"og:description\"]");
-                preciocolchon1st = metapropoerty1.attr("content");
+                Elements metapropoerty1 = doc1.select("input[id=\"total_paid_amount\"]");
+                preciocolchon1st = metapropoerty1.attr("value");
 
             } catch (IOException e) {
                 e.printStackTrace();
@@ -194,6 +199,7 @@ public class colchon1 extends AppCompatActivity {
         protected void onPostExecute(Void aVoid) {
             super.onPostExecute(aVoid);
             preciocolchon1.setText(preciocolchon1st);
+
         }
 
     }

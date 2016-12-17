@@ -12,21 +12,11 @@
 
     <Button
         android:id="@+id/btnhome"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:text="@string/verhome"
-        android:textAllCaps="false"/>
+        style="@style/btnhome" />
 
     <Button
         android:id="@+id/btnvmarca"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:text="@string/verxmarca"
-        android:textAllCaps="false"/>
+        style="@style/btnmarca" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -47,14 +37,14 @@
                     android:id="@+id/webpageicon"
                     android:layout_width="52dp"
                     android:layout_height="52dp"
-                    android:layout_marginLeft="6dp"/>
+                    android:layout_marginLeft="6dp" />
 
                 <TextView
                     android:id="@+id/txtwebpage"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
                     android:layout_centerHorizontal="true"
+                    android:layout_margin="10dp"
                     android:background="@drawable/rounded"
                     android:backgroundTint="@color/pink"
                     android:fontFamily="sans-serif"
@@ -63,7 +53,7 @@
                     android:paddingRight="24dp"
                     android:paddingTop="6dp"
                     android:text="@string/txtwebpage"
-                    android:textSize="16sp"/>
+                    android:textSize="16sp" />
 
                 <Button
                     android:id="@+id/btnlista1"
@@ -88,15 +78,15 @@
                     android:layout_below="@id/view1"
                     android:layout_marginLeft="8dp"
                     android:layout_marginTop="5dp"
-                    android:padding="5dp"/>
+                    android:padding="5dp" />
 
                 <TextView
                     android:id="@+id/txtfacebook"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/view1"
-                    android:layout_margin="10dp"
                     android:layout_centerHorizontal="true"
+                    android:layout_margin="10dp"
                     android:background="@drawable/rounded"
                     android:backgroundTint="@color/pink"
                     android:fontFamily="sans-serif"
@@ -105,7 +95,7 @@
                     android:paddingRight="31dp"
                     android:paddingTop="6dp"
                     android:text="@string/txtfacebook"
-                    android:textSize="16sp"/>
+                    android:textSize="16sp" />
 
                 <Button
                     android:id="@+id/btnlista2"
@@ -129,15 +119,15 @@
                     android:layout_width="70dp"
                     android:layout_height="70dp"
                     android:layout_below="@id/view2"
-                    android:layout_marginTop="-10dp"/>
+                    android:layout_marginTop="-10dp" />
 
                 <TextView
                     android:id="@+id/txtml"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/view2"
-                    android:layout_margin="10dp"
                     android:layout_centerHorizontal="true"
+                    android:layout_margin="10dp"
                     android:background="@drawable/rounded"
                     android:backgroundTint="@color/pink"
                     android:fontFamily="sans-serif"
@@ -146,7 +136,7 @@
                     android:paddingRight="16dp"
                     android:paddingTop="6dp"
                     android:text="@string/txtml"
-                    android:textSize="16sp"/>
+                    android:textSize="16sp" />
 
                 <Button
                     android:id="@+id/btnlista3"

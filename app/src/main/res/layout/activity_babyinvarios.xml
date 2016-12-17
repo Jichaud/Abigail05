@@ -12,21 +12,11 @@
 
     <Button
         android:id="@+id/btnhome"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:text="@string/verhome"
-        android:textAllCaps="false"/>
+        style="@style/btnhome" />
 
     <Button
         android:id="@+id/btnvmarca"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:text="@string/verxmarca"
-        android:textAllCaps="false"/>
+        style="@style/btnmarca" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -47,47 +37,31 @@
                     android:id="@+id/babyinvarios1"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:padding="2dp"/>
+                    android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtbabyinvarios1principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_toRightOf="@id/babyinvarios1"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtbabyinvarios"
-                    android:textSize="20sp" />
+                    android:text="@string/txtbabyinvarios" />
 
                 <TextView
                     android:id="@+id/txtbabyinvarios1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtbabyinvarios1principal"
                     android:layout_toRightOf="@id/babyinvarios1"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtbabyinvarios1"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtbabyinvarios1" />
 
                 <Button
                     android:id="@+id/btnbabyinvarios1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/btnvermas"
                     android:layout_above="@id/view1"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:text="@string/btnver" />
 
                 <TextView
                     android:id="@+id/preciobabyinvarios1"
                     style="@style/precio"
-                    android:layout_below="@id/babyinvarios1"/>
+                    android:layout_below="@id/babyinvarios1" />
 
                 <View
                     android:id="@+id/view1"
@@ -99,48 +73,32 @@
                     android:layout_width="90dp"
                     android:layout_height="80dp"
                     android:layout_below="@id/view1"
-                    android:padding="2dp"/>
+                    android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtbabyinvarios2principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view1"
                     android:layout_toRightOf="@id/babyinvarios2"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtbabyinvarios"
-                    android:textSize="20sp" />
+                    android:text="@string/txtbabyinvarios" />
 
                 <TextView
                     android:id="@+id/txtbabyinvarios2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtbabyinvarios2principal"
                     android:layout_toRightOf="@id/babyinvarios2"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtbabyinvarios2"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtbabyinvarios2" />
 
                 <Button
                     android:id="@+id/btnbabyinvarios2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/btnvermas"
                     android:layout_above="@id/view2"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:text="@string/btnver" />
 
                 <TextView
                     android:id="@+id/preciobabyinvarios2"
                     style="@style/precio"
-                    android:layout_below="@id/babyinvarios2"/>
+                    android:layout_below="@id/babyinvarios2" />
 
                 <View
                     android:id="@+id/view2"
@@ -152,48 +110,32 @@
                     android:layout_width="90dp"
                     android:layout_height="80dp"
                     android:layout_below="@id/view2"
-                    android:padding="2dp"/>
+                    android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtbabyinvarios3principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view2"
                     android:layout_toRightOf="@id/babyinvarios3"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtbabyinvarios"
-                    android:textSize="20sp" />
+                    android:text="@string/txtbabyinvarios" />
 
                 <TextView
                     android:id="@+id/txtbabyinvarios3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtbabyinvarios3principal"
                     android:layout_toRightOf="@id/babyinvarios3"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtbabyinvarios3"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtbabyinvarios3" />
 
                 <Button
                     android:id="@+id/btnbabyinvarios3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/btnvermas"
                     android:layout_above="@id/view3"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:text="@string/btnver" />
 
                 <TextView
                     android:id="@+id/preciobabyinvarios3"
                     style="@style/precio"
-                    android:layout_below="@id/babyinvarios3"/>
+                    android:layout_below="@id/babyinvarios3" />
 
                 <View
                     android:id="@+id/view3"
@@ -205,48 +147,32 @@
                     android:layout_width="90dp"
                     android:layout_height="80dp"
                     android:layout_below="@id/view3"
-                    android:padding="2dp"/>
+                    android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtbabyinvarios4principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view3"
                     android:layout_toRightOf="@id/babyinvarios4"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtbabyinvarios"
-                    android:textSize="20sp" />
+                    android:text="@string/txtbabyinvarios" />
 
                 <TextView
                     android:id="@+id/txtbabyinvarios4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtbabyinvarios4principal"
                     android:layout_toRightOf="@id/babyinvarios4"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtbabyinvarios4"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtbabyinvarios4" />
 
                 <Button
                     android:id="@+id/btnbabyinvarios4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/btnvermas"
                     android:layout_above="@id/view4"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:text="@string/btnver" />
 
                 <TextView
                     android:id="@+id/preciobabyinvarios4"
                     style="@style/precio"
-                    android:layout_below="@id/babyinvarios4"/>
+                    android:layout_below="@id/babyinvarios4" />
 
                 <View
                     android:id="@+id/view4"
@@ -258,48 +184,32 @@
                     android:layout_width="90dp"
                     android:layout_height="80dp"
                     android:layout_below="@id/view4"
-                    android:padding="2dp"/>
+                    android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtbabyinvarios5principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view4"
                     android:layout_toRightOf="@id/babyinvarios5"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtbabyinvarios"
-                    android:textSize="20sp" />
+                    android:text="@string/txtbabyinvarios" />
 
                 <TextView
                     android:id="@+id/txtbabyinvarios5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtbabyinvarios5principal"
                     android:layout_toRightOf="@id/babyinvarios5"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtbabyinvarios5"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtbabyinvarios5" />
 
                 <Button
                     android:id="@+id/btnbabyinvarios5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/btnvermas"
                     android:layout_above="@+id/view5"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:text="@string/btnver" />
 
                 <TextView
                     android:id="@+id/preciobabyinvarios5"
                     style="@style/precio"
-                    android:layout_below="@id/babyinvarios5"/>
+                    android:layout_below="@id/babyinvarios5" />
 
                 <View
                     android:id="@+id/view5"
@@ -311,48 +221,32 @@
                     android:layout_width="90dp"
                     android:layout_height="80dp"
                     android:layout_below="@id/view5"
-                    android:padding="2dp"/>
+                    android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtbabyinvarios6principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view5"
                     android:layout_toRightOf="@id/babyinvarios6"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtbabyinvarios"
-                    android:textSize="20sp" />
+                    android:text="@string/txtbabyinvarios" />
 
                 <TextView
                     android:id="@+id/txtbabyinvarios6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtbabyinvarios6principal"
                     android:layout_toRightOf="@id/babyinvarios6"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtbabyinvarios6"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtbabyinvarios6" />
 
                 <Button
                     android:id="@+id/btnbabyinvarios6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/btnvermas"
                     android:layout_above="@+id/view6"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:text="@string/btnver" />
 
                 <TextView
                     android:id="@+id/preciobabyinvarios6"
                     style="@style/precio"
-                    android:layout_below="@id/babyinvarios6"/>
+                    android:layout_below="@id/babyinvarios6" />
 
                 <View
                     android:id="@+id/view6"
@@ -364,48 +258,32 @@
                     android:layout_width="90dp"
                     android:layout_height="80dp"
                     android:layout_below="@id/view6"
-                    android:padding="2dp"/>
+                    android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtbabyinvarios7principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view6"
                     android:layout_toRightOf="@id/babyinvarios7"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtbabyinvarios"
-                    android:textSize="20sp" />
+                    android:text="@string/txtbabyinvarios" />
 
                 <TextView
                     android:id="@+id/txtbabyinvarios7"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtbabyinvarios7principal"
                     android:layout_toRightOf="@id/babyinvarios7"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtbabyinvarios7"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtbabyinvarios7" />
 
                 <Button
                     android:id="@+id/btnbabyinvarios7"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/btnvermas"
                     android:layout_above="@+id/view7"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:text="@string/btnver" />
 
                 <TextView
                     android:id="@+id/preciobabyinvarios7"
                     style="@style/precio"
-                    android:layout_below="@id/babyinvarios7"/>
+                    android:layout_below="@id/babyinvarios7" />
 
                 <View
                     android:id="@+id/view7"
@@ -417,48 +295,32 @@
                     android:layout_width="90dp"
                     android:layout_height="80dp"
                     android:layout_below="@id/view7"
-                    android:padding="2dp"/>
+                    android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtbabyinvarios8principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view7"
                     android:layout_toRightOf="@id/babyinvarios8"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtbabyinvarios"
-                    android:textSize="20sp" />
+                    android:text="@string/txtbabyinvarios" />
 
                 <TextView
                     android:id="@+id/txtbabyinvarios8"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtbabyinvarios8principal"
                     android:layout_toRightOf="@id/babyinvarios8"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtbabyinvarios8"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtbabyinvarios8" />
 
                 <Button
                     android:id="@+id/btnbabyinvarios8"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/btnvermas"
                     android:layout_above="@+id/view8"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:text="@string/btnver" />
 
                 <TextView
                     android:id="@+id/preciobabyinvarios8"
                     style="@style/precio"
-                    android:layout_below="@id/babyinvarios8"/>
+                    android:layout_below="@id/babyinvarios8" />
 
                 <View
                     android:id="@+id/view8"
@@ -470,48 +332,32 @@
                     android:layout_width="90dp"
                     android:layout_height="80dp"
                     android:layout_below="@id/view8"
-                    android:padding="2dp"/>
+                    android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtbabyinvarios9principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view8"
                     android:layout_toRightOf="@id/babyinvarios9"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtbabyinvarios"
-                    android:textSize="20sp" />
+                    android:text="@string/txtbabyinvarios" />
 
                 <TextView
                     android:id="@+id/txtbabyinvarios9"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtbabyinvarios9principal"
                     android:layout_toRightOf="@id/babyinvarios9"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtbabyinvarios9"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtbabyinvarios9" />
 
                 <Button
                     android:id="@+id/btnbabyinvarios9"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/btnvermas"
                     android:layout_above="@+id/view9"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:text="@string/btnver" />
 
                 <TextView
                     android:id="@+id/preciobabyinvarios9"
                     style="@style/precio"
-                    android:layout_below="@id/babyinvarios9"/>
+                    android:layout_below="@id/babyinvarios9" />
 
                 <View
                     android:id="@+id/view9"
@@ -523,48 +369,32 @@
                     android:layout_width="90dp"
                     android:layout_height="80dp"
                     android:layout_below="@id/view9"
-                    android:padding="2dp"/>
+                    android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtbabyinvarios10principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view9"
                     android:layout_toRightOf="@id/babyinvarios10"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtbabyinvarios"
-                    android:textSize="20sp" />
+                    android:text="@string/txtbabyinvarios" />
 
                 <TextView
                     android:id="@+id/txtbabyinvarios10"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtbabyinvarios10principal"
                     android:layout_toRightOf="@id/babyinvarios10"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtbabyinvarios10"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtbabyinvarios10" />
 
                 <Button
                     android:id="@+id/btnbabyinvarios10"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/btnvermas"
                     android:layout_above="@+id/view10"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:text="@string/btnver" />
 
                 <TextView
                     android:id="@+id/preciobabyinvarios10"
                     style="@style/precio"
-                    android:layout_below="@id/babyinvarios10"/>
+                    android:layout_below="@id/babyinvarios10" />
 
                 <View
                     android:id="@+id/view10"
@@ -576,48 +406,32 @@
                     android:layout_width="90dp"
                     android:layout_height="80dp"
                     android:layout_below="@id/view10"
-                    android:padding="2dp"/>
+                    android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtbabyinvarios11principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view10"
                     android:layout_toRightOf="@id/babyinvarios11"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtbabyinvarios"
-                    android:textSize="20sp" />
+                    android:text="@string/txtbabyinvarios" />
 
                 <TextView
                     android:id="@+id/txtbabyinvarios11"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtbabyinvarios11principal"
                     android:layout_toRightOf="@id/babyinvarios11"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtbabyinvarios11"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtbabyinvarios11" />
 
                 <Button
                     android:id="@+id/btnbabyinvarios11"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/btnvermas"
                     android:layout_above="@+id/view11"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:text="@string/btnver" />
 
                 <TextView
                     android:id="@+id/preciobabyinvarios11"
                     style="@style/precio"
-                    android:layout_below="@id/babyinvarios11"/>
+                    android:layout_below="@id/babyinvarios11" />
 
                 <View
                     android:id="@+id/view11"
@@ -629,48 +443,32 @@
                     android:layout_width="90dp"
                     android:layout_height="80dp"
                     android:layout_below="@id/view11"
-                    android:padding="2dp"/>
+                    android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtbabyinvarios12principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view11"
                     android:layout_toRightOf="@id/babyinvarios12"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtbabyinvarios"
-                    android:textSize="20sp" />
+                    android:text="@string/txtbabyinvarios" />
 
                 <TextView
                     android:id="@+id/txtbabyinvarios12"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtbabyinvarios12principal"
                     android:layout_toRightOf="@id/babyinvarios12"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtbabyinvarios12"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtbabyinvarios12" />
 
                 <Button
                     android:id="@+id/btnbabyinvarios12"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/btnvermas"
                     android:layout_above="@+id/view12"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:text="@string/btnver" />
 
                 <TextView
                     android:id="@+id/preciobabyinvarios12"
                     style="@style/precio"
-                    android:layout_below="@id/babyinvarios12"/>
+                    android:layout_below="@id/babyinvarios12" />
 
                 <View
                     android:id="@+id/view12"
@@ -682,48 +480,32 @@
                     android:layout_width="90dp"
                     android:layout_height="80dp"
                     android:layout_below="@id/view12"
-                    android:padding="2dp"/>
+                    android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtbabyinvarios13principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view12"
                     android:layout_toRightOf="@id/babyinvarios13"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtbabyinvarios"
-                    android:textSize="20sp" />
+                    android:text="@string/txtbabyinvarios" />
 
                 <TextView
                     android:id="@+id/txtbabyinvarios13"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtbabyinvarios13principal"
                     android:layout_toRightOf="@id/babyinvarios13"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtbabyinvarios13"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtbabyinvarios13" />
 
                 <Button
                     android:id="@+id/btnbabyinvarios13"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/btnvermas"
                     android:layout_above="@+id/view13"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:text="@string/btnver" />
 
                 <TextView
                     android:id="@+id/preciobabyinvarios13"
                     style="@style/precio"
-                    android:layout_below="@id/babyinvarios13"/>
+                    android:layout_below="@id/babyinvarios13" />
 
                 <View
                     android:id="@+id/view13"

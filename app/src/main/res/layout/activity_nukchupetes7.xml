@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_nukchupetes7"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -13,21 +13,11 @@
 
     <Button
         android:id="@+id/btnhome"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:text="@string/verhome"
-        android:textAllCaps="false"/>
+        style="@style/btnhome" />
 
     <Button
         android:id="@+id/btnvmarca"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:text="@string/verxmarca"
-        android:textAllCaps="false"/>
+        style="@style/btnmarca" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -64,7 +54,7 @@
                         android:layout_height="296dp"
                         android:layout_centerHorizontal="true"
                         android:layout_marginBottom="4dp"
-                        android:visibility="gone"/>
+                        android:visibility="gone" />
 
                     <ImageView
                         android:id="@+id/nukchupetes8"
@@ -72,7 +62,7 @@
                         android:layout_height="296dp"
                         android:layout_centerHorizontal="true"
                         android:layout_marginBottom="4dp"
-                        android:visibility="gone"/>
+                        android:visibility="gone" />
 
                     <ImageView
                         android:id="@+id/nukchupetes77"
@@ -80,7 +70,7 @@
                         android:layout_height="296dp"
                         android:layout_centerHorizontal="true"
                         android:layout_marginBottom="4dp"
-                        android:visibility="gone"/>
+                        android:visibility="gone" />
 
                     <ImageView
                         android:id="@+id/nukchupetes7"
@@ -116,7 +106,7 @@
                         android:textAlignment="center"
                         android:textColor="#E3F2FD"
                         android:textSize="18sp"
-                        android:textStyle="bold"/>
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/modelo2"
@@ -134,7 +124,7 @@
                         android:textAlignment="center"
                         android:textColor="#E3F2FD"
                         android:textSize="18sp"
-                        android:textStyle="bold"/>
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/modelo3"
@@ -152,7 +142,7 @@
                         android:textAlignment="center"
                         android:textColor="#E3F2FD"
                         android:textSize="18sp"
-                        android:textStyle="bold"/>
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/modelo4"
@@ -171,7 +161,7 @@
                         android:textAlignment="center"
                         android:textColor="#E3F2FD"
                         android:textSize="18sp"
-                        android:textStyle="bold"/>
+                        android:textStyle="bold" />
 
                     <View
                         android:id="@+id/view1"

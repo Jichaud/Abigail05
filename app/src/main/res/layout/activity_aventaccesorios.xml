@@ -12,21 +12,11 @@
 
     <Button
         android:id="@+id/btnhome"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:text="@string/verhome"
-        android:textAllCaps="false"/>
+        style="@style/btnhome" />
 
     <Button
         android:id="@+id/btnvmarca"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:text="@string/verxmarca"
-        android:textAllCaps="false"/>
+        style="@style/btnmarca" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -47,47 +37,31 @@
                     android:id="@+id/aventaccesorios1"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:padding="2dp"/>
+                    android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtaventaccesorios1principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_toRightOf="@id/aventaccesorios1"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtaventaccesorios"
-                    android:textSize="20sp" />
+                    android:text="@string/txtaventaccesorios" />
 
                 <TextView
                     android:id="@+id/txtaventaccesorios1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtaventaccesorios1principal"
                     android:layout_toRightOf="@id/aventaccesorios1"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtaventaccesorios1"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtaventaccesorios1" />
 
                 <Button
                     android:id="@+id/btnaventaccesorios1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/btnvermas"
                     android:layout_above="@id/view1"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:text="@string/btnver" />
 
                 <TextView
                     android:id="@+id/precioaventaccesorios1"
                     style="@style/precio"
-                    android:layout_below="@id/aventaccesorios1"/>
+                    android:layout_below="@id/aventaccesorios1" />
 
                 <View
                     android:id="@+id/view1"
@@ -99,48 +73,33 @@
                     android:layout_width="90dp"
                     android:layout_height="80dp"
                     android:layout_below="@id/view1"
-                    android:padding="2dp"/>
+                    android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtaventaccesorios2principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view1"
                     android:layout_toRightOf="@id/aventaccesorios2"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtaventaccesorios"
-                    android:textSize="20sp" />
+                    android:text="@string/txtaventaccesorios" />
 
                 <TextView
                     android:id="@+id/txtaventaccesorios2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtaventaccesorios2principal"
                     android:layout_toRightOf="@id/aventaccesorios2"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtaventaccesorios2"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtaventaccesorios2" />
 
                 <Button
                     android:id="@+id/btnaventaccesorios2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/btnvermas"
                     android:layout_above="@id/view2"
                     android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:text="@string/btnver" />
 
                 <TextView
                     android:id="@+id/precioaventaccesorios2"
                     style="@style/precio"
-                    android:layout_below="@id/aventaccesorios2"/>
+                    android:layout_below="@id/aventaccesorios2" />
 
                 <View
                     android:id="@+id/view2"
@@ -152,48 +111,33 @@
                     android:layout_width="90dp"
                     android:layout_height="80dp"
                     android:layout_below="@id/view2"
-                    android:padding="2dp"/>
+                    android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtaventaccesorios3principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view2"
                     android:layout_toRightOf="@id/aventaccesorios3"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtaventaccesorios"
-                    android:textSize="20sp" />
+                    android:text="@string/txtaventaccesorios" />
 
                 <TextView
                     android:id="@+id/txtaventaccesorios3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtaventaccesorios3principal"
                     android:layout_toRightOf="@id/aventaccesorios3"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtaventaccesorios3"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtaventaccesorios3" />
 
                 <Button
                     android:id="@+id/btnaventaccesorios3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/btnvermas"
                     android:layout_above="@id/view3"
                     android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:text="@string/btnver" />
 
                 <TextView
                     android:id="@+id/precioaventaccesorios3"
                     style="@style/precio"
-                    android:layout_below="@id/aventaccesorios3"/>
+                    android:layout_below="@id/aventaccesorios3" />
 
                 <View
                     android:id="@+id/view3"
@@ -205,48 +149,32 @@
                     android:layout_width="90dp"
                     android:layout_height="80dp"
                     android:layout_below="@id/view3"
-                    android:padding="2dp"/>
+                    android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtaventaccesorios4principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view3"
                     android:layout_toRightOf="@id/aventaccesorios4"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtaventaccesorios"
-                    android:textSize="20sp" />
+                    android:text="@string/txtaventaccesorios" />
 
                 <TextView
                     android:id="@+id/txtaventaccesorios4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtaventaccesorios4principal"
                     android:layout_toRightOf="@id/aventaccesorios4"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtaventaccesorios4"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtaventaccesorios4" />
 
                 <Button
                     android:id="@+id/btnaventaccesorios4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/btnvermas"
                     android:layout_above="@id/view4"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:text="@string/btnver" />
 
                 <TextView
                     android:id="@+id/precioaventaccesorios4"
                     style="@style/precio"
-                    android:layout_below="@id/aventaccesorios4"/>
+                    android:layout_below="@id/aventaccesorios4" />
 
                 <View
                     android:id="@+id/view4"
@@ -258,48 +186,33 @@
                     android:layout_width="90dp"
                     android:layout_height="80dp"
                     android:layout_below="@id/view4"
-                    android:padding="2dp"/>
+                    android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtaventaccesorios5principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view4"
                     android:layout_toRightOf="@id/aventaccesorios5"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtaventaccesorios"
-                    android:textSize="20sp" />
+                    android:text="@string/txtaventaccesorios" />
 
                 <TextView
                     android:id="@+id/txtaventaccesorios5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtaventaccesorios5principal"
                     android:layout_toRightOf="@id/aventaccesorios5"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtaventaccesorios5"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtaventaccesorios5" />
 
                 <Button
                     android:id="@+id/btnaventaccesorios5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/btnvermas"
                     android:layout_above="@+id/view5"
                     android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:text="@string/btnver" />
 
                 <TextView
                     android:id="@+id/precioaventaccesorios5"
                     style="@style/precio"
-                    android:layout_below="@id/aventaccesorios5"/>
+                    android:layout_below="@id/aventaccesorios5" />
 
                 <View
                     android:id="@+id/view5"
@@ -311,48 +224,33 @@
                     android:layout_width="90dp"
                     android:layout_height="80dp"
                     android:layout_below="@id/view5"
-                    android:padding="2dp"/>
+                    android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtaventaccesorios6principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view5"
                     android:layout_toRightOf="@id/aventaccesorios6"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtaventaccesorios"
-                    android:textSize="20sp" />
+                    android:text="@string/txtaventaccesorios" />
 
                 <TextView
                     android:id="@+id/txtaventaccesorios6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtaventaccesorios6principal"
                     android:layout_toRightOf="@id/aventaccesorios6"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtaventaccesorios6"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtaventaccesorios6" />
 
                 <Button
                     android:id="@+id/btnaventaccesorios6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/btnvermas"
                     android:layout_above="@+id/view6"
                     android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:text="@string/btnver" />
 
                 <TextView
                     android:id="@+id/precioaventaccesorios6"
                     style="@style/precio"
-                    android:layout_below="@id/aventaccesorios6"/>
+                    android:layout_below="@id/aventaccesorios6" />
 
                 <View
                     android:id="@+id/view6"
@@ -364,48 +262,33 @@
                     android:layout_width="90dp"
                     android:layout_height="80dp"
                     android:layout_below="@id/view6"
-                    android:padding="2dp"/>
+                    android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtaventaccesorios7principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view6"
                     android:layout_toRightOf="@id/aventaccesorios7"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtaventaccesorios"
-                    android:textSize="20sp" />
+                    android:text="@string/txtaventaccesorios" />
 
                 <TextView
                     android:id="@+id/txtaventaccesorios7"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtaventaccesorios7principal"
                     android:layout_toRightOf="@id/aventaccesorios7"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtaventaccesorios7"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtaventaccesorios7" />
 
                 <Button
                     android:id="@+id/btnaventaccesorios7"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/btnvermas"
                     android:layout_above="@+id/view7"
                     android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:text="@string/btnver" />
 
                 <TextView
                     android:id="@+id/precioaventaccesorios7"
                     style="@style/precio"
-                    android:layout_below="@id/aventaccesorios7"/>
+                    android:layout_below="@id/aventaccesorios7" />
 
                 <View
                     android:id="@+id/view7"
@@ -417,48 +300,33 @@
                     android:layout_width="90dp"
                     android:layout_height="80dp"
                     android:layout_below="@id/view7"
-                    android:padding="2dp"/>
+                    android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtaventaccesorios8principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view7"
                     android:layout_toRightOf="@id/aventaccesorios8"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtaventaccesorios"
-                    android:textSize="20sp" />
+                    android:text="@string/txtaventaccesorios" />
 
                 <TextView
                     android:id="@+id/txtaventaccesorios8"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtaventaccesorios8principal"
                     android:layout_toRightOf="@id/aventaccesorios8"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtaventaccesorios8"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtaventaccesorios8" />
 
                 <Button
                     android:id="@+id/btnaventaccesorios8"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/btnvermas"
                     android:layout_above="@+id/view8"
                     android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:text="@string/btnver" />
 
                 <TextView
                     android:id="@+id/precioaventaccesorios8"
                     style="@style/precio"
-                    android:layout_below="@id/aventaccesorios8"/>
+                    android:layout_below="@id/aventaccesorios8" />
 
                 <View
                     android:id="@+id/view8"
@@ -470,48 +338,32 @@
                     android:layout_width="90dp"
                     android:layout_height="80dp"
                     android:layout_below="@id/view8"
-                    android:padding="2dp"/>
+                    android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtaventaccesorios9principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view8"
                     android:layout_toRightOf="@id/aventaccesorios9"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtaventaccesorios"
-                    android:textSize="20sp" />
+                    android:text="@string/txtaventaccesorios" />
 
                 <TextView
                     android:id="@+id/txtaventaccesorios9"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtaventaccesorios9principal"
                     android:layout_toRightOf="@id/aventaccesorios9"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtaventaccesorios9"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtaventaccesorios9" />
 
                 <Button
                     android:id="@+id/btnaventaccesorios9"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/btnvermas"
                     android:layout_above="@+id/view9"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:text="@string/btnver" />
 
                 <TextView
                     android:id="@+id/precioaventaccesorios9"
                     style="@style/precio"
-                    android:layout_below="@id/aventaccesorios9"/>
+                    android:layout_below="@id/aventaccesorios9" />
 
                 <View
                     android:id="@+id/view9"
@@ -523,48 +375,32 @@
                     android:layout_width="90dp"
                     android:layout_height="80dp"
                     android:layout_below="@id/view9"
-                    android:padding="2dp"/>
+                    android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtaventaccesorios10principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view9"
                     android:layout_toRightOf="@id/aventaccesorios10"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtaventaccesorios"
-                    android:textSize="20sp" />
+                    android:text="@string/txtaventaccesorios" />
 
                 <TextView
                     android:id="@+id/txtaventaccesorios10"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtaventaccesorios10principal"
                     android:layout_toRightOf="@id/aventaccesorios10"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtaventaccesorios10"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtaventaccesorios10" />
 
                 <Button
                     android:id="@+id/btnaventaccesorios10"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/btnvermas"
                     android:layout_above="@+id/view10"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:text="@string/btnver" />
 
                 <TextView
                     android:id="@+id/precioaventaccesorios10"
                     style="@style/precio"
-                    android:layout_below="@id/aventaccesorios10"/>
+                    android:layout_below="@id/aventaccesorios10" />
 
                 <View
                     android:id="@+id/view10"

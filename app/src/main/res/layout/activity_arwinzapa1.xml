@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/activity_arwinzapa1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -13,45 +12,20 @@
 
     <Button
         android:id="@+id/btnhome"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:text="@string/verhome"
-        android:textAllCaps="false"/>
+        style="@style/btnhome" />
 
     <Button
         android:id="@+id/btnvmarca"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:text="@string/verxmarca"
-        android:textAllCaps="false"/>
+        style="@style/btnmarca" />
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/btnhome">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:paddingBottom="20dp"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp">
+        <LinearLayout style="@style/LinearCard">
 
-            <android.support.v7.widget.CardView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginBottom="4dp"
-                android:layout_marginLeft="4dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginTop="10dp"
-                app:cardCornerRadius="2dp"
-                app:cardElevation="2dp">
+            <android.support.v7.widget.CardView style="@style/card">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -64,7 +38,7 @@
                         android:layout_height="296dp"
                         android:layout_centerHorizontal="true"
                         android:layout_marginBottom="4dp"
-                        android:visibility="gone"/>
+                        android:visibility="gone" />
 
                     <ImageView
                         android:id="@+id/arwinzapa6"
@@ -72,7 +46,7 @@
                         android:layout_height="296dp"
                         android:layout_centerHorizontal="true"
                         android:layout_marginBottom="4dp"
-                        android:visibility="gone"/>
+                        android:visibility="gone" />
 
                     <ImageView
                         android:id="@+id/arwinzapa5"
@@ -80,7 +54,7 @@
                         android:layout_height="296dp"
                         android:layout_centerHorizontal="true"
                         android:layout_marginBottom="4dp"
-                        android:visibility="gone"/>
+                        android:visibility="gone" />
 
                     <ImageView
                         android:id="@+id/arwinzapa4"
@@ -88,7 +62,7 @@
                         android:layout_height="296dp"
                         android:layout_centerHorizontal="true"
                         android:layout_marginBottom="4dp"
-                        android:visibility="gone"/>
+                        android:visibility="gone" />
 
                     <ImageView
                         android:id="@+id/arwinzapa3"
@@ -96,7 +70,7 @@
                         android:layout_height="296dp"
                         android:layout_centerHorizontal="true"
                         android:layout_marginBottom="4dp"
-                        android:visibility="gone"/>
+                        android:visibility="gone" />
 
                     <ImageView
                         android:id="@+id/arwinzapa2"
@@ -104,7 +78,7 @@
                         android:layout_height="296dp"
                         android:layout_centerHorizontal="true"
                         android:layout_marginBottom="4dp"
-                        android:visibility="gone"/>
+                        android:visibility="gone" />
 
                     <ImageView
                         android:id="@+id/arwinzapa1"
@@ -126,133 +100,59 @@
 
                     <TextView
                         android:id="@+id/modelo1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        style="@style/txtvistas"
                         android:layout_alignParentLeft="true"
                         android:layout_below="@id/txtcolores"
-                        android:background="@drawable/rounded"
                         android:onClick="modelo1"
-                        android:paddingBottom="6dp"
-                        android:paddingLeft="15dp"
-                        android:paddingRight="15dp"
-                        android:paddingTop="6dp"
-                        android:text="@string/modelo1"
-                        android:textAlignment="center"
-                        android:textColor="#E3F2FD"
-                        android:textSize="18sp"
-                        android:textStyle="bold"/>
+                        android:text="@string/modelo1" />
 
                     <TextView
                         android:id="@+id/modelo2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        style="@style/txtvistas"
                         android:layout_below="@id/txtcolores"
                         android:layout_centerInParent="true"
-                        android:background="@drawable/rounded"
                         android:onClick="modelo2"
-                        android:paddingBottom="6dp"
-                        android:paddingLeft="15dp"
-                        android:paddingRight="15dp"
-                        android:paddingTop="6dp"
-                        android:text="@string/modelo2"
-                        android:textAlignment="center"
-                        android:textColor="#E3F2FD"
-                        android:textSize="18sp"
-                        android:textStyle="bold"/>
+                        android:text="@string/modelo2" />
 
                     <TextView
                         android:id="@+id/modelo3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        style="@style/txtvistas"
                         android:layout_alignParentRight="true"
                         android:layout_below="@id/txtcolores"
-                        android:background="@drawable/rounded"
                         android:onClick="modelo3"
-                        android:paddingBottom="6dp"
-                        android:paddingLeft="15dp"
-                        android:paddingRight="15dp"
-                        android:paddingTop="6dp"
-                        android:text="@string/modelo3"
-                        android:textAlignment="center"
-                        android:textColor="#E3F2FD"
-                        android:textSize="18sp"
-                        android:textStyle="bold"/>
+                        android:text="@string/modelo3" />
 
                     <TextView
                         android:id="@+id/modelo4"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@id/modelo1"
+                        style="@style/txtvistas1"
                         android:layout_alignParentLeft="true"
-                        android:layout_marginTop="20dp"
-                        android:background="@drawable/rounded"
+                        android:layout_below="@id/modelo1"
                         android:onClick="modelo4"
-                        android:paddingBottom="6dp"
-                        android:paddingLeft="15dp"
-                        android:paddingRight="15dp"
-                        android:paddingTop="6dp"
-                        android:text="@string/modelo4"
-                        android:textAlignment="center"
-                        android:textColor="#E3F2FD"
-                        android:textSize="18sp"
-                        android:textStyle="bold"/>
+                        android:text="@string/modelo4" />
 
                     <TextView
                         android:id="@+id/modelo5"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        style="@style/txtvistas1"
                         android:layout_below="@id/modelo1"
                         android:layout_centerInParent="true"
-                        android:layout_marginTop="20dp"
-                        android:background="@drawable/rounded"
                         android:onClick="modelo4"
-                        android:paddingBottom="6dp"
-                        android:paddingLeft="15dp"
-                        android:paddingRight="15dp"
-                        android:paddingTop="6dp"
-                        android:text="@string/modelo5"
-                        android:textAlignment="center"
-                        android:textColor="#E3F2FD"
-                        android:textSize="18sp"
-                        android:textStyle="bold"/>
+                        android:text="@string/modelo5" />
 
                     <TextView
                         android:id="@+id/modelo6"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@id/modelo1"
+                        style="@style/txtvistas1"
                         android:layout_alignParentRight="true"
-                        android:layout_marginTop="20dp"
-                        android:background="@drawable/rounded"
+                        android:layout_below="@id/modelo1"
                         android:onClick="modelo4"
-                        android:paddingBottom="6dp"
-                        android:paddingLeft="15dp"
-                        android:paddingRight="15dp"
-                        android:paddingTop="6dp"
-                        android:text="@string/modelo6"
-                        android:textAlignment="center"
-                        android:textColor="#E3F2FD"
-                        android:textSize="18sp"
-                        android:textStyle="bold"/>
+                        android:text="@string/modelo6" />
 
                     <TextView
                         android:id="@+id/modelo7"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        style="@style/txtvistas1"
                         android:layout_below="@id/modelo4"
                         android:layout_centerInParent="true"
-                        android:layout_marginTop="20dp"
-                        android:background="@drawable/rounded"
                         android:onClick="modelo4"
-                        android:paddingBottom="6dp"
-                        android:paddingLeft="15dp"
-                        android:paddingRight="15dp"
-                        android:paddingTop="6dp"
-                        android:text="@string/modelo7"
-                        android:textAlignment="center"
-                        android:textColor="#E3F2FD"
-                        android:textSize="18sp"
-                        android:textStyle="bold"/>
+                        android:text="@string/modelo7" />
 
                     <View
                         android:id="@+id/view1"
@@ -261,25 +161,15 @@
 
                     <TextView
                         android:id="@+id/txtarwinzapa1principal"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        style="@style/txtcardprinc"
                         android:layout_below="@id/view1"
-                        android:layout_marginTop="10dp"
-                        android:fontFamily="sans-serif-light"
-                        android:text="@string/txtarwinzapa"
-                        android:textAlignment="center"
-                        android:textSize="25sp" />
+                        android:text="@string/txtarwinzapa" />
 
                     <TextView
                         android:id="@+id/txtarwinzapa1"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        style="@style/txtcarddesc"
                         android:layout_below="@id/txtarwinzapa1principal"
-                        android:paddingTop="10dp"
-                        android:text="@string/txtarwinzapa1"
-                        android:textAlignment="center"
-                        android:textColor="@color/grey"
-                        android:textSize="20sp" />
+                        android:text="@string/txtarwinzapa1" />
 
                     <View
                         android:id="@+id/view2"
@@ -288,14 +178,8 @@
 
                     <TextView
                         android:id="@+id/precioarwinzapa1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@id/view2"
-                        android:layout_centerHorizontal="true"
-                        android:layout_margin="10dp"
-                        android:textColor="@color/green"
-                        android:fontFamily="sans-serif-light"
-                        android:textSize="25sp"/>
+                        style="@style/txtcardprecio"
+                        android:layout_below="@id/view2" />
 
                     <View
                         android:id="@+id/view3"
@@ -304,26 +188,15 @@
 
                     <Button
                         android:id="@+id/btnconsulta"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        style="@style/btnstock"
                         android:layout_below="@id/view3"
-                        android:backgroundTint="@color/pink"
-                        android:paddingTop="10dp"
-                        android:text="@string/stock"
-                        android:textAlignment="center"
-                        android:textColor="@color/colorPrimaryDark"
-                        android:textSize="14sp" />
+                        android:text="@string/stock" />
 
                     <Button
                         android:id="@+id/btncompraarwinzapa1"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        style="@style/btncomprar"
                         android:layout_below="@id/btnconsulta"
-                        android:backgroundTint="@color/colorPrimary"
-                        android:fontFamily="sans-serif-thin"
-                        android:text="@string/btnverprecio"
-                        android:textAllCaps="false"
-                        android:textSize="16sp" />
+                        android:text="@string/btnverprecio" />
 
                 </RelativeLayout>
 

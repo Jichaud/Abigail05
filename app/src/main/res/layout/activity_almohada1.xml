@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/activity_almohada1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -13,57 +12,32 @@
 
     <Button
         android:id="@+id/btnhome"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:text="@string/verhome"
-        android:textAllCaps="false"/>
+        style="@style/btnhome" />
 
     <Button
         android:id="@+id/btnvmarca"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:text="@string/verxmarca"
-        android:textAllCaps="false"/>
+        style="@style/btnmarca" />
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/btnhome">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:paddingBottom="20dp"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp">
+        <LinearLayout style="@style/LinearCard">
 
-            <android.support.v7.widget.CardView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginBottom="4dp"
-                android:layout_marginLeft="4dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginTop="10dp"
-                app:cardCornerRadius="2dp"
-                app:cardElevation="2dp">
+            <android.support.v7.widget.CardView style="@style/card">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_margin="10dp">
 
-                        <ImageView
-                            android:id="@+id/almohada1"
-                            android:layout_width="400dp"
-                            android:layout_height="296dp"
-                            android:layout_centerHorizontal="true"
-                            android:layout_marginBottom="4dp" />
+                    <ImageView
+                        android:id="@+id/almohada1"
+                        android:layout_width="400dp"
+                        android:layout_height="296dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="4dp" />
 
                     <View
                         android:id="@+id/view1"
@@ -72,25 +46,15 @@
 
                     <TextView
                         android:id="@+id/txtalmohada1"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        style="@style/txtcardprinc"
                         android:layout_below="@id/view1"
-                        android:layout_marginTop="10dp"
-                        android:fontFamily="sans-serif-light"
-                        android:text="@string/txtalmohada1"
-                        android:textAlignment="center"
-                        android:textSize="25sp" />
+                        android:text="@string/txtalmohada1" />
 
                     <TextView
                         android:id="@+id/txtalmohada1desc1"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        style="@style/txtcarddesc"
                         android:layout_below="@id/txtalmohada1"
-                        android:paddingTop="10dp"
-                        android:text="@string/txtalmohada1desc1"
-                        android:textAlignment="center"
-                        android:textColor="@color/grey"
-                        android:textSize="20sp" />
+                        android:text="@string/txtalmohada1desc1" />
 
                     <View
                         android:id="@+id/view2"
@@ -99,14 +63,8 @@
 
                     <TextView
                         android:id="@+id/precioalmohada1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@id/view2"
-                        android:layout_centerHorizontal="true"
-                        android:layout_margin="10dp"
-                        android:textColor="@color/green"
-                        android:fontFamily="sans-serif-light"
-                        android:textSize="25sp"/>
+                        style="@style/txtcardprecio"
+                        android:layout_below="@id/view2" />
 
                     <View
                         android:id="@+id/view3"
@@ -115,26 +73,15 @@
 
                     <Button
                         android:id="@+id/btnconsulta"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        style="@style/btnstock"
                         android:layout_below="@id/view3"
-                        android:backgroundTint="@color/pink"
-                        android:paddingTop="10dp"
-                        android:text="@string/stock"
-                        android:textAlignment="center"
-                        android:textColor="@color/colorPrimaryDark"
-                        android:textSize="14sp" />
+                        android:text="@string/stock" />
 
                     <Button
                         android:id="@+id/btncompraalmohada1"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        style="@style/btncomprar"
                         android:layout_below="@id/btnconsulta"
-                        android:backgroundTint="@color/colorPrimary"
-                        android:fontFamily="sans-serif-thin"
-                        android:text="@string/btnverprecio"
-                        android:textAllCaps="false"
-                        android:textSize="16sp" />
+                        android:text="@string/btnverprecio" />
 
                 </RelativeLayout>
 

@@ -14,21 +14,11 @@
 
     <Button
         android:id="@+id/btnhome"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:text="@string/verhome"
-        android:textAllCaps="false"/>
+        style="@style/btnhome" />
 
     <Button
         android:id="@+id/btnvmarca"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:text="@string/verxmarca"
-        android:textAllCaps="false"/>
+        style="@style/btnmarca" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -63,25 +53,25 @@
                         android:id="@+id/colchon5"
                         android:layout_width="match_parent"
                         android:layout_height="280dp"
-                        android:visibility="gone"/>
+                        android:visibility="gone" />
 
                     <ImageView
                         android:id="@+id/colchon4"
                         android:layout_width="match_parent"
                         android:layout_height="280dp"
-                        android:visibility="gone"/>
+                        android:visibility="gone" />
 
                     <ImageView
                         android:id="@+id/colchon3"
                         android:layout_width="match_parent"
                         android:layout_height="280dp"
-                        android:visibility="gone"/>
+                        android:visibility="gone" />
 
                     <ImageView
                         android:id="@+id/colchon2"
                         android:layout_width="match_parent"
                         android:layout_height="280dp"
-                        android:visibility="gone"/>
+                        android:visibility="gone" />
 
                     <ImageView
                         android:id="@+id/colchon1"
@@ -115,7 +105,7 @@
                         android:textAlignment="center"
                         android:textColor="#E3F2FD"
                         android:textSize="18sp"
-                        android:textStyle="bold"/>
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/modelo2"
@@ -133,7 +123,7 @@
                         android:textAlignment="center"
                         android:textColor="#E3F2FD"
                         android:textSize="18sp"
-                        android:textStyle="bold"/>
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/modelo3"
@@ -151,7 +141,7 @@
                         android:textAlignment="center"
                         android:textColor="#E3F2FD"
                         android:textSize="18sp"
-                        android:textStyle="bold"/>
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/modelo4"
@@ -170,7 +160,7 @@
                         android:textAlignment="center"
                         android:textColor="#E3F2FD"
                         android:textSize="18sp"
-                        android:textStyle="bold"/>
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/modelo5"
@@ -189,7 +179,7 @@
                         android:textAlignment="center"
                         android:textColor="#E3F2FD"
                         android:textSize="18sp"
-                        android:textStyle="bold"/>
+                        android:textStyle="bold" />
 
                     <View
                         android:id="@+id/view1"
@@ -229,9 +219,10 @@
                         android:layout_below="@id/view2"
                         android:layout_centerHorizontal="true"
                         android:layout_margin="10dp"
-                        android:textColor="@color/green"
                         android:fontFamily="sans-serif-light"
-                        android:textSize="25sp"/>
+                        android:inputType="numberDecimal"
+                        android:textColor="@color/green"
+                        android:textSize="25sp" />
 
                     <View
                         android:id="@+id/view3"
@@ -248,7 +239,7 @@
                         android:text="@string/stock"
                         android:textAlignment="center"
                         android:textColor="@color/colorPrimaryDark"
-                        android:textSize="14sp"/>
+                        android:textSize="14sp" />
 
                     <Button
                         android:id="@+id/btncolchon1"

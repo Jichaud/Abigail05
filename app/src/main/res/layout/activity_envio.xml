@@ -30,7 +30,7 @@
                 android:text="¿A dónde llegamos?"
                 android:textColor="@color/cardview_light_background"
                 android:textSize="15sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -38,7 +38,7 @@
                 android:layout_marginTop="10dp"
                 android:fontFamily="sans-serif-light"
                 android:text="A todo el país (excepto Tierra del Fuego)"
-                android:textSize="16sp"/>
+                android:textSize="16sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -50,7 +50,7 @@
                 android:text="¿Costo?"
                 android:textColor="@color/cardview_light_background"
                 android:textSize="15sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -58,7 +58,7 @@
                 android:layout_marginTop="10dp"
                 android:fontFamily="sans-serif-light"
                 android:text="Completá la información en nuestro formulario de contacto y nos pondremos en contacto con vos a la brevedad"
-                android:textSize="16sp"/>
+                android:textSize="16sp" />
 
             <View
                 android:id="@+id/view1"
@@ -76,7 +76,7 @@
                 android:text="Ir al formulario de contacto..."
                 android:textColor="@color/cardview_light_background"
                 android:textSize="15sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
         </LinearLayout>
 

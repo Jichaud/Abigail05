@@ -12,21 +12,11 @@
 
     <Button
         android:id="@+id/btnhome"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:text="@string/verhome"
-        android:textAllCaps="false"/>
+        style="@style/btnhome" />
 
     <Button
         android:id="@+id/btnvmarca"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:text="@string/verxmarca"
-        android:textAllCaps="false"/>
+        style="@style/btnmarca" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -47,45 +37,31 @@
                     android:id="@+id/aventclassic1"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:padding="2dp"/>
+                    android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtaventclassic1principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_toRightOf="@id/aventclassic1"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtaventclassic"
-                    android:textSize="20sp" />
+                    android:text="@string/txtaventclassic" />
 
                 <TextView
                     android:id="@+id/txtaventclassic1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtaventclassic1principal"
                     android:layout_toRightOf="@id/aventclassic1"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtaventclassic1"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtaventclassic1" />
 
                 <Button
                     android:id="@+id/btnaventclassic1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/btnvermas"
                     android:layout_above="@id/view1"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:text="@string/btnver" />
 
                 <TextView
                     android:id="@+id/precioaventclassic1"
                     style="@style/precio"
-                    android:layout_below="@id/aventclassic1"/>
+                    android:layout_below="@id/aventclassic1" />
 
                 <View
                     android:id="@+id/view1"
@@ -97,46 +73,32 @@
                     android:layout_width="90dp"
                     android:layout_height="80dp"
                     android:layout_below="@id/view1"
-                    android:padding="2dp"/>
+                    android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtaventclassic2principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view1"
                     android:layout_toRightOf="@id/aventclassic2"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtaventclassic"
-                    android:textSize="20sp" />
+                    android:text="@string/txtaventclassic" />
 
                 <TextView
                     android:id="@+id/txtaventclassic2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtaventclassic2principal"
                     android:layout_toRightOf="@id/aventclassic2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtaventclassic2"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtaventclassic2" />
 
                 <Button
                     android:id="@+id/btnaventclassic2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/btnvermas"
                     android:layout_above="@id/view2"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:text="@string/btnver" />
 
                 <TextView
                     android:id="@+id/precioaventclassic2"
                     style="@style/precio"
-                    android:layout_below="@id/aventclassic2"/>
+                    android:layout_below="@id/aventclassic2" />
 
                 <View
                     android:id="@+id/view2"
@@ -148,46 +110,32 @@
                     android:layout_width="90dp"
                     android:layout_height="80dp"
                     android:layout_below="@id/view2"
-                    android:padding="2dp"/>
+                    android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtaventclassic3principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view2"
                     android:layout_toRightOf="@id/aventclassic3"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtaventclassic"
-                    android:textSize="20sp" />
+                    android:text="@string/txtaventclassic" />
 
                 <TextView
                     android:id="@+id/txtaventclassic3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtaventclassic3principal"
                     android:layout_toRightOf="@id/aventclassic3"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtaventclassic3"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtaventclassic3" />
 
                 <Button
                     android:id="@+id/btnaventclassic3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/btnvermas"
                     android:layout_above="@id/view3"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:text="@string/btnver" />
 
                 <TextView
                     android:id="@+id/precioaventclassic3"
                     style="@style/precio"
-                    android:layout_below="@id/aventclassic3"/>
+                    android:layout_below="@id/aventclassic3" />
 
                 <View
                     android:id="@+id/view3"
@@ -199,46 +147,32 @@
                     android:layout_width="90dp"
                     android:layout_height="80dp"
                     android:layout_below="@id/view3"
-                    android:padding="2dp"/>
+                    android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtaventclassic4principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view3"
                     android:layout_toRightOf="@id/aventclassic4"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtaventclassic"
-                    android:textSize="20sp" />
+                    android:text="@string/txtaventclassic" />
 
                 <TextView
                     android:id="@+id/txtaventclassic4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtaventclassic4principal"
                     android:layout_toRightOf="@id/aventclassic4"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtaventclassic4"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtaventclassic4" />
 
                 <Button
                     android:id="@+id/btnaventclassic4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/btnvermas"
                     android:layout_above="@id/view4"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:text="@string/btnver" />
 
                 <TextView
                     android:id="@+id/precioaventclassic4"
                     style="@style/precio"
-                    android:layout_below="@id/aventclassic4"/>
+                    android:layout_below="@id/aventclassic4" />
 
                 <View
                     android:id="@+id/view4"
@@ -250,46 +184,32 @@
                     android:layout_width="90dp"
                     android:layout_height="80dp"
                     android:layout_below="@id/view4"
-                    android:padding="2dp"/>
+                    android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtaventclassic5principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view4"
                     android:layout_toRightOf="@id/aventclassic5"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtaventclassic"
-                    android:textSize="20sp" />
+                    android:text="@string/txtaventclassic" />
 
                 <TextView
                     android:id="@+id/txtaventclassic5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtaventclassic5principal"
                     android:layout_toRightOf="@id/aventclassic5"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtaventclassic5"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtaventclassic5" />
 
                 <Button
                     android:id="@+id/btnaventclassic5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/btnvermas"
                     android:layout_above="@+id/view5"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:text="@string/btnver" />
 
                 <TextView
                     android:id="@+id/precioaventclassic5"
                     style="@style/precio"
-                    android:layout_below="@id/aventclassic5"/>
+                    android:layout_below="@id/aventclassic5" />
 
                 <View
                     android:id="@+id/view5"
@@ -301,46 +221,32 @@
                     android:layout_width="90dp"
                     android:layout_height="80dp"
                     android:layout_below="@id/view5"
-                    android:padding="2dp"/>
+                    android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtaventclassic6principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view5"
                     android:layout_toRightOf="@id/aventclassic6"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtaventclassic"
-                    android:textSize="20sp" />
+                    android:text="@string/txtaventclassic" />
 
                 <TextView
                     android:id="@+id/txtaventclassic6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtaventclassic6principal"
                     android:layout_toRightOf="@id/aventclassic6"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtaventclassic6"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtaventclassic6" />
 
                 <Button
                     android:id="@+id/btnaventclassic6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/btnvermas"
                     android:layout_above="@+id/view6"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:text="@string/btnver" />
 
                 <TextView
                     android:id="@+id/precioaventclassic6"
                     style="@style/precio"
-                    android:layout_below="@id/aventclassic6"/>
+                    android:layout_below="@id/aventclassic6" />
 
                 <View
                     android:id="@+id/view6"
@@ -352,46 +258,32 @@
                     android:layout_width="90dp"
                     android:layout_height="80dp"
                     android:layout_below="@id/view6"
-                    android:padding="2dp"/>
+                    android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtaventclassic7principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view6"
                     android:layout_toRightOf="@id/aventclassic7"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtaventclassic"
-                    android:textSize="20sp" />
+                    android:text="@string/txtaventclassic" />
 
                 <TextView
                     android:id="@+id/txtaventclassic7"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtaventclassic7principal"
                     android:layout_toRightOf="@id/aventclassic7"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtaventclassic7"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtaventclassic7" />
 
                 <Button
                     android:id="@+id/btnaventclassic7"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/btnvermas"
                     android:layout_above="@+id/view7"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:text="@string/btnver" />
 
                 <TextView
                     android:id="@+id/precioaventclassic7"
                     style="@style/precio"
-                    android:layout_below="@id/aventclassic7"/>
+                    android:layout_below="@id/aventclassic7" />
 
                 <View
                     android:id="@+id/view7"
@@ -403,46 +295,32 @@
                     android:layout_width="90dp"
                     android:layout_height="80dp"
                     android:layout_below="@id/view7"
-                    android:padding="2dp"/>
+                    android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtaventclassic8principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view7"
                     android:layout_toRightOf="@id/aventclassic8"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtaventclassic"
-                    android:textSize="20sp" />
+                    android:text="@string/txtaventclassic" />
 
                 <TextView
                     android:id="@+id/txtaventclassic8"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtaventclassic8principal"
                     android:layout_toRightOf="@id/aventclassic8"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtaventclassic8"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtaventclassic8" />
 
                 <Button
                     android:id="@+id/btnaventclassic8"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/btnvermas"
                     android:layout_above="@+id/view8"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:text="@string/btnver" />
 
                 <TextView
                     android:id="@+id/precioaventclassic8"
                     style="@style/precio"
-                    android:layout_below="@id/aventclassic8"/>
+                    android:layout_below="@id/aventclassic8" />
 
                 <View
                     android:id="@+id/view8"
@@ -454,48 +332,32 @@
                     android:layout_width="90dp"
                     android:layout_height="80dp"
                     android:layout_below="@id/view8"
-                    android:padding="2dp"/>
+                    android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtaventclassic9principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view8"
                     android:layout_toRightOf="@id/aventclassic9"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtaventclassic"
-                    android:textSize="20sp" />
+                    android:text="@string/txtaventclassic" />
 
                 <TextView
                     android:id="@+id/txtaventclassic9"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtaventclassic9principal"
                     android:layout_toRightOf="@id/aventclassic9"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtaventclassic9"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtaventclassic9" />
 
                 <Button
                     android:id="@+id/btnaventclassic9"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/btnvermas"
                     android:layout_above="@+id/view9"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:text="@string/btnver" />
 
                 <TextView
                     android:id="@+id/precioaventclassic9"
                     style="@style/precio"
-                    android:layout_below="@id/aventclassic9"/>
+                    android:layout_below="@id/aventclassic9" />
 
                 <View
                     android:id="@+id/view9"
@@ -507,46 +369,32 @@
                     android:layout_width="90dp"
                     android:layout_height="80dp"
                     android:layout_below="@id/view9"
-                    android:padding="2dp"/>
+                    android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtaventclassic10principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view9"
                     android:layout_toRightOf="@id/aventclassic10"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtaventclassic"
-                    android:textSize="20sp" />
+                    android:text="@string/txtaventclassic" />
 
                 <TextView
                     android:id="@+id/txtaventclassic10"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtaventclassic10principal"
                     android:layout_toRightOf="@id/aventclassic10"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtaventclassic10"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtaventclassic10" />
 
                 <Button
                     android:id="@+id/btnaventclassic10"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/btnvermas"
                     android:layout_above="@+id/view10"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:text="@string/btnver" />
 
                 <TextView
                     android:id="@+id/precioaventclassic10"
                     style="@style/precio"
-                    android:layout_below="@id/aventclassic10"/>
+                    android:layout_below="@id/aventclassic10" />
 
                 <View
                     android:id="@+id/view10"
