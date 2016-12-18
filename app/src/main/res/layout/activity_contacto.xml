@@ -147,7 +147,7 @@
                         android:layout_marginRight="10dp"
                         android:layout_weight="1"
                         android:hint="Indicá piso y departamento"
-                        android:inputType="number"
+                        android:inputType="text"
                         android:scrollbars="vertical"
                         android:textColorHint="@color/colorPrimaryDark" />
 

@@ -163,7 +163,6 @@ Muchas gracias!</string>
     <string name="txtmibescatres9">ART 2001327 Catre Petit Baby con cobertor y portatul en base de madera laqueada, bordado - Elefante bebé</string>
     <string name="txtmibescatres10">ART 2001345 Catre Petit Baby con cobertor y portatul en base de madera laqueada, bordado - 1000% algodón - Patchwork</string>
     <string name="txtmibescatres11">ART 2001352 Catre Petit Baby con cobertor y portatul en base de madera laqueada, sublimado - Jugando en colores</string>
-    <string name="txtmibescatres12">ART 3001216 Catre Pilchitas con cobertor y portatul en base de madera - Simil jean</string>
     <string name="txtmibesmoises">Moisés</string>
     <string name="txtmibesmoisesdesc">Moisés de viaje en distintos motivos</string>
     <string name="txtmibesmoises1">ART 1001417 Moisés mibes de viaje estampa - Hada y Príncipe</string>
@@ -313,6 +312,13 @@ Muchas gracias!</string>
     <string name="txtchiccosilla1">Chicco silla Polly 2 en 1</string>
     <string name="txtchiccosilla2">Chicco silla elevadora Pocket snack. Varios colores</string>
     <string name="txtchiccosilla3">Chicco silla Happy snack. Varios colores</string>
+    <string name="txtchiccoduotrio">Cochecitos</string>
+    <string name="txtchiccoduotriodesc">Línea duos y tríos</string>
+    <string name="txtchiccoduotrio1">Chicco Trio Love. Disponible en varios colores. Trío Love, un sistema modular, diferentes configuraciones: Moisés, butaca de seguridad y cochecito con asiento reversible. Multitud de accesorios incluidos</string>
+    <string name="txtchiccoduotrio2">Chicco Active3 Duo. Disponible en varios colores. El nuevo dúo para padres dinámicos y deportistas</string>
+    <string name="txtchiccoduotrio3">Chicco Urban Plus Duo. Urban Plus Dúo, el cochecito convertible de Chicco</string>
+    <string name="txtchiccoduotrio4">Chicco Urban Duo. Urban, el cochecito convertible de Chicco</string>
+    <string name="txtchiccoduotrio5">Chicco Simplicity Duo. Simplicity, el cochecito ideal para disfrutar de la ciudad con todas las comodidades!</string>
 
     Nuby
     <string name="txtnubymarca">Nuby</string>

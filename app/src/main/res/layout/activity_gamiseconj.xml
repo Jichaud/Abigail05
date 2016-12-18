@@ -41,38 +41,22 @@
 
                 <TextView
                     android:id="@+id/txtgamiseconj1principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_toRightOf="@id/gamiseconj1"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtgamiseconj"
-                    android:textSize="20sp" />
+                    android:text="@string/txtgamiseconj" />
 
                 <TextView
                     android:id="@+id/txtgamiseconj1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtgamiseconj1principal"
                     android:layout_toRightOf="@id/gamiseconj1"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtgamiseconj1"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtgamiseconj1" />
 
                 <Button
                     android:id="@+id/btngamiseconj1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/btnvermas"
                     android:layout_above="@id/view1"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:text="@string/btnver" />
 
                 <TextView
                     android:id="@+id/preciogamiseconj1"
@@ -93,39 +77,23 @@
 
                 <TextView
                     android:id="@+id/txtgamiseconj2principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view1"
                     android:layout_toRightOf="@id/gamiseconj2"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtgamiseconj"
-                    android:textSize="20sp" />
+                    android:text="@string/txtgamiseconj" />
 
                 <TextView
                     android:id="@+id/txtgamiseconj2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtgamiseconj2principal"
                     android:layout_toRightOf="@id/gamiseconj2"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtgamiseconj2"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtgamiseconj2" />
 
                 <Button
                     android:id="@+id/btngamiseconj2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/btnvermas"
                     android:layout_above="@id/view2"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:text="@string/btnver" />
 
                 <TextView
                     android:id="@+id/preciogamiseconj2"
@@ -146,39 +114,23 @@
 
                 <TextView
                     android:id="@+id/txtgamiseconj3principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view2"
                     android:layout_toRightOf="@id/gamiseconj3"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtgamiseconj"
-                    android:textSize="20sp" />
+                    android:text="@string/txtgamiseconj" />
 
                 <TextView
                     android:id="@+id/txtgamiseconj3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtgamiseconj3principal"
                     android:layout_toRightOf="@id/gamiseconj3"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtgamiseconj3"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtgamiseconj3" />
 
                 <Button
                     android:id="@+id/btngamiseconj3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/btnvermas"
                     android:layout_above="@id/view3"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:text="@string/btnver" />
 
                 <TextView
                     android:id="@+id/preciogamiseconj3"
@@ -199,39 +151,23 @@
 
                 <TextView
                     android:id="@+id/txtgamiseconj4principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view3"
                     android:layout_toRightOf="@id/gamiseconj4"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtgamiseconj"
-                    android:textSize="20sp" />
+                    android:text="@string/txtgamiseconj" />
 
                 <TextView
                     android:id="@+id/txtgamiseconj4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtgamiseconj4principal"
                     android:layout_toRightOf="@id/gamiseconj4"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtgamiseconj4"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtgamiseconj4" />
 
                 <Button
                     android:id="@+id/btngamiseconj4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/btnvermas"
                     android:layout_above="@id/view4"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:text="@string/btnver" />
 
                 <TextView
                     android:id="@+id/preciogamiseconj4"
@@ -252,39 +188,23 @@
 
                 <TextView
                     android:id="@+id/txtgamiseconj5principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view4"
                     android:layout_toRightOf="@id/gamiseconj5"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtgamiseconj"
-                    android:textSize="20sp" />
+                    android:text="@string/txtgamiseconj" />
 
                 <TextView
                     android:id="@+id/txtgamiseconj5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtgamiseconj5principal"
                     android:layout_toRightOf="@id/gamiseconj5"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtgamiseconj5"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtgamiseconj5" />
 
                 <Button
                     android:id="@+id/btngamiseconj5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/btnvermas"
                     android:layout_above="@id/view5"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:text="@string/btnver" />
 
                 <TextView
                     android:id="@+id/preciogamiseconj5"

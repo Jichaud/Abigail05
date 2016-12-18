@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_combo1"
+    android:id="@+id/activity_chiccoduotrio5"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="4dp"
-    tools:context="com.abigail05.Abigail.combo1">
+    tools:context="com.abigail05.Chicco.chiccoduotrio5">
 
     <Button
         android:id="@+id/btnhome"
@@ -37,19 +35,13 @@
                     android:layout_margin="10dp">
 
                     <ImageView
-                        android:id="@+id/combo1imgnaranja"
+                        android:id="@+id/chiccoduotrio2img"
                         android:layout_width="match_parent"
                         android:layout_height="280dp"
                         android:visibility="gone" />
 
                     <ImageView
-                        android:id="@+id/combo1imglila"
-                        android:layout_width="match_parent"
-                        android:layout_height="280dp"
-                        android:visibility="gone" />
-
-                    <ImageView
-                        android:id="@+id/combo1imgrojo"
+                        android:id="@+id/chiccoduotrio1img"
                         android:layout_width="match_parent"
                         android:layout_height="280dp" />
 
@@ -57,15 +49,15 @@
                         android:id="@+id/txtcolores"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_below="@id/combo1imgrojo"
+                        android:layout_below="@id/chiccoduotrio1img"
                         android:layout_margin="8dp"
-                        android:padding="6dp"
                         android:text="@string/txtcolores"
                         android:textAlignment="center"
                         android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/modelo1"
+                        android:layout_alignParentLeft="true"
                         android:layout_below="@id/txtcolores"
                         android:onClick="modelo1"
                         android:text="@string/modelo1"
@@ -73,41 +65,33 @@
 
                     <TextView
                         android:id="@+id/modelo2"
-                        android:layout_below="@id/txtcolores"
-                        android:layout_centerHorizontal="true"
-                        android:onClick="modelo2"
-                        android:text="@string/modelo2"
-                        style="@style/txtvistas" />
-
-                    <TextView
-                        android:id="@+id/modelo3"
                         android:layout_alignParentRight="true"
                         android:layout_below="@id/txtcolores"
-                        android:onClick="modelo3"
-                        android:text="@string/modelo3"
+                        android:onClick="modelo2"
+                        android:text="@string/modelo2"
                         style="@style/txtvistas" />
 
                     <View
                         android:id="@+id/view1"
                         style="@style/Divider"
-                        android:layout_below="@id/modelo1" />
+                        android:layout_below="@id/modelo2" />
 
                     <TextView
-                        android:id="@+id/txtcombo1principal"
+                        android:id="@+id/txtchiccoduotrio5principal"
                         android:layout_below="@id/view1"
-                        android:text="@string/txtcombo"
+                        android:text="@string/txtchiccoduotrio"
                         style="@style/txtcardprinc" />
 
                     <TextView
-                        android:id="@+id/combo1txtdesc"
-                        android:layout_below="@id/txtcombo1principal"
-                        android:text="@string/txtcombo1desc"
+                        android:id="@+id/chiccoduotrio5txtdesc"
+                        android:layout_below="@id/txtchiccoduotrio5principal"
+                        android:text="@string/txtchiccoduotrio5"
                         style="@style/txtcarddesc" />
 
                     <View
                         android:id="@+id/view2"
                         style="@style/Divider"
-                        android:layout_below="@id/combo1txtdesc" />
+                        android:layout_below="@id/chiccoduotrio5txtdesc" />
 
                     <Button
                         android:id="@+id/btnconsulta"
@@ -117,7 +101,7 @@
                         android:text="@string/stock" />
 
                     <Button
-                        android:id="@+id/btncompracombo1"
+                        android:id="@+id/btncomprachiccoduotrio5"
                         style="@style/btncomprar"
                         android:layout_below="@id/view2"
                         android:layout_toRightOf="@id/btnconsulta"

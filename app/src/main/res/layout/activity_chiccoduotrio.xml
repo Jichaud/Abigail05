@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_chiccoduotrio"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="4dp"
+    tools:context="com.abigail05.Chicco.chiccoduotrio">
+
+    <Button
+        android:id="@+id/btnhome"
+        style="@style/btnhome" />
+
+    <Button
+        android:id="@+id/btnvmarca"
+        style="@style/btnmarca" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/btnhome">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="6dp">
+
+                <TextView
+                    android:id="@+id/encargo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/rounded"
+                    android:backgroundTint="@color/pink"
+                    android:fontFamily="sans-serif-medium"
+                    android:padding="10dp"
+                    android:text="@string/porencargotxt"
+                    android:textAlignment="center"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/chiccoduotrio1"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@+id/encargo"
+                    android:padding="2dp" />
+
+                <TextView
+                    android:id="@+id/txtchiccoduotrio1principal"
+                    android:layout_toRightOf="@id/chiccoduotrio1"
+                    android:text="@string/txtchiccoduotrio"
+                    android:layout_below="@+id/encargo"
+                    style="@style/txtprincipal" />
+
+                <TextView
+                    android:id="@+id/txtchiccoduotrio1"
+                    android:layout_below="@id/txtchiccoduotrio1principal"
+                    android:layout_toRightOf="@id/chiccoduotrio1"
+                    android:text="@string/txtchiccoduotrio1"
+                    style="@style/txtdesc" />
+
+                <Button
+                    android:id="@+id/btnchiccoduotrio1"
+                    android:layout_above="@id/view1"
+                    android:text="@string/btnver"
+                    style="@style/btnvermas" />
+
+                <TextView
+                    android:id="@+id/preciochiccoduotrio1"
+                    style="@style/precio"
+                    android:layout_below="@id/chiccoduotrio1" />
+
+                <View
+                    android:id="@+id/view1"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciochiccoduotrio1" />
+
+                <ImageView
+                    android:id="@+id/chiccoduotrio2"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view1"
+                    android:padding="2dp" />
+
+                <TextView
+                    android:id="@+id/txtchiccoduotrio2principal"
+                    android:layout_below="@id/view1"
+                    android:layout_toRightOf="@id/chiccoduotrio2"
+                    android:text="@string/txtchiccoduotrio"
+                    style="@style/txtprincipal" />
+
+                <TextView
+                    android:id="@+id/txtchiccoduotrio2"
+                    android:layout_below="@id/txtchiccoduotrio2principal"
+                    android:layout_toRightOf="@id/chiccoduotrio2"
+                    android:text="@string/txtchiccoduotrio2"
+                    style="@style/txtdesc" />
+
+                <Button
+                    android:id="@+id/btnchiccoduotrio2"
+                    android:layout_above="@id/view2"
+                    android:text="@string/btnver"
+                    style="@style/btnvermas" />
+
+                <TextView
+                    android:id="@+id/preciochiccoduotrio2"
+                    style="@style/precio"
+                    android:layout_below="@id/chiccoduotrio2" />
+
+                <View
+                    android:id="@+id/view2"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciochiccoduotrio2" />
+
+                <ImageView
+                    android:id="@+id/chiccoduotrio3"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view2"
+                    android:padding="2dp" />
+
+                <TextView
+                    android:id="@+id/txtchiccoduotrio3principal"
+                    android:layout_below="@id/view2"
+                    android:layout_toRightOf="@id/chiccoduotrio3"
+                    android:text="@string/txtchiccoduotrio"
+                    style="@style/txtprincipal" />
+
+                <TextView
+                    android:id="@+id/txtchiccoduotrio3"
+                    android:layout_below="@id/txtchiccoduotrio3principal"
+                    android:layout_toRightOf="@id/chiccoduotrio3"
+                    android:text="@string/txtchiccoduotrio3"
+                    style="@style/txtdesc" />
+
+                <Button
+                    android:id="@+id/btnchiccoduotrio3"
+                    android:layout_above="@id/view3"
+                    android:text="@string/btnver"
+                    style="@style/btnvermas" />
+
+                <TextView
+                    android:id="@+id/preciochiccoduotrio3"
+                    style="@style/precio"
+                    android:layout_below="@id/chiccoduotrio3" />
+
+                <View
+                    android:id="@+id/view3"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciochiccoduotrio3" />
+
+                <ImageView
+                    android:id="@+id/chiccoduotrio4"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view3"
+                    android:padding="2dp" />
+
+                <TextView
+                    android:id="@+id/txtchiccoduotrio4principal"
+                    android:layout_below="@id/view3"
+                    android:layout_toRightOf="@id/chiccoduotrio4"
+                    android:text="@string/txtchiccoduotrio"
+                    style="@style/txtprincipal" />
+
+                <TextView
+                    android:id="@+id/txtchiccoduotrio4"
+                    android:layout_below="@id/txtchiccoduotrio4principal"
+                    android:layout_toRightOf="@id/chiccoduotrio4"
+                    android:text="@string/txtchiccoduotrio4"
+                    style="@style/txtdesc" />
+
+                <Button
+                    android:id="@+id/btnchiccoduotrio4"
+                    android:layout_above="@id/view4"
+                    android:text="@string/btnver"
+                    style="@style/btnvermas" />
+
+                <TextView
+                    android:id="@+id/preciochiccoduotrio4"
+                    style="@style/precio"
+                    android:layout_below="@id/chiccoduotrio4" />
+
+                <View
+                    android:id="@+id/view4"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciochiccoduotrio4" />
+
+                <ImageView
+                    android:id="@+id/chiccoduotrio5"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view4"
+                    android:padding="2dp" />
+
+                <TextView
+                    android:id="@+id/txtchiccoduotrio5principal"
+                    android:layout_below="@id/view4"
+                    android:layout_toRightOf="@id/chiccoduotrio5"
+                    android:text="@string/txtchiccoduotrio"
+                    style="@style/txtprincipal" />
+
+                <TextView
+                    android:id="@+id/txtchiccoduotrio5"
+                    android:layout_below="@id/txtchiccoduotrio5principal"
+                    android:layout_toRightOf="@id/chiccoduotrio5"
+                    android:text="@string/txtchiccoduotrio5"
+                    style="@style/txtdesc" />
+
+                <Button
+                    android:id="@+id/btnchiccoduotrio5"
+                    android:layout_above="@id/view5"
+                    android:text="@string/btnver"
+                    style="@style/btnvermas" />
+
+                <TextView
+                    android:id="@+id/preciochiccoduotrio5"
+                    style="@style/precio"
+                    android:layout_below="@id/chiccoduotrio5" />
+
+                <View
+                    android:id="@+id/view5"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciochiccoduotrio5" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

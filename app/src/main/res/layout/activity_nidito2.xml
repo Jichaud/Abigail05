@@ -26,23 +26,10 @@
         android:layout_below="@id/btnhome">
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:paddingBottom="20dp"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp">
+            style="@style/LinearCard">
 
             <android.support.v7.widget.CardView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginBottom="4dp"
-                android:layout_marginLeft="4dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginTop="10dp"
-                app:cardCornerRadius="2dp"
-                app:cardElevation="2dp">
+                style="@style/card">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -72,41 +59,19 @@
 
                     <TextView
                         android:id="@+id/modelo1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
                         android:layout_alignParentLeft="true"
                         android:layout_below="@id/txtcolores"
-                        android:background="@drawable/rounded"
                         android:onClick="modelo1"
-                        android:paddingBottom="6dp"
-                        android:paddingLeft="15dp"
-                        android:paddingRight="15dp"
-                        android:paddingTop="6dp"
                         android:text="@string/modelo1"
-                        android:textAlignment="center"
-                        android:textColor="#E3F2FD"
-                        android:textSize="18sp"
-
-                        android:textStyle="bold" />
+                        style="@style/txtvistas" />
 
                     <TextView
                         android:id="@+id/modelo2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
                         android:layout_alignParentRight="true"
                         android:layout_below="@id/txtcolores"
-                        android:background="@drawable/rounded"
                         android:onClick="modelo2"
-                        android:paddingBottom="6dp"
-                        android:paddingLeft="15dp"
-                        android:paddingRight="15dp"
-                        android:paddingTop="6dp"
                         android:text="@string/modelo2"
-                        android:textAlignment="center"
-                        android:textColor="#E3F2FD"
-                        android:textSize="18sp"
-
-                        android:textStyle="bold" />
+                        style="@style/txtvistas" />
 
                     <View
                         android:id="@+id/view1"
@@ -115,24 +80,15 @@
 
                     <TextView
                         android:id="@+id/txtnidito2principal"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
                         android:layout_below="@id/view1"
-                        android:fontFamily="sans-serif-light"
                         android:text="@string/txtCuellitoPrincipal"
-                        android:textAlignment="center"
-                        android:textSize="25sp" />
+                        style="@style/txtcardprinc" />
 
                     <TextView
                         android:id="@+id/nidito2txtdesc"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
                         android:layout_below="@id/txtnidito2principal"
-                        android:paddingTop="10dp"
                         android:text="@string/txtCuellitoPrincipaldesc"
-                        android:textAlignment="center"
-                        android:textColor="@color/grey"
-                        android:textSize="20sp" />
+                        style="@style/txtcarddesc" />
 
                     <View
                         android:id="@+id/view2"

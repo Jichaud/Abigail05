@@ -169,6 +169,52 @@
                     style="@style/Divider"
                     android:layout_below="@id/btnchiccosilla" />
 
+                <ImageView
+                    android:id="@+id/chiccoduotrio"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view3"
+                    android:padding="2dp" />
+
+                <TextView
+                    android:id="@+id/txtchiccoduotrio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view3"
+                    android:layout_toRightOf="@id/chiccoduotrio"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtchiccoduotrio"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtchiccoduotriodesc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtchiccoduotrio"
+                    android:layout_toRightOf="@id/chiccoduotrio"
+                    android:paddingLeft="15dp"
+                    android:text="@string/txtchiccoduotriodesc"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnchiccoduotrio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/txtchiccoduotriodesc"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="@string/btnver"
+                    android:textAllCaps="false"
+                    android:textSize="16sp" />
+
+                <View
+                    android:id="@+id/view4"
+                    style="@style/Divider"
+                    android:layout_below="@id/btnchiccoduotrio" />
+
             </RelativeLayout>
 
         </LinearLayout>

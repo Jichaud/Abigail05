@@ -25,6 +25,9 @@ public class chiccoprodlist extends AppCompatActivity {
     Button btnchiccosilla;
     ImageView chiccosilla;
     String urlchiccosilla = "https://lh3.googleusercontent.com/mLJVb0kVJpgpxIS-kq9IdtGETI3BJ5DPlgMAqh34kfGWBhpKb44mF3NL6cl1OC1rubxmQdW-f-N2TYkRMO68ZaGYQhug-JDp_2N2m1kCSJ8w_ndoHs1qRoMYINvSXRq5oS48OSj4GvEH73ueltpp6njF1X-4HC7ql48hlOLaJ41kLZttaBnAOW8A6PrtQuK8C21O5All48_P27eaflXgkNBJaN5XZgefwcp5hEWjdY2UMYfLXJzxB6SzT_bYO0CwK6vg-ebu0Q3NzpYVcPLVpC_NOElJFY3MEmtwOOJKGcPOA0aWNJwXBH820fJnsHG1aFU2l5q45MonmkDQruziX5nwb6d8pcmKRt2-OYGC79scnSYoO3kVOwgmDyycGa3fmY4vR5z5AtCb7SrToOLuugImZJSHJrTvnEXbiNCGrVjyqPyhFqbZ1oyFb0KP-Oi2sBP9OLrGobfIm9e1td25MXw4x3144IdlaTCrpxStvQUlOc-Iq49U7PkAHj0Ws0roaV1Qu4E7JwESt0vBnmcFw8tqMPueMOQsc3kvovS5lTdXRcsuspDAVRHYyjxS8ZysSphZaZ334tlEKchn9E9UFhiJTndbhN2_CDMWlch2E76L74ctgg=s725-no";
+    Button btnchiccoduotrio;
+    ImageView chiccoduotrio;
+    String urlchiccoduotrio = "https://lh3.googleusercontent.com/5TH1LyOdBkBVjlHhpCAggeT-mCeZw4j2MDbB0sYhwC5K1n-FSjdoG5S4bRPA61pT583WfaKZoqIW7vVWaFILYY16vpj9Wyv4oNGKPFC1Mdg0tdDtjYtkHlDibBE-myUsTrbHI8uT6N77i7KLyJziOuICjXhPP65LkqMptB8sq2FHBvGjwwFW8FbV25az1et7zcUADnxUAk82u0Hmov_XkWFTsNtnHf68AVPrfGaICJrueaCI-sVLka1yNmTnWzb1X_XHABPcEnrbH1gMka67ZilpI2Gau3LxC1PB_3FMtNnSqKqeWmPDvk6lsyWfxC-tbEfJ_zyTeXG8bfx8yJbcV-KqsuCMoram5fN_Gyv4RSkRQFrqOPixZ7olw-dZej79W1Tc-gZ4jPhvvr4V_CZZ0O10JXKiA5LTBzUNK7Ou-HVQq_kuEs2653xIlhp4qF7ErqTubHjh_WuotFFrGPZnioea_VhcJYDEV6RLGjW6El57Q49SHtJhAwNNwkCrHucFQ2ndObTT6T5DXRNXoOniT4337MDNUAhgAsqrOiwwYFTFiP7vpSyBAUGeCU5U1a77ORx5tYq-sJfHuUSiAq9Eajt60JG2dJEHjyeZoxP3jj6Y82gUdO2i7qj74tpQ15qF-jVPlt8nZoM9QkCzj6sRMN6ot6auBjobwLrZx3SuFC0=s725-no";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -82,6 +85,18 @@ public class chiccoprodlist extends AppCompatActivity {
             public void onClick(View view) {
                 Intent btnchiccosilla = new Intent(chiccoprodlist.this, chiccosilla.class);
                 startActivity(btnchiccosilla);
+            }
+        });
+
+        chiccoduotrio = (ImageView)findViewById(R.id.chiccoduotrio);
+        Picasso.with(this).load(urlchiccoduotrio).into(chiccoduotrio);
+
+        btnchiccoduotrio = (Button)findViewById(R.id.btnchiccoduotrio);
+        btnchiccoduotrio.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnchiccoduotrio = new Intent(chiccoprodlist.this, chiccoduotrio.class);
+                startActivity(btnchiccoduotrio);
             }
         });
 

@@ -1202,33 +1202,60 @@
             android:name=".mibes.mibesmoises"
             android:label="mibes | Moisés"
             android:parentActivityName=".mibes.mibesprodlist" />
-        <activity android:name=".mibes.mibesmoises1"
+        <activity
+            android:name=".mibes.mibesmoises1"
             android:label="mibes | Moisés"
-            android:parentActivityName=".mibes.mibesmoises"/>
-        <activity android:name=".mibes.mibesmoises2"
+            android:parentActivityName=".mibes.mibesmoises" />
+        <activity
+            android:name=".mibes.mibesmoises2"
             android:label="mibes | Moisés"
-            android:parentActivityName=".mibes.mibesmoises"/>
-        <activity android:name=".mibes.mibesmoises3"
+            android:parentActivityName=".mibes.mibesmoises" />
+        <activity
+            android:name=".mibes.mibesmoises3"
             android:label="mibes | Moisés"
-            android:parentActivityName=".mibes.mibesmoises"/>
-        <activity android:name=".mibes.mibesmoises4"
+            android:parentActivityName=".mibes.mibesmoises" />
+        <activity
+            android:name=".mibes.mibesmoises4"
             android:label="mibes | Moisés"
-            android:parentActivityName=".mibes.mibesmoises"/>
-        <activity android:name=".mibes.mibesmoises5"
+            android:parentActivityName=".mibes.mibesmoises" />
+        <activity
+            android:name=".mibes.mibesmoises5"
             android:label="mibes | Moisés"
-            android:parentActivityName=".mibes.mibesmoises"/>
-        <activity android:name=".mibes.mibesmoises6"
+            android:parentActivityName=".mibes.mibesmoises" />
+        <activity
+            android:name=".mibes.mibesmoises6"
             android:label="mibes | Moisés"
-            android:parentActivityName=".mibes.mibesmoises"/>
-        <activity android:name=".mibes.mibesmoises7"
+            android:parentActivityName=".mibes.mibesmoises" />
+        <activity
+            android:name=".mibes.mibesmoises7"
             android:label="mibes | Moisés"
-            android:parentActivityName=".mibes.mibesmoises"/>
-        <activity android:name=".mibes.mibesmoises8"
+            android:parentActivityName=".mibes.mibesmoises" />
+        <activity
+            android:name=".mibes.mibesmoises8"
             android:label="mibes | Moisés"
-            android:parentActivityName=".mibes.mibesmoises"/>
-        <activity android:name=".mibes.mibesmoises9"
+            android:parentActivityName=".mibes.mibesmoises" />
+        <activity
+            android:name=".mibes.mibesmoises9"
             android:label="mibes | Moisés"
-            android:parentActivityName=".mibes.mibesmoises">
+            android:parentActivityName=".mibes.mibesmoises" />
+        <activity android:name=".Chicco.chiccoduotrio"
+            android:label="Chicco | Cochecitos"
+            android:parentActivityName=".Chicco.chiccoprodlist"/>
+        <activity android:name=".Chicco.chiccoduotrio1"
+            android:label="Chicco | Trío Love"
+            android:parentActivityName=".Chicco.chiccoduotrio"/>
+        <activity android:name=".Chicco.chiccoduotrio2"
+            android:label="Chicco | Active3 Duo"
+            android:parentActivityName=".Chicco.chiccoduotrio"/>
+        <activity android:name=".Chicco.chiccoduotrio3"
+            android:label="Chicco | Urban Plus Duo"
+            android:parentActivityName=".Chicco.chiccoduotrio"/>
+        <activity android:name=".Chicco.chiccoduotrio4"
+            android:label="Chicco | Urban Duo"
+            android:parentActivityName=".Chicco.chiccoduotrio"/>
+        <activity android:name=".Chicco.chiccoduotrio5"
+            android:label="Chicco | Simplicity Duo"
+            android:parentActivityName=".Chicco.chiccoduotrio">
 
         </activity>
     </application>
