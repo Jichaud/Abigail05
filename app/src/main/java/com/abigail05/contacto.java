@@ -4,10 +4,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.LinearLayout;
+import android.widget.Spinner;
 import android.widget.Switch;
 
 import java.util.regex.Matcher;
@@ -33,6 +36,7 @@ public class contacto extends AppCompatActivity {
     EditText provincia;
     EditText cpostal;
     LinearLayout layoutcontact;
+    Spinner spinner_provincias;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,6 +51,8 @@ public class contacto extends AppCompatActivity {
         provincia = (EditText)findViewById(R.id.provincia);
         cpostal = (EditText)findViewById(R.id.cpostal);
         layoutcontact = (LinearLayout)findViewById(R.id.layoutcontact);
+        spinner_provincias = (Spinner)findViewById(R.id.sprovincias);
+        CargaProvincias();
 
         btnenviodhl.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -136,5 +142,25 @@ public class contacto extends AppCompatActivity {
         }
 
     };
+
+    public void CargaProvincias() {
+        ArrayAdapter<CharSequence> adaptador = ArrayAdapter.createFromResource(contacto.this,R.array.provincias, android.R.layout.simple_spinner_dropdown_item);
+        spinner_provincias.setAdapter(adaptador);
+        final String sp_provinciatxt = spinner_provincias.getSelectedItem().toString();
+
+        spinner_provincias.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+                provincia.setText(spinner_provincias.getSelectedItem().toString());
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
+
+    }
+
 
 }

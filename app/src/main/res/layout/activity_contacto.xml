@@ -170,9 +170,14 @@
                         android:textColorHint="@color/colorPrimaryDark" />
                 </android.support.design.widget.TextInputLayout>
 
-                <android.support.design.widget.TextInputLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                <Spinner
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/sprovincias"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:entries="@array/provincias">
+                </Spinner>
 
                     <EditText
                         android:id="@+id/provincia"
@@ -182,10 +187,10 @@
                         android:layout_marginRight="10dp"
                         android:layout_weight="1"
                         android:hint="Indicá la provincia"
+                        android:visibility="gone"
                         android:inputType="textMultiLine"
                         android:scrollbars="vertical"
                         android:textColorHint="@color/colorPrimaryDark" />
-                </android.support.design.widget.TextInputLayout>
 
                 <android.support.design.widget.TextInputLayout
                     android:layout_width="match_parent"

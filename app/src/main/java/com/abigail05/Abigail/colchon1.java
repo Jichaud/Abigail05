@@ -21,11 +21,6 @@ import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 
 import java.io.IOException;
-import java.text.DecimalFormat;
-import java.text.NumberFormat;
-import java.util.Formatter;
-import java.util.Locale;
-import java.util.StringTokenizer;
 
 public class colchon1 extends AppCompatActivity {
 

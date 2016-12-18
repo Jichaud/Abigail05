@@ -25,6 +25,12 @@ public class mibesprodlist extends AppCompatActivity {
     Button btnmibes1;
     ImageView mibes1;
     String urlmibes1 = "https://lh3.googleusercontent.com/-DSKLh-hHAGnzlAkWyO5lEf2DRTUw-YhhGU9IymbIourye2rYqTQfpfnhJeoqSehWFFBthXgOgk=w432-h360-no";
+    Button btnmibescatres;
+    ImageView mibescatres;
+    String urlmibescatres = "https://lh3.googleusercontent.com/ljxJfbT4alx4SHDV0hUe6u_chA3oukUkM31C_5nt0PifnKLn3DfAltRcDbOrvxWOQfcV-zf1Ul-1-zCyZWi8Aq-gQnktksKiY8GsrWM2aNIH6kxubd_WZpJcb6msd-2B2DmGEW6H0LYtWNq7Xq5la9lI1HSkAUiFKkbwvIaBRQ1LQzz0PS2vCWpMu5QJtfv-cUUJacPNpgjY-A3eWstbEhZuxfEswj8vw36jiAfMHOJ8PjzYZR_rcG00gIRX_oAZyg5GdiZTUmOfItHmh2NG89_DXwWIoGIKAW0XKso_jlj0mbn6DPQ9oUlwXLQrz1qXimyXD_7SGaFL4YERpUtZ5t-COsPZ7kpk5BPrItDicZxj1alBCpEqqGiHBEA-8SjjAnwkbcUyx0OS4oLD68VSDGRQ5u48DNO4R4mQ0FiSVKT8RFKwheB0jspyqzZnLqtHlXAEtRgY2qCeOz9k3xm4U1il-9TceTACJNd7rr8iniZ19yty_qaaCJC_PQFv8Dbln9DwlL_YpXr9ZjyOaeDCy8GApvoxbdh9dn_qokoknh320089TIySSNmsDcQNvsaOQmDN4mojjA6ax8FJS91kW-OEB4l8Hwl6ImuyhPoMefwk4tipz0Cag00b-1mi-W6UTA_2ek5AuHjJbEnRD5hMMnKuq3TWHP3neV70Do0nPsU=w967-h725-no";
+    Button btnmibesmoises;
+    ImageView mibesmoises;
+    String urlmibesmoises = "https://lh3.googleusercontent.com/qWj54wp2luJNnfGVnbN3Ea_F6of1OIRO5s1CxTMcLChcQiZI3i4g5BBq8yb-M9xn2XBA5UwHdE0mS1tfbaSzXdPLDKT7EX3gtCr8cocZ5cb5mR12CaDzRCrmirVOSyvTotgc51hPTmxk0Jraf-jWUHrINqdAjQueTpPEGXFBHN6yS7hdpmdc5NEa8PlRq85WsF8Dh3nqabggBvNhl96OKfjA2VoCiUk3TXatMaGwSvquF2ogd0o5ecHsXE65o7PDAvsUUThFOaA6qURhXXg9HXjB05zj5kKRQVEcOSycpkkcA8Zw9MOtp_35WY5x-njKPBCCpUlylYNsyKy9IBYLJw216_WPCTa03c65zziJAXCx5fQ84Dqsk4RsRKkp5Iai3XNxQGkNVJleCuZFUrCnq37DB2fQEfJqwD1Y90Ij6i34bgZz6XQBfADP8jlfMci25pdTH0UgbkAmSrbHf6jKMMum9xjHuHqBbw_TdydiBYtFhJZXEGUz75dD4Y9a-ATv6GlskVz088ZC_nIoGN4Ik1qnl11129NRd69J4ObRPHDW9woBrTx9eUcnpS8sB876DWZK6bUeAHIW-92GnS6tvjOoH5i_tW840_STnNvgvs67s3TXbZBfoNnSTKlbd2DWCtY6qZT1JxT9Cl9Z8mWmoS9VdOVXpso2yC1J_iBjmwM=w967-h725-no";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -82,6 +88,30 @@ public class mibesprodlist extends AppCompatActivity {
             public void onClick(View view) {
                 Intent btnmibes1 = new Intent(mibesprodlist.this, mibesbolsos.class);
                 startActivity(btnmibes1);
+            }
+        });
+
+        mibescatres = (ImageView)findViewById(R.id.mibescatres);
+        Picasso.with(this).load(urlmibescatres).into(mibescatres);
+
+        btnmibescatres = (Button)findViewById(R.id.btnmibescatres);
+        btnmibescatres.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnmibescatres = new Intent(mibesprodlist.this, mibescatres.class);
+                startActivity(btnmibescatres);
+            }
+        });
+
+        mibesmoises = (ImageView)findViewById(R.id.mibesmoises);
+        Picasso.with(this).load(urlmibesmoises).into(mibesmoises);
+
+        btnmibesmoises = (Button)findViewById(R.id.btnmibesmoises);
+        btnmibesmoises.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnmibesmoises = new Intent(mibesprodlist.this, mibesmoises.class);
+                startActivity(btnmibesmoises);
             }
         });
 

@@ -89,26 +89,17 @@
 
                     <Button
                         android:id="@+id/btnconsulta"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        style="@style/btnstock"
+                        android:layout_alignParentLeft="true"
                         android:layout_below="@id/view2"
-                        android:backgroundTint="@color/pink"
-                        android:paddingTop="10dp"
-                        android:text="@string/stock"
-                        android:textAlignment="center"
-                        android:textColor="@color/colorPrimaryDark"
-                        android:textSize="14sp" />
+                        android:text="@string/stock" />
 
                     <Button
                         android:id="@+id/btncompranubyvasos3"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@id/btnconsulta"
-                        android:backgroundTint="@color/colorPrimary"
-                        android:fontFamily="sans-serif-thin"
-                        android:text="@string/btnverprecio"
-                        android:textAllCaps="false"
-                        android:textSize="16sp" />
+                        style="@style/btncomprar"
+                        android:layout_below="@id/view2"
+                        android:layout_toRightOf="@id/btnconsulta"
+                        android:text="@string/btnverprecio" />
 
                 </RelativeLayout>
 

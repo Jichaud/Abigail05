@@ -1145,10 +1145,90 @@
         <activity
             android:name=".BabyInnovation.babyinvarios13"
             android:label="BabyInnovation | Set de cuchara y tenedor"
-            android:parentActivityName=".BabyInnovation.babyinvarios"/>
-        <activity android:name=".BabyInnovation.babyinseguridad4"
+            android:parentActivityName=".BabyInnovation.babyinvarios" />
+        <activity
+            android:name=".BabyInnovation.babyinseguridad4"
             android:label="BabyInnovation | Traba ventana"
-            android:parentActivityName=".BabyInnovation.babyinseguridad">
+            android:parentActivityName=".BabyInnovation.babyinseguridad" />
+        <activity
+            android:name=".mibes.mibescatres"
+            android:label="mibes | Catres"
+            android:parentActivityName=".mibes.mibesprodlist" />
+        <activity
+            android:name=".mibes.mibescatres1"
+            android:label="mibes | Catres"
+            android:parentActivityName=".mibes.mibescatres" />
+        <activity
+            android:name=".mibes.mibescatres2"
+            android:label="mibes | Catres"
+            android:parentActivityName=".mibes.mibescatres" />
+        <activity
+            android:name=".mibes.mibescatres3"
+            android:label="mibes | Catres"
+            android:parentActivityName=".mibes.mibescatres" />
+        <activity
+            android:name=".mibes.mibescatres4"
+            android:label="mibes | Catres"
+            android:parentActivityName=".mibes.mibescatres" />
+        <activity
+            android:name=".mibes.mibescatres5"
+            android:label="mibes | Catres"
+            android:parentActivityName=".mibes.mibescatres" />
+        <activity
+            android:name=".mibes.mibescatres6"
+            android:label="mibes | Catres"
+            android:parentActivityName=".mibes.mibescatres" />
+        <activity
+            android:name=".mibes.mibescatres7"
+            android:label="mibes | Catres"
+            android:parentActivityName=".mibes.mibescatres" />
+        <activity
+            android:name=".mibes.mibescatres8"
+            android:label="mibes | Catres"
+            android:parentActivityName=".mibes.mibescatres" />
+        <activity
+            android:name=".mibes.mibescatres9"
+            android:label="mibes | Catres"
+            android:parentActivityName=".mibes.mibescatres" />
+        <activity
+            android:name=".mibes.mibescatres10"
+            android:label="mibes | Catres"
+            android:parentActivityName=".mibes.mibescatres" />
+        <activity
+            android:name=".mibes.mibescatres11"
+            android:label="mibes | Catres"
+            android:parentActivityName=".mibes.mibescatres" />
+        <activity
+            android:name=".mibes.mibesmoises"
+            android:label="mibes | Moisés"
+            android:parentActivityName=".mibes.mibesprodlist" />
+        <activity android:name=".mibes.mibesmoises1"
+            android:label="mibes | Moisés"
+            android:parentActivityName=".mibes.mibesmoises"/>
+        <activity android:name=".mibes.mibesmoises2"
+            android:label="mibes | Moisés"
+            android:parentActivityName=".mibes.mibesmoises"/>
+        <activity android:name=".mibes.mibesmoises3"
+            android:label="mibes | Moisés"
+            android:parentActivityName=".mibes.mibesmoises"/>
+        <activity android:name=".mibes.mibesmoises4"
+            android:label="mibes | Moisés"
+            android:parentActivityName=".mibes.mibesmoises"/>
+        <activity android:name=".mibes.mibesmoises5"
+            android:label="mibes | Moisés"
+            android:parentActivityName=".mibes.mibesmoises"/>
+        <activity android:name=".mibes.mibesmoises6"
+            android:label="mibes | Moisés"
+            android:parentActivityName=".mibes.mibesmoises"/>
+        <activity android:name=".mibes.mibesmoises7"
+            android:label="mibes | Moisés"
+            android:parentActivityName=".mibes.mibesmoises"/>
+        <activity android:name=".mibes.mibesmoises8"
+            android:label="mibes | Moisés"
+            android:parentActivityName=".mibes.mibesmoises"/>
+        <activity android:name=".mibes.mibesmoises9"
+            android:label="mibes | Moisés"
+            android:parentActivityName=".mibes.mibesmoises">
 
         </activity>
     </application>

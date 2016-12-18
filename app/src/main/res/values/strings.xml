@@ -38,6 +38,35 @@ Muchas gracias!</string>
     <string name="AMbuscamarca">Buscá por marca</string>
     <string name="AMtxtdescxmarca">Avent, Chicco, Babelito y mucho más…</string>
 
+    Provincias
+    <string name="spprovincias">Seleccioná una provincia</string>
+    <string-array name="provincias">
+        <item>Seleccioná una provincia…</item>
+        <item>Buenos Aires</item>
+        <item>C.A.B.A.</item>
+        <item>Catamarca</item>
+        <item>Córdoba</item>
+        <item>Corrientes</item>
+        <item>Chaco</item>
+        <item>Chubut</item>
+        <item>Entre Ríos</item>
+        <item>Formosa</item>
+        <item>Jujuy</item>
+        <item>La Pampa</item>
+        <item>La Rioja</item>
+        <item>Mendoza</item>
+        <item>Misiones</item>
+        <item>Neuquén</item>
+        <item>Río Negro</item>
+        <item>Salta</item>
+        <item>San Juan</item>
+        <item>San Luis</item>
+        <item>Santa Cruz</item>
+        <item>Santa Fe</item>
+        <item>Santiago del Estero</item>
+        <item>Tucumán</item>
+    </string-array>
+
     Productos Abigail05
     <string name="txtcombo">Combo Almohadón para Amamantar</string>
     <string name="txtlista1">Almohadones</string>
@@ -63,7 +92,7 @@ Muchas gracias!</string>
 
 
     Combo1
-    <string name="stock">Consultá stock antes de comprar</string>
+    <string name="stock">Consultá stock</string>
 
     Combo3
     <string name="modelo1">vista 1</string>
@@ -121,6 +150,31 @@ Muchas gracias!</string>
     <string name="txtmibesaccesorios4">ARTICULO 1018092 Cambiador "Hada y Principe" Colores: Celeste, Rosa, Verde Manzana, Rojo</string>
     <string name="txtmibesaccesorios5">ARTICULO 1016954 Bolso en microfibra y estampado en relieve, colores varios</string>
     <string name="txtmibesaccesorios6">ARTICULO 1019064 Mochila Porta Bebe "Hada y Principe" Colores: Celeste, Rosa, Verde Manzana, Rojo y Lila</string>
+    <string name="txtmibescatres">Catres</string>
+    <string name="txtmibescatresdesc">Catres con cobertor, portatul, base de madera</string>
+    <string name="txtmibescatres1">ART 1001322 Catre mibes con cobertor y portatul en base de madera, estampa - Hada y Príncipe</string>
+    <string name="txtmibescatres2">ART 1001341 Catre mibes con cobertor y portatul en base de madera, estampa - Bosque de fantasía</string>
+    <string name="txtmibescatres3">ART 1001350 Catre mibes con cobertor y portatul en base de madera, estampa - Mi mundo de sueños</string>
+    <string name="txtmibescatres4">ART 1025101 Catre mibes con cobertor y portatul en base de madera, con cobertor estampado - Spring &amp; Sea</string>
+    <string name="txtmibescatres5">ART 1025102 Catre mibes con cobertor y portatul en base de madera laqueada - Spring &amp; Sea</string>
+    <string name="txtmibescatres6">ART 1025105 Catre mibes con cobertor y portatul en base de madera laqueada - Little Baby</string>
+    <string name="txtmibescatres7">ART 1025111 Catre mibes con cobertor y portatul en base de madera laqueada - Pequeños soñadores</string>
+    <string name="txtmibescatres8">ART 2001317 Catre Petit Baby con cobertor y portatul en base de madera laqueada, bordado - Pareja de ositos</string>
+    <string name="txtmibescatres9">ART 2001327 Catre Petit Baby con cobertor y portatul en base de madera laqueada, bordado - Elefante bebé</string>
+    <string name="txtmibescatres10">ART 2001345 Catre Petit Baby con cobertor y portatul en base de madera laqueada, bordado - 1000% algodón - Patchwork</string>
+    <string name="txtmibescatres11">ART 2001352 Catre Petit Baby con cobertor y portatul en base de madera laqueada, sublimado - Jugando en colores</string>
+    <string name="txtmibescatres12">ART 3001216 Catre Pilchitas con cobertor y portatul en base de madera - Simil jean</string>
+    <string name="txtmibesmoises">Moisés</string>
+    <string name="txtmibesmoisesdesc">Moisés de viaje en distintos motivos</string>
+    <string name="txtmibesmoises1">ART 1001417 Moisés mibes de viaje estampa - Hada y Príncipe</string>
+    <string name="txtmibesmoises2">ART 1001423 Moisés mibes de viaje bordado - Koala</string>
+    <string name="txtmibesmoises3">ART 1001425 Moisés mibes de viaje estampa - Bosque de fantasía</string>
+    <string name="txtmibesmoises4">ART 1001426 Moisés mibes de viaje estampa - Mis pequeños amigos</string>
+    <string name="txtmibesmoises5">ART 1001428 Moisés mibes de viaje estampa - Mis pequeños amigos</string>
+    <string name="txtmibesmoises6">ART 1024101 Moisés mibes de viaje estampa - Spring &amp; Sea</string>
+    <string name="txtmibesmoises7">ART 1024102 Moisés mibes de viaje estampa - Little Baby</string>
+    <string name="txtmibesmoises8">ART 1024106 Moisés mibes de viaje estampa - Pequeños soñadores</string>
+    <string name="txtmibesmoises9">ART 2001006 Moisés Petit Baby de viaje bordado - Pareja de Ositos</string>
 
     Avent
     <string name="txtaventmarca">Philips - Avent</string>

@@ -64,13 +64,15 @@
                     <Button
                         android:id="@+id/btnconsulta"
                         style="@style/btnstock"
+                        android:layout_alignParentLeft="true"
                         android:layout_below="@id/view2"
                         android:text="@string/stock" />
 
                     <Button
                         android:id="@+id/btncomprababeaccesorios14"
                         style="@style/btncomprar"
-                        android:layout_below="@id/btnconsulta"
+                        android:layout_below="@id/view2"
+                        android:layout_toRightOf="@id/btnconsulta"
                         android:text="@string/btnverprecio" />
 
                 </RelativeLayout>

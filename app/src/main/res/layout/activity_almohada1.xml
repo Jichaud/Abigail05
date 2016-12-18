@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_almohada1"
     android:layout_width="match_parent"
@@ -74,13 +75,15 @@
                     <Button
                         android:id="@+id/btnconsulta"
                         style="@style/btnstock"
+                        android:layout_alignParentLeft="true"
                         android:layout_below="@id/view3"
                         android:text="@string/stock" />
 
                     <Button
                         android:id="@+id/btncompraalmohada1"
                         style="@style/btncomprar"
-                        android:layout_below="@id/btnconsulta"
+                        android:layout_below="@id/view3"
+                        android:layout_toRightOf="@id/btnconsulta"
                         android:text="@string/btnverprecio" />
 
                 </RelativeLayout>

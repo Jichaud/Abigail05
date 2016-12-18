@@ -41,36 +41,22 @@
 
                 <TextView
                     android:id="@+id/txtmibesaccesorios"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_toRightOf="@id/mibesaccesorios"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
                     android:text="@string/txtmibesaccesorios"
-                    android:textSize="20sp" />
+                    style="@style/txtprincipal" />
 
                 <TextView
                     android:id="@+id/txtmibesaccesoriosdesc"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_below="@id/txtmibesaccesorios"
                     android:layout_toRightOf="@id/mibesaccesorios"
-                    android:paddingLeft="15dp"
                     android:text="@string/txtmibesaccesoriosdesc"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    style="@style/txtdesc" />
 
                 <Button
                     android:id="@+id/btnmibesaccesorios"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
                     android:layout_below="@id/txtmibesaccesoriosdesc"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
                     android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas" />
 
                 <View
                     android:id="@+id/view1"
@@ -86,37 +72,23 @@
 
                 <TextView
                     android:id="@+id/txtmibesbaberos"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_below="@id/view1"
                     android:layout_toRightOf="@id/mibesbaberos"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
                     android:text="@string/txtmibesbaberos"
-                    android:textSize="20sp" />
+                    style="@style/txtprincipal" />
 
                 <TextView
                     android:id="@+id/txtmibesbaberosdesc"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_below="@id/txtmibesbaberos"
                     android:layout_toRightOf="@id/mibesbaberos"
-                    android:paddingLeft="15dp"
                     android:text="@string/txtmibesbaberosdesc"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    style="@style/txtdesc" />
 
                 <Button
                     android:id="@+id/btnmibesbaberos"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
                     android:layout_below="@id/txtmibesbaberosdesc"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
                     android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas" />
 
                 <View
                     android:id="@+id/view2"
@@ -132,42 +104,92 @@
 
                 <TextView
                     android:id="@+id/txtmibes1principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_below="@id/view2"
                     android:layout_toRightOf="@id/mibes1"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
                     android:text="@string/txtmibes1principal"
-                    android:textSize="20sp" />
+                    style="@style/txtprincipal" />
 
                 <TextView
                     android:id="@+id/txtmibes2principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_below="@id/txtmibes1principal"
                     android:layout_toRightOf="@id/mibes1"
-                    android:paddingLeft="15dp"
                     android:text="@string/txtmibes2principal"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    style="@style/txtdesc" />
 
                 <Button
                     android:id="@+id/btnmibes1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
                     android:layout_below="@id/txtmibes2principal"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
                     android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas" />
 
                 <View
                     android:id="@+id/view3"
                     style="@style/Divider"
                     android:layout_below="@id/btnmibes1" />
+
+                <ImageView
+                    android:id="@+id/mibescatres"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view3"
+                    android:padding="2dp" />
+
+                <TextView
+                    android:id="@+id/txtmibescatres"
+                    android:layout_toRightOf="@id/mibescatres"
+                    android:text="@string/txtmibescatres"
+                    android:layout_below="@id/view3"
+                    style="@style/txtprincipal" />
+
+                <TextView
+                    android:id="@+id/txtmibescatresdesc"
+                    android:layout_below="@id/txtmibescatres"
+                    android:layout_toRightOf="@id/mibescatres"
+                    android:text="@string/txtmibescatresdesc"
+                    style="@style/txtdesc" />
+
+                <Button
+                    android:id="@+id/btnmibescatres"
+                    android:layout_below="@id/txtmibescatresdesc"
+                    android:text="@string/btnver"
+                    style="@style/btnvermas" />
+
+                <View
+                    android:id="@+id/view4"
+                    style="@style/Divider"
+                    android:layout_below="@id/btnmibescatres" />
+
+                <ImageView
+                    android:id="@+id/mibesmoises"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view4"
+                    android:padding="2dp" />
+
+                <TextView
+                    android:id="@+id/txtmibesmoises"
+                    android:layout_toRightOf="@id/mibesmoises"
+                    android:text="@string/txtmibesmoises"
+                    android:layout_below="@id/view4"
+                    style="@style/txtprincipal" />
+
+                <TextView
+                    android:id="@+id/txtmibesmoisesdesc"
+                    android:layout_below="@id/txtmibesmoises"
+                    android:layout_toRightOf="@id/mibesmoises"
+                    android:text="@string/txtmibesmoisesdesc"
+                    style="@style/txtdesc" />
+
+                <Button
+                    android:id="@+id/btnmibesmoises"
+                    android:layout_below="@id/txtmibesmoisesdesc"
+                    android:text="@string/btnver"
+                    style="@style/btnvermas" />
+
+                <View
+                    android:id="@+id/view5"
+                    style="@style/Divider"
+                    android:layout_below="@id/btnmibesmoises" />
 
             </RelativeLayout>
 

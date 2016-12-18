@@ -41,38 +41,22 @@
 
                 <TextView
                     android:id="@+id/txtmibesbaberos1principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_toRightOf="@id/mibesbaberos1"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
                     android:text="@string/txtmibesbaberos"
-                    android:textSize="20sp" />
+                    style="@style/txtprincipal" />
 
                 <TextView
                     android:id="@+id/txtmibesbaberos1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_below="@id/txtmibesbaberos1principal"
                     android:layout_toRightOf="@id/mibesbaberos1"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
                     android:text="@string/txtmibesbaberos1"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    style="@style/txtdesc" />
 
                 <Button
                     android:id="@+id/btnmibesbaberos1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_above="@id/view1"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
                     android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas" />
 
                 <TextView
                     android:id="@+id/preciomibesbaberos1"
@@ -93,39 +77,23 @@
 
                 <TextView
                     android:id="@+id/txtmibesbaberos2principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_below="@id/view1"
                     android:layout_toRightOf="@id/mibesbaberos2"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
                     android:text="@string/txtmibesbaberos"
-                    android:textSize="20sp" />
+                    style="@style/txtprincipal" />
 
                 <TextView
                     android:id="@+id/txtmibesbaberos2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_below="@id/txtmibesbaberos2principal"
                     android:layout_toRightOf="@id/mibesbaberos2"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
                     android:text="@string/txtmibesbaberos2"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    style="@style/txtdesc" />
 
                 <Button
                     android:id="@+id/btnmibesbaberos2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_above="@id/view2"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
                     android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas" />
 
                 <TextView
                     android:id="@+id/preciomibesbaberos2"
@@ -146,39 +114,23 @@
 
                 <TextView
                     android:id="@+id/txtmibesbaberos3principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_below="@id/view2"
                     android:layout_toRightOf="@id/mibesbaberos3"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
                     android:text="@string/txtmibesbaberos"
-                    android:textSize="20sp" />
+                    style="@style/txtprincipal" />
 
                 <TextView
                     android:id="@+id/txtmibesbaberos3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_below="@id/txtmibesbaberos3principal"
                     android:layout_toRightOf="@id/mibesbaberos3"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
                     android:text="@string/txtmibesbaberos3"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    style="@style/txtdesc" />
 
                 <Button
                     android:id="@+id/btnmibesbaberos3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_above="@id/view3"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
                     android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas" />
 
                 <TextView
                     android:id="@+id/preciomibesbaberos3"
@@ -199,39 +151,23 @@
 
                 <TextView
                     android:id="@+id/txtmibesbaberos4principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_below="@id/view3"
                     android:layout_toRightOf="@id/mibesbaberos4"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
                     android:text="@string/txtmibesbaberos"
-                    android:textSize="20sp" />
+                    style="@style/txtprincipal" />
 
                 <TextView
                     android:id="@+id/txtmibesbaberos4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_below="@id/txtmibesbaberos4principal"
                     android:layout_toRightOf="@id/mibesbaberos4"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
                     android:text="@string/txtmibesbaberos4"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    style="@style/txtdesc" />
 
                 <Button
                     android:id="@+id/btnmibesbaberos4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_above="@id/view4"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
                     android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas" />
 
                 <TextView
                     android:id="@+id/preciomibesbaberos4"
@@ -252,39 +188,23 @@
 
                 <TextView
                     android:id="@+id/txtmibesbaberos5principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_below="@id/view4"
                     android:layout_toRightOf="@id/mibesbaberos5"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
                     android:text="@string/txtmibesbaberos"
-                    android:textSize="20sp" />
+                    style="@style/txtprincipal" />
 
                 <TextView
                     android:id="@+id/txtmibesbaberos5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_below="@id/txtmibesbaberos5principal"
                     android:layout_toRightOf="@id/mibesbaberos5"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
                     android:text="@string/txtmibesbaberos5"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    style="@style/txtdesc" />
 
                 <Button
                     android:id="@+id/btnmibesbaberos5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_above="@id/view5"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
                     android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas" />
 
                 <TextView
                     android:id="@+id/preciomibesbaberos5"
@@ -305,39 +225,23 @@
 
                 <TextView
                     android:id="@+id/txtmibesbaberos6principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_below="@id/view5"
                     android:layout_toRightOf="@id/mibesbaberos6"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
                     android:text="@string/txtmibesbaberos"
-                    android:textSize="20sp" />
+                    style="@style/txtprincipal" />
 
                 <TextView
                     android:id="@+id/txtmibesbaberos6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_below="@id/txtmibesbaberos6principal"
                     android:layout_toRightOf="@id/mibesbaberos6"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
                     android:text="@string/txtmibesbaberos6"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    style="@style/txtdesc" />
 
                 <Button
                     android:id="@+id/btnmibesbaberos6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_above="@+id/view6"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
                     android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas" />
 
                 <TextView
                     android:id="@+id/preciomibesbaberos6"
@@ -358,41 +262,23 @@
 
                 <TextView
                     android:id="@+id/txtmibesbaberos7principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_below="@id/view6"
                     android:layout_toRightOf="@id/mibesbaberos7"
-                    android:ellipsize="end"
-                    android:fontFamily="sans-serif-light"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
                     android:text="@string/txtmibesbaberos"
-                    android:textSize="20sp" />
+                    style="@style/txtprincipal" />
 
                 <TextView
                     android:id="@+id/txtmibesbaberos7"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_below="@id/txtmibesbaberos7principal"
                     android:layout_toRightOf="@id/mibesbaberos7"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
                     android:text="@string/txtmibesbaberos7"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    style="@style/txtdesc" />
 
                 <Button
                     android:id="@+id/btnmibesbaberos7"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_above="@id/view7"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
                     android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas" />
 
                 <TextView
                     android:id="@+id/preciomibesbaberos7"
@@ -413,39 +299,23 @@
 
                 <TextView
                     android:id="@+id/txtmibesbaberos8principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_below="@id/view7"
                     android:layout_toRightOf="@id/mibesbaberos8"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
                     android:text="@string/txtmibesbaberos"
-                    android:textSize="20sp" />
+                    style="@style/txtprincipal" />
 
                 <TextView
                     android:id="@+id/txtmibesbaberos8"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_below="@id/txtmibesbaberos8principal"
                     android:layout_toRightOf="@id/mibesbaberos8"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
                     android:text="@string/txtmibesbaberos8"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    style="@style/txtdesc" />
 
                 <Button
                     android:id="@+id/btnmibesbaberos8"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_above="@id/view8"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
                     android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas" />
 
                 <TextView
                     android:id="@+id/preciomibesbaberos8"

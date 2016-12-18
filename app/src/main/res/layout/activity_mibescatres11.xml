@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_mibescatres11"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="4dp"
+    tools:context="com.abigail05.mibes.mibescatres11">
+
+    <Button
+        android:id="@+id/btnhome"
+        style="@style/btnhome" />
+
+    <Button
+        android:id="@+id/btnvmarca"
+        style="@style/btnmarca" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/btnhome">
+
+        <LinearLayout style="@style/LinearCard">
+
+            <android.support.v7.widget.CardView style="@style/card">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp">
+
+                    <ImageView
+                        android:id="@+id/mibescatres11"
+                        android:layout_width="400dp"
+                        android:layout_height="296dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="4dp" />
+
+                    <View
+                        android:id="@+id/view1"
+                        style="@style/Divider"
+                        android:layout_below="@id/mibescatres11" />
+
+                    <TextView
+                        android:id="@+id/txtmibescatres11principal"
+                        style="@style/txtcardprinc"
+                        android:layout_below="@id/view1"
+                        android:text="@string/txtmibescatres" />
+
+                    <TextView
+                        android:id="@+id/txtmibescatres11"
+                        style="@style/txtcarddesc"
+                        android:layout_below="@id/txtmibescatres11principal"
+                        android:text="@string/txtmibescatres11" />
+
+                    <View
+                        android:id="@+id/view2"
+                        style="@style/Divider"
+                        android:layout_below="@id/txtmibescatres11" />
+
+                    <Button
+                        android:id="@+id/btnconsulta"
+                        style="@style/btnstock"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@id/view2"
+                        android:text="@string/stock" />
+
+                    <Button
+                        android:id="@+id/btncompramibescatres11"
+                        style="@style/btncomprar"
+                        android:layout_below="@id/view2"
+                        android:layout_toRightOf="@id/btnconsulta"
+                        android:text="@string/btnverprecio" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

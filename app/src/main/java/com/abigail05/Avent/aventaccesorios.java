@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.text.InputType;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -20,8 +19,6 @@ import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 
 import java.io.IOException;
-import java.text.DecimalFormat;
-import java.text.NumberFormat;
 
 public class aventaccesorios extends AppCompatActivity {
 
