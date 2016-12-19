@@ -25,23 +25,10 @@
         android:layout_below="@id/btnhome">
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:paddingBottom="20dp"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp">
+            style="@style/LinearCard">
 
             <android.support.v7.widget.CardView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginBottom="4dp"
-                android:layout_marginLeft="4dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginTop="10dp"
-                app:cardCornerRadius="2dp"
-                app:cardElevation="2dp">
+                style="@style/card">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -62,25 +49,15 @@
 
                     <TextView
                         android:id="@+id/txtmanta1"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        style="@style/txtcardprinc"
                         android:layout_below="@id/view1"
-                        android:layout_marginTop="10dp"
-                        android:fontFamily="sans-serif-light"
-                        android:text="@string/txtmanta1"
-                        android:textAlignment="center"
-                        android:textSize="25sp" />
+                        android:text="@string/txtmanta1" />
 
                     <TextView
                         android:id="@+id/txtmanta1desc1"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        style="@style/txtcarddesc"
                         android:layout_below="@id/txtmanta1"
-                        android:paddingTop="10dp"
-                        android:text="@string/txtmanta1desc1"
-                        android:textAlignment="center"
-                        android:textColor="@color/grey"
-                        android:textSize="20sp" />
+                        android:text="@string/txtmanta1desc1" />
 
                     <View
                         android:id="@+id/view2"
@@ -89,14 +66,8 @@
 
                     <TextView
                         android:id="@+id/preciomanta1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@id/view2"
-                        android:layout_centerHorizontal="true"
-                        android:layout_margin="10dp"
-                        android:fontFamily="sans-serif-light"
-                        android:textColor="@color/green"
-                        android:textSize="25sp" />
+                        style="@style/txtcardprecio"
+                        android:layout_below="@id/view2" />
 
                     <View
                         android:id="@+id/view3"
@@ -105,26 +76,17 @@
 
                     <Button
                         android:id="@+id/btnconsulta"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        style="@style/btnstock"
+                        android:layout_alignParentLeft="true"
                         android:layout_below="@id/view3"
-                        android:backgroundTint="@color/pink"
-                        android:paddingTop="10dp"
-                        android:text="@string/stock"
-                        android:textAlignment="center"
-                        android:textColor="@color/colorPrimaryDark"
-                        android:textSize="14sp" />
+                        android:text="@string/stock" />
 
                     <Button
                         android:id="@+id/btncompramanta1"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@id/btnconsulta"
-                        android:backgroundTint="@color/colorPrimary"
-                        android:fontFamily="sans-serif-thin"
-                        android:text="@string/btnverprecio"
-                        android:textAllCaps="false"
-                        android:textSize="16sp" />
+                        style="@style/btncomprar"
+                        android:layout_below="@id/view3"
+                        android:layout_toRightOf="@id/btnconsulta"
+                        android:text="@string/btnverprecio" />
 
                 </RelativeLayout>
 

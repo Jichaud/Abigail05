@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_colchon1"
+    android:id="@+id/activity_chiccoultra2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="4dp"
-    tools:context="com.abigail05.Abigail.colchon1">
+    tools:context="com.abigail05.Chicco.chiccoultra2">
 
     <Button
         android:id="@+id/btnhome"
@@ -37,84 +35,78 @@
                     android:layout_margin="10dp">
 
                     <ImageView
-                        android:id="@+id/colchon5"
-                        android:layout_width="match_parent"
-                        android:layout_height="280dp"
+                        android:id="@+id/chiccoultra5"
+                        android:layout_width="400dp"
+                        android:layout_height="296dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="4dp"
                         android:visibility="gone" />
 
                     <ImageView
-                        android:id="@+id/colchon4"
-                        android:layout_width="match_parent"
-                        android:layout_height="280dp"
+                        android:id="@+id/chiccoultra4"
+                        android:layout_width="400dp"
+                        android:layout_height="296dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="4dp"
                         android:visibility="gone" />
 
                     <ImageView
-                        android:id="@+id/colchon3"
-                        android:layout_width="match_parent"
-                        android:layout_height="280dp"
+                        android:id="@+id/chiccoultra3"
+                        android:layout_width="400dp"
+                        android:layout_height="296dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="4dp"
                         android:visibility="gone" />
 
                     <ImageView
-                        android:id="@+id/colchon2"
-                        android:layout_width="match_parent"
-                        android:layout_height="280dp"
-                        android:visibility="gone" />
-
-                    <ImageView
-                        android:id="@+id/colchon1"
-                        android:layout_width="match_parent"
-                        android:layout_height="280dp" />
+                        android:id="@+id/chiccoultra2"
+                        android:layout_width="400dp"
+                        android:layout_height="296dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="4dp" />
 
                     <TextView
                         android:id="@+id/txtcolores"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_below="@id/colchon1"
+                        android:layout_below="@id/chiccoultra2"
                         android:layout_margin="8dp"
-                        android:layout_marginTop="10dp"
+                        android:padding="6dp"
                         android:text="@string/txtcolores"
                         android:textAlignment="center"
                         android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/modelo1"
-                        style="@style/txtvistas"
                         android:layout_alignParentLeft="true"
                         android:layout_below="@id/txtcolores"
                         android:onClick="modelo1"
-                        android:text="@string/modelo1" />
+                        android:text="@string/modelo1"
+                        style="@style/txtvistas" />
 
                     <TextView
                         android:id="@+id/modelo2"
-                        style="@style/txtvistas"
                         android:layout_below="@id/txtcolores"
                         android:layout_centerHorizontal="true"
                         android:onClick="modelo2"
-                        android:text="@string/modelo2" />
+                        android:text="@string/modelo2"
+                        style="@style/txtvistas" />
 
                     <TextView
                         android:id="@+id/modelo3"
-                        style="@style/txtvistas"
                         android:layout_alignParentRight="true"
                         android:layout_below="@id/txtcolores"
                         android:onClick="modelo3"
-                        android:text="@string/modelo3" />
+                        android:text="@string/modelo3"
+                        style="@style/txtvistas" />
 
                     <TextView
                         android:id="@+id/modelo4"
-                        style="@style/txtvistas1"
-                        android:layout_alignParentLeft="true"
-                        android:layout_below="@id/modelo1"
-                        android:onClick="modelo4"
-                        android:text="@string/modelo4" />
-
-                    <TextView
-                        android:id="@+id/modelo5"
-                        style="@style/txtvistas1"
-                        android:layout_alignParentRight="true"
                         android:layout_below="@id/modelo2"
-                        android:onClick="modelo5"
-                        android:text="@string/modelo5" />
+                        android:layout_centerHorizontal="true"
+                        android:onClick="modelo4"
+                        android:text="@string/modelo4"
+                        style="@style/txtvistas1" />
 
                     <View
                         android:id="@+id/view1"
@@ -122,43 +114,33 @@
                         android:layout_below="@id/modelo4" />
 
                     <TextView
-                        android:id="@+id/txtcolchon1principal"
-                        style="@style/txtcardprinc"
+                        android:id="@+id/txtchiccoultra2principal"
                         android:layout_below="@id/view1"
-                        android:text="@string/txtColchonPrincipal" />
+                        android:text="@string/txtchiccoultra"
+                        style="@style/txtcardprinc" />
 
                     <TextView
-                        android:id="@+id/colchon1txtdesc"
-                        style="@style/txtcarddesc"
-                        android:layout_below="@id/txtcolchon1principal"
-                        android:text="@string/txtColchonPrincipaldesc" />
+                        android:id="@+id/txtchiccoultra2desc"
+                        android:layout_below="@id/txtchiccoultra2principal"
+                        android:text="@string/txtchiccoultra2"
+                        style="@style/txtcarddesc" />
 
                     <View
                         android:id="@+id/view2"
                         style="@style/Divider"
-                        android:layout_below="@id/colchon1txtdesc" />
-
-                    <TextView
-                        android:id="@+id/preciocolchon1"
-                        style="@style/txtcardprecio"
-                        android:layout_below="@id/view2" />
-
-                    <View
-                        android:id="@+id/view3"
-                        style="@style/Divider"
-                        android:layout_below="@id/preciocolchon1" />
+                        android:layout_below="@id/txtchiccoultra2desc" />
 
                     <Button
                         android:id="@+id/btnconsulta"
                         style="@style/btnstock"
                         android:layout_alignParentLeft="true"
-                        android:layout_below="@id/view3"
+                        android:layout_below="@id/view2"
                         android:text="@string/stock" />
 
                     <Button
-                        android:id="@+id/btncolchon1"
+                        android:id="@+id/btncomprachiccoultra2"
                         style="@style/btncomprar"
-                        android:layout_below="@id/view3"
+                        android:layout_below="@id/view2"
                         android:layout_toRightOf="@id/btnconsulta"
                         android:text="@string/btnverprecio" />
 

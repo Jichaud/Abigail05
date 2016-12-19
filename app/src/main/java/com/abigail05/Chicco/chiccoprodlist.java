@@ -28,6 +28,12 @@ public class chiccoprodlist extends AppCompatActivity {
     Button btnchiccoduotrio;
     ImageView chiccoduotrio;
     String urlchiccoduotrio = "https://lh3.googleusercontent.com/5TH1LyOdBkBVjlHhpCAggeT-mCeZw4j2MDbB0sYhwC5K1n-FSjdoG5S4bRPA61pT583WfaKZoqIW7vVWaFILYY16vpj9Wyv4oNGKPFC1Mdg0tdDtjYtkHlDibBE-myUsTrbHI8uT6N77i7KLyJziOuICjXhPP65LkqMptB8sq2FHBvGjwwFW8FbV25az1et7zcUADnxUAk82u0Hmov_XkWFTsNtnHf68AVPrfGaICJrueaCI-sVLka1yNmTnWzb1X_XHABPcEnrbH1gMka67ZilpI2Gau3LxC1PB_3FMtNnSqKqeWmPDvk6lsyWfxC-tbEfJ_zyTeXG8bfx8yJbcV-KqsuCMoram5fN_Gyv4RSkRQFrqOPixZ7olw-dZej79W1Tc-gZ4jPhvvr4V_CZZ0O10JXKiA5LTBzUNK7Ou-HVQq_kuEs2653xIlhp4qF7ErqTubHjh_WuotFFrGPZnioea_VhcJYDEV6RLGjW6El57Q49SHtJhAwNNwkCrHucFQ2ndObTT6T5DXRNXoOniT4337MDNUAhgAsqrOiwwYFTFiP7vpSyBAUGeCU5U1a77ORx5tYq-sJfHuUSiAq9Eajt60JG2dJEHjyeZoxP3jj6Y82gUdO2i7qj74tpQ15qF-jVPlt8nZoM9QkCzj6sRMN6ot6auBjobwLrZx3SuFC0=s725-no";
+    Button btnchiccoultra;
+    ImageView chiccoultra;
+    String urlchiccoultra = "https://lh3.googleusercontent.com/1JPNzcdcWhNlRquVDIkIDTQrpFjO2y9SCfuuhF33UeBwVnPm-m9E3opwwMw_OToWHIyvtELD5K2Xphdx1_nJg0W_mkxsg361Yqb_p7977SLW3TXG_vRhZpSoCp1tEDQfVdDKYF1gVlLRAq_Ncv5eHI2xL5g8RMnuycXi42voFR-cKaNnu1rKm7DitMuV638bpWcarICmHKcDLPO3dMWJTVC4sidj8JijCvlxJtx3MuwBUvqy6F4RwqtIXYl7s_utIdCfNj1gkLiidMjiTrB9i9VqRdCukfllWJo-5I8xtxe4OwhId3D4boc2_QdXUGSTePyZEW3dP5NmQd6jWE4BbZNBMElUytqWMjRlvO1zhRW-TLUxYrjcp77AKl2osZI7ULBQiWWfuDfWD4EjOiB2WuGKhqOnjEAuv9_hYyrkWJRf6gHopIr9JQBpzc8qKlOubV3XF_CutPjo2rI3X51RUeIAi-fFVwMiNGqLol6PvWI51hXM6bDvDSfNqjxB7ACwqd7SFNP4fDb0D4bZl1kyLaOX4u__ZM6OoCfp-xBwftj-HY_BJXJ4ewfbExzhFxFQut2hyb_FsUmhqx7Nnuv_fXM0YIQtcrWkuIaJURQeIkcF6dtqLc1CtogCSplGQO5AmtSo-3cgHLhZ2iXVoeNFEsWDecJ3p3mk_myXs_-JNVg=s725-no";
+    Button btnchiccotwin;
+    ImageView chiccotwin;
+    String urlchiccotwin = "https://lh3.googleusercontent.com/M90hahCRCSuA9EL5m_1MhmyBTBzIYZOMftgENanT8a-u7rDPcYMX-09SmaX-cJk2nbzIRFyB8tS6h7kH_8Io2cUc0qPXiBXMzGKdh5Nidd-4N1RBT1EuuoDJu3welvonIZz5I8ztu38VwG7UTJ4AYe3gUT9G9QvXd9McfzV-gHDsdxcyANTPby0eWQ8IodKw291Ng6DccHHE9c5rJwBIUww-MjogFtIMJPt2MeMZXIcM5RlgFOAkt3Iq8uAedOW4cpXd9rpE64v5X2XEqeqPG0JTxPFFhvDmaKdesCdeCpVS0_Ye7AVnYdoXxLgP3PPsozIL0ndCVXiNHtSM4ObSr-b6OsFfRGvjcV4oRDVIKgeMVMvbE9NMM8_tljCOsOOs1z4EX6V22VhVP1bMVON38pKvxjwLAwTHC1R7TV23uyIt8078KsQ5YeWYHufu_K-I8jWrnSZ89OI7soqnjCsLPrZAOg251miwLI4PG-9yWj5_0-rlooLaVNusdipPLTbVB1wX1LWqFdBc88ptXr9qEl7beHd0CbUpGxopuPeA_qHGNc78LvD43GO3qUEg5j6C_-lu84aY6vpXH4e4IsGPiyjeqEmdAvJpMnMSNaDTEnHeR1zSpww2JgEOVZDtmGeBzYDzH2gH5PIVvsNg7X_1AQNC6FoKZFpdasUPueV4o1s=s725-no";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -97,6 +103,30 @@ public class chiccoprodlist extends AppCompatActivity {
             public void onClick(View view) {
                 Intent btnchiccoduotrio = new Intent(chiccoprodlist.this, chiccoduotrio.class);
                 startActivity(btnchiccoduotrio);
+            }
+        });
+
+        chiccoultra = (ImageView)findViewById(R.id.chiccoultra);
+        Picasso.with(this).load(urlchiccoultra).into(chiccoultra);
+
+        btnchiccoultra = (Button)findViewById(R.id.btnchiccoultra);
+        btnchiccoultra.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnchiccoultra = new Intent(chiccoprodlist.this, chiccoultra.class);
+                startActivity(btnchiccoultra);
+            }
+        });
+
+        chiccotwin = (ImageView)findViewById(R.id.chiccotwin);
+        Picasso.with(this).load(urlchiccotwin).into(chiccotwin);
+
+        btnchiccotwin = (Button)findViewById(R.id.btnchiccotwin);
+        btnchiccotwin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnchiccotwin = new Intent(chiccoprodlist.this, chiccotwin1.class);
+                startActivity(btnchiccotwin);
             }
         });
 
