@@ -1262,21 +1262,29 @@
             android:name=".Chicco.chiccoduotrio5"
             android:label="Chicco | Simplicity Duo"
             android:parentActivityName=".Chicco.chiccoduotrio" />
-        <activity android:name=".Chicco.chiccoultra"
+        <activity
+            android:name=".Chicco.chiccoultra"
             android:label="Chicco | Cochecitos"
-            android:parentActivityName=".Chicco.chiccoprodlist"/>
-        <activity android:name=".Chicco.chiccoultra1"
+            android:parentActivityName=".Chicco.chiccoprodlist" />
+        <activity
+            android:name=".Chicco.chiccoultra1"
             android:label="Chicco | LiteWay2"
-            android:parentActivityName=".Chicco.chiccoultra"/>
-        <activity android:name=".Chicco.chiccoultra2"
+            android:parentActivityName=".Chicco.chiccoultra" />
+        <activity
+            android:name=".Chicco.chiccoultra2"
             android:label="Chicco | London"
-            android:parentActivityName=".Chicco.chiccoultra"/>
-        <activity android:name=".Chicco.chiccoultra3"
+            android:parentActivityName=".Chicco.chiccoultra" />
+        <activity
+            android:name=".Chicco.chiccoultra3"
             android:label="Chicco | Snappy"
-            android:parentActivityName=".Chicco.chiccoultra"/>
-        <activity android:name=".Chicco.chiccotwin1"
+            android:parentActivityName=".Chicco.chiccoultra" />
+        <activity
+            android:name=".Chicco.chiccotwin1"
             android:label="Chicco | Twin"
-            android:parentActivityName=".Chicco.chiccoprodlist">
+            android:parentActivityName=".Chicco.chiccoprodlist"/>
+        <activity android:name=".Chicco.chiccohigiene10"
+            android:label="Chicco | Parasol"
+            android:parentActivityName=".Chicco.chiccohigiene">
 
         </activity>
     </application>

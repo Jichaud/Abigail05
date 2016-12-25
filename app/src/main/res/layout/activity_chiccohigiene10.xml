@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_chiccohigiene9"
+    android:id="@+id/activity_chiccohigiene10"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="4dp"
-    tools:context="com.abigail05.Chicco.chiccohigiene9">
+    tools:context="com.abigail05.Chicco.chiccohigiene10">
 
     <Button
         android:id="@+id/btnhome"
@@ -36,7 +35,7 @@
                     android:layout_margin="10dp">
 
                     <ImageView
-                        android:id="@+id/chiccohigiene9"
+                        android:id="@+id/chiccohigiene10"
                         android:layout_width="400dp"
                         android:layout_height="296dp"
                         android:layout_centerHorizontal="true"
@@ -45,24 +44,24 @@
                     <View
                         android:id="@+id/view1"
                         style="@style/Divider"
-                        android:layout_below="@id/chiccohigiene9" />
+                        android:layout_below="@id/chiccohigiene10" />
 
                     <TextView
-                        android:id="@+id/txtchiccohigiene9principal"
+                        android:id="@+id/txtchiccohigiene10principal"
                         android:layout_below="@id/view1"
                         android:text="@string/txtchiccohigiene"
                         style="@style/txtcardprinc" />
 
                     <TextView
-                        android:id="@+id/txtchiccohigiene9"
-                        android:layout_below="@id/txtchiccohigiene9principal"
-                        android:text="@string/txtchiccohigiene9"
+                        android:id="@+id/txtchiccohigiene10"
+                        android:layout_below="@id/txtchiccohigiene10principal"
+                        android:text="@string/txtchiccohigiene10"
                         style="@style/txtcarddesc" />
 
                     <View
                         android:id="@+id/view2"
                         style="@style/Divider"
-                        android:layout_below="@id/txtchiccohigiene9" />
+                        android:layout_below="@id/txtchiccohigiene10" />
 
                     <Button
                         android:id="@+id/btnconsulta"
@@ -72,7 +71,7 @@
                         android:text="@string/stock" />
 
                     <Button
-                        android:id="@+id/btncomprachiccohigiene9"
+                        android:id="@+id/btncomprachiccohigiene10"
                         style="@style/btncomprar"
                         android:layout_below="@id/view2"
                         android:layout_toRightOf="@id/btnconsulta"

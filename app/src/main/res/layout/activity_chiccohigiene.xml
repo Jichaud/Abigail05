@@ -41,38 +41,22 @@
 
                 <TextView
                     android:id="@+id/txtchiccohigiene1principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_toRightOf="@id/chiccohigiene1"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
                     android:text="@string/txtchiccohigiene"
-                    android:textSize="20sp" />
+                    style="@style/txtprincipal" />
 
                 <TextView
                     android:id="@+id/txtchiccohigiene1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_below="@id/txtchiccohigiene1principal"
                     android:layout_toRightOf="@id/chiccohigiene1"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
                     android:text="@string/txtchiccohigiene1"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    style="@style/txtdesc" />
 
                 <Button
                     android:id="@+id/btnchiccohigiene1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_above="@id/view1"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
                     android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas" />
 
                 <TextView
                     android:id="@+id/preciochiccohigiene1"
@@ -93,39 +77,23 @@
 
                 <TextView
                     android:id="@+id/txtchiccohigiene2principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_below="@id/view1"
                     android:layout_toRightOf="@id/chiccohigiene2"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
                     android:text="@string/txtchiccohigiene"
-                    android:textSize="20sp" />
+                    style="@style/txtprincipal" />
 
                 <TextView
                     android:id="@+id/txtchiccohigiene2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_below="@id/txtchiccohigiene2principal"
                     android:layout_toRightOf="@id/chiccohigiene2"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
                     android:text="@string/txtchiccohigiene2"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    style="@style/txtdesc" />
 
                 <Button
                     android:id="@+id/btnchiccohigiene2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_above="@id/view2"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
                     android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas" />
 
                 <TextView
                     android:id="@+id/preciochiccohigiene2"
@@ -146,39 +114,23 @@
 
                 <TextView
                     android:id="@+id/txtchiccohigiene3principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_below="@id/view2"
                     android:layout_toRightOf="@id/chiccohigiene3"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
                     android:text="@string/txtchiccohigiene"
-                    android:textSize="20sp" />
+                    style="@style/txtprincipal" />
 
                 <TextView
                     android:id="@+id/txtchiccohigiene3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_below="@id/txtchiccohigiene3principal"
                     android:layout_toRightOf="@id/chiccohigiene3"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
                     android:text="@string/txtchiccohigiene3"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    style="@style/txtdesc" />
 
                 <Button
                     android:id="@+id/btnchiccohigiene3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_above="@id/view3"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
                     android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas" />
 
                 <TextView
                     android:id="@+id/preciochiccohigiene3"
@@ -199,39 +151,23 @@
 
                 <TextView
                     android:id="@+id/txtchiccohigiene4principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_below="@id/view3"
                     android:layout_toRightOf="@id/chiccohigiene4"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
                     android:text="@string/txtchiccohigiene"
-                    android:textSize="20sp" />
+                    style="@style/txtprincipal" />
 
                 <TextView
                     android:id="@+id/txtchiccohigiene4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_below="@id/txtchiccohigiene4principal"
                     android:layout_toRightOf="@id/chiccohigiene4"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
                     android:text="@string/txtchiccohigiene4"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    style="@style/txtdesc" />
 
                 <Button
                     android:id="@+id/btnchiccohigiene4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_above="@id/view4"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
                     android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas" />
 
                 <TextView
                     android:id="@+id/preciochiccohigiene4"
@@ -252,39 +188,23 @@
 
                 <TextView
                     android:id="@+id/txtchiccohigiene5principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_below="@id/view4"
                     android:layout_toRightOf="@id/chiccohigiene5"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
                     android:text="@string/txtchiccohigiene"
-                    android:textSize="20sp" />
+                    style="@style/txtprincipal" />
 
                 <TextView
                     android:id="@+id/txtchiccohigiene5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_below="@id/txtchiccohigiene5principal"
                     android:layout_toRightOf="@id/chiccohigiene5"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
                     android:text="@string/txtchiccohigiene5"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    style="@style/txtdesc" />
 
                 <Button
                     android:id="@+id/btnchiccohigiene5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_above="@id/view5"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
                     android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas" />
 
                 <TextView
                     android:id="@+id/preciochiccohigiene5"
@@ -305,39 +225,23 @@
 
                 <TextView
                     android:id="@+id/txtchiccohigiene6principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_below="@id/view5"
                     android:layout_toRightOf="@id/chiccohigiene6"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
                     android:text="@string/txtchiccohigiene"
-                    android:textSize="20sp" />
+                    style="@style/txtprincipal" />
 
                 <TextView
                     android:id="@+id/txtchiccohigiene6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_below="@id/txtchiccohigiene6principal"
                     android:layout_toRightOf="@id/chiccohigiene6"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
                     android:text="@string/txtchiccohigiene6"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    style="@style/txtdesc" />
 
                 <Button
                     android:id="@+id/btnchiccohigiene6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_above="@+id/view6"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
                     android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas" />
 
                 <TextView
                     android:id="@+id/preciochiccohigiene6"
@@ -358,41 +262,23 @@
 
                 <TextView
                     android:id="@+id/txtchiccohigiene7principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_below="@id/view6"
                     android:layout_toRightOf="@id/chiccohigiene7"
-                    android:ellipsize="end"
-                    android:fontFamily="sans-serif-light"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
                     android:text="@string/txtchiccohigiene"
-                    android:textSize="20sp" />
+                    style="@style/txtprincipal" />
 
                 <TextView
                     android:id="@+id/txtchiccohigiene7"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_below="@id/txtchiccohigiene7principal"
                     android:layout_toRightOf="@id/chiccohigiene7"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
                     android:text="@string/txtchiccohigiene7"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    style="@style/txtdesc" />
 
                 <Button
                     android:id="@+id/btnchiccohigiene7"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_above="@id/view7"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
                     android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas" />
 
                 <TextView
                     android:id="@+id/preciochiccohigiene7"
@@ -413,39 +299,23 @@
 
                 <TextView
                     android:id="@+id/txtchiccohigiene8principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_below="@id/view7"
                     android:layout_toRightOf="@id/chiccohigiene8"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
                     android:text="@string/txtchiccohigiene"
-                    android:textSize="20sp" />
+                    style="@style/txtprincipal" />
 
                 <TextView
                     android:id="@+id/txtchiccohigiene8"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_below="@id/txtchiccohigiene8principal"
                     android:layout_toRightOf="@id/chiccohigiene8"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
                     android:text="@string/txtchiccohigiene8"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    style="@style/txtdesc" />
 
                 <Button
                     android:id="@+id/btnchiccohigiene8"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_above="@id/view8"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
                     android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas" />
 
                 <TextView
                     android:id="@+id/preciochiccohigiene8"
@@ -466,39 +336,23 @@
 
                 <TextView
                     android:id="@+id/txtchiccohigiene9principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_below="@id/view8"
                     android:layout_toRightOf="@id/chiccohigiene9"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
                     android:text="@string/txtchiccohigiene"
-                    android:textSize="20sp" />
+                    style="@style/txtprincipal" />
 
                 <TextView
                     android:id="@+id/txtchiccohigiene9"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_below="@id/txtchiccohigiene9principal"
                     android:layout_toRightOf="@id/chiccohigiene9"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
                     android:text="@string/txtchiccohigiene9"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    style="@style/txtdesc" />
 
                 <Button
                     android:id="@+id/btnchiccohigiene9"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_above="@id/view9"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
                     android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas" />
 
                 <TextView
                     android:id="@+id/preciochiccohigiene9"
@@ -509,6 +363,43 @@
                     android:id="@+id/view9"
                     style="@style/Divider"
                     android:layout_below="@id/preciochiccohigiene9" />
+
+                <ImageView
+                    android:id="@+id/chiccohigiene10"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view9"
+                    android:padding="2dp" />
+
+                <TextView
+                    android:id="@+id/txtchiccohigiene10principal"
+                    android:layout_below="@id/view9"
+                    android:layout_toRightOf="@id/chiccohigiene10"
+                    android:text="@string/txtchiccohigiene"
+                    style="@style/txtprincipal" />
+
+                <TextView
+                    android:id="@+id/txtchiccohigiene10"
+                    android:layout_below="@id/txtchiccohigiene10principal"
+                    android:layout_toRightOf="@id/chiccohigiene10"
+                    android:text="@string/txtchiccohigiene10"
+                    style="@style/txtdesc" />
+
+                <Button
+                    android:id="@+id/btnchiccohigiene10"
+                    android:layout_above="@id/view10"
+                    android:text="@string/btnver"
+                    style="@style/btnvermas" />
+
+                <TextView
+                    android:id="@+id/preciochiccohigiene10"
+                    style="@style/precio"
+                    android:layout_below="@id/chiccohigiene10" />
+
+                <View
+                    android:id="@+id/view10"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciochiccohigiene10" />
 
             </RelativeLayout>
 
