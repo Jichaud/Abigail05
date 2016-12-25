@@ -1,8 +1,8 @@
 package com.abigail05.Chicco;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -12,7 +12,6 @@ import com.abigail05.MainActivity;
 import com.abigail05.R;
 import com.abigail05.contacto;
 import com.abigail05.marcas;
-import com.abigail05.pilim.pilim2;
 import com.abigail05.webview;
 import com.squareup.picasso.Picasso;
 

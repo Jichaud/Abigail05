@@ -41,22 +41,22 @@
 
                 <TextView
                     android:id="@+id/txtchiccomamaderas"
+                    style="@style/txtprincipal"
                     android:layout_toRightOf="@id/chiccomamaderas"
-                    android:text="@string/txtchiccomamaderas"
-                    style="@style/txtprincipal" />
+                    android:text="@string/txtchiccomamaderas" />
 
                 <TextView
                     android:id="@+id/txtchiccomamaderasdesc"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtchiccomamaderas"
                     android:layout_toRightOf="@id/chiccomamaderas"
-                    android:text="@string/txtchiccomamaderasdesc"
-                    style="@style/txtdesc" />
+                    android:text="@string/txtchiccomamaderasdesc" />
 
                 <Button
                     android:id="@+id/btnchiccomamaderas"
+                    style="@style/btnvermas"
                     android:layout_below="@id/txtchiccomamaderasdesc"
-                    android:text="@string/btnver"
-                    style="@style/btnvermas" />
+                    android:text="@string/btnver" />
 
                 <View
                     android:id="@+id/view1"
@@ -72,23 +72,23 @@
 
                 <TextView
                     android:id="@+id/txtchiccohigiene"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view1"
                     android:layout_toRightOf="@id/chiccohigiene"
-                    android:text="@string/txtchiccohigiene"
-                    style="@style/txtprincipal" />
+                    android:text="@string/txtchiccohigiene" />
 
                 <TextView
                     android:id="@+id/txtchiccohigienedesc"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtchiccohigiene"
                     android:layout_toRightOf="@id/chiccohigiene"
-                    android:text="@string/txtchiccohigienedesc"
-                    style="@style/txtdesc" />
+                    android:text="@string/txtchiccohigienedesc" />
 
                 <Button
                     android:id="@+id/btnchiccohigiene"
+                    style="@style/btnvermas"
                     android:layout_below="@id/txtchiccohigienedesc"
-                    android:text="@string/btnver"
-                    style="@style/btnvermas" />
+                    android:text="@string/btnver" />
 
                 <View
                     android:id="@+id/view2"
@@ -104,23 +104,23 @@
 
                 <TextView
                     android:id="@+id/txtchiccosilla"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view2"
                     android:layout_toRightOf="@id/chiccosilla"
-                    android:text="@string/txtchiccosilla"
-                    style="@style/txtprincipal" />
+                    android:text="@string/txtchiccosilla" />
 
                 <TextView
                     android:id="@+id/txtchiccosilladesc"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtchiccosilla"
                     android:layout_toRightOf="@id/chiccosilla"
-                    android:text="@string/txtchiccosilladesc"
-                    style="@style/txtdesc" />
+                    android:text="@string/txtchiccosilladesc" />
 
                 <Button
                     android:id="@+id/btnchiccosilla"
+                    style="@style/btnvermas"
                     android:layout_below="@id/txtchiccosilladesc"
-                    android:text="@string/btnver"
-                    style="@style/btnvermas" />
+                    android:text="@string/btnver" />
 
                 <View
                     android:id="@+id/view3"
@@ -136,23 +136,23 @@
 
                 <TextView
                     android:id="@+id/txtchiccoduotrio"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view3"
                     android:layout_toRightOf="@id/chiccoduotrio"
-                    android:text="@string/txtchiccoduotrio"
-                    style="@style/txtprincipal" />
+                    android:text="@string/txtchiccoduotrio" />
 
                 <TextView
                     android:id="@+id/txtchiccoduotriodesc"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtchiccoduotrio"
                     android:layout_toRightOf="@id/chiccoduotrio"
-                    android:text="@string/txtchiccoduotriodesc"
-                    style="@style/txtdesc" />
+                    android:text="@string/txtchiccoduotriodesc" />
 
                 <Button
                     android:id="@+id/btnchiccoduotrio"
+                    style="@style/btnvermas"
                     android:layout_below="@id/txtchiccoduotriodesc"
-                    android:text="@string/btnver"
-                    style="@style/btnvermas" />
+                    android:text="@string/btnver" />
 
                 <View
                     android:id="@+id/view4"
@@ -168,23 +168,23 @@
 
                 <TextView
                     android:id="@+id/txtchiccoultra"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view4"
                     android:layout_toRightOf="@id/chiccoultra"
-                    android:text="@string/txtchiccoultra"
-                    style="@style/txtprincipal" />
+                    android:text="@string/txtchiccoultra" />
 
                 <TextView
                     android:id="@+id/txtchiccoultradesc"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtchiccoultra"
                     android:layout_toRightOf="@id/chiccoultra"
-                    android:text="@string/txtchiccoultradesc"
-                    style="@style/txtdesc" />
+                    android:text="@string/txtchiccoultradesc" />
 
                 <Button
                     android:id="@+id/btnchiccoultra"
+                    style="@style/btnvermas"
                     android:layout_below="@id/txtchiccoultradesc"
-                    android:text="@string/btnver"
-                    style="@style/btnvermas" />
+                    android:text="@string/btnver" />
 
                 <View
                     android:id="@+id/view5"
@@ -200,28 +200,60 @@
 
                 <TextView
                     android:id="@+id/txtchiccotwin"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view5"
                     android:layout_toRightOf="@id/chiccotwin"
-                    android:text="@string/txtchiccotwin"
-                    style="@style/txtprincipal" />
+                    android:text="@string/txtchiccotwin" />
 
                 <TextView
                     android:id="@+id/txtchiccotwindesc"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtchiccotwin"
                     android:layout_toRightOf="@id/chiccotwin"
-                    android:text="@string/txtchiccotwindesc"
-                    style="@style/txtdesc" />
+                    android:text="@string/txtchiccotwindesc" />
 
                 <Button
                     android:id="@+id/btnchiccotwin"
+                    style="@style/btnvermas"
                     android:layout_below="@id/txtchiccotwindesc"
-                    android:text="@string/btnver"
-                    style="@style/btnvermas" />
+                    android:text="@string/btnver" />
 
                 <View
                     android:id="@+id/view6"
                     style="@style/Divider"
                     android:layout_below="@id/btnchiccotwin" />
+
+                <ImageView
+                    android:id="@+id/chiccobutacas"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view6"
+                    android:padding="2dp" />
+
+                <TextView
+                    android:id="@+id/txtchiccobutacas"
+                    style="@style/txtprincipal"
+                    android:layout_below="@id/view6"
+                    android:layout_toRightOf="@id/chiccobutacas"
+                    android:text="@string/txtchiccobutacas" />
+
+                <TextView
+                    android:id="@+id/txtchiccobutacasdesc"
+                    style="@style/txtdesc"
+                    android:layout_below="@id/txtchiccobutacas"
+                    android:layout_toRightOf="@id/chiccobutacas"
+                    android:text="@string/txtchiccobutacasdesc" />
+
+                <Button
+                    android:id="@+id/btnchiccobutacas"
+                    style="@style/btnvermas"
+                    android:layout_below="@id/txtchiccobutacasdesc"
+                    android:text="@string/btnver" />
+
+                <View
+                    android:id="@+id/view7"
+                    style="@style/Divider"
+                    android:layout_below="@id/btnchiccobutacas" />
 
             </RelativeLayout>
 

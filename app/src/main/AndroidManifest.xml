@@ -1281,10 +1281,26 @@
         <activity
             android:name=".Chicco.chiccotwin1"
             android:label="Chicco | Twin"
-            android:parentActivityName=".Chicco.chiccoprodlist"/>
-        <activity android:name=".Chicco.chiccohigiene10"
+            android:parentActivityName=".Chicco.chiccoprodlist" />
+        <activity
+            android:name=".Chicco.chiccohigiene10"
             android:label="Chicco | Parasol"
-            android:parentActivityName=".Chicco.chiccohigiene">
+            android:parentActivityName=".Chicco.chiccohigiene" />
+        <activity android:name=".Chicco.chiccobutacas"
+            android:label="Chicco | Butacas para auto"
+            android:parentActivityName=".Chicco.chiccoprodlist"/>
+        <activity android:name=".Chicco.chiccobutacas1"
+            android:label="Chicco | Butaca NextFit"
+            android:parentActivityName=".Chicco.chiccobutacas"/>
+        <activity android:name=".Chicco.chiccobutacas2"
+            android:label="Chicco | Butaca Oasys 2-3 FixPlus"
+            android:parentActivityName=".Chicco.chiccobutacas"/>
+        <activity android:name=".Chicco.chiccobutacas3"
+            android:label="Chicco | Butaca Oasys 2-3"
+            android:parentActivityName=".Chicco.chiccobutacas"/>
+        <activity android:name=".Chicco.chiccobutacas4"
+            android:label="Chicco | Butaca Eletta"
+            android:parentActivityName=".Chicco.chiccobutacas">
 
         </activity>
     </application>

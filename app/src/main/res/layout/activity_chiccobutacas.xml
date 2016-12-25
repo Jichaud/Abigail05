@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_chiccobutacas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="4dp"
+    tools:context="com.abigail05.Chicco.chiccobutacas">
+
+    <Button
+        android:id="@+id/btnhome"
+        style="@style/btnhome" />
+
+    <Button
+        android:id="@+id/btnvmarca"
+        style="@style/btnmarca" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/btnhome">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="6dp">
+
+                <TextView
+                    android:id="@+id/encargo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/rounded"
+                    android:backgroundTint="@color/pink"
+                    android:fontFamily="sans-serif-medium"
+                    android:padding="10dp"
+                    android:text="@string/porencargotxt"
+                    android:textAlignment="center"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/chiccobutacas1"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@+id/encargo"
+                    android:padding="2dp" />
+
+                <TextView
+                    android:id="@+id/txtchiccobutacas1principal"
+                    style="@style/txtprincipal"
+                    android:layout_below="@+id/encargo"
+                    android:layout_toRightOf="@id/chiccobutacas1"
+                    android:text="@string/txtchiccobutacas" />
+
+                <TextView
+                    android:id="@+id/txtchiccobutacas1"
+                    style="@style/txtdesc"
+                    android:layout_below="@id/txtchiccobutacas1principal"
+                    android:layout_toRightOf="@id/chiccobutacas1"
+                    android:text="@string/txtchiccobutacas1" />
+
+                <Button
+                    android:id="@+id/btnchiccobutacas1"
+                    style="@style/btnvermas"
+                    android:layout_above="@id/view1"
+                    android:text="@string/btnver" />
+
+                <TextView
+                    android:id="@+id/preciochiccobutacas1"
+                    style="@style/precio"
+                    android:layout_below="@id/chiccobutacas1" />
+
+                <View
+                    android:id="@+id/view1"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciochiccobutacas1" />
+
+                <ImageView
+                    android:id="@+id/chiccobutacas2"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view1"
+                    android:padding="2dp" />
+
+                <TextView
+                    android:id="@+id/txtchiccobutacas2principal"
+                    style="@style/txtprincipal"
+                    android:layout_below="@id/view1"
+                    android:layout_toRightOf="@id/chiccobutacas2"
+                    android:text="@string/txtchiccobutacas" />
+
+                <TextView
+                    android:id="@+id/txtchiccobutacas2"
+                    style="@style/txtdesc"
+                    android:layout_below="@id/txtchiccobutacas2principal"
+                    android:layout_toRightOf="@id/chiccobutacas2"
+                    android:text="@string/txtchiccobutacas2" />
+
+                <Button
+                    android:id="@+id/btnchiccobutacas2"
+                    style="@style/btnvermas"
+                    android:layout_above="@id/view2"
+                    android:text="@string/btnver" />
+
+                <TextView
+                    android:id="@+id/preciochiccobutacas2"
+                    style="@style/precio"
+                    android:layout_below="@id/chiccobutacas2" />
+
+                <View
+                    android:id="@+id/view2"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciochiccobutacas2" />
+
+                <ImageView
+                    android:id="@+id/chiccobutacas3"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view2"
+                    android:padding="2dp" />
+
+                <TextView
+                    android:id="@+id/txtchiccobutacas3principal"
+                    style="@style/txtprincipal"
+                    android:layout_below="@id/view2"
+                    android:layout_toRightOf="@id/chiccobutacas3"
+                    android:text="@string/txtchiccobutacas" />
+
+                <TextView
+                    android:id="@+id/txtchiccobutacas3"
+                    style="@style/txtdesc"
+                    android:layout_below="@id/txtchiccobutacas3principal"
+                    android:layout_toRightOf="@id/chiccobutacas3"
+                    android:text="@string/txtchiccobutacas3" />
+
+                <Button
+                    android:id="@+id/btnchiccobutacas3"
+                    style="@style/btnvermas"
+                    android:layout_above="@id/view3"
+                    android:text="@string/btnver" />
+
+                <TextView
+                    android:id="@+id/preciochiccobutacas3"
+                    style="@style/precio"
+                    android:layout_below="@id/chiccobutacas3" />
+
+                <View
+                    android:id="@+id/view3"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciochiccobutacas3" />
+
+                <ImageView
+                    android:id="@+id/chiccobutacas4"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view3"
+                    android:padding="2dp" />
+
+                <TextView
+                    android:id="@+id/txtchiccobutacas4principal"
+                    style="@style/txtprincipal"
+                    android:layout_below="@id/view3"
+                    android:layout_toRightOf="@id/chiccobutacas4"
+                    android:text="@string/txtchiccobutacas" />
+
+                <TextView
+                    android:id="@+id/txtchiccobutacas4"
+                    style="@style/txtdesc"
+                    android:layout_below="@id/txtchiccobutacas4principal"
+                    android:layout_toRightOf="@id/chiccobutacas4"
+                    android:text="@string/txtchiccobutacas4" />
+
+                <Button
+                    android:id="@+id/btnchiccobutacas4"
+                    style="@style/btnvermas"
+                    android:layout_above="@id/view4"
+                    android:text="@string/btnver" />
+
+                <TextView
+                    android:id="@+id/preciochiccobutacas4"
+                    style="@style/precio"
+                    android:layout_below="@id/chiccobutacas4" />
+
+                <View
+                    android:id="@+id/view4"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciochiccobutacas4" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
