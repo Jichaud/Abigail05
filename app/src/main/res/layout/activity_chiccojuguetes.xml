@@ -1,0 +1,928 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_chiccojuguetes"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="4dp"
+    tools:context="com.abigail05.Chicco.chiccojuguetes">
+
+    <Button
+        android:id="@+id/btnhome"
+        style="@style/btnhome" />
+
+    <Button
+        android:id="@+id/btnvmarca"
+        style="@style/btnmarca" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/btnhome">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="6dp">
+
+                <ImageView
+                    android:id="@+id/chiccojuguetes1"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:padding="2dp" />
+
+                <TextView
+                    android:id="@+id/txtchiccojuguetes1principal"
+                    style="@style/txtprincipal"
+                    android:layout_toRightOf="@id/chiccojuguetes1"
+                    android:text="@string/txtchiccojuguetes" />
+
+                <TextView
+                    android:id="@+id/txtchiccojuguetes1"
+                    style="@style/txtdesc"
+                    android:layout_below="@id/txtchiccojuguetes1principal"
+                    android:layout_toRightOf="@id/chiccojuguetes1"
+                    android:text="@string/txtchiccojuguetes1" />
+
+                <Button
+                    android:id="@+id/btnchiccojuguetes1"
+                    style="@style/btnvermas"
+                    android:layout_above="@id/view1"
+                    android:text="@string/btnver" />
+
+                <TextView
+                    android:id="@+id/preciochiccojuguetes1"
+                    style="@style/precio"
+                    android:layout_below="@id/chiccojuguetes1" />
+
+                <View
+                    android:id="@+id/view1"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciochiccojuguetes1" />
+
+                <ImageView
+                    android:id="@+id/chiccojuguetes2"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view1"
+                    android:padding="2dp" />
+
+                <TextView
+                    android:id="@+id/txtchiccojuguetes2principal"
+                    style="@style/txtprincipal"
+                    android:layout_below="@id/view1"
+                    android:layout_toRightOf="@id/chiccojuguetes2"
+                    android:text="@string/txtchiccojuguetes" />
+
+                <TextView
+                    android:id="@+id/txtchiccojuguetes2"
+                    style="@style/txtdesc"
+                    android:layout_below="@id/txtchiccojuguetes2principal"
+                    android:layout_toRightOf="@id/chiccojuguetes2"
+                    android:text="@string/txtchiccojuguetes2" />
+
+                <Button
+                    android:id="@+id/btnchiccojuguetes2"
+                    style="@style/btnvermas"
+                    android:layout_above="@id/view2"
+                    android:text="@string/btnver" />
+
+                <TextView
+                    android:id="@+id/preciochiccojuguetes2"
+                    style="@style/precio"
+                    android:layout_below="@id/chiccojuguetes2" />
+
+                <View
+                    android:id="@+id/view2"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciochiccojuguetes2" />
+
+                <ImageView
+                    android:id="@+id/chiccojuguetes3"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view2"
+                    android:padding="2dp" />
+
+                <TextView
+                    android:id="@+id/txtchiccojuguetes3principal"
+                    style="@style/txtprincipal"
+                    android:layout_below="@id/view2"
+                    android:layout_toRightOf="@id/chiccojuguetes3"
+                    android:text="@string/txtchiccojuguetes" />
+
+                <TextView
+                    android:id="@+id/txtchiccojuguetes3"
+                    style="@style/txtdesc"
+                    android:layout_below="@id/txtchiccojuguetes3principal"
+                    android:layout_toRightOf="@id/chiccojuguetes3"
+                    android:text="@string/txtchiccojuguetes3" />
+
+                <Button
+                    android:id="@+id/btnchiccojuguetes3"
+                    style="@style/btnvermas"
+                    android:layout_above="@id/view3"
+                    android:text="@string/btnver" />
+
+                <TextView
+                    android:id="@+id/preciochiccojuguetes3"
+                    style="@style/precio"
+                    android:layout_below="@id/chiccojuguetes3" />
+
+                <View
+                    android:id="@+id/view3"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciochiccojuguetes3" />
+
+                <ImageView
+                    android:id="@+id/chiccojuguetes4"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view3"
+                    android:padding="2dp" />
+
+                <TextView
+                    android:id="@+id/txtchiccojuguetes4principal"
+                    style="@style/txtprincipal"
+                    android:layout_below="@id/view3"
+                    android:layout_toRightOf="@id/chiccojuguetes4"
+                    android:text="@string/txtchiccojuguetes" />
+
+                <TextView
+                    android:id="@+id/txtchiccojuguetes4"
+                    style="@style/txtdesc"
+                    android:layout_below="@id/txtchiccojuguetes4principal"
+                    android:layout_toRightOf="@id/chiccojuguetes4"
+                    android:text="@string/txtchiccojuguetes4" />
+
+                <Button
+                    android:id="@+id/btnchiccojuguetes4"
+                    style="@style/btnvermas"
+                    android:layout_above="@id/view4"
+                    android:text="@string/btnver" />
+
+                <TextView
+                    android:id="@+id/preciochiccojuguetes4"
+                    style="@style/precio"
+                    android:layout_below="@id/chiccojuguetes4" />
+
+                <View
+                    android:id="@+id/view4"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciochiccojuguetes4" />
+
+                <ImageView
+                    android:id="@+id/chiccojuguetes5"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view4"
+                    android:padding="2dp" />
+
+                <TextView
+                    android:id="@+id/txtchiccojuguetes5principal"
+                    style="@style/txtprincipal"
+                    android:layout_below="@id/view4"
+                    android:layout_toRightOf="@id/chiccojuguetes5"
+                    android:text="@string/txtchiccojuguetes" />
+
+                <TextView
+                    android:id="@+id/txtchiccojuguetes5"
+                    style="@style/txtdesc"
+                    android:layout_below="@id/txtchiccojuguetes5principal"
+                    android:layout_toRightOf="@id/chiccojuguetes5"
+                    android:text="@string/txtchiccojuguetes5" />
+
+                <Button
+                    android:id="@+id/btnchiccojuguetes5"
+                    style="@style/btnvermas"
+                    android:layout_above="@id/view5"
+                    android:text="@string/btnver" />
+
+                <TextView
+                    android:id="@+id/preciochiccojuguetes5"
+                    style="@style/precio"
+                    android:layout_below="@id/chiccojuguetes5" />
+
+                <View
+                    android:id="@+id/view5"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciochiccojuguetes5" />
+
+                <ImageView
+                    android:id="@+id/chiccojuguetes6"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view5"
+                    android:padding="2dp" />
+
+                <TextView
+                    android:id="@+id/txtchiccojuguetes6principal"
+                    style="@style/txtprincipal"
+                    android:layout_below="@id/view5"
+                    android:layout_toRightOf="@id/chiccojuguetes6"
+                    android:text="@string/txtchiccojuguetes" />
+
+                <TextView
+                    android:id="@+id/txtchiccojuguetes6"
+                    style="@style/txtdesc"
+                    android:layout_below="@id/txtchiccojuguetes6principal"
+                    android:layout_toRightOf="@id/chiccojuguetes6"
+                    android:text="@string/txtchiccojuguetes6" />
+
+                <Button
+                    android:id="@+id/btnchiccojuguetes6"
+                    style="@style/btnvermas"
+                    android:layout_above="@+id/view6"
+                    android:text="@string/btnver" />
+
+                <TextView
+                    android:id="@+id/preciochiccojuguetes6"
+                    style="@style/precio"
+                    android:layout_below="@id/chiccojuguetes6" />
+
+                <View
+                    android:id="@+id/view6"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciochiccojuguetes6" />
+
+                <ImageView
+                    android:id="@+id/chiccojuguetes7"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view6"
+                    android:padding="2dp" />
+
+                <TextView
+                    android:id="@+id/txtchiccojuguetes7principal"
+                    style="@style/txtprincipal"
+                    android:layout_below="@id/view6"
+                    android:layout_toRightOf="@id/chiccojuguetes7"
+                    android:text="@string/txtchiccojuguetes" />
+
+                <TextView
+                    android:id="@+id/txtchiccojuguetes7"
+                    style="@style/txtdesc"
+                    android:layout_below="@id/txtchiccojuguetes7principal"
+                    android:layout_toRightOf="@id/chiccojuguetes7"
+                    android:text="@string/txtchiccojuguetes7" />
+
+                <Button
+                    android:id="@+id/btnchiccojuguetes7"
+                    style="@style/btnvermas"
+                    android:layout_above="@id/view7"
+                    android:text="@string/btnver" />
+
+                <TextView
+                    android:id="@+id/preciochiccojuguetes7"
+                    style="@style/precio"
+                    android:layout_below="@id/chiccojuguetes7" />
+
+                <View
+                    android:id="@+id/view7"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciochiccojuguetes7" />
+
+                <ImageView
+                    android:id="@+id/chiccojuguetes8"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view7"
+                    android:padding="2dp" />
+
+                <TextView
+                    android:id="@+id/txtchiccojuguetes8principal"
+                    style="@style/txtprincipal"
+                    android:layout_below="@id/view7"
+                    android:layout_toRightOf="@id/chiccojuguetes8"
+                    android:text="@string/txtchiccojuguetes" />
+
+                <TextView
+                    android:id="@+id/txtchiccojuguetes8"
+                    style="@style/txtdesc"
+                    android:layout_below="@id/txtchiccojuguetes8principal"
+                    android:layout_toRightOf="@id/chiccojuguetes8"
+                    android:text="@string/txtchiccojuguetes8" />
+
+                <Button
+                    android:id="@+id/btnchiccojuguetes8"
+                    style="@style/btnvermas"
+                    android:layout_above="@id/view8"
+                    android:text="@string/btnver" />
+
+                <TextView
+                    android:id="@+id/preciochiccojuguetes8"
+                    style="@style/precio"
+                    android:layout_below="@id/chiccojuguetes8" />
+
+                <View
+                    android:id="@+id/view8"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciochiccojuguetes8" />
+
+                <ImageView
+                    android:id="@+id/chiccojuguetes9"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view8"
+                    android:padding="2dp" />
+
+                <TextView
+                    android:id="@+id/txtchiccojuguetes9principal"
+                    style="@style/txtprincipal"
+                    android:layout_below="@id/view8"
+                    android:layout_toRightOf="@id/chiccojuguetes9"
+                    android:text="@string/txtchiccojuguetes" />
+
+                <TextView
+                    android:id="@+id/txtchiccojuguetes9"
+                    style="@style/txtdesc"
+                    android:layout_below="@id/txtchiccojuguetes9principal"
+                    android:layout_toRightOf="@id/chiccojuguetes9"
+                    android:text="@string/txtchiccojuguetes9" />
+
+                <Button
+                    android:id="@+id/btnchiccojuguetes9"
+                    style="@style/btnvermas"
+                    android:layout_above="@id/view9"
+                    android:text="@string/btnver" />
+
+                <TextView
+                    android:id="@+id/preciochiccojuguetes9"
+                    style="@style/precio"
+                    android:layout_below="@id/chiccojuguetes9" />
+
+                <View
+                    android:id="@+id/view9"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciochiccojuguetes9" />
+
+                <ImageView
+                    android:id="@+id/chiccojuguetes10"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view9"
+                    android:padding="2dp" />
+
+                <TextView
+                    android:id="@+id/txtchiccojuguetes10principal"
+                    style="@style/txtprincipal"
+                    android:layout_below="@id/view9"
+                    android:layout_toRightOf="@id/chiccojuguetes10"
+                    android:text="@string/txtchiccojuguetes" />
+
+                <TextView
+                    android:id="@+id/txtchiccojuguetes10"
+                    style="@style/txtdesc"
+                    android:layout_below="@id/txtchiccojuguetes10principal"
+                    android:layout_toRightOf="@id/chiccojuguetes10"
+                    android:text="@string/txtchiccojuguetes10" />
+
+                <Button
+                    android:id="@+id/btnchiccojuguetes10"
+                    style="@style/btnvermas"
+                    android:layout_above="@id/view10"
+                    android:text="@string/btnver" />
+
+                <TextView
+                    android:id="@+id/preciochiccojuguetes10"
+                    style="@style/precio"
+                    android:layout_below="@id/chiccojuguetes10" />
+
+                <View
+                    android:id="@+id/view10"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciochiccojuguetes10" />
+
+                <ImageView
+                    android:id="@+id/chiccojuguetes11"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view10"
+                    android:padding="2dp" />
+
+                <TextView
+                    android:id="@+id/txtchiccojuguetes11principal"
+                    style="@style/txtprincipal"
+                    android:layout_below="@id/view10"
+                    android:layout_toRightOf="@id/chiccojuguetes11"
+                    android:text="@string/txtchiccojuguetes" />
+
+                <TextView
+                    android:id="@+id/txtchiccojuguetes11"
+                    style="@style/txtdesc"
+                    android:layout_below="@id/txtchiccojuguetes11principal"
+                    android:layout_toRightOf="@id/chiccojuguetes11"
+                    android:text="@string/txtchiccojuguetes11" />
+
+                <Button
+                    android:id="@+id/btnchiccojuguetes11"
+                    style="@style/btnvermas"
+                    android:layout_above="@id/view11"
+                    android:text="@string/btnver" />
+
+                <TextView
+                    android:id="@+id/preciochiccojuguetes11"
+                    style="@style/precio"
+                    android:layout_below="@id/chiccojuguetes11" />
+
+                <View
+                    android:id="@+id/view11"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciochiccojuguetes11" />
+
+                <ImageView
+                    android:id="@+id/chiccojuguetes12"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view11"
+                    android:padding="2dp" />
+
+                <TextView
+                    android:id="@+id/txtchiccojuguetes12principal"
+                    style="@style/txtprincipal"
+                    android:layout_below="@id/view11"
+                    android:layout_toRightOf="@id/chiccojuguetes12"
+                    android:text="@string/txtchiccojuguetes" />
+
+                <TextView
+                    android:id="@+id/txtchiccojuguetes12"
+                    style="@style/txtdesc"
+                    android:layout_below="@id/txtchiccojuguetes12principal"
+                    android:layout_toRightOf="@id/chiccojuguetes12"
+                    android:text="@string/txtchiccojuguetes12" />
+
+                <Button
+                    android:id="@+id/btnchiccojuguetes12"
+                    style="@style/btnvermas"
+                    android:layout_above="@id/view12"
+                    android:text="@string/btnver" />
+
+                <TextView
+                    android:id="@+id/preciochiccojuguetes12"
+                    style="@style/precio"
+                    android:layout_below="@id/chiccojuguetes12" />
+
+                <View
+                    android:id="@+id/view12"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciochiccojuguetes12" />
+
+                <ImageView
+                    android:id="@+id/chiccojuguetes13"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view12"
+                    android:padding="2dp" />
+
+                <TextView
+                    android:id="@+id/txtchiccojuguetes13principal"
+                    style="@style/txtprincipal"
+                    android:layout_below="@id/view12"
+                    android:layout_toRightOf="@id/chiccojuguetes13"
+                    android:text="@string/txtchiccojuguetes" />
+
+                <TextView
+                    android:id="@+id/txtchiccojuguetes13"
+                    style="@style/txtdesc"
+                    android:layout_below="@id/txtchiccojuguetes13principal"
+                    android:layout_toRightOf="@id/chiccojuguetes13"
+                    android:text="@string/txtchiccojuguetes13" />
+
+                <Button
+                    android:id="@+id/btnchiccojuguetes13"
+                    style="@style/btnvermas"
+                    android:layout_above="@id/view13"
+                    android:text="@string/btnver" />
+
+                <TextView
+                    android:id="@+id/preciochiccojuguetes13"
+                    style="@style/precio"
+                    android:layout_below="@id/chiccojuguetes13" />
+
+                <View
+                    android:id="@+id/view13"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciochiccojuguetes13" />
+
+                <ImageView
+                    android:id="@+id/chiccojuguetes14"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view13"
+                    android:padding="2dp" />
+
+                <TextView
+                    android:id="@+id/txtchiccojuguetes14principal"
+                    style="@style/txtprincipal"
+                    android:layout_below="@id/view13"
+                    android:layout_toRightOf="@id/chiccojuguetes14"
+                    android:text="@string/txtchiccojuguetes" />
+
+                <TextView
+                    android:id="@+id/txtchiccojuguetes14"
+                    style="@style/txtdesc"
+                    android:layout_below="@id/txtchiccojuguetes14principal"
+                    android:layout_toRightOf="@id/chiccojuguetes14"
+                    android:text="@string/txtchiccojuguetes14" />
+
+                <Button
+                    android:id="@+id/btnchiccojuguetes14"
+                    style="@style/btnvermas"
+                    android:layout_above="@id/view14"
+                    android:text="@string/btnver" />
+
+                <TextView
+                    android:id="@+id/preciochiccojuguetes14"
+                    style="@style/precio"
+                    android:layout_below="@id/chiccojuguetes14" />
+
+                <View
+                    android:id="@+id/view14"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciochiccojuguetes14" />
+
+                <ImageView
+                    android:id="@+id/chiccojuguetes15"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view14"
+                    android:padding="2dp" />
+
+                <TextView
+                    android:id="@+id/txtchiccojuguetes15principal"
+                    style="@style/txtprincipal"
+                    android:layout_below="@id/view14"
+                    android:layout_toRightOf="@id/chiccojuguetes15"
+                    android:text="@string/txtchiccojuguetes" />
+
+                <TextView
+                    android:id="@+id/txtchiccojuguetes15"
+                    style="@style/txtdesc"
+                    android:layout_below="@id/txtchiccojuguetes15principal"
+                    android:layout_toRightOf="@id/chiccojuguetes15"
+                    android:text="@string/txtchiccojuguetes15" />
+
+                <Button
+                    android:id="@+id/btnchiccojuguetes15"
+                    style="@style/btnvermas"
+                    android:layout_above="@+id/view15"
+                    android:text="@string/btnver" />
+
+                <TextView
+                    android:id="@+id/preciochiccojuguetes15"
+                    style="@style/precio"
+                    android:layout_below="@id/chiccojuguetes15" />
+
+                <View
+                    android:id="@+id/view15"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciochiccojuguetes15" />
+
+                <ImageView
+                    android:id="@+id/chiccojuguetes16"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view15"
+                    android:padding="2dp" />
+
+                <TextView
+                    android:id="@+id/txtchiccojuguetes16principal"
+                    style="@style/txtprincipal"
+                    android:layout_below="@id/view15"
+                    android:layout_toRightOf="@id/chiccojuguetes16"
+                    android:text="@string/txtchiccojuguetes" />
+
+                <TextView
+                    android:id="@+id/txtchiccojuguetes16"
+                    style="@style/txtdesc"
+                    android:layout_below="@id/txtchiccojuguetes16principal"
+                    android:layout_toRightOf="@id/chiccojuguetes16"
+                    android:text="@string/txtchiccojuguetes16" />
+
+                <Button
+                    android:id="@+id/btnchiccojuguetes16"
+                    style="@style/btnvermas"
+                    android:layout_above="@+id/view16"
+                    android:text="@string/btnver" />
+
+                <TextView
+                    android:id="@+id/preciochiccojuguetes16"
+                    style="@style/precio"
+                    android:layout_below="@id/chiccojuguetes16" />
+
+                <View
+                    android:id="@+id/view16"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciochiccojuguetes16" />
+
+                <ImageView
+                    android:id="@+id/chiccojuguetes17"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view16"
+                    android:padding="2dp" />
+
+                <TextView
+                    android:id="@+id/txtchiccojuguetes17principal"
+                    style="@style/txtprincipal"
+                    android:layout_below="@id/view16"
+                    android:layout_toRightOf="@id/chiccojuguetes17"
+                    android:text="@string/txtchiccojuguetes" />
+
+                <TextView
+                    android:id="@+id/txtchiccojuguetes17"
+                    style="@style/txtdesc"
+                    android:layout_below="@id/txtchiccojuguetes17principal"
+                    android:layout_toRightOf="@id/chiccojuguetes17"
+                    android:text="@string/txtchiccojuguetes17" />
+
+                <Button
+                    android:id="@+id/btnchiccojuguetes17"
+                    style="@style/btnvermas"
+                    android:layout_above="@+id/view17"
+                    android:text="@string/btnver" />
+
+                <TextView
+                    android:id="@+id/preciochiccojuguetes17"
+                    style="@style/precio"
+                    android:layout_below="@id/chiccojuguetes17" />
+
+                <View
+                    android:id="@+id/view17"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciochiccojuguetes17" />
+
+                <ImageView
+                    android:id="@+id/chiccojuguetes18"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view17"
+                    android:padding="2dp" />
+
+                <TextView
+                    android:id="@+id/txtchiccojuguetes18principal"
+                    style="@style/txtprincipal"
+                    android:layout_below="@id/view17"
+                    android:layout_toRightOf="@id/chiccojuguetes18"
+                    android:text="@string/txtchiccojuguetes" />
+
+                <TextView
+                    android:id="@+id/txtchiccojuguetes18"
+                    style="@style/txtdesc"
+                    android:layout_below="@id/txtchiccojuguetes18principal"
+                    android:layout_toRightOf="@id/chiccojuguetes18"
+                    android:text="@string/txtchiccojuguetes18" />
+
+                <Button
+                    android:id="@+id/btnchiccojuguetes18"
+                    style="@style/btnvermas"
+                    android:layout_above="@+id/view18"
+                    android:text="@string/btnver" />
+
+                <TextView
+                    android:id="@+id/preciochiccojuguetes18"
+                    style="@style/precio"
+                    android:layout_below="@id/chiccojuguetes18" />
+
+                <View
+                    android:id="@+id/view18"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciochiccojuguetes18" />
+
+                <ImageView
+                    android:id="@+id/chiccojuguetes19"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view18"
+                    android:padding="2dp" />
+
+                <TextView
+                    android:id="@+id/txtchiccojuguetes19principal"
+                    style="@style/txtprincipal"
+                    android:layout_below="@id/view18"
+                    android:layout_toRightOf="@id/chiccojuguetes19"
+                    android:text="@string/txtchiccojuguetes" />
+
+                <TextView
+                    android:id="@+id/txtchiccojuguetes19"
+                    style="@style/txtdesc"
+                    android:layout_below="@id/txtchiccojuguetes19principal"
+                    android:layout_toRightOf="@id/chiccojuguetes19"
+                    android:text="@string/txtchiccojuguetes19" />
+
+                <Button
+                    android:id="@+id/btnchiccojuguetes19"
+                    style="@style/btnvermas"
+                    android:layout_above="@+id/view19"
+                    android:text="@string/btnver" />
+
+                <TextView
+                    android:id="@+id/preciochiccojuguetes19"
+                    style="@style/precio"
+                    android:layout_below="@id/chiccojuguetes19" />
+
+                <View
+                    android:id="@+id/view19"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciochiccojuguetes19" />
+
+                <ImageView
+                    android:id="@+id/chiccojuguetes20"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view19"
+                    android:padding="2dp" />
+
+                <TextView
+                    android:id="@+id/txtchiccojuguetes20principal"
+                    style="@style/txtprincipal"
+                    android:layout_below="@id/view19"
+                    android:layout_toRightOf="@id/chiccojuguetes20"
+                    android:text="@string/txtchiccojuguetes" />
+
+                <TextView
+                    android:id="@+id/txtchiccojuguetes20"
+                    style="@style/txtdesc"
+                    android:layout_below="@id/txtchiccojuguetes20principal"
+                    android:layout_toRightOf="@id/chiccojuguetes20"
+                    android:text="@string/txtchiccojuguetes20" />
+
+                <Button
+                    android:id="@+id/btnchiccojuguetes20"
+                    style="@style/btnvermas"
+                    android:layout_above="@+id/view20"
+                    android:text="@string/btnver" />
+
+                <TextView
+                    android:id="@+id/preciochiccojuguetes20"
+                    style="@style/precio"
+                    android:layout_below="@id/chiccojuguetes20" />
+
+                <View
+                    android:id="@+id/view20"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciochiccojuguetes20" />
+
+                <ImageView
+                    android:id="@+id/chiccojuguetes21"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view20"
+                    android:padding="2dp" />
+
+                <TextView
+                    android:id="@+id/txtchiccojuguetes21principal"
+                    style="@style/txtprincipal"
+                    android:layout_below="@id/view20"
+                    android:layout_toRightOf="@id/chiccojuguetes21"
+                    android:text="@string/txtchiccojuguetes" />
+
+                <TextView
+                    android:id="@+id/txtchiccojuguetes21"
+                    style="@style/txtdesc"
+                    android:layout_below="@id/txtchiccojuguetes21principal"
+                    android:layout_toRightOf="@id/chiccojuguetes21"
+                    android:text="@string/txtchiccojuguetes21" />
+
+                <Button
+                    android:id="@+id/btnchiccojuguetes21"
+                    style="@style/btnvermas"
+                    android:layout_above="@+id/view21"
+                    android:text="@string/btnver" />
+
+                <TextView
+                    android:id="@+id/preciochiccojuguetes21"
+                    style="@style/precio"
+                    android:layout_below="@id/chiccojuguetes21" />
+
+                <View
+                    android:id="@+id/view21"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciochiccojuguetes21" />
+
+                <ImageView
+                    android:id="@+id/chiccojuguetes22"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view21"
+                    android:padding="2dp" />
+
+                <TextView
+                    android:id="@+id/txtchiccojuguetes22principal"
+                    style="@style/txtprincipal"
+                    android:layout_below="@id/view21"
+                    android:layout_toRightOf="@id/chiccojuguetes22"
+                    android:text="@string/txtchiccojuguetes" />
+
+                <TextView
+                    android:id="@+id/txtchiccojuguetes22"
+                    style="@style/txtdesc"
+                    android:layout_below="@id/txtchiccojuguetes22principal"
+                    android:layout_toRightOf="@id/chiccojuguetes22"
+                    android:text="@string/txtchiccojuguetes22" />
+
+                <Button
+                    android:id="@+id/btnchiccojuguetes22"
+                    style="@style/btnvermas"
+                    android:layout_above="@+id/view22"
+                    android:text="@string/btnver" />
+
+                <TextView
+                    android:id="@+id/preciochiccojuguetes22"
+                    style="@style/precio"
+                    android:layout_below="@id/chiccojuguetes22" />
+
+                <View
+                    android:id="@+id/view22"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciochiccojuguetes22" />
+
+                <ImageView
+                    android:id="@+id/chiccojuguetes23"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view22"
+                    android:padding="2dp" />
+
+                <TextView
+                    android:id="@+id/txtchiccojuguetes23principal"
+                    style="@style/txtprincipal"
+                    android:layout_below="@id/view22"
+                    android:layout_toRightOf="@id/chiccojuguetes23"
+                    android:text="@string/txtchiccojuguetes" />
+
+                <TextView
+                    android:id="@+id/txtchiccojuguetes23"
+                    style="@style/txtdesc"
+                    android:layout_below="@id/txtchiccojuguetes23principal"
+                    android:layout_toRightOf="@id/chiccojuguetes23"
+                    android:text="@string/txtchiccojuguetes23" />
+
+                <Button
+                    android:id="@+id/btnchiccojuguetes23"
+                    style="@style/btnvermas"
+                    android:layout_above="@+id/view23"
+                    android:text="@string/btnver" />
+
+                <TextView
+                    android:id="@+id/preciochiccojuguetes23"
+                    style="@style/precio"
+                    android:layout_below="@id/chiccojuguetes23" />
+
+                <View
+                    android:id="@+id/view23"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciochiccojuguetes23" />
+
+                <ImageView
+                    android:id="@+id/chiccojuguetes24"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/view23"
+                    android:padding="2dp" />
+
+                <TextView
+                    android:id="@+id/txtchiccojuguetes24principal"
+                    style="@style/txtprincipal"
+                    android:layout_below="@id/view23"
+                    android:layout_toRightOf="@id/chiccojuguetes24"
+                    android:text="@string/txtchiccojuguetes" />
+
+                <TextView
+                    android:id="@+id/txtchiccojuguetes24"
+                    style="@style/txtdesc"
+                    android:layout_below="@id/txtchiccojuguetes24principal"
+                    android:layout_toRightOf="@id/chiccojuguetes24"
+                    android:text="@string/txtchiccojuguetes24" />
+
+                <Button
+                    android:id="@+id/btnchiccojuguetes24"
+                    style="@style/btnvermas"
+                    android:layout_above="@+id/view24"
+                    android:text="@string/btnver" />
+
+                <TextView
+                    android:id="@+id/preciochiccojuguetes24"
+                    style="@style/precio"
+                    android:layout_below="@id/chiccojuguetes24" />
+
+                <View
+                    android:id="@+id/view24"
+                    style="@style/Divider"
+                    android:layout_below="@id/preciochiccojuguetes24" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

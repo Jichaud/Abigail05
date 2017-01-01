@@ -41,22 +41,22 @@
 
                 <TextView
                     android:id="@+id/txtmibesmoises1principal"
+                    style="@style/txtprincipal"
                     android:layout_toRightOf="@id/mibesmoises1"
-                    android:text="@string/txtmibesmoises"
-                    style="@style/txtprincipal" />
+                    android:text="@string/txtmibesmoises" />
 
                 <TextView
                     android:id="@+id/txtmibesmoises1"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtmibesmoises1principal"
                     android:layout_toRightOf="@id/mibesmoises1"
-                    android:text="@string/txtmibesmoises1"
-                    style="@style/txtdesc" />
+                    android:text="@string/txtmibesmoises1" />
 
                 <Button
                     android:id="@+id/btnmibesmoises1"
+                    style="@style/btnvermas"
                     android:layout_above="@id/view1"
-                    android:text="@string/btnver"
-                    style="@style/btnvermas" />
+                    android:text="@string/btnver" />
 
                 <TextView
                     android:id="@+id/preciomibesmoises1"
@@ -77,23 +77,23 @@
 
                 <TextView
                     android:id="@+id/txtmibesmoises2principal"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view1"
                     android:layout_toRightOf="@id/mibesmoises2"
-                    android:text="@string/txtmibesmoises"
-                    style="@style/txtprincipal" />
+                    android:text="@string/txtmibesmoises" />
 
                 <TextView
                     android:id="@+id/txtmibesmoises2"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtmibesmoises2principal"
                     android:layout_toRightOf="@id/mibesmoises2"
-                    android:text="@string/txtmibesmoises2"
-                    style="@style/txtdesc" />
+                    android:text="@string/txtmibesmoises2" />
 
                 <Button
                     android:id="@+id/btnmibesmoises2"
+                    style="@style/btnvermas"
                     android:layout_above="@id/view2"
-                    android:text="@string/btnver"
-                    style="@style/btnvermas" />
+                    android:text="@string/btnver" />
 
                 <TextView
                     android:id="@+id/preciomibesmoises2"
@@ -114,23 +114,23 @@
 
                 <TextView
                     android:id="@+id/txtmibesmoises3principal"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view2"
                     android:layout_toRightOf="@id/mibesmoises3"
-                    android:text="@string/txtmibesmoises"
-                    style="@style/txtprincipal" />
+                    android:text="@string/txtmibesmoises" />
 
                 <TextView
                     android:id="@+id/txtmibesmoises3"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtmibesmoises3principal"
                     android:layout_toRightOf="@id/mibesmoises3"
-                    android:text="@string/txtmibesmoises3"
-                    style="@style/txtdesc" />
+                    android:text="@string/txtmibesmoises3" />
 
                 <Button
                     android:id="@+id/btnmibesmoises3"
+                    style="@style/btnvermas"
                     android:layout_above="@id/view3"
-                    android:text="@string/btnver"
-                    style="@style/btnvermas" />
+                    android:text="@string/btnver" />
 
                 <TextView
                     android:id="@+id/preciomibesmoises3"
@@ -151,23 +151,23 @@
 
                 <TextView
                     android:id="@+id/txtmibesmoises4principal"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view3"
                     android:layout_toRightOf="@id/mibesmoises4"
-                    android:text="@string/txtmibesmoises"
-                    style="@style/txtprincipal" />
+                    android:text="@string/txtmibesmoises" />
 
                 <TextView
                     android:id="@+id/txtmibesmoises4"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtmibesmoises4principal"
                     android:layout_toRightOf="@id/mibesmoises4"
-                    android:text="@string/txtmibesmoises4"
-                    style="@style/txtdesc" />
+                    android:text="@string/txtmibesmoises4" />
 
                 <Button
                     android:id="@+id/btnmibesmoises4"
+                    style="@style/btnvermas"
                     android:layout_above="@id/view4"
-                    android:text="@string/btnver"
-                    style="@style/btnvermas" />
+                    android:text="@string/btnver" />
 
                 <TextView
                     android:id="@+id/preciomibesmoises4"
@@ -188,23 +188,23 @@
 
                 <TextView
                     android:id="@+id/txtmibesmoises5principal"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view4"
                     android:layout_toRightOf="@id/mibesmoises5"
-                    android:text="@string/txtmibesmoises"
-                    style="@style/txtprincipal" />
+                    android:text="@string/txtmibesmoises" />
 
                 <TextView
                     android:id="@+id/txtmibesmoises5"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtmibesmoises5principal"
                     android:layout_toRightOf="@id/mibesmoises5"
-                    android:text="@string/txtmibesmoises5"
-                    style="@style/txtdesc" />
+                    android:text="@string/txtmibesmoises5" />
 
                 <Button
                     android:id="@+id/btnmibesmoises5"
+                    style="@style/btnvermas"
                     android:layout_above="@id/view5"
-                    android:text="@string/btnver"
-                    style="@style/btnvermas" />
+                    android:text="@string/btnver" />
 
                 <TextView
                     android:id="@+id/preciomibesmoises5"
@@ -225,23 +225,23 @@
 
                 <TextView
                     android:id="@+id/txtmibesmoises6principal"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view5"
                     android:layout_toRightOf="@id/mibesmoises6"
-                    android:text="@string/txtmibesmoises"
-                    style="@style/txtprincipal" />
+                    android:text="@string/txtmibesmoises" />
 
                 <TextView
                     android:id="@+id/txtmibesmoises6"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtmibesmoises6principal"
                     android:layout_toRightOf="@id/mibesmoises6"
-                    android:text="@string/txtmibesmoises6"
-                    style="@style/txtdesc" />
+                    android:text="@string/txtmibesmoises6" />
 
                 <Button
                     android:id="@+id/btnmibesmoises6"
+                    style="@style/btnvermas"
                     android:layout_above="@+id/view6"
-                    android:text="@string/btnver"
-                    style="@style/btnvermas" />
+                    android:text="@string/btnver" />
 
                 <TextView
                     android:id="@+id/preciomibesmoises6"
@@ -262,23 +262,23 @@
 
                 <TextView
                     android:id="@+id/txtmibesmoises7principal"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view6"
                     android:layout_toRightOf="@id/mibesmoises7"
-                    android:text="@string/txtmibesmoises"
-                    style="@style/txtprincipal" />
+                    android:text="@string/txtmibesmoises" />
 
                 <TextView
                     android:id="@+id/txtmibesmoises7"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtmibesmoises7principal"
                     android:layout_toRightOf="@id/mibesmoises7"
-                    android:text="@string/txtmibesmoises7"
-                    style="@style/txtdesc" />
+                    android:text="@string/txtmibesmoises7" />
 
                 <Button
                     android:id="@+id/btnmibesmoises7"
+                    style="@style/btnvermas"
                     android:layout_above="@id/view7"
-                    android:text="@string/btnver"
-                    style="@style/btnvermas" />
+                    android:text="@string/btnver" />
 
                 <TextView
                     android:id="@+id/preciomibesmoises7"
@@ -299,23 +299,23 @@
 
                 <TextView
                     android:id="@+id/txtmibesmoises8principal"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view7"
                     android:layout_toRightOf="@id/mibesmoises8"
-                    android:text="@string/txtmibesmoises"
-                    style="@style/txtprincipal" />
+                    android:text="@string/txtmibesmoises" />
 
                 <TextView
                     android:id="@+id/txtmibesmoises8"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtmibesmoises8principal"
                     android:layout_toRightOf="@id/mibesmoises8"
-                    android:text="@string/txtmibesmoises8"
-                    style="@style/txtdesc" />
+                    android:text="@string/txtmibesmoises8" />
 
                 <Button
                     android:id="@+id/btnmibesmoises8"
+                    style="@style/btnvermas"
                     android:layout_above="@id/view8"
-                    android:text="@string/btnver"
-                    style="@style/btnvermas" />
+                    android:text="@string/btnver" />
 
                 <TextView
                     android:id="@+id/preciomibesmoises8"
@@ -336,23 +336,23 @@
 
                 <TextView
                     android:id="@+id/txtmibesmoises9principal"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view8"
                     android:layout_toRightOf="@id/mibesmoises9"
-                    android:text="@string/txtmibesmoises"
-                    style="@style/txtprincipal" />
+                    android:text="@string/txtmibesmoises" />
 
                 <TextView
                     android:id="@+id/txtmibesmoises9"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtmibesmoises9principal"
                     android:layout_toRightOf="@id/mibesmoises9"
-                    android:text="@string/txtmibesmoises9"
-                    style="@style/txtdesc" />
+                    android:text="@string/txtmibesmoises9" />
 
                 <Button
                     android:id="@+id/btnmibesmoises9"
+                    style="@style/btnvermas"
                     android:layout_above="@id/view9"
-                    android:text="@string/btnver"
-                    style="@style/btnvermas" />
+                    android:text="@string/btnver" />
 
                 <TextView
                     android:id="@+id/preciomibesmoises9"

@@ -23,11 +23,9 @@
         android:layout_height="match_parent"
         android:layout_below="@id/btnhome">
 
-        <LinearLayout
-            style="@style/LinearCard">
+        <LinearLayout style="@style/LinearCard">
 
-            <android.support.v7.widget.CardView
-                style="@style/card">
+            <android.support.v7.widget.CardView style="@style/card">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -70,38 +68,38 @@
 
                     <TextView
                         android:id="@+id/modelo1"
+                        style="@style/txtvistas"
                         android:layout_alignParentLeft="true"
                         android:layout_below="@id/txtcolores"
                         android:onClick="modelo1"
-                        android:text="@string/modelo1"
-                        style="@style/txtvistas" />
+                        android:text="@string/modelo1" />
 
                     <TextView
                         android:id="@+id/modelo2"
+                        style="@style/txtvistas"
                         android:layout_below="@id/txtcolores"
                         android:layout_centerHorizontal="true"
                         android:onClick="modelo2"
-                        android:text="@string/modelo2"
-                        style="@style/txtvistas" />
+                        android:text="@string/modelo2" />
 
                     <TextView
                         android:id="@+id/modelo3"
+                        style="@style/txtvistas"
                         android:layout_alignParentRight="true"
                         android:layout_below="@id/txtcolores"
                         android:onClick="modelo3"
-                        android:text="@string/modelo3"
-                        style="@style/txtvistas" />
+                        android:text="@string/modelo3" />
 
                     <TextView
                         android:id="@+id/modelo4"
+                        style="@style/txtvistas1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_centerHorizontal="true"
                         android:layout_below="@id/modelo2"
+                        android:layout_centerHorizontal="true"
                         android:background="@drawable/rounded"
                         android:onClick="modelo4"
-                        android:text="@string/modelo4"
-                        style="@style/txtvistas1" />
+                        android:text="@string/modelo4" />
 
                     <View
                         android:id="@+id/view1"
@@ -112,13 +110,13 @@
                         android:id="@+id/encargo"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_below="@id/view1"
                         android:layout_centerHorizontal="true"
                         android:layout_margin="10dp"
                         android:background="@drawable/rounded"
                         android:backgroundTint="@color/pink"
                         android:fontFamily="sans-serif-medium"
                         android:padding="10dp"
-                        android:layout_below="@id/view1"
                         android:text="@string/porencargotxt"
                         android:textAlignment="center"
                         android:textColor="@color/cardview_dark_background"
@@ -126,15 +124,15 @@
 
                     <TextView
                         android:id="@+id/txtchiccotwin1principal"
+                        style="@style/txtcardprinc"
                         android:layout_below="@id/encargo"
-                        android:text="@string/txtchiccotwin"
-                        style="@style/txtcardprinc" />
+                        android:text="@string/txtchiccotwin" />
 
                     <TextView
                         android:id="@+id/chiccotwin1txtdesc"
+                        style="@style/txtcarddesc"
                         android:layout_below="@id/txtchiccotwin1principal"
-                        android:text="@string/txtchiccotwin1"
-                        style="@style/txtcarddesc" />
+                        android:text="@string/txtchiccotwin1" />
 
                     <View
                         android:id="@+id/view2"
@@ -143,8 +141,8 @@
 
                     <TextView
                         android:id="@+id/preciochiccotwin1"
-                        android:layout_below="@id/view2"
-                        style="@style/txtcardprecio" />
+                        style="@style/txtcardprecio"
+                        android:layout_below="@id/view2" />
 
                     <View
                         android:id="@+id/view3"

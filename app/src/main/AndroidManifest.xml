@@ -11,11 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".Abigail.almohadones"
@@ -1286,22 +1282,133 @@
             android:name=".Chicco.chiccohigiene10"
             android:label="Chicco | Parasol"
             android:parentActivityName=".Chicco.chiccohigiene" />
-        <activity android:name=".Chicco.chiccobutacas"
+        <activity
+            android:name=".Chicco.chiccobutacas"
             android:label="Chicco | Butacas para auto"
-            android:parentActivityName=".Chicco.chiccoprodlist"/>
-        <activity android:name=".Chicco.chiccobutacas1"
+            android:parentActivityName=".Chicco.chiccoprodlist" />
+        <activity
+            android:name=".Chicco.chiccobutacas1"
             android:label="Chicco | Butaca NextFit"
-            android:parentActivityName=".Chicco.chiccobutacas"/>
-        <activity android:name=".Chicco.chiccobutacas2"
+            android:parentActivityName=".Chicco.chiccobutacas" />
+        <activity
+            android:name=".Chicco.chiccobutacas2"
             android:label="Chicco | Butaca Oasys 2-3 FixPlus"
-            android:parentActivityName=".Chicco.chiccobutacas"/>
-        <activity android:name=".Chicco.chiccobutacas3"
+            android:parentActivityName=".Chicco.chiccobutacas" />
+        <activity
+            android:name=".Chicco.chiccobutacas3"
             android:label="Chicco | Butaca Oasys 2-3"
-            android:parentActivityName=".Chicco.chiccobutacas"/>
-        <activity android:name=".Chicco.chiccobutacas4"
+            android:parentActivityName=".Chicco.chiccobutacas" />
+        <activity
+            android:name=".Chicco.chiccobutacas4"
             android:label="Chicco | Butaca Eletta"
-            android:parentActivityName=".Chicco.chiccobutacas">
+            android:parentActivityName=".Chicco.chiccobutacas" />
+        <activity
+            android:name=".Chicco.chiccojuguetes"
+            android:label="Chicco | Juguetes"
+            android:parentActivityName=".Chicco.chiccoprodlist" />
+        <activity
+            android:name=".Chicco.chiccojuguetes1"
+            android:label="Chicco | Carrillón Ovejita"
+            android:parentActivityName=".Chicco.chiccojuguetes" />
+        <activity
+            android:name=".Chicco.chiccojuguetes2"
+            android:label="Chicco | Carrillón Osito"
+            android:parentActivityName=".Chicco.chiccojuguetes" />
+        <activity
+            android:name=".Chicco.chiccojuguetes3"
+            android:label="Chicco | Nube Musical"
+            android:parentActivityName=".Chicco.chiccojuguetes" />
+        <activity
+            android:name=".Chicco.chiccojuguetes4"
+            android:label="Chicco | Carrusel Magic Stars Pink"
+            android:parentActivityName=".Chicco.chiccojuguetes" />
+        <activity
+            android:name=".Chicco.chiccojuguetes5"
+            android:label="Chicco | Diverdientes Elefante"
+            android:parentActivityName=".Chicco.chiccojuguetes" />
+        <activity
+            android:name=".Chicco.chiccojuguetes6"
+            android:label="Chicco | Diverdientes Jirafa"
+            android:parentActivityName=".Chicco.chiccojuguetes" />
+        <activity
+            android:name=".Chicco.chiccojuguetes7"
+            android:label="Chicco | Marciano Horacio"
+            android:parentActivityName=".Chicco.chiccojuguetes" />
+        <activity
+            android:name=".Chicco.chiccojuguetes8"
+            android:label="Chicco | Travel Toy"
+            android:parentActivityName=".Chicco.chiccojuguetes" />
+        <activity
+            android:name=".Chicco.chiccojuguetes9"
+            android:label="Chicco | Turbo Touch - Super Big"
+            android:parentActivityName=".Chicco.chiccojuguetes" />
+        <activity
+            android:name=".Chicco.chiccojuguetes10"
+            android:label="Chicco | Camión Speed Track"
+            android:parentActivityName=".Chicco.chiccojuguetes" />
+        <activity
+            android:name=".Chicco.chiccojuguetes11"
+            android:label="Chicco | Turbo Touch Ducati Black"
+            android:parentActivityName=".Chicco.chiccojuguetes" />
+        <activity
+            android:name=".Chicco.chiccojuguetes12"
+            android:label="Chicco | Turbo Touch Ducati White"
+            android:parentActivityName=".Chicco.chiccojuguetes" />
+        <activity
+            android:name=".Chicco.chiccojuguetes13"
+            android:label="Chicco | TOY RATTLE ACTIVITY ELEPHANT"
+            android:parentActivityName=".Chicco.chiccojuguetes" />
+        <activity
+            android:name=".Chicco.chiccojuguetes14"
+            android:label="Chicco | Manta de Actividades"
+            android:parentActivityName=".Chicco.chiccojuguetes" />
+        <activity
+            android:name=".Chicco.chiccojuguetes15"
+            android:label="Chicco | TOY BLANCKET DOG PLUSH"
+            android:parentActivityName=".Chicco.chiccojuguetes" />
+        <activity
+            android:name=".Chicco.chiccojuguetes16"
+            android:label="Chicco | TOY TAVOLO BASICO"
+            android:parentActivityName=".Chicco.chiccojuguetes" />
+        <activity
+            android:name=".Chicco.chiccojuguetes17"
+            android:label="Chicco | Alfombra Jungla Musical"
+            android:parentActivityName=".Chicco.chiccojuguetes" />
+        <activity
+            android:name=".Chicco.chiccojuguetes18"
+            android:label="Chicco | Animalitos Bailarines"
+            android:parentActivityName=".Chicco.chiccojuguetes" />
+        <activity
+            android:name=".Chicco.chiccojuguetes19"
+            android:label="Chicco | Duo Gym"
+            android:parentActivityName=".Chicco.chiccojuguetes" />
+        <activity
+            android:name=".Chicco.chiccojuguetes20"
+            android:label="Chicco | Isla de la Fantasía"
+            android:parentActivityName=".Chicco.chiccojuguetes" />
+        <activity
+            android:name=".Chicco.chiccojuguetes21"
+            android:label="Chicco | Bee Hive Cot Mobile"
+            android:parentActivityName=".Chicco.chiccojuguetes" />
+        <activity
+            android:name=".Chicco.chiccojuguetes22"
+            android:label="Chicco | El Pollito Charlie"
+            android:parentActivityName=".Chicco.chiccojuguetes" />
+        <activity
+            android:name=".Chicco.chiccojuguetes23"
+            android:label="Chicco | Carillón Búho"
+            android:parentActivityName=".Chicco.chiccojuguetes" />
+        <activity
+            android:name=".Chicco.chiccojuguetes24"
+            android:label="Chicco | Carrillón Ardilla"
+            android:parentActivityName=".Chicco.chiccojuguetes"/>
+        <activity android:name=".splash_screen" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 

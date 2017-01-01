@@ -61,6 +61,7 @@
                         style="@style/Divider"
 
                         android:layout_below="@id/txtbabemamaderas8" />
+
                     <Button
                         android:id="@+id/btnconsulta"
                         style="@style/btnstock"

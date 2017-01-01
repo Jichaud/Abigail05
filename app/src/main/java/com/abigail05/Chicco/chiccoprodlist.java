@@ -37,6 +37,9 @@ public class chiccoprodlist extends AppCompatActivity {
     Button btnchiccobutacas;
     ImageView chiccobutacas;
     String urlchiccobutacas = "https://lh3.googleusercontent.com/lcadj4raCW8tpzz3MjJglrAiv7rrFR1htf6KFtoqJMKPcSZvp9NGvpafBXLfOzhpmZIyh83sa6M6fbHbRrCZ00iGSs7p5qO5cHa93XBJ_jmYp83A7jx_VuRlcNXn-10xX_1d6K3NespIJ6TdqjOHa-vrmlsqvkUkpkEUXMkozpv4p_B132OPlrnYXbSGRGs4EwbZFo4Z01ZPsZZL1Cd8yQEOWSwgzuZAJcNv0IdQmj_kq0S3A1R4s3mCkFrz_zzx8h-Y6kqPBvLvB-oCjV8571BM2x9UfbZzfSKMjP2LJ5c-T88x8BEmNf8h1y1SBpHhDqtok9v79PZPXmAA3jbEACKlhh5ZbrIGIC6upPDitCAmApnwU_TBYQ2n9JUSXqhxuTV0lE-sVKC_YxVuv9RB63yUgpxu2Xbe4IxJWmH8x8IENusQIJomc4ZxQaKgwg1Wn5lxf_RoLQ3ThrfOj_hTbNIxRReUaRWLOkjOeRwPIT7oACRzlzyQCE2tQJa4ZY21RY2iLXsHPSPuYR734jLcTWb30wWphx0Ba8UBN3QoDm4Cw-LI5MalceonDpt7WSYE16OGss-6lRKwkR00NcCfsuu-0KWyHsOE-MbRppbulynWfPCrzTOQy4kH2nTTDs5X8aTS31vMBP5vA81cBVyMwxjTOyU5DmMwXW4PXq6B_eU=s725-no";
+    Button btnchiccojuguetes;
+    ImageView chiccojuguetes;
+    String urlchiccojuguetes = "https://lh3.googleusercontent.com/k2TZblnazO1dn-3fp3R49eUbcO2NUohgO8E5SQ8G6fYihjyNVeWFiT_Es9RuuVXCUVztIMy-VAwjwV3vKhwdtG1Yyp1CSC6nSE5w5SazfJRMK0DTABsB6NzCmweTTuO9BGWQaLvEMqHYCtgoYMvmOidEwHnh2R9E8Tn3ASQiIjn9a48riCS2Mmz9weaTnlTemTaAfu2zBXYRxTgWuVzNneddr496Oofac9sw0Ng8z-ObSZBfSnJbncfNDHhL_WWUWRDd6TaNjyoi8Fh3vBvT3tj8hqR4XDDfPP512Y9n2Id73K6NYH_VLt5TsMAWC9lN09weJ0JB5PreuGPRyaonkkh7f4lX_-fRdwCNU7Phn9KhLVHlJVv-C9cymAcl2RfNDvK0U46oXqcNFID2NW6rBnTTKCxxwwZldi2hSOyA4fXD0gkkQopqoh_RR6sCT9CxEv3isVJXEaJTaQA2EzN_Eqh9EFCRHUhni1zC2KF3D6xwLCoa9viuLcjj7SgU3mxcgJguwm4cilcUSSrZ--UaVz0OVEQAxfFExsJQe9fupfg0wxZDOFnbk49Eb_9m216Q11XVUUwdaT3sG4FrNe215MMrcsKrQ_l1xqZRHjaP8ekjxFc3Onja8rZht6qgJvIQlh1IUopnOzOw8GdxcGRHchLyLcZsDzhb9WCwcUtCZSk=w396-h400-no";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -142,6 +145,18 @@ public class chiccoprodlist extends AppCompatActivity {
             public void onClick(View view) {
                 Intent btnchiccobutacas = new Intent(chiccoprodlist.this, chiccobutacas.class);
                 startActivity(btnchiccobutacas);
+            }
+        });
+
+        chiccojuguetes = (ImageView)findViewById(R.id.chiccojuguetes);
+        Picasso.with(this).load(urlchiccojuguetes).into(chiccojuguetes);
+
+        btnchiccojuguetes = (Button)findViewById(R.id.btnchiccojuguetes);
+        btnchiccojuguetes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnchiccojuguetes = new Intent(chiccoprodlist.this, chiccojuguetes.class);
+                startActivity(btnchiccojuguetes);
             }
         });
 
