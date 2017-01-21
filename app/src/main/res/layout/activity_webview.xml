@@ -5,9 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="4dp"
-    android:paddingTop="4dp"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="4dp"
     tools:context="com.abigail05.webview">
 
     <Button

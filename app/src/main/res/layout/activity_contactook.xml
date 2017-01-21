@@ -30,16 +30,15 @@
             android:padding="10dp"
             android:text="@string/mailok"
             android:textAlignment="center"
-            android:textColor="@color/cardview_dark_background"
-            android:textSize="20sp" />
+            android:textColor="@color/cardview_light_background"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/btnhome"
-            android:layout_width="130dp"
-            android:layout_height="wrap_content"
+            style="@style/btnhome"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="30dp"
-            android:backgroundTint="@color/pink"
             android:fontFamily="sans-serif-thin"
             android:text="@string/verhome"
             android:textAllCaps="false"

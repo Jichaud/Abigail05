@@ -41,38 +41,21 @@
 
                 <TextView
                     android:id="@+id/txtchiccomamaderas1principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_toRightOf="@id/chiccomamaderas1"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtchiccomamaderas"
-                    android:textSize="20sp" />
+                    android:text="@string/txtchiccomamaderas" />
 
                 <TextView
                     android:id="@+id/txtchiccomamaderas1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtchiccomamaderas1principal"
                     android:layout_toRightOf="@id/chiccomamaderas1"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtchiccomamaderas1"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtchiccomamaderas1" />
 
                 <Button
                     android:id="@+id/btnchiccomamaderas1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_above="@id/view1"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_above="@id/view1" />
 
                 <TextView
                     android:id="@+id/preciochiccomamaderas1"
@@ -93,39 +76,22 @@
 
                 <TextView
                     android:id="@+id/txtchiccomamaderas2principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view1"
                     android:layout_toRightOf="@id/chiccomamaderas2"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtchiccomamaderas"
-                    android:textSize="20sp" />
+                    android:text="@string/txtchiccomamaderas" />
 
                 <TextView
                     android:id="@+id/txtchiccomamaderas2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtchiccomamaderas2principal"
                     android:layout_toRightOf="@id/chiccomamaderas2"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtchiccomamaderas2"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtchiccomamaderas2" />
 
                 <Button
                     android:id="@+id/btnchiccomamaderas2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_above="@id/view2"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_above="@id/view2" />
 
                 <TextView
                     android:id="@+id/preciochiccomamaderas2"
@@ -146,39 +112,22 @@
 
                 <TextView
                     android:id="@+id/txtchiccomamaderas3principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view2"
                     android:layout_toRightOf="@id/chiccomamaderas3"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtchiccomamaderas"
-                    android:textSize="20sp" />
+                    android:text="@string/txtchiccomamaderas" />
 
                 <TextView
                     android:id="@+id/txtchiccomamaderas3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtchiccomamaderas3principal"
                     android:layout_toRightOf="@id/chiccomamaderas3"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtchiccomamaderas3"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtchiccomamaderas3" />
 
                 <Button
                     android:id="@+id/btnchiccomamaderas3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_above="@id/view3"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_above="@id/view3" />
 
                 <TextView
                     android:id="@+id/preciochiccomamaderas3"
@@ -199,39 +148,22 @@
 
                 <TextView
                     android:id="@+id/txtchiccomamaderas4principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view3"
                     android:layout_toRightOf="@id/chiccomamaderas4"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtchiccomamaderas"
-                    android:textSize="20sp" />
+                    android:text="@string/txtchiccomamaderas" />
 
                 <TextView
                     android:id="@+id/txtchiccomamaderas4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtchiccomamaderas4principal"
                     android:layout_toRightOf="@id/chiccomamaderas4"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtchiccomamaderas4"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtchiccomamaderas4" />
 
                 <Button
                     android:id="@+id/btnchiccomamaderas4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_above="@id/view4"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_above="@id/view4" />
 
                 <TextView
                     android:id="@+id/preciochiccomamaderas4"
@@ -252,39 +184,22 @@
 
                 <TextView
                     android:id="@+id/txtchiccomamaderas5principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view4"
                     android:layout_toRightOf="@id/chiccomamaderas5"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtchiccomamaderas"
-                    android:textSize="20sp" />
+                    android:text="@string/txtchiccomamaderas" />
 
                 <TextView
                     android:id="@+id/txtchiccomamaderas5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtchiccomamaderas5principal"
                     android:layout_toRightOf="@id/chiccomamaderas5"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtchiccomamaderas5"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtchiccomamaderas5" />
 
                 <Button
                     android:id="@+id/btnchiccomamaderas5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_above="@id/view5"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_above="@id/view5" />
 
                 <TextView
                     android:id="@+id/preciochiccomamaderas5"
@@ -305,39 +220,22 @@
 
                 <TextView
                     android:id="@+id/txtchiccomamaderas6principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view5"
                     android:layout_toRightOf="@id/chiccomamaderas6"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtchiccomamaderas"
-                    android:textSize="20sp" />
+                    android:text="@string/txtchiccomamaderas" />
 
                 <TextView
                     android:id="@+id/txtchiccomamaderas6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtchiccomamaderas6principal"
                     android:layout_toRightOf="@id/chiccomamaderas6"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtchiccomamaderas6"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtchiccomamaderas6" />
 
                 <Button
                     android:id="@+id/btnchiccomamaderas6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_above="@+id/view6"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_above="@+id/view6" />
 
                 <TextView
                     android:id="@+id/preciochiccomamaderas6"
@@ -358,41 +256,22 @@
 
                 <TextView
                     android:id="@+id/txtchiccomamaderas7principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view6"
                     android:layout_toRightOf="@id/chiccomamaderas7"
-                    android:ellipsize="end"
-                    android:fontFamily="sans-serif-light"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtchiccomamaderas"
-                    android:textSize="20sp" />
+                    android:text="@string/txtchiccomamaderas" />
 
                 <TextView
                     android:id="@+id/txtchiccomamaderas7"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtchiccomamaderas7principal"
                     android:layout_toRightOf="@id/chiccomamaderas7"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtchiccomamaderas7"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtchiccomamaderas7" />
 
                 <Button
                     android:id="@+id/btnchiccomamaderas7"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_above="@id/view7"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_above="@id/view7" />
 
                 <TextView
                     android:id="@+id/preciochiccomamaderas7"
@@ -413,39 +292,22 @@
 
                 <TextView
                     android:id="@+id/txtchiccomamaderas8principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view7"
                     android:layout_toRightOf="@id/chiccomamaderas8"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtchiccomamaderas"
-                    android:textSize="20sp" />
+                    android:text="@string/txtchiccomamaderas" />
 
                 <TextView
                     android:id="@+id/txtchiccomamaderas8"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtchiccomamaderas8principal"
                     android:layout_toRightOf="@id/chiccomamaderas8"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtchiccomamaderas8"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtchiccomamaderas8" />
 
                 <Button
                     android:id="@+id/btnchiccomamaderas8"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_above="@id/view8"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_above="@id/view8" />
 
                 <TextView
                     android:id="@+id/preciochiccomamaderas8"
@@ -466,39 +328,22 @@
 
                 <TextView
                     android:id="@+id/txtchiccomamaderas9principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view8"
                     android:layout_toRightOf="@id/chiccomamaderas9"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtchiccomamaderas"
-                    android:textSize="20sp" />
+                    android:text="@string/txtchiccomamaderas" />
 
                 <TextView
                     android:id="@+id/txtchiccomamaderas9"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtchiccomamaderas9principal"
                     android:layout_toRightOf="@id/chiccomamaderas9"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtchiccomamaderas9"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtchiccomamaderas9" />
 
                 <Button
                     android:id="@+id/btnchiccomamaderas9"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_above="@+id/view9"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_above="@+id/view9" />
 
                 <TextView
                     android:id="@+id/preciochiccomamaderas9"
@@ -519,39 +364,22 @@
 
                 <TextView
                     android:id="@+id/txtchiccomamaderas10principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view9"
                     android:layout_toRightOf="@id/chiccomamaderas10"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtchiccomamaderas"
-                    android:textSize="20sp" />
+                    android:text="@string/txtchiccomamaderas" />
 
                 <TextView
                     android:id="@+id/txtchiccomamaderas10"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtchiccomamaderas10principal"
                     android:layout_toRightOf="@id/chiccomamaderas10"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtchiccomamaderas10"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtchiccomamaderas10" />
 
                 <Button
                     android:id="@+id/btnchiccomamaderas10"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_above="@+id/view10"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_above="@+id/view10" />
 
                 <TextView
                     android:id="@+id/preciochiccomamaderas10"
@@ -572,39 +400,22 @@
 
                 <TextView
                     android:id="@+id/txtchiccomamaderas11principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view10"
                     android:layout_toRightOf="@id/chiccomamaderas11"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtchiccomamaderas"
-                    android:textSize="20sp" />
+                    android:text="@string/txtchiccomamaderas" />
 
                 <TextView
                     android:id="@+id/txtchiccomamaderas11"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtchiccomamaderas11principal"
                     android:layout_toRightOf="@id/chiccomamaderas11"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtchiccomamaderas11"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtchiccomamaderas11" />
 
                 <Button
                     android:id="@+id/btnchiccomamaderas11"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_above="@+id/view11"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_above="@+id/view11" />
 
                 <TextView
                     android:id="@+id/preciochiccomamaderas11"
@@ -625,39 +436,22 @@
 
                 <TextView
                     android:id="@+id/txtchiccomamaderas12principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view11"
                     android:layout_toRightOf="@id/chiccomamaderas12"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtchiccomamaderas"
-                    android:textSize="20sp" />
+                    android:text="@string/txtchiccomamaderas" />
 
                 <TextView
                     android:id="@+id/txtchiccomamaderas12"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtchiccomamaderas12principal"
                     android:layout_toRightOf="@id/chiccomamaderas12"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtchiccomamaderas12"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtchiccomamaderas12" />
 
                 <Button
                     android:id="@+id/btnchiccomamaderas12"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_above="@+id/view12"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_above="@+id/view12" />
 
                 <TextView
                     android:id="@+id/preciochiccomamaderas12"
@@ -678,39 +472,22 @@
 
                 <TextView
                     android:id="@+id/txtchiccomamaderas13principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view12"
                     android:layout_toRightOf="@id/chiccomamaderas13"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtchiccomamaderas"
-                    android:textSize="20sp" />
+                    android:text="@string/txtchiccomamaderas" />
 
                 <TextView
                     android:id="@+id/txtchiccomamaderas13"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtchiccomamaderas13principal"
                     android:layout_toRightOf="@id/chiccomamaderas13"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtchiccomamaderas13"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtchiccomamaderas13" />
 
                 <Button
                     android:id="@+id/btnchiccomamaderas13"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_above="@+id/view13"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_above="@+id/view13" />
 
                 <TextView
                     android:id="@+id/preciochiccomamaderas13"
@@ -731,39 +508,22 @@
 
                 <TextView
                     android:id="@+id/txtchiccomamaderas14principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view13"
                     android:layout_toRightOf="@id/chiccomamaderas14"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtchiccomamaderas"
-                    android:textSize="20sp" />
+                    android:text="@string/txtchiccomamaderas" />
 
                 <TextView
                     android:id="@+id/txtchiccomamaderas14"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtchiccomamaderas14principal"
                     android:layout_toRightOf="@id/chiccomamaderas14"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtchiccomamaderas14"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtchiccomamaderas14" />
 
                 <Button
                     android:id="@+id/btnchiccomamaderas14"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_above="@+id/view14"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_above="@+id/view14" />
 
                 <TextView
                     android:id="@+id/preciochiccomamaderas14"
@@ -784,39 +544,22 @@
 
                 <TextView
                     android:id="@+id/txtchiccomamaderas15principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view14"
                     android:layout_toRightOf="@id/chiccomamaderas15"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtchiccomamaderas"
-                    android:textSize="20sp" />
+                    android:text="@string/txtchiccomamaderas" />
 
                 <TextView
                     android:id="@+id/txtchiccomamaderas15"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtchiccomamaderas15principal"
                     android:layout_toRightOf="@id/chiccomamaderas15"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtchiccomamaderas15"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtchiccomamaderas15" />
 
                 <Button
                     android:id="@+id/btnchiccomamaderas15"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_above="@+id/view15"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_above="@+id/view15" />
 
                 <TextView
                     android:id="@+id/preciochiccomamaderas15"
@@ -837,39 +580,22 @@
 
                 <TextView
                     android:id="@+id/txtchiccomamaderas16principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view15"
                     android:layout_toRightOf="@id/chiccomamaderas16"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtchiccomamaderas"
-                    android:textSize="20sp" />
+                    android:text="@string/txtchiccomamaderas" />
 
                 <TextView
                     android:id="@+id/txtchiccomamaderas16"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtchiccomamaderas16principal"
                     android:layout_toRightOf="@id/chiccomamaderas16"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtchiccomamaderas16"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtchiccomamaderas16" />
 
                 <Button
                     android:id="@+id/btnchiccomamaderas16"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_above="@+id/view16"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_above="@+id/view16" />
 
                 <TextView
                     android:id="@+id/preciochiccomamaderas16"
@@ -890,39 +616,22 @@
 
                 <TextView
                     android:id="@+id/txtchiccomamaderas17principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view16"
                     android:layout_toRightOf="@id/chiccomamaderas17"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtchiccomamaderas"
-                    android:textSize="20sp" />
+                    android:text="@string/txtchiccomamaderas" />
 
                 <TextView
                     android:id="@+id/txtchiccomamaderas17"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtchiccomamaderas17principal"
                     android:layout_toRightOf="@id/chiccomamaderas17"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtchiccomamaderas17"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtchiccomamaderas17" />
 
                 <Button
                     android:id="@+id/btnchiccomamaderas17"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_above="@+id/view17"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_above="@+id/view17" />
 
                 <TextView
                     android:id="@+id/preciochiccomamaderas17"

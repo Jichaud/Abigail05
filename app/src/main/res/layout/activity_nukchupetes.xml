@@ -41,38 +41,21 @@
 
                 <TextView
                     android:id="@+id/txtnukchupetes1principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_toRightOf="@id/nukchupetes1"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtnukchupetes"
-                    android:textSize="20sp" />
+                    android:text="@string/txtnukchupetes" />
 
                 <TextView
                     android:id="@+id/txtnukchupetes1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtnukchupetes1principal"
                     android:layout_toRightOf="@id/nukchupetes1"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtnukchupetes1"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtnukchupetes1" />
 
                 <Button
                     android:id="@+id/btnnukchupetes1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_above="@id/view1"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_above="@id/view1" />
 
                 <TextView
                     android:id="@+id/precionukchupetes1"
@@ -93,39 +76,22 @@
 
                 <TextView
                     android:id="@+id/txtnukchupetes2principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view1"
                     android:layout_toRightOf="@id/nukchupetes2"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtnukchupetes"
-                    android:textSize="20sp" />
+                    android:text="@string/txtnukchupetes" />
 
                 <TextView
                     android:id="@+id/txtnukchupetes2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtnukchupetes2principal"
                     android:layout_toRightOf="@id/nukchupetes2"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtnukchupetes2"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtnukchupetes2" />
 
                 <Button
                     android:id="@+id/btnnukchupetes2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_above="@id/view2"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_above="@id/view2" />
 
                 <TextView
                     android:id="@+id/precionukchupetes2"
@@ -146,39 +112,22 @@
 
                 <TextView
                     android:id="@+id/txtnukchupetes3principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view2"
                     android:layout_toRightOf="@id/nukchupetes3"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtnukchupetes"
-                    android:textSize="20sp" />
+                    android:text="@string/txtnukchupetes" />
 
                 <TextView
                     android:id="@+id/txtnukchupetes3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtnukchupetes3principal"
                     android:layout_toRightOf="@id/nukchupetes3"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtnukchupetes3"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtnukchupetes3" />
 
                 <Button
                     android:id="@+id/btnnukchupetes3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_above="@id/view3"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_above="@id/view3" />
 
                 <TextView
                     android:id="@+id/precionukchupetes3"
@@ -199,39 +148,22 @@
 
                 <TextView
                     android:id="@+id/txtnukchupetes4principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view3"
                     android:layout_toRightOf="@id/nukchupetes4"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtnukchupetes"
-                    android:textSize="20sp" />
+                    android:text="@string/txtnukchupetes" />
 
                 <TextView
                     android:id="@+id/txtnukchupetes4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtnukchupetes4principal"
                     android:layout_toRightOf="@id/nukchupetes4"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtnukchupetes4"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtnukchupetes4" />
 
                 <Button
                     android:id="@+id/btnnukchupetes4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_above="@id/view4"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_above="@id/view4" />
 
                 <TextView
                     android:id="@+id/precionukchupetes4"
@@ -252,39 +184,22 @@
 
                 <TextView
                     android:id="@+id/txtnukchupetes5principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view4"
                     android:layout_toRightOf="@id/nukchupetes5"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtnukchupetes"
-                    android:textSize="20sp" />
+                    android:text="@string/txtnukchupetes" />
 
                 <TextView
                     android:id="@+id/txtnukchupetes5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtnukchupetes5principal"
                     android:layout_toRightOf="@id/nukchupetes5"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtnukchupetes5"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtnukchupetes5" />
 
                 <Button
                     android:id="@+id/btnnukchupetes5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_above="@id/view5"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_above="@id/view5" />
 
                 <TextView
                     android:id="@+id/precionukchupetes5"
@@ -305,39 +220,22 @@
 
                 <TextView
                     android:id="@+id/txtnukchupetes6principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view5"
                     android:layout_toRightOf="@id/nukchupetes6"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtnukchupetes"
-                    android:textSize="20sp" />
+                    android:text="@string/txtnukchupetes" />
 
                 <TextView
                     android:id="@+id/txtnukchupetes6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtnukchupetes6principal"
                     android:layout_toRightOf="@id/nukchupetes6"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtnukchupetes6"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtnukchupetes6" />
 
                 <Button
                     android:id="@+id/btnnukchupetes6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_above="@+id/view6"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_above="@+id/view6" />
 
                 <TextView
                     android:id="@+id/precionukchupetes6"
@@ -358,41 +256,22 @@
 
                 <TextView
                     android:id="@+id/txtnukchupetes7principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view6"
                     android:layout_toRightOf="@id/nukchupetes7"
-                    android:ellipsize="end"
-                    android:fontFamily="sans-serif-light"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtnukchupetes"
-                    android:textSize="20sp" />
+                    android:text="@string/txtnukchupetes" />
 
                 <TextView
                     android:id="@+id/txtnukchupetes7"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtnukchupetes7principal"
                     android:layout_toRightOf="@id/nukchupetes7"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtnukchupetes7"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtnukchupetes7" />
 
                 <Button
                     android:id="@+id/btnnukchupetes7"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_above="@id/view7"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_above="@id/view7" />
 
                 <TextView
                     android:id="@+id/precionukchupetes7"

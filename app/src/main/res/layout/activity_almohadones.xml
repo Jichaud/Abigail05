@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_abriprodlist"
     android:layout_width="match_parent"
@@ -53,32 +54,139 @@
                     android:layout_toRightOf="@id/combo1img"
                     android:text="@string/txtcombo1desc" />
 
-                <Button
-                    android:id="@+id/btncombo1"
-                    style="@style/btnvermas"
-                    android:layout_above="@id/view1"
-                    android:text="@string/btnver" />
+                <Switch
+                    android:id="@+id/switch1"
+                    style="@style/switchstyle"
+                    android:layout_above="@id/view1" />
 
                 <TextView
                     android:id="@+id/preciocombo1"
                     style="@style/precio"
                     android:layout_below="@id/combo1img" />
 
+                <LinearLayout
+                    android:id="@+id/linearcombo1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view1"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/combo1imgnaranja"
+                                android:layout_width="match_parent"
+                                android:layout_height="280dp"
+                                android:visibility="gone" />
+
+                            <ImageView
+                                android:id="@+id/combo1imglila"
+                                android:layout_width="match_parent"
+                                android:layout_height="280dp"
+                                android:visibility="gone" />
+
+                            <ImageView
+                                android:id="@+id/combo1imgrojo"
+                                android:layout_width="match_parent"
+                                android:layout_height="280dp" />
+
+                            <TextView
+                                android:id="@+id/txtcolores"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/combo1imgrojo"
+                                android:layout_margin="8dp"
+                                android:padding="6dp"
+                                android:text="@string/txtcolores"
+                                android:textAlignment="center"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/modelo1"
+                                style="@style/txtvistas"
+                                android:layout_below="@id/txtcolores"
+                                android:onClick="modelo1"
+                                android:text="@string/modelo1" />
+
+                            <TextView
+                                android:id="@+id/modelo2"
+                                style="@style/txtvistas"
+                                android:layout_below="@id/txtcolores"
+                                android:layout_centerHorizontal="true"
+                                android:onClick="modelo2"
+                                android:text="@string/modelo2" />
+
+                            <TextView
+                                android:id="@+id/modelo3"
+                                style="@style/txtvistas"
+                                android:layout_alignParentRight="true"
+                                android:layout_below="@id/txtcolores"
+                                android:onClick="modelo3"
+                                android:text="@string/modelo3" />
+
+                            <View
+                                android:id="@+id/view1card"
+                                style="@style/Divider"
+                                android:layout_below="@id/modelo1" />
+
+                            <TextView
+                                android:id="@+id/txtcombo1principalcard"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1card"
+                                android:text="@string/txtcombo" />
+
+                            <TextView
+                                android:id="@+id/combo1txtdesccard"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtcombo1principalcard"
+                                android:text="@string/txtcombo1desc" />
+
+                            <View
+                                android:id="@+id/view2card"
+                                style="@style/Divider"
+                                android:layout_below="@id/combo1txtdesccard" />
+
+                            <Button
+                                android:id="@+id/btnconsultacombo1"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2card"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncompracombo1"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2card"
+                                android:layout_toRightOf="@id/btnconsultacombo1"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+
+                </LinearLayout>
+
                 <View
                     android:id="@+id/view1"
                     style="@style/Divider"
-                    android:layout_below="@id/preciocombo1" />
+                    android:layout_below="@+id/preciocombo1" />
 
                 <ImageView
                     android:id="@+id/combo2img"
                     android:layout_width="90dp"
                     android:layout_height="100dp"
-                    android:layout_below="@id/view1" />
+                    android:layout_below="@id/linearcombo1" />
 
                 <TextView
                     android:id="@+id/txtcombo2principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view1"
+                    android:layout_below="@id/linearcombo1"
                     android:layout_toRightOf="@id/combo2img"
                     android:text="@string/txtcombo" />
 
@@ -89,16 +197,78 @@
                     android:layout_toRightOf="@id/combo2img"
                     android:text="@string/txtcombo2desc" />
 
-                <Button
-                    android:id="@+id/btncombo2"
-                    style="@style/btnvermas"
-                    android:layout_above="@id/view2"
-                    android:text="ver+" />
+                <Switch
+                    android:id="@+id/switch2"
+                    style="@style/switchstyle"
+                    android:layout_above="@id/view2" />
 
                 <TextView
                     android:id="@+id/preciocombo2"
                     style="@style/precio"
                     android:layout_below="@id/combo2img" />
+
+                <LinearLayout
+                    android:id="@+id/linearcombo2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view2"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/combo2imgcombo2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="280dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1combo2"
+                                style="@style/Divider"
+                                android:layout_below="@id/combo2imgcombo2" />
+
+                            <TextView
+                                android:id="@+id/txtcombo1principalcombo2"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/combo2imgcombo2"
+                                android:text="@string/txtcombo" />
+
+                            <TextView
+                                android:id="@+id/combo1txtdesccombo2"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtcombo1principalcombo2"
+                                android:text="@string/txtcombo2desc" />
+
+                            <View
+                                android:id="@+id/view2combo2"
+                                style="@style/Divider"
+                                android:layout_below="@id/combo1txtdesccombo2" />
+
+                            <Button
+                                android:id="@+id/btnconsultacombo2"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2combo2"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncompracombo2"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2combo2"
+                                android:layout_toRightOf="@id/btnconsultacombo2"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view2"
@@ -109,12 +279,12 @@
                     android:id="@+id/combo3img"
                     android:layout_width="90dp"
                     android:layout_height="90dp"
-                    android:layout_below="@id/view2" />
+                    android:layout_below="@id/linearcombo2" />
 
                 <TextView
                     android:id="@+id/txtcombo3principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view2"
+                    android:layout_below="@id/linearcombo2"
                     android:layout_toRightOf="@id/combo3img"
                     android:text="@string/txtcombo" />
 

@@ -42,36 +42,21 @@
 
                 <TextView
                     android:id="@+id/txtnidito1principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_toRightOf="@id/nidito1img"
-                    android:fontFamily="sans-serif-light"
-                    android:text="@string/txtNiditoPrincipal"
-                    android:textSize="20sp" />
+                    android:text="@string/txtNiditoPrincipal" />
 
                 <TextView
                     android:id="@+id/nidito1txtdesc"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtnidito1principal"
                     android:layout_toRightOf="@id/nidito1img"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:text="@string/txtNiditoPrincipaldesc"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtNiditoPrincipaldesc" />
 
                 <Button
                     android:id="@+id/btnnidito1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_above="@id/view1"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_above="@id/view1" />
 
                 <TextView
                     android:id="@+id/precionidito1"
@@ -91,39 +76,23 @@
 
                 <TextView
                     android:id="@+id/txtnidito2principal"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view1"
                     android:layout_toRightOf="@id/nidito2img"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtCuellitoPrincipal"
-                    android:textSize="20sp" />
+                    android:text="@string/txtCuellitoPrincipal" />
 
                 <TextView
                     android:id="@+id/nidito2txtdesc"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtnidito2principal"
                     android:layout_toRightOf="@id/nidito2img"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtCuellitoPrincipaldesc"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtCuellitoPrincipaldesc" />
 
                 <Button
                     android:id="@+id/btnnidito2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/btnvermas"
                     android:layout_above="@id/view2"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="ver+"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:layout_alignParentRight="true" />
 
                 <TextView
                     android:id="@+id/precionidito2"
@@ -143,39 +112,22 @@
 
                 <TextView
                     android:id="@+id/txtnidito3principal"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view2"
                     android:layout_toRightOf="@id/nidito3img"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtCuellitoPrincipalAdulto"
-                    android:textSize="20sp" />
+                    android:text="@string/txtCuellitoPrincipalAdulto" />
 
                 <TextView
                     android:id="@+id/nidito3txtdesc"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtnidito3principal"
                     android:layout_toRightOf="@id/nidito3img"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtCuellitoPrincipaldescAdulto"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtCuellitoPrincipaldescAdulto" />
 
                 <Button
                     android:id="@+id/btnnidito3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_above="@id/view3"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="ver+"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_above="@id/view3" />
 
                 <TextView
                     android:id="@+id/precionidito3"

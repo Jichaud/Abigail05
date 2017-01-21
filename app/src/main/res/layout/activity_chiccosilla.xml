@@ -57,39 +57,22 @@
 
                 <TextView
                     android:id="@+id/txtchiccosilla1principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/encargo"
                     android:layout_toRightOf="@id/chiccosilla1"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtchiccosilla"
-                    android:textSize="20sp" />
+                    android:text="@string/txtchiccosilla" />
 
                 <TextView
                     android:id="@+id/txtchiccosilla1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtchiccosilla1principal"
                     android:layout_toRightOf="@id/chiccosilla1"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtchiccosilla1"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtchiccosilla1" />
 
                 <Button
                     android:id="@+id/btnchiccosilla1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_above="@id/view1"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_above="@id/view1" />
 
                 <TextView
                     android:id="@+id/preciochiccosilla1"
@@ -110,39 +93,22 @@
 
                 <TextView
                     android:id="@+id/txtchiccosilla2principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view1"
                     android:layout_toRightOf="@id/chiccosilla2"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtchiccosilla"
-                    android:textSize="20sp" />
+                    android:text="@string/txtchiccosilla" />
 
                 <TextView
                     android:id="@+id/txtchiccosilla2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtchiccosilla2principal"
                     android:layout_toRightOf="@id/chiccosilla2"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtchiccosilla2"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtchiccosilla2" />
 
                 <Button
                     android:id="@+id/btnchiccosilla2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_above="@id/view2"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_above="@id/view2" />
 
                 <TextView
                     android:id="@+id/preciochiccosilla2"
@@ -163,39 +129,22 @@
 
                 <TextView
                     android:id="@+id/txtchiccosilla3principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view2"
                     android:layout_toRightOf="@id/chiccosilla3"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtchiccosilla"
-                    android:textSize="20sp" />
+                    android:text="@string/txtchiccosilla" />
 
                 <TextView
                     android:id="@+id/txtchiccosilla3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtchiccosilla3principal"
                     android:layout_toRightOf="@id/chiccosilla3"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtchiccosilla3"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtchiccosilla3" />
 
                 <Button
                     android:id="@+id/btnchiccosilla3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_above="@id/view3"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_above="@id/view3" />
 
                 <TextView
                     android:id="@+id/preciochiccosilla3"

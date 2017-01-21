@@ -41,38 +41,21 @@
 
                 <TextView
                     android:id="@+id/txtmibes1principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_toRightOf="@id/mibes1"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtmibes1principal"
-                    android:textSize="20sp" />
+                    android:text="@string/txtmibes1principal" />
 
                 <TextView
                     android:id="@+id/txtmibes1desc"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtmibes1principal"
                     android:layout_toRightOf="@id/mibes1"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtmibes1desc"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtmibes1desc" />
 
                 <Button
                     android:id="@+id/btnmibes1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_above="@id/view1"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_above="@id/view1" />
 
                 <TextView
                     android:id="@+id/preciomibes1"
@@ -93,39 +76,22 @@
 
                 <TextView
                     android:id="@+id/txtmibes2principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view1"
                     android:layout_toRightOf="@id/mibes2"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtmibes2principal"
-                    android:textSize="20sp" />
+                    android:text="@string/txtmibes2principal" />
 
                 <TextView
                     android:id="@+id/txtmibes2desc"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtmibes2principal"
                     android:layout_toRightOf="@id/mibes2"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtmibes2desc"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtmibes2desc" />
 
                 <Button
                     android:id="@+id/btnmibes2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_above="@id/view2"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_above="@id/view2" />
 
                 <TextView
                     android:id="@+id/preciomibes2"

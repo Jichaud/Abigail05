@@ -41,36 +41,21 @@
 
                 <TextView
                     android:id="@+id/txtnukmamaderas"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_toRightOf="@id/nukmamaderas"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtnukmamaderas"
-                    android:textSize="20sp" />
+                    android:text="@string/txtnukmamaderas" />
 
                 <TextView
                     android:id="@+id/txtnukmamaderasdesc"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtnukmamaderas"
                     android:layout_toRightOf="@id/nukmamaderas"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtnukmamaderasdesc"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtnukmamaderasdesc" />
 
                 <Button
                     android:id="@+id/btnnukmamaderas"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_below="@id/txtnukmamaderasdesc"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_below="@id/txtnukmamaderasdesc" />
 
                 <View
                     android:id="@+id/view1"
@@ -86,37 +71,23 @@
 
                 <TextView
                     android:id="@+id/txtnukchupetes"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view1"
                     android:layout_toRightOf="@id/nukchupetes"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtnukchupetes"
-                    android:textSize="20sp" />
+                    android:text="@string/txtnukchupetes" />
 
                 <TextView
                     android:id="@+id/txtnukchupetesdesc"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtnukchupetes"
                     android:layout_toRightOf="@id/nukchupetes"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtnukchupetesdesc"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtnukchupetesdesc" />
 
                 <Button
                     android:id="@+id/btnnukchupetes"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
+                    style="@style/btnvermas"
                     android:layout_below="@id/txtnukchupetesdesc"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:layout_marginTop="20dp" />
 
                 <View
                     android:id="@+id/view2"
@@ -132,37 +103,23 @@
 
                 <TextView
                     android:id="@+id/txtnukaccesorios"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view2"
                     android:layout_toRightOf="@id/nukaccesorios"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtnukaccesorios"
-                    android:textSize="20sp" />
+                    android:text="@string/txtnukaccesorios" />
 
                 <TextView
                     android:id="@+id/txtnukaccesoriosdesc"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtnukaccesorios"
                     android:layout_toRightOf="@id/nukaccesorios"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtnukaccesoriosdesc"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtnukaccesoriosdesc" />
 
                 <Button
                     android:id="@+id/btnnukaccesorios"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
+                    style="@style/btnvermas"
                     android:layout_below="@id/txtnukaccesoriosdesc"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:layout_marginTop="20dp" />
 
                 <View
                     android:id="@+id/view3"
@@ -178,37 +135,22 @@
 
                 <TextView
                     android:id="@+id/txtnukhigiene"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view3"
                     android:layout_toRightOf="@id/nukhigiene"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtnukhigiene"
-                    android:textSize="20sp" />
+                    android:text="@string/txtnukhigiene" />
 
                 <TextView
                     android:id="@+id/txtnukhigienedesc"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtnukhigiene"
                     android:layout_toRightOf="@id/nukhigiene"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtnukhigienedesc"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtnukhigienedesc" />
 
                 <Button
                     android:id="@+id/btnnukhigiene"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_below="@id/txtnukhigienedesc"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_below="@id/txtnukhigienedesc" />
 
                 <View
                     android:id="@+id/view4"
@@ -224,37 +166,22 @@
 
                 <TextView
                     android:id="@+id/txtnukaccesoriosm"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view4"
                     android:layout_toRightOf="@id/nukaccesoriosm"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtnukaccesoriosm"
-                    android:textSize="20sp" />
+                    android:text="@string/txtnukaccesoriosm" />
 
                 <TextView
                     android:id="@+id/txtnukaccesoriosmdesc"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtnukaccesoriosm"
                     android:layout_toRightOf="@id/nukaccesoriosm"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtnukaccesoriosmdesc"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtnukaccesoriosmdesc" />
 
                 <Button
                     android:id="@+id/btnaccesoriosm"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_below="@id/txtnukaccesoriosmdesc"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_below="@id/txtnukaccesoriosmdesc" />
 
                 <View
                     android:id="@+id/view5"

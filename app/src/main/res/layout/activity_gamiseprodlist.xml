@@ -41,36 +41,22 @@
 
                 <TextView
                     android:id="@+id/txtgamisebodymc"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_toRightOf="@id/gamisebodymc"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtgamisebodymc"
-                    android:textSize="20sp" />
+                    android:text="@string/txtgamisebodymc" />
 
                 <TextView
                     android:id="@+id/txtgamisebodymcdesc"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtgamisebodymc"
                     android:layout_toRightOf="@id/gamisebodymc"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtgamisebodymcdesc"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtgamisebodymcdesc" />
 
                 <Button
                     android:id="@+id/btngamisebodymc"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
+                    style="@style/btnvermas"
                     android:layout_below="@id/txtgamisebodymcdesc"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:layout_marginTop="20dp" />
 
                 <View
                     android:id="@+id/view1"
@@ -86,37 +72,23 @@
 
                 <TextView
                     android:id="@+id/txtgamisebodyml"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view1"
                     android:layout_toRightOf="@id/gamisebodyml"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtgamisebodyml"
-                    android:textSize="20sp" />
+                    android:text="@string/txtgamisebodyml" />
 
                 <TextView
                     android:id="@+id/txtgamisebodymldesc"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtgamisebodyml"
                     android:layout_toRightOf="@id/gamisebodyml"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtgamisebodymldesc"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtgamisebodymldesc" />
 
                 <Button
                     android:id="@+id/btngamisebodyml"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
+                    style="@style/btnvermas"
                     android:layout_below="@id/txtgamisebodymldesc"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:layout_marginTop="20dp" />
 
                 <View
                     android:id="@+id/view2"
@@ -132,37 +104,23 @@
 
                 <TextView
                     android:id="@+id/txtgamiseconj"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view2"
                     android:layout_toRightOf="@id/gamiseconj"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtgamiseconj"
-                    android:textSize="20sp" />
+                    android:text="@string/txtgamiseconj" />
 
                 <TextView
                     android:id="@+id/txtgamiseconjdesc"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtgamiseconj"
                     android:layout_toRightOf="@id/gamiseconj"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtgamiseconjdesc"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtgamiseconjdesc" />
 
                 <Button
                     android:id="@+id/btngamiseconj"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
+                    style="@style/btnvermas"
                     android:layout_below="@id/txtgamiseconjdesc"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:layout_marginTop="20dp" />
 
                 <View
                     android:id="@+id/view3"

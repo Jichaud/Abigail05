@@ -120,6 +120,7 @@
                     android:id="@+id/btnmibes1"
                     style="@style/btnvermas"
                     android:layout_below="@id/txtmibes2principal"
+                    android:layout_marginTop="20dp"
                     android:text="@string/btnver" />
 
                 <View

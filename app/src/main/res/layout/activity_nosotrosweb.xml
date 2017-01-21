@@ -57,14 +57,8 @@
 
                 <Button
                     android:id="@+id/btnlista1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_marginTop="10dp" />
 
                 <View
                     android:id="@+id/view1"
@@ -86,7 +80,7 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@id/view1"
                     android:layout_centerHorizontal="true"
-                    android:layout_margin="10dp"
+                    android:layout_marginTop="10dp"
                     android:background="@drawable/rounded"
                     android:backgroundTint="@color/pink"
                     android:fontFamily="sans-serif"
@@ -99,20 +93,16 @@
 
                 <Button
                     android:id="@+id/btnlista2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
+                    style="@style/btnvermas"
                     android:layout_below="@id/view1"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="ver+"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp" />
 
                 <View
                     android:id="@+id/view2"
                     style="@style/Divider"
-                    android:layout_below="@id/btnlista2" />
+                    android:layout_below="@id/btnlista2"
+                    android:layout_marginBottom="10dp" />
 
                 <ImageView
                     android:id="@+id/mlicon"
@@ -140,15 +130,10 @@
 
                 <Button
                     android:id="@+id/btnlista3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
+                    style="@style/btnvermas"
                     android:layout_below="@+id/view2"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="ver+"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp" />
 
                 <View
                     android:id="@+id/view3"

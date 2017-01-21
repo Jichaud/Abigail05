@@ -41,36 +41,21 @@
 
                 <TextView
                     android:id="@+id/txtpilim1principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_toRightOf="@id/pilim1"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtpiliprod"
-                    android:textSize="20sp" />
+                    android:text="@string/txtpiliprod" />
 
                 <TextView
                     android:id="@+id/txtpilim1desc"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtpilim1principal"
                     android:layout_toRightOf="@id/pilim1"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtpilim1desc"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtpilim1desc" />
 
                 <Button
                     android:id="@+id/btnpilim1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_above="@id/view1"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_above="@id/view1" />
 
                 <TextView
                     android:id="@+id/preciopilim1"
@@ -90,37 +75,22 @@
 
                 <TextView
                     android:id="@+id/txtpili2principal"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view1"
                     android:layout_toRightOf="@id/pilim2"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtpili2principal"
-                    android:textSize="20sp" />
+                    android:text="@string/txtpili2principal" />
 
                 <TextView
                     android:id="@+id/txtpili2desc"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtpili2principal"
                     android:layout_toRightOf="@id/pilim2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtpili2desc"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtpili2desc" />
 
                 <Button
                     android:id="@+id/btnpilim2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_above="@id/view2"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_above="@id/view2" />
 
                 <TextView
                     android:id="@+id/preciopilim2"
@@ -140,37 +110,22 @@
 
                 <TextView
                     android:id="@+id/txtpili3principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view2"
                     android:layout_toRightOf="@id/pilim6"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtpili3principal"
-                    android:textSize="20sp" />
+                    android:text="@string/txtpili3principal" />
 
                 <TextView
                     android:id="@+id/txtpili3desc"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtpili3principal"
                     android:layout_toRightOf="@id/pilim6"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtpili3desc"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtpili3desc" />
 
                 <Button
                     android:id="@+id/btnpilim3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_above="@id/view3"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="ver+"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_above="@id/view3" />
 
                 <TextView
                     android:id="@+id/preciopilim3"

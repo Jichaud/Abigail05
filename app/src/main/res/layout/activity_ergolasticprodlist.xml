@@ -41,38 +41,21 @@
 
                 <TextView
                     android:id="@+id/txtergolasticfajasdesc1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_toRightOf="@id/ergolasticpre"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtergolasticfajasdesc"
-                    android:textSize="20sp" />
+                    android:text="@string/txtergolasticfajasdesc" />
 
                 <TextView
                     android:id="@+id/txtergolasticfaja1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtergolasticfajasdesc1"
                     android:layout_toRightOf="@id/ergolasticpre"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtergolasticfaja1"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtergolasticfaja1" />
 
                 <Button
                     android:id="@+id/btnergolasticpre"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_above="@id/view1"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_above="@id/view1" />
 
                 <TextView
                     android:id="@+id/precioergolasticpre"
@@ -93,39 +76,22 @@
 
                 <TextView
                     android:id="@+id/txtergolasticfajasdesc2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view1"
                     android:layout_toRightOf="@id/ergolasticpos"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtergolasticfajasdesc"
-                    android:textSize="20sp" />
+                    android:text="@string/txtergolasticfajasdesc" />
 
                 <TextView
                     android:id="@+id/txtergolasticfaja2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtergolasticfajasdesc2"
                     android:layout_toRightOf="@id/ergolasticpos"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtergolasticfaja2"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtergolasticfaja2" />
 
                 <Button
                     android:id="@+id/btnergolasticpos"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_above="@id/view2"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_above="@id/view2" />
 
                 <TextView
                     android:id="@+id/precioergolasticpos"

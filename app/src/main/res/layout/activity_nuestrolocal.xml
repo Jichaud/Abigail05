@@ -140,16 +140,9 @@
 
                 <Button
                     android:id="@+id/vermapa"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
+                    style="@style/btnvermas"
                     android:layout_below="@+id/view3"
-                    android:layout_marginBottom="4dp"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="mapa"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:text="ver mapa" />
 
             </RelativeLayout>
 

@@ -58,16 +58,8 @@
 
                 <Button
                     android:id="@+id/btnarwin"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_below="@+id/txtarwinprod"
-                    android:layout_marginBottom="4dp"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_below="@+id/txtarwinprod" />
 
                 <View
                     android:id="@+id/view1"
@@ -105,16 +97,8 @@
 
                 <Button
                     android:id="@+id/btnavent"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_below="@+id/txtaventprod"
-                    android:layout_marginBottom="4dp"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_below="@+id/txtaventprod" />
 
                 <View
                     android:id="@+id/view2"
@@ -152,16 +136,8 @@
 
                 <Button
                     android:id="@+id/btnbabe"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_below="@+id/txtbabeprod"
-                    android:layout_marginBottom="4dp"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_below="@+id/txtbabeprod" />
 
                 <View
                     android:id="@+id/view3"
@@ -199,16 +175,8 @@
 
                 <Button
                     android:id="@+id/btnbabyin"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_below="@+id/txtbabyinprod"
-                    android:layout_marginBottom="4dp"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_below="@+id/txtbabyinprod" />
 
                 <View
                     android:id="@+id/view4"
@@ -246,16 +214,8 @@
 
                 <Button
                     android:id="@+id/btnchicco"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_below="@+id/txtchiccoprod"
-                    android:layout_marginBottom="4dp"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_below="@+id/txtchiccoprod" />
 
                 <View
                     android:id="@+id/view5"
@@ -293,16 +253,8 @@
 
                 <Button
                     android:id="@+id/btncolo"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_below="@+id/txtcoloprod"
-                    android:layout_marginBottom="4dp"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_below="@+id/txtcoloprod" />
 
                 <View
                     android:id="@+id/view6"
@@ -340,16 +292,8 @@
 
                 <Button
                     android:id="@+id/btnergolastic"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_below="@+id/txtergolasticprod"
-                    android:layout_marginBottom="4dp"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_below="@+id/txtergolasticprod" />
 
                 <View
                     android:id="@+id/view7"
@@ -387,16 +331,8 @@
 
                 <Button
                     android:id="@+id/btngamise"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_below="@+id/txtgamiseprod"
-                    android:layout_marginBottom="4dp"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_below="@+id/txtgamiseprod" />
 
                 <View
                     android:id="@+id/view8"
@@ -434,16 +370,8 @@
 
                 <Button
                     android:id="@+id/btngorditoo"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_below="@+id/txtgorditooprod"
-                    android:layout_marginBottom="4dp"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_below="@+id/txtgorditooprod" />
 
                 <View
                     android:id="@+id/view9"
@@ -481,16 +409,8 @@
 
                 <Button
                     android:id="@+id/btnmibes"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_below="@+id/txtmibesprod"
-                    android:layout_marginBottom="4dp"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_below="@+id/txtmibesprod" />
 
                 <View
                     android:id="@+id/view10"
@@ -528,16 +448,8 @@
 
                 <Button
                     android:id="@+id/btnnowy"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_below="@+id/txtnowyprod"
-                    android:layout_marginBottom="4dp"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_below="@+id/txtnowyprod" />
 
                 <View
                     android:id="@+id/view11"
@@ -575,16 +487,8 @@
 
                 <Button
                     android:id="@+id/btnnuby"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_below="@+id/txtnubyprod"
-                    android:layout_marginBottom="4dp"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_below="@+id/txtnubyprod" />
 
                 <View
                     android:id="@+id/view12"
@@ -622,16 +526,8 @@
 
                 <Button
                     android:id="@+id/btnnuk"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_below="@+id/txtnukprod"
-                    android:layout_marginBottom="4dp"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_below="@+id/txtnukprod" />
 
                 <View
                     android:id="@+id/view13"
@@ -669,16 +565,8 @@
 
                 <Button
                     android:id="@+id/btnpilim"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_below="@+id/txtpilimprod"
-                    android:layout_marginBottom="4dp"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_below="@+id/txtpilimprod" />
 
                 <View
                     android:id="@+id/view14"

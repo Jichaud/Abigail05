@@ -41,36 +41,22 @@
 
                 <TextView
                     android:id="@+id/txtnowybutacas"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_toRightOf="@id/nowybutacas"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtnowybutacas"
-                    android:textSize="20sp" />
+                    android:text="@string/txtnowybutacas" />
 
                 <TextView
                     android:id="@+id/txtnowybutacasdesc"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtnowybutacas"
                     android:layout_toRightOf="@id/nowybutacas"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtnowybutacasdesc"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtnowybutacasdesc" />
 
                 <Button
                     android:id="@+id/btnnowybutacas"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
+                    style="@style/btnvermas"
                     android:layout_below="@id/txtnowybutacasdesc"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:layout_marginTop="20dp" />
 
                 <View
                     android:id="@+id/view1"
@@ -86,37 +72,22 @@
 
                 <TextView
                     android:id="@+id/txtnowysillas"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view1"
                     android:layout_toRightOf="@id/nowysillas"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtnowysillas"
-                    android:textSize="20sp" />
+                    android:text="@string/txtnowysillas" />
 
                 <TextView
                     android:id="@+id/txtnowysillasdesc"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtnowysillas"
                     android:layout_toRightOf="@id/nowysillas"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtnowysillasdesc"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtnowysillasdesc" />
 
                 <Button
                     android:id="@+id/btnnowysillas"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_below="@id/txtnowysillasdesc"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_below="@id/txtnowysillasdesc" />
 
                 <View
                     android:id="@+id/view2"
@@ -132,37 +103,22 @@
 
                 <TextView
                     android:id="@+id/txtnowybaneras"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view2"
                     android:layout_toRightOf="@id/nowybaneras"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtnowybaneras"
-                    android:textSize="20sp" />
+                    android:text="@string/txtnowybaneras" />
 
                 <TextView
                     android:id="@+id/txtnowybanerasdesc"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtnowybaneras"
                     android:layout_toRightOf="@id/nowybaneras"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtnowybanerasdesc"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtnowybanerasdesc" />
 
                 <Button
                     android:id="@+id/btnnowybaneras"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_below="@id/txtnowybanerasdesc"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_below="@id/txtnowybanerasdesc" />
 
                 <View
                     android:id="@+id/view3"
@@ -178,37 +134,23 @@
 
                 <TextView
                     android:id="@+id/txtnowymobiliario"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view3"
                     android:layout_toRightOf="@id/nowymobiliario"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtnowymobiliario"
-                    android:textSize="20sp" />
+                    android:text="@string/txtnowymobiliario" />
 
                 <TextView
                     android:id="@+id/txtnowymobiliariodesc"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtnowymobiliario"
                     android:layout_toRightOf="@id/nowymobiliario"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtnowymobiliariodesc"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtnowymobiliariodesc" />
 
                 <Button
                     android:id="@+id/btnnowymobiliario"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
+                    style="@style/btnvermas"
                     android:layout_below="@id/txtnowymobiliariodesc"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:layout_marginTop="20dp" />
 
                 <View
                     android:id="@+id/view4"
@@ -224,37 +166,23 @@
 
                 <TextView
                     android:id="@+id/txtnowycoches"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view4"
                     android:layout_toRightOf="@id/nowycoches"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtnowycoches"
-                    android:textSize="20sp" />
+                    android:text="@string/txtnowycoches" />
 
                 <TextView
                     android:id="@+id/txtnowycochesdesc"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtnowycoches"
                     android:layout_toRightOf="@id/nowycoches"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtnowycochesdesc"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtnowycochesdesc" />
 
                 <Button
                     android:id="@+id/btnnowycoches"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
+                    style="@style/btnvermas"
                     android:layout_below="@id/txtnowycochesdesc"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:layout_marginTop="20dp" />
 
                 <View
                     android:id="@+id/view5"
@@ -270,37 +198,23 @@
 
                 <TextView
                     android:id="@+id/txtnowycamaras"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view5"
                     android:layout_toRightOf="@id/nowycamaras"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtnowycamaras"
-                    android:textSize="20sp" />
+                    android:text="@string/txtnowycamaras" />
 
                 <TextView
                     android:id="@+id/txtnowycamarasdesc"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtnowycamaras"
                     android:layout_toRightOf="@id/nowycamaras"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtnowycamarasdesc"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtnowycamarasdesc" />
 
                 <Button
                     android:id="@+id/btnnowycamaras"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
+                    style="@style/btnvermas"
                     android:layout_below="@id/txtnowycamarasdesc"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:layout_marginTop="20dp" />
 
                 <View
                     android:id="@+id/view6"

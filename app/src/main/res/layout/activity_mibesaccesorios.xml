@@ -41,38 +41,21 @@
 
                 <TextView
                     android:id="@+id/txtmibesaccesorios1principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_toRightOf="@id/mibesaccesorios1"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtmibesaccesorios"
-                    android:textSize="20sp" />
+                    android:text="@string/txtmibesaccesorios" />
 
                 <TextView
                     android:id="@+id/txtmibesaccesorios1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtmibesaccesorios1principal"
                     android:layout_toRightOf="@id/mibesaccesorios1"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtmibesaccesorios1"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtmibesaccesorios1" />
 
                 <Button
                     android:id="@+id/btnmibesaccesorios1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_above="@id/view1"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_above="@id/view1" />
 
                 <TextView
                     android:id="@+id/preciomibesaccesorios1"
@@ -93,39 +76,22 @@
 
                 <TextView
                     android:id="@+id/txtmibesaccesorios2principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view1"
                     android:layout_toRightOf="@id/mibesaccesorios2"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtmibesaccesorios"
-                    android:textSize="20sp" />
+                    android:text="@string/txtmibesaccesorios" />
 
                 <TextView
                     android:id="@+id/txtmibesaccesorios2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtmibesaccesorios2principal"
                     android:layout_toRightOf="@id/mibesaccesorios2"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtmibesaccesorios2"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtmibesaccesorios2" />
 
                 <Button
                     android:id="@+id/btnmibesaccesorios2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_above="@id/view2"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_above="@id/view2" />
 
                 <TextView
                     android:id="@+id/preciomibesaccesorios2"
@@ -146,39 +112,22 @@
 
                 <TextView
                     android:id="@+id/txtmibesaccesorios3principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view2"
                     android:layout_toRightOf="@id/mibesaccesorios3"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtmibesaccesorios"
-                    android:textSize="20sp" />
+                    android:text="@string/txtmibesaccesorios" />
 
                 <TextView
                     android:id="@+id/txtmibesaccesorios3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtmibesaccesorios3principal"
                     android:layout_toRightOf="@id/mibesaccesorios3"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtmibesaccesorios3"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtmibesaccesorios3" />
 
                 <Button
                     android:id="@+id/btnmibesaccesorios3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_above="@id/view3"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_above="@id/view3" />
 
                 <TextView
                     android:id="@+id/preciomibesaccesorios3"
@@ -199,39 +148,22 @@
 
                 <TextView
                     android:id="@+id/txtmibesaccesorios4principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view3"
                     android:layout_toRightOf="@id/mibesaccesorios4"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtmibesaccesorios"
-                    android:textSize="20sp" />
+                    android:text="@string/txtmibesaccesorios" />
 
                 <TextView
                     android:id="@+id/txtmibesaccesorios4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtmibesaccesorios4principal"
                     android:layout_toRightOf="@id/mibesaccesorios4"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtmibesaccesorios4"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtmibesaccesorios4" />
 
                 <Button
                     android:id="@+id/btnmibesaccesorios4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_above="@id/view4"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_above="@id/view4" />
 
                 <TextView
                     android:id="@+id/preciomibesaccesorios4"
@@ -252,39 +184,22 @@
 
                 <TextView
                     android:id="@+id/txtmibesaccesorios5principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view4"
                     android:layout_toRightOf="@id/mibesaccesorios5"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtmibesaccesorios"
-                    android:textSize="20sp" />
+                    android:text="@string/txtmibesaccesorios" />
 
                 <TextView
                     android:id="@+id/txtmibesaccesorios5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtmibesaccesorios5principal"
                     android:layout_toRightOf="@id/mibesaccesorios5"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtmibesaccesorios5"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtmibesaccesorios5" />
 
                 <Button
                     android:id="@+id/btnmibesaccesorios5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_above="@id/view5"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_above="@id/view5" />
 
                 <TextView
                     android:id="@+id/preciomibesaccesorios5"
@@ -305,39 +220,22 @@
 
                 <TextView
                     android:id="@+id/txtmibesaccesorios6principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view5"
                     android:layout_toRightOf="@id/mibesaccesorios6"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtmibesaccesorios"
-                    android:textSize="20sp" />
+                    android:text="@string/txtmibesaccesorios" />
 
                 <TextView
                     android:id="@+id/txtmibesaccesorios6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtmibesaccesorios6principal"
                     android:layout_toRightOf="@id/mibesaccesorios6"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtmibesaccesorios6"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtmibesaccesorios6" />
 
                 <Button
                     android:id="@+id/btnmibesaccesorios6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_above="@+id/view6"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_above="@+id/view6" />
 
                 <TextView
                     android:id="@+id/preciomibesaccesorios6"

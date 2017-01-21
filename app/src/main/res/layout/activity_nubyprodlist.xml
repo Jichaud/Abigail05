@@ -41,36 +41,21 @@
 
                 <TextView
                     android:id="@+id/txtnubyvasos"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_toRightOf="@id/nubyvasos"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtnubyvasos"
-                    android:textSize="20sp" />
+                    android:text="@string/txtnubyvasos" />
 
                 <TextView
                     android:id="@+id/txtnubyvasosdesc"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtnubyvasos"
                     android:layout_toRightOf="@id/nubyvasos"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtnubyvasosdesc"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtnubyvasosdesc" />
 
                 <Button
                     android:id="@+id/btnnubyvasos"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_below="@id/txtnubyvasosdesc"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_below="@id/txtnubyvasosdesc" />
 
                 <View
                     android:id="@+id/view1"
@@ -86,37 +71,22 @@
 
                 <TextView
                     android:id="@+id/txtnubyaccesorios"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view1"
                     android:layout_toRightOf="@id/nubyaccesorios"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtnubyaccesorios"
-                    android:textSize="20sp" />
+                    android:text="@string/txtnubyaccesorios" />
 
                 <TextView
                     android:id="@+id/txtnubyaccesoriosdesc"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtnubyaccesorios"
                     android:layout_toRightOf="@id/nubyaccesorios"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtnubyaccesoriosdesc"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtnubyaccesoriosdesc" />
 
                 <Button
                     android:id="@+id/btnnubyaccesorios"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_below="@id/txtnubyaccesoriosdesc"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_below="@id/txtnubyaccesoriosdesc" />
 
                 <View
                     android:id="@+id/view2"

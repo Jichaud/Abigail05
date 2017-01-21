@@ -55,7 +55,8 @@
                 <Button
                     android:id="@+id/btnlista1"
                     style="@style/btnvermas"
-                    android:layout_below="@+id/lista1txtdesc" />
+                    android:layout_below="@+id/lista1txtdesc"
+                    android:layout_marginTop="20dp" />
 
                 <View
                     android:id="@+id/view1"
@@ -85,7 +86,8 @@
                 <Button
                     android:id="@+id/btnlista2"
                     style="@style/btnvermas"
-                    android:layout_below="@+id/lista2txtdesc" />
+                    android:layout_below="@+id/lista2txtdesc"
+                    android:layout_marginTop="20dp" />
 
                 <View
                     android:id="@+id/view2"
@@ -145,7 +147,8 @@
                 <Button
                     android:id="@+id/btnalmohada1"
                     style="@style/btnvermas"
-                    android:layout_below="@+id/txtalmohada1desc" />
+                    android:layout_below="@+id/txtalmohada1desc"
+                    android:layout_marginTop="10dp" />
 
                 <View
                     android:id="@+id/view4"
@@ -175,7 +178,8 @@
                 <Button
                     android:id="@+id/btnfular1"
                     style="@style/btnvermas"
-                    android:layout_below="@+id/txtfular1desc" />
+                    android:layout_below="@+id/txtfular1desc"
+                    android:layout_marginTop="20dp" />
 
                 <View
                     android:id="@+id/view5"
@@ -205,7 +209,8 @@
                 <Button
                     android:id="@+id/btnmanta1"
                     style="@style/btnvermas"
-                    android:layout_below="@+id/txtmanta1desc" />
+                    android:layout_below="@+id/txtmanta1desc"
+                    android:layout_marginTop="20dp" />
 
                 <View
                     android:id="@+id/view6"

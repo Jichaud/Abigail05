@@ -41,36 +41,22 @@
 
                 <TextView
                     android:id="@+id/txtcolobaneras"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_toRightOf="@id/colobaneras"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtcolobaneras"
-                    android:textSize="20sp" />
+                    android:text="@string/txtcolobaneras" />
 
                 <TextView
                     android:id="@+id/txtcolobanerasdesc"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtcolobaneras"
                     android:layout_toRightOf="@id/colobaneras"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtcolobanerasdesc"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtcolobanerasdesc" />
 
                 <Button
                     android:id="@+id/btncolobaneras"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
+                    style="@style/btnvermas"
                     android:layout_below="@id/txtcolobanerasdesc"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:layout_marginTop="20dp" />
 
                 <View
                     android:id="@+id/view1"
@@ -86,37 +72,23 @@
 
                 <TextView
                     android:id="@+id/txtcoloaccesorios"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view1"
                     android:layout_toRightOf="@id/coloaccesorios"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtcoloaccesorios"
-                    android:textSize="20sp" />
+                    android:text="@string/txtcoloaccesorios" />
 
                 <TextView
                     android:id="@+id/txtcoloaccesoriosdesc"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtcoloaccesorios"
                     android:layout_toRightOf="@id/coloaccesorios"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtcoloaccesoriosdesc"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtcoloaccesoriosdesc" />
 
                 <Button
                     android:id="@+id/btncoloaccesorios"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
+                    style="@style/btnvermas"
                     android:layout_below="@id/txtcoloaccesoriosdesc"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    android:layout_marginTop="20dp" />
 
                 <View
                     android:id="@+id/view2"

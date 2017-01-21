@@ -41,38 +41,21 @@
 
                 <TextView
                     android:id="@+id/txtcoloaccesorios1principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_toRightOf="@id/coloaccesorios1"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtcoloaccesorios"
-                    android:textSize="20sp" />
+                    android:text="@string/txtcoloaccesorios" />
 
                 <TextView
                     android:id="@+id/txtcoloaccesorios1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtcoloaccesorios1principal"
                     android:layout_toRightOf="@id/coloaccesorios1"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtcoloaccesorios1"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtcoloaccesorios1" />
 
                 <Button
                     android:id="@+id/btncoloaccesorios1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_above="@id/view1"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_above="@id/view1" />
 
                 <TextView
                     android:id="@+id/preciocoloaccesorios1"
@@ -93,39 +76,22 @@
 
                 <TextView
                     android:id="@+id/txtcoloaccesorios2principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view1"
                     android:layout_toRightOf="@id/coloaccesorios2"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtcoloaccesorios"
-                    android:textSize="20sp" />
+                    android:text="@string/txtcoloaccesorios" />
 
                 <TextView
                     android:id="@+id/txtcoloaccesorios2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtcoloaccesorios2principal"
                     android:layout_toRightOf="@id/coloaccesorios2"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtcoloaccesorios2"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtcoloaccesorios2" />
 
                 <Button
                     android:id="@+id/btncoloaccesorios2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_above="@id/view2"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_above="@id/view2" />
 
                 <TextView
                     android:id="@+id/preciocoloaccesorios2"
@@ -146,39 +112,22 @@
 
                 <TextView
                     android:id="@+id/txtcoloaccesorios3principal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtprincipal"
                     android:layout_below="@id/view2"
                     android:layout_toRightOf="@id/coloaccesorios3"
-                    android:fontFamily="sans-serif-light"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtcoloaccesorios"
-                    android:textSize="20sp" />
+                    android:text="@string/txtcoloaccesorios" />
 
                 <TextView
                     android:id="@+id/txtcoloaccesorios3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/txtdesc"
                     android:layout_below="@id/txtcoloaccesorios3principal"
                     android:layout_toRightOf="@id/coloaccesorios3"
-                    android:ellipsize="end"
-                    android:maxLines="2"
-                    android:paddingLeft="15dp"
-                    android:text="@string/txtcoloaccesorios3"
-                    android:textColor="@color/grey"
-                    android:textSize="16sp" />
+                    android:text="@string/txtcoloaccesorios3" />
 
                 <Button
                     android:id="@+id/btncoloaccesorios3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_above="@id/view3"
-                    android:layout_alignParentRight="true"
-                    android:backgroundTint="@color/colorPrimary"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="@string/btnver"
-                    android:textAllCaps="false"
-                    android:textSize="16sp" />
+                    style="@style/btnvermas"
+                    android:layout_above="@id/view3" />
 
                 <TextView
                     android:id="@+id/preciocoloaccesorios3"
