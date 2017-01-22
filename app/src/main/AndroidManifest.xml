@@ -18,25 +18,9 @@
             android:label="Abigail05 | Almohadones"
             android:parentActivityName=".Abigail.abiprodlist" />
         <activity
-            android:name=".Abigail.combo1"
-            android:label="Abigail05 | Almohadones"
-            android:parentActivityName=".Abigail.almohadones" />
-        <activity
             android:name=".webview"
             android:label="web"
             android:parentActivityName=".MainActivity" />
-        <activity
-            android:name=".Abigail.combo2"
-            android:label="Abigail05 | Almohadones"
-            android:parentActivityName=".Abigail.almohadones" />
-        <activity
-            android:name=".Abigail.combo3"
-            android:label="Abigail05 | Almohadones"
-            android:parentActivityName=".Abigail.almohadones" />
-        <activity
-            android:name=".Abigail.combo4"
-            android:label="Abigail05 | Almohadones"
-            android:parentActivityName=".Abigail.almohadones" />
         <activity
             android:name=".Abigail.abiprodlist"
             android:label="Productos Abigail05"
@@ -45,18 +29,6 @@
             android:name=".Abigail.niditos"
             android:label="Abigail05 | Niditos y cuellitos"
             android:parentActivityName=".Abigail.abiprodlist" />
-        <activity
-            android:name=".Abigail.nidito1"
-            android:label="Abigail05 | Nidito"
-            android:parentActivityName=".Abigail.niditos" />
-        <activity
-            android:name=".Abigail.nidito2"
-            android:label="Abigail05 | Cuellito bebé"
-            android:parentActivityName=".Abigail.niditos" />
-        <activity
-            android:name=".Abigail.nidito3"
-            android:label="Abigail05 | Cuello adulto"
-            android:parentActivityName=".Abigail.niditos" />
         <activity
             android:name=".Abigail.colchon1"
             android:label="Abigail05 | Colchoncitos"

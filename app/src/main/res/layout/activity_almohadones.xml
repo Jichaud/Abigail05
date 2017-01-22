@@ -295,16 +295,165 @@
                     android:layout_toRightOf="@id/combo2img"
                     android:text="@string/txtcombo3desc" />
 
-                <Button
-                    android:id="@+id/btncombo3"
-                    style="@style/btnvermas"
-                    android:layout_above="@id/view3"
-                    android:text="ver+" />
-
                 <TextView
                     android:id="@+id/preciocombo3"
                     style="@style/precio"
                     android:layout_below="@id/combo3img" />
+
+                <LinearLayout
+                    android:id="@+id/linearcombo3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view3"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView
+                        style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/combomodelo2"
+                                android:layout_width="match_parent"
+                                android:layout_height="280dp"
+                                android:visibility="gone" />
+
+                            <ImageView
+                                android:id="@+id/combomodelo3"
+                                android:layout_width="match_parent"
+                                android:layout_height="280dp"
+                                android:visibility="gone" />
+
+                            <ImageView
+                                android:id="@+id/combomodelo4"
+                                android:layout_width="match_parent"
+                                android:layout_height="280dp"
+                                android:visibility="gone" />
+
+                            <ImageView
+                                android:id="@+id/combomodelo5"
+                                android:layout_width="match_parent"
+                                android:layout_height="280dp"
+                                android:visibility="gone" />
+
+                            <ImageView
+                                android:id="@+id/combomodelo6"
+                                android:layout_width="match_parent"
+                                android:layout_height="280dp"
+                                android:visibility="gone" />
+
+                            <ImageView
+                                android:id="@+id/combomodelo1"
+                                android:layout_width="match_parent"
+                                android:layout_height="280dp" />
+
+                            <TextView
+                                android:id="@+id/txtcolorescombo3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/combomodelo1"
+                                android:layout_margin="8dp"
+                                android:text="@string/txtcolores"
+                                android:textAlignment="center"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/modelo1combo3"
+                                style="@style/txtvistas"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/txtcolorescombo3"
+                                android:onClick="modelo1combo3"
+                                android:text="@string/modelo1" />
+
+                            <TextView
+                                android:id="@+id/modelo2combo3"
+                                style="@style/txtvistas"
+                                android:layout_below="@id/txtcolorescombo3"
+                                android:layout_centerHorizontal="true"
+                                android:onClick="modelo2combo3"
+                                android:text="@string/modelo2" />
+
+                            <TextView
+                                android:id="@+id/modelo3combo3"
+                                style="@style/txtvistas"
+                                android:layout_alignParentRight="true"
+                                android:layout_below="@id/txtcolorescombo3"
+                                android:onClick="modelo3combo3"
+                                android:text="@string/modelo3" />
+
+                            <TextView
+                                android:id="@+id/modelo4combo3"
+                                style="@style/txtvistas1"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/modelo1combo3"
+                                android:onClick="modelo4combo3"
+                                android:text="@string/modelo4" />
+
+                            <TextView
+                                android:id="@+id/modelo5combo3"
+                                style="@style/txtvistas1"
+                                android:layout_below="@id/modelo2combo3"
+                                android:layout_centerHorizontal="true"
+                                android:onClick="modelo5combo3"
+                                android:text="@string/modelo5" />
+
+                            <TextView
+                                android:id="@+id/modelo6combo3"
+                                style="@style/txtvistas1"
+                                android:layout_alignParentRight="true"
+                                android:layout_below="@id/modelo3combo3"
+                                android:onClick="modelo6combo3"
+                                android:text="@string/modelo6" />
+
+                            <View
+                                android:id="@+id/view1combo3"
+                                style="@style/Divider"
+                                android:layout_below="@id/modelo4combo3" />
+
+                            <TextView
+                                android:id="@+id/txtcombo3principalcombo3"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1combo3"
+                                android:text="@string/txtcombo" />
+
+                            <TextView
+                                android:id="@+id/combo3txtdesccombo3"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtcombo3principalcombo3"
+                                android:text="@string/txtcombo3desc" />
+
+                            <View
+                                android:id="@+id/view2combo3"
+                                style="@style/Divider"
+                                android:layout_below="@id/combo3txtdesccombo3" />
+
+                            <Button
+                                android:id="@+id/btnconsultacombo3"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2combo3"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncompracombo3"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2combo3"
+                                android:layout_toRightOf="@id/btnconsultacombo3"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    </LinearLayout>
+
+                <Switch
+                    android:id="@+id/switch3"
+                    style="@style/switchstyle"
+                    android:layout_above="@id/view3" />
 
                 <View
                     android:id="@+id/view3"
@@ -315,12 +464,12 @@
                     android:id="@+id/combo4img"
                     android:layout_width="90dp"
                     android:layout_height="100dp"
-                    android:layout_below="@id/view3" />
+                    android:layout_below="@id/linearcombo3" />
 
                 <TextView
                     android:id="@+id/txtcombo4principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view3"
+                    android:layout_below="@id/linearcombo3"
                     android:layout_toRightOf="@id/combo4img"
                     android:text="@string/txtcombo" />
 
@@ -331,16 +480,77 @@
                     android:layout_toRightOf="@id/combo4img"
                     android:text="@string/txtcombo4desc" />
 
-                <Button
-                    android:id="@+id/btncombo4"
-                    style="@style/btnvermas"
-                    android:layout_above="@+id/view4"
-                    android:text="@string/btnver" />
-
                 <TextView
                     android:id="@+id/preciocombo4"
                     style="@style/precio"
                     android:layout_below="@id/combo4img" />
+
+                <LinearLayout
+                    android:id="@+id/linearcombo4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view4"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView
+                        style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/combo4imgcombo4"
+                                android:layout_width="match_parent"
+                                android:layout_height="280dp" />
+
+                            <View
+                                android:id="@+id/view1combo4"
+                                style="@style/Divider"
+                                android:layout_below="@id/combo4imgcombo4" />
+
+                            <TextView
+                                android:id="@+id/txtcombo4principalcombo4"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1combo4"
+                                android:text="@string/txtcombo" />
+
+                            <TextView
+                                android:id="@+id/combo4txtdesccombo4"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtcombo4principalcombo4"
+                                android:text="@string/txtcombo4desc" />
+
+                            <View
+                                android:id="@+id/view2combo4"
+                                style="@style/Divider"
+                                android:layout_below="@id/combo4txtdesccombo4" />
+
+                            <Button
+                                android:id="@+id/btnconsultacombo4"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2combo4"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncompracombo4"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2combo4"
+                                android:layout_toRightOf="@id/btnconsultacombo4"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    </LinearLayout>
+
+                <Switch
+                    android:id="@+id/switch4"
+                    style="@style/switchstyle"
+                    android:layout_above="@id/view4" />
 
                 <View
                     android:id="@+id/view4"

@@ -27,10 +27,6 @@ import java.io.IOException;
 
 public class almohadones extends AppCompatActivity {
 
-    Button vercombo1;
-    Button vercombo2;
-    Button vercombo3;
-    Button vercombo4;
     Button home;
     TextView preciocombo1;
     TextView preciocombo2;
@@ -47,7 +43,6 @@ public class almohadones extends AppCompatActivity {
     String urlcombo4img = "https://lh3.googleusercontent.com/TNP66LtKXbcgW-VXfLQasJeZWjL5LfHBlmZda1Tp7BX0tuzzX8XQaTHTnOr4P_ifEIKrwFYXzrYvJ4mvCkmg5js-KrlfC38RMU-67DWUDLj0usJcR932eV6FKb2KG-n5U7Do7GailUFHLq5FgN3DBl4xKSVO8XZsaxAWAvVggoOgR5Pdu6JQCpaExWi5qdVjZGtpxwOVEmYz_LdS2tptyxqmHKvtVpcIW6q50pmFNBJEo9tRljXjGplUwaPEm_FG_JBZRwYsJa-zLUjcy497EAhA-54aEyewAjWvTxWxk390q8mS02QcoEvFLnZgYVqF1T_Eyk5IhN5a4UJubY96n5rSCG48msWsFQ8R83fLf43EhrC6zqIRBuvKAX2N8x9AG3pMOkPZMWJS_XbZrp0lQzGaq9q1UvtP-TmxMMWCd2WJpEgJJC7VOQ7VQItkCEhZRFAdVPc7e0rccddo4z9qnMXskJthqBVoVm1Qp3lSKGTLQEcTgYE8rAKhtVhCxfg9NvVdX88g2tajMd3pes3BuJLKyLUzHSqioWkSGasvb_NZAkR8SsoKs3SbeOGe1LMA42OUAIbWsVFT6U2SK5mX2SX_APFPmxcchjvYC9CVc_HrRSZ7Ww=w460-h284-no";
     LinearLayout linearcombo1;
     Switch switch1;
-
     Button btnconsultacombo1;
     Button comprarcombo1;
     String urlcombo1 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=e68ff9a9f087a16157f80793fc0ca56f";
@@ -61,7 +56,6 @@ public class almohadones extends AppCompatActivity {
     String urlcombo1imgrojo = "https://lh3.googleusercontent.com/0PZVM2KAiLotF7nrs-MHjo0F7IAtdclqVzPegR1Hva2PXoQn4mJaH1zoykpqTtF5Wqqw2eaFz41VhGp63-SLObi1U3IxKntfhGxsCeNqul_s37yDLQ-VNhCHrdPvZ1ceQNHCRxqNpx67XLvoSN4H8aMUjqrPF5o41PvdQ5jgYu_97WAruYnzWcHx_P6kUWfdISZKWvFgdAthWrJ4NDr89vhDTarqtYD6l4O91uw1DzbxVgoJAG3iFEYI00Oenixfa7Bx8Yl4EydMmzxk0-EwTqUbm8Tife0gTajaYHPQa-NVBrFbv8qGEXv4H29Xdj8-DeA4cgquQCOsv_xzPMOh6EEp48DbLu2n6mL7MLNeZnAhobXxkiClvjxDcQ9oJ328QxZ7ncKzQO6sjWgl2YKAeGFq9HWApNa1X6_9bYafPVMyXu-M7DdfRcyyE8ALDdbYlJAa1Ys5OT97LfNQK1IVCdkd5nFYM8MpPf1UuctiBGkJEtewdOLzlNg5QP_mPsF1ZgWOhUeaJmhYWIgEXo4yj0QjCSgLCvfAkuwYrrm5GV0knm3YYthDMyyw12yLw2_woZbfadGRGmKmYkP-cOI0dEyur5rxZu7x2cP7fA61ElKk5MLwYg=w571-h591-no";
     String urlcombo1imgnaranja = "https://lh3.googleusercontent.com/t9SKzzOjsfzTwdtb65gARgW023MPjI5JJqnwnyU0-a7MaSWbbKbv8-UG6XqmF_Nvv4tjJIT9-lxIGjbzVWzU10z0UNHuEHGetAoSMHvKiYefPzy0EG6lbi1dWDOEpWzzsLOxaSS12TyZGYfXGFsXfLQ5Zs3610R2WSJ4epteskQZncd3xuXcJs-RWqCtFMQZSNcKgFeylTGV5Yggm5EG_Z0WB7o4RsrFdMzrbzbqq6wIfGAFCICIuOtMzevYdFqgFE-HKdUm-6DPEi3No2lMeXU37BVQYT_VlVH_FC-Xn8SlmFtVN4P2eGyXxeI4J9Lsz-okFMMSYRhYtp8JuMfbel6grbbuogI19ZGns4RLMzZa0QafCw3SmwcUL1mh61HdKfqG7kuXf59H2ynTxtpRw2EoMw9kZK3FJ3gsW8GfInEwAH2jy59KY-a4OC53zeEEXw3GCpBGT-dJTQ5nnRbQbe_OMlPakx7fo3npMoRC7LggOZNcJYdHq1FeeZ8RIuoqFH1LEnHvexGfRzbf7sdw64tJtW1_R7jaNJo1ip7koH48XZ0Z9SYbpFXOaDWl_87xpf-yrgGkaGpHjxS98OB0zW2kSQD2oF6Swr53zcZojW0cT_Juqg=w606-h591-no";
     String urlcombo2imglila = "https://lh3.googleusercontent.com/QLj2X3etHckSNk40eF8xOs3STirem3mxf-t2g07fV01_e63Vib9m3KIlPYW1ZFbETYbeIrHf1ZZaDQQ26CHcREO7T2h7LnBDqY-lWHKvkNeiX1F5e1bR2zo1RYc5EDtwdmNekjG4IYFuYkZjVuLYLr_bwjvgMy1aQEsocjW5K52TxneyMAG0v_IPhNgC1XL3A7HUyS4_zV-T0bVA7j8khu0eLM-4zMcfEiObL768Nv-uH9bzFVFen4X_d1lNagna-cOQaH0LDELQLn8IOZ8vQFP8gL6HzieCkvtA1-gM_gTWo6JA5pFuEvtu6rcI3l_qGbbNzkwsER7FJVdGnkDvn3kR755pgYAK_ZMXvCROl_GVFEpi25K_7DlJNj8QMiD6BPRO5NESsIZN9vQVMHDvpkbCMhvJZvS35tkBihmXalh53fo1rRH71ZHVOEhMHOAcCCJoxNgv34UJ5myaR03l2dhwhpdg2ZyYZsIDCFkpXq8zSlY6zt8UNTgpoh6QVrB8wZH71dGqeNfjz4YwRngDHdfLH-p5aRgesI_gsO7Q6Ksyu37jaqZxFXTHPV6m35bBnA168gxSkvjrjpZUe13l-TIzUGr2eIgRcG2gupun7ducMTmoww=w594-h591-no";
-
     Button comprarcombo2;
     Button btnconsultacombo2;
     TextView combo2txtdesc;
@@ -69,6 +63,35 @@ public class almohadones extends AppCompatActivity {
     ImageView combo2imgcombo2;
     Switch switch2;
     LinearLayout linearcombo2;
+    Switch switch3;
+    LinearLayout linearcombo3;
+    Button comprarcombo3;
+    Button btnconsultacombo3;
+    TextView txtmodelo1combo3;
+    TextView txtmodelo2combo3;
+    TextView txtmodelo3combo3;
+    TextView txtmodelo4combo3;
+    TextView txtmodelo5combo3;
+    TextView txtmodelo6combo3;
+    TextView combo3txtdesc;
+    ImageView imgmodelo1combo3;
+    ImageView imgmodelo2combo3;
+    ImageView imgmodelo3combo3;
+    ImageView imgmodelo4combo3;
+    ImageView imgmodelo5combo3;
+    ImageView imgmodelo6combo3;
+    String urlcombo3 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=ba4b284e837aef9bb6c4cc1dee59c775";
+    String urlcombo3modelo2 = "https://lh3.googleusercontent.com/FBrJfY72C9tneNWoLzKI9YDyF7eEfqTY69Xe2MjFlEdiz7FpSIbZEZe5E386LRsa90k-8XDkshgHhghGgsinHOLBLDsbKFffIArAY2PmJGZi6nuZLmKosb16CpG-CYocgQxtPDfs0Qk_Y3ZkFn7WTiTuPKws3rjb67kJePjWj4OBae32or_5w4LmecNwD0vjA_mLbj5tgy5UuGGK9VLyysu9zSydhZvC_iuouh7fevdVH_FZweyy0y9QowX5D-7_knJrw7GlStdnUpHCD1Vf0rljGJhE-6s1gc6BY0snJr0Vdjp-RTG05g2E78RiX_ORxtcJZpsFtjXqnJzjNjG8FCNwZ39fwGVVlUmBEhxFRLdypaUSun0uN-Nxfou5SGznynL9mDYbL7Iuj8zVL7FofE6ta2MoXZY7bYAiXAkH4W7GuOWXvgkYWPnwQeKWFVP_f4I8elSfJd7wCd_Dq5AA7z-EWQwBU4-gLkgpA6zmsy1J659K0ZMJMpeT9BSRQ6Ff09tkde0anSgUBbGZ5ilCOQwPqbhJ_cnmHRcZq4kePpNeYVXRy8UtjHEomXU4M4wVRjbFOBTESft67EYrMocUdFChbErqEgrndFwFWC3iIv9jqdnLBA=w290-h333-no";
+    String urlcombo3modelo3 = "https://lh3.googleusercontent.com/pupS76EspIV7Ki-84nhKEvfS54uN-p2f3QqpvsKp9FSAwH5BuJOhvVbsaWVh8ukLliEus2lAcguiBqWS2zkAI21iI__SAE_3aaeeMpsxbyGr0LWFOmZwNySDuo72gg3H1nZ5czohePVlQ2VxSlXi-ePwFfFDH9gq8mR3Vl-lYqFRCxzv8G1GVd7_GgqluQ-wZ6nAEeBGW2FSEhzoTJbF4w9opo0foVfoh2aU3_HIMMe91WLBbfSuRK146U7nEDQ1xP-Y_PPt7LJjTF6G6qef4JH79WTNErWtyE21a4p7Tn5WSIvZnaE6Wkm2LYgPfd9ER2qtm8k7wNbmLMZ-9oJnRHte3frd5ELw2dUlYRf-Fmzo7UT46Iu3I4xnQcn7yVxmN-_pRysEE0SH83oySI5BHaIjSvIxdORYWdnmmTlpsn88XRxiqNWGj8DOOcXRS3z5odnBTTt7XRM25EoEdHNWTDqaFriO2aGRCyK2yXhrC-ie1y-AMn-jT6c3itTFMTexLUZqkm3q5iC1eEqAmY0NQr5YtLdcphM36vu70pHI0UPmSrA36oujMR6dgLG3JguKqjldykc1cidAYaEyzMi2B2hf_L_P-xJlseHJx31YoKMDYeReNA=w298-h342-no";
+    String urlcombo3modelo4 = "https://lh3.googleusercontent.com/y1OwexU_EQ_2UHt_R6poyAMvbIF64fKBltiqPQDQTniyuG0fXrabOciLDSfpGP-M2_eerLvhuc9UH6Im0yvqiBgqWS1aGka--dcOqcgkyZfvnD9STMXzdoV6Ow_cRsHVrIRkvXgMc-opSRGJrMWbNqtqIs1llI9OAXPZNHB8-puwt-liB_R8mIl9NAIThRSX_OuGlE0W7e16_pnzNvGFQ3pZFJjRpu4D0jRRwebkXufUcvLXR_dRZUEIY9mrctRJY0S62AM_RC7X5Z1gAuhrJH6OjhUNuMZVDSUsyY4Dh5qAyH5qUgTy0YCvRCI9BXvZ4A2Q9J4AFr0tROPAjgwFdrT_gpR7gHiLdiweR91OQud9-mZq-NFEyxhLyXU3bp6dHrQwT9A6lCdcnT9cr1MKqpgULAVJsyLEOpzFXwWUiDDwuCCjgJTnf3otAyVa3viiOVITP8oZvb9usIZ2RvBFoUPNt3pZyp9aFemB7GIsQkNEGhDw5l1BA6VOFSXz8gaYhsTQhvCFudw27otrZbYRAOiNs_Ajkpgq6lf4khL92qL1q75euj0tkjNTvMVvB_ylLuOO1abr7HlfdpQ2Z0_PehjNKBVJC2Kvzbr5GKTazeAzCpFWFg=w304-h317-no";
+    String urlcombo3modelo5 = "https://lh3.googleusercontent.com/ZrktwwZTA9eoE7p25pVOPAIiwhN6FrBBE8cmrB16gl6oiP4NLx2V1HDgBQuf82HVEhxWqVICbAIOAsIOE9XrWbEUbXsb_wMUGmF1Yx0rkjjt9DPrPJmKpbZ3xnhDxJxxtVZYoAjxYZvoj7tWNYdKR6oM7fGISwQmIRM2Y6qDOEhGlpVe6By44RCTle7SX9DfzOQAQgJzMr6f4_a_ha7fWs4ZoKZerSmAG0_IhkwIzkl0UmyqeVzQj91BsPK2SIUxy7nVyENJfUSBU7wGGqFEbMfCaxwSnMFTHAPThxeMBCyGjJqeumIFdTYfmX6YITcIEYpfsQrE7BBqHbhUE0f4yduh47PVBRmdr82qm0HFVnmj6h7zYdBlKhk6goyyd5CWq1-SeJhQv9T-5Q23dACDNQUCTlhBkSVk0riQeaRZEXfnjg4GMgKQW9q8Zl6CZcb0JpSPy4u0_sHs8rE-I68AtZeORWZT384Ee_BNwpVlNKOD4wKXsuxmUQiKTchAZKkqgJa-7kiV0m_2JIj1KUD2dqvn0QkF2XDc2Yjv5lGV7944fkqVaXdI4OOKSGCzUEujvBfiToAgcnf2exR-N7Wqwi-CEDIphH3o-JJXbP-NyHSfMODt4Q=w304-h320-no";
+    String urlcombo3modelo6 = "https://lh3.googleusercontent.com/vk1L1h8TMqrgyYjhK0sn4FGPPY9Q7yaAhPODEulMihBN8rt5MhkkyGvBXNo6_YP0SAIGZb-oRsv5uxy9x2CT36J10D8-8yoLbmC1iBg9h59A2KUfvJ8v7lAgRQCTv4shKT7a9_ZYwjnzpN8T_TB9jDAr2MU5zoxkd3gkih-7JzQ8suq7apgA9k8qJRwVqN2YdAOsH3Wcqwqceofznb3EVT7dZtCKRIjtE7ucMFa-C_WzTFTJr24-cG0wxlGGO3agXiXrAJFQbg2RPfyFtsfkO2ML7qvKoWqKLEVfdXMDRbvDxUyOWh3EVaIVDFqiSQvEd9AePvQwV-ggp5w1Ucig202veDARY2y4SbKZCajcg1TPyLFLUxbn9gkAgQkptCiN6SRwFChY0FZgSkV30-RafgV7231I60ItL4dYQOT3EvUYP2KDElSK-jSespRdM9thT6RVZie3R4RX0aJwmhukAw4YM3WXt-zLA-orOpiKCxxge00RVNt1GHRYvKdjPTmhdyI30EDRL-FJwPKE-FqGXX-eyGKLUVNhmjHHUScLtF2DkSHHjixeLouR8moeCtGz2dCQl4_t0PKiJtaBMvuXVkwfl6MyFZEmL8YHp1B5rgL7JE4TuQ=w299-h313-no";
+    Switch switch4;
+    LinearLayout linearcombo4;
+    Button comprarcombo4;
+    Button btnconsultacombo4;
+    TextView combo4txtdesc;
+    String urlcombo4 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=14b2978d8fe35ce2ea4157a8652e48e8";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -76,6 +99,8 @@ public class almohadones extends AppCompatActivity {
         setContentView(R.layout.activity_almohadones);
 
         new preciocombo1Async().execute();
+
+        /* combo 1 */
 
         combo1txtdesc = (TextView)findViewById(R.id.combo1txtdesccard);
         final String stconsulta1 = combo1txtdesc.getText().toString();
@@ -151,6 +176,8 @@ public class almohadones extends AppCompatActivity {
             }
         });
 
+        /* combo 2*/
+
         combo2imgcombo2 = (ImageView) findViewById(R.id.combo2imgcombo2);
         Picasso.with(this).load(urlcombo2img).into(combo2imgcombo2);
 
@@ -193,6 +220,183 @@ public class almohadones extends AppCompatActivity {
             }
         });
 
+        /* combo 3*/
+
+        combo3txtdesc = (TextView)findViewById(R.id.combo3txtdesccombo3);
+        final String stconsulta3 = combo3txtdesc.getText().toString();
+        btnconsultacombo3 = (Button)findViewById(R.id.btnconsultacombo3);
+        btnconsultacombo3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultacombo3 = new Intent(almohadones.this,contacto.class);
+                btnconsultacombo3.putExtra("consulta", stconsulta3);
+                startActivity(btnconsultacombo3);
+            }
+        });
+
+
+        comprarcombo3 = (Button)findViewById(R.id.btncompracombo3);
+        comprarcombo3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent comprarcombo3 = new Intent(almohadones.this, webview.class);
+                comprarcombo3.putExtra("string", urlcombo3);
+                startActivity(comprarcombo3);
+            }
+        });
+
+        txtmodelo1combo3 = (TextView)findViewById(R.id.modelo1combo3);
+        txtmodelo2combo3 = (TextView)findViewById(R.id.modelo2combo3);
+        txtmodelo3combo3 = (TextView)findViewById(R.id.modelo3combo3);
+        txtmodelo4combo3 = (TextView)findViewById(R.id.modelo4combo3);
+        txtmodelo5combo3 = (TextView)findViewById(R.id.modelo5combo3);
+        txtmodelo6combo3 = (TextView)findViewById(R.id.modelo6combo3);
+        imgmodelo1combo3 = (ImageView)findViewById(R.id.combomodelo1);
+        Picasso.with(this).load(urlcombo3img).into(imgmodelo1combo3);
+        imgmodelo2combo3 = (ImageView)findViewById(R.id.combomodelo2);
+        Picasso.with(this).load(urlcombo3modelo2).into(imgmodelo2combo3);
+        imgmodelo3combo3 = (ImageView)findViewById(R.id.combomodelo3);
+        Picasso.with(this).load(urlcombo3modelo3).into(imgmodelo3combo3);
+        imgmodelo4combo3 = (ImageView)findViewById(R.id.combomodelo4);
+        Picasso.with(this).load(urlcombo3modelo4).into(imgmodelo4combo3);
+        imgmodelo5combo3 = (ImageView)findViewById(R.id.combomodelo5);
+        Picasso.with(this).load(urlcombo3modelo5).into(imgmodelo5combo3);
+        imgmodelo6combo3 = (ImageView)findViewById(R.id.combomodelo6);
+        Picasso.with(this).load(urlcombo3modelo6).into(imgmodelo6combo3);
+
+        txtmodelo1combo3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                imgmodelo1combo3.setVisibility(View.VISIBLE);
+                imgmodelo2combo3.setVisibility(View.GONE);
+                imgmodelo3combo3.setVisibility(View.GONE);
+                imgmodelo4combo3.setVisibility(View.GONE);
+                imgmodelo5combo3.setVisibility(View.GONE);
+                imgmodelo6combo3.setVisibility(View.GONE);
+            }
+        });
+
+        txtmodelo2combo3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                imgmodelo1combo3.setVisibility(View.INVISIBLE);
+                imgmodelo2combo3.setVisibility(View.VISIBLE);
+                imgmodelo3combo3.setVisibility(View.GONE);
+                imgmodelo4combo3.setVisibility(View.GONE);
+                imgmodelo5combo3.setVisibility(View.GONE);
+                imgmodelo6combo3.setVisibility(View.GONE);
+            }
+        });
+
+        txtmodelo3combo3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                imgmodelo1combo3.setVisibility(View.INVISIBLE);
+                imgmodelo2combo3.setVisibility(View.GONE);
+                imgmodelo3combo3.setVisibility(View.VISIBLE);
+                imgmodelo4combo3.setVisibility(View.GONE);
+                imgmodelo5combo3.setVisibility(View.GONE);
+                imgmodelo6combo3.setVisibility(View.GONE);
+            }
+        });
+
+        txtmodelo4combo3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                imgmodelo1combo3.setVisibility(View.INVISIBLE);
+                imgmodelo2combo3.setVisibility(View.GONE);
+                imgmodelo3combo3.setVisibility(View.GONE);
+                imgmodelo4combo3.setVisibility(View.VISIBLE);
+                imgmodelo5combo3.setVisibility(View.GONE);
+                imgmodelo6combo3.setVisibility(View.GONE);
+            }
+        });
+
+        txtmodelo5combo3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                imgmodelo1combo3.setVisibility(View.INVISIBLE);
+                imgmodelo2combo3.setVisibility(View.GONE);
+                imgmodelo3combo3.setVisibility(View.GONE);
+                imgmodelo4combo3.setVisibility(View.GONE);
+                imgmodelo5combo3.setVisibility(View.VISIBLE);
+                imgmodelo6combo3.setVisibility(View.GONE);
+            }
+        });
+
+        txtmodelo6combo3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                imgmodelo1combo3.setVisibility(View.INVISIBLE);
+                imgmodelo2combo3.setVisibility(View.GONE);
+                imgmodelo3combo3.setVisibility(View.GONE);
+                imgmodelo4combo3.setVisibility(View.GONE);
+                imgmodelo5combo3.setVisibility(View.GONE);
+                imgmodelo6combo3.setVisibility(View.VISIBLE);
+            }
+        });
+
+        linearcombo3 = (LinearLayout)findViewById(R.id.linearcombo3);
+
+        switch3 = (Switch)findViewById(R.id.switch3);
+        switch3.setChecked(false);
+        switch3.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch3.isChecked()) {
+                    linearcombo3.setVisibility(View.VISIBLE);
+                } else {
+                    linearcombo3.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* combo4 */
+
+        combo4img = (ImageView)findViewById(R.id.combo4imgcombo4);
+        Picasso.with(this).load(urlcombo4img).into(combo4img);
+
+        combo4txtdesc = (TextView)findViewById(R.id.combo4txtdesccombo4);
+        final String stconsulta4 = combo4txtdesc.getText().toString();
+        btnconsultacombo4 = (Button)findViewById(R.id.btnconsultacombo4);
+        btnconsultacombo4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsulta4 = new Intent(almohadones.this,contacto.class);
+                btnconsulta4.putExtra("consulta", stconsulta4);
+                startActivity(btnconsulta4);
+            }
+        });
+
+        comprarcombo4 = (Button)findViewById(R.id.btncompracombo4);
+        comprarcombo4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent comprarcombo4 = new Intent(almohadones.this, webview.class);
+                comprarcombo4.putExtra("string", urlcombo4);
+                startActivity(comprarcombo4);
+            }
+        });
+
+        linearcombo4 = (LinearLayout)findViewById(R.id.linearcombo4);
+
+        switch4 = (Switch)findViewById(R.id.switch4);
+        switch4.setChecked(false);
+        switch4.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch4.isChecked()) {
+                    linearcombo4.setVisibility(View.VISIBLE);
+                } else {
+                    linearcombo4.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+
+        /* RESTO CÓDIGO */
 
         preciocombo1 = (TextView)findViewById(R.id.preciocombo1);
         preciocombo2 = (TextView)findViewById(R.id.preciocombo2);
@@ -217,42 +421,6 @@ public class almohadones extends AppCompatActivity {
             public void onClick(View view) {
                 Intent marca = new Intent(almohadones.this,marcas.class);
                 startActivity(marca);
-            }
-        });
-
-/*        vercombo1 = (Button) findViewById(R.id.btncombo1);
-        vercombo1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent vercombo1 = new Intent(almohadones.this, combo1.class);
-                startActivity(vercombo1);
-            }
-        });
-
-        vercombo2 = (Button) findViewById(R.id.btncombo2);
-        vercombo2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent vercombo2 = new Intent(almohadones.this, combo2.class);
-                startActivity(vercombo2);
-            }
-        });
-*/
-        vercombo3 = (Button) findViewById(R.id.btncombo3);
-        vercombo3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent vercombo3 = new Intent(almohadones.this, combo3.class);
-                startActivity(vercombo3);
-            }
-        });
-
-        vercombo4 = (Button) findViewById(R.id.btncombo4);
-        vercombo4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent vercombo4 = new Intent(almohadones.this, combo4.class);
-                startActivity(vercombo4);
             }
         });
 
