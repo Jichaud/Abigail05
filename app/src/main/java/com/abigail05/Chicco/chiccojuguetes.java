@@ -6,12 +6,17 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CompoundButton;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.Switch;
 import android.widget.TextView;
 
 import com.abigail05.MainActivity;
 import com.abigail05.R;
+import com.abigail05.contacto;
 import com.abigail05.marcas;
+import com.abigail05.webview;
 import com.squareup.picasso.Picasso;
 
 import org.jsoup.Jsoup;
@@ -24,30 +29,167 @@ public class chiccojuguetes extends AppCompatActivity {
 
     Button home;
     Button marca;
-    Button btnchiccojuguetes1;
-    Button btnchiccojuguetes2;
-    Button btnchiccojuguetes3;
-    Button btnchiccojuguetes4;
-    Button btnchiccojuguetes5;
-    Button btnchiccojuguetes6;
-    Button btnchiccojuguetes7;
-    Button btnchiccojuguetes8;
-    Button btnchiccojuguetes9;
-    Button btnchiccojuguetes10;
-    Button btnchiccojuguetes11;
-    Button btnchiccojuguetes12;
-    Button btnchiccojuguetes13;
-    Button btnchiccojuguetes14;
-    Button btnchiccojuguetes15;
-    Button btnchiccojuguetes16;
-    Button btnchiccojuguetes17;
-    Button btnchiccojuguetes18;
-    Button btnchiccojuguetes19;
-    Button btnchiccojuguetes20;
-    Button btnchiccojuguetes21;
-    Button btnchiccojuguetes22;
-    Button btnchiccojuguetes23;
-    Button btnchiccojuguetes24;
+    Button btncomprachiccojuguetes1;
+    Button btnconsultaj1;
+    TextView txtchiccojuguetes1j1;
+    String urlcomboj1 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=f11f905a81410a416d3239aaef4ebb06#utm_source=28428&utm_medium=boton_de_pago&utm_campaign=web";
+    ImageView chiccojuguetes1j1;
+    Button btncomprachiccojuguetes2;
+    Button btnconsultaj2;
+    TextView txtchiccojuguetes2j2;
+    String urlcomboj2 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=3182c7e12be43e667ddb0feca7bb45d8#utm_source=28428&utm_medium=boton_de_pago&utm_campaign=web";
+    ImageView chiccojuguetes2j2;
+    Button btncomprachiccojuguetes3;
+    Button btnconsultaj3;
+    TextView txtchiccojuguetes3j3;
+    String urlcomboj3 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=35d097e106cb6dbbfbb4aa286acf5796#utm_source=28428&utm_medium=boton_de_pago&utm_campaign=web";
+    ImageView chiccojuguetes3j3;
+    Button btncomprachiccojuguetes4;
+    Button btnconsultaj4;
+    TextView txtchiccojuguetes4j4;
+    String urlcomboj4 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=af43bb95016ec5c0b45d7c9fb6c787e0#utm_source=28428&utm_medium=boton_de_pago&utm_campaign=web";
+    ImageView chiccojuguetes4j4;
+    Button btncomprachiccojuguetes5;
+    Button btnconsultaj5;
+    TextView txtchiccojuguetes5j5;
+    String urlcomboj5 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=5662bd5f5b710f518e70e179a6038272#utm_source=28428&utm_medium=boton_de_pago&utm_campaign=web";
+    ImageView chiccojuguetes5j5;
+    Button btncomprachiccojuguetes6;
+    Button btnconsultaj6;
+    TextView txtchiccojuguetes6j6;
+    String urlcomboj6 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=889db988d9b7bce05b84e6930cdc5483#utm_source=28428&utm_medium=boton_de_pago&utm_campaign=web";
+    ImageView chiccojuguetes6j6;
+    Button btncomprachiccojuguetes7;
+    Button btnconsultaj7;
+    TextView txtchiccojuguetes7j7;
+    String urlcomboj7 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=c57a7c1548976f9364e2cc9df3791935#utm_source=28428&utm_medium=boton_de_pago&utm_campaign=web";
+    ImageView chiccojuguetes7j7;
+    Button btncomprachiccojuguetes8;
+    Button btnconsultaj8;
+    TextView txtchiccojuguetes8j8;
+    String urlcomboj8 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=223004d699e041b0a06aeed56a2b01e0#utm_source=28428&utm_medium=boton_de_pago&utm_campaign=web";
+    ImageView chiccojuguetes8j8;
+    Button btncomprachiccojuguetes9;
+    Button btnconsultaj9;
+    TextView txtchiccojuguetes9j9;
+    String urlcomboj9 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=badce095a082b537d3b879b73343fddd#utm_source=28428&utm_medium=boton_de_pago&utm_campaign=web";
+    ImageView chiccojuguetes9j9;
+    Button btncomprachiccojuguetes10;
+    Button btnconsultaj10;
+    TextView txtchiccojuguetes10j10;
+    String urlcomboj10 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=84f7df372898b3acd5d7103e7fca8ff3#utm_source=28428&utm_medium=boton_de_pago&utm_campaign=web";
+    ImageView chiccojuguetes10j10;
+    Button btncomprachiccojuguetes11;
+    Button btnconsultaj11;
+    TextView txtchiccojuguetes11j11;
+    String urlcomboj11 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=77e2843e77613d0bd52e99f6618fc069#utm_source=28428&utm_medium=boton_de_pago&utm_campaign=web";
+    ImageView chiccojuguetes11j11;
+    Button btncomprachiccojuguetes12;
+    Button btnconsultaj12;
+    TextView txtchiccojuguetes12j12;
+    String urlcomboj12 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=0b690a894109a8c8cfe4bc06259c7297#utm_source=28428&utm_medium=boton_de_pago&utm_campaign=web";
+    ImageView chiccojuguetes12j12;
+    Button btncomprachiccojuguetes13;
+    Button btnconsultaj13;
+    TextView txtchiccojuguetes13j13;
+    String urlcomboj13 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=4e277adffcf7ac5036e0702225f86d54#utm_source=28428&utm_medium=boton_de_pago&utm_campaign=web";
+    ImageView chiccojuguetes13j13;
+    Button btncomprachiccojuguetes14;
+    Button btnconsultaj14;
+    TextView txtchiccojuguetes14j14;
+    String urlcomboj14 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=1e201c5df31b117d4b988ca75d227457#utm_source=28428&utm_medium=boton_de_pago&utm_campaign=web";
+    ImageView chiccojuguetes14j14;
+    Button btncomprachiccojuguetes15;
+    Button btnconsultaj15;
+    TextView txtchiccojuguetes15j15;
+    String urlcomboj15 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=d80acfc820299912861725f50e55cfcb#utm_source=28428&utm_medium=boton_de_pago&utm_campaign=web";
+    ImageView chiccojuguetes15j15;
+    Button btncomprachiccojuguetes16;
+    Button btnconsultaj16;
+    TextView txtchiccojuguetes16j16;
+    String urlcomboj16 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=95eaf2695872226cfa88a609f7ce481c#utm_source=28428&utm_medium=boton_de_pago&utm_campaign=web";
+    ImageView chiccojuguetes16j16;
+    Button btncomprachiccojuguetes18;
+    Button btnconsultaj18;
+    TextView txtchiccojuguetes18j18;
+    String urlcomboj18 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=fc5fa688bdcf73e8eca1d2c50c36220e#utm_source=28428&utm_medium=boton_de_pago&utm_campaign=web";
+    ImageView chiccojuguetes18j18;
+    Button btncomprachiccojuguetes19;
+    Button btnconsultaj19;
+    TextView txtchiccojuguetes19j19;
+    String urlcomboj19 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=20c810577863c40ade26d1f9b179e46b#utm_source=28428&utm_medium=boton_de_pago&utm_campaign=web";
+    ImageView chiccojuguetes19j19;
+    Button btncomprachiccojuguetes20;
+    Button btnconsultaj20;
+    TextView txtchiccojuguetes20j20;
+    String urlcomboj20 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=8c08b9ef758bfee7c7b61c2edebd5730#utm_source=28428&utm_medium=boton_de_pago&utm_campaign=web";
+    ImageView chiccojuguetes20j20;
+    Button btncomprachiccojuguetes21;
+    Button btnconsultaj21;
+    TextView txtchiccojuguetes21j21;
+    String urlcomboj21 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=414a00047c3e34830aebd30c676a254a#utm_source=28428&utm_medium=boton_de_pago&utm_campaign=web";
+    ImageView chiccojuguetes21j21;
+    Button btncomprachiccojuguetes22;
+    Button btnconsultaj22;
+    TextView txtchiccojuguetes22j22;
+    String urlcomboj22 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=f0ded81c62129f9bcc4372beda3a0ae3#utm_source=28428&utm_medium=boton_de_pago&utm_campaign=web";
+    ImageView chiccojuguetes22j22;
+    Button btncomprachiccojuguetes23;
+    Button btnconsultaj23;
+    TextView txtchiccojuguetes23j23;
+    String urlcomboj23 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=e0376bb6ddc16b878a78cd6d57e417f6#utm_source=28428&utm_medium=boton_de_pago&utm_campaign=web";
+    ImageView chiccojuguetes23j23;
+    Button btncomprachiccojuguetes24;
+    Button btnconsultaj24;
+    TextView txtchiccojuguetes24j24;
+    String urlcomboj24 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=1a09716809958c11723ba49f91d6ff02#utm_source=28428&utm_medium=boton_de_pago&utm_campaign=web";
+    ImageView chiccojuguetes24j24;
+    Switch switch1;
+    Switch switch2;
+    Switch switch3;
+    Switch switch4;
+    Switch switch5;
+    Switch switch6;
+    Switch switch7;
+    Switch switch8;
+    Switch switch9;
+    Switch switch10;
+    Switch switch11;
+    Switch switch12;
+    Switch switch13;
+    Switch switch14;
+    Switch switch15;
+    Switch switch16;
+    Switch switch18;
+    Switch switch19;
+    Switch switch20;
+    Switch switch21;
+    Switch switch22;
+    Switch switch23;
+    Switch switch24;
+    LinearLayout linearj1;
+    LinearLayout linearj2;
+    LinearLayout linearj3;
+    LinearLayout linearj4;
+    LinearLayout linearj5;
+    LinearLayout linearj6;
+    LinearLayout linearj7;
+    LinearLayout linearj8;
+    LinearLayout linearj9;
+    LinearLayout linearj10;
+    LinearLayout linearj11;
+    LinearLayout linearj12;
+    LinearLayout linearj13;
+    LinearLayout linearj14;
+    LinearLayout linearj15;
+    LinearLayout linearj16;
+    LinearLayout linearj18;
+    LinearLayout linearj19;
+    LinearLayout linearj20;
+    LinearLayout linearj21;
+    LinearLayout linearj22;
+    LinearLayout linearj23;
+    LinearLayout linearj24;
     TextView preciochiccojuguetes1;
     TextView preciochiccojuguetes2;
     TextView preciochiccojuguetes3;
@@ -64,7 +206,6 @@ public class chiccojuguetes extends AppCompatActivity {
     TextView preciochiccojuguetes14;
     TextView preciochiccojuguetes15;
     TextView preciochiccojuguetes16;
-    TextView preciochiccojuguetes17;
     TextView preciochiccojuguetes18;
     TextView preciochiccojuguetes19;
     TextView preciochiccojuguetes20;
@@ -104,8 +245,6 @@ public class chiccojuguetes extends AppCompatActivity {
     String urlchiccojuguetes15 = "https://lh3.googleusercontent.com/fLZbBC9FfY9G51j9Zccf2TitWuJbi25gHU6skQ9A0tnVKwCLiwJKYSw5M7-KbKOeO9L91bNqF1jc53Etlg_IvyCoZA9OOt4G0qgyHkIROmY2LpUBJbkeXAF1_ZwgFtNKZGbEQRrhpU3rBF06hcLgdFMC38kR9DOI8pQxjs_OAZcCe672ihbjnZ0XpcLV0ZuKpT41e9QPKeKyrRnFu7_QRaQ-8s9eKUXd0VwqBekEeKSxIkToPSPafNt1I3n_e1BKzvPIE6TfWpGdHqLXJdGBPUKRCMyj4i1iFYo7MBvMou9BWrHmUmxDewHjHB-bJ23lMzfHL4G4l9fmej6Ze0Xw99sQCn-u1QxS4GNaVCiniSEXkDrmY0iC2Ka4AeYYEsaIz9_ZUnSOkhGEl6IcHiaUaMLcE-E38DQuJBr1dv2URy3JkIvdZ1i5qhUbuUVVVfSfKCo7l3oZfun4gsIos3Xr5KW6fYEhVn1P_hrwuoXh2bVhSn7q-bJoWH3uh7YoXVNZ0P2cDC5dFLUuC-vefz21E2nKW3_IiLfPOpa6vB4p3vmEAtODOgUm5KVics_QnOQIOq4Wkpw9ornM5Pn6hQOJ1_OjaI_lmg3nZ0vflL85gLKGgDTW3puQK9zr3FcX1PeIkNx9yvCZvd4f7cZKsJcATL_Ougr7hCVIOJ13he0U2QY=w396-h400-no";
     ImageView chiccojuguetes16;
     String urlchiccojuguetes16 = "https://lh3.googleusercontent.com/VcZA2naN4FKuN8S-gWnTmsgwKdSGbWRpkl0Lym8Udj4A7MCR6b--TVJkm7hirYd71OGmUybu-5_ZerK2F_Fc1HcNNDPmQ86s0zstpbTH1KenhAeWPhHMGs9B4tHUAlNWKBKEuoJhCMF3DfHDphyImWl4kdI8Q_gYEQQ_5vOgZ0V0PiGfTltdJVmpxPUFEiiYfC1Av2jeQ2mKcP4yCoECsJJpHV974Bs1-aAEy_9xzSjqw4bXP5xTyYKGTAIhQ_HGISx1XF5cD1uB1iC1iYHgQWwz-WDGehjLlexYhZtqMydQnSWSTZGKWP__Hij_45Ft-Z-VptU82lEdpVPmZN5Jd_1htRwK-lzpvYxqKGSAdXaZO-nKgkN29qFzAcPJAe8IYNyzk5amwH5qZKIKtaEi9mrJlb2EbAjMeDaOYHknEug9cCGECDdB3SQDW_LbatPE0b7guh6pxncEUekVKf4jXFj4sv-y_Wcg9hitvRdmPmh3Xlxz7ekahKI1m9HriW_Xgd3dsvdki28PnXKzpjAInRP9XZlPdyhHShaJCAxuANshuko5PC9qcyyYucg1wDrUv528KyA8i9I3Ss2lk59lLpqpV2D41msxAU9Q828BPOSsAewEHiaO2VdsPcnmXdRZGd7w3ZOu9HUfT52Nbmpxv25Mrgul-tre-DwtTGJVUD8=w396-h400-no";
-    ImageView chiccojuguetes17;
-    String urlchiccojuguetes17 = "https://lh3.googleusercontent.com/Sl1QFPFIptTwlYrOghtfP0j7tXavsIsmBTrs4oc0gTUOrCdZ8xWvGaTGfwSMWCf04PwwMn3uT_F9JEDM0EAc-9zorJ5cj49Ck7clb5Z2z2NHKr6McjcvSVlJs_1JkDtNtpBomAUuw-oGwojc-QQZoc91H7i40p-An_A8TR69M8MjsX6JK_zj5kZnixy5ciX1D69MI3_7Qkt2VV7OX6BZKUvwvfiOe9eLjE-hVKx_6I7duk2jYccr0g8mCPLLRg4wC8ro8bm2sYgtXEoyDRSDr3mthvpAD0PZR2R0o-uC0YADL_rCWduzkkcpsPvCUMXvFqJG2i1k_GKcj3eAcM1jzUrNwmt1FKuYwoQFbzNrGlqnb3YqQIQ3iAQUVdMkpOSIwdDPTNzaw7gutnxGdv1OJvehoN8NaHmgh8gosjpGY8y24UFg0-spe16me-5K8qCytg-ZBgKA6ggoJmr8svzv11UfsIsBxPVxVdF8izP_J7ZPojaWqy-k2rC_mwxJhkCqxkOUV_tXzIYY2Mx0rsCbVY4Hz5acRWS6S5UYjDRbY7TgQjcCWzwVbbtNZbp3RqD08wqzgMQw7yxcRP2qZnEdoAOAAZFlxLTcKfwxgrDB98aKRkeU6rTzI_NSi7ExtMVnkp4oXwXBEIB9fXHEPy7YYYkhadOM4Z7ghUQYdBuZ_t8=w396-h400-no";
     ImageView chiccojuguetes18;
     String urlchiccojuguetes18 = "https://lh3.googleusercontent.com/jlsYcHjgQGp73YEFTExve3ZWnkZWQLVrxd4X3HGpIO_l1QPhr_NPdEb3rJ_AHuG9JllM_5MgmTiF1ldglDxhy7gPduzIP_8b7X03feqganvzJMzxy8HUFJtfP11o6eH2mJ0mwRqwhOzcHw4qgD71f8fM1aP8SCbmihhaChbql179wtW2SL5zr54ecf9F1R3mnWJwLhvFr5lR3mYO5N2Ot5LFSZZSubld7D8TXfOI8vnTpoFylDxLSxR7Nhj2BXr27wfuz9RCB5yho2dyA1gGWOV_Abn5sufVV8vKoaBoQoYYWbB61Cr_tCBYKcH_mIWIq4b7vtnjqJ3OjSLz_Bgw-A9UhWZQH3UuN-UuZhz1EU6p82ryqH-RStN1Bx4mf0VN51tCPwPh3OsBbElN3lHcg9tu8-cMCQy9hI-YXe2Y6R-fZJyeDgfCL1K61Ev13VVl9LgLGDbsBpE5qr84MY3bt5q9JJuUMdpYftdlA6_rJuL7AS7TNPcE8BvDPtdCfmqXYSWkBZqL0jags3OYSswAf3OHhKIWueLryZRPTasG4FKbQ3oq22saexqoC2OMfyrySU2wCUCfbjHSrh3BVv-MqPPsOSYE-4OcE2SvZT1aRWpdPo2W02AAz3e-hhLsCQiQQafIpdvmCF7PO82f-u4ji6vwSUmJWkPwJ5EIOds6mf8=w396-h400-no";
     ImageView chiccojuguetes19;
@@ -127,6 +266,1034 @@ public class chiccojuguetes extends AppCompatActivity {
         setContentView(R.layout.activity_chiccojuguetes);
         new chiccojuguetes.preciochiccojuguetesAsync().execute();
 
+        /* juguetes 1 */
+
+        chiccojuguetes1j1 = (ImageView)findViewById(R.id.chiccojuguetes1j1);
+        Picasso.with(this).load(urlchiccojuguetes1).into(chiccojuguetes1j1);
+
+        marca = (Button) findViewById(R.id.btnvmarca);
+        marca.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent marca = new Intent(chiccojuguetes.this,marcas.class);
+                startActivity(marca);
+            }
+        });
+
+        txtchiccojuguetes1j1 = (TextView)findViewById(R.id.txtchiccojuguetes1);
+        final String stconsultaj1 = txtchiccojuguetes1j1.getText().toString();
+        btnconsultaj1 = (Button)findViewById(R.id.btnconsultaj1);
+        btnconsultaj1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaj1 = new Intent(chiccojuguetes.this,contacto.class);
+                btnconsultaj1.putExtra("consulta", stconsultaj1);
+                startActivity(btnconsultaj1);
+            }
+        });
+
+
+        btncomprachiccojuguetes1 = (Button)findViewById(R.id.btncomprachiccojuguetes1);
+        btncomprachiccojuguetes1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncomprachiccojuguetes1 = new Intent(chiccojuguetes.this,webview.class);
+                btncomprachiccojuguetes1.putExtra("string", urlcomboj1);
+                startActivity(btncomprachiccojuguetes1);
+            }
+        });
+
+        linearj1 = (LinearLayout)findViewById(R.id.linearj1);
+
+        switch1 = (Switch)findViewById(R.id.switch1);
+        switch1.setChecked(false);
+        switch1.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch1.isChecked()) {
+                    linearj1.setVisibility(View.VISIBLE);
+                } else {
+                    linearj1.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+
+        /* juguetes 2 */
+
+        chiccojuguetes2j2 = (ImageView)findViewById(R.id.chiccojuguetes2j2);
+        Picasso.with(this).load(urlchiccojuguetes2).into(chiccojuguetes2j2);
+
+        txtchiccojuguetes2j2 = (TextView)findViewById(R.id.txtchiccojuguetes2j2);
+        final String stconsultaj2 = txtchiccojuguetes2j2.getText().toString();
+        btnconsultaj2 = (Button)findViewById(R.id.btnconsultaj2);
+        btnconsultaj2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaj2 = new Intent(chiccojuguetes.this,contacto.class);
+                btnconsultaj2.putExtra("consulta", stconsultaj2);
+                startActivity(btnconsultaj2);
+            }
+        });
+
+
+        btncomprachiccojuguetes2 = (Button)findViewById(R.id.btncomprachiccojuguetes2);
+        btncomprachiccojuguetes2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncomprachiccojuguetes2 = new Intent(chiccojuguetes.this,webview.class);
+                btncomprachiccojuguetes2.putExtra("string", urlcomboj2);
+                startActivity(btncomprachiccojuguetes2);
+            }
+        });
+
+        linearj2 = (LinearLayout)findViewById(R.id.linearj2);
+
+        switch2 = (Switch)findViewById(R.id.switch2);
+        switch2.setChecked(false);
+        switch2.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch2.isChecked()) {
+                    linearj2.setVisibility(View.VISIBLE);
+                } else {
+                    linearj2.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+                /* juguetes 3 */
+
+        chiccojuguetes3j3 = (ImageView)findViewById(R.id.chiccojuguetes3j3);
+        Picasso.with(this).load(urlchiccojuguetes3).into(chiccojuguetes3j3);
+
+        txtchiccojuguetes3j3 = (TextView)findViewById(R.id.txtchiccojuguetes3j3);
+        final String stconsultaj3 = txtchiccojuguetes3j3.getText().toString();
+        btnconsultaj3 = (Button)findViewById(R.id.btnconsultaj3);
+        btnconsultaj3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaj3 = new Intent(chiccojuguetes.this,contacto.class);
+                btnconsultaj3.putExtra("consulta", stconsultaj3);
+                startActivity(btnconsultaj3);
+            }
+        });
+
+
+        btncomprachiccojuguetes3 = (Button)findViewById(R.id.btncomprachiccojuguetes3);
+        btncomprachiccojuguetes3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncomprachiccojuguetes3 = new Intent(chiccojuguetes.this,webview.class);
+                btncomprachiccojuguetes3.putExtra("string", urlcomboj3);
+                startActivity(btncomprachiccojuguetes3);
+            }
+        });
+
+        linearj3 = (LinearLayout)findViewById(R.id.linearj3);
+
+        switch3 = (Switch)findViewById(R.id.switch3);
+        switch3.setChecked(false);
+        switch3.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch3.isChecked()) {
+                    linearj3.setVisibility(View.VISIBLE);
+                } else {
+                    linearj3.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* juguetes 4 */
+
+        chiccojuguetes4j4 = (ImageView)findViewById(R.id.chiccojuguetes4j4);
+        Picasso.with(this).load(urlchiccojuguetes4).into(chiccojuguetes4j4);
+
+        txtchiccojuguetes4j4 = (TextView)findViewById(R.id.txtchiccojuguetes4j4);
+        final String stconsultaj4 = txtchiccojuguetes4j4.getText().toString();
+        btnconsultaj4 = (Button)findViewById(R.id.btnconsultaj4);
+        btnconsultaj4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaj4 = new Intent(chiccojuguetes.this,contacto.class);
+                btnconsultaj4.putExtra("consulta", stconsultaj4);
+                startActivity(btnconsultaj4);
+            }
+        });
+
+
+        btncomprachiccojuguetes4 = (Button)findViewById(R.id.btncomprachiccojuguetes4);
+        btncomprachiccojuguetes4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncomprachiccojuguetes4 = new Intent(chiccojuguetes.this,webview.class);
+                btncomprachiccojuguetes4.putExtra("string", urlcomboj4);
+                startActivity(btncomprachiccojuguetes4);
+            }
+        });
+
+        linearj4 = (LinearLayout)findViewById(R.id.linearj4);
+
+        switch4 = (Switch)findViewById(R.id.switch4);
+        switch4.setChecked(false);
+        switch4.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch4.isChecked()) {
+                    linearj4.setVisibility(View.VISIBLE);
+                } else {
+                    linearj4.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* juguetes 5 */
+
+        chiccojuguetes5j5 = (ImageView)findViewById(R.id.chiccojuguetes5j5);
+        Picasso.with(this).load(urlchiccojuguetes5).into(chiccojuguetes5j5);
+
+        txtchiccojuguetes5j5 = (TextView)findViewById(R.id.txtchiccojuguetes5j5);
+        final String stconsultaj5 = txtchiccojuguetes5j5.getText().toString();
+        btnconsultaj5 = (Button)findViewById(R.id.btnconsultaj5);
+        btnconsultaj5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaj5 = new Intent(chiccojuguetes.this,contacto.class);
+                btnconsultaj5.putExtra("consulta", stconsultaj5);
+                startActivity(btnconsultaj5);
+            }
+        });
+
+
+        btncomprachiccojuguetes5 = (Button)findViewById(R.id.btncomprachiccojuguetes5);
+        btncomprachiccojuguetes5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncomprachiccojuguetes5 = new Intent(chiccojuguetes.this,webview.class);
+                btncomprachiccojuguetes5.putExtra("string", urlcomboj5);
+                startActivity(btncomprachiccojuguetes5);
+            }
+        });
+
+        linearj5 = (LinearLayout)findViewById(R.id.linearj5);
+
+        switch5 = (Switch)findViewById(R.id.switch5);
+        switch5.setChecked(false);
+        switch5.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch5.isChecked()) {
+                    linearj5.setVisibility(View.VISIBLE);
+                } else {
+                    linearj5.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* juguetes 6 */
+
+        chiccojuguetes6j6 = (ImageView)findViewById(R.id.chiccojuguetes6j6);
+        Picasso.with(this).load(urlchiccojuguetes6).into(chiccojuguetes6j6);
+
+        txtchiccojuguetes6j6 = (TextView)findViewById(R.id.txtchiccojuguetes6j6);
+        final String stconsultaj6 = txtchiccojuguetes6j6.getText().toString();
+        btnconsultaj6 = (Button)findViewById(R.id.btnconsultaj6);
+        btnconsultaj6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaj6 = new Intent(chiccojuguetes.this,contacto.class);
+                btnconsultaj6.putExtra("consulta", stconsultaj6);
+                startActivity(btnconsultaj6);
+            }
+        });
+
+
+        btncomprachiccojuguetes6 = (Button)findViewById(R.id.btncomprachiccojuguetes6);
+        btncomprachiccojuguetes6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncomprachiccojuguetes6 = new Intent(chiccojuguetes.this,webview.class);
+                btncomprachiccojuguetes6.putExtra("string", urlcomboj6);
+                startActivity(btncomprachiccojuguetes6);
+            }
+        });
+
+        linearj6 = (LinearLayout)findViewById(R.id.linearj6);
+
+        switch6 = (Switch)findViewById(R.id.switch6);
+        switch6.setChecked(false);
+        switch6.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch6.isChecked()) {
+                    linearj6.setVisibility(View.VISIBLE);
+                } else {
+                    linearj6.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+
+        /* juguetes 7 */
+
+        chiccojuguetes7j7 = (ImageView)findViewById(R.id.chiccojuguetes7j7);
+        Picasso.with(this).load(urlchiccojuguetes7).into(chiccojuguetes7j7);
+
+        txtchiccojuguetes7j7 = (TextView)findViewById(R.id.txtchiccojuguetes7j7);
+        final String stconsultaj7 = txtchiccojuguetes7j7.getText().toString();
+        btnconsultaj7 = (Button)findViewById(R.id.btnconsultaj7);
+        btnconsultaj7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaj7 = new Intent(chiccojuguetes.this,contacto.class);
+                btnconsultaj7.putExtra("consulta", stconsultaj7);
+                startActivity(btnconsultaj7);
+            }
+        });
+
+
+        btncomprachiccojuguetes7 = (Button)findViewById(R.id.btncomprachiccojuguetes7);
+        btncomprachiccojuguetes7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncomprachiccojuguetes7 = new Intent(chiccojuguetes.this,webview.class);
+                btncomprachiccojuguetes7.putExtra("string", urlcomboj7);
+                startActivity(btncomprachiccojuguetes7);
+            }
+        });
+
+        linearj7 = (LinearLayout)findViewById(R.id.linearj7);
+
+        switch7 = (Switch)findViewById(R.id.switch7);
+        switch7.setChecked(false);
+        switch7.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch7.isChecked()) {
+                    linearj7.setVisibility(View.VISIBLE);
+                } else {
+                    linearj7.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* juguetes 8 */
+
+        chiccojuguetes8j8 = (ImageView)findViewById(R.id.chiccojuguetes8j8);
+        Picasso.with(this).load(urlchiccojuguetes8).into(chiccojuguetes8j8);
+
+        txtchiccojuguetes8j8 = (TextView)findViewById(R.id.txtchiccojuguetes8j8);
+        final String stconsultaj8 = txtchiccojuguetes8j8.getText().toString();
+        btnconsultaj8 = (Button)findViewById(R.id.btnconsultaj8);
+        btnconsultaj8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaj8 = new Intent(chiccojuguetes.this,contacto.class);
+                btnconsultaj8.putExtra("consulta", stconsultaj8);
+                startActivity(btnconsultaj8);
+            }
+        });
+
+
+        btncomprachiccojuguetes8 = (Button)findViewById(R.id.btncomprachiccojuguetes8);
+        btncomprachiccojuguetes8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncomprachiccojuguetes8 = new Intent(chiccojuguetes.this,webview.class);
+                btncomprachiccojuguetes8.putExtra("string", urlcomboj8);
+                startActivity(btncomprachiccojuguetes8);
+            }
+        });
+
+        linearj8 = (LinearLayout)findViewById(R.id.linearj8);
+
+        switch8 = (Switch)findViewById(R.id.switch8);
+        switch8.setChecked(false);
+        switch8.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch8.isChecked()) {
+                    linearj8.setVisibility(View.VISIBLE);
+                } else {
+                    linearj8.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* juguetes 9 */
+
+        chiccojuguetes9j9 = (ImageView)findViewById(R.id.chiccojuguetes9j9);
+        Picasso.with(this).load(urlchiccojuguetes9).into(chiccojuguetes9j9);
+
+        txtchiccojuguetes9j9 = (TextView)findViewById(R.id.txtchiccojuguetes9j9);
+        final String stconsultaj9 = txtchiccojuguetes9j9.getText().toString();
+        btnconsultaj9 = (Button)findViewById(R.id.btnconsultaj9);
+        btnconsultaj9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaj9 = new Intent(chiccojuguetes.this,contacto.class);
+                btnconsultaj9.putExtra("consulta", stconsultaj9);
+                startActivity(btnconsultaj9);
+            }
+        });
+
+
+        btncomprachiccojuguetes9 = (Button)findViewById(R.id.btncomprachiccojuguetes9);
+        btncomprachiccojuguetes9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncomprachiccojuguetes9 = new Intent(chiccojuguetes.this,webview.class);
+                btncomprachiccojuguetes9.putExtra("string", urlcomboj9);
+                startActivity(btncomprachiccojuguetes9);
+            }
+        });
+
+        linearj9 = (LinearLayout)findViewById(R.id.linearj9);
+
+        switch9 = (Switch)findViewById(R.id.switch9);
+        switch9.setChecked(false);
+        switch9.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch9.isChecked()) {
+                    linearj9.setVisibility(View.VISIBLE);
+                } else {
+                    linearj9.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* juguetes 10 */
+
+        chiccojuguetes10j10 = (ImageView)findViewById(R.id.chiccojuguetes10j10);
+        Picasso.with(this).load(urlchiccojuguetes10).into(chiccojuguetes10j10);
+
+        txtchiccojuguetes10j10 = (TextView)findViewById(R.id.txtchiccojuguetes10j10);
+        final String stconsultaj10 = txtchiccojuguetes10j10.getText().toString();
+        btnconsultaj10 = (Button)findViewById(R.id.btnconsultaj10);
+        btnconsultaj10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaj10 = new Intent(chiccojuguetes.this,contacto.class);
+                btnconsultaj10.putExtra("consulta", stconsultaj10);
+                startActivity(btnconsultaj10);
+            }
+        });
+
+
+        btncomprachiccojuguetes10 = (Button)findViewById(R.id.btncomprachiccojuguetes10);
+        btncomprachiccojuguetes10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncomprachiccojuguetes10 = new Intent(chiccojuguetes.this,webview.class);
+                btncomprachiccojuguetes10.putExtra("string", urlcomboj10);
+                startActivity(btncomprachiccojuguetes10);
+            }
+        });
+
+        linearj10 = (LinearLayout)findViewById(R.id.linearj10);
+
+        switch10 = (Switch)findViewById(R.id.switch10);
+        switch10.setChecked(false);
+        switch10.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch10.isChecked()) {
+                    linearj10.setVisibility(View.VISIBLE);
+                } else {
+                    linearj10.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* juguetes 11 */
+
+        chiccojuguetes11j11 = (ImageView)findViewById(R.id.chiccojuguetes11j11);
+        Picasso.with(this).load(urlchiccojuguetes11).into(chiccojuguetes11j11);
+
+        txtchiccojuguetes11j11 = (TextView)findViewById(R.id.txtchiccojuguetes11j11);
+        final String stconsultaj11 = txtchiccojuguetes11j11.getText().toString();
+        btnconsultaj11 = (Button)findViewById(R.id.btnconsultaj11);
+        btnconsultaj11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaj11 = new Intent(chiccojuguetes.this,contacto.class);
+                btnconsultaj11.putExtra("consulta", stconsultaj11);
+                startActivity(btnconsultaj11);
+            }
+        });
+
+
+        btncomprachiccojuguetes11 = (Button)findViewById(R.id.btncomprachiccojuguetes11);
+        btncomprachiccojuguetes11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncomprachiccojuguetes11 = new Intent(chiccojuguetes.this,webview.class);
+                btncomprachiccojuguetes11.putExtra("string", urlcomboj11);
+                startActivity(btncomprachiccojuguetes11);
+            }
+        });
+
+        linearj11 = (LinearLayout)findViewById(R.id.linearj11);
+
+        switch11 = (Switch)findViewById(R.id.switch11);
+        switch11.setChecked(false);
+        switch11.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch11.isChecked()) {
+                    linearj11.setVisibility(View.VISIBLE);
+                } else {
+                    linearj11.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* juguetes 12 */
+
+        chiccojuguetes12j12 = (ImageView)findViewById(R.id.chiccojuguetes12j12);
+        Picasso.with(this).load(urlchiccojuguetes12).into(chiccojuguetes12j12);
+
+        txtchiccojuguetes12j12 = (TextView)findViewById(R.id.txtchiccojuguetes12j12);
+        final String stconsultaj12 = txtchiccojuguetes12j12.getText().toString();
+        btnconsultaj12 = (Button)findViewById(R.id.btnconsultaj12);
+        btnconsultaj12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaj12 = new Intent(chiccojuguetes.this,contacto.class);
+                btnconsultaj12.putExtra("consulta", stconsultaj12);
+                startActivity(btnconsultaj12);
+            }
+        });
+
+
+        btncomprachiccojuguetes12 = (Button)findViewById(R.id.btncomprachiccojuguetes12);
+        btncomprachiccojuguetes12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncomprachiccojuguetes12 = new Intent(chiccojuguetes.this,webview.class);
+                btncomprachiccojuguetes12.putExtra("string", urlcomboj12);
+                startActivity(btncomprachiccojuguetes12);
+            }
+        });
+
+        linearj12 = (LinearLayout)findViewById(R.id.linearj12);
+
+        switch12 = (Switch)findViewById(R.id.switch12);
+        switch12.setChecked(false);
+        switch12.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch12.isChecked()) {
+                    linearj12.setVisibility(View.VISIBLE);
+                } else {
+                    linearj12.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* juguetes 13 */
+
+        chiccojuguetes13j13 = (ImageView)findViewById(R.id.chiccojuguetes13j13);
+        Picasso.with(this).load(urlchiccojuguetes13).into(chiccojuguetes13j13);
+
+        txtchiccojuguetes13j13 = (TextView)findViewById(R.id.txtchiccojuguetes13j13);
+        final String stconsultaj13 = txtchiccojuguetes13j13.getText().toString();
+        btnconsultaj13 = (Button)findViewById(R.id.btnconsultaj13);
+        btnconsultaj13.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaj13 = new Intent(chiccojuguetes.this,contacto.class);
+                btnconsultaj13.putExtra("consulta", stconsultaj13);
+                startActivity(btnconsultaj13);
+            }
+        });
+
+
+        btncomprachiccojuguetes13 = (Button)findViewById(R.id.btncomprachiccojuguetes13);
+        btncomprachiccojuguetes13.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncomprachiccojuguetes13 = new Intent(chiccojuguetes.this,webview.class);
+                btncomprachiccojuguetes13.putExtra("string", urlcomboj13);
+                startActivity(btncomprachiccojuguetes13);
+            }
+        });
+
+        linearj13 = (LinearLayout)findViewById(R.id.linearj13);
+
+        switch13 = (Switch)findViewById(R.id.switch13);
+        switch13.setChecked(false);
+        switch13.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch13.isChecked()) {
+                    linearj13.setVisibility(View.VISIBLE);
+                } else {
+                    linearj13.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+
+        /* juguetes 14 */
+
+        chiccojuguetes14j14 = (ImageView)findViewById(R.id.chiccojuguetes14j14);
+        Picasso.with(this).load(urlchiccojuguetes14).into(chiccojuguetes14j14);
+
+        txtchiccojuguetes14j14 = (TextView)findViewById(R.id.txtchiccojuguetes14j14);
+        final String stconsultaj14 = txtchiccojuguetes14j14.getText().toString();
+        btnconsultaj14 = (Button)findViewById(R.id.btnconsultaj14);
+        btnconsultaj14.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaj14 = new Intent(chiccojuguetes.this,contacto.class);
+                btnconsultaj14.putExtra("consulta", stconsultaj14);
+                startActivity(btnconsultaj14);
+            }
+        });
+
+
+        btncomprachiccojuguetes14 = (Button)findViewById(R.id.btncomprachiccojuguetes14);
+        btncomprachiccojuguetes14.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncomprachiccojuguetes14 = new Intent(chiccojuguetes.this,webview.class);
+                btncomprachiccojuguetes14.putExtra("string", urlcomboj14);
+                startActivity(btncomprachiccojuguetes14);
+            }
+        });
+
+        linearj14 = (LinearLayout)findViewById(R.id.linearj14);
+
+        switch14 = (Switch)findViewById(R.id.switch14);
+        switch14.setChecked(false);
+        switch14.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch14.isChecked()) {
+                    linearj14.setVisibility(View.VISIBLE);
+                } else {
+                    linearj14.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* juguetes 15 */
+
+        chiccojuguetes15j15 = (ImageView)findViewById(R.id.chiccojuguetes15j15);
+        Picasso.with(this).load(urlchiccojuguetes15).into(chiccojuguetes15j15);
+
+        txtchiccojuguetes15j15 = (TextView)findViewById(R.id.txtchiccojuguetes15j15);
+        final String stconsultaj15 = txtchiccojuguetes15j15.getText().toString();
+        btnconsultaj15 = (Button)findViewById(R.id.btnconsultaj15);
+        btnconsultaj15.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaj15 = new Intent(chiccojuguetes.this,contacto.class);
+                btnconsultaj15.putExtra("consulta", stconsultaj15);
+                startActivity(btnconsultaj15);
+            }
+        });
+
+
+        btncomprachiccojuguetes15 = (Button)findViewById(R.id.btncomprachiccojuguetes15);
+        btncomprachiccojuguetes15.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncomprachiccojuguetes15 = new Intent(chiccojuguetes.this,webview.class);
+                btncomprachiccojuguetes15.putExtra("string", urlcomboj15);
+                startActivity(btncomprachiccojuguetes15);
+            }
+        });
+
+        linearj15 = (LinearLayout)findViewById(R.id.linearj15);
+
+        switch15 = (Switch)findViewById(R.id.switch15);
+        switch15.setChecked(false);
+        switch15.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch15.isChecked()) {
+                    linearj15.setVisibility(View.VISIBLE);
+                } else {
+                    linearj15.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* juguetes 16 */
+
+        chiccojuguetes16j16 = (ImageView)findViewById(R.id.chiccojuguetes16j16);
+        Picasso.with(this).load(urlchiccojuguetes16).into(chiccojuguetes16j16);
+
+        txtchiccojuguetes16j16 = (TextView)findViewById(R.id.txtchiccojuguetes16j16);
+        final String stconsultaj16 = txtchiccojuguetes16j16.getText().toString();
+        btnconsultaj16 = (Button)findViewById(R.id.btnconsultaj16);
+        btnconsultaj16.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaj16 = new Intent(chiccojuguetes.this,contacto.class);
+                btnconsultaj16.putExtra("consulta", stconsultaj16);
+                startActivity(btnconsultaj16);
+            }
+        });
+
+
+        btncomprachiccojuguetes16 = (Button)findViewById(R.id.btncomprachiccojuguetes16);
+        btncomprachiccojuguetes16.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncomprachiccojuguetes16 = new Intent(chiccojuguetes.this,webview.class);
+                btncomprachiccojuguetes16.putExtra("string", urlcomboj16);
+                startActivity(btncomprachiccojuguetes16);
+            }
+        });
+
+        linearj16 = (LinearLayout)findViewById(R.id.linearj16);
+
+        switch16 = (Switch)findViewById(R.id.switch16);
+        switch16.setChecked(false);
+        switch16.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch16.isChecked()) {
+                    linearj16.setVisibility(View.VISIBLE);
+                } else {
+                    linearj16.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* juguetes 18 */
+
+        chiccojuguetes18j18 = (ImageView)findViewById(R.id.chiccojuguetes18j18);
+        Picasso.with(this).load(urlchiccojuguetes18).into(chiccojuguetes18j18);
+
+        txtchiccojuguetes18j18 = (TextView)findViewById(R.id.txtchiccojuguetes18j18);
+        final String stconsultaj18 = txtchiccojuguetes18j18.getText().toString();
+        btnconsultaj18 = (Button)findViewById(R.id.btnconsultaj18);
+        btnconsultaj18.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaj18 = new Intent(chiccojuguetes.this,contacto.class);
+                btnconsultaj18.putExtra("consulta", stconsultaj18);
+                startActivity(btnconsultaj18);
+            }
+        });
+
+
+        btncomprachiccojuguetes18 = (Button)findViewById(R.id.btncomprachiccojuguetes18);
+        btncomprachiccojuguetes18.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncomprachiccojuguetes18 = new Intent(chiccojuguetes.this,webview.class);
+                btncomprachiccojuguetes18.putExtra("string", urlcomboj18);
+                startActivity(btncomprachiccojuguetes18);
+            }
+        });
+
+        linearj18 = (LinearLayout)findViewById(R.id.linearj18);
+
+        switch18 = (Switch)findViewById(R.id.switch18);
+        switch18.setChecked(false);
+        switch18.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch18.isChecked()) {
+                    linearj18.setVisibility(View.VISIBLE);
+                } else {
+                    linearj18.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* juguetes 19 */
+
+        chiccojuguetes19j19 = (ImageView)findViewById(R.id.chiccojuguetes19j19);
+        Picasso.with(this).load(urlchiccojuguetes19).into(chiccojuguetes19j19);
+
+        txtchiccojuguetes19j19 = (TextView)findViewById(R.id.txtchiccojuguetes19j19);
+        final String stconsultaj19 = txtchiccojuguetes19j19.getText().toString();
+        btnconsultaj19 = (Button)findViewById(R.id.btnconsultaj19);
+        btnconsultaj19.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaj19 = new Intent(chiccojuguetes.this,contacto.class);
+                btnconsultaj19.putExtra("consulta", stconsultaj19);
+                startActivity(btnconsultaj19);
+            }
+        });
+
+
+        btncomprachiccojuguetes19 = (Button)findViewById(R.id.btncomprachiccojuguetes19);
+        btncomprachiccojuguetes19.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncomprachiccojuguetes19 = new Intent(chiccojuguetes.this,webview.class);
+                btncomprachiccojuguetes19.putExtra("string", urlcomboj19);
+                startActivity(btncomprachiccojuguetes19);
+            }
+        });
+
+        linearj19 = (LinearLayout)findViewById(R.id.linearj19);
+
+        switch19 = (Switch)findViewById(R.id.switch19);
+        switch19.setChecked(false);
+        switch19.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch19.isChecked()) {
+                    linearj19.setVisibility(View.VISIBLE);
+                } else {
+                    linearj19.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* juguetes 20 */
+
+        chiccojuguetes20j20 = (ImageView)findViewById(R.id.chiccojuguetes20j20);
+        Picasso.with(this).load(urlchiccojuguetes20).into(chiccojuguetes20j20);
+
+        txtchiccojuguetes20j20 = (TextView)findViewById(R.id.txtchiccojuguetes20j20);
+        final String stconsultaj20 = txtchiccojuguetes20j20.getText().toString();
+        btnconsultaj20 = (Button)findViewById(R.id.btnconsultaj20);
+        btnconsultaj20.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaj20 = new Intent(chiccojuguetes.this,contacto.class);
+                btnconsultaj20.putExtra("consulta", stconsultaj20);
+                startActivity(btnconsultaj20);
+            }
+        });
+
+
+        btncomprachiccojuguetes20 = (Button)findViewById(R.id.btncomprachiccojuguetes20);
+        btncomprachiccojuguetes20.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncomprachiccojuguetes20 = new Intent(chiccojuguetes.this,webview.class);
+                btncomprachiccojuguetes20.putExtra("string", urlcomboj20);
+                startActivity(btncomprachiccojuguetes20);
+            }
+        });
+
+        linearj20 = (LinearLayout)findViewById(R.id.linearj20);
+
+        switch20 = (Switch)findViewById(R.id.switch20);
+        switch20.setChecked(false);
+        switch20.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch20.isChecked()) {
+                    linearj20.setVisibility(View.VISIBLE);
+                } else {
+                    linearj20.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* juguetes 21 */
+
+        chiccojuguetes21j21 = (ImageView)findViewById(R.id.chiccojuguetes21j21);
+        Picasso.with(this).load(urlchiccojuguetes21).into(chiccojuguetes21j21);
+
+        txtchiccojuguetes21j21 = (TextView)findViewById(R.id.txtchiccojuguetes21j21);
+        final String stconsultaj21 = txtchiccojuguetes21j21.getText().toString();
+        btnconsultaj21 = (Button)findViewById(R.id.btnconsultaj21);
+        btnconsultaj21.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaj21 = new Intent(chiccojuguetes.this,contacto.class);
+                btnconsultaj21.putExtra("consulta", stconsultaj21);
+                startActivity(btnconsultaj21);
+            }
+        });
+
+
+        btncomprachiccojuguetes21 = (Button)findViewById(R.id.btncomprachiccojuguetes21);
+        btncomprachiccojuguetes21.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncomprachiccojuguetes21 = new Intent(chiccojuguetes.this,webview.class);
+                btncomprachiccojuguetes21.putExtra("string", urlcomboj21);
+                startActivity(btncomprachiccojuguetes21);
+            }
+        });
+
+        linearj21 = (LinearLayout)findViewById(R.id.linearj21);
+
+        switch21 = (Switch)findViewById(R.id.switch21);
+        switch21.setChecked(false);
+        switch21.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch21.isChecked()) {
+                    linearj21.setVisibility(View.VISIBLE);
+                } else {
+                    linearj21.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* juguetes 22 */
+
+        chiccojuguetes22j22 = (ImageView)findViewById(R.id.chiccojuguetes22j22);
+        Picasso.with(this).load(urlchiccojuguetes22).into(chiccojuguetes22j22);
+
+        txtchiccojuguetes22j22 = (TextView)findViewById(R.id.txtchiccojuguetes22j22);
+        final String stconsultaj22 = txtchiccojuguetes22j22.getText().toString();
+        btnconsultaj22 = (Button)findViewById(R.id.btnconsultaj22);
+        btnconsultaj22.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaj22 = new Intent(chiccojuguetes.this,contacto.class);
+                btnconsultaj22.putExtra("consulta", stconsultaj22);
+                startActivity(btnconsultaj22);
+            }
+        });
+
+
+        btncomprachiccojuguetes22 = (Button)findViewById(R.id.btncomprachiccojuguetes22);
+        btncomprachiccojuguetes22.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncomprachiccojuguetes22 = new Intent(chiccojuguetes.this,webview.class);
+                btncomprachiccojuguetes22.putExtra("string", urlcomboj22);
+                startActivity(btncomprachiccojuguetes22);
+            }
+        });
+
+        linearj22 = (LinearLayout)findViewById(R.id.linearj22);
+
+        switch22 = (Switch)findViewById(R.id.switch22);
+        switch22.setChecked(false);
+        switch22.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch22.isChecked()) {
+                    linearj22.setVisibility(View.VISIBLE);
+                } else {
+                    linearj22.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* juguetes 23 */
+
+        chiccojuguetes23j23 = (ImageView)findViewById(R.id.chiccojuguetes23j23);
+        Picasso.with(this).load(urlchiccojuguetes23).into(chiccojuguetes23j23);
+
+        txtchiccojuguetes23j23 = (TextView)findViewById(R.id.txtchiccojuguetes23j23);
+        final String stconsultaj23 = txtchiccojuguetes23j23.getText().toString();
+        btnconsultaj23 = (Button)findViewById(R.id.btnconsultaj23);
+        btnconsultaj23.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaj23 = new Intent(chiccojuguetes.this,contacto.class);
+                btnconsultaj23.putExtra("consulta", stconsultaj23);
+                startActivity(btnconsultaj23);
+            }
+        });
+
+
+        btncomprachiccojuguetes23 = (Button)findViewById(R.id.btncomprachiccojuguetes23);
+        btncomprachiccojuguetes23.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncomprachiccojuguetes23 = new Intent(chiccojuguetes.this,webview.class);
+                btncomprachiccojuguetes23.putExtra("string", urlcomboj23);
+                startActivity(btncomprachiccojuguetes23);
+            }
+        });
+
+        linearj23 = (LinearLayout)findViewById(R.id.linearj23);
+
+        switch23 = (Switch)findViewById(R.id.switch23);
+        switch23.setChecked(false);
+        switch23.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch23.isChecked()) {
+                    linearj23.setVisibility(View.VISIBLE);
+                } else {
+                    linearj23.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+
+        /* juguetes 24 */
+
+        chiccojuguetes24j24 = (ImageView)findViewById(R.id.chiccojuguetes24j24);
+        Picasso.with(this).load(urlchiccojuguetes24).into(chiccojuguetes24j24);
+
+        txtchiccojuguetes24j24 = (TextView)findViewById(R.id.txtchiccojuguetes24j24);
+        final String stconsultaj24 = txtchiccojuguetes24j24.getText().toString();
+        btnconsultaj24 = (Button)findViewById(R.id.btnconsultaj24);
+        btnconsultaj24.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaj24 = new Intent(chiccojuguetes.this,contacto.class);
+                btnconsultaj24.putExtra("consulta", stconsultaj24);
+                startActivity(btnconsultaj24);
+            }
+        });
+
+
+        btncomprachiccojuguetes24 = (Button)findViewById(R.id.btncomprachiccojuguetes24);
+        btncomprachiccojuguetes24.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncomprachiccojuguetes24 = new Intent(chiccojuguetes.this,webview.class);
+                btncomprachiccojuguetes24.putExtra("string", urlcomboj24);
+                startActivity(btncomprachiccojuguetes24);
+            }
+        });
+
+        linearj24 = (LinearLayout)findViewById(R.id.linearj24);
+
+        switch24 = (Switch)findViewById(R.id.switch24);
+        switch24.setChecked(false);
+        switch24.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch24.isChecked()) {
+                    linearj24.setVisibility(View.VISIBLE);
+                } else {
+                    linearj24.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+
+        /* Resto código */
+
         preciochiccojuguetes1 = (TextView)findViewById(R.id.preciochiccojuguetes1);
         preciochiccojuguetes2 = (TextView)findViewById(R.id.preciochiccojuguetes2);
         preciochiccojuguetes3 = (TextView)findViewById(R.id.preciochiccojuguetes3);
@@ -143,7 +1310,6 @@ public class chiccojuguetes extends AppCompatActivity {
         preciochiccojuguetes14 = (TextView)findViewById(R.id.preciochiccojuguetes14);
         preciochiccojuguetes15 = (TextView)findViewById(R.id.preciochiccojuguetes15);
         preciochiccojuguetes16 = (TextView)findViewById(R.id.preciochiccojuguetes16);
-        preciochiccojuguetes17 = (TextView)findViewById(R.id.preciochiccojuguetes17);
         preciochiccojuguetes18 = (TextView)findViewById(R.id.preciochiccojuguetes18);
         preciochiccojuguetes19 = (TextView)findViewById(R.id.preciochiccojuguetes19);
         preciochiccojuguetes20 = (TextView)findViewById(R.id.preciochiccojuguetes20);
@@ -200,9 +1366,6 @@ public class chiccojuguetes extends AppCompatActivity {
         chiccojuguetes16 = (ImageView)findViewById(R.id.chiccojuguetes16);
         Picasso.with(this).load(urlchiccojuguetes16).into(chiccojuguetes16);
 
-        chiccojuguetes17 = (ImageView)findViewById(R.id.chiccojuguetes17);
-        Picasso.with(this).load(urlchiccojuguetes17).into(chiccojuguetes17);
-
         chiccojuguetes18 = (ImageView)findViewById(R.id.chiccojuguetes18);
         Picasso.with(this).load(urlchiccojuguetes18).into(chiccojuguetes18);
 
@@ -223,222 +1386,6 @@ public class chiccojuguetes extends AppCompatActivity {
 
         chiccojuguetes24 = (ImageView)findViewById(R.id.chiccojuguetes24);
         Picasso.with(this).load(urlchiccojuguetes24).into(chiccojuguetes24);
-
-        btnchiccojuguetes1 = (Button)findViewById(R.id.btnchiccojuguetes1);
-        btnchiccojuguetes1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnchiccojuguetes1 = new Intent(chiccojuguetes.this, chiccojuguetes1.class);
-                startActivity(btnchiccojuguetes1);
-            }
-        });
-
-        btnchiccojuguetes2 = (Button)findViewById(R.id.btnchiccojuguetes2);
-        btnchiccojuguetes2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnchiccojuguetes2 = new Intent(chiccojuguetes.this, chiccojuguetes2.class);
-                startActivity(btnchiccojuguetes2);
-            }
-        });
-
-        btnchiccojuguetes3 = (Button)findViewById(R.id.btnchiccojuguetes3);
-        btnchiccojuguetes3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnchiccojuguetes3 = new Intent(chiccojuguetes.this, chiccojuguetes3.class);
-                startActivity(btnchiccojuguetes3);
-            }
-        });
-
-        btnchiccojuguetes4 = (Button)findViewById(R.id.btnchiccojuguetes4);
-        btnchiccojuguetes4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnchiccojuguetes4 = new Intent(chiccojuguetes.this, chiccojuguetes4.class);
-                startActivity(btnchiccojuguetes4);
-            }
-        });
-
-        btnchiccojuguetes5 = (Button)findViewById(R.id.btnchiccojuguetes5);
-        btnchiccojuguetes5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnchiccojuguetes5 = new Intent(chiccojuguetes.this, chiccojuguetes5.class);
-                startActivity(btnchiccojuguetes5);
-            }
-        });
-
-        btnchiccojuguetes6 = (Button)findViewById(R.id.btnchiccojuguetes6);
-        btnchiccojuguetes6.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnchiccojuguetes6 = new Intent(chiccojuguetes.this, chiccojuguetes6.class);
-                startActivity(btnchiccojuguetes6);
-            }
-        });
-
-        btnchiccojuguetes7 = (Button)findViewById(R.id.btnchiccojuguetes7);
-        btnchiccojuguetes7.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnchiccojuguetes7 = new Intent(chiccojuguetes.this, chiccojuguetes7.class);
-                startActivity(btnchiccojuguetes7);
-            }
-        });
-
-        btnchiccojuguetes8 = (Button)findViewById(R.id.btnchiccojuguetes8);
-        btnchiccojuguetes8.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnchiccojuguetes8 = new Intent(chiccojuguetes.this, chiccojuguetes8.class);
-                startActivity(btnchiccojuguetes8);
-            }
-        });
-
-        btnchiccojuguetes9 = (Button)findViewById(R.id.btnchiccojuguetes9);
-        btnchiccojuguetes9.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnchiccojuguetes9 = new Intent(chiccojuguetes.this, chiccojuguetes9.class);
-                startActivity(btnchiccojuguetes9);
-            }
-        });
-
-        btnchiccojuguetes10 = (Button)findViewById(R.id.btnchiccojuguetes10);
-        btnchiccojuguetes10.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnchiccojuguetes10 = new Intent(chiccojuguetes.this, chiccojuguetes10.class);
-                startActivity(btnchiccojuguetes10);
-            }
-        });
-
-        btnchiccojuguetes11 = (Button)findViewById(R.id.btnchiccojuguetes11);
-        btnchiccojuguetes11.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnchiccojuguetes11 = new Intent(chiccojuguetes.this, chiccojuguetes11.class);
-                startActivity(btnchiccojuguetes11);
-            }
-        });
-
-        btnchiccojuguetes12 = (Button)findViewById(R.id.btnchiccojuguetes12);
-        btnchiccojuguetes12.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnchiccojuguetes12 = new Intent(chiccojuguetes.this, chiccojuguetes12.class);
-                startActivity(btnchiccojuguetes12);
-            }
-        });
-
-        btnchiccojuguetes13 = (Button)findViewById(R.id.btnchiccojuguetes13);
-        btnchiccojuguetes13.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnchiccojuguetes13 = new Intent(chiccojuguetes.this, chiccojuguetes13.class);
-                startActivity(btnchiccojuguetes13);
-            }
-        });
-
-        btnchiccojuguetes14 = (Button)findViewById(R.id.btnchiccojuguetes14);
-        btnchiccojuguetes14.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnchiccojuguetes14 = new Intent(chiccojuguetes.this, chiccojuguetes14.class);
-                startActivity(btnchiccojuguetes14);
-            }
-        });
-
-        btnchiccojuguetes15 = (Button)findViewById(R.id.btnchiccojuguetes15);
-        btnchiccojuguetes15.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnchiccojuguetes15 = new Intent(chiccojuguetes.this, chiccojuguetes15.class);
-                startActivity(btnchiccojuguetes15);
-            }
-        });
-
-        btnchiccojuguetes16 = (Button)findViewById(R.id.btnchiccojuguetes16);
-        btnchiccojuguetes16.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnchiccojuguetes16 = new Intent(chiccojuguetes.this, chiccojuguetes16.class);
-                startActivity(btnchiccojuguetes16);
-            }
-        });
-
-        btnchiccojuguetes17 = (Button)findViewById(R.id.btnchiccojuguetes17);
-        btnchiccojuguetes17.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnchiccojuguetes17 = new Intent(chiccojuguetes.this, chiccojuguetes17.class);
-                startActivity(btnchiccojuguetes17);
-            }
-        });
-
-        btnchiccojuguetes18 = (Button)findViewById(R.id.btnchiccojuguetes18);
-        btnchiccojuguetes18.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnchiccojuguetes18 = new Intent(chiccojuguetes.this, chiccojuguetes18.class);
-                startActivity(btnchiccojuguetes18);
-            }
-        });
-
-        btnchiccojuguetes19 = (Button)findViewById(R.id.btnchiccojuguetes19);
-        btnchiccojuguetes19.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnchiccojuguetes19 = new Intent(chiccojuguetes.this, chiccojuguetes19.class);
-                startActivity(btnchiccojuguetes19);
-            }
-        });
-
-        btnchiccojuguetes20 = (Button)findViewById(R.id.btnchiccojuguetes20);
-        btnchiccojuguetes20.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnchiccojuguetes20 = new Intent(chiccojuguetes.this, chiccojuguetes20.class);
-                startActivity(btnchiccojuguetes20);
-            }
-        });
-
-        btnchiccojuguetes21 = (Button)findViewById(R.id.btnchiccojuguetes21);
-        btnchiccojuguetes21.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnchiccojuguetes21 = new Intent(chiccojuguetes.this, chiccojuguetes21.class);
-                startActivity(btnchiccojuguetes21);
-            }
-        });
-
-        btnchiccojuguetes22 = (Button)findViewById(R.id.btnchiccojuguetes22);
-        btnchiccojuguetes22.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnchiccojuguetes22 = new Intent(chiccojuguetes.this, chiccojuguetes22.class);
-                startActivity(btnchiccojuguetes22);
-            }
-        });
-
-        btnchiccojuguetes23 = (Button)findViewById(R.id.btnchiccojuguetes23);
-        btnchiccojuguetes23.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnchiccojuguetes23 = new Intent(chiccojuguetes.this, chiccojuguetes23.class);
-                startActivity(btnchiccojuguetes23);
-            }
-        });
-
-        btnchiccojuguetes24 = (Button)findViewById(R.id.btnchiccojuguetes24);
-        btnchiccojuguetes24.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnchiccojuguetes24 = new Intent(chiccojuguetes.this, chiccojuguetes24.class);
-                startActivity(btnchiccojuguetes24);
-            }
-        });
 
         marca = (Button) findViewById(R.id.btnvmarca);
         marca.setOnClickListener(new View.OnClickListener() {
@@ -494,8 +1441,6 @@ public class chiccojuguetes extends AppCompatActivity {
         String preciochiccojuguetes15st;
         String urlprecio16 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=95eaf2695872226cfa88a609f7ce481c#utm_source=28428&utm_medium=boton_de_pago&utm_campaign=web";
         String preciochiccojuguetes16st;
-        String urlprecio17 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=578dbe27de8f2013e5661716101d1829#utm_source=28428&utm_medium=boton_de_pago&utm_campaign=web";
-        String preciochiccojuguetes17st;
         String urlprecio18 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=fc5fa688bdcf73e8eca1d2c50c36220e#utm_source=28428&utm_medium=boton_de_pago&utm_campaign=web";
         String preciochiccojuguetes18st;
         String urlprecio19 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=20c810577863c40ade26d1f9b179e46b#utm_source=28428&utm_medium=boton_de_pago&utm_campaign=web";
@@ -579,10 +1524,6 @@ public class chiccojuguetes extends AppCompatActivity {
                 Elements metapropoerty16 = doc16.select("meta[property=\"og:description\"]");
                 preciochiccojuguetes16st = metapropoerty16.attr("content");
 
-                Document doc17 = Jsoup.connect(urlprecio17).get();
-                Elements metapropoerty17 = doc17.select("meta[property=\"og:description\"]");
-                preciochiccojuguetes17st = metapropoerty17.attr("content");
-
                 Document doc18 = Jsoup.connect(urlprecio18).get();
                 Elements metapropoerty18 = doc18.select("meta[property=\"og:description\"]");
                 preciochiccojuguetes18st = metapropoerty18.attr("content");
@@ -637,7 +1578,6 @@ public class chiccojuguetes extends AppCompatActivity {
             preciochiccojuguetes14.setText(preciochiccojuguetes14st);
             preciochiccojuguetes15.setText(preciochiccojuguetes15st);
             preciochiccojuguetes16.setText(preciochiccojuguetes16st);
-            preciochiccojuguetes17.setText(preciochiccojuguetes17st);
             preciochiccojuguetes18.setText(preciochiccojuguetes18st);
             preciochiccojuguetes19.setText(preciochiccojuguetes19st);
             preciochiccojuguetes20.setText(preciochiccojuguetes20st);
