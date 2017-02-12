@@ -6,12 +6,17 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CompoundButton;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.Switch;
 import android.widget.TextView;
 
 import com.abigail05.MainActivity;
 import com.abigail05.R;
+import com.abigail05.contacto;
 import com.abigail05.marcas;
+import com.abigail05.webview;
 import com.squareup.picasso.Picasso;
 
 import org.jsoup.Jsoup;
@@ -24,16 +29,76 @@ public class nubyaccesorios extends AppCompatActivity {
 
     Button home;
     Button marca;
-    Button btnnubyaccesorios1;
-    Button btnnubyaccesorios2;
-    Button btnnubyaccesorios3;
-    Button btnnubyaccesorios4;
-    Button btnnubyaccesorios5;
-    Button btnnubyaccesorios6;
-    Button btnnubyaccesorios7;
-    Button btnnubyaccesorios8;
-    Button btnnubyaccesorios9;
-    Button btnnubyaccesorios10;
+    Button btncompranubyaccesorios1;
+    Button btnconsultaa1;
+    TextView txtnubyaccesorios1a1;
+    String urlcomboa1 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=ac05296357c9d76bf6b0cc6dd0ec063e";
+    ImageView nubyaccesorios1a1;
+    Button btncompranubyaccesorios2;
+    Button btnconsultaa2;
+    TextView txtnubyaccesorios2a2;
+    String urlcomboa2 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=e97f44bfe4dd2005d076086be1ab5182";
+    ImageView nubyaccesorios2a2;
+    Button btncompranubyaccesorios3;
+    Button btnconsultaa3;
+    TextView txtnubyaccesorios3a3;
+    String urlcomboa3 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=3750122915013bb5c688a57cfce01cc0";
+    ImageView nubyaccesorios3a3;
+    Button btncompranubyaccesorios4;
+    Button btnconsultaa4;
+    TextView txtnubyaccesorios4a4;
+    String urlcomboa4 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=33699074e8be3d4aac726e417e720ddc";
+    ImageView nubyaccesorios4a4;
+    Button btncompranubyaccesorios5;
+    Button btnconsultaa5;
+    TextView txtnubyaccesorios5a5;
+    String urlcomboa5 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=117761131e7d06d8f5920b7bb1ff8e60";
+    ImageView nubyaccesorios5a5;
+    Button btncompranubyaccesorios6;
+    Button btnconsultaa6;
+    TextView txtnubyaccesorios6a6;
+    String urlcomboa6 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=edb0a769253636167e9708b8bf234043";
+    ImageView nubyaccesorios6a6;
+    Button btncompranubyaccesorios7;
+    Button btnconsultaa7;
+    TextView txtnubyaccesorios7a7;
+    String urlcomboa7 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=7ce09ab96694f7e6d8fb76ca7418846c";
+    ImageView nubyaccesorios7a7;
+    Button btncompranubyaccesorios8;
+    Button btnconsultaa8;
+    TextView txtnubyaccesorios8a8;
+    String urlcomboa8 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=7d71006b25a088eec5c8efa57005351b";
+    ImageView nubyaccesorios8a8;
+    Button btncompranubyaccesorios9;
+    Button btnconsultaa9;
+    TextView txtnubyaccesorios9a9;
+    String urlcomboa9 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=6d38d6c1a0dca109b5a1eb07aeaa640c";
+    ImageView nubyaccesorios9a9;
+    Button btncompranubyaccesorios10;
+    Button btnconsultaa10;
+    TextView txtnubyaccesorios10a10;
+    String urlcomboa10 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=49f1f7827da103b66eef200c3ebf9857";
+    ImageView nubyaccesorios10a10;
+    Switch switch1;
+    Switch switch2;
+    Switch switch3;
+    Switch switch4;
+    Switch switch5;
+    Switch switch6;
+    Switch switch7;
+    Switch switch8;
+    Switch switch9;
+    Switch switch10;
+    LinearLayout lineara1;
+    LinearLayout lineara2;
+    LinearLayout lineara3;
+    LinearLayout lineara4;
+    LinearLayout lineara5;
+    LinearLayout lineara6;
+    LinearLayout lineara7;
+    LinearLayout lineara8;
+    LinearLayout lineara9;
+    LinearLayout lineara10;
     TextView precionubyaccesorios1;
     TextView precionubyaccesorios2;
     TextView precionubyaccesorios3;
@@ -71,6 +136,439 @@ public class nubyaccesorios extends AppCompatActivity {
         setContentView(R.layout.activity_nubyaccesorios);
 
         new precionubyaccesoriosAsync().execute();
+
+        /* accesorio 1 */
+
+        nubyaccesorios1a1 = (ImageView)findViewById(R.id.nubyaccesorios1a1);
+        Picasso.with(this).load(urlnubyaccesorios1).into(nubyaccesorios1a1);
+
+        txtnubyaccesorios1a1 = (TextView)findViewById(R.id.txtnubyaccesorios1a1);
+        final String stconsultaa1 = txtnubyaccesorios1a1.getText().toString();
+        btnconsultaa1 = (Button)findViewById(R.id.btnconsultaa1);
+        btnconsultaa1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa1 = new Intent(nubyaccesorios.this,contacto.class);
+                btnconsultaa1.putExtra("consulta", stconsultaa1);
+                startActivity(btnconsultaa1);
+            }
+        });
+
+
+        btncompranubyaccesorios1 = (Button)findViewById(R.id.btncompranubyaccesorios1);
+        btncompranubyaccesorios1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncompranubyaccesorios1 = new Intent(nubyaccesorios.this,webview.class);
+                btncompranubyaccesorios1.putExtra("string", urlcomboa1);
+                startActivity(btncompranubyaccesorios1);
+            }
+        });
+
+        lineara1 = (LinearLayout)findViewById(R.id.lineara1);
+
+        switch1 = (Switch)findViewById(R.id.switch1);
+        switch1.setChecked(false);
+        switch1.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch1.isChecked()) {
+                    lineara1.setVisibility(View.VISIBLE);
+                } else {
+                    lineara1.setVisibility(View.GONE);
+                }
+            }
+        });
+
+        /* accesorio 2 */
+
+        nubyaccesorios2a2 = (ImageView)findViewById(R.id.nubyaccesorios2a2);
+        Picasso.with(this).load(urlnubyaccesorios2).into(nubyaccesorios2a2);
+
+        txtnubyaccesorios2a2 = (TextView)findViewById(R.id.txtnubyaccesorios2a2);
+        final String stconsultaa2 = txtnubyaccesorios2a2.getText().toString();
+        btnconsultaa2 = (Button)findViewById(R.id.btnconsultaa2);
+        btnconsultaa2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa2 = new Intent(nubyaccesorios.this,contacto.class);
+                btnconsultaa2.putExtra("consulta", stconsultaa2);
+                startActivity(btnconsultaa2);
+            }
+        });
+
+
+        btncompranubyaccesorios2 = (Button)findViewById(R.id.btncompranubyaccesorios2);
+        btncompranubyaccesorios2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncompranubyaccesorios2 = new Intent(nubyaccesorios.this,webview.class);
+                btncompranubyaccesorios2.putExtra("string", urlcomboa2);
+                startActivity(btncompranubyaccesorios2);
+            }
+        });
+
+        lineara2 = (LinearLayout)findViewById(R.id.lineara2);
+
+        switch2 = (Switch)findViewById(R.id.switch2);
+        switch2.setChecked(false);
+        switch2.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch2.isChecked()) {
+                    lineara2.setVisibility(View.VISIBLE);
+                } else {
+                    lineara2.setVisibility(View.GONE);
+                }
+            }
+        });
+
+        /* accesorio 3 */
+
+        nubyaccesorios3a3 = (ImageView)findViewById(R.id.nubyaccesorios3a3);
+        Picasso.with(this).load(urlnubyaccesorios3).into(nubyaccesorios3a3);
+
+        txtnubyaccesorios3a3 = (TextView)findViewById(R.id.txtnubyaccesorios3a3);
+        final String stconsultaa3 = txtnubyaccesorios3a3.getText().toString();
+        btnconsultaa3 = (Button)findViewById(R.id.btnconsultaa3);
+        btnconsultaa3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa3 = new Intent(nubyaccesorios.this,contacto.class);
+                btnconsultaa3.putExtra("consulta", stconsultaa3);
+                startActivity(btnconsultaa3);
+            }
+        });
+
+
+        btncompranubyaccesorios3 = (Button)findViewById(R.id.btncompranubyaccesorios3);
+        btncompranubyaccesorios3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncompranubyaccesorios3 = new Intent(nubyaccesorios.this,webview.class);
+                btncompranubyaccesorios3.putExtra("string", urlcomboa3);
+                startActivity(btncompranubyaccesorios3);
+            }
+        });
+
+        lineara3 = (LinearLayout)findViewById(R.id.lineara3);
+
+        switch3 = (Switch)findViewById(R.id.switch3);
+        switch3.setChecked(false);
+        switch3.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch3.isChecked()) {
+                    lineara3.setVisibility(View.VISIBLE);
+                } else {
+                    lineara3.setVisibility(View.GONE);
+                }
+            }
+        });
+
+        /* accesorio 4 */
+
+        nubyaccesorios4a4 = (ImageView)findViewById(R.id.nubyaccesorios4a4);
+        Picasso.with(this).load(urlnubyaccesorios4).into(nubyaccesorios4a4);
+
+        txtnubyaccesorios4a4 = (TextView)findViewById(R.id.txtnubyaccesorios4a4);
+        final String stconsultaa4 = txtnubyaccesorios4a4.getText().toString();
+        btnconsultaa4 = (Button)findViewById(R.id.btnconsultaa4);
+        btnconsultaa4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa4 = new Intent(nubyaccesorios.this,contacto.class);
+                btnconsultaa4.putExtra("consulta", stconsultaa4);
+                startActivity(btnconsultaa4);
+            }
+        });
+
+
+        btncompranubyaccesorios4 = (Button)findViewById(R.id.btncompranubyaccesorios4);
+        btncompranubyaccesorios4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncompranubyaccesorios4 = new Intent(nubyaccesorios.this,webview.class);
+                btncompranubyaccesorios4.putExtra("string", urlcomboa4);
+                startActivity(btncompranubyaccesorios4);
+            }
+        });
+
+        lineara4 = (LinearLayout)findViewById(R.id.lineara4);
+
+        switch4 = (Switch)findViewById(R.id.switch4);
+        switch4.setChecked(false);
+        switch4.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch4.isChecked()) {
+                    lineara4.setVisibility(View.VISIBLE);
+                } else {
+                    lineara4.setVisibility(View.GONE);
+                }
+            }
+        });
+
+        /* accesorio 5 */
+
+        nubyaccesorios5a5 = (ImageView)findViewById(R.id.nubyaccesorios5a5);
+        Picasso.with(this).load(urlnubyaccesorios5).into(nubyaccesorios5a5);
+
+        txtnubyaccesorios5a5 = (TextView)findViewById(R.id.txtnubyaccesorios5a5);
+        final String stconsultaa5 = txtnubyaccesorios5a5.getText().toString();
+        btnconsultaa5 = (Button)findViewById(R.id.btnconsultaa5);
+        btnconsultaa5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa5 = new Intent(nubyaccesorios.this,contacto.class);
+                btnconsultaa5.putExtra("consulta", stconsultaa5);
+                startActivity(btnconsultaa5);
+            }
+        });
+
+
+        btncompranubyaccesorios5 = (Button)findViewById(R.id.btncompranubyaccesorios5);
+        btncompranubyaccesorios5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncompranubyaccesorios5 = new Intent(nubyaccesorios.this,webview.class);
+                btncompranubyaccesorios5.putExtra("string", urlcomboa5);
+                startActivity(btncompranubyaccesorios5);
+            }
+        });
+
+        lineara5 = (LinearLayout)findViewById(R.id.lineara5);
+
+        switch5 = (Switch)findViewById(R.id.switch5);
+        switch5.setChecked(false);
+        switch5.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch5.isChecked()) {
+                    lineara5.setVisibility(View.VISIBLE);
+                } else {
+                    lineara5.setVisibility(View.GONE);
+                }
+            }
+        });
+
+        /* accesorio 6 */
+
+        nubyaccesorios6a6 = (ImageView)findViewById(R.id.nubyaccesorios6a6);
+        Picasso.with(this).load(urlnubyaccesorios6).into(nubyaccesorios6a6);
+
+        txtnubyaccesorios6a6 = (TextView)findViewById(R.id.txtnubyaccesorios6a6);
+        final String stconsultaa6 = txtnubyaccesorios6a6.getText().toString();
+        btnconsultaa6 = (Button)findViewById(R.id.btnconsultaa6);
+        btnconsultaa6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa6 = new Intent(nubyaccesorios.this,contacto.class);
+                btnconsultaa6.putExtra("consulta", stconsultaa6);
+                startActivity(btnconsultaa6);
+            }
+        });
+
+
+        btncompranubyaccesorios6 = (Button)findViewById(R.id.btncompranubyaccesorios6);
+        btncompranubyaccesorios6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncompranubyaccesorios6 = new Intent(nubyaccesorios.this,webview.class);
+                btncompranubyaccesorios6.putExtra("string", urlcomboa6);
+                startActivity(btncompranubyaccesorios6);
+            }
+        });
+
+        lineara6 = (LinearLayout)findViewById(R.id.lineara6);
+
+        switch6 = (Switch)findViewById(R.id.switch6);
+        switch6.setChecked(false);
+        switch6.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch6.isChecked()) {
+                    lineara6.setVisibility(View.VISIBLE);
+                } else {
+                    lineara6.setVisibility(View.GONE);
+                }
+            }
+        });
+
+        /* accesorio 7 */
+
+        nubyaccesorios7a7 = (ImageView)findViewById(R.id.nubyaccesorios7a7);
+        Picasso.with(this).load(urlnubyaccesorios7).into(nubyaccesorios7a7);
+
+        txtnubyaccesorios7a7 = (TextView)findViewById(R.id.txtnubyaccesorios7a7);
+        final String stconsultaa7 = txtnubyaccesorios7a7.getText().toString();
+        btnconsultaa7 = (Button)findViewById(R.id.btnconsultaa7);
+        btnconsultaa7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa7 = new Intent(nubyaccesorios.this,contacto.class);
+                btnconsultaa7.putExtra("consulta", stconsultaa7);
+                startActivity(btnconsultaa7);
+            }
+        });
+
+
+        btncompranubyaccesorios7 = (Button)findViewById(R.id.btncompranubyaccesorios7);
+        btncompranubyaccesorios7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncompranubyaccesorios7 = new Intent(nubyaccesorios.this,webview.class);
+                btncompranubyaccesorios7.putExtra("string", urlcomboa7);
+                startActivity(btncompranubyaccesorios7);
+            }
+        });
+
+        lineara7 = (LinearLayout)findViewById(R.id.lineara7);
+
+        switch7 = (Switch)findViewById(R.id.switch7);
+        switch7.setChecked(false);
+        switch7.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch7.isChecked()) {
+                    lineara7.setVisibility(View.VISIBLE);
+                } else {
+                    lineara7.setVisibility(View.GONE);
+                }
+            }
+        });
+
+        /* accesorio 8 */
+
+        nubyaccesorios8a8 = (ImageView)findViewById(R.id.nubyaccesorios8a8);
+        Picasso.with(this).load(urlnubyaccesorios8).into(nubyaccesorios8a8);
+
+        txtnubyaccesorios8a8 = (TextView)findViewById(R.id.txtnubyaccesorios8a8);
+        final String stconsultaa8 = txtnubyaccesorios8a8.getText().toString();
+        btnconsultaa8 = (Button)findViewById(R.id.btnconsultaa8);
+        btnconsultaa8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa8 = new Intent(nubyaccesorios.this,contacto.class);
+                btnconsultaa8.putExtra("consulta", stconsultaa8);
+                startActivity(btnconsultaa8);
+            }
+        });
+
+
+        btncompranubyaccesorios8 = (Button)findViewById(R.id.btncompranubyaccesorios8);
+        btncompranubyaccesorios8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncompranubyaccesorios8 = new Intent(nubyaccesorios.this,webview.class);
+                btncompranubyaccesorios8.putExtra("string", urlcomboa8);
+                startActivity(btncompranubyaccesorios8);
+            }
+        });
+
+        lineara8 = (LinearLayout)findViewById(R.id.lineara8);
+
+        switch8 = (Switch)findViewById(R.id.switch8);
+        switch8.setChecked(false);
+        switch8.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch8.isChecked()) {
+                    lineara8.setVisibility(View.VISIBLE);
+                } else {
+                    lineara8.setVisibility(View.GONE);
+                }
+            }
+        });
+
+        /* accesorio 9 */
+
+        nubyaccesorios9a9 = (ImageView)findViewById(R.id.nubyaccesorios9a9);
+        Picasso.with(this).load(urlnubyaccesorios9).into(nubyaccesorios9a9);
+
+        txtnubyaccesorios9a9 = (TextView)findViewById(R.id.txtnubyaccesorios9a9);
+        final String stconsultaa9 = txtnubyaccesorios9a9.getText().toString();
+        btnconsultaa9 = (Button)findViewById(R.id.btnconsultaa9);
+        btnconsultaa9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa9 = new Intent(nubyaccesorios.this,contacto.class);
+                btnconsultaa9.putExtra("consulta", stconsultaa9);
+                startActivity(btnconsultaa9);
+            }
+        });
+
+
+        btncompranubyaccesorios9 = (Button)findViewById(R.id.btncompranubyaccesorios9);
+        btncompranubyaccesorios9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncompranubyaccesorios9 = new Intent(nubyaccesorios.this,webview.class);
+                btncompranubyaccesorios9.putExtra("string", urlcomboa9);
+                startActivity(btncompranubyaccesorios9);
+            }
+        });
+
+        lineara9 = (LinearLayout)findViewById(R.id.lineara9);
+
+        switch9 = (Switch)findViewById(R.id.switch9);
+        switch9.setChecked(false);
+        switch9.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch9.isChecked()) {
+                    lineara9.setVisibility(View.VISIBLE);
+                } else {
+                    lineara9.setVisibility(View.GONE);
+                }
+            }
+        });
+
+        /* accesorio 10 */
+
+        nubyaccesorios10a10 = (ImageView)findViewById(R.id.nubyaccesorios10a10);
+        Picasso.with(this).load(urlnubyaccesorios10).into(nubyaccesorios10a10);
+
+        txtnubyaccesorios10a10 = (TextView)findViewById(R.id.txtnubyaccesorios10a10);
+        final String stconsultaa10 = txtnubyaccesorios10a10.getText().toString();
+        btnconsultaa10 = (Button)findViewById(R.id.btnconsultaa10);
+        btnconsultaa10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa10 = new Intent(nubyaccesorios.this,contacto.class);
+                btnconsultaa10.putExtra("consulta", stconsultaa10);
+                startActivity(btnconsultaa10);
+            }
+        });
+
+
+        btncompranubyaccesorios10 = (Button)findViewById(R.id.btncompranubyaccesorios10);
+        btncompranubyaccesorios10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncompranubyaccesorios10 = new Intent(nubyaccesorios.this,webview.class);
+                btncompranubyaccesorios10.putExtra("string", urlcomboa10);
+                startActivity(btncompranubyaccesorios10);
+            }
+        });
+
+        lineara10 = (LinearLayout)findViewById(R.id.lineara10);
+
+        switch10 = (Switch)findViewById(R.id.switch10);
+        switch10.setChecked(false);
+        switch10.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch10.isChecked()) {
+                    lineara10.setVisibility(View.VISIBLE);
+                } else {
+                    lineara10.setVisibility(View.GONE);
+                }
+            }
+        });
+
+        
+        /* Resto código */
 
         precionubyaccesorios1 = (TextView)findViewById(R.id.precionubyaccesorios1);
         precionubyaccesorios2 = (TextView)findViewById(R.id.precionubyaccesorios2);
@@ -112,96 +610,6 @@ public class nubyaccesorios extends AppCompatActivity {
 
         nubyaccesorios10 = (ImageView)findViewById(R.id.nubyaccesorios10);
         Picasso.with(this).load(urlnubyaccesorios10).into(nubyaccesorios10);
-
-        btnnubyaccesorios1 = (Button)findViewById(R.id.btnnubyaccesorios1);
-        btnnubyaccesorios1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnnubyaccesorios1 = new Intent(nubyaccesorios.this, nubyaccesorios1.class);
-                startActivity(btnnubyaccesorios1);
-            }
-        });
-
-        btnnubyaccesorios2 = (Button)findViewById(R.id.btnnubyaccesorios2);
-        btnnubyaccesorios2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnnubyaccesorios2 = new Intent(nubyaccesorios.this, nubyaccesorios2.class);
-                startActivity(btnnubyaccesorios2);
-            }
-        });
-
-        btnnubyaccesorios3 = (Button)findViewById(R.id.btnnubyaccesorios3);
-        btnnubyaccesorios3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnnubyaccesorios3 = new Intent(nubyaccesorios.this, nubyaccesorios3.class);
-                startActivity(btnnubyaccesorios3);
-            }
-        });
-
-        btnnubyaccesorios4 = (Button)findViewById(R.id.btnnubyaccesorios4);
-        btnnubyaccesorios4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnnubyaccesorios4 = new Intent(nubyaccesorios.this, nubyaccesorios4.class);
-                startActivity(btnnubyaccesorios4);
-            }
-        });
-
-        btnnubyaccesorios5 = (Button)findViewById(R.id.btnnubyaccesorios5);
-        btnnubyaccesorios5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnnubyaccesorios5 = new Intent(nubyaccesorios.this, nubyaccesorios5.class);
-                startActivity(btnnubyaccesorios5);
-            }
-        });
-
-        btnnubyaccesorios6 = (Button)findViewById(R.id.btnnubyaccesorios6);
-        btnnubyaccesorios6.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnnubyaccesorios6 = new Intent(nubyaccesorios.this, nubyaccesorios6.class);
-                startActivity(btnnubyaccesorios6);
-            }
-        });
-
-        btnnubyaccesorios7 = (Button)findViewById(R.id.btnnubyaccesorios7);
-        btnnubyaccesorios7.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnnubyaccesorios7 = new Intent(nubyaccesorios.this, nubyaccesorios7.class);
-                startActivity(btnnubyaccesorios7);
-            }
-        });
-
-        btnnubyaccesorios8 = (Button)findViewById(R.id.btnnubyaccesorios8);
-        btnnubyaccesorios8.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnnubyaccesorios8 = new Intent(nubyaccesorios.this, nubyaccesorios8.class);
-                startActivity(btnnubyaccesorios8);
-            }
-        });
-
-        btnnubyaccesorios9 = (Button)findViewById(R.id.btnnubyaccesorios9);
-        btnnubyaccesorios9.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnnubyaccesorios9 = new Intent(nubyaccesorios.this, nubyaccesorios9.class);
-                startActivity(btnnubyaccesorios9);
-            }
-        });
-
-        btnnubyaccesorios10 = (Button)findViewById(R.id.btnnubyaccesorios10);
-        btnnubyaccesorios10.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnnubyaccesorios10 = new Intent(nubyaccesorios.this, nubyaccesorios10.class);
-                startActivity(btnnubyaccesorios10);
-            }
-        });
 
         marca = (Button) findViewById(R.id.btnvmarca);
         marca.setOnClickListener(new View.OnClickListener() {

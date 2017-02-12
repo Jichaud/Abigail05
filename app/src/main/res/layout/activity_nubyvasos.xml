@@ -52,15 +52,78 @@
                     android:layout_toRightOf="@id/nubyvasos1"
                     android:text="@string/txtnubyvasos1" />
 
-                <Button
-                    android:id="@+id/btnnubyvasos1"
-                    style="@style/btnvermas"
+                <Switch
+                    android:id="@+id/switch1"
+                    style="@style/switchstyle"
                     android:layout_above="@id/view1" />
 
                 <TextView
                     android:id="@+id/precionubyvasos1"
                     style="@style/precio"
                     android:layout_below="@id/nubyvasos1" />
+
+                <LinearLayout
+                    android:id="@+id/linearv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view1"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/nubyvasos1v1"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1v1"
+                                style="@style/Divider"
+                                android:layout_below="@id/nubyvasos1v1" />
+
+                            <TextView
+                                android:id="@+id/txtnubyvasos1principalv1"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1v1"
+                                android:text="@string/txtnubyvasos" />
+
+                            <TextView
+                                android:id="@+id/txtnubyvasos1v1"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtnubyvasos1principalv1"
+                                android:text="@string/txtnubyvasos1" />
+
+                            <View
+                                android:id="@+id/view2v1"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtnubyvasos1v1" />
+
+                            <Button
+                                android:id="@+id/btnconsultav1"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2v1"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncompranubyvasos1"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2v1"
+                                android:layout_toRightOf="@id/btnconsultav1"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view1"
@@ -71,13 +134,13 @@
                     android:id="@+id/nubyvasos2"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view1"
+                    android:layout_below="@id/linearv1"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtnubyvasos2principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view1"
+                    android:layout_below="@id/linearv1"
                     android:layout_toRightOf="@id/nubyvasos2"
                     android:text="@string/txtnubyvasos" />
 
@@ -88,15 +151,78 @@
                     android:layout_toRightOf="@id/nubyvasos2"
                     android:text="@string/txtnubyvasos2" />
 
-                <Button
-                    android:id="@+id/btnnubyvasos2"
-                    style="@style/btnvermas"
+                <Switch
+                    android:id="@+id/switch2"
+                    style="@style/switchstyle"
                     android:layout_above="@id/view2" />
 
                 <TextView
                     android:id="@+id/precionubyvasos2"
                     style="@style/precio"
                     android:layout_below="@id/nubyvasos2" />
+
+                <LinearLayout
+                    android:id="@+id/linearv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view2"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/nubyvasos2v2"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1v2"
+                                style="@style/Divider"
+                                android:layout_below="@id/nubyvasos2v2" />
+
+                            <TextView
+                                android:id="@+id/txtnubyvasos2principalv2"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1v2"
+                                android:text="@string/txtnubyvasos" />
+
+                            <TextView
+                                android:id="@+id/txtnubyvasos2v2"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtnubyvasos2principalv2"
+                                android:text="@string/txtnubyvasos2" />
+
+                            <View
+                                android:id="@+id/view2v2"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtnubyvasos2v2" />
+
+                            <Button
+                                android:id="@+id/btnconsultav2"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2v2"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncompranubyvasos2"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2v2"
+                                android:layout_toRightOf="@id/btnconsultav2"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view2"
@@ -107,13 +233,13 @@
                     android:id="@+id/nubyvasos3"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view2"
+                    android:layout_below="@id/linearv2"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtnubyvasos3principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view2"
+                    android:layout_below="@id/linearv2"
                     android:layout_toRightOf="@id/nubyvasos3"
                     android:text="@string/txtnubyvasos" />
 
@@ -124,15 +250,78 @@
                     android:layout_toRightOf="@id/nubyvasos3"
                     android:text="@string/txtnubyvasos3" />
 
-                <Button
-                    android:id="@+id/btnnubyvasos3"
-                    style="@style/btnvermas"
+                <Switch
+                    android:id="@+id/switch3"
+                    style="@style/switchstyle"
                     android:layout_above="@id/view3" />
 
                 <TextView
                     android:id="@+id/precionubyvasos3"
                     style="@style/precio"
                     android:layout_below="@id/nubyvasos3" />
+
+                <LinearLayout
+                    android:id="@+id/linearv3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view3"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/nubyvasos3v3"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1v3"
+                                style="@style/Divider"
+                                android:layout_below="@id/nubyvasos3v3" />
+
+                            <TextView
+                                android:id="@+id/txtnubyvasos3principalv3"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1v3"
+                                android:text="@string/txtnubyvasos" />
+
+                            <TextView
+                                android:id="@+id/txtnubyvasos3v3"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtnubyvasos3principalv3"
+                                android:text="@string/txtnubyvasos3" />
+
+                            <View
+                                android:id="@+id/view2v3"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtnubyvasos3v3" />
+
+                            <Button
+                                android:id="@+id/btnconsultav3"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2v3"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncompranubyvasos3"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2v3"
+                                android:layout_toRightOf="@id/btnconsultav3"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view3"
@@ -143,13 +332,13 @@
                     android:id="@+id/nubyvasos4"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view3"
+                    android:layout_below="@id/linearv3"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtnubyvasos4principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view3"
+                    android:layout_below="@id/linearv3"
                     android:layout_toRightOf="@id/nubyvasos4"
                     android:text="@string/txtnubyvasos" />
 
@@ -160,15 +349,78 @@
                     android:layout_toRightOf="@id/nubyvasos4"
                     android:text="@string/txtnubyvasos4" />
 
-                <Button
-                    android:id="@+id/btnnubyvasos4"
-                    style="@style/btnvermas"
+                <Switch
+                    android:id="@+id/switch4"
+                    style="@style/switchstyle"
                     android:layout_above="@id/view4" />
 
                 <TextView
                     android:id="@+id/precionubyvasos4"
                     style="@style/precio"
                     android:layout_below="@id/nubyvasos4" />
+
+                <LinearLayout
+                    android:id="@+id/linearv4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view4"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/nubyvasos4v4"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1v4"
+                                style="@style/Divider"
+                                android:layout_below="@id/nubyvasos4v4" />
+
+                            <TextView
+                                android:id="@+id/txtnubyvasos4principalv4"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1v4"
+                                android:text="@string/txtnubyvasos" />
+
+                            <TextView
+                                android:id="@+id/txtnubyvasos4v4"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtnubyvasos4principalv4"
+                                android:text="@string/txtnubyvasos4" />
+
+                            <View
+                                android:id="@+id/view2v4"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtnubyvasos4v4" />
+
+                            <Button
+                                android:id="@+id/btnconsultav4"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2v4"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncompranubyvasos4"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2v4"
+                                android:layout_toRightOf="@id/btnconsultav4"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view4"
@@ -179,13 +431,13 @@
                     android:id="@+id/nubyvasos5"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view4"
+                    android:layout_below="@id/linearv4"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtnubyvasos5principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view4"
+                    android:layout_below="@id/linearv4"
                     android:layout_toRightOf="@id/nubyvasos5"
                     android:text="@string/txtnubyvasos" />
 
@@ -196,15 +448,78 @@
                     android:layout_toRightOf="@id/nubyvasos5"
                     android:text="@string/txtnubyvasos5" />
 
-                <Button
-                    android:id="@+id/btnnubyvasos5"
-                    style="@style/btnvermas"
+                <Switch
+                    android:id="@+id/switch5"
+                    style="@style/switchstyle"
                     android:layout_above="@id/view5" />
 
                 <TextView
                     android:id="@+id/precionubyvasos5"
                     style="@style/precio"
                     android:layout_below="@id/nubyvasos5" />
+
+                <LinearLayout
+                    android:id="@+id/linearv5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view5"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/nubyvasos5v5"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1v5"
+                                style="@style/Divider"
+                                android:layout_below="@id/nubyvasos5v5" />
+
+                            <TextView
+                                android:id="@+id/txtnubyvasos5principalv5"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1v5"
+                                android:text="@string/txtnubyvasos" />
+
+                            <TextView
+                                android:id="@+id/txtnubyvasos5v5"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtnubyvasos5principalv5"
+                                android:text="@string/txtnubyvasos5" />
+
+                            <View
+                                android:id="@+id/view2v5"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtnubyvasos5v5" />
+
+                            <Button
+                                android:id="@+id/btnconsultav5"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2v5"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncompranubyvasos5"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2v5"
+                                android:layout_toRightOf="@id/btnconsultav5"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view5"
@@ -215,13 +530,13 @@
                     android:id="@+id/nubyvasos6"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view5"
+                    android:layout_below="@id/linearv5"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtnubyvasos6principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view5"
+                    android:layout_below="@id/linearv5"
                     android:layout_toRightOf="@id/nubyvasos6"
                     android:text="@string/txtnubyvasos" />
 
@@ -232,20 +547,183 @@
                     android:layout_toRightOf="@id/nubyvasos6"
                     android:text="@string/txtnubyvasos6" />
 
-                <Button
-                    android:id="@+id/btnnubyvasos6"
-                    style="@style/btnvermas"
-                    android:layout_above="@+id/view6" />
+                <Switch
+                    android:id="@+id/switch6"
+                    style="@style/switchstyle"
+                    android:layout_above="@id/view6" />
 
                 <TextView
                     android:id="@+id/precionubyvasos6"
                     style="@style/precio"
                     android:layout_below="@id/nubyvasos6" />
 
+                <LinearLayout
+                    android:id="@+id/linearv6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view6"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/nubyvasos6v6"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1v6"
+                                style="@style/Divider"
+                                android:layout_below="@id/nubyvasos6v6" />
+
+                            <TextView
+                                android:id="@+id/txtnubyvasos6principalv6"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1v6"
+                                android:text="@string/txtnubyvasos" />
+
+                            <TextView
+                                android:id="@+id/txtnubyvasos6v6"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtnubyvasos6principalv6"
+                                android:text="@string/txtnubyvasos6" />
+
+                            <View
+                                android:id="@+id/view2v6"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtnubyvasos6v6" />
+
+                            <Button
+                                android:id="@+id/btnconsultav6"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2v6"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncompranubyvasos6"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2v6"
+                                android:layout_toRightOf="@id/btnconsultav6"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
+
                 <View
                     android:id="@+id/view6"
                     style="@style/Divider"
                     android:layout_below="@id/precionubyvasos6" />
+
+                <ImageView
+                    android:id="@+id/nubyvasos7"
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/linearv6"
+                    android:padding="2dp" />
+
+                <TextView
+                    android:id="@+id/txtnubyvasos7principal"
+                    style="@style/txtprincipal"
+                    android:layout_below="@id/linearv6"
+                    android:layout_toRightOf="@id/nubyvasos7"
+                    android:text="@string/txtnubyvasos" />
+
+                <TextView
+                    android:id="@+id/txtnubyvasos7"
+                    style="@style/txtdesc"
+                    android:layout_below="@id/txtnubyvasos7principal"
+                    android:layout_toRightOf="@id/nubyvasos7"
+                    android:text="@string/txtnubyvasos7" />
+
+                <Switch
+                    android:id="@+id/switch7"
+                    style="@style/switchstyle"
+                    android:layout_above="@id/view7" />
+
+                <TextView
+                    android:id="@+id/precionubyvasos7"
+                    style="@style/precio"
+                    android:layout_below="@id/nubyvasos7" />
+
+                <LinearLayout
+                    android:id="@+id/linearv7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view7"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/nubyvasos7v7"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1v7"
+                                style="@style/Divider"
+                                android:layout_below="@id/nubyvasos7v7" />
+
+                            <TextView
+                                android:id="@+id/txtnubyvasos7principalv7"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1v7"
+                                android:text="@string/txtnubyvasos" />
+
+                            <TextView
+                                android:id="@+id/txtnubyvasos7v7"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtnubyvasos7principalv7"
+                                android:text="@string/txtnubyvasos7" />
+
+                            <View
+                                android:id="@+id/view2v7"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtnubyvasos7v7" />
+
+                            <Button
+                                android:id="@+id/btnconsultav7"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2v7"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncompranubyvasos7"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2v7"
+                                android:layout_toRightOf="@id/btnconsultav7"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
+
+
+                <View
+                    android:id="@+id/view7"
+                    style="@style/Divider"
+                    android:layout_below="@id/precionubyvasos7" />
 
             </RelativeLayout>
 

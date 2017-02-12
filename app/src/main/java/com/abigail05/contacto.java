@@ -27,7 +27,6 @@ public class contacto extends AppCompatActivity {
     EditText mensaje;
     EditText info;
     Button btnconsulta;
-    Button btnenviodhl;
     Switch switch1;
     EditText calle;
     EditText callenumero;
@@ -43,7 +42,6 @@ public class contacto extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contacto);
 
-        btnenviodhl = (Button)findViewById(R.id.btnenviodhl);
         calle = (EditText)findViewById(R.id.calle);
         callenumero = (EditText)findViewById(R.id.callenumero);
         piso = (EditText)findViewById(R.id.piso);
@@ -53,14 +51,6 @@ public class contacto extends AppCompatActivity {
         layoutcontact = (LinearLayout)findViewById(R.id.layoutcontact);
         spinner_provincias = (Spinner)findViewById(R.id.sprovincias);
         CargaProvincias();
-
-        btnenviodhl.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnenviodhl = new Intent(contacto.this,envio.class);
-                startActivity(btnenviodhl);
-            }
-        });
 
         switch1 = (Switch)findViewById(R.id.switch1);
         switch1.setChecked(false);

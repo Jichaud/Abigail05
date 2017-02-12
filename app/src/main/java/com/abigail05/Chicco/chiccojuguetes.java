@@ -271,15 +271,6 @@ public class chiccojuguetes extends AppCompatActivity {
         chiccojuguetes1j1 = (ImageView)findViewById(R.id.chiccojuguetes1j1);
         Picasso.with(this).load(urlchiccojuguetes1).into(chiccojuguetes1j1);
 
-        marca = (Button) findViewById(R.id.btnvmarca);
-        marca.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent marca = new Intent(chiccojuguetes.this,marcas.class);
-                startActivity(marca);
-            }
-        });
-
         txtchiccojuguetes1j1 = (TextView)findViewById(R.id.txtchiccojuguetes1);
         final String stconsultaj1 = txtchiccojuguetes1j1.getText().toString();
         btnconsultaj1 = (Button)findViewById(R.id.btnconsultaj1);

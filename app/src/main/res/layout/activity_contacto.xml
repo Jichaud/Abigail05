@@ -208,21 +208,6 @@
                         android:textColorHint="@color/colorPrimaryDark" />
                 </android.support.design.widget.TextInputLayout>
 
-                <Button
-                    android:id="@+id/btnenviodhl"
-                    android:layout_width="130dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="right"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginTop="10dp"
-                    android:backgroundTint="@color/green"
-                    android:fontFamily="sans-serif-thin"
-                    android:text="conocé más..."
-                    android:textAllCaps="false"
-                    android:textColor="@color/cardview_light_background"
-                    android:textSize="16sp"
-                    android:textStyle="bold" />
-
             </LinearLayout>
 
             <Button

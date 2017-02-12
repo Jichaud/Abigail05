@@ -52,15 +52,78 @@
                     android:layout_toRightOf="@id/nubyaccesorios1"
                     android:text="@string/txtnubyaccesorios1" />
 
-                <Button
-                    android:id="@+id/btnnubyaccesorios1"
-                    style="@style/btnvermas"
+                <Switch
+                    android:id="@+id/switch1"
+                    style="@style/switchstyle"
                     android:layout_above="@id/view1" />
 
                 <TextView
                     android:id="@+id/precionubyaccesorios1"
                     style="@style/precio"
                     android:layout_below="@id/nubyaccesorios1" />
+
+                <LinearLayout
+                    android:id="@+id/lineara1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view1"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/nubyaccesorios1a1"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1a1"
+                                style="@style/Divider"
+                                android:layout_below="@id/nubyaccesorios1a1" />
+
+                            <TextView
+                                android:id="@+id/txtnubyaccesorios1principala1"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a1"
+                                android:text="@string/txtnubyaccesorios" />
+
+                            <TextView
+                                android:id="@+id/txtnubyaccesorios1a1"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtnubyaccesorios1principala1"
+                                android:text="@string/txtnubyaccesorios1" />
+
+                            <View
+                                android:id="@+id/view2a1"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtnubyaccesorios1a1" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa1"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a1"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncompranubyaccesorios1"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a1"
+                                android:layout_toRightOf="@id/btnconsultaa1"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view1"
@@ -71,13 +134,13 @@
                     android:id="@+id/nubyaccesorios2"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view1"
+                    android:layout_below="@id/lineara1"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtnubyaccesorios2principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view1"
+                    android:layout_below="@id/lineara1"
                     android:layout_toRightOf="@id/nubyaccesorios2"
                     android:text="@string/txtnubyaccesorios" />
 
@@ -88,15 +151,78 @@
                     android:layout_toRightOf="@id/nubyaccesorios2"
                     android:text="@string/txtnubyaccesorios2" />
 
-                <Button
-                    android:id="@+id/btnnubyaccesorios2"
-                    style="@style/btnvermas"
+                <Switch
+                    android:id="@+id/switch2"
+                    style="@style/switchstyle"
                     android:layout_above="@id/view2" />
 
                 <TextView
                     android:id="@+id/precionubyaccesorios2"
                     style="@style/precio"
                     android:layout_below="@id/nubyaccesorios2" />
+
+                <LinearLayout
+                    android:id="@+id/lineara2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view2"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/nubyaccesorios2a2"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1a2"
+                                style="@style/Divider"
+                                android:layout_below="@id/nubyaccesorios2a2" />
+
+                            <TextView
+                                android:id="@+id/txtnubyaccesorios2principala2"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a2"
+                                android:text="@string/txtnubyaccesorios" />
+
+                            <TextView
+                                android:id="@+id/txtnubyaccesorios2a2"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtnubyaccesorios2principala2"
+                                android:text="@string/txtnubyaccesorios2" />
+
+                            <View
+                                android:id="@+id/view2a2"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtnubyaccesorios2a2" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa2"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a2"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncompranubyaccesorios2"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a2"
+                                android:layout_toRightOf="@id/btnconsultaa2"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view2"
@@ -107,13 +233,13 @@
                     android:id="@+id/nubyaccesorios3"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view2"
+                    android:layout_below="@id/lineara2"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtnubyaccesorios3principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view2"
+                    android:layout_below="@id/lineara2"
                     android:layout_toRightOf="@id/nubyaccesorios3"
                     android:text="@string/txtnubyaccesorios" />
 
@@ -124,15 +250,78 @@
                     android:layout_toRightOf="@id/nubyaccesorios3"
                     android:text="@string/txtnubyaccesorios3" />
 
-                <Button
-                    android:id="@+id/btnnubyaccesorios3"
-                    style="@style/btnvermas"
+                <Switch
+                    android:id="@+id/switch3"
+                    style="@style/switchstyle"
                     android:layout_above="@id/view3" />
 
                 <TextView
                     android:id="@+id/precionubyaccesorios3"
                     style="@style/precio"
                     android:layout_below="@id/nubyaccesorios3" />
+
+                <LinearLayout
+                    android:id="@+id/lineara3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view3"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/nubyaccesorios3a3"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1a3"
+                                style="@style/Divider"
+                                android:layout_below="@id/nubyaccesorios3a3" />
+
+                            <TextView
+                                android:id="@+id/txtnubyaccesorios3principala3"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a3"
+                                android:text="@string/txtnubyaccesorios" />
+
+                            <TextView
+                                android:id="@+id/txtnubyaccesorios3a3"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtnubyaccesorios3principala3"
+                                android:text="@string/txtnubyaccesorios3" />
+
+                            <View
+                                android:id="@+id/view2a3"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtnubyaccesorios3a3" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa3"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a3"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncompranubyaccesorios3"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a3"
+                                android:layout_toRightOf="@id/btnconsultaa3"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view3"
@@ -143,13 +332,13 @@
                     android:id="@+id/nubyaccesorios4"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view3"
+                    android:layout_below="@id/lineara3"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtnubyaccesorios4principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view3"
+                    android:layout_below="@id/lineara3"
                     android:layout_toRightOf="@id/nubyaccesorios4"
                     android:text="@string/txtnubyaccesorios" />
 
@@ -160,15 +349,78 @@
                     android:layout_toRightOf="@id/nubyaccesorios4"
                     android:text="@string/txtnubyaccesorios4" />
 
-                <Button
-                    android:id="@+id/btnnubyaccesorios4"
-                    style="@style/btnvermas"
+                <Switch
+                    android:id="@+id/switch4"
+                    style="@style/switchstyle"
                     android:layout_above="@id/view4" />
 
                 <TextView
                     android:id="@+id/precionubyaccesorios4"
                     style="@style/precio"
                     android:layout_below="@id/nubyaccesorios4" />
+
+                <LinearLayout
+                    android:id="@+id/lineara4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view4"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/nubyaccesorios4a4"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1a4"
+                                style="@style/Divider"
+                                android:layout_below="@id/nubyaccesorios4a4" />
+
+                            <TextView
+                                android:id="@+id/txtnubyaccesorios4principala4"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a4"
+                                android:text="@string/txtnubyaccesorios" />
+
+                            <TextView
+                                android:id="@+id/txtnubyaccesorios4a4"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtnubyaccesorios4principala4"
+                                android:text="@string/txtnubyaccesorios4" />
+
+                            <View
+                                android:id="@+id/view2a4"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtnubyaccesorios4a4" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa4"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a4"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncompranubyaccesorios4"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a4"
+                                android:layout_toRightOf="@id/btnconsultaa4"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view4"
@@ -179,13 +431,13 @@
                     android:id="@+id/nubyaccesorios5"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view4"
+                    android:layout_below="@id/lineara4"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtnubyaccesorios5principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view4"
+                    android:layout_below="@id/lineara4"
                     android:layout_toRightOf="@id/nubyaccesorios5"
                     android:text="@string/txtnubyaccesorios" />
 
@@ -196,15 +448,78 @@
                     android:layout_toRightOf="@id/nubyaccesorios5"
                     android:text="@string/txtnubyaccesorios5" />
 
-                <Button
-                    android:id="@+id/btnnubyaccesorios5"
-                    style="@style/btnvermas"
-                    android:layout_above="@+id/view5" />
+                <Switch
+                    android:id="@+id/switch5"
+                    style="@style/switchstyle"
+                    android:layout_above="@id/view5" />
 
                 <TextView
                     android:id="@+id/precionubyaccesorios5"
                     style="@style/precio"
                     android:layout_below="@id/nubyaccesorios5" />
+
+                <LinearLayout
+                    android:id="@+id/lineara5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view5"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/nubyaccesorios5a5"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1a5"
+                                style="@style/Divider"
+                                android:layout_below="@id/nubyaccesorios5a5" />
+
+                            <TextView
+                                android:id="@+id/txtnubyaccesorios5principala5"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a5"
+                                android:text="@string/txtnubyaccesorios" />
+
+                            <TextView
+                                android:id="@+id/txtnubyaccesorios5a5"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtnubyaccesorios5principala5"
+                                android:text="@string/txtnubyaccesorios5" />
+
+                            <View
+                                android:id="@+id/view2a5"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtnubyaccesorios5a5" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa5"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a5"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncompranubyaccesorios5"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a5"
+                                android:layout_toRightOf="@id/btnconsultaa5"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view5"
@@ -215,13 +530,13 @@
                     android:id="@+id/nubyaccesorios6"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view5"
+                    android:layout_below="@id/lineara5"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtnubyaccesorios6principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view5"
+                    android:layout_below="@id/lineara5"
                     android:layout_toRightOf="@id/nubyaccesorios6"
                     android:text="@string/txtnubyaccesorios" />
 
@@ -232,15 +547,78 @@
                     android:layout_toRightOf="@id/nubyaccesorios6"
                     android:text="@string/txtnubyaccesorios6" />
 
-                <Button
-                    android:id="@+id/btnnubyaccesorios6"
-                    style="@style/btnvermas"
-                    android:layout_above="@+id/view6" />
+                <Switch
+                    android:id="@+id/switch6"
+                    style="@style/switchstyle"
+                    android:layout_above="@id/view6" />
 
                 <TextView
                     android:id="@+id/precionubyaccesorios6"
                     style="@style/precio"
                     android:layout_below="@id/nubyaccesorios6" />
+
+                <LinearLayout
+                    android:id="@+id/lineara6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view6"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/nubyaccesorios6a6"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1a6"
+                                style="@style/Divider"
+                                android:layout_below="@id/nubyaccesorios6a6" />
+
+                            <TextView
+                                android:id="@+id/txtnubyaccesorios6principala6"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a6"
+                                android:text="@string/txtnubyaccesorios" />
+
+                            <TextView
+                                android:id="@+id/txtnubyaccesorios6a6"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtnubyaccesorios6principala6"
+                                android:text="@string/txtnubyaccesorios6" />
+
+                            <View
+                                android:id="@+id/view2a6"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtnubyaccesorios6a6" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa6"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a6"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncompranubyaccesorios6"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a6"
+                                android:layout_toRightOf="@id/btnconsultaa6"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view6"
@@ -251,13 +629,13 @@
                     android:id="@+id/nubyaccesorios7"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view6"
+                    android:layout_below="@id/lineara6"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtnubyaccesorios7principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view6"
+                    android:layout_below="@id/lineara6"
                     android:layout_toRightOf="@id/nubyaccesorios7"
                     android:text="@string/txtnubyaccesorios" />
 
@@ -268,15 +646,78 @@
                     android:layout_toRightOf="@id/nubyaccesorios7"
                     android:text="@string/txtnubyaccesorios7" />
 
-                <Button
-                    android:id="@+id/btnnubyaccesorios7"
-                    style="@style/btnvermas"
-                    android:layout_above="@+id/view7" />
+                <Switch
+                    android:id="@+id/switch7"
+                    style="@style/switchstyle"
+                    android:layout_above="@id/view7" />
 
                 <TextView
                     android:id="@+id/precionubyaccesorios7"
                     style="@style/precio"
                     android:layout_below="@id/nubyaccesorios7" />
+
+                <LinearLayout
+                    android:id="@+id/lineara7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view7"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/nubyaccesorios7a7"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1a7"
+                                style="@style/Divider"
+                                android:layout_below="@id/nubyaccesorios7a7" />
+
+                            <TextView
+                                android:id="@+id/txtnubyaccesorios7principala7"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a7"
+                                android:text="@string/txtnubyaccesorios" />
+
+                            <TextView
+                                android:id="@+id/txtnubyaccesorios7a7"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtnubyaccesorios7principala7"
+                                android:text="@string/txtnubyaccesorios7" />
+
+                            <View
+                                android:id="@+id/view2a7"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtnubyaccesorios7a7" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa7"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a7"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncompranubyaccesorios7"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a7"
+                                android:layout_toRightOf="@id/btnconsultaa7"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view7"
@@ -287,13 +728,13 @@
                     android:id="@+id/nubyaccesorios8"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view7"
+                    android:layout_below="@id/lineara7"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtnubyaccesorios8principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view7"
+                    android:layout_below="@id/lineara7"
                     android:layout_toRightOf="@id/nubyaccesorios8"
                     android:text="@string/txtnubyaccesorios" />
 
@@ -304,15 +745,78 @@
                     android:layout_toRightOf="@id/nubyaccesorios8"
                     android:text="@string/txtnubyaccesorios8" />
 
-                <Button
-                    android:id="@+id/btnnubyaccesorios8"
-                    style="@style/btnvermas"
-                    android:layout_above="@+id/view8" />
+                <Switch
+                    android:id="@+id/switch8"
+                    style="@style/switchstyle"
+                    android:layout_above="@id/view8" />
 
                 <TextView
                     android:id="@+id/precionubyaccesorios8"
                     style="@style/precio"
                     android:layout_below="@id/nubyaccesorios8" />
+
+                <LinearLayout
+                    android:id="@+id/lineara8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view8"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/nubyaccesorios8a8"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1a8"
+                                style="@style/Divider"
+                                android:layout_below="@id/nubyaccesorios8a8" />
+
+                            <TextView
+                                android:id="@+id/txtnubyaccesorios8principala8"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a8"
+                                android:text="@string/txtnubyaccesorios" />
+
+                            <TextView
+                                android:id="@+id/txtnubyaccesorios8a8"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtnubyaccesorios8principala8"
+                                android:text="@string/txtnubyaccesorios8" />
+
+                            <View
+                                android:id="@+id/view2a8"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtnubyaccesorios8a8" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa8"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a8"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncompranubyaccesorios8"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a8"
+                                android:layout_toRightOf="@id/btnconsultaa8"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view8"
@@ -323,13 +827,13 @@
                     android:id="@+id/nubyaccesorios9"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view8"
+                    android:layout_below="@id/lineara8"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtnubyaccesorios9principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view8"
+                    android:layout_below="@id/lineara8"
                     android:layout_toRightOf="@id/nubyaccesorios9"
                     android:text="@string/txtnubyaccesorios" />
 
@@ -340,15 +844,78 @@
                     android:layout_toRightOf="@id/nubyaccesorios9"
                     android:text="@string/txtnubyaccesorios9" />
 
-                <Button
-                    android:id="@+id/btnnubyaccesorios9"
-                    style="@style/btnvermas"
-                    android:layout_above="@+id/view9" />
+                <Switch
+                    android:id="@+id/switch9"
+                    style="@style/switchstyle"
+                    android:layout_above="@id/view9" />
 
                 <TextView
                     android:id="@+id/precionubyaccesorios9"
                     style="@style/precio"
                     android:layout_below="@id/nubyaccesorios9" />
+
+                <LinearLayout
+                    android:id="@+id/lineara9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view9"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/nubyaccesorios9a9"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1a9"
+                                style="@style/Divider"
+                                android:layout_below="@id/nubyaccesorios9a9" />
+
+                            <TextView
+                                android:id="@+id/txtnubyaccesorios9principala9"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a9"
+                                android:text="@string/txtnubyaccesorios" />
+
+                            <TextView
+                                android:id="@+id/txtnubyaccesorios9a9"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtnubyaccesorios9principala9"
+                                android:text="@string/txtnubyaccesorios9" />
+
+                            <View
+                                android:id="@+id/view2a9"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtnubyaccesorios9a9" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa9"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a9"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncompranubyaccesorios9"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a9"
+                                android:layout_toRightOf="@id/btnconsultaa9"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view9"
@@ -359,13 +926,13 @@
                     android:id="@+id/nubyaccesorios10"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view9"
+                    android:layout_below="@id/lineara9"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtnubyaccesorios10principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view9"
+                    android:layout_below="@id/lineara9"
                     android:layout_toRightOf="@id/nubyaccesorios10"
                     android:text="@string/txtnubyaccesorios" />
 
@@ -376,15 +943,78 @@
                     android:layout_toRightOf="@id/nubyaccesorios10"
                     android:text="@string/txtnubyaccesorios10" />
 
-                <Button
-                    android:id="@+id/btnnubyaccesorios10"
-                    style="@style/btnvermas"
-                    android:layout_above="@+id/view10" />
+                <Switch
+                    android:id="@+id/switch10"
+                    style="@style/switchstyle"
+                    android:layout_above="@id/view10" />
 
                 <TextView
                     android:id="@+id/precionubyaccesorios10"
                     style="@style/precio"
                     android:layout_below="@id/nubyaccesorios10" />
+
+                <LinearLayout
+                    android:id="@+id/lineara10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view10"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/nubyaccesorios10a10"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1a10"
+                                style="@style/Divider"
+                                android:layout_below="@id/nubyaccesorios10a10" />
+
+                            <TextView
+                                android:id="@+id/txtnubyaccesorios10principala10"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a10"
+                                android:text="@string/txtnubyaccesorios" />
+
+                            <TextView
+                                android:id="@+id/txtnubyaccesorios10a10"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtnubyaccesorios10principala10"
+                                android:text="@string/txtnubyaccesorios10" />
+
+                            <View
+                                android:id="@+id/view2a10"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtnubyaccesorios10a10" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa10"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a10"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncompranubyaccesorios10"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a10"
+                                android:layout_toRightOf="@id/btnconsultaa10"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view10"

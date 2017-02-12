@@ -33,15 +33,7 @@
             android:paddingRight="10dp">
 
             <android.support.v7.widget.CardView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginBottom="4dp"
-                android:layout_marginLeft="4dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginTop="10dp"
-                app:cardCornerRadius="2dp"
-                app:cardElevation="2dp">
+                style="@style/card">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -62,25 +54,15 @@
 
                     <TextView
                         android:id="@+id/txtnukaccesorios1principal"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
                         android:layout_below="@id/view1"
-                        android:layout_marginTop="10dp"
-                        android:fontFamily="sans-serif-light"
                         android:text="@string/txtnukaccesorios"
-                        android:textAlignment="center"
-                        android:textSize="25sp" />
+                        style="@style/txtcardprinc" />
 
                     <TextView
                         android:id="@+id/txtnukaccesorios1"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
                         android:layout_below="@id/txtnukaccesorios1principal"
-                        android:paddingTop="10dp"
                         android:text="@string/txtnukaccesorios1"
-                        android:textAlignment="center"
-                        android:textColor="@color/grey"
-                        android:textSize="20sp" />
+                        style="@style/txtcarddesc" />
 
                     <View
                         android:id="@+id/view2"
