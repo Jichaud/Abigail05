@@ -6,12 +6,17 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CompoundButton;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.Switch;
 import android.widget.TextView;
 
 import com.abigail05.MainActivity;
 import com.abigail05.R;
+import com.abigail05.contacto;
 import com.abigail05.marcas;
+import com.abigail05.webview;
 import com.squareup.picasso.Picasso;
 
 import org.jsoup.Jsoup;
@@ -24,17 +29,83 @@ public class aventchupetes extends AppCompatActivity {
 
     Button home;
     Button marca;
-    Button btnaventchupete1;
-    Button btnaventchupete2;
-    Button btnaventchupete3;
-    Button btnaventchupete4;
-    Button btnaventchupete5;
-    Button btnaventchupete6;
-    Button btnaventchupete7;
-    Button btnaventchupete8;
-    Button btnaventchupete9;
-    Button btnaventchupete10;
-    Button btnaventchupete11;
+    Button btncompraaventchupete1;
+    Button btnconsultaa1;
+    TextView txtaventchupete1a1;
+    String urlcomboa1 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=3f271b615c2e60d8d4b074aee3471f51";
+    ImageView aventchupete1a1;
+    Button btncompraaventchupete2;
+    Button btnconsultaa2;
+    TextView txtaventchupete2a2;
+    String urlcomboa2 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=405f187e2fd7622b6190d480b76395df";
+    ImageView aventchupete2a2;
+    Button btncompraaventchupete3;
+    Button btnconsultaa3;
+    TextView txtaventchupete3a3;
+    String urlcomboa3 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=a97aa0c1a059bb2ab2b08129d63a0e80";
+    ImageView aventchupete3a3;
+    Button btncompraaventchupete4;
+    Button btnconsultaa4;
+    TextView txtaventchupete4a4;
+    String urlcomboa4 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=7a5a1dc83b2b13daf4c801fd89a5c6f5";
+    ImageView aventchupete4a4;
+    Button btncompraaventchupete5;
+    Button btnconsultaa5;
+    TextView txtaventchupete5a5;
+    String urlcomboa5 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=58ad042793df5294ad796161b21c0b72";
+    ImageView aventchupete5a5;
+    Button btncompraaventchupete6;
+    Button btnconsultaa6;
+    TextView txtaventchupete6a6;
+    String urlcomboa6 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=2552fe124cf4710a065eee02ad8cc626";
+    ImageView aventchupete6a6;
+    Button btncompraaventchupete7;
+    Button btnconsultaa7;
+    TextView txtaventchupete7a7;
+    String urlcomboa7 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=d751a7089206e4c7181c3971a791cbd3";
+    ImageView aventchupete7a7;
+    Button btncompraaventchupete8;
+    Button btnconsultaa8;
+    TextView txtaventchupete8a8;
+    String urlcomboa8 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=d9c71982576a16266a05e48abdb20e3c";
+    ImageView aventchupete8a8;
+    Button btncompraaventchupete9;
+    Button btnconsultaa9;
+    TextView txtaventchupete9a9;
+    String urlcomboa9 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=d2cc25012bc80232e01d3693ec066b86";
+    ImageView aventchupete9a9;
+    Button btncompraaventchupete10;
+    Button btnconsultaa10;
+    TextView txtaventchupete10a10;
+    String urlcomboa10 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=cf482d550c63d982dc7a663836d9eda8";
+    ImageView aventchupete10a10;
+    Button btncompraaventchupete11;
+    Button btnconsultaa11;
+    TextView txtaventchupete11a11;
+    String urlcomboa11 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=f115f600618b5c3ccde7ac1205a3ec7e";
+    ImageView aventchupete11a11;
+    Switch switch1;
+    Switch switch2;
+    Switch switch3;
+    Switch switch4;
+    Switch switch5;
+    Switch switch6;
+    Switch switch7;
+    Switch switch8;
+    Switch switch9;
+    Switch switch10;
+    Switch switch11;
+    LinearLayout lineara1;
+    LinearLayout lineara2;
+    LinearLayout lineara3;
+    LinearLayout lineara4;
+    LinearLayout lineara5;
+    LinearLayout lineara6;
+    LinearLayout lineara7;
+    LinearLayout lineara8;
+    LinearLayout lineara9;
+    LinearLayout lineara10;
+    LinearLayout lineara11;
     TextView precioaventchupete1;
     TextView precioaventchupete2;
     TextView precioaventchupete3;
@@ -75,7 +146,501 @@ public class aventchupetes extends AppCompatActivity {
         setContentView(R.layout.activity_aventchupetes);
 
         new precioaventchupetesAsync().execute();
+
+        /* chupete 1 */
+
+        aventchupete1a1 = (ImageView)findViewById(R.id.aventchupete1a1);
+        Picasso.with(this).load(urlaventchupete1).into(aventchupete1a1);
+
+        txtaventchupete1a1 = (TextView)findViewById(R.id.txtaventchupete1a1);
+        final String stconsultaa1 = txtaventchupete1a1.getText().toString();
+        btnconsultaa1 = (Button)findViewById(R.id.btnconsultaa1);
+        btnconsultaa1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa1 = new Intent(aventchupetes.this,contacto.class);
+                btnconsultaa1.putExtra("consulta", stconsultaa1);
+                startActivity(btnconsultaa1);
+            }
+        });
+
+
+        btncompraaventchupete1 = (Button)findViewById(R.id.btncompraaventchupete1);
+        btncompraaventchupete1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncompraaventchupete1 = new Intent(aventchupetes.this,webview.class);
+                btncompraaventchupete1.putExtra("string", urlcomboa1);
+                startActivity(btncompraaventchupete1);
+            }
+        });
+
+        lineara1 = (LinearLayout)findViewById(R.id.lineara1);
+
+        switch1 = (Switch)findViewById(R.id.switch1);
+        switch1.setChecked(false);
+        switch1.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch1.isChecked()) {
+                    lineara1.setVisibility(View.VISIBLE);
+                } else {
+                    lineara1.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* chupete 2 */
+
+        aventchupete2a2 = (ImageView)findViewById(R.id.aventchupete2a2);
+        Picasso.with(this).load(urlaventchupete2).into(aventchupete2a2);
+
+
+        txtaventchupete2a2 = (TextView)findViewById(R.id.txtaventchupete2a2);
+        final String stconsultaa2 = txtaventchupete2a2.getText().toString();
+        btnconsultaa2 = (Button)findViewById(R.id.btnconsultaa2);
+        btnconsultaa2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa2 = new Intent(aventchupetes.this,contacto.class);
+                btnconsultaa2.putExtra("consulta", stconsultaa2);
+                startActivity(btnconsultaa2);
+            }
+        });
+
+
+        btncompraaventchupete2 = (Button)findViewById(R.id.btncompraaventchupete2);
+        btncompraaventchupete2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncompraaventchupete2 = new Intent(aventchupetes.this,webview.class);
+                btncompraaventchupete2.putExtra("string", urlcomboa2);
+                startActivity(btncompraaventchupete2);
+            }
+        });
+
+        lineara2 = (LinearLayout)findViewById(R.id.lineara2);
+
+        switch2 = (Switch)findViewById(R.id.switch2);
+        switch2.setChecked(false);
+        switch2.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch2.isChecked()) {
+                    lineara2.setVisibility(View.VISIBLE);
+                } else {
+                    lineara2.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* chupete 3 */
+
+        aventchupete3a3 = (ImageView)findViewById(R.id.aventchupete3a3);
+        Picasso.with(this).load(urlaventchupete3).into(aventchupete3a3);
+
+
+        txtaventchupete3a3 = (TextView)findViewById(R.id.txtaventchupete3a3);
+        final String stconsultaa3 = txtaventchupete3a3.getText().toString();
+        btnconsultaa3 = (Button)findViewById(R.id.btnconsultaa3);
+        btnconsultaa3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa3 = new Intent(aventchupetes.this,contacto.class);
+                btnconsultaa3.putExtra("consulta", stconsultaa3);
+                startActivity(btnconsultaa3);
+            }
+        });
+
+
+        btncompraaventchupete3 = (Button)findViewById(R.id.btncompraaventchupete3);
+        btncompraaventchupete3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncompraaventchupete3 = new Intent(aventchupetes.this,webview.class);
+                btncompraaventchupete3.putExtra("string", urlcomboa3);
+                startActivity(btncompraaventchupete3);
+            }
+        });
+
+        lineara3 = (LinearLayout)findViewById(R.id.lineara3);
+
+        switch3 = (Switch)findViewById(R.id.switch3);
+        switch3.setChecked(false);
+        switch3.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch3.isChecked()) {
+                    lineara3.setVisibility(View.VISIBLE);
+                } else {
+                    lineara3.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* chupete 4 */
+
+        aventchupete4a4 = (ImageView)findViewById(R.id.aventchupete4a4);
+        Picasso.with(this).load(urlaventchupete4).into(aventchupete4a4);
+
+
+        txtaventchupete4a4 = (TextView)findViewById(R.id.txtaventchupete4a4);
+        final String stconsultaa4 = txtaventchupete4a4.getText().toString();
+        btnconsultaa4 = (Button)findViewById(R.id.btnconsultaa4);
+        btnconsultaa4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa4 = new Intent(aventchupetes.this,contacto.class);
+                btnconsultaa4.putExtra("consulta", stconsultaa4);
+                startActivity(btnconsultaa4);
+            }
+        });
+
+
+        btncompraaventchupete4 = (Button)findViewById(R.id.btncompraaventchupete4);
+        btncompraaventchupete4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncompraaventchupete4 = new Intent(aventchupetes.this,webview.class);
+                btncompraaventchupete4.putExtra("string", urlcomboa4);
+                startActivity(btncompraaventchupete4);
+            }
+        });
+
+        lineara4 = (LinearLayout)findViewById(R.id.lineara4);
+
+        switch4 = (Switch)findViewById(R.id.switch4);
+        switch4.setChecked(false);
+        switch4.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch4.isChecked()) {
+                    lineara4.setVisibility(View.VISIBLE);
+                } else {
+                    lineara4.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* chupete 5 */
+
+        aventchupete5a5 = (ImageView)findViewById(R.id.aventchupete5a5);
+        Picasso.with(this).load(urlaventchupete5).into(aventchupete5a5);
+
+
+        txtaventchupete5a5 = (TextView)findViewById(R.id.txtaventchupete5a5);
+        final String stconsultaa5 = txtaventchupete5a5.getText().toString();
+        btnconsultaa5 = (Button)findViewById(R.id.btnconsultaa5);
+        btnconsultaa5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa5 = new Intent(aventchupetes.this,contacto.class);
+                btnconsultaa5.putExtra("consulta", stconsultaa5);
+                startActivity(btnconsultaa5);
+            }
+        });
+
+
+        btncompraaventchupete5 = (Button)findViewById(R.id.btncompraaventchupete5);
+        btncompraaventchupete5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncompraaventchupete5 = new Intent(aventchupetes.this,webview.class);
+                btncompraaventchupete5.putExtra("string", urlcomboa5);
+                startActivity(btncompraaventchupete5);
+            }
+        });
+
+        lineara5 = (LinearLayout)findViewById(R.id.lineara5);
+
+        switch5 = (Switch)findViewById(R.id.switch5);
+        switch5.setChecked(false);
+        switch5.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch5.isChecked()) {
+                    lineara5.setVisibility(View.VISIBLE);
+                } else {
+                    lineara5.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* chupete 6 */
+
+        aventchupete6a6 = (ImageView)findViewById(R.id.aventchupete6a6);
+        Picasso.with(this).load(urlaventchupete6).into(aventchupete6a6);
+
+
+        txtaventchupete6a6 = (TextView)findViewById(R.id.txtaventchupete6a6);
+        final String stconsultaa6 = txtaventchupete6a6.getText().toString();
+        btnconsultaa6 = (Button)findViewById(R.id.btnconsultaa6);
+        btnconsultaa6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa6 = new Intent(aventchupetes.this,contacto.class);
+                btnconsultaa6.putExtra("consulta", stconsultaa6);
+                startActivity(btnconsultaa6);
+            }
+        });
+
+
+        btncompraaventchupete6 = (Button)findViewById(R.id.btncompraaventchupete6);
+        btncompraaventchupete6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncompraaventchupete6 = new Intent(aventchupetes.this,webview.class);
+                btncompraaventchupete6.putExtra("string", urlcomboa6);
+                startActivity(btncompraaventchupete6);
+            }
+        });
+
+        lineara6 = (LinearLayout)findViewById(R.id.lineara6);
+
+        switch6 = (Switch)findViewById(R.id.switch6);
+        switch6.setChecked(false);
+        switch6.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch6.isChecked()) {
+                    lineara6.setVisibility(View.VISIBLE);
+                } else {
+                    lineara6.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* chupete 7 */
+
+        aventchupete7a7 = (ImageView)findViewById(R.id.aventchupete7a7);
+        Picasso.with(this).load(urlaventchupete7).into(aventchupete7a7);
+
+
+        txtaventchupete7a7 = (TextView)findViewById(R.id.txtaventchupete7a7);
+        final String stconsultaa7 = txtaventchupete7a7.getText().toString();
+        btnconsultaa7 = (Button)findViewById(R.id.btnconsultaa7);
+        btnconsultaa7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa7 = new Intent(aventchupetes.this,contacto.class);
+                btnconsultaa7.putExtra("consulta", stconsultaa7);
+                startActivity(btnconsultaa7);
+            }
+        });
+
+
+        btncompraaventchupete7 = (Button)findViewById(R.id.btncompraaventchupete7);
+        btncompraaventchupete7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncompraaventchupete7 = new Intent(aventchupetes.this,webview.class);
+                btncompraaventchupete7.putExtra("string", urlcomboa7);
+                startActivity(btncompraaventchupete7);
+            }
+        });
+
+        lineara7 = (LinearLayout)findViewById(R.id.lineara7);
+
+        switch7 = (Switch)findViewById(R.id.switch7);
+        switch7.setChecked(false);
+        switch7.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch7.isChecked()) {
+                    lineara7.setVisibility(View.VISIBLE);
+                } else {
+                    lineara7.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* chupete 8 */
+
+        aventchupete8a8 = (ImageView)findViewById(R.id.aventchupete8a8);
+        Picasso.with(this).load(urlaventchupete8).into(aventchupete8a8);
+
+
+        txtaventchupete8a8 = (TextView)findViewById(R.id.txtaventchupete8a8);
+        final String stconsultaa8 = txtaventchupete8a8.getText().toString();
+        btnconsultaa8 = (Button)findViewById(R.id.btnconsultaa8);
+        btnconsultaa8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa8 = new Intent(aventchupetes.this,contacto.class);
+                btnconsultaa8.putExtra("consulta", stconsultaa8);
+                startActivity(btnconsultaa8);
+            }
+        });
+
+
+        btncompraaventchupete8 = (Button)findViewById(R.id.btncompraaventchupete8);
+        btncompraaventchupete8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncompraaventchupete8 = new Intent(aventchupetes.this,webview.class);
+                btncompraaventchupete8.putExtra("string", urlcomboa8);
+                startActivity(btncompraaventchupete8);
+            }
+        });
+
+        lineara8 = (LinearLayout)findViewById(R.id.lineara8);
+
+        switch8 = (Switch)findViewById(R.id.switch8);
+        switch8.setChecked(false);
+        switch8.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch8.isChecked()) {
+                    lineara8.setVisibility(View.VISIBLE);
+                } else {
+                    lineara8.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* chupete 9 */
+
+        aventchupete9a9 = (ImageView)findViewById(R.id.aventchupete9a9);
+        Picasso.with(this).load(urlaventchupete9).into(aventchupete9a9);
+
+
+        txtaventchupete9a9 = (TextView)findViewById(R.id.txtaventchupete9a9);
+        final String stconsultaa9 = txtaventchupete9a9.getText().toString();
+        btnconsultaa9 = (Button)findViewById(R.id.btnconsultaa9);
+        btnconsultaa9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa9 = new Intent(aventchupetes.this,contacto.class);
+                btnconsultaa9.putExtra("consulta", stconsultaa9);
+                startActivity(btnconsultaa9);
+            }
+        });
+
+
+        btncompraaventchupete9 = (Button)findViewById(R.id.btncompraaventchupete9);
+        btncompraaventchupete9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncompraaventchupete9 = new Intent(aventchupetes.this,webview.class);
+                btncompraaventchupete9.putExtra("string", urlcomboa9);
+                startActivity(btncompraaventchupete9);
+            }
+        });
+
+        lineara9 = (LinearLayout)findViewById(R.id.lineara9);
+
+        switch9 = (Switch)findViewById(R.id.switch9);
+        switch9.setChecked(false);
+        switch9.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch9.isChecked()) {
+                    lineara9.setVisibility(View.VISIBLE);
+                } else {
+                    lineara9.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* chupete 10 */
+
+        aventchupete10a10 = (ImageView)findViewById(R.id.aventchupete10a10);
+        Picasso.with(this).load(urlaventchupete10).into(aventchupete10a10);
+
+
+        txtaventchupete10a10 = (TextView)findViewById(R.id.txtaventchupete10a10);
+        final String stconsultaa10 = txtaventchupete10a10.getText().toString();
+        btnconsultaa10 = (Button)findViewById(R.id.btnconsultaa10);
+        btnconsultaa10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa10 = new Intent(aventchupetes.this,contacto.class);
+                btnconsultaa10.putExtra("consulta", stconsultaa10);
+                startActivity(btnconsultaa10);
+            }
+        });
+
+
+        btncompraaventchupete10 = (Button)findViewById(R.id.btncompraaventchupete10);
+        btncompraaventchupete10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncompraaventchupete10 = new Intent(aventchupetes.this,webview.class);
+                btncompraaventchupete10.putExtra("string", urlcomboa10);
+                startActivity(btncompraaventchupete10);
+            }
+        });
+
+        lineara10 = (LinearLayout)findViewById(R.id.lineara10);
+
+        switch10 = (Switch)findViewById(R.id.switch10);
+        switch10.setChecked(false);
+        switch10.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch10.isChecked()) {
+                    lineara10.setVisibility(View.VISIBLE);
+                } else {
+                    lineara10.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* chupete 11 */
+
+        aventchupete11a11 = (ImageView)findViewById(R.id.aventchupete11a11);
+        Picasso.with(this).load(urlaventchupete11).into(aventchupete11a11);
+
+        txtaventchupete11a11 = (TextView)findViewById(R.id.txtaventchupete11a11);
+        final String stconsultaa11 = txtaventchupete11a11.getText().toString();
+        btnconsultaa11 = (Button)findViewById(R.id.btnconsultaa11);
+        btnconsultaa11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa11 = new Intent(aventchupetes.this,contacto.class);
+                btnconsultaa11.putExtra("consulta", stconsultaa11);
+                startActivity(btnconsultaa11);
+            }
+        });
+
+
+        btncompraaventchupete11 = (Button)findViewById(R.id.btncompraaventchupete11);
+        btncompraaventchupete11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncompraaventchupete1 = new Intent(aventchupetes.this,webview.class);
+                btncompraaventchupete1.putExtra("string", urlcomboa11);
+                startActivity(btncompraaventchupete1);
+            }
+        });
+
+        lineara11 = (LinearLayout)findViewById(R.id.lineara11);
+
+        switch11 = (Switch)findViewById(R.id.switch11);
+        switch11.setChecked(false);
+        switch11.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch11.isChecked()) {
+                    lineara11.setVisibility(View.VISIBLE);
+                } else {
+                    lineara11.setVisibility(View.GONE);
+                }
+
+            }
+        });
         
+        /* resto de código */
         precioaventchupete1 = (TextView)findViewById(R.id.precioaventchupete1);
         precioaventchupete2 = (TextView)findViewById(R.id.precioaventchupete2);
         precioaventchupete3 = (TextView)findViewById(R.id.precioaventchupete3);
@@ -120,105 +685,6 @@ public class aventchupetes extends AppCompatActivity {
 
         aventchupete11 = (ImageView)findViewById(R.id.aventchupete11);
         Picasso.with(this).load(urlaventchupete11).into(aventchupete11);
-
-        btnaventchupete1 = (Button)findViewById(R.id.btnaventchupete1);
-        btnaventchupete1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnaventchupete1 = new Intent(aventchupetes.this, aventchupete1.class);
-                startActivity(btnaventchupete1);
-            }
-        });
-
-        btnaventchupete2 = (Button)findViewById(R.id.btnaventchupete2);
-        btnaventchupete2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnaventchupete2 = new Intent(aventchupetes.this, aventchupete2.class);
-                startActivity(btnaventchupete2);
-            }
-        });
-
-        btnaventchupete3 = (Button)findViewById(R.id.btnaventchupete3);
-        btnaventchupete3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnaventchupete3 = new Intent(aventchupetes.this, aventchupete3.class);
-                startActivity(btnaventchupete3);
-            }
-        });
-
-        btnaventchupete4 = (Button)findViewById(R.id.btnaventchupete4);
-        btnaventchupete4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnaventchupete4 = new Intent(aventchupetes.this, aventchupete4.class);
-                startActivity(btnaventchupete4);
-            }
-        });
-
-        btnaventchupete5 = (Button)findViewById(R.id.btnaventchupete5);
-        btnaventchupete5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnaventchupete5 = new Intent(aventchupetes.this, aventchupete5.class);
-                startActivity(btnaventchupete5);
-            }
-        });
-
-        btnaventchupete6 = (Button)findViewById(R.id.btnaventchupete6);
-        btnaventchupete6.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnaventchupete6 = new Intent(aventchupetes.this, aventchupete6.class);
-                startActivity(btnaventchupete6);
-            }
-        });
-
-        btnaventchupete7 = (Button)findViewById(R.id.btnaventchupete7);
-        btnaventchupete7.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnaventchupete7 = new Intent(aventchupetes.this, aventchupete7.class);
-                startActivity(btnaventchupete7);
-            }
-        });
-
-        btnaventchupete8 = (Button)findViewById(R.id.btnaventchupete8);
-        btnaventchupete8.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnaventchupete8 = new Intent(aventchupetes.this, aventchupete8.class);
-                startActivity(btnaventchupete8);
-            }
-        });
-
-        btnaventchupete9 = (Button)findViewById(R.id.btnaventchupete9);
-        btnaventchupete9.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnaventchupete9 = new Intent(aventchupetes.this, aventchupete9.class);
-                startActivity(btnaventchupete9);
-            }
-        });
-
-        btnaventchupete10 = (Button)findViewById(R.id.btnaventchupete10);
-        btnaventchupete10.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnaventchupete10 = new Intent(aventchupetes.this, aventchupete10.class);
-                startActivity(btnaventchupete10);
-            }
-        });
-
-        btnaventchupete11 = (Button)findViewById(R.id.btnaventchupete11);
-        btnaventchupete11.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnaventchupete11 = new Intent(aventchupetes.this, aventchupete11.class);
-                startActivity(btnaventchupete11);
-            }
-        });
 
         marca = (Button) findViewById(R.id.btnvmarca);
         marca.setOnClickListener(new View.OnClickListener() {

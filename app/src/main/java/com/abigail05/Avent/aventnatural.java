@@ -6,12 +6,17 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CompoundButton;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.Switch;
 import android.widget.TextView;
 
 import com.abigail05.MainActivity;
 import com.abigail05.R;
+import com.abigail05.contacto;
 import com.abigail05.marcas;
+import com.abigail05.webview;
 import com.squareup.picasso.Picasso;
 
 import org.jsoup.Jsoup;
@@ -24,14 +29,62 @@ public class aventnatural extends AppCompatActivity {
 
     Button home;
     Button marca;
-    Button btnaventnatural1;
-    Button btnaventnatural2;
-    Button btnaventnatural3;
-    Button btnaventnatural4;
-    Button btnaventnatural5;
-    Button btnaventnatural6;
-    Button btnaventnatural7;
-    Button btnaventnatural8;
+    Button btncompraaventnatural1;
+    Button btnconsultaa1;
+    TextView txtaventnatural1a1;
+    String urlcomboa1 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=3ed0ce591b116179260b0e605239b7b8";
+    ImageView aventnatural1a1;
+    Button btncompraaventnatural2;
+    Button btnconsultaa2;
+    TextView txtaventnatural2a2;
+    String urlcomboa2 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=8a44b5a1f392314f1234d0f5ceb43149";
+    ImageView aventnatural2a2;
+    Button btncompraaventnatural3;
+    Button btnconsultaa3;
+    TextView txtaventnatural3a3;
+    String urlcomboa3 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=90e5de4dcbdade80a077de3c078dcd09";
+    ImageView aventnatural3a3;
+    Button btncompraaventnatural4;
+    Button btnconsultaa4;
+    TextView txtaventnatural4a4;
+    String urlcomboa4 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=942bf90fd3bf459942267ba05ddf857e";
+    ImageView aventnatural4a4;
+    Button btncompraaventnatural5;
+    Button btnconsultaa5;
+    TextView txtaventnatural5a5;
+    String urlcomboa5 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=4db14fafcace0f069d478ae124efe429";
+    ImageView aventnatural5a5;
+    Button btncompraaventnatural6;
+    Button btnconsultaa6;
+    TextView txtaventnatural6a6;
+    String urlcomboa6 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=4dcc086fb27308e70ba2736cd27a078d";
+    ImageView aventnatural6a6;
+    Button btncompraaventnatural7;
+    Button btnconsultaa7;
+    TextView txtaventnatural7a7;
+    String urlcomboa7 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=06af2f3209771555f8e9bc45dcbe717a";
+    ImageView aventnatural7a7;
+    Button btncompraaventnatural8;
+    Button btnconsultaa8;
+    TextView txtaventnatural8a8;
+    String urlcomboa8 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=702e30fc285e25bbb235beb165165150";
+    ImageView aventnatural8a8;
+    Switch switch1;
+    Switch switch2;
+    Switch switch3;
+    Switch switch4;
+    Switch switch5;
+    Switch switch6;
+    Switch switch7;
+    Switch switch8;
+    LinearLayout lineara1;
+    LinearLayout lineara2;
+    LinearLayout lineara3;
+    LinearLayout lineara4;
+    LinearLayout lineara5;
+    LinearLayout lineara6;
+    LinearLayout lineara7;
+    LinearLayout lineara8;
     TextView precioaventnatural1;
     TextView precioaventnatural2;
     TextView precioaventnatural3;
@@ -63,6 +116,368 @@ public class aventnatural extends AppCompatActivity {
         setContentView(R.layout.activity_aventnatural);
 
         new precioaventnaturalAsync().execute();
+
+        /* natural 1 */
+
+        aventnatural1a1 = (ImageView)findViewById(R.id.aventnatural1a1);
+        Picasso.with(this).load(urlaventnatural1).into(aventnatural1a1);
+
+
+        txtaventnatural1a1 = (TextView)findViewById(R.id.txtaventnatural1a1);
+        final String stconsultaa1 = txtaventnatural1a1.getText().toString();
+        btnconsultaa1 = (Button)findViewById(R.id.btnconsultaa1);
+        btnconsultaa1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa1 = new Intent(aventnatural.this,contacto.class);
+                btnconsultaa1.putExtra("consulta", stconsultaa1);
+                startActivity(btnconsultaa1);
+            }
+        });
+
+
+        btncompraaventnatural1 = (Button)findViewById(R.id.btncompraaventnatural1);
+        btncompraaventnatural1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncompraaventnatural1 = new Intent(aventnatural.this,webview.class);
+                btncompraaventnatural1.putExtra("string", urlcomboa1);
+                startActivity(btncompraaventnatural1);
+            }
+        });
+
+        lineara1 = (LinearLayout)findViewById(R.id.lineara1);
+
+        switch1 = (Switch)findViewById(R.id.switch1);
+        switch1.setChecked(false);
+        switch1.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch1.isChecked()) {
+                    lineara1.setVisibility(View.VISIBLE);
+                } else {
+                    lineara1.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* natural 2 */
+
+        aventnatural2a2 = (ImageView)findViewById(R.id.aventnatural2a2);
+        Picasso.with(this).load(urlaventnatural2).into(aventnatural2a2);
+
+
+        txtaventnatural2a2 = (TextView)findViewById(R.id.txtaventnatural2a2);
+        final String stconsultaa2 = txtaventnatural2a2.getText().toString();
+        btnconsultaa2 = (Button)findViewById(R.id.btnconsultaa2);
+        btnconsultaa2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa2 = new Intent(aventnatural.this,contacto.class);
+                btnconsultaa2.putExtra("consulta", stconsultaa2);
+                startActivity(btnconsultaa2);
+            }
+        });
+
+
+        btncompraaventnatural2 = (Button)findViewById(R.id.btncompraaventnatural2);
+        btncompraaventnatural2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncompraaventnatural2 = new Intent(aventnatural.this,webview.class);
+                btncompraaventnatural2.putExtra("string", urlcomboa2);
+                startActivity(btncompraaventnatural2);
+            }
+        });
+
+        lineara2 = (LinearLayout)findViewById(R.id.lineara2);
+
+        switch2 = (Switch)findViewById(R.id.switch2);
+        switch2.setChecked(false);
+        switch2.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch2.isChecked()) {
+                    lineara2.setVisibility(View.VISIBLE);
+                } else {
+                    lineara2.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* natural 3 */
+
+        aventnatural3a3 = (ImageView)findViewById(R.id.aventnatural3a3);
+        Picasso.with(this).load(urlaventnatural3).into(aventnatural3a3);
+
+
+        txtaventnatural3a3 = (TextView)findViewById(R.id.txtaventnatural3a3);
+        final String stconsultaa3 = txtaventnatural3a3.getText().toString();
+        btnconsultaa3 = (Button)findViewById(R.id.btnconsultaa3);
+        btnconsultaa3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa3 = new Intent(aventnatural.this,contacto.class);
+                btnconsultaa3.putExtra("consulta", stconsultaa3);
+                startActivity(btnconsultaa3);
+            }
+        });
+
+
+        btncompraaventnatural3 = (Button)findViewById(R.id.btncompraaventnatural3);
+        btncompraaventnatural3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncompraaventnatural3 = new Intent(aventnatural.this,webview.class);
+                btncompraaventnatural3.putExtra("string", urlcomboa3);
+                startActivity(btncompraaventnatural3);
+            }
+        });
+
+        lineara3 = (LinearLayout)findViewById(R.id.lineara3);
+
+        switch3 = (Switch)findViewById(R.id.switch3);
+        switch3.setChecked(false);
+        switch3.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch3.isChecked()) {
+                    lineara3.setVisibility(View.VISIBLE);
+                } else {
+                    lineara3.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* natural 4 */
+
+        aventnatural4a4 = (ImageView)findViewById(R.id.aventnatural4a4);
+        Picasso.with(this).load(urlaventnatural4).into(aventnatural4a4);
+
+
+        txtaventnatural4a4 = (TextView)findViewById(R.id.txtaventnatural4a4);
+        final String stconsultaa4 = txtaventnatural4a4.getText().toString();
+        btnconsultaa4 = (Button)findViewById(R.id.btnconsultaa4);
+        btnconsultaa4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa4 = new Intent(aventnatural.this,contacto.class);
+                btnconsultaa4.putExtra("consulta", stconsultaa4);
+                startActivity(btnconsultaa4);
+            }
+        });
+
+
+        btncompraaventnatural4 = (Button)findViewById(R.id.btncompraaventnatural4);
+        btncompraaventnatural4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncompraaventnatural4 = new Intent(aventnatural.this,webview.class);
+                btncompraaventnatural4.putExtra("string", urlcomboa4);
+                startActivity(btncompraaventnatural4);
+            }
+        });
+
+        lineara4 = (LinearLayout)findViewById(R.id.lineara4);
+
+        switch4 = (Switch)findViewById(R.id.switch4);
+        switch4.setChecked(false);
+        switch4.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch4.isChecked()) {
+                    lineara4.setVisibility(View.VISIBLE);
+                } else {
+                    lineara4.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* natural 5 */
+
+        aventnatural5a5 = (ImageView)findViewById(R.id.aventnatural5a5);
+        Picasso.with(this).load(urlaventnatural5).into(aventnatural5a5);
+
+
+        txtaventnatural5a5 = (TextView)findViewById(R.id.txtaventnatural5a5);
+        final String stconsultaa5 = txtaventnatural5a5.getText().toString();
+        btnconsultaa5 = (Button)findViewById(R.id.btnconsultaa5);
+        btnconsultaa5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa5 = new Intent(aventnatural.this,contacto.class);
+                btnconsultaa5.putExtra("consulta", stconsultaa5);
+                startActivity(btnconsultaa5);
+            }
+        });
+
+
+        btncompraaventnatural5 = (Button)findViewById(R.id.btncompraaventnatural5);
+        btncompraaventnatural5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncompraaventnatural5 = new Intent(aventnatural.this,webview.class);
+                btncompraaventnatural5.putExtra("string", urlcomboa5);
+                startActivity(btncompraaventnatural5);
+            }
+        });
+
+        lineara5 = (LinearLayout)findViewById(R.id.lineara5);
+
+        switch5 = (Switch)findViewById(R.id.switch5);
+        switch5.setChecked(false);
+        switch5.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch5.isChecked()) {
+                    lineara5.setVisibility(View.VISIBLE);
+                } else {
+                    lineara5.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* natural 6 */
+
+        aventnatural6a6 = (ImageView)findViewById(R.id.aventnatural6a6);
+        Picasso.with(this).load(urlaventnatural6).into(aventnatural6a6);
+
+
+        txtaventnatural6a6 = (TextView)findViewById(R.id.txtaventnatural6a6);
+        final String stconsultaa6 = txtaventnatural6a6.getText().toString();
+        btnconsultaa6 = (Button)findViewById(R.id.btnconsultaa6);
+        btnconsultaa6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa6 = new Intent(aventnatural.this,contacto.class);
+                btnconsultaa6.putExtra("consulta", stconsultaa6);
+                startActivity(btnconsultaa6);
+            }
+        });
+
+
+        btncompraaventnatural6 = (Button)findViewById(R.id.btncompraaventnatural6);
+        btncompraaventnatural6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncompraaventnatural6 = new Intent(aventnatural.this,webview.class);
+                btncompraaventnatural6.putExtra("string", urlcomboa6);
+                startActivity(btncompraaventnatural6);
+            }
+        });
+
+        lineara6 = (LinearLayout)findViewById(R.id.lineara6);
+
+        switch6 = (Switch)findViewById(R.id.switch6);
+        switch6.setChecked(false);
+        switch6.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch6.isChecked()) {
+                    lineara6.setVisibility(View.VISIBLE);
+                } else {
+                    lineara6.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* natural 7 */
+
+        aventnatural7a7 = (ImageView)findViewById(R.id.aventnatural7a7);
+        Picasso.with(this).load(urlaventnatural7).into(aventnatural7a7);
+
+
+        txtaventnatural7a7 = (TextView)findViewById(R.id.txtaventnatural7a7);
+        final String stconsultaa7 = txtaventnatural7a7.getText().toString();
+        btnconsultaa7 = (Button)findViewById(R.id.btnconsultaa7);
+        btnconsultaa7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa7 = new Intent(aventnatural.this,contacto.class);
+                btnconsultaa7.putExtra("consulta", stconsultaa7);
+                startActivity(btnconsultaa7);
+            }
+        });
+
+
+        btncompraaventnatural7 = (Button)findViewById(R.id.btncompraaventnatural7);
+        btncompraaventnatural7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncompraaventnatural7 = new Intent(aventnatural.this,webview.class);
+                btncompraaventnatural7.putExtra("string", urlcomboa7);
+                startActivity(btncompraaventnatural7);
+            }
+        });
+
+        lineara7 = (LinearLayout)findViewById(R.id.lineara7);
+
+        switch7 = (Switch)findViewById(R.id.switch7);
+        switch7.setChecked(false);
+        switch7.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch7.isChecked()) {
+                    lineara7.setVisibility(View.VISIBLE);
+                } else {
+                    lineara7.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* natural 8 */
+
+        aventnatural8a8 = (ImageView)findViewById(R.id.aventnatural8a8);
+        Picasso.with(this).load(urlaventnatural8).into(aventnatural8a8);
+
+
+        txtaventnatural8a8 = (TextView)findViewById(R.id.txtaventnatural8a8);
+        final String stconsultaa8 = txtaventnatural8a8.getText().toString();
+        btnconsultaa8 = (Button)findViewById(R.id.btnconsultaa8);
+        btnconsultaa8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa8 = new Intent(aventnatural.this,contacto.class);
+                btnconsultaa8.putExtra("consulta", stconsultaa8);
+                startActivity(btnconsultaa8);
+            }
+        });
+
+
+        btncompraaventnatural8 = (Button)findViewById(R.id.btncompraaventnatural8);
+        btncompraaventnatural8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncompraaventnatural8 = new Intent(aventnatural.this,webview.class);
+                btncompraaventnatural8.putExtra("string", urlcomboa8);
+                startActivity(btncompraaventnatural8);
+            }
+        });
+
+        lineara8 = (LinearLayout)findViewById(R.id.lineara8);
+
+        switch8 = (Switch)findViewById(R.id.switch8);
+        switch8.setChecked(false);
+        switch8.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch8.isChecked()) {
+                    lineara8.setVisibility(View.VISIBLE);
+                } else {
+                    lineara8.setVisibility(View.GONE);
+                }
+
+            }
+        });
+        
+        /* resto de código */
 
         precioaventnatural1 = (TextView)findViewById(R.id.precioaventnatural1);
         precioaventnatural2 = (TextView)findViewById(R.id.precioaventnatural2);
@@ -96,78 +511,6 @@ public class aventnatural extends AppCompatActivity {
 
         aventnatural8 = (ImageView)findViewById(R.id.aventnatural8);
         Picasso.with(this).load(urlaventnatural8).into(aventnatural8);
-
-        btnaventnatural1 = (Button)findViewById(R.id.btnaventnatural1);
-        btnaventnatural1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnaventnatural1 = new Intent(aventnatural.this, aventnatural1.class);
-                startActivity(btnaventnatural1);
-            }
-        });
-
-        btnaventnatural2 = (Button)findViewById(R.id.btnaventnatural2);
-        btnaventnatural2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnaventnatural2 = new Intent(aventnatural.this, aventnatural2.class);
-                startActivity(btnaventnatural2);
-            }
-        });
-
-        btnaventnatural3 = (Button)findViewById(R.id.btnaventnatural3);
-        btnaventnatural3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnaventnatural3 = new Intent(aventnatural.this, aventnatural3.class);
-                startActivity(btnaventnatural3);
-            }
-        });
-
-        btnaventnatural4 = (Button)findViewById(R.id.btnaventnatural4);
-        btnaventnatural4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnaventnatural4 = new Intent(aventnatural.this, aventnatural4.class);
-                startActivity(btnaventnatural4);
-            }
-        });
-
-        btnaventnatural5 = (Button)findViewById(R.id.btnaventnatural5);
-        btnaventnatural5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnaventnatural5 = new Intent(aventnatural.this, aventnatural5.class);
-                startActivity(btnaventnatural5);
-            }
-        });
-
-        btnaventnatural6 = (Button)findViewById(R.id.btnaventnatural6);
-        btnaventnatural6.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnaventnatural6 = new Intent(aventnatural.this, aventnatural6.class);
-                startActivity(btnaventnatural6);
-            }
-        });
-
-        btnaventnatural7 = (Button)findViewById(R.id.btnaventnatural7);
-        btnaventnatural7.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnaventnatural7 = new Intent(aventnatural.this, aventnatural7.class);
-                startActivity(btnaventnatural7);
-            }
-        });
-
-        btnaventnatural8 = (Button)findViewById(R.id.btnaventnatural8);
-        btnaventnatural8.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnaventnatural8 = new Intent(aventnatural.this, aventnatural8.class);
-                startActivity(btnaventnatural8);
-            }
-        });
 
         marca = (Button) findViewById(R.id.btnvmarca);
         marca.setOnClickListener(new View.OnClickListener() {

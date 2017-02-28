@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_abriprodlist"
     android:layout_width="match_parent"
@@ -307,8 +306,7 @@
                     android:layout_below="@id/view3"
                     android:visibility="gone">
 
-                    <android.support.v7.widget.CardView
-                        style="@style/card">
+                    <android.support.v7.widget.CardView style="@style/card">
 
                         <RelativeLayout
                             android:layout_width="match_parent"
@@ -448,7 +446,7 @@
 
                     </android.support.v7.widget.CardView>
 
-                    </LinearLayout>
+                </LinearLayout>
 
                 <Switch
                     android:id="@+id/switch3"
@@ -492,8 +490,7 @@
                     android:layout_below="@id/view4"
                     android:visibility="gone">
 
-                    <android.support.v7.widget.CardView
-                        style="@style/card">
+                    <android.support.v7.widget.CardView style="@style/card">
 
                         <RelativeLayout
                             android:layout_width="match_parent"
@@ -545,7 +542,7 @@
 
                     </android.support.v7.widget.CardView>
 
-                    </LinearLayout>
+                </LinearLayout>
 
                 <Switch
                     android:id="@+id/switch4"

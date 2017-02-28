@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_nukaccesorios1"
     android:layout_width="match_parent"
@@ -32,8 +31,7 @@
             android:paddingLeft="10dp"
             android:paddingRight="10dp">
 
-            <android.support.v7.widget.CardView
-                style="@style/card">
+            <android.support.v7.widget.CardView style="@style/card">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -54,15 +52,15 @@
 
                     <TextView
                         android:id="@+id/txtnukaccesorios1principal"
+                        style="@style/txtcardprinc"
                         android:layout_below="@id/view1"
-                        android:text="@string/txtnukaccesorios"
-                        style="@style/txtcardprinc" />
+                        android:text="@string/txtnukaccesorios" />
 
                     <TextView
                         android:id="@+id/txtnukaccesorios1"
+                        style="@style/txtcarddesc"
                         android:layout_below="@id/txtnukaccesorios1principal"
-                        android:text="@string/txtnukaccesorios1"
-                        style="@style/txtcarddesc" />
+                        android:text="@string/txtnukaccesorios1" />
 
                     <View
                         android:id="@+id/view2"

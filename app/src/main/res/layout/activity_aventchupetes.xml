@@ -69,16 +69,78 @@
                     android:layout_toRightOf="@id/aventchupete1"
                     android:text="@string/txtaventchupete1" />
 
-                <Button
-                    android:id="@+id/btnaventchupete1"
-                    style="@style/btnvermas"
-                    android:layout_above="@id/view1"
-                    android:text="@string/btnver" />
+                <Switch
+                    android:id="@+id/switch1"
+                    style="@style/switchstyle"
+                    android:layout_above="@id/view1" />
 
                 <TextView
                     android:id="@+id/precioaventchupete1"
                     style="@style/precio"
                     android:layout_below="@id/aventchupete1" />
+
+                <LinearLayout
+                    android:id="@+id/lineara1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view1"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/aventchupete1a1"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1a1"
+                                style="@style/Divider"
+                                android:layout_below="@id/aventchupete1a1" />
+
+                            <TextView
+                                android:id="@+id/txtaventchupete1principala1"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a1"
+                                android:text="@string/txtaventchupetes" />
+
+                            <TextView
+                                android:id="@+id/txtaventchupete1a1"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtaventchupete1principala1"
+                                android:text="@string/txtaventchupete1" />
+
+                            <View
+                                android:id="@+id/view2a1"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtaventchupete1a1" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa1"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a1"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncompraaventchupete1"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a1"
+                                android:layout_toRightOf="@id/btnconsultaa1"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view1"
@@ -89,13 +151,13 @@
                     android:id="@+id/aventchupete2"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view1"
+                    android:layout_below="@id/lineara1"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtaventchupete2principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view1"
+                    android:layout_below="@id/lineara1"
                     android:layout_toRightOf="@id/aventchupete2"
                     android:text="@string/txtaventchupetes" />
 
@@ -106,16 +168,78 @@
                     android:layout_toRightOf="@id/aventchupete2"
                     android:text="@string/txtaventchupete2" />
 
-                <Button
-                    android:id="@+id/btnaventchupete2"
-                    style="@style/btnvermas"
-                    android:layout_above="@id/view2"
-                    android:text="@string/btnver" />
+                <Switch
+                    android:id="@+id/switch2"
+                    style="@style/switchstyle"
+                    android:layout_above="@id/view2" />
 
                 <TextView
                     android:id="@+id/precioaventchupete2"
                     style="@style/precio"
                     android:layout_below="@id/aventchupete2" />
+
+                <LinearLayout
+                    android:id="@+id/lineara2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view2"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/aventchupete2a2"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1a2"
+                                style="@style/Divider"
+                                android:layout_below="@id/aventchupete2a2" />
+
+                            <TextView
+                                android:id="@+id/txtaventchupete2principala2"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a2"
+                                android:text="@string/txtaventchupetes" />
+
+                            <TextView
+                                android:id="@+id/txtaventchupete2a2"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtaventchupete2principala2"
+                                android:text="@string/txtaventchupete2" />
+
+                            <View
+                                android:id="@+id/view2a2"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtaventchupete2a2" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa2"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a2"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncompraaventchupete2"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a2"
+                                android:layout_toRightOf="@id/btnconsultaa2"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view2"
@@ -126,13 +250,13 @@
                     android:id="@+id/aventchupete3"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view2"
+                    android:layout_below="@id/lineara2"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtaventchupete3principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view2"
+                    android:layout_below="@id/lineara2"
                     android:layout_toRightOf="@id/aventchupete3"
                     android:text="@string/txtaventchupetes" />
 
@@ -143,16 +267,78 @@
                     android:layout_toRightOf="@id/aventchupete3"
                     android:text="@string/txtaventchupete3" />
 
-                <Button
-                    android:id="@+id/btnaventchupete3"
-                    style="@style/btnvermas"
-                    android:layout_above="@id/view3"
-                    android:text="@string/btnver" />
+                <Switch
+                    android:id="@+id/switch3"
+                    style="@style/switchstyle"
+                    android:layout_above="@id/view3" />
 
                 <TextView
                     android:id="@+id/precioaventchupete3"
                     style="@style/precio"
                     android:layout_below="@id/aventchupete3" />
+
+                <LinearLayout
+                    android:id="@+id/lineara3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view3"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/aventchupete3a3"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1a3"
+                                style="@style/Divider"
+                                android:layout_below="@id/aventchupete3a3" />
+
+                            <TextView
+                                android:id="@+id/txtaventchupete3principala3"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a3"
+                                android:text="@string/txtaventchupetes" />
+
+                            <TextView
+                                android:id="@+id/txtaventchupete3a3"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtaventchupete3principala3"
+                                android:text="@string/txtaventchupete3" />
+
+                            <View
+                                android:id="@+id/view2a3"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtaventchupete3a3" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa3"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a3"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncompraaventchupete3"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a3"
+                                android:layout_toRightOf="@id/btnconsultaa3"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view3"
@@ -163,13 +349,13 @@
                     android:id="@+id/aventchupete4"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view3"
+                    android:layout_below="@id/lineara3"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtaventchupete4principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view3"
+                    android:layout_below="@id/lineara3"
                     android:layout_toRightOf="@id/aventchupete4"
                     android:text="@string/txtaventchupetes" />
 
@@ -180,16 +366,78 @@
                     android:layout_toRightOf="@id/aventchupete4"
                     android:text="@string/txtaventchupete4" />
 
-                <Button
-                    android:id="@+id/btnaventchupete4"
-                    style="@style/btnvermas"
-                    android:layout_above="@id/view4"
-                    android:text="@string/btnver" />
+                <Switch
+                    android:id="@+id/switch4"
+                    style="@style/switchstyle"
+                    android:layout_above="@id/view4" />
 
                 <TextView
                     android:id="@+id/precioaventchupete4"
                     style="@style/precio"
                     android:layout_below="@id/aventchupete4" />
+
+                <LinearLayout
+                    android:id="@+id/lineara4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view4"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/aventchupete4a4"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1a4"
+                                style="@style/Divider"
+                                android:layout_below="@id/aventchupete4a4" />
+
+                            <TextView
+                                android:id="@+id/txtaventchupete4principala4"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a4"
+                                android:text="@string/txtaventchupetes" />
+
+                            <TextView
+                                android:id="@+id/txtaventchupete4a4"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtaventchupete4principala4"
+                                android:text="@string/txtaventchupete4" />
+
+                            <View
+                                android:id="@+id/view2a4"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtaventchupete4a4" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa4"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a4"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncompraaventchupete4"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a4"
+                                android:layout_toRightOf="@id/btnconsultaa4"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view4"
@@ -200,13 +448,13 @@
                     android:id="@+id/aventchupete5"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view4"
+                    android:layout_below="@id/lineara4"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtaventchupete5principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view4"
+                    android:layout_below="@id/lineara4"
                     android:layout_toRightOf="@id/aventchupete5"
                     android:text="@string/txtaventchupetes" />
 
@@ -217,16 +465,78 @@
                     android:layout_toRightOf="@id/aventchupete5"
                     android:text="@string/txtaventchupete5" />
 
-                <Button
-                    android:id="@+id/btnaventchupete5"
-                    style="@style/btnvermas"
-                    android:layout_above="@+id/view5"
-                    android:text="@string/btnver" />
+                <Switch
+                    android:id="@+id/switch5"
+                    style="@style/switchstyle"
+                    android:layout_above="@id/view5" />
 
                 <TextView
                     android:id="@+id/precioaventchupete5"
                     style="@style/precio"
                     android:layout_below="@id/aventchupete5" />
+
+                <LinearLayout
+                    android:id="@+id/lineara5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view5"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/aventchupete5a5"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1a5"
+                                style="@style/Divider"
+                                android:layout_below="@id/aventchupete5a5" />
+
+                            <TextView
+                                android:id="@+id/txtaventchupete5principala5"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a5"
+                                android:text="@string/txtaventchupetes" />
+
+                            <TextView
+                                android:id="@+id/txtaventchupete5a5"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtaventchupete5principala5"
+                                android:text="@string/txtaventchupete5" />
+
+                            <View
+                                android:id="@+id/view2a5"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtaventchupete5a5" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa5"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a5"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncompraaventchupete5"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a5"
+                                android:layout_toRightOf="@id/btnconsultaa5"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view5"
@@ -237,13 +547,13 @@
                     android:id="@+id/aventchupete6"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view5"
+                    android:layout_below="@id/lineara5"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtaventchupete6principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view5"
+                    android:layout_below="@id/lineara5"
                     android:layout_toRightOf="@id/aventchupete6"
                     android:text="@string/txtaventchupetes" />
 
@@ -254,16 +564,78 @@
                     android:layout_toRightOf="@id/aventchupete6"
                     android:text="@string/txtaventchupete6" />
 
-                <Button
-                    android:id="@+id/btnaventchupete6"
-                    style="@style/btnvermas"
-                    android:layout_above="@+id/view6"
-                    android:text="@string/btnver" />
+                <Switch
+                    android:id="@+id/switch6"
+                    style="@style/switchstyle"
+                    android:layout_above="@id/view6" />
 
                 <TextView
                     android:id="@+id/precioaventchupete6"
                     style="@style/precio"
                     android:layout_below="@id/aventchupete6" />
+
+                <LinearLayout
+                    android:id="@+id/lineara6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view6"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/aventchupete6a6"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1a6"
+                                style="@style/Divider"
+                                android:layout_below="@id/aventchupete6a6" />
+
+                            <TextView
+                                android:id="@+id/txtaventchupete6principala6"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a6"
+                                android:text="@string/txtaventchupetes" />
+
+                            <TextView
+                                android:id="@+id/txtaventchupete6a6"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtaventchupete6principala6"
+                                android:text="@string/txtaventchupete6" />
+
+                            <View
+                                android:id="@+id/view2a6"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtaventchupete6a6" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa6"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a6"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncompraaventchupete6"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a6"
+                                android:layout_toRightOf="@id/btnconsultaa6"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view6"
@@ -274,7 +646,7 @@
                     android:id="@+id/seisadieciocho"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/view6"
+                    android:layout_below="@id/lineara6"
                     android:layout_centerHorizontal="true"
                     android:layout_margin="10dp"
                     android:background="@drawable/rounded"
@@ -308,16 +680,78 @@
                     android:layout_toRightOf="@id/aventchupete7"
                     android:text="@string/txtaventchupete7" />
 
-                <Button
-                    android:id="@+id/btnaventchupete7"
-                    style="@style/btnvermas"
-                    android:layout_above="@+id/view7"
-                    android:text="@string/btnver" />
+                <Switch
+                    android:id="@+id/switch7"
+                    style="@style/switchstyle"
+                    android:layout_above="@id/view7" />
 
                 <TextView
                     android:id="@+id/precioaventchupete7"
                     style="@style/precio"
                     android:layout_below="@id/aventchupete7" />
+
+                <LinearLayout
+                    android:id="@+id/lineara7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view7"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/aventchupete7a7"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1a7"
+                                style="@style/Divider"
+                                android:layout_below="@id/aventchupete7a7" />
+
+                            <TextView
+                                android:id="@+id/txtaventchupete7principala7"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a7"
+                                android:text="@string/txtaventchupetes" />
+
+                            <TextView
+                                android:id="@+id/txtaventchupete7a7"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtaventchupete7principala7"
+                                android:text="@string/txtaventchupete7" />
+
+                            <View
+                                android:id="@+id/view2a7"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtaventchupete7a7" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa7"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a7"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncompraaventchupete7"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a7"
+                                android:layout_toRightOf="@id/btnconsultaa7"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view7"
@@ -328,13 +762,13 @@
                     android:id="@+id/aventchupete8"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view7"
+                    android:layout_below="@id/lineara7"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtaventchupete8principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view7"
+                    android:layout_below="@id/lineara7"
                     android:layout_toRightOf="@id/aventchupete8"
                     android:text="@string/txtaventchupetes" />
 
@@ -345,16 +779,78 @@
                     android:layout_toRightOf="@id/aventchupete8"
                     android:text="@string/txtaventchupete8" />
 
-                <Button
-                    android:id="@+id/btnaventchupete8"
-                    style="@style/btnvermas"
-                    android:layout_above="@+id/view8"
-                    android:text="@string/btnver" />
+                <Switch
+                    android:id="@+id/switch8"
+                    style="@style/switchstyle"
+                    android:layout_above="@id/view8" />
 
                 <TextView
                     android:id="@+id/precioaventchupete8"
                     style="@style/precio"
                     android:layout_below="@id/aventchupete8" />
+
+                <LinearLayout
+                    android:id="@+id/lineara8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view8"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/aventchupete8a8"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1a8"
+                                style="@style/Divider"
+                                android:layout_below="@id/aventchupete8a8" />
+
+                            <TextView
+                                android:id="@+id/txtaventchupete8principala8"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a8"
+                                android:text="@string/txtaventchupetes" />
+
+                            <TextView
+                                android:id="@+id/txtaventchupete8a8"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtaventchupete8principala8"
+                                android:text="@string/txtaventchupete8" />
+
+                            <View
+                                android:id="@+id/view2a8"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtaventchupete8a8" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa8"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a8"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncompraaventchupete8"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a8"
+                                android:layout_toRightOf="@id/btnconsultaa8"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view8"
@@ -365,13 +861,13 @@
                     android:id="@+id/aventchupete9"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view8"
+                    android:layout_below="@id/lineara8"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtaventchupete9principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view8"
+                    android:layout_below="@id/lineara8"
                     android:layout_toRightOf="@id/aventchupete9"
                     android:text="@string/txtaventchupetes" />
 
@@ -382,16 +878,78 @@
                     android:layout_toRightOf="@id/aventchupete9"
                     android:text="@string/txtaventchupete9" />
 
-                <Button
-                    android:id="@+id/btnaventchupete9"
-                    style="@style/btnvermas"
-                    android:layout_above="@+id/view9"
-                    android:text="@string/btnver" />
+                <Switch
+                    android:id="@+id/switch9"
+                    style="@style/switchstyle"
+                    android:layout_above="@id/view9" />
 
                 <TextView
                     android:id="@+id/precioaventchupete9"
                     style="@style/precio"
                     android:layout_below="@id/aventchupete9" />
+
+                <LinearLayout
+                    android:id="@+id/lineara9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view9"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/aventchupete9a9"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1a9"
+                                style="@style/Divider"
+                                android:layout_below="@id/aventchupete9a9" />
+
+                            <TextView
+                                android:id="@+id/txtaventchupete9principala9"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a9"
+                                android:text="@string/txtaventchupetes" />
+
+                            <TextView
+                                android:id="@+id/txtaventchupete9a9"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtaventchupete9principala9"
+                                android:text="@string/txtaventchupete9" />
+
+                            <View
+                                android:id="@+id/view2a9"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtaventchupete9a9" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa9"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a9"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncompraaventchupete9"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a9"
+                                android:layout_toRightOf="@id/btnconsultaa9"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view9"
@@ -402,13 +960,13 @@
                     android:id="@+id/aventchupete10"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view9"
+                    android:layout_below="@id/lineara9"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtaventchupete10principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view9"
+                    android:layout_below="@id/lineara9"
                     android:layout_toRightOf="@id/aventchupete10"
                     android:text="@string/txtaventchupetes" />
 
@@ -419,16 +977,78 @@
                     android:layout_toRightOf="@id/aventchupete10"
                     android:text="@string/txtaventchupete10" />
 
-                <Button
-                    android:id="@+id/btnaventchupete10"
-                    style="@style/btnvermas"
-                    android:layout_above="@+id/view10"
-                    android:text="@string/btnver" />
+                <Switch
+                    android:id="@+id/switch10"
+                    style="@style/switchstyle"
+                    android:layout_above="@id/view10" />
 
                 <TextView
                     android:id="@+id/precioaventchupete10"
                     style="@style/precio"
                     android:layout_below="@id/aventchupete10" />
+
+                <LinearLayout
+                    android:id="@+id/lineara10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view10"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/aventchupete10a10"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1a10"
+                                style="@style/Divider"
+                                android:layout_below="@id/aventchupete10a10" />
+
+                            <TextView
+                                android:id="@+id/txtaventchupete10principala10"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a10"
+                                android:text="@string/txtaventchupetes" />
+
+                            <TextView
+                                android:id="@+id/txtaventchupete10a10"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtaventchupete10principala10"
+                                android:text="@string/txtaventchupete10" />
+
+                            <View
+                                android:id="@+id/view2a10"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtaventchupete10a10" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa10"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a10"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncompraaventchupete10"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a10"
+                                android:layout_toRightOf="@id/btnconsultaa10"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view10"
@@ -439,13 +1059,13 @@
                     android:id="@+id/aventchupete11"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view10"
+                    android:layout_below="@id/lineara10"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtaventchupete11principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view10"
+                    android:layout_below="@id/lineara10"
                     android:layout_toRightOf="@id/aventchupete11"
                     android:text="@string/txtaventchupetes" />
 
@@ -456,16 +1076,78 @@
                     android:layout_toRightOf="@id/aventchupete11"
                     android:text="@string/txtaventchupete10" />
 
-                <Button
-                    android:id="@+id/btnaventchupete11"
-                    style="@style/btnvermas"
-                    android:layout_above="@+id/view11"
-                    android:text="@string/btnver" />
+                <Switch
+                    android:id="@+id/switch11"
+                    style="@style/switchstyle"
+                    android:layout_above="@+id/view11" />
 
                 <TextView
                     android:id="@+id/precioaventchupete11"
                     style="@style/precio"
                     android:layout_below="@id/aventchupete11" />
+
+                <LinearLayout
+                    android:id="@+id/lineara11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/view11"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/aventchupete11a11"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1a11"
+                                style="@style/Divider"
+                                android:layout_below="@id/aventchupete11a11" />
+
+                            <TextView
+                                android:id="@+id/txtaventchupete1principala11"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a11"
+                                android:text="@string/txtaventchupetes" />
+
+                            <TextView
+                                android:id="@+id/txtaventchupete11a11"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtaventchupete1principala11"
+                                android:text="@string/txtaventchupete11" />
+
+                            <View
+                                android:id="@+id/view2a11"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtaventchupete11a11" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa11"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a11"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncompraaventchupete11"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a11"
+                                android:layout_toRightOf="@id/btnconsultaa11"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view11"
