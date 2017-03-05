@@ -5,7 +5,7 @@
         <!-- Customize your theme here. -->
         <item name="colorPrimary">#90CAF9</item>
         <item name="colorPrimaryDark">#64B5F6</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
         <item name="android:navigationBarColor">#64B5F6</item>
         <item name="colorControlNormal">@color/colorPrimaryDark</item>
         <item name="android:colorBackground">@color/cardview_light_background</item>
@@ -187,7 +187,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_alignParentRight">true</item>
         <item name="android:textSize">20sp</item>
-        <item name="android:textColor">#FF9800</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
         <item name="android:text">@string/btnver</item>
     </style>
 
