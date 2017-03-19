@@ -431,53 +431,9 @@
             android:label="Baby Innovation | Línea varios"
             android:parentActivityName=".BabyInnovation.babyinprodlist" />
         <activity
-            android:name=".BabyInnovation.babyinvarios1"
-            android:label="Baby Innovation | Calentador de mamadera"
-            android:parentActivityName=".BabyInnovation.babyinvarios" />
-        <activity
-            android:name=".BabyInnovation.babyinvarios2"
-            android:label="Baby Innovation | Calentador de mamadera"
-            android:parentActivityName=".BabyInnovation.babyinvarios" />
-        <activity
-            android:name=".BabyInnovation.babyinvarios3"
-            android:label="Baby Innovation | Arnés de seguridad"
-            android:parentActivityName=".BabyInnovation.babyinvarios" />
-        <activity
-            android:name=".BabyInnovation.babyinvarios4"
-            android:label="Baby Innovation | Vasos apilables"
-            android:parentActivityName=".BabyInnovation.babyinvarios" />
-        <activity
-            android:name=".BabyInnovation.babyinvarios5"
-            android:label="Baby Innovation | Cucharas y tenedores"
-            android:parentActivityName=".BabyInnovation.babyinvarios" />
-        <activity
-            android:name=".BabyInnovation.babyinvarios6"
-            android:label="Baby Innovation | Platos"
-            android:parentActivityName=".BabyInnovation.babyinvarios" />
-        <activity
-            android:name=".BabyInnovation.babyinvarios7"
-            android:label="Baby Innovation | Chupete mordillo"
-            android:parentActivityName=".BabyInnovation.babyinvarios" />
-        <activity
-            android:name=".BabyInnovation.babyinvarios8"
-            android:label="Baby Innovation | Dosificador medicina"
-            android:parentActivityName=".BabyInnovation.babyinvarios" />
-        <activity
             android:name=".BabyInnovation.babyinseguridad"
             android:label="Baby Innovation | Seguridad"
             android:parentActivityName=".BabyInnovation.babyinprodlist" />
-        <activity
-            android:name=".BabyInnovation.babyinseguridad1"
-            android:label="Baby Innovation | Traba externa"
-            android:parentActivityName=".BabyInnovation.babyinseguridad" />
-        <activity
-            android:name=".BabyInnovation.babyinseguridad2"
-            android:label="Baby Innovation | Traba multipropósito"
-            android:parentActivityName=".BabyInnovation.babyinseguridad" />
-        <activity
-            android:name=".BabyInnovation.babyinseguridad3"
-            android:label="Baby Innovation | Traba interna"
-            android:parentActivityName=".BabyInnovation.babyinseguridad" />
         <activity
             android:name=".NowyBaby.nowyprodlist"
             android:label="Nowybaby | Productos"
@@ -782,30 +738,6 @@
             android:name=".Chicco.chiccohigiene9"
             android:label="Chicco | Callbaby"
             android:parentActivityName=".Chicco.chiccohigiene" />
-        <activity
-            android:name=".BabyInnovation.babyinvarios9"
-            android:label="BabyInnovation | Babero de silicona"
-            android:parentActivityName=".BabyInnovation.babyinvarios" />
-        <activity
-            android:name=".BabyInnovation.babyinvarios10"
-            android:label="BabyInnovation | Parasol enrollable"
-            android:parentActivityName=".BabyInnovation.babyinvarios" />
-        <activity
-            android:name=".BabyInnovation.babyinvarios11"
-            android:label="BabyInnovation | Sillita para bañar"
-            android:parentActivityName=".BabyInnovation.babyinvarios" />
-        <activity
-            android:name=".BabyInnovation.babyinvarios12"
-            android:label="BabyInnovation | Bowls"
-            android:parentActivityName=".BabyInnovation.babyinvarios" />
-        <activity
-            android:name=".BabyInnovation.babyinvarios13"
-            android:label="BabyInnovation | Set de cuchara y tenedor"
-            android:parentActivityName=".BabyInnovation.babyinvarios" />
-        <activity
-            android:name=".BabyInnovation.babyinseguridad4"
-            android:label="BabyInnovation | Traba ventana"
-            android:parentActivityName=".BabyInnovation.babyinseguridad" />
         <activity
             android:name=".mibes.mibescatres"
             android:label="mibes | Catres"

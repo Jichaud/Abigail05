@@ -26,18 +26,19 @@
     <Button
         android:id="@+id/abiprodlist"
         style="@style/txtprincipal"
-        android:layout_width="match_parent"
+        android:layout_width="240dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/view1"
-        android:background="@drawable/rectangle"
-        android:backgroundTint="@color/colorPrimaryDark"
-        android:drawableRight="@drawable/arrow_white"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded"
+        android:backgroundTint="@android:color/transparent"
         android:elevation="2dp"
         android:padding="20px"
         android:text="Productos Abigail05"
-        android:textAlignment="viewStart"
+        android:textAlignment="center"
         android:textAllCaps="false"
-        android:textColor="#FFFFFF" />
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold" />
 
     <View
         android:id="@+id/view2"
@@ -48,18 +49,19 @@
     <Button
         android:id="@+id/marcas"
         style="@style/txtprincipal"
-        android:layout_width="match_parent"
+        android:layout_width="240dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/view2"
-        android:background="@drawable/rectangle"
-        android:backgroundTint="@color/colorPrimaryDark"
-        android:drawableRight="@drawable/arrow_white"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded"
+        android:backgroundTint="@android:color/transparent"
         android:elevation="2dp"
         android:padding="20px"
         android:text="Marcas"
-        android:textAlignment="viewStart"
+        android:textAlignment="center"
         android:textAllCaps="false"
-        android:textColor="@android:color/white" />
+        android:textColor="@android:color/holo_orange_dark"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/nosotros"
@@ -69,7 +71,8 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:text="Nosotros"
-        android:textColor="@color/colorPrimaryDark" />
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/contacto"
@@ -80,6 +83,7 @@
         android:layout_alignParentRight="true"
         android:layout_marginRight="10px"
         android:text="Contacto"
-        android:textColor="@color/colorPrimaryDark" />
+        android:textColor="@color/btncomprar"
+        android:textStyle="bold" />
 
 </RelativeLayout>

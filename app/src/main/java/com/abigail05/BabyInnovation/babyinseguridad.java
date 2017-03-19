@@ -6,12 +6,17 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CompoundButton;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.Switch;
 import android.widget.TextView;
 
 import com.abigail05.MainActivity;
 import com.abigail05.R;
+import com.abigail05.contacto;
 import com.abigail05.marcas;
+import com.abigail05.webview;
 import com.squareup.picasso.Picasso;
 
 import org.jsoup.Jsoup;
@@ -24,10 +29,34 @@ public class babyinseguridad extends AppCompatActivity {
 
     Button home;
     Button marca;
-    Button btnbabyinseguridad1;
-    Button btnbabyinseguridad2;
-    Button btnbabyinseguridad3;
-    Button btnbabyinseguridad4;
+    Button btncomprababyinseguridad1;
+    Button btnconsultaa1;
+    TextView txtbabyinseguridad1a1;
+    String urlcomboa1 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=450419c68c767c0cd8a057af5205e1e6";
+    ImageView babyinseguridad1a1;
+    Button btncomprababyinseguridad2;
+    Button btnconsultaa2;
+    TextView txtbabyinseguridad2a2;
+    String urlcomboa2 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=cf4e2e6109567e5904b81813c595fe82";
+    ImageView babyinseguridad2a2;
+    Button btncomprababyinseguridad3;
+    Button btnconsultaa3;
+    TextView txtbabyinseguridad3a3;
+    String urlcomboa3 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=7e63a92406afbb6fb668df60adf9967c";
+    ImageView babyinseguridad3a3;
+    Button btncomprababyinseguridad4;
+    Button btnconsultaa4;
+    TextView txtbabyinseguridad4a4;
+    String urlcomboa4 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=326e3689365586a3cb16c00c86eabfba#utm_source=28428&utm_medium=boton_de_pago&utm_campaign=web";
+    ImageView babyinseguridad4a4;
+    Switch switch1;
+    Switch switch2;
+    Switch switch3;
+    Switch switch4;
+    LinearLayout lineara1;
+    LinearLayout lineara2;
+    LinearLayout lineara3;
+    LinearLayout lineara4;
     TextView preciobabyinseguridad1;
     TextView preciobabyinseguridad2;
     TextView preciobabyinseguridad3;
@@ -48,6 +77,182 @@ public class babyinseguridad extends AppCompatActivity {
 
         new preciobabyinseguridadAsync().execute();
 
+        /* babyinseguridad 1 */
+
+        babyinseguridad1a1 = (ImageView)findViewById(R.id.babyinseguridad1a1);
+        Picasso.with(this).load(urlbabyinseguridad1).into(babyinseguridad1a1);
+
+        txtbabyinseguridad1a1 = (TextView)findViewById(R.id.txtbabyinseguridad1a1);
+        final String stconsultaa1 = txtbabyinseguridad1a1.getText().toString();
+        btnconsultaa1 = (Button)findViewById(R.id.btnconsultaa1);
+        btnconsultaa1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa1 = new Intent(babyinseguridad.this,contacto.class);
+                btnconsultaa1.putExtra("consulta", stconsultaa1);
+                startActivity(btnconsultaa1);
+            }
+        });
+
+
+        btncomprababyinseguridad1 = (Button)findViewById(R.id.btncomprababyinseguridad1);
+        btncomprababyinseguridad1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncomprababyinseguridad1 = new Intent(babyinseguridad.this,webview.class);
+                btncomprababyinseguridad1.putExtra("string", urlcomboa1);
+                startActivity(btncomprababyinseguridad1);
+            }
+        });
+
+        lineara1 = (LinearLayout)findViewById(R.id.lineara1);
+
+        switch1 = (Switch)findViewById(R.id.switch1);
+        switch1.setChecked(false);
+        switch1.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch1.isChecked()) {
+                    lineara1.setVisibility(View.VISIBLE);
+                } else {
+                    lineara1.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /*babyinseguridad 2 */
+        babyinseguridad2a2 = (ImageView)findViewById(R.id.babyinseguridad2a2);
+        Picasso.with(this).load(urlbabyinseguridad2).into(babyinseguridad2a2);
+
+        txtbabyinseguridad2a2 = (TextView)findViewById(R.id.txtbabyinseguridad2a2);
+        final String stconsultaa2 = txtbabyinseguridad2a2.getText().toString();
+        btnconsultaa2 = (Button)findViewById(R.id.btnconsultaa2);
+        btnconsultaa2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa2 = new Intent(babyinseguridad.this,contacto.class);
+                btnconsultaa2.putExtra("consulta", stconsultaa2);
+                startActivity(btnconsultaa2);
+            }
+        });
+
+
+        btncomprababyinseguridad2 = (Button)findViewById(R.id.btncomprababyinseguridad2);
+        btncomprababyinseguridad2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncomprababyinseguridad2 = new Intent(babyinseguridad.this,webview.class);
+                btncomprababyinseguridad2.putExtra("string", urlcomboa2);
+                startActivity(btncomprababyinseguridad2);
+            }
+        });
+
+        lineara2 = (LinearLayout)findViewById(R.id.lineara2);
+
+        switch2 = (Switch)findViewById(R.id.switch2);
+        switch2.setChecked(false);
+        switch2.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch2.isChecked()) {
+                    lineara2.setVisibility(View.VISIBLE);
+                } else {
+                    lineara2.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /*babyinseguridad 3 */
+
+        babyinseguridad3a3 = (ImageView)findViewById(R.id.babyinseguridad3a3);
+        Picasso.with(this).load(urlbabyinseguridad3).into(babyinseguridad3a3);
+
+        txtbabyinseguridad3a3 = (TextView)findViewById(R.id.txtbabyinseguridad3a3);
+        final String stconsultaa3 = txtbabyinseguridad3a3.getText().toString();
+        btnconsultaa3 = (Button)findViewById(R.id.btnconsultaa3);
+        btnconsultaa3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa3 = new Intent(babyinseguridad.this,contacto.class);
+                btnconsultaa3.putExtra("consulta", stconsultaa3);
+                startActivity(btnconsultaa3);
+            }
+        });
+
+
+        btncomprababyinseguridad3 = (Button)findViewById(R.id.btncomprababyinseguridad3);
+        btncomprababyinseguridad3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncomprababyinseguridad3 = new Intent(babyinseguridad.this,webview.class);
+                btncomprababyinseguridad3.putExtra("string", urlcomboa3);
+                startActivity(btncomprababyinseguridad3);
+            }
+        });
+
+        lineara3 = (LinearLayout)findViewById(R.id.lineara3);
+
+        switch3 = (Switch)findViewById(R.id.switch3);
+        switch3.setChecked(false);
+        switch3.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch3.isChecked()) {
+                    lineara3.setVisibility(View.VISIBLE);
+                } else {
+                    lineara3.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /*babyinseguridad 4 */
+
+        babyinseguridad4a4 = (ImageView)findViewById(R.id.babyinseguridad4a4);
+        Picasso.with(this).load(urlbabyinseguridad4).into(babyinseguridad4a4);
+
+        txtbabyinseguridad4a4 = (TextView)findViewById(R.id.txtbabyinseguridad4a4);
+        final String stconsultaa4 = txtbabyinseguridad4a4.getText().toString();
+        btnconsultaa4 = (Button)findViewById(R.id.btnconsultaa4);
+        btnconsultaa4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa4 = new Intent(babyinseguridad.this,contacto.class);
+                btnconsultaa4.putExtra("consulta", stconsultaa4);
+                startActivity(btnconsultaa4);
+            }
+        });
+
+
+        btncomprababyinseguridad4 = (Button)findViewById(R.id.btncomprababyinseguridad4);
+        btncomprababyinseguridad4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncomprababyinseguridad4 = new Intent(babyinseguridad.this,webview.class);
+                btncomprababyinseguridad4.putExtra("string", urlcomboa4);
+                startActivity(btncomprababyinseguridad4);
+            }
+        });
+
+        lineara4 = (LinearLayout)findViewById(R.id.lineara4);
+
+        switch4 = (Switch)findViewById(R.id.switch4);
+        switch4.setChecked(false);
+        switch4.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch4.isChecked()) {
+                    lineara4.setVisibility(View.VISIBLE);
+                } else {
+                    lineara4.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+
         preciobabyinseguridad1 = (TextView)findViewById(R.id.preciobabyinseguridad1);
         preciobabyinseguridad2 = (TextView)findViewById(R.id.preciobabyinseguridad2);
         preciobabyinseguridad3 = (TextView)findViewById(R.id.preciobabyinseguridad3);
@@ -64,42 +269,6 @@ public class babyinseguridad extends AppCompatActivity {
 
         babyinseguridad4 = (ImageView)findViewById(R.id.babyinseguridad4);
         Picasso.with(this).load(urlbabyinseguridad4).into(babyinseguridad4);
-
-        btnbabyinseguridad1 = (Button)findViewById(R.id.btnbabyinseguridad1);
-        btnbabyinseguridad1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnbabyinseguridad1 = new Intent(babyinseguridad.this, babyinseguridad1.class);
-                startActivity(btnbabyinseguridad1);
-            }
-        });
-
-        btnbabyinseguridad2 = (Button)findViewById(R.id.btnbabyinseguridad2);
-        btnbabyinseguridad2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnbabyinseguridad2 = new Intent(babyinseguridad.this, babyinseguridad2.class);
-                startActivity(btnbabyinseguridad2);
-            }
-        });
-
-        btnbabyinseguridad3 = (Button)findViewById(R.id.btnbabyinseguridad3);
-        btnbabyinseguridad3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnbabyinseguridad3 = new Intent(babyinseguridad.this, babyinseguridad3.class);
-                startActivity(btnbabyinseguridad3);
-            }
-        });
-
-        btnbabyinseguridad4 = (Button)findViewById(R.id.btnbabyinseguridad4);
-        btnbabyinseguridad4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnbabyinseguridad4 = new Intent(babyinseguridad.this, babyinseguridad4.class);
-                startActivity(btnbabyinseguridad4);
-            }
-        });
 
         marca = (Button) findViewById(R.id.btnvmarca);
         marca.setOnClickListener(new View.OnClickListener() {
