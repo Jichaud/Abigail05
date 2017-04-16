@@ -52,16 +52,78 @@
                     android:layout_toRightOf="@id/chiccohigiene1"
                     android:text="@string/txtchiccohigiene1" />
 
-                <Button
-                    android:id="@+id/btnchiccohigiene1"
-                    style="@style/btnvermas"
-                    android:layout_above="@id/view1"
-                    android:text="@string/btnver" />
+                <Switch
+                    android:id="@+id/switch1"
+                    style="@style/switchstyle"
+                    android:layout_above="@id/view1" />
 
                 <TextView
                     android:id="@+id/preciochiccohigiene1"
                     style="@style/precio"
                     android:layout_below="@id/chiccohigiene1" />
+
+                <LinearLayout
+                    android:id="@+id/lineara1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view1"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/chiccohigiene1a1"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1a1"
+                                style="@style/Divider"
+                                android:layout_below="@id/chiccohigiene1a1" />
+
+                            <TextView
+                                android:id="@+id/txtchiccohigiene1principala1"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a1"
+                                android:text="@string/txtchiccohigiene" />
+
+                            <TextView
+                                android:id="@+id/txtchiccohigiene1a1"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtchiccohigiene1principala1"
+                                android:text="@string/txtchiccohigiene1" />
+
+                            <View
+                                android:id="@+id/view2a1"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtchiccohigiene1a1" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa1"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a1"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncomprachiccohigiene1"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a1"
+                                android:layout_toRightOf="@id/btnconsultaa1"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view1"
@@ -72,13 +134,13 @@
                     android:id="@+id/chiccohigiene2"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view1"
+                    android:layout_below="@id/lineara1"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtchiccohigiene2principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view1"
+                    android:layout_below="@id/lineara1"
                     android:layout_toRightOf="@id/chiccohigiene2"
                     android:text="@string/txtchiccohigiene" />
 
@@ -89,16 +151,78 @@
                     android:layout_toRightOf="@id/chiccohigiene2"
                     android:text="@string/txtchiccohigiene2" />
 
-                <Button
-                    android:id="@+id/btnchiccohigiene2"
-                    style="@style/btnvermas"
-                    android:layout_above="@id/view2"
-                    android:text="@string/btnver" />
+                <Switch
+                    android:id="@+id/switch2"
+                    style="@style/switchstyle"
+                    android:layout_above="@id/view2" />
 
                 <TextView
                     android:id="@+id/preciochiccohigiene2"
                     style="@style/precio"
                     android:layout_below="@id/chiccohigiene2" />
+
+                <LinearLayout
+                    android:id="@+id/lineara2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view2"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/chiccohigiene2a2"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1a2"
+                                style="@style/Divider"
+                                android:layout_below="@id/chiccohigiene2a2" />
+
+                            <TextView
+                                android:id="@+id/txtchiccohigiene2principala2"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a2"
+                                android:text="@string/txtchiccohigiene" />
+
+                            <TextView
+                                android:id="@+id/txtchiccohigiene2a2"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtchiccohigiene2principala2"
+                                android:text="@string/txtchiccohigiene2" />
+
+                            <View
+                                android:id="@+id/view2a2"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtchiccohigiene2a2" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa2"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a2"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncomprachiccohigiene2"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a2"
+                                android:layout_toRightOf="@id/btnconsultaa2"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view2"
@@ -109,13 +233,13 @@
                     android:id="@+id/chiccohigiene3"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view2"
+                    android:layout_below="@id/lineara2"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtchiccohigiene3principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view2"
+                    android:layout_below="@id/lineara2"
                     android:layout_toRightOf="@id/chiccohigiene3"
                     android:text="@string/txtchiccohigiene" />
 
@@ -126,16 +250,78 @@
                     android:layout_toRightOf="@id/chiccohigiene3"
                     android:text="@string/txtchiccohigiene3" />
 
-                <Button
-                    android:id="@+id/btnchiccohigiene3"
-                    style="@style/btnvermas"
-                    android:layout_above="@id/view3"
-                    android:text="@string/btnver" />
+                <Switch
+                    android:id="@+id/switch3"
+                    style="@style/switchstyle"
+                    android:layout_above="@id/view3" />
 
                 <TextView
                     android:id="@+id/preciochiccohigiene3"
                     style="@style/precio"
                     android:layout_below="@id/chiccohigiene3" />
+
+                <LinearLayout
+                    android:id="@+id/lineara3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view3"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/chiccohigiene3a3"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1a3"
+                                style="@style/Divider"
+                                android:layout_below="@id/chiccohigiene3a3" />
+
+                            <TextView
+                                android:id="@+id/txtchiccohigiene3principala3"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a3"
+                                android:text="@string/txtchiccohigiene" />
+
+                            <TextView
+                                android:id="@+id/txtchiccohigiene3a3"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtchiccohigiene3principala3"
+                                android:text="@string/txtchiccohigiene3" />
+
+                            <View
+                                android:id="@+id/view2a3"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtchiccohigiene3a3" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa3"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a3"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncomprachiccohigiene3"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a3"
+                                android:layout_toRightOf="@id/btnconsultaa3"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view3"
@@ -146,13 +332,13 @@
                     android:id="@+id/chiccohigiene4"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view3"
+                    android:layout_below="@id/lineara3"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtchiccohigiene4principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view3"
+                    android:layout_below="@id/lineara3"
                     android:layout_toRightOf="@id/chiccohigiene4"
                     android:text="@string/txtchiccohigiene" />
 
@@ -163,16 +349,78 @@
                     android:layout_toRightOf="@id/chiccohigiene4"
                     android:text="@string/txtchiccohigiene4" />
 
-                <Button
-                    android:id="@+id/btnchiccohigiene4"
-                    style="@style/btnvermas"
-                    android:layout_above="@id/view4"
-                    android:text="@string/btnver" />
+                <Switch
+                    android:id="@+id/switch4"
+                    style="@style/switchstyle"
+                    android:layout_above="@id/view4" />
 
                 <TextView
                     android:id="@+id/preciochiccohigiene4"
                     style="@style/precio"
                     android:layout_below="@id/chiccohigiene4" />
+
+                <LinearLayout
+                    android:id="@+id/lineara4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view4"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/chiccohigiene4a4"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1a4"
+                                style="@style/Divider"
+                                android:layout_below="@id/chiccohigiene4a4" />
+
+                            <TextView
+                                android:id="@+id/txtchiccohigiene4principala4"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a4"
+                                android:text="@string/txtchiccohigiene" />
+
+                            <TextView
+                                android:id="@+id/txtchiccohigiene4a4"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtchiccohigiene4principala4"
+                                android:text="@string/txtchiccohigiene4" />
+
+                            <View
+                                android:id="@+id/view2a4"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtchiccohigiene4a4" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa4"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a4"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncomprachiccohigiene4"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a4"
+                                android:layout_toRightOf="@id/btnconsultaa4"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view4"
@@ -183,13 +431,13 @@
                     android:id="@+id/chiccohigiene5"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view4"
+                    android:layout_below="@id/lineara4"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtchiccohigiene5principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view4"
+                    android:layout_below="@id/lineara4"
                     android:layout_toRightOf="@id/chiccohigiene5"
                     android:text="@string/txtchiccohigiene" />
 
@@ -200,16 +448,78 @@
                     android:layout_toRightOf="@id/chiccohigiene5"
                     android:text="@string/txtchiccohigiene5" />
 
-                <Button
-                    android:id="@+id/btnchiccohigiene5"
-                    style="@style/btnvermas"
-                    android:layout_above="@id/view5"
-                    android:text="@string/btnver" />
+                <Switch
+                    android:id="@+id/switch5"
+                    style="@style/switchstyle"
+                    android:layout_above="@id/view5" />
 
                 <TextView
                     android:id="@+id/preciochiccohigiene5"
                     style="@style/precio"
                     android:layout_below="@id/chiccohigiene5" />
+
+                <LinearLayout
+                    android:id="@+id/lineara5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view5"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/chiccohigiene5a5"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1a5"
+                                style="@style/Divider"
+                                android:layout_below="@id/chiccohigiene5a5" />
+
+                            <TextView
+                                android:id="@+id/txtchiccohigiene5principala5"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a5"
+                                android:text="@string/txtchiccohigiene" />
+
+                            <TextView
+                                android:id="@+id/txtchiccohigiene5a5"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtchiccohigiene5principala5"
+                                android:text="@string/txtchiccohigiene5" />
+
+                            <View
+                                android:id="@+id/view2a5"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtchiccohigiene5a5" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa5"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a5"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncomprachiccohigiene5"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a5"
+                                android:layout_toRightOf="@id/btnconsultaa5"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view5"
@@ -220,13 +530,13 @@
                     android:id="@+id/chiccohigiene6"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view5"
+                    android:layout_below="@id/lineara5"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtchiccohigiene6principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view5"
+                    android:layout_below="@id/lineara5"
                     android:layout_toRightOf="@id/chiccohigiene6"
                     android:text="@string/txtchiccohigiene" />
 
@@ -237,16 +547,78 @@
                     android:layout_toRightOf="@id/chiccohigiene6"
                     android:text="@string/txtchiccohigiene6" />
 
-                <Button
-                    android:id="@+id/btnchiccohigiene6"
-                    style="@style/btnvermas"
-                    android:layout_above="@+id/view6"
-                    android:text="@string/btnver" />
+                <Switch
+                    android:id="@+id/switch6"
+                    style="@style/switchstyle"
+                    android:layout_above="@id/view6" />
 
                 <TextView
                     android:id="@+id/preciochiccohigiene6"
                     style="@style/precio"
                     android:layout_below="@id/chiccohigiene6" />
+
+                <LinearLayout
+                    android:id="@+id/lineara6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view6"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/chiccohigiene6a6"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1a6"
+                                style="@style/Divider"
+                                android:layout_below="@id/chiccohigiene6a6" />
+
+                            <TextView
+                                android:id="@+id/txtchiccohigiene6principala6"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a6"
+                                android:text="@string/txtchiccohigiene" />
+
+                            <TextView
+                                android:id="@+id/txtchiccohigiene6a6"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtchiccohigiene6principala6"
+                                android:text="@string/txtchiccohigiene6" />
+
+                            <View
+                                android:id="@+id/view2a6"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtchiccohigiene6a6" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa6"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a6"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncomprachiccohigiene6"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a6"
+                                android:layout_toRightOf="@id/btnconsultaa6"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view6"
@@ -257,13 +629,13 @@
                     android:id="@+id/chiccohigiene7"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view6"
+                    android:layout_below="@id/lineara6"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtchiccohigiene7principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view6"
+                    android:layout_below="@id/lineara6"
                     android:layout_toRightOf="@id/chiccohigiene7"
                     android:text="@string/txtchiccohigiene" />
 
@@ -274,16 +646,78 @@
                     android:layout_toRightOf="@id/chiccohigiene7"
                     android:text="@string/txtchiccohigiene7" />
 
-                <Button
-                    android:id="@+id/btnchiccohigiene7"
-                    style="@style/btnvermas"
-                    android:layout_above="@id/view7"
-                    android:text="@string/btnver" />
+                <Switch
+                    android:id="@+id/switch7"
+                    style="@style/switchstyle"
+                    android:layout_above="@id/view7" />
 
                 <TextView
                     android:id="@+id/preciochiccohigiene7"
                     style="@style/precio"
                     android:layout_below="@id/chiccohigiene7" />
+
+                <LinearLayout
+                    android:id="@+id/lineara7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view7"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/chiccohigiene7a7"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1a7"
+                                style="@style/Divider"
+                                android:layout_below="@id/chiccohigiene7a7" />
+
+                            <TextView
+                                android:id="@+id/txtchiccohigiene7principala7"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a7"
+                                android:text="@string/txtchiccohigiene" />
+
+                            <TextView
+                                android:id="@+id/txtchiccohigiene7a7"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtchiccohigiene7principala7"
+                                android:text="@string/txtchiccohigiene7" />
+
+                            <View
+                                android:id="@+id/view2a7"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtchiccohigiene7a7" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa7"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a7"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncomprachiccohigiene7"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a7"
+                                android:layout_toRightOf="@id/btnconsultaa7"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view7"
@@ -294,13 +728,13 @@
                     android:id="@+id/chiccohigiene8"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view7"
+                    android:layout_below="@id/lineara7"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtchiccohigiene8principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view7"
+                    android:layout_below="@id/lineara7"
                     android:layout_toRightOf="@id/chiccohigiene8"
                     android:text="@string/txtchiccohigiene" />
 
@@ -311,16 +745,78 @@
                     android:layout_toRightOf="@id/chiccohigiene8"
                     android:text="@string/txtchiccohigiene8" />
 
-                <Button
-                    android:id="@+id/btnchiccohigiene8"
-                    style="@style/btnvermas"
-                    android:layout_above="@id/view8"
-                    android:text="@string/btnver" />
+                <Switch
+                    android:id="@+id/switch8"
+                    style="@style/switchstyle"
+                    android:layout_above="@id/view8" />
 
                 <TextView
                     android:id="@+id/preciochiccohigiene8"
                     style="@style/precio"
                     android:layout_below="@id/chiccohigiene8" />
+
+                <LinearLayout
+                    android:id="@+id/lineara8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view8"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/chiccohigiene8a8"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1a8"
+                                style="@style/Divider"
+                                android:layout_below="@id/chiccohigiene8a8" />
+
+                            <TextView
+                                android:id="@+id/txtchiccohigiene8principala8"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a8"
+                                android:text="@string/txtchiccohigiene" />
+
+                            <TextView
+                                android:id="@+id/txtchiccohigiene8a8"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtchiccohigiene8principala8"
+                                android:text="@string/txtchiccohigiene8" />
+
+                            <View
+                                android:id="@+id/view2a8"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtchiccohigiene8a8" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa8"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a8"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncomprachiccohigiene8"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a8"
+                                android:layout_toRightOf="@id/btnconsultaa8"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view8"
@@ -331,13 +827,13 @@
                     android:id="@+id/chiccohigiene9"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view8"
+                    android:layout_below="@id/lineara8"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtchiccohigiene9principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view8"
+                    android:layout_below="@id/lineara8"
                     android:layout_toRightOf="@id/chiccohigiene9"
                     android:text="@string/txtchiccohigiene" />
 
@@ -348,16 +844,78 @@
                     android:layout_toRightOf="@id/chiccohigiene9"
                     android:text="@string/txtchiccohigiene9" />
 
-                <Button
-                    android:id="@+id/btnchiccohigiene9"
-                    style="@style/btnvermas"
-                    android:layout_above="@id/view9"
-                    android:text="@string/btnver" />
+                <Switch
+                    android:id="@+id/switch9"
+                    style="@style/switchstyle"
+                    android:layout_above="@id/view9" />
 
                 <TextView
                     android:id="@+id/preciochiccohigiene9"
                     style="@style/precio"
                     android:layout_below="@id/chiccohigiene9" />
+
+                <LinearLayout
+                    android:id="@+id/lineara9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view9"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/chiccohigiene9a9"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1a9"
+                                style="@style/Divider"
+                                android:layout_below="@id/chiccohigiene9a9" />
+
+                            <TextView
+                                android:id="@+id/txtchiccohigiene9principala9"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a9"
+                                android:text="@string/txtchiccohigiene" />
+
+                            <TextView
+                                android:id="@+id/txtchiccohigiene9a9"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtchiccohigiene9principala9"
+                                android:text="@string/txtchiccohigiene9" />
+
+                            <View
+                                android:id="@+id/view2a9"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtchiccohigiene9a9" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa9"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a9"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncomprachiccohigiene9"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a9"
+                                android:layout_toRightOf="@id/btnconsultaa9"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view9"
@@ -368,13 +926,13 @@
                     android:id="@+id/chiccohigiene10"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view9"
+                    android:layout_below="@id/lineara9"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtchiccohigiene10principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view9"
+                    android:layout_below="@id/lineara9"
                     android:layout_toRightOf="@id/chiccohigiene10"
                     android:text="@string/txtchiccohigiene" />
 
@@ -385,16 +943,78 @@
                     android:layout_toRightOf="@id/chiccohigiene10"
                     android:text="@string/txtchiccohigiene10" />
 
-                <Button
-                    android:id="@+id/btnchiccohigiene10"
-                    style="@style/btnvermas"
-                    android:layout_above="@id/view10"
-                    android:text="@string/btnver" />
+                <Switch
+                    android:id="@+id/switch10"
+                    style="@style/switchstyle"
+                    android:layout_above="@id/view10" />
 
                 <TextView
                     android:id="@+id/preciochiccohigiene10"
                     style="@style/precio"
                     android:layout_below="@id/chiccohigiene10" />
+
+                <LinearLayout
+                    android:id="@+id/lineara10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view10"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/chiccohigiene10a10"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1a10"
+                                style="@style/Divider"
+                                android:layout_below="@id/chiccohigiene10a10" />
+
+                            <TextView
+                                android:id="@+id/txtchiccohigiene10principala10"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a10"
+                                android:text="@string/txtchiccohigiene" />
+
+                            <TextView
+                                android:id="@+id/txtchiccohigiene10a10"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtchiccohigiene10principala10"
+                                android:text="@string/txtchiccohigiene10" />
+
+                            <View
+                                android:id="@+id/view2a10"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtchiccohigiene10a10" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa10"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a10"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncomprachiccohigiene10"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a10"
+                                android:layout_toRightOf="@id/btnconsultaa10"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view10"

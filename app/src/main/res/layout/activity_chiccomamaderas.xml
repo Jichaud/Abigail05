@@ -52,15 +52,78 @@
                     android:layout_toRightOf="@id/chiccomamaderas1"
                     android:text="@string/txtchiccomamaderas1" />
 
-                <Button
-                    android:id="@+id/btnchiccomamaderas1"
-                    style="@style/btnvermas"
+                <Switch
+                    android:id="@+id/switch1"
+                    style="@style/switchstyle"
                     android:layout_above="@id/view1" />
 
                 <TextView
                     android:id="@+id/preciochiccomamaderas1"
                     style="@style/precio"
                     android:layout_below="@id/chiccomamaderas1" />
+
+                <LinearLayout
+                    android:id="@+id/lineara1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view1"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/chiccomamaderas1a1"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1a1"
+                                style="@style/Divider"
+                                android:layout_below="@id/chiccomamaderas1a1" />
+
+                            <TextView
+                                android:id="@+id/txtchiccomamaderas1principala1"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a1"
+                                android:text="@string/txtchiccomamaderas" />
+
+                            <TextView
+                                android:id="@+id/txtchiccomamaderas1a1"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtchiccomamaderas1principala1"
+                                android:text="@string/txtchiccomamaderas1" />
+
+                            <View
+                                android:id="@+id/view2a1"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtchiccomamaderas1a1" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa1"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a1"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncomprachiccomamaderas1"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a1"
+                                android:layout_toRightOf="@id/btnconsultaa1"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view1"
@@ -71,13 +134,13 @@
                     android:id="@+id/chiccomamaderas2"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view1"
+                    android:layout_below="@id/lineara1"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtchiccomamaderas2principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view1"
+                    android:layout_below="@id/lineara1"
                     android:layout_toRightOf="@id/chiccomamaderas2"
                     android:text="@string/txtchiccomamaderas" />
 
@@ -88,15 +151,78 @@
                     android:layout_toRightOf="@id/chiccomamaderas2"
                     android:text="@string/txtchiccomamaderas2" />
 
-                <Button
-                    android:id="@+id/btnchiccomamaderas2"
-                    style="@style/btnvermas"
+                <Switch
+                    android:id="@+id/switch2"
+                    style="@style/switchstyle"
                     android:layout_above="@id/view2" />
 
                 <TextView
                     android:id="@+id/preciochiccomamaderas2"
                     style="@style/precio"
                     android:layout_below="@id/chiccomamaderas2" />
+
+                <LinearLayout
+                    android:id="@+id/lineara2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view2"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/chiccomamaderas2a2"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1a2"
+                                style="@style/Divider"
+                                android:layout_below="@id/chiccomamaderas2a2" />
+
+                            <TextView
+                                android:id="@+id/txtchiccomamaderas2principala2"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a2"
+                                android:text="@string/txtchiccomamaderas" />
+
+                            <TextView
+                                android:id="@+id/txtchiccomamaderas2a2"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtchiccomamaderas2principala2"
+                                android:text="@string/txtchiccomamaderas2" />
+
+                            <View
+                                android:id="@+id/view2a2"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtchiccomamaderas2a2" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa2"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a2"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncomprachiccomamaderas2"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a2"
+                                android:layout_toRightOf="@id/btnconsultaa2"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view2"
@@ -107,13 +233,13 @@
                     android:id="@+id/chiccomamaderas3"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view2"
+                    android:layout_below="@id/lineara2"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtchiccomamaderas3principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view2"
+                    android:layout_below="@id/lineara2"
                     android:layout_toRightOf="@id/chiccomamaderas3"
                     android:text="@string/txtchiccomamaderas" />
 
@@ -124,15 +250,78 @@
                     android:layout_toRightOf="@id/chiccomamaderas3"
                     android:text="@string/txtchiccomamaderas3" />
 
-                <Button
-                    android:id="@+id/btnchiccomamaderas3"
-                    style="@style/btnvermas"
+                <Switch
+                    android:id="@+id/switch3"
+                    style="@style/switchstyle"
                     android:layout_above="@id/view3" />
 
                 <TextView
                     android:id="@+id/preciochiccomamaderas3"
                     style="@style/precio"
                     android:layout_below="@id/chiccomamaderas3" />
+
+                <LinearLayout
+                    android:id="@+id/lineara3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view3"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/chiccomamaderas3a3"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1a3"
+                                style="@style/Divider"
+                                android:layout_below="@id/chiccomamaderas3a3" />
+
+                            <TextView
+                                android:id="@+id/txtchiccomamaderas3principala3"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a3"
+                                android:text="@string/txtchiccomamaderas" />
+
+                            <TextView
+                                android:id="@+id/txtchiccomamaderas3a3"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtchiccomamaderas3principala3"
+                                android:text="@string/txtchiccomamaderas3" />
+
+                            <View
+                                android:id="@+id/view2a3"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtchiccomamaderas3a3" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa3"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a3"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncomprachiccomamaderas3"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a3"
+                                android:layout_toRightOf="@id/btnconsultaa3"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view3"
@@ -143,13 +332,13 @@
                     android:id="@+id/chiccomamaderas4"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view3"
+                    android:layout_below="@id/lineara3"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtchiccomamaderas4principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view3"
+                    android:layout_below="@id/lineara3"
                     android:layout_toRightOf="@id/chiccomamaderas4"
                     android:text="@string/txtchiccomamaderas" />
 
@@ -160,15 +349,78 @@
                     android:layout_toRightOf="@id/chiccomamaderas4"
                     android:text="@string/txtchiccomamaderas4" />
 
-                <Button
-                    android:id="@+id/btnchiccomamaderas4"
-                    style="@style/btnvermas"
+                <Switch
+                    android:id="@+id/switch4"
+                    style="@style/switchstyle"
                     android:layout_above="@id/view4" />
 
                 <TextView
                     android:id="@+id/preciochiccomamaderas4"
                     style="@style/precio"
                     android:layout_below="@id/chiccomamaderas4" />
+
+                <LinearLayout
+                    android:id="@+id/lineara4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view4"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/chiccomamaderas4a4"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1a4"
+                                style="@style/Divider"
+                                android:layout_below="@id/chiccomamaderas4a4" />
+
+                            <TextView
+                                android:id="@+id/txtchiccomamaderas4principala4"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a4"
+                                android:text="@string/txtchiccomamaderas" />
+
+                            <TextView
+                                android:id="@+id/txtchiccomamaderas4a4"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtchiccomamaderas4principala4"
+                                android:text="@string/txtchiccomamaderas4" />
+
+                            <View
+                                android:id="@+id/view2a4"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtchiccomamaderas4a4" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa4"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a4"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncomprachiccomamaderas4"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a4"
+                                android:layout_toRightOf="@id/btnconsultaa4"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view4"
@@ -179,13 +431,13 @@
                     android:id="@+id/chiccomamaderas5"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view4"
+                    android:layout_below="@id/lineara4"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtchiccomamaderas5principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view4"
+                    android:layout_below="@id/lineara4"
                     android:layout_toRightOf="@id/chiccomamaderas5"
                     android:text="@string/txtchiccomamaderas" />
 
@@ -196,15 +448,78 @@
                     android:layout_toRightOf="@id/chiccomamaderas5"
                     android:text="@string/txtchiccomamaderas5" />
 
-                <Button
-                    android:id="@+id/btnchiccomamaderas5"
-                    style="@style/btnvermas"
+                <Switch
+                    android:id="@+id/switch5"
+                    style="@style/switchstyle"
                     android:layout_above="@id/view5" />
 
                 <TextView
                     android:id="@+id/preciochiccomamaderas5"
                     style="@style/precio"
                     android:layout_below="@id/chiccomamaderas5" />
+
+                <LinearLayout
+                    android:id="@+id/lineara5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view5"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/chiccomamaderas5a5"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1a5"
+                                style="@style/Divider"
+                                android:layout_below="@id/chiccomamaderas5a5" />
+
+                            <TextView
+                                android:id="@+id/txtchiccomamaderas5principala5"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a5"
+                                android:text="@string/txtchiccomamaderas" />
+
+                            <TextView
+                                android:id="@+id/txtchiccomamaderas5a5"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtchiccomamaderas5principala5"
+                                android:text="@string/txtchiccomamaderas5" />
+
+                            <View
+                                android:id="@+id/view2a5"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtchiccomamaderas5a5" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa5"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a5"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncomprachiccomamaderas5"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a5"
+                                android:layout_toRightOf="@id/btnconsultaa5"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view5"
@@ -215,13 +530,13 @@
                     android:id="@+id/chiccomamaderas6"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view5"
+                    android:layout_below="@id/lineara5"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtchiccomamaderas6principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view5"
+                    android:layout_below="@id/lineara5"
                     android:layout_toRightOf="@id/chiccomamaderas6"
                     android:text="@string/txtchiccomamaderas" />
 
@@ -232,15 +547,78 @@
                     android:layout_toRightOf="@id/chiccomamaderas6"
                     android:text="@string/txtchiccomamaderas6" />
 
-                <Button
-                    android:id="@+id/btnchiccomamaderas6"
-                    style="@style/btnvermas"
-                    android:layout_above="@+id/view6" />
+                <Switch
+                    android:id="@+id/switch6"
+                    style="@style/switchstyle"
+                    android:layout_above="@id/view6" />
 
                 <TextView
                     android:id="@+id/preciochiccomamaderas6"
                     style="@style/precio"
                     android:layout_below="@id/chiccomamaderas6" />
+
+                <LinearLayout
+                    android:id="@+id/lineara6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view6"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/chiccomamaderas6a6"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1a6"
+                                style="@style/Divider"
+                                android:layout_below="@id/chiccomamaderas6a6" />
+
+                            <TextView
+                                android:id="@+id/txtchiccomamaderas6principala6"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a6"
+                                android:text="@string/txtchiccomamaderas" />
+
+                            <TextView
+                                android:id="@+id/txtchiccomamaderas6a6"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtchiccomamaderas6principala6"
+                                android:text="@string/txtchiccomamaderas6" />
+
+                            <View
+                                android:id="@+id/view2a6"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtchiccomamaderas6a6" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa6"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a6"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncomprachiccomamaderas6"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a6"
+                                android:layout_toRightOf="@id/btnconsultaa6"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view6"
@@ -251,13 +629,13 @@
                     android:id="@+id/chiccomamaderas7"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view6"
+                    android:layout_below="@id/lineara6"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtchiccomamaderas7principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view6"
+                    android:layout_below="@id/lineara6"
                     android:layout_toRightOf="@id/chiccomamaderas7"
                     android:text="@string/txtchiccomamaderas" />
 
@@ -268,15 +646,78 @@
                     android:layout_toRightOf="@id/chiccomamaderas7"
                     android:text="@string/txtchiccomamaderas7" />
 
-                <Button
-                    android:id="@+id/btnchiccomamaderas7"
-                    style="@style/btnvermas"
+                <Switch
+                    android:id="@+id/switch7"
+                    style="@style/switchstyle"
                     android:layout_above="@id/view7" />
 
                 <TextView
                     android:id="@+id/preciochiccomamaderas7"
                     style="@style/precio"
                     android:layout_below="@id/chiccomamaderas7" />
+
+                <LinearLayout
+                    android:id="@+id/lineara7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view7"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/chiccomamaderas7a7"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1a7"
+                                style="@style/Divider"
+                                android:layout_below="@id/chiccomamaderas7a7" />
+
+                            <TextView
+                                android:id="@+id/txtchiccomamaderas7principala7"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a7"
+                                android:text="@string/txtchiccomamaderas" />
+
+                            <TextView
+                                android:id="@+id/txtchiccomamaderas7a7"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtchiccomamaderas7principala7"
+                                android:text="@string/txtchiccomamaderas7" />
+
+                            <View
+                                android:id="@+id/view2a7"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtchiccomamaderas7a7" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa7"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a7"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncomprachiccomamaderas7"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a7"
+                                android:layout_toRightOf="@id/btnconsultaa7"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view7"
@@ -287,13 +728,13 @@
                     android:id="@+id/chiccomamaderas8"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view7"
+                    android:layout_below="@id/lineara7"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtchiccomamaderas8principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view7"
+                    android:layout_below="@id/lineara7"
                     android:layout_toRightOf="@id/chiccomamaderas8"
                     android:text="@string/txtchiccomamaderas" />
 
@@ -304,15 +745,78 @@
                     android:layout_toRightOf="@id/chiccomamaderas8"
                     android:text="@string/txtchiccomamaderas8" />
 
-                <Button
-                    android:id="@+id/btnchiccomamaderas8"
-                    style="@style/btnvermas"
+                <Switch
+                    android:id="@+id/switch8"
+                    style="@style/switchstyle"
                     android:layout_above="@id/view8" />
 
                 <TextView
                     android:id="@+id/preciochiccomamaderas8"
                     style="@style/precio"
                     android:layout_below="@id/chiccomamaderas8" />
+
+                <LinearLayout
+                    android:id="@+id/lineara8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view8"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/chiccomamaderas8a8"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1a8"
+                                style="@style/Divider"
+                                android:layout_below="@id/chiccomamaderas8a8" />
+
+                            <TextView
+                                android:id="@+id/txtchiccomamaderas8principala8"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a8"
+                                android:text="@string/txtchiccomamaderas" />
+
+                            <TextView
+                                android:id="@+id/txtchiccomamaderas8a8"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtchiccomamaderas8principala8"
+                                android:text="@string/txtchiccomamaderas8" />
+
+                            <View
+                                android:id="@+id/view2a8"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtchiccomamaderas8a8" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa8"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a8"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncomprachiccomamaderas8"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a8"
+                                android:layout_toRightOf="@id/btnconsultaa8"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view8"
@@ -323,13 +827,13 @@
                     android:id="@+id/chiccomamaderas9"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view8"
+                    android:layout_below="@id/lineara8"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtchiccomamaderas9principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view8"
+                    android:layout_below="@id/lineara8"
                     android:layout_toRightOf="@id/chiccomamaderas9"
                     android:text="@string/txtchiccomamaderas" />
 
@@ -340,15 +844,78 @@
                     android:layout_toRightOf="@id/chiccomamaderas9"
                     android:text="@string/txtchiccomamaderas9" />
 
-                <Button
-                    android:id="@+id/btnchiccomamaderas9"
-                    style="@style/btnvermas"
-                    android:layout_above="@+id/view9" />
+                <Switch
+                    android:id="@+id/switch9"
+                    style="@style/switchstyle"
+                    android:layout_above="@id/view9" />
 
                 <TextView
                     android:id="@+id/preciochiccomamaderas9"
                     style="@style/precio"
                     android:layout_below="@id/chiccomamaderas9" />
+
+                <LinearLayout
+                    android:id="@+id/lineara9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view9"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/chiccomamaderas9a9"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1a9"
+                                style="@style/Divider"
+                                android:layout_below="@id/chiccomamaderas9a9" />
+
+                            <TextView
+                                android:id="@+id/txtchiccomamaderas9principala9"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a9"
+                                android:text="@string/txtchiccomamaderas" />
+
+                            <TextView
+                                android:id="@+id/txtchiccomamaderas9a9"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtchiccomamaderas9principala9"
+                                android:text="@string/txtchiccomamaderas9" />
+
+                            <View
+                                android:id="@+id/view2a9"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtchiccomamaderas9a9" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa9"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a9"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncomprachiccomamaderas9"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a9"
+                                android:layout_toRightOf="@id/btnconsultaa9"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view9"
@@ -359,13 +926,13 @@
                     android:id="@+id/chiccomamaderas10"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view9"
+                    android:layout_below="@id/lineara9"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtchiccomamaderas10principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view9"
+                    android:layout_below="@id/lineara9"
                     android:layout_toRightOf="@id/chiccomamaderas10"
                     android:text="@string/txtchiccomamaderas" />
 
@@ -376,15 +943,78 @@
                     android:layout_toRightOf="@id/chiccomamaderas10"
                     android:text="@string/txtchiccomamaderas10" />
 
-                <Button
-                    android:id="@+id/btnchiccomamaderas10"
-                    style="@style/btnvermas"
-                    android:layout_above="@+id/view10" />
+                <Switch
+                    android:id="@+id/switch10"
+                    style="@style/switchstyle"
+                    android:layout_above="@id/view10" />
 
                 <TextView
                     android:id="@+id/preciochiccomamaderas10"
                     style="@style/precio"
                     android:layout_below="@id/chiccomamaderas10" />
+
+                <LinearLayout
+                    android:id="@+id/lineara10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view10"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/chiccomamaderas10a10"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1a10"
+                                style="@style/Divider"
+                                android:layout_below="@id/chiccomamaderas10a10" />
+
+                            <TextView
+                                android:id="@+id/txtchiccomamaderas10principala10"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a10"
+                                android:text="@string/txtchiccomamaderas" />
+
+                            <TextView
+                                android:id="@+id/txtchiccomamaderas10a10"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtchiccomamaderas10principala10"
+                                android:text="@string/txtchiccomamaderas10" />
+
+                            <View
+                                android:id="@+id/view2a10"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtchiccomamaderas10a10" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa10"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a10"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncomprachiccomamaderas10"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a10"
+                                android:layout_toRightOf="@id/btnconsultaa10"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view10"
@@ -395,13 +1025,13 @@
                     android:id="@+id/chiccomamaderas11"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view10"
+                    android:layout_below="@id/lineara10"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtchiccomamaderas11principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view10"
+                    android:layout_below="@id/lineara10"
                     android:layout_toRightOf="@id/chiccomamaderas11"
                     android:text="@string/txtchiccomamaderas" />
 
@@ -412,15 +1042,78 @@
                     android:layout_toRightOf="@id/chiccomamaderas11"
                     android:text="@string/txtchiccomamaderas11" />
 
-                <Button
-                    android:id="@+id/btnchiccomamaderas11"
-                    style="@style/btnvermas"
-                    android:layout_above="@+id/view11" />
+                <Switch
+                    android:id="@+id/switch11"
+                    style="@style/switchstyle"
+                    android:layout_above="@id/view11" />
 
                 <TextView
                     android:id="@+id/preciochiccomamaderas11"
                     style="@style/precio"
                     android:layout_below="@id/chiccomamaderas11" />
+
+                <LinearLayout
+                    android:id="@+id/lineara11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view11"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/chiccomamaderas11a11"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1a11"
+                                style="@style/Divider"
+                                android:layout_below="@id/chiccomamaderas11a11" />
+
+                            <TextView
+                                android:id="@+id/txtchiccomamaderas11principala11"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a11"
+                                android:text="@string/txtchiccomamaderas" />
+
+                            <TextView
+                                android:id="@+id/txtchiccomamaderas11a11"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtchiccomamaderas11principala11"
+                                android:text="@string/txtchiccomamaderas11" />
+
+                            <View
+                                android:id="@+id/view2a11"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtchiccomamaderas11a11" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa11"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a11"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncomprachiccomamaderas11"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a11"
+                                android:layout_toRightOf="@id/btnconsultaa11"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view11"
@@ -431,13 +1124,13 @@
                     android:id="@+id/chiccomamaderas12"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view11"
+                    android:layout_below="@id/lineara11"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtchiccomamaderas12principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view11"
+                    android:layout_below="@id/lineara11"
                     android:layout_toRightOf="@id/chiccomamaderas12"
                     android:text="@string/txtchiccomamaderas" />
 
@@ -448,15 +1141,78 @@
                     android:layout_toRightOf="@id/chiccomamaderas12"
                     android:text="@string/txtchiccomamaderas12" />
 
-                <Button
-                    android:id="@+id/btnchiccomamaderas12"
-                    style="@style/btnvermas"
-                    android:layout_above="@+id/view12" />
+                <Switch
+                    android:id="@+id/switch12"
+                    style="@style/switchstyle"
+                    android:layout_above="@id/view12" />
 
                 <TextView
                     android:id="@+id/preciochiccomamaderas12"
                     style="@style/precio"
                     android:layout_below="@id/chiccomamaderas12" />
+
+                <LinearLayout
+                    android:id="@+id/lineara12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view12"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/chiccomamaderas12a12"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1a12"
+                                style="@style/Divider"
+                                android:layout_below="@id/chiccomamaderas12a12" />
+
+                            <TextView
+                                android:id="@+id/txtchiccomamaderas12principala12"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a12"
+                                android:text="@string/txtchiccomamaderas" />
+
+                            <TextView
+                                android:id="@+id/txtchiccomamaderas12a12"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtchiccomamaderas12principala12"
+                                android:text="@string/txtchiccomamaderas12" />
+
+                            <View
+                                android:id="@+id/view2a12"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtchiccomamaderas12a12" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa12"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a12"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncomprachiccomamaderas12"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a12"
+                                android:layout_toRightOf="@id/btnconsultaa12"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view12"
@@ -467,13 +1223,13 @@
                     android:id="@+id/chiccomamaderas13"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view12"
+                    android:layout_below="@id/lineara12"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtchiccomamaderas13principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view12"
+                    android:layout_below="@id/lineara12"
                     android:layout_toRightOf="@id/chiccomamaderas13"
                     android:text="@string/txtchiccomamaderas" />
 
@@ -484,15 +1240,78 @@
                     android:layout_toRightOf="@id/chiccomamaderas13"
                     android:text="@string/txtchiccomamaderas13" />
 
-                <Button
-                    android:id="@+id/btnchiccomamaderas13"
-                    style="@style/btnvermas"
-                    android:layout_above="@+id/view13" />
+                <Switch
+                    android:id="@+id/switch13"
+                    style="@style/switchstyle"
+                    android:layout_above="@id/view13" />
 
                 <TextView
                     android:id="@+id/preciochiccomamaderas13"
                     style="@style/precio"
                     android:layout_below="@id/chiccomamaderas13" />
+
+                <LinearLayout
+                    android:id="@+id/lineara13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view13"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/chiccomamaderas13a13"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1a13"
+                                style="@style/Divider"
+                                android:layout_below="@id/chiccomamaderas13a13" />
+
+                            <TextView
+                                android:id="@+id/txtchiccomamaderas13principala13"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a13"
+                                android:text="@string/txtchiccomamaderas" />
+
+                            <TextView
+                                android:id="@+id/txtchiccomamaderas13a13"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtchiccomamaderas13principala13"
+                                android:text="@string/txtchiccomamaderas13" />
+
+                            <View
+                                android:id="@+id/view2a13"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtchiccomamaderas13a13" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa13"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a13"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncomprachiccomamaderas13"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a13"
+                                android:layout_toRightOf="@id/btnconsultaa13"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view13"
@@ -503,13 +1322,13 @@
                     android:id="@+id/chiccomamaderas14"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view13"
+                    android:layout_below="@id/lineara13"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtchiccomamaderas14principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view13"
+                    android:layout_below="@id/lineara13"
                     android:layout_toRightOf="@id/chiccomamaderas14"
                     android:text="@string/txtchiccomamaderas" />
 
@@ -520,15 +1339,78 @@
                     android:layout_toRightOf="@id/chiccomamaderas14"
                     android:text="@string/txtchiccomamaderas14" />
 
-                <Button
-                    android:id="@+id/btnchiccomamaderas14"
-                    style="@style/btnvermas"
-                    android:layout_above="@+id/view14" />
+                <Switch
+                    android:id="@+id/switch14"
+                    style="@style/switchstyle"
+                    android:layout_above="@id/view14" />
 
                 <TextView
                     android:id="@+id/preciochiccomamaderas14"
                     style="@style/precio"
                     android:layout_below="@id/chiccomamaderas14" />
+
+                <LinearLayout
+                    android:id="@+id/lineara14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view14"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/chiccomamaderas14a14"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1a14"
+                                style="@style/Divider"
+                                android:layout_below="@id/chiccomamaderas14a14" />
+
+                            <TextView
+                                android:id="@+id/txtchiccomamaderas14principala14"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a14"
+                                android:text="@string/txtchiccomamaderas" />
+
+                            <TextView
+                                android:id="@+id/txtchiccomamaderas14a14"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtchiccomamaderas14principala14"
+                                android:text="@string/txtchiccomamaderas14" />
+
+                            <View
+                                android:id="@+id/view2a14"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtchiccomamaderas14a14" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa14"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a14"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncomprachiccomamaderas14"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a14"
+                                android:layout_toRightOf="@id/btnconsultaa14"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view14"
@@ -539,13 +1421,13 @@
                     android:id="@+id/chiccomamaderas15"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view14"
+                    android:layout_below="@id/lineara14"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtchiccomamaderas15principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view14"
+                    android:layout_below="@id/lineara14"
                     android:layout_toRightOf="@id/chiccomamaderas15"
                     android:text="@string/txtchiccomamaderas" />
 
@@ -556,15 +1438,78 @@
                     android:layout_toRightOf="@id/chiccomamaderas15"
                     android:text="@string/txtchiccomamaderas15" />
 
-                <Button
-                    android:id="@+id/btnchiccomamaderas15"
-                    style="@style/btnvermas"
-                    android:layout_above="@+id/view15" />
+                <Switch
+                    android:id="@+id/switch15"
+                    style="@style/switchstyle"
+                    android:layout_above="@id/view15" />
 
                 <TextView
                     android:id="@+id/preciochiccomamaderas15"
                     style="@style/precio"
                     android:layout_below="@id/chiccomamaderas15" />
+
+                <LinearLayout
+                    android:id="@+id/lineara15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view15"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/chiccomamaderas15a15"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1a15"
+                                style="@style/Divider"
+                                android:layout_below="@id/chiccomamaderas15a15" />
+
+                            <TextView
+                                android:id="@+id/txtchiccomamaderas15principala15"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a15"
+                                android:text="@string/txtchiccomamaderas" />
+
+                            <TextView
+                                android:id="@+id/txtchiccomamaderas15a15"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtchiccomamaderas15principala15"
+                                android:text="@string/txtchiccomamaderas15" />
+
+                            <View
+                                android:id="@+id/view2a15"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtchiccomamaderas15a15" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa15"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a15"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncomprachiccomamaderas15"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a15"
+                                android:layout_toRightOf="@id/btnconsultaa15"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view15"
@@ -575,13 +1520,13 @@
                     android:id="@+id/chiccomamaderas16"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view15"
+                    android:layout_below="@id/lineara15"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtchiccomamaderas16principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view15"
+                    android:layout_below="@id/lineara15"
                     android:layout_toRightOf="@id/chiccomamaderas16"
                     android:text="@string/txtchiccomamaderas" />
 
@@ -592,15 +1537,78 @@
                     android:layout_toRightOf="@id/chiccomamaderas16"
                     android:text="@string/txtchiccomamaderas16" />
 
-                <Button
-                    android:id="@+id/btnchiccomamaderas16"
-                    style="@style/btnvermas"
-                    android:layout_above="@+id/view16" />
+                <Switch
+                    android:id="@+id/switch16"
+                    style="@style/switchstyle"
+                    android:layout_above="@id/view16" />
 
                 <TextView
                     android:id="@+id/preciochiccomamaderas16"
                     style="@style/precio"
                     android:layout_below="@id/chiccomamaderas16" />
+
+                <LinearLayout
+                    android:id="@+id/lineara16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view16"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/chiccomamaderas16a16"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1a16"
+                                style="@style/Divider"
+                                android:layout_below="@id/chiccomamaderas16a16" />
+
+                            <TextView
+                                android:id="@+id/txtchiccomamaderas16principala16"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a16"
+                                android:text="@string/txtchiccomamaderas" />
+
+                            <TextView
+                                android:id="@+id/txtchiccomamaderas16a16"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtchiccomamaderas16principala16"
+                                android:text="@string/txtchiccomamaderas16" />
+
+                            <View
+                                android:id="@+id/view2a16"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtchiccomamaderas16a16" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa16"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a16"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncomprachiccomamaderas16"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a16"
+                                android:layout_toRightOf="@id/btnconsultaa16"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view16"
@@ -611,13 +1619,13 @@
                     android:id="@+id/chiccomamaderas17"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view16"
+                    android:layout_below="@id/lineara16"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtchiccomamaderas17principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view16"
+                    android:layout_below="@id/lineara16"
                     android:layout_toRightOf="@id/chiccomamaderas17"
                     android:text="@string/txtchiccomamaderas" />
 
@@ -628,15 +1636,78 @@
                     android:layout_toRightOf="@id/chiccomamaderas17"
                     android:text="@string/txtchiccomamaderas17" />
 
-                <Button
-                    android:id="@+id/btnchiccomamaderas17"
-                    style="@style/btnvermas"
+                <Switch
+                    android:id="@+id/switch17"
+                    style="@style/switchstyle"
                     android:layout_above="@+id/view17" />
 
                 <TextView
                     android:id="@+id/preciochiccomamaderas17"
                     style="@style/precio"
                     android:layout_below="@id/chiccomamaderas17" />
+
+                <LinearLayout
+                    android:id="@+id/lineara17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view17"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/chiccomamaderas17a17"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1a17"
+                                style="@style/Divider"
+                                android:layout_below="@id/chiccomamaderas17a17" />
+
+                            <TextView
+                                android:id="@+id/txtchiccomamaderas17principala17"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a17"
+                                android:text="@string/txtchiccomamaderas" />
+
+                            <TextView
+                                android:id="@+id/txtchiccomamaderas17a17"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtchiccomamaderas17principala17"
+                                android:text="@string/txtchiccomamaderas17" />
+
+                            <View
+                                android:id="@+id/view2a17"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtchiccomamaderas17a17" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa17"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a17"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncomprachiccomamaderas17"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a17"
+                                android:layout_toRightOf="@id/btnconsultaa17"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view17"

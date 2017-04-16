@@ -69,16 +69,122 @@
                     android:layout_toRightOf="@id/chiccoultra1"
                     android:text="@string/txtchiccoultra1" />
 
-                <Button
-                    android:id="@+id/btnchiccoultra1"
-                    style="@style/btnvermas"
-                    android:layout_above="@id/view1"
-                    android:text="@string/btnver" />
+                <Switch
+                    android:id="@+id/switch1"
+                    style="@style/switchstyle"
+                    android:layout_above="@id/view1" />
 
                 <TextView
                     android:id="@+id/preciochiccoultra1"
                     style="@style/precio"
                     android:layout_below="@id/chiccoultra1" />
+
+                <LinearLayout
+                    android:id="@+id/lineara1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view1"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/chiccoultra1imgnaranjaa1"
+                                android:layout_width="match_parent"
+                                android:layout_height="280dp"
+                                android:visibility="gone" />
+
+                            <ImageView
+                                android:id="@+id/chiccoultra1imglilaa1"
+                                android:layout_width="match_parent"
+                                android:layout_height="280dp"
+                                android:visibility="gone" />
+
+                            <ImageView
+                                android:id="@+id/chiccoultra1imgrojoa1"
+                                android:layout_width="match_parent"
+                                android:layout_height="280dp" />
+
+                            <TextView
+                                android:id="@+id/txtcoloresa1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/chiccoultra1imgrojoa1"
+                                android:layout_margin="8dp"
+                                android:padding="6dp"
+                                android:text="@string/txtcolores"
+                                android:textAlignment="center"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/modelo1a1"
+                                style="@style/txtvistas"
+                                android:layout_below="@id/txtcoloresa1"
+                                android:onClick="modelo1"
+                                android:text="@string/modelo1" />
+
+                            <TextView
+                                android:id="@+id/modelo2a1"
+                                style="@style/txtvistas"
+                                android:layout_below="@id/txtcoloresa1"
+                                android:layout_centerHorizontal="true"
+                                android:onClick="modelo2"
+                                android:text="@string/modelo2" />
+
+                            <TextView
+                                android:id="@+id/modelo3a1"
+                                style="@style/txtvistas"
+                                android:layout_alignParentRight="true"
+                                android:layout_below="@id/txtcoloresa1"
+                                android:onClick="modelo3"
+                                android:text="@string/modelo3" />
+
+                            <View
+                                android:id="@+id/view1a1"
+                                style="@style/Divider"
+                                android:layout_below="@id/modelo1a1" />
+
+                            <TextView
+                                android:id="@+id/txtchiccoultra1principala1"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a1"
+                                android:text="@string/txtchiccoultra" />
+
+                            <TextView
+                                android:id="@+id/chiccoultra1txtdesca1"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtchiccoultra1principala1"
+                                android:text="@string/txtchiccoultra1" />
+
+                            <View
+                                android:id="@+id/view2a1"
+                                style="@style/Divider"
+                                android:layout_below="@id/chiccoultra1txtdesca1" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa1"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a1"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncomprachiccoultra1"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a1"
+                                android:layout_toRightOf="@id/btnconsultaa1"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view1"
@@ -89,13 +195,13 @@
                     android:id="@+id/chiccoultra2"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view1"
+                    android:layout_below="@id/lineara1"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtchiccoultra2principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view1"
+                    android:layout_below="@id/lineara1"
                     android:layout_toRightOf="@id/chiccoultra2"
                     android:text="@string/txtchiccoultra" />
 
@@ -106,16 +212,145 @@
                     android:layout_toRightOf="@id/chiccoultra2"
                     android:text="@string/txtchiccoultra2" />
 
-                <Button
-                    android:id="@+id/btnchiccoultra2"
-                    style="@style/btnvermas"
-                    android:layout_above="@id/view2"
-                    android:text="@string/btnver" />
+                <Switch
+                    android:id="@+id/switch2"
+                    style="@style/switchstyle"
+                    android:layout_above="@id/view2" />
 
                 <TextView
                     android:id="@+id/preciochiccoultra2"
                     style="@style/precio"
                     android:layout_below="@id/chiccoultra2" />
+
+                <LinearLayout
+                    android:id="@+id/lineara2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view2"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/chiccoultra5a2"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp"
+                                android:visibility="gone" />
+
+                            <ImageView
+                                android:id="@+id/chiccoultra4a2"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp"
+                                android:visibility="gone" />
+
+                            <ImageView
+                                android:id="@+id/chiccoultra3a2"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp"
+                                android:visibility="gone" />
+
+                            <ImageView
+                                android:id="@+id/chiccoultra2a2"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <TextView
+                                android:id="@+id/txtcoloresa2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/chiccoultra2a2"
+                                android:layout_margin="8dp"
+                                android:padding="6dp"
+                                android:text="@string/txtcolores"
+                                android:textAlignment="center"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/modelo1a2"
+                                style="@style/txtvistas"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/txtcoloresa2"
+                                android:onClick="modelo1"
+                                android:text="@string/modelo1" />
+
+                            <TextView
+                                android:id="@+id/modelo2a2"
+                                style="@style/txtvistas"
+                                android:layout_below="@id/txtcoloresa2"
+                                android:layout_centerHorizontal="true"
+                                android:onClick="modelo2"
+                                android:text="@string/modelo2" />
+
+                            <TextView
+                                android:id="@+id/modelo3a2"
+                                style="@style/txtvistas"
+                                android:layout_alignParentRight="true"
+                                android:layout_below="@id/txtcoloresa2"
+                                android:onClick="modelo3"
+                                android:text="@string/modelo3" />
+
+                            <TextView
+                                android:id="@+id/modelo4a2"
+                                style="@style/txtvistas1"
+                                android:layout_below="@id/modelo2a2"
+                                android:layout_centerHorizontal="true"
+                                android:onClick="modelo4"
+                                android:text="@string/modelo4" />
+
+                            <View
+                                android:id="@+id/view1a2"
+                                style="@style/Divider"
+                                android:layout_below="@id/modelo4a2" />
+
+                            <TextView
+                                android:id="@+id/txtchiccoultra2principala2"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a2"
+                                android:text="@string/txtchiccoultra" />
+
+                            <TextView
+                                android:id="@+id/txtchiccoultra2desca2"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtchiccoultra2principala2"
+                                android:text="@string/txtchiccoultra2" />
+
+                            <View
+                                android:id="@+id/view2a2"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtchiccoultra2desca2" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa2"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a2"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncomprachiccoultra2"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a2"
+                                android:layout_toRightOf="@id/btnconsultaa2"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view2"
@@ -126,13 +361,13 @@
                     android:id="@+id/chiccoultra3"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view2"
+                    android:layout_below="@id/lineara2"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtchiccoultra3principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view2"
+                    android:layout_below="@id/lineara2"
                     android:layout_toRightOf="@id/chiccoultra3"
                     android:text="@string/txtchiccoultra" />
 
@@ -143,16 +378,122 @@
                     android:layout_toRightOf="@id/chiccoultra3"
                     android:text="@string/txtchiccoultra3" />
 
-                <Button
-                    android:id="@+id/btnchiccoultra3"
-                    style="@style/btnvermas"
-                    android:layout_above="@id/view3"
-                    android:text="@string/btnver" />
+                <Switch
+                    android:id="@+id/switch3"
+                    style="@style/switchstyle"
+                    android:layout_above="@id/view3" />
 
                 <TextView
                     android:id="@+id/preciochiccoultra3"
                     style="@style/precio"
                     android:layout_below="@id/chiccoultra3" />
+
+                <LinearLayout
+                    android:id="@+id/lineara3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view3"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/chiccoultra3imgnaranjaa3"
+                                android:layout_width="match_parent"
+                                android:layout_height="280dp"
+                                android:visibility="gone" />
+
+                            <ImageView
+                                android:id="@+id/chiccoultra3imglilaa3"
+                                android:layout_width="match_parent"
+                                android:layout_height="280dp"
+                                android:visibility="gone" />
+
+                            <ImageView
+                                android:id="@+id/chiccoultra3imgrojoa3"
+                                android:layout_width="match_parent"
+                                android:layout_height="280dp" />
+
+                            <TextView
+                                android:id="@+id/txtcoloresa3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/chiccoultra3imgrojoa3"
+                                android:layout_margin="8dp"
+                                android:padding="6dp"
+                                android:text="@string/txtcolores"
+                                android:textAlignment="center"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/modelo1a3"
+                                style="@style/txtvistas"
+                                android:layout_below="@id/txtcoloresa3"
+                                android:onClick="modelo1"
+                                android:text="@string/modelo1" />
+
+                            <TextView
+                                android:id="@+id/modelo2a3"
+                                style="@style/txtvistas"
+                                android:layout_below="@id/txtcoloresa3"
+                                android:layout_centerHorizontal="true"
+                                android:onClick="modelo2"
+                                android:text="@string/modelo2" />
+
+                            <TextView
+                                android:id="@+id/modelo3a3"
+                                style="@style/txtvistas"
+                                android:layout_alignParentRight="true"
+                                android:layout_below="@id/txtcoloresa3"
+                                android:onClick="modelo3"
+                                android:text="@string/modelo3" />
+
+                            <View
+                                android:id="@+id/view1a3"
+                                style="@style/Divider"
+                                android:layout_below="@id/modelo1a3" />
+
+                            <TextView
+                                android:id="@+id/txtchiccoultra3principala3"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a3"
+                                android:text="@string/txtchiccoultra" />
+
+                            <TextView
+                                android:id="@+id/chiccoultra3txtdesca3"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtchiccoultra3principala3"
+                                android:text="@string/txtchiccoultra3" />
+
+                            <View
+                                android:id="@+id/view2a3"
+                                style="@style/Divider"
+                                android:layout_below="@id/chiccoultra3txtdesca3" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa3"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a3"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncomprachiccoultra3"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a3"
+                                android:layout_toRightOf="@id/btnconsultaa3"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view3"

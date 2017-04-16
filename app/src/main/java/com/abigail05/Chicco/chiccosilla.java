@@ -6,12 +6,17 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CompoundButton;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.Switch;
 import android.widget.TextView;
 
 import com.abigail05.MainActivity;
 import com.abigail05.R;
+import com.abigail05.contacto;
 import com.abigail05.marcas;
+import com.abigail05.webview;
 import com.squareup.picasso.Picasso;
 
 import org.jsoup.Jsoup;
@@ -24,9 +29,27 @@ public class chiccosilla extends AppCompatActivity {
 
     Button home;
     Button marca;
-    Button btnchiccosilla1;
-    Button btnchiccosilla2;
-    Button btnchiccosilla3;
+    Button btncomprachiccosilla1;
+    Button btnconsultaa1;
+    TextView txtchiccosilla1a1;
+    String urlcomboa1 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=dc8e0e7f706a32b1ec845fae43f4d75e";
+    ImageView chiccosilla1a1;
+    Button btncomprachiccosilla2;
+    Button btnconsultaa2;
+    TextView txtchiccosilla2a2;
+    String urlcomboa2 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=665704c02c1c8de8f4bc63449bc514eb";
+    ImageView chiccosilla2a2;
+    Button btncomprachiccosilla3;
+    Button btnconsultaa3;
+    TextView txtchiccosilla3a3;
+    String urlcomboa3 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=80ca084e8fbdf7083ba40220f912223f";
+    ImageView chiccosilla3a3;
+    Switch switch1;
+    Switch switch2;
+    Switch switch3;
+    LinearLayout lineara1;
+    LinearLayout lineara2;
+    LinearLayout lineara3;
     TextView preciochiccosilla1;
     TextView preciochiccosilla2;
     TextView preciochiccosilla3;
@@ -44,6 +67,139 @@ public class chiccosilla extends AppCompatActivity {
 
         new preciochiccosillaAsync().execute();
 
+        /* chicco silla 1 */
+
+        chiccosilla1a1 = (ImageView)findViewById(R.id.chiccosilla1a1);
+        Picasso.with(this).load(urlchiccosilla1).into(chiccosilla1a1);
+
+        txtchiccosilla1a1 = (TextView)findViewById(R.id.txtchiccosilla1a1);
+        final String stconsultaa1 = txtchiccosilla1a1.getText().toString();
+        btnconsultaa1 = (Button)findViewById(R.id.btnconsultaa1);
+        btnconsultaa1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa1 = new Intent(chiccosilla.this,contacto.class);
+                btnconsultaa1.putExtra("consulta", stconsultaa1);
+                startActivity(btnconsultaa1);
+            }
+        });
+
+
+        btncomprachiccosilla1 = (Button)findViewById(R.id.btncomprachiccosilla1);
+        btncomprachiccosilla1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncomprachiccosilla1 = new Intent(chiccosilla.this,webview.class);
+                btncomprachiccosilla1.putExtra("string", urlcomboa1);
+                startActivity(btncomprachiccosilla1);
+            }
+        });
+
+        lineara1 = (LinearLayout)findViewById(R.id.lineara1);
+
+        switch1 = (Switch)findViewById(R.id.switch1);
+        switch1.setChecked(false);
+        switch1.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch1.isChecked()) {
+                    lineara1.setVisibility(View.VISIBLE);
+                } else {
+                    lineara1.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* chicco silla 2 */
+
+        chiccosilla2a2 = (ImageView)findViewById(R.id.chiccosilla2a2);
+        Picasso.with(this).load(urlchiccosilla2).into(chiccosilla2a2);
+
+        txtchiccosilla2a2 = (TextView)findViewById(R.id.txtchiccosilla2a2);
+        final String stconsultaa2 = txtchiccosilla2a2.getText().toString();
+        btnconsultaa2 = (Button)findViewById(R.id.btnconsultaa2);
+        btnconsultaa2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa2 = new Intent(chiccosilla.this,contacto.class);
+                btnconsultaa2.putExtra("consulta", stconsultaa2);
+                startActivity(btnconsultaa2);
+            }
+        });
+
+
+        btncomprachiccosilla2 = (Button)findViewById(R.id.btncomprachiccosilla2);
+        btncomprachiccosilla2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncomprachiccosilla2 = new Intent(chiccosilla.this,webview.class);
+                btncomprachiccosilla2.putExtra("string", urlcomboa2);
+                startActivity(btncomprachiccosilla2);
+            }
+        });
+
+        lineara2 = (LinearLayout)findViewById(R.id.lineara2);
+
+        switch2 = (Switch)findViewById(R.id.switch2);
+        switch2.setChecked(false);
+        switch2.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch2.isChecked()) {
+                    lineara2.setVisibility(View.VISIBLE);
+                } else {
+                    lineara2.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* chicco silla 3 */
+
+        chiccosilla3a3 = (ImageView)findViewById(R.id.chiccosilla3a3);
+        Picasso.with(this).load(urlchiccosilla3).into(chiccosilla3a3);
+
+        txtchiccosilla3a3 = (TextView)findViewById(R.id.txtchiccosilla3a3);
+        final String stconsultaa3 = txtchiccosilla3a3.getText().toString();
+        btnconsultaa3 = (Button)findViewById(R.id.btnconsultaa3);
+        btnconsultaa3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa3 = new Intent(chiccosilla.this,contacto.class);
+                btnconsultaa3.putExtra("consulta", stconsultaa3);
+                startActivity(btnconsultaa3);
+            }
+        });
+
+
+        btncomprachiccosilla3 = (Button)findViewById(R.id.btncomprachiccosilla3);
+        btncomprachiccosilla3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncomprachiccosilla3 = new Intent(chiccosilla.this,webview.class);
+                btncomprachiccosilla3.putExtra("string", urlcomboa3);
+                startActivity(btncomprachiccosilla3);
+            }
+        });
+
+        lineara3 = (LinearLayout)findViewById(R.id.lineara3);
+
+        switch3 = (Switch)findViewById(R.id.switch3);
+        switch3.setChecked(false);
+        switch3.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch3.isChecked()) {
+                    lineara3.setVisibility(View.VISIBLE);
+                } else {
+                    lineara3.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+
         preciochiccosilla1 = (TextView)findViewById(R.id.preciochiccosilla1);
         preciochiccosilla2 = (TextView)findViewById(R.id.preciochiccosilla2);
         preciochiccosilla3 = (TextView)findViewById(R.id.preciochiccosilla3);
@@ -56,33 +212,6 @@ public class chiccosilla extends AppCompatActivity {
 
         chiccosilla3 = (ImageView)findViewById(R.id.chiccosilla3);
         Picasso.with(this).load(urlchiccosilla3).into(chiccosilla3);
-
-        btnchiccosilla1 = (Button)findViewById(R.id.btnchiccosilla1);
-        btnchiccosilla1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnchiccosilla1 = new Intent(chiccosilla.this, chiccosilla1.class);
-                startActivity(btnchiccosilla1);
-            }
-        });
-
-        btnchiccosilla2 = (Button)findViewById(R.id.btnchiccosilla2);
-        btnchiccosilla2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnchiccosilla2 = new Intent(chiccosilla.this, chiccosilla2.class);
-                startActivity(btnchiccosilla2);
-            }
-        });
-
-        btnchiccosilla3 = (Button)findViewById(R.id.btnchiccosilla3);
-        btnchiccosilla3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnchiccosilla3 = new Intent(chiccosilla.this, chiccosilla3.class);
-                startActivity(btnchiccosilla3);
-            }
-        });
 
         marca = (Button) findViewById(R.id.btnvmarca);
         marca.setOnClickListener(new View.OnClickListener() {

@@ -279,125 +279,13 @@
             android:label="Chicco | Mamaderas y accesorios"
             android:parentActivityName=".Chicco.chiccoprodlist" />
         <activity
-            android:name=".Chicco.chiccomamaderas1"
-            android:label="Chicco | Mamadera"
-            android:parentActivityName=".Chicco.chiccomamaderas" />
-        <activity
-            android:name=".Chicco.chiccomamaderas2"
-            android:label="Chicco | Mamadera"
-            android:parentActivityName=".Chicco.chiccomamaderas" />
-        <activity
-            android:name=".Chicco.chiccomamaderas3"
-            android:label="Chicco | Mamadera"
-            android:parentActivityName=".Chicco.chiccomamaderas" />
-        <activity
-            android:name=".Chicco.chiccomamaderas4"
-            android:label="Chicco | Mamadera"
-            android:parentActivityName=".Chicco.chiccomamaderas" />
-        <activity
-            android:name=".Chicco.chiccomamaderas5"
-            android:label="Chicco | Tetina"
-            android:parentActivityName=".Chicco.chiccomamaderas" />
-        <activity
-            android:name=".Chicco.chiccomamaderas6"
-            android:label="Chicco | Tetina"
-            android:parentActivityName=".Chicco.chiccomamaderas" />
-        <activity
-            android:name=".Chicco.chiccomamaderas7"
-            android:label="Chicco | Tetina"
-            android:parentActivityName=".Chicco.chiccomamaderas" />
-        <activity
-            android:name=".Chicco.chiccomamaderas8"
-            android:label="Chicco | Tetina"
-            android:parentActivityName=".Chicco.chiccomamaderas" />
-        <activity
-            android:name=".Chicco.chiccomamaderas9"
-            android:label="Chicco | Bandeja escurridora"
-            android:parentActivityName=".Chicco.chiccomamaderas" />
-        <activity
-            android:name=".Chicco.chiccomamaderas10"
-            android:label="Chicco | Asas para mamadera"
-            android:parentActivityName=".Chicco.chiccomamaderas" />
-        <activity
-            android:name=".Chicco.chiccomamaderas11"
-            android:label="Chicco | Cucharas"
-            android:parentActivityName=".Chicco.chiccomamaderas" />
-        <activity
-            android:name=".Chicco.chiccomamaderas12"
-            android:label="Chicco | Vaso"
-            android:parentActivityName=".Chicco.chiccomamaderas" />
-        <activity
-            android:name=".Chicco.chiccomamaderas13"
-            android:label="Chicco | Chupete"
-            android:parentActivityName=".Chicco.chiccomamaderas" />
-        <activity
-            android:name=".Chicco.chiccomamaderas14"
-            android:label="Chicco | Chupete"
-            android:parentActivityName=".Chicco.chiccomamaderas" />
-        <activity
-            android:name=".Chicco.chiccomamaderas15"
-            android:label="Chicco | Chupete"
-            android:parentActivityName=".Chicco.chiccomamaderas" />
-        <activity
-            android:name=".Chicco.chiccomamaderas16"
-            android:label="Chicco | Chupete"
-            android:parentActivityName=".Chicco.chiccomamaderas" />
-        <activity
-            android:name=".Chicco.chiccomamaderas17"
-            android:label="Chicco | Cepillo"
-            android:parentActivityName=".Chicco.chiccomamaderas" />
-        <activity
             android:name=".Chicco.chiccohigiene"
             android:label="Chicco | Higiene y protección"
             android:parentActivityName=".Chicco.chiccoprodlist" />
         <activity
-            android:name=".Chicco.chiccohigiene1"
-            android:label="Chicco | Humidificador"
-            android:parentActivityName=".Chicco.chiccohigiene" />
-        <activity
-            android:name=".Chicco.chiccohigiene2"
-            android:label="Chicco | Alfombra antideslizante"
-            android:parentActivityName=".Chicco.chiccohigiene" />
-        <activity
-            android:name=".Chicco.chiccohigiene3"
-            android:label="Chicco | Cubre enchufes"
-            android:parentActivityName=".Chicco.chiccohigiene" />
-        <activity
-            android:name=".Chicco.chiccohigiene4"
-            android:label="Chicco | Esquineros protectores"
-            android:parentActivityName=".Chicco.chiccohigiene" />
-        <activity
-            android:name=".Chicco.chiccohigiene5"
-            android:label="Chicco | Traba heladera"
-            android:parentActivityName=".Chicco.chiccohigiene" />
-        <activity
-            android:name=".Chicco.chiccohigiene6"
-            android:label="Chicco | Traba cajones"
-            android:parentActivityName=".Chicco.chiccohigiene" />
-        <activity
-            android:name=".Chicco.chiccohigiene7"
-            android:label="Chicco | Traba puerta"
-            android:parentActivityName=".Chicco.chiccohigiene" />
-        <activity
-            android:name=".Chicco.chiccohigiene8"
-            android:label="Chicco | Salva dedos"
-            android:parentActivityName=".Chicco.chiccohigiene" />
-        <activity
             android:name=".Chicco.chiccosilla"
             android:label="Chicco | Sillas"
             android:parentActivityName=".Chicco.chiccoprodlist" />
-        <activity
-            android:name=".Chicco.chiccosilla1"
-            android:label="Chicco | Silla"
-            android:parentActivityName=".Chicco.chiccosilla" />
-        <activity
-            android:name=".Chicco.chiccosilla2"
-            android:label="Chicco | Silla"
-            android:parentActivityName=".Chicco.chiccosilla" />
-        <activity
-            android:name=".Chicco.chiccosilla3"
-            android:label="Chicco | Silla"
-            android:parentActivityName=".Chicco.chiccosilla" />
         <activity
             android:name=".Nuby.nubyprodlist"
             android:label="Nuby | Productos"
@@ -735,10 +623,6 @@
             android:label="mibes | Accesorios"
             android:parentActivityName=".mibes.mibesaccesorios" />
         <activity
-            android:name=".Chicco.chiccohigiene9"
-            android:label="Chicco | Callbaby"
-            android:parentActivityName=".Chicco.chiccohigiene" />
-        <activity
             android:name=".mibes.mibescatres"
             android:label="mibes | Catres"
             android:parentActivityName=".mibes.mibesprodlist" />
@@ -831,69 +715,17 @@
             android:label="Chicco | Cochecitos"
             android:parentActivityName=".Chicco.chiccoprodlist" />
         <activity
-            android:name=".Chicco.chiccoduotrio1"
-            android:label="Chicco | Trío Love"
-            android:parentActivityName=".Chicco.chiccoduotrio" />
-        <activity
-            android:name=".Chicco.chiccoduotrio2"
-            android:label="Chicco | Active3 Duo"
-            android:parentActivityName=".Chicco.chiccoduotrio" />
-        <activity
-            android:name=".Chicco.chiccoduotrio3"
-            android:label="Chicco | Urban Plus Duo"
-            android:parentActivityName=".Chicco.chiccoduotrio" />
-        <activity
-            android:name=".Chicco.chiccoduotrio4"
-            android:label="Chicco | Urban Duo"
-            android:parentActivityName=".Chicco.chiccoduotrio" />
-        <activity
-            android:name=".Chicco.chiccoduotrio5"
-            android:label="Chicco | Simplicity Duo"
-            android:parentActivityName=".Chicco.chiccoduotrio" />
-        <activity
             android:name=".Chicco.chiccoultra"
             android:label="Chicco | Cochecitos"
             android:parentActivityName=".Chicco.chiccoprodlist" />
-        <activity
-            android:name=".Chicco.chiccoultra1"
-            android:label="Chicco | LiteWay2"
-            android:parentActivityName=".Chicco.chiccoultra" />
-        <activity
-            android:name=".Chicco.chiccoultra2"
-            android:label="Chicco | London"
-            android:parentActivityName=".Chicco.chiccoultra" />
-        <activity
-            android:name=".Chicco.chiccoultra3"
-            android:label="Chicco | Snappy"
-            android:parentActivityName=".Chicco.chiccoultra" />
         <activity
             android:name=".Chicco.chiccotwin1"
             android:label="Chicco | Twin"
             android:parentActivityName=".Chicco.chiccoprodlist" />
         <activity
-            android:name=".Chicco.chiccohigiene10"
-            android:label="Chicco | Parasol"
-            android:parentActivityName=".Chicco.chiccohigiene" />
-        <activity
             android:name=".Chicco.chiccobutacas"
             android:label="Chicco | Butacas para auto"
             android:parentActivityName=".Chicco.chiccoprodlist" />
-        <activity
-            android:name=".Chicco.chiccobutacas1"
-            android:label="Chicco | Butaca NextFit"
-            android:parentActivityName=".Chicco.chiccobutacas" />
-        <activity
-            android:name=".Chicco.chiccobutacas2"
-            android:label="Chicco | Butaca Oasys 2-3 FixPlus"
-            android:parentActivityName=".Chicco.chiccobutacas" />
-        <activity
-            android:name=".Chicco.chiccobutacas3"
-            android:label="Chicco | Butaca Oasys 2-3"
-            android:parentActivityName=".Chicco.chiccobutacas" />
-        <activity
-            android:name=".Chicco.chiccobutacas4"
-            android:label="Chicco | Butaca Eletta"
-            android:parentActivityName=".Chicco.chiccobutacas" />
         <activity
             android:name=".Chicco.chiccojuguetes"
             android:label="Chicco | Juguetes"

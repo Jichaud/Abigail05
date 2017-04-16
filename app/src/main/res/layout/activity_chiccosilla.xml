@@ -69,15 +69,78 @@
                     android:layout_toRightOf="@id/chiccosilla1"
                     android:text="@string/txtchiccosilla1" />
 
-                <Button
-                    android:id="@+id/btnchiccosilla1"
-                    style="@style/btnvermas"
+                <Switch
+                    android:id="@+id/switch1"
+                    style="@style/switchstyle"
                     android:layout_above="@id/view1" />
 
                 <TextView
                     android:id="@+id/preciochiccosilla1"
                     style="@style/precio"
                     android:layout_below="@id/chiccosilla1" />
+
+                <LinearLayout
+                    android:id="@+id/lineara1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view1"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/chiccosilla1a1"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1a1"
+                                style="@style/Divider"
+                                android:layout_below="@id/chiccosilla1a1" />
+
+                            <TextView
+                                android:id="@+id/txtchiccosilla1principala1"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a1"
+                                android:text="@string/txtchiccosilla" />
+
+                            <TextView
+                                android:id="@+id/txtchiccosilla1a1"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtchiccosilla1principala1"
+                                android:text="@string/txtchiccosilla1" />
+
+                            <View
+                                android:id="@+id/view2a1"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtchiccosilla1a1" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa1"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a1"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncomprachiccosilla1"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a1"
+                                android:layout_toRightOf="@id/btnconsultaa1"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view1"
@@ -88,13 +151,13 @@
                     android:id="@+id/chiccosilla2"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view1"
+                    android:layout_below="@id/lineara1"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtchiccosilla2principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view1"
+                    android:layout_below="@id/lineara1"
                     android:layout_toRightOf="@id/chiccosilla2"
                     android:text="@string/txtchiccosilla" />
 
@@ -105,15 +168,78 @@
                     android:layout_toRightOf="@id/chiccosilla2"
                     android:text="@string/txtchiccosilla2" />
 
-                <Button
-                    android:id="@+id/btnchiccosilla2"
-                    style="@style/btnvermas"
+                <Switch
+                    android:id="@+id/switch2"
+                    style="@style/switchstyle"
                     android:layout_above="@id/view2" />
 
                 <TextView
                     android:id="@+id/preciochiccosilla2"
                     style="@style/precio"
                     android:layout_below="@id/chiccosilla2" />
+
+                <LinearLayout
+                    android:id="@+id/lineara2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view2"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/chiccosilla2a2"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1a2"
+                                style="@style/Divider"
+                                android:layout_below="@id/chiccosilla2a2" />
+
+                            <TextView
+                                android:id="@+id/txtchiccosilla2principala2"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a2"
+                                android:text="@string/txtchiccosilla" />
+
+                            <TextView
+                                android:id="@+id/txtchiccosilla2a2"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtchiccosilla2principala2"
+                                android:text="@string/txtchiccosilla2" />
+
+                            <View
+                                android:id="@+id/view2a2"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtchiccosilla2a2" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa2"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a2"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncomprachiccosilla2"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a2"
+                                android:layout_toRightOf="@id/btnconsultaa2"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view2"
@@ -124,13 +250,13 @@
                     android:id="@+id/chiccosilla3"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view2"
+                    android:layout_below="@id/lineara2"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtchiccosilla3principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view2"
+                    android:layout_below="@id/lineara2"
                     android:layout_toRightOf="@id/chiccosilla3"
                     android:text="@string/txtchiccosilla" />
 
@@ -141,15 +267,78 @@
                     android:layout_toRightOf="@id/chiccosilla3"
                     android:text="@string/txtchiccosilla3" />
 
-                <Button
-                    android:id="@+id/btnchiccosilla3"
-                    style="@style/btnvermas"
+                <Switch
+                    android:id="@+id/switch3"
+                    style="@style/switchstyle"
                     android:layout_above="@id/view3" />
 
                 <TextView
                     android:id="@+id/preciochiccosilla3"
                     style="@style/precio"
                     android:layout_below="@id/chiccosilla3" />
+
+                <LinearLayout
+                    android:id="@+id/lineara3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view3"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/chiccosilla3a3"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <View
+                                android:id="@+id/view1a3"
+                                style="@style/Divider"
+                                android:layout_below="@id/chiccosilla3a3" />
+
+                            <TextView
+                                android:id="@+id/txtchiccosilla3principala3"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a3"
+                                android:text="@string/txtchiccosilla" />
+
+                            <TextView
+                                android:id="@+id/txtchiccosilla3a3"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtchiccosilla3principala3"
+                                android:text="@string/txtchiccosilla3" />
+
+                            <View
+                                android:id="@+id/view2a3"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtchiccosilla3a3" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa3"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a3"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncomprachiccosilla3"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a3"
+                                android:layout_toRightOf="@id/btnconsultaa3"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view3"

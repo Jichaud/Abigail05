@@ -6,12 +6,17 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CompoundButton;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.Switch;
 import android.widget.TextView;
 
 import com.abigail05.MainActivity;
 import com.abigail05.R;
+import com.abigail05.contacto;
 import com.abigail05.marcas;
+import com.abigail05.webview;
 import com.squareup.picasso.Picasso;
 
 import org.jsoup.Jsoup;
@@ -24,23 +29,125 @@ public class chiccomamaderas extends AppCompatActivity {
 
     Button home;
     Button marca;
-    Button btnchiccomamaderas1;
-    Button btnchiccomamaderas2;
-    Button btnchiccomamaderas3;
-    Button btnchiccomamaderas4;
-    Button btnchiccomamaderas5;
-    Button btnchiccomamaderas6;
-    Button btnchiccomamaderas7;
-    Button btnchiccomamaderas8;
-    Button btnchiccomamaderas9;
-    Button btnchiccomamaderas10;
-    Button btnchiccomamaderas11;
-    Button btnchiccomamaderas12;
-    Button btnchiccomamaderas13;
-    Button btnchiccomamaderas14;
-    Button btnchiccomamaderas15;
-    Button btnchiccomamaderas16;
-    Button btnchiccomamaderas17;
+    Button btncomprachiccomamaderas1;
+    Button btnconsultaa1;
+    TextView txtchiccomamaderas1a1;
+    String urlcomboa1 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=42aa73e7d9cacea2cd18b1a7c7ed1fca";
+    ImageView chiccomamaderas1a1;
+    Button btncomprachiccomamaderas2;
+    Button btnconsultaa2;
+    TextView txtchiccomamaderas2a2;
+    String urlcomboa2 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=921d15ee20f0dddeeeed71e06b22557a";
+    ImageView chiccomamaderas2a2;
+    Button btncomprachiccomamaderas3;
+    Button btnconsultaa3;
+    TextView txtchiccomamaderas3a3;
+    String urlcomboa3 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=de5886502a538d82275e2532ecd73251";
+    ImageView chiccomamaderas3a3;
+    Button btncomprachiccomamaderas4;
+    Button btnconsultaa4;
+    TextView txtchiccomamaderas4a4;
+    String urlcomboa4 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=5d1ef7650e22b6e463cdfb812acf7de0";
+    ImageView chiccomamaderas4a4;
+    Button btncomprachiccomamaderas5;
+    Button btnconsultaa5;
+    TextView txtchiccomamaderas5a5;
+    String urlcomboa5 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=a05008652603ccfad9666eb8dcd0a133";
+    ImageView chiccomamaderas5a5;
+    Button btncomprachiccomamaderas6;
+    Button btnconsultaa6;
+    TextView txtchiccomamaderas6a6;
+    String urlcomboa6 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=962569427313ba6d0d9902effbc4a31c";
+    ImageView chiccomamaderas6a6;
+    Button btncomprachiccomamaderas7;
+    Button btnconsultaa7;
+    TextView txtchiccomamaderas7a7;
+    String urlcomboa7 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=3f176ccb8cc4972cd9de23dd503fbf01";
+    ImageView chiccomamaderas7a7;
+    Button btncomprachiccomamaderas8;
+    Button btnconsultaa8;
+    TextView txtchiccomamaderas8a8;
+    String urlcomboa8 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=b2ba59fda2d26dc6d00f7c0bfa80885b";
+    ImageView chiccomamaderas8a8;
+    Button btncomprachiccomamaderas9;
+    Button btnconsultaa9;
+    TextView txtchiccomamaderas9a9;
+    String urlcomboa9 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=0bd393d865ec9e08e6e570c802cc93e6";
+    ImageView chiccomamaderas9a9;
+    Button btncomprachiccomamaderas10;
+    Button btnconsultaa10;
+    TextView txtchiccomamaderas10a10;
+    String urlcomboa10 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=647d80235744dd9fa0e7323d55d66712";
+    ImageView chiccomamaderas10a10;
+    Button btncomprachiccomamaderas11;
+    Button btnconsultaa11;
+    TextView txtchiccomamaderas11a11;
+    String urlcomboa11 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=da99acd0caf73566da3f17e1a7119dbf";
+    ImageView chiccomamaderas11a11;
+    Button btncomprachiccomamaderas12;
+    Button btnconsultaa12;
+    TextView txtchiccomamaderas12a12;
+    String urlcomboa12 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=c130da95e53441caa3e7456ef0685890";
+    ImageView chiccomamaderas12a12;
+    Button btncomprachiccomamaderas13;
+    Button btnconsultaa13;
+    TextView txtchiccomamaderas13a13;
+    String urlcomboa13 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=4c766fa4aa1cffe3fca07f848d12a0b8";
+    ImageView chiccomamaderas13a13;
+    Button btncomprachiccomamaderas14;
+    Button btnconsultaa14;
+    TextView txtchiccomamaderas14a14;
+    String urlcomboa14 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=8bf0b3d4d7d04fd871c93fb71dbb57a4";
+    ImageView chiccomamaderas14a14;
+    Button btncomprachiccomamaderas15;
+    Button btnconsultaa15;
+    TextView txtchiccomamaderas15a15;
+    String urlcomboa15 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=77dba17f306b92bb6731a83216973346";
+    ImageView chiccomamaderas15a15;
+    Button btncomprachiccomamaderas16;
+    Button btnconsultaa16;
+    TextView txtchiccomamaderas16a16;
+    String urlcomboa16 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=343fa9458fa3bcd510b11288fa7129c8";
+    ImageView chiccomamaderas16a16;
+    Button btncomprachiccomamaderas17;
+    Button btnconsultaa17;
+    TextView txtchiccomamaderas17a17;
+    String urlcomboa17 = "https://forms.todopago.com.ar/formulario/commands?command=formulario&m=d05b32fd707e18e374fe785c7c7b126e";
+    ImageView chiccomamaderas17a17;
+    Switch switch1;
+    Switch switch2;
+    Switch switch3;
+    Switch switch4;
+    Switch switch5;
+    Switch switch6;
+    Switch switch7;
+    Switch switch8;
+    Switch switch9;
+    Switch switch10;
+    Switch switch11;
+    Switch switch12;
+    Switch switch13;
+    Switch switch14;
+    Switch switch15;
+    Switch switch16;
+    Switch switch17;
+    LinearLayout lineara1;
+    LinearLayout lineara2;
+    LinearLayout lineara3;
+    LinearLayout lineara4;
+    LinearLayout lineara5;
+    LinearLayout lineara6;
+    LinearLayout lineara7;
+    LinearLayout lineara8;
+    LinearLayout lineara9;
+    LinearLayout lineara10;
+    LinearLayout lineara11;
+    LinearLayout lineara12;
+    LinearLayout lineara13;
+    LinearLayout lineara14;
+    LinearLayout lineara15;
+    LinearLayout lineara16;
+    LinearLayout lineara17;
     TextView preciochiccomamaderas1;
     TextView preciochiccomamaderas2;
     TextView preciochiccomamaderas3;
@@ -99,6 +206,759 @@ public class chiccomamaderas extends AppCompatActivity {
         setContentView(R.layout.activity_chiccomamaderas);
 
         new preciochiccomamaderasAsync().execute();
+
+        /* chicco mamaderas 1 */
+
+        chiccomamaderas1a1 = (ImageView)findViewById(R.id.chiccomamaderas1a1);
+        Picasso.with(this).load(urlchiccomamaderas1).into(chiccomamaderas1a1);
+
+        txtchiccomamaderas1a1 = (TextView)findViewById(R.id.txtchiccomamaderas1a1);
+        final String stconsultaa1 = txtchiccomamaderas1a1.getText().toString();
+        btnconsultaa1 = (Button)findViewById(R.id.btnconsultaa1);
+        btnconsultaa1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa1 = new Intent(chiccomamaderas.this,contacto.class);
+                btnconsultaa1.putExtra("consulta", stconsultaa1);
+                startActivity(btnconsultaa1);
+            }
+        });
+
+
+        btncomprachiccomamaderas1 = (Button)findViewById(R.id.btncomprachiccomamaderas1);
+        btncomprachiccomamaderas1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncomprachiccomamaderas1 = new Intent(chiccomamaderas.this,webview.class);
+                btncomprachiccomamaderas1.putExtra("string", urlcomboa1);
+                startActivity(btncomprachiccomamaderas1);
+            }
+        });
+
+        lineara1 = (LinearLayout)findViewById(R.id.lineara1);
+
+        switch1 = (Switch)findViewById(R.id.switch1);
+        switch1.setChecked(false);
+        switch1.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch1.isChecked()) {
+                    lineara1.setVisibility(View.VISIBLE);
+                } else {
+                    lineara1.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* chicco mamaderas 2 */
+
+        chiccomamaderas2a2 = (ImageView)findViewById(R.id.chiccomamaderas2a2);
+        Picasso.with(this).load(urlchiccomamaderas2).into(chiccomamaderas2a2);
+
+
+        txtchiccomamaderas2a2 = (TextView)findViewById(R.id.txtchiccomamaderas2a2);
+        final String stconsultaa2 = txtchiccomamaderas2a2.getText().toString();
+        btnconsultaa2 = (Button)findViewById(R.id.btnconsultaa2);
+        btnconsultaa2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa2 = new Intent(chiccomamaderas.this,contacto.class);
+                btnconsultaa2.putExtra("consulta", stconsultaa2);
+                startActivity(btnconsultaa2);
+            }
+        });
+
+
+        btncomprachiccomamaderas2 = (Button)findViewById(R.id.btncomprachiccomamaderas2);
+        btncomprachiccomamaderas2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncomprachiccomamaderas2 = new Intent(chiccomamaderas.this,webview.class);
+                btncomprachiccomamaderas2.putExtra("string", urlcomboa2);
+                startActivity(btncomprachiccomamaderas2);
+            }
+        });
+
+        lineara2 = (LinearLayout)findViewById(R.id.lineara2);
+
+        switch2 = (Switch)findViewById(R.id.switch2);
+        switch2.setChecked(false);
+        switch2.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch2.isChecked()) {
+                    lineara2.setVisibility(View.VISIBLE);
+                } else {
+                    lineara2.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* chicco mamaderas 3 */
+
+        chiccomamaderas3a3 = (ImageView)findViewById(R.id.chiccomamaderas3a3);
+        Picasso.with(this).load(urlchiccomamaderas3).into(chiccomamaderas3a3);
+
+
+        txtchiccomamaderas3a3 = (TextView)findViewById(R.id.txtchiccomamaderas3a3);
+        final String stconsultaa3 = txtchiccomamaderas3a3.getText().toString();
+        btnconsultaa3 = (Button)findViewById(R.id.btnconsultaa3);
+        btnconsultaa3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa3 = new Intent(chiccomamaderas.this,contacto.class);
+                btnconsultaa3.putExtra("consulta", stconsultaa3);
+                startActivity(btnconsultaa3);
+            }
+        });
+
+
+        btncomprachiccomamaderas3 = (Button)findViewById(R.id.btncomprachiccomamaderas3);
+        btncomprachiccomamaderas3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncomprachiccomamaderas3 = new Intent(chiccomamaderas.this,webview.class);
+                btncomprachiccomamaderas3.putExtra("string", urlcomboa3);
+                startActivity(btncomprachiccomamaderas3);
+            }
+        });
+
+        lineara3 = (LinearLayout)findViewById(R.id.lineara3);
+
+        switch3 = (Switch)findViewById(R.id.switch3);
+        switch3.setChecked(false);
+        switch3.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch3.isChecked()) {
+                    lineara3.setVisibility(View.VISIBLE);
+                } else {
+                    lineara3.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* chicco mamaderas 4 */
+
+        chiccomamaderas4a4 = (ImageView)findViewById(R.id.chiccomamaderas4a4);
+        Picasso.with(this).load(urlchiccomamaderas4).into(chiccomamaderas4a4);
+
+
+        txtchiccomamaderas4a4 = (TextView)findViewById(R.id.txtchiccomamaderas4a4);
+        final String stconsultaa4 = txtchiccomamaderas4a4.getText().toString();
+        btnconsultaa4 = (Button)findViewById(R.id.btnconsultaa4);
+        btnconsultaa4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa4 = new Intent(chiccomamaderas.this,contacto.class);
+                btnconsultaa4.putExtra("consulta", stconsultaa4);
+                startActivity(btnconsultaa4);
+            }
+        });
+
+
+        btncomprachiccomamaderas4 = (Button)findViewById(R.id.btncomprachiccomamaderas4);
+        btncomprachiccomamaderas4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncomprachiccomamaderas4 = new Intent(chiccomamaderas.this,webview.class);
+                btncomprachiccomamaderas4.putExtra("string", urlcomboa4);
+                startActivity(btncomprachiccomamaderas4);
+            }
+        });
+
+        lineara4 = (LinearLayout)findViewById(R.id.lineara4);
+
+        switch4 = (Switch)findViewById(R.id.switch4);
+        switch4.setChecked(false);
+        switch4.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch4.isChecked()) {
+                    lineara4.setVisibility(View.VISIBLE);
+                } else {
+                    lineara4.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* chicco mamamderas 5 */
+
+        chiccomamaderas5a5 = (ImageView)findViewById(R.id.chiccomamaderas5a5);
+        Picasso.with(this).load(urlchiccomamaderas5).into(chiccomamaderas5a5);
+
+        txtchiccomamaderas5a5 = (TextView)findViewById(R.id.txtchiccomamaderas5a5);
+        final String stconsultaa5 = txtchiccomamaderas5a5.getText().toString();
+        btnconsultaa5 = (Button)findViewById(R.id.btnconsultaa5);
+        btnconsultaa5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa5 = new Intent(chiccomamaderas.this,contacto.class);
+                btnconsultaa5.putExtra("consulta", stconsultaa5);
+                startActivity(btnconsultaa5);
+            }
+        });
+
+
+        btncomprachiccomamaderas5 = (Button)findViewById(R.id.btncomprachiccomamaderas5);
+        btncomprachiccomamaderas5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncomprachiccomamaderas5 = new Intent(chiccomamaderas.this,webview.class);
+                btncomprachiccomamaderas5.putExtra("string", urlcomboa5);
+                startActivity(btncomprachiccomamaderas5);
+            }
+        });
+
+        lineara5 = (LinearLayout)findViewById(R.id.lineara5);
+
+        switch5 = (Switch)findViewById(R.id.switch5);
+        switch5.setChecked(false);
+        switch5.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch5.isChecked()) {
+                    lineara5.setVisibility(View.VISIBLE);
+                } else {
+                    lineara5.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* chicco mamaderas 6 */
+
+        chiccomamaderas6a6 = (ImageView)findViewById(R.id.chiccomamaderas6a6);
+        Picasso.with(this).load(urlchiccomamaderas6).into(chiccomamaderas6a6);
+
+        txtchiccomamaderas6a6 = (TextView)findViewById(R.id.txtchiccomamaderas6a6);
+        final String stconsultaa6 = txtchiccomamaderas6a6.getText().toString();
+        btnconsultaa6 = (Button)findViewById(R.id.btnconsultaa6);
+        btnconsultaa6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa6 = new Intent(chiccomamaderas.this,contacto.class);
+                btnconsultaa6.putExtra("consulta", stconsultaa6);
+                startActivity(btnconsultaa6);
+            }
+        });
+
+
+        btncomprachiccomamaderas6 = (Button)findViewById(R.id.btncomprachiccomamaderas6);
+        btncomprachiccomamaderas6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncomprachiccomamaderas6 = new Intent(chiccomamaderas.this,webview.class);
+                btncomprachiccomamaderas6.putExtra("string", urlcomboa6);
+                startActivity(btncomprachiccomamaderas6);
+            }
+        });
+
+        lineara6 = (LinearLayout)findViewById(R.id.lineara6);
+
+        switch6 = (Switch)findViewById(R.id.switch6);
+        switch6.setChecked(false);
+        switch6.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch6.isChecked()) {
+                    lineara6.setVisibility(View.VISIBLE);
+                } else {
+                    lineara6.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* chicco mamaderas 7 */
+
+        chiccomamaderas7a7 = (ImageView)findViewById(R.id.chiccomamaderas7a7);
+        Picasso.with(this).load(urlchiccomamaderas7).into(chiccomamaderas7a7);
+
+        txtchiccomamaderas7a7 = (TextView)findViewById(R.id.txtchiccomamaderas7a7);
+        final String stconsultaa7 = txtchiccomamaderas7a7.getText().toString();
+        btnconsultaa7 = (Button)findViewById(R.id.btnconsultaa7);
+        btnconsultaa7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa7 = new Intent(chiccomamaderas.this,contacto.class);
+                btnconsultaa7.putExtra("consulta", stconsultaa7);
+                startActivity(btnconsultaa7);
+            }
+        });
+
+
+        btncomprachiccomamaderas7 = (Button)findViewById(R.id.btncomprachiccomamaderas7);
+        btncomprachiccomamaderas7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncomprachiccomamaderas7 = new Intent(chiccomamaderas.this,webview.class);
+                btncomprachiccomamaderas7.putExtra("string", urlcomboa7);
+                startActivity(btncomprachiccomamaderas7);
+            }
+        });
+
+        lineara7 = (LinearLayout)findViewById(R.id.lineara7);
+
+        switch7 = (Switch)findViewById(R.id.switch7);
+        switch7.setChecked(false);
+        switch7.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch7.isChecked()) {
+                    lineara7.setVisibility(View.VISIBLE);
+                } else {
+                    lineara7.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* chicco mamaderas 8 */
+
+        chiccomamaderas8a8 = (ImageView)findViewById(R.id.chiccomamaderas8a8);
+        Picasso.with(this).load(urlchiccomamaderas8).into(chiccomamaderas8a8);
+
+
+        txtchiccomamaderas8a8 = (TextView)findViewById(R.id.txtchiccomamaderas8a8);
+        final String stconsultaa8 = txtchiccomamaderas8a8.getText().toString();
+        btnconsultaa8 = (Button)findViewById(R.id.btnconsultaa8);
+        btnconsultaa8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa8 = new Intent(chiccomamaderas.this,contacto.class);
+                btnconsultaa8.putExtra("consulta", stconsultaa8);
+                startActivity(btnconsultaa8);
+            }
+        });
+
+
+        btncomprachiccomamaderas8 = (Button)findViewById(R.id.btncomprachiccomamaderas8);
+        btncomprachiccomamaderas8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncomprachiccomamaderas8 = new Intent(chiccomamaderas.this,webview.class);
+                btncomprachiccomamaderas8.putExtra("string", urlcomboa8);
+                startActivity(btncomprachiccomamaderas8);
+            }
+        });
+
+        lineara8 = (LinearLayout)findViewById(R.id.lineara8);
+
+        switch8 = (Switch)findViewById(R.id.switch8);
+        switch8.setChecked(false);
+        switch8.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch8.isChecked()) {
+                    lineara8.setVisibility(View.VISIBLE);
+                } else {
+                    lineara8.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* chicco mamaderas 9 */
+
+        chiccomamaderas9a9 = (ImageView)findViewById(R.id.chiccomamaderas9a9);
+        Picasso.with(this).load(urlchiccomamaderas9).into(chiccomamaderas9a9);
+
+        txtchiccomamaderas9a9 = (TextView)findViewById(R.id.txtchiccomamaderas9a9);
+        final String stconsultaa9 = txtchiccomamaderas9a9.getText().toString();
+        btnconsultaa9 = (Button)findViewById(R.id.btnconsultaa9);
+        btnconsultaa9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa9 = new Intent(chiccomamaderas.this,contacto.class);
+                btnconsultaa9.putExtra("consulta", stconsultaa9);
+                startActivity(btnconsultaa9);
+            }
+        });
+
+
+        btncomprachiccomamaderas9 = (Button)findViewById(R.id.btncomprachiccomamaderas9);
+        btncomprachiccomamaderas9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncomprachiccomamaderas9 = new Intent(chiccomamaderas.this,webview.class);
+                btncomprachiccomamaderas9.putExtra("string", urlcomboa9);
+                startActivity(btncomprachiccomamaderas9);
+            }
+        });
+
+        lineara9 = (LinearLayout)findViewById(R.id.lineara9);
+
+        switch9 = (Switch)findViewById(R.id.switch9);
+        switch9.setChecked(false);
+        switch9.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch9.isChecked()) {
+                    lineara9.setVisibility(View.VISIBLE);
+                } else {
+                    lineara9.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* chicco mamaderas 10 */
+
+        chiccomamaderas10a10 = (ImageView)findViewById(R.id.chiccomamaderas10a10);
+        Picasso.with(this).load(urlchiccomamaderas10).into(chiccomamaderas10a10);
+
+        txtchiccomamaderas10a10 = (TextView)findViewById(R.id.txtchiccomamaderas10a10);
+        final String stconsultaa10 = txtchiccomamaderas10a10.getText().toString();
+        btnconsultaa10 = (Button)findViewById(R.id.btnconsultaa10);
+        btnconsultaa10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa10 = new Intent(chiccomamaderas.this,contacto.class);
+                btnconsultaa10.putExtra("consulta", stconsultaa10);
+                startActivity(btnconsultaa10);
+            }
+        });
+
+
+        btncomprachiccomamaderas10 = (Button)findViewById(R.id.btncomprachiccomamaderas10);
+        btncomprachiccomamaderas10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncomprachiccomamaderas10 = new Intent(chiccomamaderas.this,webview.class);
+                btncomprachiccomamaderas10.putExtra("string", urlcomboa10);
+                startActivity(btncomprachiccomamaderas10);
+            }
+        });
+
+        lineara10 = (LinearLayout)findViewById(R.id.lineara10);
+
+        switch10 = (Switch)findViewById(R.id.switch10);
+        switch10.setChecked(false);
+        switch10.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch10.isChecked()) {
+                    lineara10.setVisibility(View.VISIBLE);
+                } else {
+                    lineara10.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* chicco mamaderas 11 */
+
+        chiccomamaderas11a11 = (ImageView)findViewById(R.id.chiccomamaderas11a11);
+        Picasso.with(this).load(urlchiccomamaderas11).into(chiccomamaderas11a11);
+
+        txtchiccomamaderas11a11 = (TextView)findViewById(R.id.txtchiccomamaderas11a11);
+        final String stconsultaa11 = txtchiccomamaderas11a11.getText().toString();
+        btnconsultaa11 = (Button)findViewById(R.id.btnconsultaa11);
+        btnconsultaa11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa11 = new Intent(chiccomamaderas.this,contacto.class);
+                btnconsultaa11.putExtra("consulta", stconsultaa11);
+                startActivity(btnconsultaa11);
+            }
+        });
+
+
+        btncomprachiccomamaderas11 = (Button)findViewById(R.id.btncomprachiccomamaderas11);
+        btncomprachiccomamaderas11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncomprachiccomamaderas11 = new Intent(chiccomamaderas.this,webview.class);
+                btncomprachiccomamaderas11.putExtra("string", urlcomboa11);
+                startActivity(btncomprachiccomamaderas11);
+            }
+        });
+
+        lineara11 = (LinearLayout)findViewById(R.id.lineara11);
+
+        switch11 = (Switch)findViewById(R.id.switch11);
+        switch11.setChecked(false);
+        switch11.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch11.isChecked()) {
+                    lineara11.setVisibility(View.VISIBLE);
+                } else {
+                    lineara11.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* chicco mamaderas 12 */
+
+        chiccomamaderas12a12 = (ImageView)findViewById(R.id.chiccomamaderas12a12);
+        Picasso.with(this).load(urlchiccomamaderas12).into(chiccomamaderas12a12);
+
+        txtchiccomamaderas12a12 = (TextView)findViewById(R.id.txtchiccomamaderas12a12);
+        final String stconsultaa12 = txtchiccomamaderas12a12.getText().toString();
+        btnconsultaa12 = (Button)findViewById(R.id.btnconsultaa12);
+        btnconsultaa12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa12 = new Intent(chiccomamaderas.this,contacto.class);
+                btnconsultaa12.putExtra("consulta", stconsultaa12);
+                startActivity(btnconsultaa12);
+            }
+        });
+
+
+        btncomprachiccomamaderas12 = (Button)findViewById(R.id.btncomprachiccomamaderas12);
+        btncomprachiccomamaderas12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncomprachiccomamaderas12 = new Intent(chiccomamaderas.this,webview.class);
+                btncomprachiccomamaderas12.putExtra("string", urlcomboa12);
+                startActivity(btncomprachiccomamaderas12);
+            }
+        });
+
+        lineara12 = (LinearLayout)findViewById(R.id.lineara12);
+
+        switch12 = (Switch)findViewById(R.id.switch12);
+        switch12.setChecked(false);
+        switch12.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch12.isChecked()) {
+                    lineara12.setVisibility(View.VISIBLE);
+                } else {
+                    lineara12.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* chicco mamaderas 13 */
+
+        chiccomamaderas13a13 = (ImageView)findViewById(R.id.chiccomamaderas13a13);
+        Picasso.with(this).load(urlchiccomamaderas13).into(chiccomamaderas13a13);
+
+        txtchiccomamaderas13a13 = (TextView)findViewById(R.id.txtchiccomamaderas13a13);
+        final String stconsultaa13 = txtchiccomamaderas13a13.getText().toString();
+        btnconsultaa13 = (Button)findViewById(R.id.btnconsultaa13);
+        btnconsultaa13.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa13 = new Intent(chiccomamaderas.this,contacto.class);
+                btnconsultaa13.putExtra("consulta", stconsultaa13);
+                startActivity(btnconsultaa13);
+            }
+        });
+
+
+        btncomprachiccomamaderas13 = (Button)findViewById(R.id.btncomprachiccomamaderas13);
+        btncomprachiccomamaderas13.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncomprachiccomamaderas13 = new Intent(chiccomamaderas.this,webview.class);
+                btncomprachiccomamaderas13.putExtra("string", urlcomboa13);
+                startActivity(btncomprachiccomamaderas13);
+            }
+        });
+
+        lineara13 = (LinearLayout)findViewById(R.id.lineara13);
+
+        switch13 = (Switch)findViewById(R.id.switch13);
+        switch13.setChecked(false);
+        switch13.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch13.isChecked()) {
+                    lineara13.setVisibility(View.VISIBLE);
+                } else {
+                    lineara13.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* chicco mamaderas 14 */
+
+        chiccomamaderas14a14 = (ImageView)findViewById(R.id.chiccomamaderas14a14);
+        Picasso.with(this).load(urlchiccomamaderas14).into(chiccomamaderas14a14);
+
+        txtchiccomamaderas14a14 = (TextView)findViewById(R.id.txtchiccomamaderas14a14);
+        final String stconsultaa14 = txtchiccomamaderas14a14.getText().toString();
+        btnconsultaa14 = (Button)findViewById(R.id.btnconsultaa14);
+        btnconsultaa14.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa14 = new Intent(chiccomamaderas.this,contacto.class);
+                btnconsultaa14.putExtra("consulta", stconsultaa14);
+                startActivity(btnconsultaa14);
+            }
+        });
+
+
+        btncomprachiccomamaderas14 = (Button)findViewById(R.id.btncomprachiccomamaderas14);
+        btncomprachiccomamaderas14.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncomprachiccomamaderas14 = new Intent(chiccomamaderas.this,webview.class);
+                btncomprachiccomamaderas14.putExtra("string", urlcomboa14);
+                startActivity(btncomprachiccomamaderas14);
+            }
+        });
+
+        lineara14 = (LinearLayout)findViewById(R.id.lineara14);
+
+        switch14 = (Switch)findViewById(R.id.switch14);
+        switch14.setChecked(false);
+        switch14.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch14.isChecked()) {
+                    lineara14.setVisibility(View.VISIBLE);
+                } else {
+                    lineara14.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* chicco mamaderas 15 */
+
+        chiccomamaderas15a15 = (ImageView)findViewById(R.id.chiccomamaderas15a15);
+        Picasso.with(this).load(urlchiccomamaderas15).into(chiccomamaderas15a15);
+
+        txtchiccomamaderas15a15 = (TextView)findViewById(R.id.txtchiccomamaderas15a15);
+        final String stconsultaa15 = txtchiccomamaderas15a15.getText().toString();
+        btnconsultaa15 = (Button)findViewById(R.id.btnconsultaa15);
+        btnconsultaa15.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa15 = new Intent(chiccomamaderas.this,contacto.class);
+                btnconsultaa15.putExtra("consulta", stconsultaa15);
+                startActivity(btnconsultaa15);
+            }
+        });
+
+
+        btncomprachiccomamaderas15 = (Button)findViewById(R.id.btncomprachiccomamaderas15);
+        btncomprachiccomamaderas15.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncomprachiccomamaderas15 = new Intent(chiccomamaderas.this,webview.class);
+                btncomprachiccomamaderas15.putExtra("string", urlcomboa15);
+                startActivity(btncomprachiccomamaderas15);
+            }
+        });
+
+        lineara15 = (LinearLayout)findViewById(R.id.lineara15);
+
+        switch15 = (Switch)findViewById(R.id.switch15);
+        switch15.setChecked(false);
+        switch15.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch15.isChecked()) {
+                    lineara15.setVisibility(View.VISIBLE);
+                } else {
+                    lineara15.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* chicco mamaderas 16 */
+
+        chiccomamaderas16a16 = (ImageView)findViewById(R.id.chiccomamaderas16a16);
+        Picasso.with(this).load(urlchiccomamaderas16).into(chiccomamaderas16a16);
+
+        txtchiccomamaderas16a16 = (TextView)findViewById(R.id.txtchiccomamaderas16a16);
+        final String stconsultaa16 = txtchiccomamaderas16a16.getText().toString();
+        btnconsultaa16 = (Button)findViewById(R.id.btnconsultaa16);
+        btnconsultaa16.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa16 = new Intent(chiccomamaderas.this,contacto.class);
+                btnconsultaa16.putExtra("consulta", stconsultaa16);
+                startActivity(btnconsultaa16);
+            }
+        });
+
+
+        btncomprachiccomamaderas16 = (Button)findViewById(R.id.btncomprachiccomamaderas16);
+        btncomprachiccomamaderas16.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncomprachiccomamaderas16 = new Intent(chiccomamaderas.this,webview.class);
+                btncomprachiccomamaderas16.putExtra("string", urlcomboa16);
+                startActivity(btncomprachiccomamaderas16);
+            }
+        });
+
+        lineara16 = (LinearLayout)findViewById(R.id.lineara16);
+
+        switch16 = (Switch)findViewById(R.id.switch16);
+        switch16.setChecked(false);
+        switch16.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch16.isChecked()) {
+                    lineara16.setVisibility(View.VISIBLE);
+                } else {
+                    lineara16.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
+        /* chicco mamaderas 17 */
+
+        chiccomamaderas17a17 = (ImageView)findViewById(R.id.chiccomamaderas17a17);
+        Picasso.with(this).load(urlchiccomamaderas17).into(chiccomamaderas17a17);
+
+        txtchiccomamaderas17a17 = (TextView)findViewById(R.id.txtchiccomamaderas17a17);
+        final String stconsultaa17 = txtchiccomamaderas17a17.getText().toString();
+        btnconsultaa17 = (Button)findViewById(R.id.btnconsultaa17);
+        btnconsultaa17.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btnconsultaa17 = new Intent(chiccomamaderas.this,contacto.class);
+                btnconsultaa17.putExtra("consulta", stconsultaa17);
+                startActivity(btnconsultaa17);
+            }
+        });
+
+
+        btncomprachiccomamaderas17 = (Button)findViewById(R.id.btncomprachiccomamaderas17);
+        btncomprachiccomamaderas17.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent btncomprachiccomamaderas17 = new Intent(chiccomamaderas.this,webview.class);
+                btncomprachiccomamaderas17.putExtra("string", urlcomboa17);
+                startActivity(btncomprachiccomamaderas17);
+            }
+        });
+
+        lineara17 = (LinearLayout)findViewById(R.id.lineara17);
+
+        switch17 = (Switch)findViewById(R.id.switch17);
+        switch17.setChecked(false);
+        switch17.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(switch17.isChecked()) {
+                    lineara17.setVisibility(View.VISIBLE);
+                } else {
+                    lineara17.setVisibility(View.GONE);
+                }
+
+            }
+        });
+
 
         preciochiccomamaderas1 = (TextView)findViewById(R.id.preciochiccomamaderas1);
         preciochiccomamaderas2 = (TextView)findViewById(R.id.preciochiccomamaderas2);
@@ -168,159 +1028,6 @@ public class chiccomamaderas extends AppCompatActivity {
 
         chiccomamaderas17 = (ImageView)findViewById(R.id.chiccomamaderas17);
         Picasso.with(this).load(urlchiccomamaderas17).into(chiccomamaderas17);
-
-        btnchiccomamaderas1 = (Button)findViewById(R.id.btnchiccomamaderas1);
-        btnchiccomamaderas1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnchiccomamaderas1 = new Intent(chiccomamaderas.this, chiccomamaderas1.class);
-                startActivity(btnchiccomamaderas1);
-            }
-        });
-
-        btnchiccomamaderas2 = (Button)findViewById(R.id.btnchiccomamaderas2);
-        btnchiccomamaderas2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnchiccomamaderas2 = new Intent(chiccomamaderas.this, chiccomamaderas2.class);
-                startActivity(btnchiccomamaderas2);
-            }
-        });
-
-        btnchiccomamaderas3 = (Button)findViewById(R.id.btnchiccomamaderas3);
-        btnchiccomamaderas3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnchiccomamaderas3 = new Intent(chiccomamaderas.this, chiccomamaderas3.class);
-                startActivity(btnchiccomamaderas3);
-            }
-        });
-
-        btnchiccomamaderas4 = (Button)findViewById(R.id.btnchiccomamaderas4);
-        btnchiccomamaderas4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnchiccomamaderas4 = new Intent(chiccomamaderas.this, chiccomamaderas4.class);
-                startActivity(btnchiccomamaderas4);
-            }
-        });
-
-        btnchiccomamaderas5 = (Button)findViewById(R.id.btnchiccomamaderas5);
-        btnchiccomamaderas5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnchiccomamaderas5 = new Intent(chiccomamaderas.this, chiccomamaderas5.class);
-                startActivity(btnchiccomamaderas5);
-            }
-        });
-
-        btnchiccomamaderas6 = (Button)findViewById(R.id.btnchiccomamaderas6);
-        btnchiccomamaderas6.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnchiccomamaderas6 = new Intent(chiccomamaderas.this, chiccomamaderas6.class);
-                startActivity(btnchiccomamaderas6);
-            }
-        });
-
-        btnchiccomamaderas7 = (Button)findViewById(R.id.btnchiccomamaderas7);
-        btnchiccomamaderas7.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnchiccomamaderas7 = new Intent(chiccomamaderas.this, chiccomamaderas7.class);
-                startActivity(btnchiccomamaderas7);
-            }
-        });
-
-        btnchiccomamaderas8 = (Button)findViewById(R.id.btnchiccomamaderas8);
-        btnchiccomamaderas8.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnchiccomamaderas8 = new Intent(chiccomamaderas.this, chiccomamaderas8.class);
-                startActivity(btnchiccomamaderas8);
-            }
-        });
-
-        btnchiccomamaderas9 = (Button)findViewById(R.id.btnchiccomamaderas9);
-        btnchiccomamaderas9.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnchiccomamaderas9 = new Intent(chiccomamaderas.this, chiccomamaderas9.class);
-                startActivity(btnchiccomamaderas9);
-            }
-        });
-
-        btnchiccomamaderas10 = (Button)findViewById(R.id.btnchiccomamaderas10);
-        btnchiccomamaderas10.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnchiccomamaderas10 = new Intent(chiccomamaderas.this, chiccomamaderas10.class);
-                startActivity(btnchiccomamaderas10);
-            }
-        });
-
-        btnchiccomamaderas11 = (Button)findViewById(R.id.btnchiccomamaderas11);
-        btnchiccomamaderas11.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnchiccomamaderas11 = new Intent(chiccomamaderas.this, chiccomamaderas11.class);
-                startActivity(btnchiccomamaderas11);
-            }
-        });
-
-        btnchiccomamaderas12 = (Button)findViewById(R.id.btnchiccomamaderas12);
-        btnchiccomamaderas12.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnchiccomamaderas12 = new Intent(chiccomamaderas.this, chiccomamaderas12.class);
-                startActivity(btnchiccomamaderas12);
-            }
-        });
-
-        btnchiccomamaderas13 = (Button)findViewById(R.id.btnchiccomamaderas13);
-        btnchiccomamaderas13.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnchiccomamaderas13 = new Intent(chiccomamaderas.this, chiccomamaderas13.class);
-                startActivity(btnchiccomamaderas13);
-            }
-        });
-
-        btnchiccomamaderas14 = (Button)findViewById(R.id.btnchiccomamaderas14);
-        btnchiccomamaderas14.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnchiccomamaderas14 = new Intent(chiccomamaderas.this, chiccomamaderas14.class);
-                startActivity(btnchiccomamaderas14);
-            }
-        });
-
-        btnchiccomamaderas15 = (Button)findViewById(R.id.btnchiccomamaderas15);
-        btnchiccomamaderas15.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnchiccomamaderas15 = new Intent(chiccomamaderas.this, chiccomamaderas15.class);
-                startActivity(btnchiccomamaderas15);
-            }
-        });
-
-        btnchiccomamaderas16 = (Button)findViewById(R.id.btnchiccomamaderas16);
-        btnchiccomamaderas16.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnchiccomamaderas16 = new Intent(chiccomamaderas.this, chiccomamaderas16.class);
-                startActivity(btnchiccomamaderas16);
-            }
-        });
-
-        btnchiccomamaderas17 = (Button)findViewById(R.id.btnchiccomamaderas17);
-        btnchiccomamaderas17.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent btnchiccomamaderas17 = new Intent(chiccomamaderas.this, chiccomamaderas17.class);
-                startActivity(btnchiccomamaderas17);
-            }
-        });
 
         marca = (Button) findViewById(R.id.btnvmarca);
         marca.setOnClickListener(new View.OnClickListener() {

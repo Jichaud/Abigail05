@@ -69,16 +69,193 @@
                     android:layout_toRightOf="@id/chiccobutacas1"
                     android:text="@string/txtchiccobutacas1" />
 
-                <Button
-                    android:id="@+id/btnchiccobutacas1"
-                    style="@style/btnvermas"
-                    android:layout_above="@id/view1"
-                    android:text="@string/btnver" />
+                <Switch
+                    android:id="@+id/switch1"
+                    style="@style/switchstyle"
+                    android:layout_above="@id/view1" />
 
                 <TextView
                     android:id="@+id/preciochiccobutacas1"
                     style="@style/precio"
                     android:layout_below="@id/chiccobutacas1" />
+
+                <LinearLayout
+                    android:id="@+id/lineara1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view1"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/chiccobutacas7carda1"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp"
+                                android:visibility="gone" />
+
+                            <ImageView
+                                android:id="@+id/chiccobutacas6carda1"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp"
+                                android:visibility="gone" />
+
+                            <ImageView
+                                android:id="@+id/chiccobutacas5carda1"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp"
+                                android:visibility="gone" />
+
+                            <ImageView
+                                android:id="@+id/chiccobutacas4carda1"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp"
+                                android:visibility="gone" />
+
+                            <ImageView
+                                android:id="@+id/chiccobutacas3carda1"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp"
+                                android:visibility="gone" />
+
+                            <ImageView
+                                android:id="@+id/chiccobutacas2carda1"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp"
+                                android:visibility="gone" />
+
+                            <ImageView
+                                android:id="@+id/chiccobutacas1carda1"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <TextView
+                                android:id="@+id/txtcolores"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/chiccobutacas1carda1"
+                                android:layout_margin="8dp"
+                                android:padding="6dp"
+                                android:text="@string/txtcolores"
+                                android:textAlignment="center"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/modelo1"
+                                style="@style/txtvistas"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/txtcolores"
+                                android:onClick="modelo1"
+                                android:text="@string/modelo1" />
+
+                            <TextView
+                                android:id="@+id/modelo2"
+                                style="@style/txtvistas"
+                                android:layout_below="@id/txtcolores"
+                                android:layout_centerInParent="true"
+                                android:onClick="modelo2"
+                                android:text="@string/modelo2" />
+
+                            <TextView
+                                android:id="@+id/modelo3"
+                                style="@style/txtvistas"
+                                android:layout_alignParentRight="true"
+                                android:layout_below="@id/txtcolores"
+                                android:onClick="modelo3"
+                                android:text="@string/modelo3" />
+
+                            <TextView
+                                android:id="@+id/modelo4"
+                                style="@style/txtvistas1"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/modelo1"
+                                android:onClick="modelo4"
+                                android:text="@string/modelo4" />
+
+                            <TextView
+                                android:id="@+id/modelo5"
+                                style="@style/txtvistas1"
+                                android:layout_below="@id/modelo1"
+                                android:layout_centerInParent="true"
+                                android:onClick="modelo4"
+                                android:text="@string/modelo5" />
+
+                            <TextView
+                                android:id="@+id/modelo6"
+                                style="@style/txtvistas1"
+                                android:layout_alignParentRight="true"
+                                android:layout_below="@id/modelo1"
+                                android:onClick="modelo4"
+                                android:text="@string/modelo6" />
+
+                            <TextView
+                                android:id="@+id/modelo7"
+                                style="@style/txtvistas1"
+                                android:layout_below="@id/modelo4"
+                                android:layout_centerInParent="true"
+                                android:onClick="modelo4"
+                                android:text="@string/modelo7" />
+
+                            <View
+                                android:id="@+id/view1card"
+                                style="@style/Divider"
+                                android:layout_below="@id/modelo7" />
+
+                            <TextView
+                                android:id="@+id/txtchiccobutacas1principalcard"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1card"
+                                android:text="@string/txtchiccobutacas" />
+
+                            <TextView
+                                android:id="@+id/txtchiccobutacas1card"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtchiccobutacas1principalcard"
+                                android:text="@string/txtchiccobutacas1" />
+
+                            <View
+                                android:id="@+id/view2card"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtchiccobutacas1card" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa1"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2card"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncomprachiccobutacas1"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2card"
+                                android:layout_toRightOf="@id/btnconsultaa1"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view1"
@@ -89,13 +266,13 @@
                     android:id="@+id/chiccobutacas2"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view1"
+                    android:layout_below="@id/lineara1"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtchiccobutacas2principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view1"
+                    android:layout_below="@id/lineara1"
                     android:layout_toRightOf="@id/chiccobutacas2"
                     android:text="@string/txtchiccobutacas" />
 
@@ -106,16 +283,177 @@
                     android:layout_toRightOf="@id/chiccobutacas2"
                     android:text="@string/txtchiccobutacas2" />
 
-                <Button
-                    android:id="@+id/btnchiccobutacas2"
-                    style="@style/btnvermas"
-                    android:layout_above="@id/view2"
-                    android:text="@string/btnver" />
+                <Switch
+                    android:id="@+id/switch2"
+                    style="@style/switchstyle"
+                    android:layout_above="@id/view2" />
 
                 <TextView
                     android:id="@+id/preciochiccobutacas2"
                     style="@style/precio"
                     android:layout_below="@id/chiccobutacas2" />
+
+                <LinearLayout
+                    android:id="@+id/lineara2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view2"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/chiccobutacas6a2"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp"
+                                android:visibility="gone" />
+
+                            <ImageView
+                                android:id="@+id/chiccobutacas5a2"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp"
+                                android:visibility="gone" />
+
+                            <ImageView
+                                android:id="@+id/chiccobutacas4a2"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp"
+                                android:visibility="gone" />
+
+                            <ImageView
+                                android:id="@+id/chiccobutacas3a2"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp"
+                                android:visibility="gone" />
+
+                            <ImageView
+                                android:id="@+id/chiccobutacas2a2"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp"
+                                android:visibility="gone" />
+
+                            <ImageView
+                                android:id="@+id/chiccobutacas1a2"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <TextView
+                                android:id="@+id/txtcoloresa2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/chiccobutacas1a2"
+                                android:layout_margin="8dp"
+                                android:padding="6dp"
+                                android:text="@string/txtcolores"
+                                android:textAlignment="center"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/modelo1a2"
+                                style="@style/txtvistas"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/txtcoloresa2"
+                                android:onClick="modelo1"
+                                android:text="@string/modelo1" />
+
+                            <TextView
+                                android:id="@+id/modelo2a2"
+                                style="@style/txtvistas"
+                                android:layout_below="@id/txtcoloresa2"
+                                android:layout_centerInParent="true"
+                                android:onClick="modelo2"
+                                android:text="@string/modelo2" />
+
+                            <TextView
+                                android:id="@+id/modelo3a2"
+                                style="@style/txtvistas"
+                                android:layout_alignParentRight="true"
+                                android:layout_below="@id/txtcoloresa2"
+                                android:onClick="modelo3"
+                                android:text="@string/modelo3" />
+
+                            <TextView
+                                android:id="@+id/modelo4a2"
+                                style="@style/txtvistas1"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/modelo1a2"
+                                android:onClick="modelo4"
+                                android:text="@string/modelo4" />
+
+                            <TextView
+                                android:id="@+id/modelo5a2"
+                                style="@style/txtvistas1"
+                                android:layout_below="@id/modelo1a2"
+                                android:layout_centerInParent="true"
+                                android:onClick="modelo4"
+                                android:text="@string/modelo5" />
+
+                            <TextView
+                                android:id="@+id/modelo6a2"
+                                style="@style/txtvistas1"
+                                android:layout_alignParentRight="true"
+                                android:layout_below="@id/modelo1a2"
+                                android:onClick="modelo4"
+                                android:text="@string/modelo6" />
+
+                            <View
+                                android:id="@+id/view1a2"
+                                style="@style/Divider"
+                                android:layout_below="@id/modelo6a2" />
+
+                            <TextView
+                                android:id="@+id/txtchiccobutacas2principala2"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a2"
+                                android:text="@string/txtchiccobutacas" />
+
+                            <TextView
+                                android:id="@+id/txtchiccobutacas2a2"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtchiccobutacas2principala2"
+                                android:text="@string/txtchiccobutacas2" />
+
+                            <View
+                                android:id="@+id/view2a2"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtchiccobutacas2a2" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa2"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a2"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncomprachiccobutacas2"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a2"
+                                android:layout_toRightOf="@id/btnconsultaa2"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view2"
@@ -126,13 +464,13 @@
                     android:id="@+id/chiccobutacas3"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view2"
+                    android:layout_below="@id/lineara2"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtchiccobutacas3principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view2"
+                    android:layout_below="@id/lineara2"
                     android:layout_toRightOf="@id/chiccobutacas3"
                     android:text="@string/txtchiccobutacas" />
 
@@ -143,16 +481,169 @@
                     android:layout_toRightOf="@id/chiccobutacas3"
                     android:text="@string/txtchiccobutacas3" />
 
-                <Button
-                    android:id="@+id/btnchiccobutacas3"
-                    style="@style/btnvermas"
-                    android:layout_above="@id/view3"
-                    android:text="@string/btnver" />
+                <Switch
+                    android:id="@+id/switch3"
+                    style="@style/switchstyle"
+                    android:layout_above="@id/view3" />
 
                 <TextView
                     android:id="@+id/preciochiccobutacas3"
                     style="@style/precio"
                     android:layout_below="@id/chiccobutacas3" />
+
+                <LinearLayout
+                    android:id="@+id/lineara3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view3"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/chiccobutacas6a3"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp"
+                                android:visibility="gone" />
+
+                            <ImageView
+                                android:id="@+id/chiccobutacas5a3"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp"
+                                android:visibility="gone" />
+
+                            <ImageView
+                                android:id="@+id/chiccobutacas4a3"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp"
+                                android:visibility="gone" />
+
+                            <ImageView
+                                android:id="@+id/chiccobutacas3a3"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp"
+                                android:visibility="gone" />
+
+                            <ImageView
+                                android:id="@+id/chiccobutacas2a3"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp"
+                                android:visibility="gone" />
+
+                            <ImageView
+                                android:id="@+id/chiccobutacas1a3"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <TextView
+                                android:id="@+id/txtcoloresa3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/chiccobutacas1a3"
+                                android:layout_margin="8dp"
+                                android:padding="6dp"
+                                android:text="@string/txtcolores"
+                                android:textAlignment="center"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/modelo1a3"
+                                style="@style/txtvistas"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/txtcoloresa3"
+                                android:onClick="modelo1"
+                                android:text="@string/modelo1" />
+
+                            <TextView
+                                android:id="@+id/modelo2a3"
+                                style="@style/txtvistas"
+                                android:layout_below="@id/txtcoloresa3"
+                                android:layout_centerInParent="true"
+                                android:onClick="modelo2"
+                                android:text="@string/modelo2" />
+
+                            <TextView
+                                android:id="@+id/modelo3a3"
+                                style="@style/txtvistas"
+                                android:layout_alignParentRight="true"
+                                android:layout_below="@id/txtcoloresa3"
+                                android:onClick="modelo3"
+                                android:text="@string/modelo3" />
+
+                            <TextView
+                                android:id="@+id/modelo4a3"
+                                style="@style/txtvistas1"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/modelo1a3"
+                                android:onClick="modelo4"
+                                android:text="@string/modelo4" />
+
+                            <TextView
+                                android:id="@+id/modelo5a3"
+                                style="@style/txtvistas1"
+                                android:layout_alignParentRight="true"
+                                android:layout_below="@id/modelo1a3"
+                                android:onClick="modelo4"
+                                android:text="@string/modelo5" />
+
+                            <View
+                                android:id="@+id/view1a3"
+                                style="@style/Divider"
+                                android:layout_below="@id/modelo5a3" />
+
+                            <TextView
+                                android:id="@+id/txtchiccobutacas3principala3"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a3"
+                                android:text="@string/txtchiccobutacas" />
+
+                            <TextView
+                                android:id="@+id/txtchiccobutacas3a3"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtchiccobutacas3principala3"
+                                android:text="@string/txtchiccobutacas3" />
+
+                            <View
+                                android:id="@+id/view2a3"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtchiccobutacas3a3" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa3"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a3"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncomprachiccobutacas3"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a3"
+                                android:layout_toRightOf="@id/btnconsultaa3"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view3"
@@ -163,13 +654,13 @@
                     android:id="@+id/chiccobutacas4"
                     android:layout_width="90dp"
                     android:layout_height="80dp"
-                    android:layout_below="@id/view3"
+                    android:layout_below="@id/lineara3"
                     android:padding="2dp" />
 
                 <TextView
                     android:id="@+id/txtchiccobutacas4principal"
                     style="@style/txtprincipal"
-                    android:layout_below="@id/view3"
+                    android:layout_below="@id/lineara3"
                     android:layout_toRightOf="@id/chiccobutacas4"
                     android:text="@string/txtchiccobutacas" />
 
@@ -180,16 +671,169 @@
                     android:layout_toRightOf="@id/chiccobutacas4"
                     android:text="@string/txtchiccobutacas4" />
 
-                <Button
-                    android:id="@+id/btnchiccobutacas4"
-                    style="@style/btnvermas"
-                    android:layout_above="@id/view4"
-                    android:text="@string/btnver" />
+                <Switch
+                    android:id="@+id/switch4"
+                    style="@style/switchstyle"
+                    android:layout_above="@id/view4" />
 
                 <TextView
                     android:id="@+id/preciochiccobutacas4"
                     style="@style/precio"
                     android:layout_below="@id/chiccobutacas4" />
+
+                <LinearLayout
+                    android:id="@+id/lineara4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view4"
+                    android:visibility="gone">
+
+                    <android.support.v7.widget.CardView style="@style/card">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/chiccobutacas6a4"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp"
+                                android:visibility="gone" />
+
+                            <ImageView
+                                android:id="@+id/chiccobutacas5a4"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp"
+                                android:visibility="gone" />
+
+                            <ImageView
+                                android:id="@+id/chiccobutacas4a4"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp"
+                                android:visibility="gone" />
+
+                            <ImageView
+                                android:id="@+id/chiccobutacas3a4"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp"
+                                android:visibility="gone" />
+
+                            <ImageView
+                                android:id="@+id/chiccobutacas2a4"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp"
+                                android:visibility="gone" />
+
+                            <ImageView
+                                android:id="@+id/chiccobutacas1a4"
+                                android:layout_width="400dp"
+                                android:layout_height="296dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="4dp" />
+
+                            <TextView
+                                android:id="@+id/txtcoloresa4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/chiccobutacas1a4"
+                                android:layout_margin="8dp"
+                                android:padding="6dp"
+                                android:text="@string/txtcolores"
+                                android:textAlignment="center"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/modelo1a4"
+                                style="@style/txtvistas"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/txtcoloresa4"
+                                android:onClick="modelo1"
+                                android:text="@string/modelo1" />
+
+                            <TextView
+                                android:id="@+id/modelo2a4"
+                                style="@style/txtvistas"
+                                android:layout_below="@id/txtcoloresa4"
+                                android:layout_centerInParent="true"
+                                android:onClick="modelo2"
+                                android:text="@string/modelo2" />
+
+                            <TextView
+                                android:id="@+id/modelo3a4"
+                                style="@style/txtvistas"
+                                android:layout_alignParentRight="true"
+                                android:layout_below="@id/txtcoloresa4"
+                                android:onClick="modelo3"
+                                android:text="@string/modelo3" />
+
+                            <TextView
+                                android:id="@+id/modelo4a4"
+                                style="@style/txtvistas1"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/modelo1a4"
+                                android:onClick="modelo4"
+                                android:text="@string/modelo4" />
+
+                            <TextView
+                                android:id="@+id/modelo5a4"
+                                style="@style/txtvistas1"
+                                android:layout_alignParentRight="true"
+                                android:layout_below="@id/modelo1a4"
+                                android:onClick="modelo4"
+                                android:text="@string/modelo5" />
+
+                            <View
+                                android:id="@+id/view1a4"
+                                style="@style/Divider"
+                                android:layout_below="@id/modelo5a4" />
+
+                            <TextView
+                                android:id="@+id/txtchiccobutacas4principala4"
+                                style="@style/txtcardprinc"
+                                android:layout_below="@id/view1a4"
+                                android:text="@string/txtchiccobutacas" />
+
+                            <TextView
+                                android:id="@+id/txtchiccobutacas4a4"
+                                style="@style/txtcarddesc"
+                                android:layout_below="@id/txtchiccobutacas4principala4"
+                                android:text="@string/txtchiccobutacas4" />
+
+                            <View
+                                android:id="@+id/view2a4"
+                                style="@style/Divider"
+                                android:layout_below="@id/txtchiccobutacas4a4" />
+
+                            <Button
+                                android:id="@+id/btnconsultaa4"
+                                style="@style/btnstock"
+                                android:layout_alignParentLeft="true"
+                                android:layout_below="@id/view2a4"
+                                android:text="@string/stock" />
+
+                            <Button
+                                android:id="@+id/btncomprachiccobutacas4"
+                                style="@style/btncomprar"
+                                android:layout_below="@id/view2a4"
+                                android:layout_toRightOf="@id/btnconsultaa4"
+                                android:text="@string/btnverprecio" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view4"
